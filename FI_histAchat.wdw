@@ -1,0 +1,146 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_histAchat
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_histAchat
+ identifier : 0x2094112e0df3aacb
+ internal_properties : BQAAAAUAAAChWK7yFwZklXSJ7k2gQVPOoWZp658UTc35uxIlUoJtKWL6nDNHCJ6R8gad5FT3eV8uRtycYn68qwaSyWWVV4KhcP32r6fw01CXbNzRoEvngf5wv1Bz0XzmZYWdV9wXE2ZTyC8BL0m7xzrz8oXduLuYsuGX+F0kzyk9HEZzEJtltnvvyTTUMuEthlCym4T9Zq+16CsdlSes0n/pUa7R21wmOiP9ldONTHVNm8ZB3hbaZxwbElzPI9/7wFbInI2Fn4MNIy85GMJkuTRr4BoU4IIMVsLPfFIz/tHHrXPOsnIBxeX9KoqaogFBA8WDad/DYboOsiu1LaBIW1h2PDLUflhUZrXTd4Zjvb/42jS9qSpPfkoJM28hN5lWlJWpgtcUJDPM31+SshS3RbToHC09kEHyNtyA/WRbDcU2DY8gCWd0NiVpB+aj6gW+OarlnTXCI+y77TRNKWkL+JJgMQXgD9CFjO4mBS4FEI2sRE8RUsgusWpReUvawZsCH+DAP28ssLHylt8e4n/CXAyPL2TkdAplUXnhtSIZKecOe1Wqs3hF302UHqvOj242ZZkcs4zLl+7irOBTQIFDaIEX1b8KrbfxRVWxK3ZLKZgWde7xyjU6rDM/s0wmj5PnqlvjuUBvKr5qDH/sjwBtHGeSng==
+ controls :
+  -
+    name : FI_histAchat
+    identifier : 0x2094112e0df4aacb
+    internal_properties : BQAAAAUAAABTZjw02H0FdVNedlIX+bSi3h0QvorM8P6Kf1QGx74b2VaBxNN5Zc9vuLGdGCiK+L06G0WtqA+YCMVzKYs+EbXRPJ3OUpVjFZjeeRpqco4llUzKhjPNAsUoZj0igiyU7HB64vhBVCpkY60Kk093FHHFVTUIaniEY+6sot+XNMnTun5d5X5fcJ/CZqkySAX+grVOT8gO9Wu+VhdV1XRFscpzuw09r3lqSKcR9u0CORNgVrHGURUQyEYgz7BS60tCh6AaH3dPfASjajQwBObdgscQzFdvnh0ieO2821kZYo8hkzWFz4eUEwstLjbph5dkSdrXJpFQgrjcGFNHvVckIROexMwXcE3EouXJU1BE+QbRi+jyMHm7+UssOYjvfe4OckpVMGpEaDkzzbGfSaLKOlSZDBIv5YbmiMPA7vrHNpFeD5BPeE4h/iGZCgM7BvQoeCarOlwBbKcWlqvXG7a4fBxkOJ1MJw==
+    controls :
+     -
+       name : GRF_histoAchat
+       identifier : 0x2096cdfa03310f47
+       internal_properties : BQAAAAUAAAACepyQFxLuNcDJCalBqKDrnzAkGzUVKJViRNCQHwTCNDFlrIjitwWfOlk+hhvjqyBb1pSdaVTQfp0aJNrGa5ebv7o8FRv1dSwITliMqCpA3QG3N6JHVdqV3RYube2WWtvf85IF2WPWnF7GqH1W4FHVkuM4LMHovOPYxBji/946UL+XvoxalT3cm+RmesFzYUqIIqqewDrfV9I8F4D3B9fARY+AUzSXD1Q0tt4T4u+bu+RjFVKxn4Fa7XFVjWTynRCpDZ6mdtaRRfbQcaj2QQfz0/TPtqWv/byCohTp065a9pq+DpsZ4wy0alIOZ/pbjGOdyUQGz1zXhqUe6EHQu2PWLRiQeSgNcZzLugwEUsM560Aa426G5Bcms+orn8nxqq8f3PFq3JR61rFwLMt5AqLqUC7YOcMcl3DWH53xPko5R2ZYr8Q625dahZzEhY7NBSJmZpbzVi3cJ8DzN4iL2ilDotN0HoXuoFLgKNi1/AkoJzO7UykEgqY126r+vkxLZz95ZavTj0m2+CTgvx5VA+jO1rKJKj4qwR2/AxKjY39Kl1SMFCCxIbsVHCSlaAxUZEYJPrU1fvgAep5fWDUYbNEPsrVm/Un3T3mbUE88c14hTdO7ZnKDS1VAEwCgdEgVE8NryaNfNuScxFJEUsQJStFF4Rw2hzm4wc3gVY/Pg3wt63qBkzc/kQcY7jOqoMvQg0NWR0n8ps+YQD8BmjFuqQbIzS6DuyCq7g5/uRTxczwFBKe4B2PMWf0BPdz1HxpXHGRlsX3Mndfb++FiAYMnUyFVkOWWrx0nmQxDa8ttAhJ4Avi61cT/rgSFCWBJ6VyHwQJE1vitdsPtocqcII/I/kamzSvakrFdbJh3GgYrqwfLNmW4TqHMnF0D4x5v92RVZuiljwFZP1VBmId7c1E948eOujlv4VuZ0XNVtb40VB+Zkasfhoe9YCXf8bZlRq1jOVmZ6WOl6/jqSAqC5to15/C8JbBMRvIopfdklOaanelBKvDLZQ3F6N87C4y0bQkdLa6qZGR3/iL294Dzy3puvYR0R6JZlvEhgKTN6Gl8u76bgqlcUy3Q1ovcpxZrDLZ7jJhmqmP4SzErlXvT6OEmKibFFCwM/6R1JICNq+N9zqn11xe9QAvKgte+6VGR0j+Y9PSLvqRU6hOGX4Oi2ndFVMZyZ/6zqG1VceP8BDmDfn2JeTY+jhkjx5lMeZZxXclpuW8DqJjZhrNZxyKFHGOvQSL3wT0q2zk2dBlpH5zpu28KIpZKf8J+RAIw7ovpGsAiJthSvgw9OHlhmpCMEl+Kmhs/qwwXuammK73MOAjJqEB4oO6Pf46tVCzD0fMznOTSzwvIPmtBcbGNWJkfff5YNTBQSRwgyfdelaNn1ZUimFJ/Lh4Fh6mW4Pif9zWh4tNZSLhBKZn7f07BVocx0pfhtYFLFjAFF8kEP11E0FSSD3b9ZH/df6I73eSqrGIEbSGHtBbcdR++Vi3h5ZlmbpbdIjedNZOU5Ge1icRwEcGH5MeDpENpCNGrmcq0S2X7UcGQ++xssm+KnsKHTxPrIFiZS5blPvgGbqiGOilpm83z//P7nXqfhx4jXXX/JwAA34mra+P2NGPnOTKPUFP0hUN80PimLUNRfL6JrxOnZ7aBz0W7WYfpvfoYllh4OFNGNhYF/NQuRpCkzqDB+Eo0yJlBUGylpmQnpaZg05Z93es2uw5GeeG1Q3IWyH7o0ZRFQVw0eup7EzU721+9JMqYcHbGwiEWZpiZGVa27xFpsnv4XCVuVf8L
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : LIB_Statistique_des_articles
+       identifier : 0x2096d309038fe5d4
+       internal_properties : BQAAAAUAAACWuZdhkWePDvWnzbmD4QiMionhwwp4dk7lD9JYZ53stuPTTaH4EJM5e0PJr8fwkeS9399DVsTbE6vJstaSN/1YBQxo5Wo7qnbcxNUZorLCwc+6tGnXVdeHqAsl4jTfxXbu8GoKQNzafbTDsxkQECet3Z1HXlNcXGcw3SVWx+dthNHMaoYmihlETD3k9hXw0OIcx6P7+K/B6yj3oTvx3pwpkUeT4MEr8pyqEE40EfBClN57kam6+zrJJJ4srhx3xaZ/OThnMYSzdhxZoqiGTzYfvB6W0IG162bcsYPEB281gNkb+4IPfMAaRzSujwJuYXPiMbPZGrdde7Bf7Lsu6UXLXpwsNGOvpvTQXJVsPRA2TOzfyvgZseloza58bmWAVvCXaXcfb3uGrIrD5MtU9Aviw4EpXTqetBwu7QjRMSFdoIhRQCeQB1YB5TExg/g2s8po1FMEqRqowc+F8dn5ywYBdksDWtMMNu331Ec4ZSARvQ68JemU2ePaFCsbqtqkq4OS
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         STResulta_data est une structure
+         	sNom_ est une chaîne
+         	moTotalHT_, moTotalTTC_, moQte_, moTaxe_, moRemise_ sont des monétaires
+         fin
+         
+         gstData_struct est STResulta_data
+         gtabData_table est un tableau  de STResulta_data
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	sqlPurchaseSuplyers est une requête SQL = 
+         	[
+         	SELECT <§cs:6§>
+         	Partners.Name as Nom,<§cs:6§>
+         	sum(detaille_purchase.sub_ttl_ht ) AS totalHT,<§cs:6§>
+         	sum(detaille_purchase.sub_ttl_ttc) AS totalTTC,<§cs:6§>
+         	sum(detaille_purchase.Quantity) as Qte,<§cs:6§>
+         	SUM(detaille_purchase.sub_ttl_ttc - detaille_purchase.sub_ttl_ht) as taxe_,<§cs:6§>
+         	sum((detaille_purchase.Purchase_price * detaille_purchase.Discount / 100) * detaille_purchase.Quantity) as remise_<§cs:6§>
+         	FROM<§cs:6§>
+         	detaille_purchase<§cs:6§>
+         	inner join Purchase<§cs:6§>
+         	on detaille_purchase.IDPurchase = Purchase.IDPurchase<§cs:6§>
+         	inner join Partners<§cs:6§>
+         	on Purchase.IDPartners = Partners.IDPartners<§cs:6§>
+         	<§cs:6§>
+         	WHERE<§cs:6§>
+         	Purchase.IDSociety = {IdSociete}<§cs:6§>
+         	AND<§cs:6§>
+         	Purchase.Create_date BETWEEN {AAMM} AND {AAAAMM}<§cs:6§>
+         	AND<§cs:6§>
+         	Purchase.Etat IN  ('Confirmé','Terminé')<§cs:6§>
+         	group by Partners.Name<§cs:6§>
+         	order by  Partners.Name asc<§cs:6§>
+         	]
+         	
+         	dAteAAMM, dAteAAAAMM	sont des dates
+         //	grSupprimeTout(GRF_HistoAchat)
+         	
+         	dAteAAMM					= PremierJourDeLAnnée(AnnéeEnCours())
+         	dAteAAAAMM					= PremierJourDeLAnnée(AnnéeEnCours()+1 )	
+         		// total HT
+         		sqlPurchaseSuplyers.IdSociete		= gnID_societe
+         		sqlPurchaseSuplyers.AAMM			= dAteAAMM
+         		sqlPurchaseSuplyers.AAAAMM		= dAteAAAAMM
+         		
+         		soit bNrc = HExécuteRequêteSQL(sqlPurchaseSuplyers)
+         		
+         		SI bNrc = Faux ALORS
+         			HErreurInfo(hErrComplet)
+         		SINON
+         			POUR TOUT sqlPurchaseSuplyers
+         				gstData_struct.sNom_		= sqlPurchaseSuplyers.Nom
+         				gstData_struct.moTotalTTC_	= sqlPurchaseSuplyers.totalTTC
+         				gstData_struct.moTotalHT_	= sqlPurchaseSuplyers.totalHT
+         				gstData_struct.moTaxe_		= sqlPurchaseSuplyers.taxe_
+         				gstData_struct.moRemise_	= sqlPurchaseSuplyers.remise_
+         				gstData_struct.moQte_		= sqlPurchaseSuplyers.Qte
+         				gtabData_table.Ajoute(gstData_struct)			
+         			FIN
+         			
+         		FIN
+         		HLibèreRequête(sqlPurchaseSuplyers)
+         		DemandeMiseAJourUI()
+         //		Trace(gtabData_table.Occurrence())
+         //		POUR TOUT ts DE gtabData_table
+         //			trace(ts.sNom_,ts.moTotalHT_,ts.moTotalTTC_,ts.moTaxe_,ts.moRemise_,ts.moQte_)
+         //		FIN		
+         //		gtabData_table.SupprimeTout()
+         fin
+         
+         Actualiser()
+         timer (Actualiser,18000)
+        type : 14
+      -
+        code : |1+
+         grDessine(GRF_histoAchat)
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x209411200df071e8
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x10941120010971d9
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

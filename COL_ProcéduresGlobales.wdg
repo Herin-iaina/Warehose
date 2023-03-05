@@ -1,0 +1,1051 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_ProcéduresGlobales
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1e5cf742001da255
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+      MaConnexion est une Connexion
+      
+      CONSTANT
+      depuisOutlook = 1
+      depuisGoogle  = 2
+      depuisNotes   = 3
+      
+      cftAppliqueModifications 		= 1
+      cftConserveDonnéesActuelles		= -1
+      cftAnnulerImport				= 0
+      cftRestaurerEvénement			= 10
+      cftSupprimeEvénement			= 11
+      cftModeModification				 = 0xff
+      cftModeSuppression				= 0x0f
+      FIN
+      
+      gtaRulUser est un tableau associatif de booléens
+     type : 720896
+  procedures :
+   -
+     name : Crypt_image
+     procedure_id : 2187896356794668950
+     type_code : 15
+     code : |1-
+      PROCEDURE Crypt_image( Fichier) <métier>
+      
+      MonBuffer_img = fChargeBuffer(Fichier)
+      // Cryptage dune chaîne de caractères en utilisant l'algorithme AES
+      // ------------------------------------------------------------------
+      
+      bufCrypte est un Buffer = CrypteStandard(MonBuffer_img, bufCle, crypteAES128)
+      RENVOYER bufCrypte
+     type : 458752
+   -
+     name : Decript_image
+     procedure_id : 2187898156386057309
+     type_code : 15
+     code : |1-
+      PROCEDURE Decript_image(bufCrypte est un buffer) <métier>
+      
+      // Décryptage 
+      //------------------------- 
+      bufSRésultat est un Buffer = DécrypteStandard(bufCrypte, bufCle, crypteAES128)
+      renvoyer bufSRésultat
+     type : 458752
+   -
+     name : Select_data_base
+     procedure_id : 2188687841964849066
+     type_code : 15
+     code : |1-
+      PROCEDURE Select_data_base(table,source)
+      
+      //sélection des fichiers de donnée à remplir automatiquement s'ils sont vide
+      sSelect est une chaîne = [
+      SELECT %1
+       FROM %2
+      ]
+      renvoyer  ChaîneConstruit(sSelect,table,source)
+     type : 458752
+   -
+     name : SelectionConnexion
+     internal_properties : BQAAAAUAAABumiX5Vv1em6p0eXDFN2dU6AMYKdZbAxrdB5oP/WptGycZ6ZKd8TPGmp/Zu7hlQ9m8V1K5YilFjSBebZBi6SoTDvyJNdeusKeb1RqazTpPhVPtAL+9m0ZIl5UkuD5t029wlHgNTLKCpNW9LGlbExx2chX+Uo78z6GbtxoC3gqcehMY/XZVWWw+FRM5me2INaSsBunTPBpt
+     procedure_id : 2196759266624169170
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] SelectionConnexion ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE PRIVÉE SelectionConnexion()
+      LOCAL
+      	UtilisateurBDD, MotDePasse, Serveur, BDD, SGBDs, port ,Provider,InfosEtendues	sont des chaînes
+      	bConnexionState																	sont des booléen
+      	sdReq																			est une Source de Données
+      	bufCles, bufCrypte																sont des Buffer
+      	NbConnex																		est un entier	= 0
+      	nId_connex																		est un entier	= 0
+      	nNumConnexion																	est un entier	= 0
+      	
+      bufCles = HashChaîne(HA_MD5_128, "mot de passe")
+      
+      
+      HExécuteRequêteSQL(sdReq, "SELECT * FROM Connexion_param ")
+      NbConnex = HNbEnr(sdReq)
+      SI NbConnex = 0 ALORS
+      	Ouvre(FEN_paramètre_de_connexion,Vrai,0)
+      	SI gbConnexion_pass = Vrai ALORS
+      		HExécuteRequêteSQL(sdReq, "SELECT * FROM Connexion_param ")
+      		POUR TOUT sdReq
+      			UtilisateurBDD	= sdReq.Users
+      			bufCrypte		=  sdReq.password
+      			MotDePasse		= DécrypteStandard(bufCrypte, bufCles, crypteAES128)
+      			Serveur			= sdReq.serveur
+      			BDD				= sdReq.bdd
+      			SGBDs			= sdReq.sgbd
+      			port			= 	sdReq.port
+      		FIN
+      	SINON 
+      		//		retour
+      		bConnexionState = Faux
+      		//		renvoyer bConnectionfail
+      		FinProgramme("Paramètre de connexion incorrecte")
+      	FIN
+      	
+      SINON
+      	POUR TOUT sdReq
+      		UtilisateurBDD	= sdReq.Users
+      		bufCrypte		=  sdReq.password
+      		MotDePasse		= DécrypteStandard(bufCrypte, bufCles, crypteAES128)
+      		Serveur			= sdReq.serveur
+      		BDD				= sdReq.bdd
+      		SGBDs			= sdReq.sgbd
+      		port			= 	sdReq.port
+      		nId_connex		= sdReq.IDConnexion_param
+      	FIN
+      FIN
+      
+      SI SGBDs = "HFSQL" ALORS
+      	Serveur			= ChaîneConstruit("%1:%2",Serveur,port)
+      	Provider		= hAccèsHFClientServeur
+      	InfosEtendues	= "Infos étendues"
+      SINON SI SGBDs = "MySQL"
+      	Provider		= hAccèsNatifMySQL
+      	InfosEtendues	= ChaîneConstruit("Server Port=%1",port)
+      SINON SI SGBDs = "PostgreSQL"
+      	Provider		= hAccèsNatifPostgreSQL
+      	InfosEtendues	= ChaîneConstruit("Server Port=%1",port)
+      FIN
+      
+      
+      //log BDD 
+      soit datedelaconnexion = ChaîneConstruit("Connexion %1 %2",DateversChaine(DateDuJour(),maskDateSystème),HeureVersChaine(Maintenant(),"HH:MM:SS"))
+      INIEcrit("BDD","0","__________________//_______________________" ,fRepEnCours() + "\logBDD.INI")
+      INIEcrit("BDD","1",datedelaconnexion ,fRepEnCours() + "\logBDD.INI")
+      INIEcrit("BDD", "serveur_mane",Serveur,fRepEnCours() + "\logBDD.INI")
+      INIEcrit("BDD", "serveur_port",InfosEtendues,fRepEnCours() + "\logBDD.INI")
+      INIEcrit("BDD", "base_mane",BDD,fRepDonnéesCommun() + "\logBDD.INI")
+      
+      
+      // Description de la connexion 
+      MaConnexion..Serveur		= Serveur
+      MaConnexion..Utilisateur	= UtilisateurBDD 
+      MaConnexion..MotDePasse		= MotDePasse 
+      MaConnexion..BaseDeDonnées	= BDD
+      MaConnexion..Provider		= Provider 
+      MaConnexion..Accès			= hOLectureEcriture 
+      MaConnexion..InfosEtendues	= InfosEtendues 
+      MaConnexion..OptionsCurseur	= hCurseurClient 
+      bConnexionState				= HOuvreConnexion(MaConnexion)
+      SI bConnexionState = Faux ALORS
+      	Erreur("Impossible d'établir la connexion avec la base de donnée, ré vérifier les paramètre")
+      	Ouvre(FEN_paramètre_de_connexion,Vrai,nId_connex)
+      	FinProgramme("Paramètre de connexion incorrecte")
+      sinon
+      	si SGBDs <> "HFSQL" ALORS
+      		nNumConnexion = SQLConnecte(Serveur,UtilisateurBDD,MotDePasse,BDD,SGBDs,"",InfosEtendues)
+      	FIN
+      	si nNumConnexion > 0 ALORS
+      		SQLChangeConnexion(nNumConnexion)
+      	FIN
+      	//	HChangeConnexion(,MaConnexion)
+      	HChangeConnexion(AGD_PARAM,MaConnexion)
+      	HChangeConnexion(Agenda_Evenement,MaConnexion)	
+      	HChangeConnexion(AgendaCategorie,MaConnexion)
+      	HChangeConnexion(AgendaEvenementHistorique,MaConnexion)
+      	HChangeConnexion(AgendaGoogle,MaConnexion)
+      	HChangeConnexion(AgendaNotes,MaConnexion)
+      	HChangeConnexion(AgendaOutlook,MaConnexion)
+      	HChangeConnexion(Article,MaConnexion)
+      	HChangeConnexion(Available_quantity,MaConnexion)
+      	HChangeConnexion(Category,MaConnexion)
+      	HChangeConnexion(Consommation,MaConnexion)
+      	HChangeConnexion(Deconditioning,MaConnexion)
+      	HChangeConnexion(Detaille_operation_move,MaConnexion)
+      	HChangeConnexion(Detaille_order,MaConnexion)
+      	HChangeConnexion(Detaille_Paiement,MaConnexion)
+      	HChangeConnexion(detaille_purchase,MaConnexion)
+      	HChangeConnexion(Detaille_session,MaConnexion)
+      	HChangeConnexion(Lot,MaConnexion)
+      	HChangeConnexion(Money_initial,MaConnexion)
+      	HChangeConnexion(Moyen_paiement,MaConnexion)
+      	HChangeConnexion(Numero_document,MaConnexion)
+      	HChangeConnexion(Operation_type_move,MaConnexion)
+      	HChangeConnexion(Paiment_Methode_POS,MaConnexion)
+      	HChangeConnexion(Parametre_vente,MaConnexion)
+      	HChangeConnexion(Partners,MaConnexion)
+      	HChangeConnexion(product_per_partners,MaConnexion)
+      	HChangeConnexion(Purchase,MaConnexion)
+      	HChangeConnexion(Replenishment_rule,MaConnexion)
+      	HChangeConnexion(Sale_order,MaConnexion)
+      	HChangeConnexion(Session,MaConnexion)
+      	HChangeConnexion(Society,MaConnexion)	
+      	HChangeConnexion(Stock_move,MaConnexion)
+      	HChangeConnexion(StockInventory,MaConnexion)
+      	HChangeConnexion(Taxe,MaConnexion)
+      	HChangeConnexion(Transfert_internal,MaConnexion)
+      	HChangeConnexion(unit_of_mesur,MaConnexion)		
+      	HChangeConnexion(User,MaConnexion)		
+      	HChangeConnexion(Users_role,MaConnexion)
+      	HChangeConnexion(Warehouse,MaConnexion)		
+      FIN
+      
+      renvoyer bConnexionState
+     type : 458752
+   -
+     name : Data_Table_Creation
+     procedure_id : 2196811712470562857
+     type_code : 15
+     code : |1-
+      // Résumé : la fonction vérifiera si les tables de donnée existent dans la base se donnée 
+      // Syntaxe :
+      // Data_Table_Creation ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Data_Table_Creation()
+      
+      // création de BDD et les tables
+      QUAND EXCEPTION DANS
+      	HCréationSiInexistant("*","","","",hOuvertureDifférée) 
+      FAIRE
+      	Erreur(<§@00000000000000000000§>,HErreurInfo(hErrComplet))
+      	FinProgramme()
+      FIN
+      
+      Add_default_data()
+     type : 458752
+   -
+     name : Add_default_data
+     procedure_id : 2196813202824234045
+     type_code : 15
+     code : |1-
+      PROCEDURE PRIVÉE Add_default_data() <métier>
+      
+      //Vérifie si les tables sont vide 
+      data_source est une Source de Données
+      
+      // Création d'unité de catégorie s'il n y a aucun dans la table Society
+      SI PAS HExécuteRequêteSQL(data_source ,Select_data_base("IDSociety","Society")) ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      SI HNbEnr()  = 0 ALORS
+      	gSql_codes_society est une Requête SQL = 
+      	[
+      	INSERT INTO<§cs:3§>
+      	Society<§cs:3§>
+      	(Name,Stat)<§cs:3§>
+      	VALUES <§cs:3§>
+      	('My society',1)<§cs:3§>
+      	]
+      	
+      	SI PAS HExécuteRequêteSQL(gSql_codes_society ) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      	
+      FIN
+      
+      
+      
+      // Création d'unité de mesure Unité s'il n y a aucun dans la table unite_of_mesur
+      SI PAS HExécuteRequêteSQL(data_source ,Select_data_base("IDunit_of_mesur","unit_of_mesur")) ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      SI HNbEnr()  = 0 ALORS
+      	
+      	SI PAS HExécuteRequêteSQL(data_source ,"SELECT IDSociety FROM Society") ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON
+      		POUR TOUT data_source
+      			gnID_societe = data_source.IDSociety
+      		FIN
+      	FIN
+      	
+      	gSql_code est une Requête SQL = 
+      	[
+      			INSERT INTO<§cs:3§>
+      				unit_of_mesur <§cs:3§>
+      				(Name,ratio,type_of_ratio,IDSociety)<§cs:3§>
+      			VALUES <§cs:3§>
+      				('Unité',1,1,{ID_societe}),('Kilos KG',1,1,{ID_societe}),('Mètre M',1,1,{ID_societe})<§cs:3§>
+      	]
+      	gSql_code.ID_societe = gnID_societe
+      	
+      	SI PAS HExécuteRequêteSQL(gSql_code ) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      FIN
+      
+      // Création  de catégorie s'il n y a aucun dans la table Category
+      SI PAS HExécuteRequêteSQL(data_source ,Select_data_base("IDCategory","Category")) ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      SI HNbEnr()  = 0 ALORS
+      	
+      	SI PAS HExécuteRequêteSQL(data_source ,"SELECT IDSociety FROM Society") ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON
+      		POUR TOUT data_source
+      			gnID_societe = data_source.IDSociety
+      		FIN
+      	FIN
+      	
+      	gSql_codes est une Requête SQL = 
+      	[
+      			INSERT INTO<§cs:3§>
+      				Category<§cs:3§>
+      				(Name,Margin,Stat,Arronds,Venal,IDSociety)<§cs:3§>
+      			VALUES <§cs:3§>
+      			('En vente',{marge},1,{Arronds},{venal},{ID_societe})<§cs:3§>
+      	]
+      	gSql_codes.marge =1.3
+      	gSql_codes.Arronds = 10
+      	gSql_codes.Venal = 5
+      	gSql_codes.ID_societe = gnID_societe
+      	
+      	SI PAS HExécuteRequêteSQL(gSql_codes ) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      FIN
+      
+      // Création d'unité de catégorie s'il n y a aucun dans la table Warehouse
+      SI PAS HExécuteRequêteSQL(data_source ,Select_data_base("IDWarehouse","Warehouse")) ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      SI HNbEnr()  = 0 ALORS
+      	
+      	SI PAS HExécuteRequêteSQL(data_source ,"SELECT IDSociety FROM Society") ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON
+      		POUR TOUT data_source
+      			gnID_societe = data_source.IDSociety
+      		FIN
+      	FIN
+      	
+      	gSql_codes_Warehouse est une Requête SQL = 
+      	[
+      	INSERT INTO<§cs:3§>
+      	Warehouse<§cs:3§>
+      	(Name,Type_Empacement,Removal_strategy,IDSociety)<§cs:3§>
+      	VALUES <§cs:3§>
+      	('Stock',1,'FIFO',{ID_societe}),('Stock client',2,'FIFO',{ID_societe}),('Stock fournisseur',3,'FIFO',{ID_societe})<§cs:3§>
+      	]
+      	gSql_codes_Warehouse.ID_societe = gnID_societe
+      	
+      	SI PAS HExécuteRequêteSQL(gSql_codes_Warehouse ) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      	
+      FIN
+      
+      // Création  d'un utilisateur super admin s'il n y a aucun dans la table user
+      SI PAS HExécuteRequêteSQL(data_source ,Select_data_base("IDUser","User")) ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      SI HNbEnr()  = 0 ALORS
+      	super_user est un entier
+      	SI PAS HExécuteRequêteSQL(data_source ,"SELECT IDSociety FROM Society") ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON
+      		POUR TOUT data_source
+      			gnID_societe = data_source.IDSociety
+      		FIN
+      	FIN
+      	
+      	SI PAS HExécuteRequêteSQL(data_source ,"SELECT IDWarehouse FROM Warehouse WHERE Type_Empacement = 1") ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON
+      		POUR TOUT data_source
+      			gnID_Ware_House = data_source.IDWarehouse
+      		FIN
+      	FIN
+      	
+      	gSql_codes_uers est une Requête SQL = 
+      	[
+      		INSERT INTO<§cs:3§>
+      		User<§cs:3§>
+      		(Name,login,password,Stat,IDWarehouse,IDSociety,Is_admin)<§cs:3§>
+      		VALUES <§cs:3§>
+      		('admin','admin',{passwords},1,{WarehouseId},{ID_societe},1)<§cs:3§>
+      	]
+      	// Cryptage dune chaîne de caractères en utilisant lalgorithme AES
+      	Pass_word est un Buffer = "admin super"
+      	bufCles est un Buffer = HashChaîne(HA_MD5_128, "mot de passe")
+      	bufCrypte est un Buffer = CrypteStandard(Pass_word, bufCles, crypteAES128)
+      	gSql_codes_uers.passwords = bufCrypte
+      	gSql_codes_uers.WarehouseId = gnID_Ware_House
+      	gSql_codes_uers.ID_societe = gnID_societe
+      	
+      	SI PAS HExécuteRequêteSQL(gSql_codes_uers ) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      	
+      	SI PAS HExécuteRequêteSQL(data_source ,"SELECT IDUser FROM User") ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON
+      		POUR TOUT data_source
+      			super_user  = data_source.IDUser
+      		FIN
+      	FIN
+      	gSql_codes_role est une Requête SQL = 
+      	[
+      		INSERT INTO<§cs:3§>
+      		Users_role	<§cs:3§>
+      		(IDUser,role,value)<§cs:3§>
+      		VALUES <§cs:3§>
+      		({IDUser},'sale',1),({IDUser},'sale_order',1),({IDUser},'Close_sale',1),({IDUser},'customer',1),({IDUser},'product_sale',1),({IDUser},'histo_sale',1),<§cs:3§>
+      		({IDUser},'purchase',1),({IDUser},'purchase_order',1),({IDUser},'appros',1),({IDUser},'sipplyer',1),({IDUser},'product_puchase',1),({IDUser},'product_per_partners',1),({IDUser},'histo_purchase',1),<§cs:3§>
+      		({IDUser},'Warehouse',1),({IDUser},'product',1),({IDUser},'lots',1),({IDUser},'stock_rule',1),({IDUser},'entrepot',1),({IDUser},'uom',1),<§cs:3§>
+      		({IDUser},'consommation',1),({IDUser},'consommer',1),<§cs:3§>
+      		({IDUser},'dash_board',1),({IDUser},'sale_kpi',1),({IDUser},'purchase_kpi',1),({IDUser},'stock_pki',1),({IDUser},'consommation_kpi',1)<§cs:3§>
+      	]
+      	gSql_codes_role.IDUser = super_user
+      	SI PAS HExécuteRequêteSQL(gSql_codes_role ) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      FIN
+      // Ajout de taxe par defaut s'il n y a pas
+      SQL_Select_Taxe est une requête SQL = 
+      [
+      	select <§cs:3§>
+      	IDTaxe<§cs:3§>
+      	from<§cs:3§>
+      	Taxe<§cs:3§>
+      	where<§cs:3§>
+      	IDSociety = {SocietID}<§cs:3§>
+      ]
+      SQL_Select_Taxe.SocietID = gnID_societe
+      si pas HExécuteRequêteSQL(SQL_Select_Taxe) ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(SQL_Select_Taxe) = 0
+      	SQl_Add_Taxe est une requête SQL = 
+      [
+      	insert into <§cs:3§>
+      	Taxe<§cs:3§>
+      	(Name_taxe,Valeur_taxe,type_taxe,IDSociety)<§cs:3§>
+      	values<§cs:3§>
+      	('déductible 20%',20,1,{SocietID}),('recevable 20%',20,2,{SocietID})<§cs:3§>
+      ]
+      	SQl_Add_Taxe.SocietID = gnID_societe
+      	si pas HExécuteRequêteSQL(SQl_Add_Taxe) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      FIN
+      
+      sqlSlectAdmin est une requête SQL = 
+      [
+      	SELECT USER.IDUser FROM USER WHERE USER.login = 'admin' and User.Name = 'admin'<§cs:3§>
+      ]
+      HExécuteRequêteSQL(sqlSlectAdmin,hRequêteDéfaut)
+      
+      si HNbEnr(sqlSlectAdmin) = 0 ALORS
+      	gSql_codes_uers est une Requête SQL = 
+      	[
+      		INSERT INTO<§cs:3§>
+      		USER<§cs:3§>
+      		(Name,login,PASSWORD,Stat,IDWarehouse,IDSociety,Is_admin)<§cs:3§>
+      		VALUES <§cs:3§>
+      		('admin','admin',{passwords},1,{WarehouseId},{ID_societe},1)<§cs:3§>
+      	]
+      	// Cryptage dune chaîne de caractères en utilisant lalgorithme AES
+      	Pass_word	est un Buffer	= "admin super"
+      	bufCles		est un Buffer	= HashChaîne(HA_MD5_128, "mot de passe")
+      	bufCrypte	est un Buffer	= CrypteStandard(Pass_word, bufCles, crypteAES128)
+      	passwrd		est une chaîne	= bufCrypte
+      //	gSql_codes_uers.passwords	= bufCrypte
+      	gSql_codes_uers.passwords	= passwrd
+      	gSql_codes_uers.WarehouseId	= gnID_Ware_House
+      	gSql_codes_uers.ID_societe	= gnID_societe
+      	soit nrc =  HExécuteRequêteSQL(gSql_codes_uers )
+      	SI nrc = Faux ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : selection_utilisateur
+     procedure_id : 2197115830514988858
+     type_code : 15
+     code : |1+
+      // Résumé : Cette fonction va vérifier le nombre des utilisateurs, s'il n y a que le super admin va ouvrir une fenêtre pour ajouter un
+      // Syntaxe :
+      //selection_utilisateur ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE PRIVÉE selection_utilisateur()
+      prive 
+      	nNombre_users est un entiers
+      	Ures_info est une requête SQL = 
+      [
+      	SELECT IDUser,Name FROM User<§cs:3§>
+      ]
+      	
+      	si pas HExécuteRequêteSQL(Ures_info ) ALORS
+      		HErreurInfo(hErrComplet)
+      	sinon
+      		nNombre_users = HNbEnr(Ures_info)
+      		si nNombre_users = 1 ALORS
+      		// ------- Ajouté un autre utilisateur ---------
+      		ouvre(FEN_Ures,Vrai,Vrai,0)
+      		sinon si nNombre_users > 1
+      		// ------- ouvrir la fenêtre login --------- 
+      		ouvre(FEN_login)
+      		FIN
+      	FIN
+     type : 458752
+   -
+     name : Google_ImporteAgenda
+     procedure_id : 2199706550503307070
+     type_code : 15
+     code : |1+
+      PROCEDURE Google_ImporteAgenda(UneConnexion est un gglConnexion, LOCAL sIdentifiant est une chaîne, LOCAL nIDAgenda est un entier, LOCAL bInfo est un booléen = Vrai)
+      
+      UnAgenda 		est un gglAgenda
+      UnEvénement 	est un gglEvénement
+      nNbEvénements 	est un entier
+      sLibEvénement 	est une chaîne
+      nRetour			est un entier
+      Personne 		est un gglPersonne
+      Lieu 			est un gglLieu
+      bNew_data est un booléen = Vrai
+      id_ag_even est un entier
+      Sablier(Vrai)
+      
+      // Récupère l'agenda
+      UnAgenda = GglRécupèreAgenda(UneConnexion, sIdentifiant)
+      
+      // Parcourt les événements de l'agenda
+      POUR TOUT UnEvénement DE UnAgenda.Evénement
+      	
+      	// Vérifie si on a déjà importé cet événement
+      	sql_google_exist est une requête SQL = 
+      	[
+      	SELECT <§cs:6§>
+      		IDAgendaEvénement<§cs:6§>
+      	FROM<§cs:6§>
+      		Agenda_Evénement<§cs:6§>
+      	WHERE<§cs:6§>
+      		IDAgendaGoogle = {id_google} and IDUser = {user_id}<§cs:6§>
+      	]
+      	sql_google_exist.id_google = UnEvénement.Identifiant
+      	sql_google_exist.user_id = gnActif_user_id
+      	SI PAS HExécuteRequêteSQL(sql_google_exist ) ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON
+      		SI HNbEnr(sql_google_exist) > 0 ALORS
+      			// On vérifie si un conflit de modification existe
+      			nRetour = Déclenche_Conflit_Extérieur(depuisGoogle, UnEvénement)
+      			// On annule l'import
+      			// L'événement sera reproposé à la prochaine synchronisation
+      			SI nRetour =  cftAnnulerImport ALORS
+      				// Rendez-vous suivant, sans modification
+      				CONTINUER
+      			SINON
+      				// On conserve les données présentes dans la base
+      				SI nRetour = cftConserveDonnéesActuelles ALORS
+      					// UnEvénement a été modifié par la fenêtre FEN_CONFLIT						
+      					// Enregistre les modifications apportées dans Google
+      					GglEcrit(UneConnexion, UnAgenda)
+      				FIN
+      				// On doit modifier l'événement
+      				qsl_modif_AgEv est une Requête SQL = 
+      				[
+      					update <§cs:6§>
+      						Agenda_Evénement<§cs:6§>
+      					set<§cs:6§>
+      						Invités = '',<§cs:6§>
+      						Lieux = ''<§cs:6§>
+      					where<§cs:6§>
+      						IDAgendaEvenement = {id_even}<§cs:6§>
+      				]
+      				pour tout sql_google_exist
+      					qsl_modif_AgEv.id_even = sql_google_exist.IDAgendaEvénement
+      					id_ag_even = sql_google_exist.IDAgendaEvénement
+      				FIN
+      				SI PAS HExécuteRequêteSQL(qsl_modif_AgEv ) ALORS
+      					HErreurInfo(hErrComplet)
+      				FIN
+      			FIN
+      			bNew_data = Faux
+      			HLibèreRequête()
+      		sinon
+      			bNew_data = Faux
+      		FIN			
+      	FIN
+      	
+      	si bNew_data = Vrai ALORS
+      		sql_google_import est une requête SQL = 
+      		[
+      			insert into<§cs:6§>
+      				Agenda_Evénement<§cs:6§>
+      				(IDAgendaGoogle,Auteur,Contenu,DateDébut,DateFin,Titre,IdentifiantGoogle,JournéeEntière,Invités,Lieux,IDUser)<§cs:6§>
+      			values<§cs:6§>
+      				({id_ag},{auters},{content},{date_deb},{date_fin},{title},{id_google},{tts_jrnee},{Invite},{place},{uresId})<§cs:6§>
+      		]
+      		// Importe les données de l'événement
+      		sql_google_import.id_ag 		= nIDAgenda		
+      		sql_google_import.auters   		= UnEvénement..Auteur..Nom + [TAB] + UnEvénement..Auteur..Email
+      		sql_google_import.content  		= UnEvénement..Contenu
+      		sql_google_import.date_deb	   	= UnEvénement..DateDébut
+      		sql_google_import.date_fin 		= UnEvénement..DateFin
+      		sql_google_import.title	   		= UnEvénement..Titre
+      		sql_google_import.id_google		= UnEvénement..Identifiant
+      		sql_google_import.tts_jrnee		= UnEvénement..JournéeEntière
+      		sql_google_import.IDUser		= gnActif_user_id
+      		// Personnes
+      		POUR TOUTE Personne DE UnEvénement.Invité
+      			sql_google_import.Invite += [RC] + Personne..Libellé + [TAB] + Personne..Email
+      		FIN
+      		POUR TOUS Lieu DE UnEvénement.Lieu
+      			sql_google_import.place += [RC] + Lieu..Valeur
+      		FIN
+      		si pas HExécuteRequêteSQL(sql_google_import ) ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      	sinon
+      		sql_google_import_chg est une requête SQL = 
+      [
+      	update <§cs:6§>
+      		Agenda_Evenement<§cs:6§>
+      	set<§cs:6§>
+      		IDAgendaGoogle 	= {id_ag},<§cs:6§>
+      		Auteur			= {auters},<§cs:6§>
+      		Contenu			= {content},<§cs:6§>
+      		DateDebut		= {date_deb},<§cs:6§>
+      		DateFin			= {date_fin},<§cs:6§>
+      		Titre			= {title},<§cs:6§>
+      		IdentifiantGoogle = {id_google},<§cs:6§>
+      		JourneeEntiere	= {tts_jrnee},<§cs:6§>
+      		Invites			= {Invite},<§cs:6§>
+      		Lieux			= {place},<§cs:6§>
+      		IDUser			= {uresId}<§cs:6§>
+      	where<§cs:6§>
+      		IDAgendaEvenement = {id_ag_even}<§cs:6§>
+      ]
+      		// Importe les données de l'événement
+      		sql_google_import_chg.id_ag 		= nIDAgenda		
+      		sql_google_import_chg.auters   		= UnEvénement..Auteur..Nom + [TAB] + UnEvénement..Auteur..Email
+      		sql_google_import_chg.content  		= UnEvénement..Contenu
+      		sql_google_import_chg.date_deb	   	= UnEvénement..DateDébut
+      		sql_google_import_chg.date_fin 		= UnEvénement..DateFin
+      		sql_google_import_chg.title	   		= UnEvénement..Titre
+      		sql_google_import_chg.id_google		= UnEvénement..Identifiant
+      		sql_google_import_chg.tts_jrnee		= UnEvénement..JournéeEntière
+      		sql_google_import_chg.id_ag_even		= id_ag_even
+      		
+      		// Personnes
+      		POUR TOUTE Personne DE UnEvénement.Invité
+      			sql_google_import_chg.Invite += [RC] + Personne..Libellé + [TAB] + Personne..Email
+      		FIN
+      		POUR TOUS Lieu DE UnEvénement.Lieu
+      			sql_google_import_chg.place += [RC] + Lieu..Valeur
+      		FIN
+      		SI PAS HExécuteRequêteSQL(sql_google_import_chg ) ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      	FIN
+      	// Incrémente le compteur
+      	nNbEvénements ++
+      fin
+      
+      Sablier(Faux)
+      
+      SI bInfo ALORS
+      	
+      	// Si aucun événement n'a été importé
+      	SI nNbEvénements = 0 ALORS
+      		Avertissement("Cet agenda ne contient aucun événement")
+      	SINON
+      		
+      		sLibEvénement = (nNbEvénements = 1 ? "événement a été importé" SINON "événements ont été importés")			
+      		Info("[%nNbEvénements%] [%sLibEvénement%]")
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Déclenche_Conflit_Extérieur
+     procedure_id : 2199734360431411935
+     type_code : 15
+     code : |1-
+      // Résumé : Déclenche un conflit de modification
+      PROCEDURE Déclenche_Conflit_Extérieur(LOCAL nOrigine est un entier, UnEvénement est un gglEvénement dynamique = Null)
+      
+      nRetour est un entier
+      
+      SELON nOrigine
+      
+      	// Depuis Outlook et Notes, on doit lire la variable mRendezVous
+      	CAS depuisOutlook, depuisNotes
+      		
+      		// Ouvre la fenêtre de conflit
+      		nRetour = Ouvre(FEN_Conflit, cftModeModification, nOrigine)
+      		
+      		RENVOYER nRetour
+      		
+      	// Depuis Google, on doit lire l'objet gglEvénement
+      	CAS depuisGoogle
+      		
+      		// Ouvre la fenêtre de conflit
+      		nRetour = Ouvre(FEN_Conflit, cftModeModification, nOrigine, UnEvénement)
+      		
+      		RENVOYER nRetour
+      		
+      FIN
+      
+      RENVOYER Vrai
+      
+      
+      // Résumé : Crée une catégorie si nécessaire et renvoie son identifiant
+     type : 458752
+   -
+     name : Catégorie_Importe
+     procedure_id : 2199750148731722912
+     type_code : 15
+     code : |1-
+      PROCEDURE Catégorie_Importe(LOCAL sNom est une chaîne, sLibelléCatégorie est une chaîne = "", nCouleur est un entier = RVB(191, 210, 234))
+      nId_Ag_categ est un entier
+      SI sNom = "" ALORS 
+      	sLibelléCatégorie = ""
+      	nCouleur = -1
+      	RENVOYER 0
+      FIN
+      
+      // Recherche si la catégorie existe
+      //HLitRecherchePremier(AgendaCatégorie, Libellé, ExtraitChaîne(sNom, 1, RC))
+      sql_Ag_categ est une requête SQL = 
+      [
+      	Select <§cs:6§>
+      		IDAgendaCategorie,<§cs:6§>
+      		Couleur,<§cs:6§>
+      		Libellee<§cs:6§>
+      	from<§cs:6§>
+      		AgendaCategorie<§cs:6§>
+      	where<§cs:6§>
+      		Libellee = {label} and IDSociety = {Society}<§cs:6§>
+      ]
+      sql_Ag_categ.label = ExtraitChaîne(sNom, 1, RC)
+      sql_Ag_categ.Society = gnID_societe
+      
+      si pas HExécuteRequêteSQL(sql_Ag_categ ) ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	si HNbEnr(sql_Ag_categ) = 0 ALORS
+      		sql_add_categ est une requête SQL = 
+      		[
+      			insert into <§cs:6§>
+      			 	AgendaCategorie<§cs:6§>
+      			 	(Libellee,Couleur)<§cs:6§>
+      			 values<§cs:6§>
+      			 	({label},{color})<§cs:6§>
+      		]
+      		sql_add_categ.label =  ExtraitChaîne(sNom, 1, RC)
+      		SI HNbEnr(AgendaCategorie) < COL_OUTIL.Couleurs..Occurrence ALORS
+      			sql_add_categ.color = COL_OUTIL.Couleurs[HNbEnr(AgendaCategorie) + 1]
+      		FIN
+      	FIN
+      	si pas HExécuteRequêteSQL(sql_Ag_categ ) ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      	POUR TOUT sql_Ag_categ	
+      		sLibelléCatégorie	= sql_Ag_categ.Libellee
+      		nCouleur			= sql_Ag_categ.Couleur
+      		nId_Ag_categ		= sql_Ag_categ.IDAgendaCategorie	
+      	FIN
+      FIN
+      
+      
+      
+      // Renvoie l'identifiant de la catégorie
+      RENVOYER nId_Ag_categ	
+     type : 458752
+   -
+     name : Outlook_compte
+     procedure_id : 2200145616412851299
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] Outlook_compte ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne ANSI : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Outlook_compte()
+      
+      sListe 		est une chaîne
+      bApp64		est un booléen = EnMode64bits()
+      bOutlook64	est un booléen = Outlook64Bits()
+      
+      
+      /////
+      // ATTENTION :
+      // Si l'application est en 32bits et si Outlook est en 64bits : il est impossible de récupérer la liste des profils (MAPI n'est pas compatible 32/64)
+      // Si l'application est en 64bits et si Outlook est en 32bits : il est impossible de récupérer la liste des profils (MAPI n'est pas compatible 32/64)
+      /////
+      
+      SI (bOutlook64 ET bApp64) _OU_ (PAS bOutlook64 ET PAS bApp64) ALORS
+      	
+      	// Récupère la liste des profils Outlook
+      	sListe = WL.OutlookListeProfil()
+      SINON
+      	
+      	SI ErreurDétectée ALORS
+      		ErreurDéclenche(1, ErreurInfo(errMessage))
+      	SINON
+      		ErreurDéclenche(1, ChaîneConstruit("La version installée de Outlook (%1) n'est pas compatible avec l'application (%2)", (bOutlook64 ? "64bits" SINON "32bits"), (bApp64 ? "64bits" SINON "32bits")))	
+      	FIN
+      FIN
+      
+      RENVOYER sListe
+     type : 458752
+   -
+     name : Outlook_ImporteAgenda
+     procedure_id : 2200182694867335282
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Outlook_ImporteAgenda (<sProfil> est chaîne, <nIDAgenda> est entier [, <bInfo> est booléen])
+      //
+      // Paramètres :
+      //	sProfil (chaîne ANSI) : <indiquez ici le rôle de sProfil>
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      // 	bInfo (booléen - valeur par défaut=1) : <indiquez ici le rôle de bInfo>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Outlook_ImporteAgenda(LOCAL sProfil est une chaîne, LOCAL nIDAgenda est un entier, LOCAL bInfo est un booléen = Vrai)
+      
+      nIDSession 		est un entier
+      nNbEvénements	est un entier
+      sLibEvénement	est une chaîne
+      nRetour			est un entier
+      sIDRendezVous	est une chaîne
+      sGuest 			est une chaîne
+      bNew_appoint	est un booléen = Faux
+      nId_even 		est un entier
+      Sablier(Vrai)
+      
+      // Ouvre une session
+      nIDSession = OutlookOuvreSession(sProfil)
+      
+      // Parcourt les rendez-vous
+      SI RendezVousPremier(nIDSession) ALORS
+      	
+      	TANTQUE mRendezVous.EnDehors = Faux 
+      		
+      		sIDRendezVous = mRendezVous.ID
+      		
+      		// Vérifie si on a déjà importé cet événement
+      		sql_code est une requête SQL = 
+      [
+      	select <§cs:6§>
+      		IDAgendaEvenement,<§cs:6§>
+      		IdentifiantOutlook<§cs:6§>
+      	from<§cs:6§>
+      		Agenda_Evénement<§cs:6§>
+      	where<§cs:6§>
+      		IdentifiantOutlook = {id_outlook} and IDUser = {user}<§cs:6§>
+      ]
+      		sql_code.id_outlook = sIDRendezVous
+      		sql_code.user = gnActif_user_id
+      		
+      		si pas HExécuteRequêteSQL(sql_code ) ALORS
+      			HErreurInfo(hErrComplet)
+      		sinon
+      			si HNbEnr(sql_code) > 1 ALORS
+      				pour TOUT sql_code 
+      					nId_even = sql_code.IDAgendaEvenement
+      				FIN
+      				// On vérifie si un conflit de modification existe
+      				nRetour = Déclenche_Conflit_Extérieur(depuisOutlook)
+      				// On annule l'import
+      				// L'événement sera reproposé à la prochaine synchronisation
+      				SI nRetour = cftAnnulerImport ALORS
+      					
+      					// Rendez-vous suivant, sans modification
+      					RendezVousSuivant(nIDSession)		
+      					CONTINUER
+      				SINON
+      					
+      					// On conserve les données présentes dans la base
+      					SI nRetour = cftConserveDonnéesActuelles ALORS
+      						
+      						// mRendezVous a été modifié par la fenêtre FEN_CONFLIT						
+      						// Enregistre les modifications apportées dans Outlook
+      						RendezVousModifie(nIDSession)	
+      					SINON
+      						// Applique les nouvelles données présentes dans Outlook
+      					FIN
+      					
+      					// On doit modifier l'événement
+      //					AgendaEvénement.Invités = ""
+      					sGuest = ""
+      				FIN
+      				bNew_appoint = Faux
+      			sinon
+      				bNew_appoint = Vrai
+      			FIN
+      		FIN
+      		sql_add est une requête SQL = 
+      [
+      	insert into <§cs:6§>
+      		Agenda_Evénement<§cs:6§>
+      		(Auteur,Contenu,DateDébut,DateFin,IDAgendaOutlook,Lieux,Titre,JournéeEntière,IDCatégorie,IdentifiantOutlook,IDUser,Invites)<§cs:6§>
+      	values<§cs:6§>
+      		({autor},{content},{startDate},{EndDate},{id_outlook},{Place},{title},{EntieryDay},{Idcateg},{id_account},{user},{guest})<§cs:6§>
+      ]
+      		si bNew_appoint = Vrai ALORS					
+      			// Importe les données de l'événement
+      			sql_add.autor 		= ""
+      			sql_add.content		= mRendezVous.Notes
+      			sql_add.startDate	= mRendezVous.DateDébut
+      			sql_add.EndDate		= mRendezVous.DateFin
+      			sql_add.id_outlook	= nIDAgenda
+      			sql_add.Place		= mRendezVous.Lieu
+      			sql_add.title		= mRendezVous.Objet
+      			sql_add.EntieryDay	= mRendezVous.JournéeEntière
+      			sql_add.Idcateg		= Catégorie_Importe(mRendezVous.Catégorie)
+      			sql_add.id_account	= sIDRendezVous
+      			sql_add.user		= gnActif_user_id
+      			
+      			// Participants
+      			POUR i = 1 _A_ mRendezVous.NbParticipant
+      				sql_add.guest += [RC] + Remplace(Remplace(mRendezVous.Participant[i], "<", TAB), ">", "")
+      			FIN
+      			// Enregistre l'événement
+      			si pas HExécuteRequêteSQL(sql_add ) ALORS
+      				HErreurInfo(hErrComplet)
+      			FIN
+      		sinon
+      			sql_update est une requête SQL = 
+      [
+      	update <§cs:6§>
+      		Agenda_Evenement<§cs:6§>
+      	set<§cs:6§>
+      		Auteur = {autor},<§cs:6§>
+      		Contenu = {content},<§cs:6§>
+      		DateDebut = {startDate},<§cs:6§>
+      		DateFin = {EndDate},<§cs:6§>
+      		IDAgendaOutlook = {id_outlook},<§cs:6§>
+      		Lieux = {Place},<§cs:6§>
+      		Titre = {title},<§cs:6§>
+      		JourneeEntiere = {EntieryDay},<§cs:6§>
+      		IDCategorie = {Idcateg},<§cs:6§>
+      		IdentifiantOutlook = {id_account},<§cs:6§>
+      		IDUser = {user},<§cs:6§>
+      		Invités = {guest}<§cs:6§>
+      	where<§cs:6§>
+      		IDAgendaEvenement = {idEven}<§cs:6§>
+      ]
+      			sql_update.autor 		= ""
+      			sql_update.content		= mRendezVous.Notes
+      			sql_update.startDate	= mRendezVous.DateDébut
+      			sql_update.EndDate		= mRendezVous.DateFin
+      			sql_update.id_outlook	= nIDAgenda
+      			sql_update.Place		= mRendezVous.Lieu
+      			sql_update.title		= mRendezVous.Objet
+      			sql_update.EntieryDay	= mRendezVous.JournéeEntière
+      			sql_update.Idcateg		= Catégorie_Importe(mRendezVous.Catégorie)
+      			sql_update.id_account	= sIDRendezVous
+      			sql_update.user			= gnActif_user_id
+      			sql_update.idEven		= nId_even
+      			// Participants
+      			POUR i = 1 _A_ mRendezVous.NbParticipant
+      				sql_add.guest += [RC] + Remplace(Remplace(mRendezVous.Participant[i], "<", TAB), ">", "")
+      			FIN
+      			si pas HExécuteRequêteSQL(sql_update ) ALORS
+      				HErreurInfo(hErrComplet)
+      			FIN
+      		FIN	
+      	FIN		
+      FIN
+      
+      // Fin de la session
+      FermeSession(nIDSession)	
+      
+      Sablier(Faux)
+      
+      SI bInfo ALORS
+      	
+      	// Si aucun événement n'a été importé
+      	SI nNbEvénements = 0 ALORS
+      		Avertissement("Ce profil ne contient aucun événement")
+      	SINON
+      		sLibEvénement = (nNbEvénements = 1 ? "événement a été importé" SINON "événements ont été importés")			
+      		Info("[%nNbEvénements%] [%sLibEvénement%]")
+      	FIN
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1e5cf742001ca255
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text : {}
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

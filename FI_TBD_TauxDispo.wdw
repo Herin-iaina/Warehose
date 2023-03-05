@@ -1,0 +1,148 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TBD_TauxDispo
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TBD_TauxDispo
+ identifier : 0x2f1cd9f255b8315f
+ internal_properties : BQAAAAUAAAAogwLgsoByIwOvhStOrYcV2ZZjmdRiJv3E3E6HQ3rh2NBNMy5W2umywBYYFdGymqdG7iTFZ5GufUESZOkgS3bnV4AiLUbWvbaPE3sHZtZZe47zkNQen6gI4t1vLGqO+C15UTXBzUu9f8cgHcgQXl1/BOlr1Fz8WSPRy8x+FQiBHE6gkzeaT8O/13sOgBWE8hhD9+/9VT2g+Dnxm80r+H8whCek4gI9quYJu4rND/VbwyFoGMjjk2Qyy3VBeS8n/fYPbj5x+B8vjJ3RGdLoignqn8JOs+Lfr3c30zqYcG9GVhwDSgRL6qtlKkET9KNGgOTvrz3kkyo46PBrEok+gFdoMFD1uf5yEfzPe0e4Vhoo3l2e4tQz4he1G2t35B6/SXR7o66CAV4YmPJBxtOuhdqGR/fql8dFd/qYQnvQmzaxTbZlIRJzSlxJmA4I4Ziiw3UIkAhtPDjlucsgnXxvhuQCZySfANX5VaBkfZz7LLdCjbIiu0DLgs5uhZrVF9fEplhy3Ui86wFdHm3x0+Kq2ppWyHylR0UJvW2cRHNki+Rbe865rt+qUiYxBY4h3ZryM9VWmXvkoSVeQmjSHvbRND4z7I/WhdHjEHF+tezy2fyM4dTEf7V2nkTl1+VmIqopyAq9pfLjwCfBok2JtEOWSaqx1/OiKYiHdcb8XD6IGYxd9h43quHPPSnZ7CproVw9FICJbdZ9RAIOdf1zBqrijKk9LA==
+ controls :
+  -
+    name : FI_TBD_TauxDispo
+    identifier : 0x2f1cd9f255b9315f
+    internal_properties : BQAAAAUAAABRRiOjrMAuvn9OF6F4/NWn5dRh7rZbv4IWNEeddgqRRTRUdT930VVAWjDaF2/f1dEKkc9/tz7kEnEwGUy6cTE3zqUI+HkOCvWgJCTiZjm6gExGxvDqj7+Th7HMUSLo6utQNLQq64+QqZBUXv463BRuOcEKnGaucvMyVtug4I+6/Kym8seFnyqodJT9f4GMr7YocV0gdZrHZtHwXNrN+fFnDwa+gSeOygCUmkEZ5AMldW0lhBuff3T+qlFkTLd5k9tdyP9MIaYVOMUCk+NrSP/BHhkberSrZo23ON5OG6bsTknXYowUKtLh3YV108fWLdtyi068YNI3SAQGB8LXGfInUiaK4KW8ls4FLlppc9YRv7grm4KzWlv8KuWdHShwoQL32PN2g/UCxWdV72JEibvD0hx5b+TVy2z2emV032TyE6ImaZlEoogzf69IRa0EOhDtoiwPPeQaIG77Qq31pP5ktQ==
+    controls :
+     -
+       name : IMG_SansNom1
+       identifier : 0x2f1d54d7598d9cd7
+       internal_properties : BQAAAAUAAACn3sNRmu1lcOH4g9sW6CYZ1+M91uMITY7MAvx+pi22yXYi0bcHVl3+hNAjCtcbELydG+VhkyRn41Gr60eXl74wd8CGNN0VEdEwB94TqrfFn4AdAYD8/1s2DYpNxECKdBg20WVlBfqgeNML9BbpFH/ygaG87QOClKhNWyiok5x11fTyR9Ydnb8yIcYwtK+HbiR5w4gO7VNmQ+EKLERmdto1Mis+lfXnD4/hgdHUO/rqO7N2iE2V0PhXgSmMdWtEDOENrgwiAzNS/l8KZRBSj1qjNDvbbpaE2ksJo+zzgcTlQ5OHDHuBEaN37+ZUolcy7enl+nPZPrW3u8RlBioeZI4Kn5B2YlblrRSpB/sHmFkZZol1NariLlNM0Ga5SapsTlYCC9ojy8Zb1en+d3RwALbaDsa6OC4Gq+8GG7R2eVIdLBnhz4hy/6vCNN7zucDgmRy1Wc6ORMQe0VL72o9NE5qPBDqPswY2xrAykgFDwIcT3lvo7OUY92d4W7iC5zy02AHbxcPQcZmKySD/sMOuJyLl23YdbaYeHzTri+CjyJCAlp4kZ6c5CFXEoVG+l/JcBvDLB9QUFnM7niT2hdS4knIBd1ALvRAAeGc8USw4Z7qIzb/PjJS8hrXUJ8VRW4Ym75R7Z1Qgge775LbSDB15JcoIal51DPHVM5PQdjEWDWQNis5pzmdUs/QyktBEgYw3n10FSOIDQBlVwdatOMCK0Q/ubLnMRxETyd1Nrk4WAEi+fbIgdEjmaXf8XvqJ2CeEgBddDrO7IGBPkmX776YTkVt/aj4gIvBOAuOMNda+dLJS/9+2GvWkPvDAhwr6KFLvzYCCHGB98ZPXUXxiPYcPdObji6yGv7NIkFt5ZeSTfKrQ
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_Profil_client_par_origine
+       identifier : 0x2f1d5a6a59b8759d
+       internal_properties : BQAAAAUAAAAXyIuRlW69UB7jm6s/KU6D+Xg88gal94cbYP0frc4d6rF38PkhfS4ghOY10lE5gQ0ocLmzylDuMMR79eUOFWsuMqtvLNX3UjVyYs2tnnp/hWNmNGmwE5ln+QY01C+MuTIw9kV4uQRt0p1kUbnWCl22hruhjn0xItC9Z8gtA036AdrQuu3WvrqukMmjGC8lBvvNP1OeltwNvZpgQtlKb0tLWgSbfiHn5U7nVeLc3iMIdf4FlMW0gmG9bftH+83Ql5SYg+OouoqoOhXoNxOgeirbyfu0qyJqSBDyecPF1rRSRP0KKtkzhq9Ig89GenchCYawHcux7MtYDh4rRhIkBUczNt1W3kz/PpBHF3Kft7u2F9OwI3JBMXBMn5lfjSugTdEvN1+LVkBsKKeHKJmtfrdCo3ycczRxa6g13YJl/p7ESwLrNPJRKF82EsadVeIkNPiWdlXWKdncLyud8ves1mo9X3mOQiv53Y+9Q/y7AeIBAAsC7iniQMq2m9leTSRn921NF70SVUT8NR8=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2f1d5b5059cee689
+       internal_properties : BQAAAAUAAAA9hoUuTbSa6jqfVgUVugcq1Eb/qedRPGrHY2SKNtZdvYk3qyKI0YSJzrmXnPaCa+1C+x0f0ZXRuKAXw/AfDleicDho5Vc6F1+ZMFYNK/1F5hVPciZ+4X/la+NeU5o5oRWU4tflrhFieOS0UeWajs/LGFNBz3Ivy3eU2xKQu6oTuiqQAyeh0oQNtb27NGi/WRtOuUmjg5c5CNp91jy6xXoTC4yf+Pb71m+0Oqi65dQnlPTT5zdC1RaRLWqgnC0A9hHQPEdlQ9LtHtJ0/FhTaAeRwaAfBzqon9sLQymk2DQfppDyIeMjTJFf/kqfGcnptB9gpAvr6fJ3Du519dUHbpPf1h5tTa5M2W2HiQdDkcm4N0dGRpW+8s4S+H8bJWHZI3IgHus456UEnNdX0Fxq4ZlNUS9NUILBT+zlWLUegfW1PjoWrcBc032qV/BN4mCL5jxKQ4xYCO33OLHMUeyp1rqtQij1cb5VHRjV6B0RjRPVjzqpFsnnh26hZmL3fiqyCUZM6G+cXASG4Pe39rWyxJdcbqQsrpo=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	sqldispo est une requête SQL = 
+         [
+         	SELECT <§cs:3§>
+         	COUNT( DISTINCT Article.IDArticle) AS nombre,<§cs:3§>
+         	SUM(Available_quantity.Qantity)<§cs:3§>
+         	FROM<§cs:3§>
+         	Article<§cs:3§>
+         	INNER JOIN Available_quantity<§cs:3§>
+         	ON Article.IDArticle = Available_quantity.IDArticle<§cs:3§>
+         	WHERE<§cs:3§>
+         	Article.IDSociety = {IDSociete}<§cs:3§>
+         	AND<§cs:3§>
+         	Article.Stat = 1<§cs:3§>
+         	AND<§cs:3§>
+         	Article.Type_product LIKE '%Stockable%'<§cs:3§>
+         	HAVING<§cs:3§>
+         	SUM(Available_quantity.Qantity)  >= 0	<§cs:3§>
+         ]
+         
+         	sqlarticle est une requête SQL = 
+         	[
+         	SELECT <§cs:3§>
+         	COUNT( DISTINCT Article.IDArticle) AS nombre<§cs:3§>
+         	FROM<§cs:3§>
+         	Article<§cs:3§>
+         	WHERE<§cs:3§>
+         	Article.IDSociety = {IDSociete}<§cs:3§>
+         	AND<§cs:3§>
+         	Article.Stat = 1<§cs:3§>
+         	AND<§cs:3§>
+         	Article.Type_product LIKE '%Stockable%'	<§cs:3§>
+         	]
+         	
+         	tabValStock est un tableau de numériques = [0,0,0]
+         	sqldispo.IDSociete = gnID_societe
+         	soit bNrc = HExécuteRequêteSQL(sqldispo)
+         	si bNrc  = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	sinon
+         		pour TOUT sqldispo 
+         			tabValStock[1] = sqldispo.nombre
+         		FIN
+         	FIN
+         	HLibèreRequête(sqldispo)
+         	
+         	sqlarticle.IDSociete = gnID_societe
+         	bNrc = HExécuteRequêteSQL(sqlarticle)
+         	SI bNrc  = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	SINON
+         		POUR TOUT sqlarticle 
+         			tabValStock[2] = sqlarticle.nombre
+         		FIN
+         	FIN
+         	HLibèreRequête(sqlarticle)
+         	
+         	si tabValStock[2] > 0 ALORS
+         		tabValStock[3] = tabValStock[1] * 100/ tabValStock[2]
+         	FIN
+         	LIB_135 = Arrondi(tabValStock[3],2) + "%"
+         	TableauSupprimeTout(tabValStock)
+         fin
+         
+         Actualiser()
+         Timer(Actualiser,Hasard(6,12) * 200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2f1cd97a55b5840d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1f1cd97a15dd840d
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

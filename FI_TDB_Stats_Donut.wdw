@@ -1,0 +1,149 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Donut
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Donut
+ identifier : 0x2d7753fa0595e6c9
+ internal_properties : BQAAAAUAAAAq20IcFDqIW/rFZ2TLOUnDA6f43cz3ZVAd7J4I116+D2BXPs1l5hKuQBpqNzrQH6ySjx2mCTIXURoUzUNfjox/TUMbVJgmtshV+iPSsIftPHZAFKuc4+MCRYtdkt2f4GY8bKFsQo+aEn+Q2Wz9GScjlyx67d3ZD2AWuEgQIt2+v9rfuzNlfBKIw44OtWIanWiW+fjvpzvia9vlBuesc/wTiiPT0YeQYt1tKKHiPRc4omf023VNbBYxWH2SEG2to39ODgnvpyiI9KugsNrSGVjR9Cd62tyNE63Mz9m47Qcq3QncMue291vgNkGyda7IS3bUrMtPo7hhRF5STWELEzd5+7+CsN6/cHy1lQflEBVg8oKfA9X4s/yy9NV+5idE1FXB2Gg2LM2WDYuJ9UnckoH54r4hx6vcO9KDZSEx/9RUhFTpgns4F3HNp8YwoP5vtz+HJGG1iyyTcd3ISoqFTOAv9oCaoHeJk63DQpQNRAV2fiixqs8P3mfBM2/WprOB9T0mecmTvrPNhLD064Ahj6EPtPFIPGgVHSpiqbPQuJTIp6f+6XhMNkMoBgFFEnzO/KGLPNowTkjmzCZuYDnRtubfDD6H+FBkOMhRaU6jznObZO0ACK/WDvFYRnwbadxGm/A7VoJ2TXqYTfj4oPAw+EIGh29H24/GLmiPfHbIknk+nlQ629DHSOVlpGK+CDuyxkLffEdBE659EWIjY/UeQQVGtbQUw81U725du51lvrr4z/8oyaZzBE7wMiFiMKOQAtQ040jDiV9AXzaTUMC5Hg==
+ controls :
+  -
+    name : FI_TDB_Stats_Donut
+    identifier : 0x2d7753fa0596e6c9
+    internal_properties : BQAAAAUAAAC/ImSulfLMxVl0pvmHKOCTKFkSprKDngyht1/H29RT5eWOpP3UJ303Z3bA3YDJHOZikAaLG2cJWTjmL0KqiSk3PksNp8se/vSX69Cx4YfhxRt0thBqsom3WJzqNxhebSoWE2N6KTn+M2iiVD2FVR4fph8oN75TEEMUx04ES6uL6WflJ0Dbgb+y/6x9ZEud4Z2mrqsx8MjLJoGXgZw1iIGHrbiq+DwXc2d+aCtFqAT514CitfctJzYAoqVA1N3ap5yuxDK5P5F+t0usRc+/jWAriP5waarv/KKYfB4O+6bcBokwxp/Dtv8GyFznNiMDZVmYP/I0WKbNlQhwym7UUmd8+EdsT4VHIjEgXfyTDzUYvAzI5d2JLNAgi9ZXf42mk0ph8PWxgvDXAx9rkv3OH+jLX80oUNie494wNaZ4YwNnhYbVsgX0AapmqjYPSjWdPpKz
+    controls :
+     -
+       name : GRF_Tunnel
+       identifier : 0x2d7753fa0597e6c9
+       internal_properties : BQAAAAUAAACWBZB/4U2kJbe/YY0gM0MlbRqC7UAWXy7K6761EYcrfvI/9otvCOwq8C3nPcWYBp0NcxkriIMmzapPSrqrGgdvSiqtYLNsJOKib/frXjF9eJzHShV4KyIz1ymii5LkI5f8FJwQxUwys5t4rRbTfnmGD6fAK7vHJ/ScnkUgoqEk/DITEGfuhEvfLzP45RS1HV3deXzIhvlkiXkKExvSEPR7l35Lqp14VLi/8hFF+8s/x15BH4krioQL5/F/7KYlBCbxJehAQY/fpn3tt5S9wWr/A5OAhOJBjiKTRAlFFpcWeocutATl3v/tuygJ3D6EE9ghuMfPbFpQBsqp7vhxNNXlKnTyoB/pp1Xlag2yXoYJjbNSvxASnTl1p+GdKVcJVl4eU7HWmd2BEKllNSKtN1NWfvm0dfsaMsTRMmKQX8ogjM0wnR1l4PCPd7QsB3CrEKG6Gmnw6XgOHZa7NsQbnkjrI1SMpKsy6jgS//XUi/A/q6EoL6QqsaQdwYfKOyDLklVklaOQ33MQ0ZkIUb6Oldg2p5PIbHthPJzYCbd7lsu3M6F/GlFWC0etYRySD7foLbJcqttToM1sTX0miABnBtbX/lDkDMF+Zo5YXlzOZiLLVzpcPH3or4Xdj52TGXWIcnfy0jWS5ZEN9qDk67/JM6ZorYvbkX0k8tGdsRpwEDoZs/doEMLwttAxRwE5A3Hz+CqSLn/0TSGAm6lZIgRoHuNEauE+2DlSdOZMH/28jAUne3QSaFzcl7Q0PzLZXJqIhfkK5OAiPPsbZUfabTFbaHhEts5LHlSp65FjLiMLe5un70ZR6nGdT0E+UbcxqIMlJjTOJCyVv3ULUJ/N7sHw3IMcncX8xc73fygzIcv25VZubpr8c52jigzcpBB4PsL0O9r+paKw2yI4nuNfY4EuKxAvgPkziB0GeKj/IrPbfGOx4FRTWVd8fpQT7p8L/UVpVf/z0vBNSOg2691x4hEVB/hyUKI0iSASkt7Nd0IwxIlY7AN2QI8HWkWnHm2E+rZPge5wbc/JdhYWvF9bnPz35vw3DjsfM8P13qvThuWc0/YfZ992FD2vTrK0MZr68N9n+fxqzm5dmN8C/AiyjJaElCBH4y3HCdq2w1AZAV0XWGNfwsvDdy39PdqbPWde0MvxSmrNq4EpI8C7i8qw5w8fcMB60cXoJNbBLknENuqdTzRRUtag9BWT4RurvJR+kaOiXYLcPJU0F6Y7kzvq/p+IMeyV3rNe03fMF8YD1YpE/OOvQndysppZEJb50B/5yZSVNn5JkVQP8q1GPFtloVdSG7p4e0ztArNRa8eXuz/QQMEMmrRVKlu9oEYkBT+JVT5p9eYp7jpmG08ZkAexTIfGbH7/+J0T2O2ILiBqZnrAK1p7VSUiTwzE7j6gB/f8IF9v3C+TYTICAOnBZwMFbpFUhdD7/yEDFjh6PmR0wi679AUmHMFoYp6AQN3N30iWku/aoLdL8dtdYCi2oK75M01dRgvPHeVyXH4VWMXQV6xEO+ZHvqke1M9UH7CdnHhMeJtZYr+LXarrZoFqwDoKR0haOQMsOeSI5NAnNfidnQX3k9hk0Z2GoULFRCDjfT9RNzQdz11BK+nGfKoEuBizVRdO1tU8JpaU
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes :
+         -
+           code : |1+
+            
+            grCouleurCatégorie(GRF_Tunnel,1,RGB(55,70,73))
+            grCouleurCatégorie(GRF_Tunnel,2,RGB(220,56,43))
+            grCouleurCatégorie(GRF_Tunnel,3,RGB(241,157,34))
+            grCouleurCatégorie(GRF_Tunnel,4,RGB(15,183,193))
+            grCouleurCatégorie(GRF_Tunnel,5,RGB(50,124,184))
+            grCouleurCatégorie(GRF_Tunnel,6,RGB(204,51,146))
+           type : 14
+     -
+       name : LIB_Qté_d_article_vendu_par
+       identifier : 0x2d7753fa0598e6c9
+       internal_properties : BQAAAAUAAAAfuF1GkJrVvIDQEBKfoQjd1E05dQ4yG1qw4JwTOPkZZbqm41Ob4Ah8I84Sx1eVzXAPoWUVRMPfdz41OOsnAO3TZ7VnuBQ/xXFtI/twDcn6dBHtg3G9Y25tfpYLTiDXpY1xSsCSglUFPw4dNxykBli8aZqKjtW77lYdgkhz+uwYLRv0JxqG5MffBdqkiZ3ho9FeXKGhg/RxDO/xvrqPx9Ns7mONxvPeDxMjdH8ht5ueW33QhbnE3JXzpphUusfB0/BvENGqKllMvJgc7j/ookaGCoVCNCqrBpKiOmKhUfATi8P2dNLCQjwcaLdoAIBFueOaq2/0qb7dp+a293XBcNB7qVN1ksH/HTYLF0PpFm6QONz/gLEJcy3iqpci3K3M0kzAzt1iULYHtBIpPqw8EHSW8i5VSXcRR5CG1dudABwnaz0fweEvK3ECtxEvn/E4UHP5yJ3VzByxd2sw8TSD/a/xyAqyYj0FCxHO4Ukxj6nHEpzu/znLJ8/gK3aCrhFuXrMEDA==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Agrandir
+       identifier : 0x2d7753fa0599e6c9
+       internal_properties : BQAAAAUAAADFrWFI1rfZIznRtf+nO2b6dGK+YwUer5VYvUM5Qg4vfMs9bnQNQTV1PUiC19JsdyJV3duaIlzTFfGwWUB5Vf1RspxoJuQHm+0kQWNATsd7eiaTX5pTVr81O8bLS5c37IvHy2U2BIL7N4nSIdHmo/yv/EGQMxUnvnXYmBxFJmE+s/pQcHlZ/TAVR00lnjmNSejnZRacDh91e3g3ELR+JUHxIzkZ/aiSovmIeOMf2zn4lKlAyPN8PdPv3rF0F8Fk43e7xjfwaaORGdYEbk8g2qADzFOdTrQ8P52SYIgcY7Nqo3TxPRKvTViODWZwyc9jYai2iSO1wRT3NB1GmeucP/cBbywlGYw40wYLliG+VeAs1hELCCZv1Zm733VghgjAOGh/7Kgx+tpp74qQ553jz2/t5qs5Cw2QIyAB+PF3kf42GxWF8/k5Y2GC/5zGkiJ5PnLnTpc7jyfI20L9x8TLYMmxSnYFlaI0Bvi9q237BHcBOmAxsuiXzuq6m/oLQ2osvBk0OJ//8ZoTZELilvRwBbcUab9qH90skumg1WdcTUTAxOzbA12ITXZ3FkqohI7TsDmQjnG9AgM+PmoxY5/m9YVQflnhqAMvoKmSEUZfoYyL5GEGviIQr/kptu/qcj4EUDUT/1geupRoPeG+zXei5rfyw1IsBleXFeZN2G6OiJzZqIyhhgFXVL6ToLdgsvsNr1Pdn33yvio8k1PundKlnycOLVAahMZv7Kz818Wz/gdUNFXSDvbkiUghJTiywdhTg6OWkgzECixoGKB/vh1i/9FbSRZlCGrCFBV2P9c6zGS6ZWckzSD7IOjvpElbPBhoEHBD9VArTypz1SyejLI2UQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         // Résumé : <indiquez ici ce que fait la procédure>
+         // Résumé : <indiquez ici ce que fait la procédure>// Syntaxe :
+         // FI_TDB_Stats_Donut ()
+         //
+         // Paramètres :
+         //	Aucun
+         // Valeur de retour :
+         // 	Aucune
+         //
+         // Exemple :
+         // Indiquez ici un exemple d'utilisation.
+         //
+         PROCEDURE MaFenêtre()
+         
+         LIB_Qté_d_article_vendu_par = ChaîneConstruit(LIB_Qté_d_article_vendu_par,NuméroDeMoisVersLettre(MoisEnCours()))
+      -
+        code : |1+
+         procédure interne Actualiser()
+         	sqlQteProduit est une requête SQL = 
+         [
+         	SELECT 
+         	SUM(Detaille_order.Quantity) AS TotalQt,
+         	Category.Name as Categorie 
+         	FROM 
+         	Detaille_order
+         	inner join Article
+         	on Detaille_order.IDArticle = Article.IDArticle
+         	inner join Category
+         	on Article.IDCategory = Category.IDCategory
+         	WHERE
+         	IDSale_order IN (SELECT 
+         						IDSale_order 
+         					FROM
+         						Sale_order
+         					WHERE
+         						IDSociety = {IDSociete}
+         					AND
+         						date_order BETWEEN {AAMM} AND {AAAAMM}) 
+         	group by Category.Name
+         	order by Category.Name asc
+         ]
+         
+         	dDebutMoisEncours, dfinMoisEncours sont des dates
+         	dDebutMoisEncours	= PremierJourDuMois(DateDuJour())	
+         	dfinMoisEncours		= (dDebutMoisEncours..Mois < 12 ? PremierJourDuMois(dDebutMoisEncours..Année,dDebutMoisEncours..Mois + 1) SINON PremierJourDeLAnnée(dDebutMoisEncours..Année + 1))
+         	
+         	sqlQteProduit.IDSociete	= gnID_societe
+         	sqlQteProduit.AAMM		= dDebutMoisEncours
+         	sqlQteProduit.AAAAMM	= dfinMoisEncours
+         	HExécuteRequêteSQL(sqlQteProduit)
+         	soit i = 1
+         	grSupprimeTout(GRF_Tunnel)
+         	pour tout sqlQteProduit
+         		grAjouteDonnée(GRF_Tunnel,1,sqlQteProduit.TotalQt)
+         		grEtiquetteCatégorie(GRF_Tunnel,i,sqlQteProduit.Categorie)
+         		grEtiquetteSérie(GRF_Tunnel,i,sqlQteProduit.Categorie)
+         		i ++
+         	FIN
+         	grDessine(GRF_Tunnel)
+         fin
+         
+         Actualiser()
+         Timer(Actualiser, Hasard(6,12)* 200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d7753fa0170e88e
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

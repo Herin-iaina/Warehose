@@ -1,0 +1,123 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TBD_NbStock
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TBD_NbStock
+ identifier : 0x2f1cdb1755e9b0ae
+ internal_properties : BQAAAAUAAABbjEbE12FybLziu1wA/VcLeBQzONsOY1V5SRwtC8yP0qHSxF6LsUs+JKnw5VGeipMHWYaKbmCca7O893eEitLjpSDmMNP5V1TnMw/vKuBqL6BuS63lEi1Lbz7BbJGzwhrhiECF3O1S7beQ9sKBhl7p+syvlizzQUDXW3K5NGwF6hTjoUVa/OGUGWfRSbD2JrUI1jdld0FTFwrCnQ9a7c7SbKtRypGP013HmJj6T8NhZX7VIoHlCYMtIUqOycdpWnsCjh0QzNHiEvsCVLtd61cxznOVo7SrGouKTPd12csgvRn6u/d82jvQi3M5lQMN5hVTVjE+p5KcTRwZFc4xJ6ClvpqhpEegMtC38rYKVRbKpG6bjpOySjJ0I4B/5lxaxnwMLF8TRwcBAFPAdCsWHIh6DrxhvbwrANjRQJd19SJQQu2OJnajQU2GvJjGNIlnUgtDiKWrWIlOpPFf9y8WN/XOoyUbNNM1TKWMSipkgx5qWPWyLgeuva1Rdp8zhoW50MhIrUPcnkDCNxC9n7wMYo0Z7upCoYaS+VS1mmBdUlxP+JqaqYzLdgLlevt3DA0I84TZ0jzdiYuZV8vkwKifuJLI5bM/CIRjJ/Q/mOsaiZQ1Djk0e7vexn3EYVLa
+ controls :
+  -
+    name : FI_TBD_NbStock
+    identifier : 0x2f1cdb1755eab0ae
+    internal_properties : BQAAAAUAAACWMROJoyhiAnitg6+4agVLSYzjL1Xnzcu/Sux+0+125JdCMZq+ooque7KIC/shE1Aj/AZ8dfQj7/SoeYtwxljg/+QtkgXDPbBm6WLqqlZFBaSSFptlauU4pmXyyhz0lIha0pChhIrMS6WKm0/PfBEVrR1YAhAM0x7cOr+/FPmbct49zd4PEOfanulKqF22wvWmJ2j2fSOuVre9BRyVoeIrG20lP3l6YB/5RtXCwbtQttneRcFkLLJUczx251dew1zeY/sL0HgPzug8uNLpnpN8UOvTyuFmxLFgJx1VPqttX/kJs6Oot8cxYjJNA0MQ9RbryoV8Vpy4bBeDEWNgLQ+qSLA7TGFoThm930RA1VJtx7wGFMVPfddwjYSziZp6nmZ51ILSmElh1jPoAsUxq+ksIR9wYEWnUwTh648WeVYfTlmYPR10o9iOHxBIMd9dTXkcq82Q0zilJzgk6OHjIfG/lXKZag==
+    controls :
+     -
+       name : GRF_Stock
+       identifier : 0x2f1ea78b6065f7c0
+       internal_properties : BQAAAAUAAADlft9Sv7gb4Wi9lvbu8RQ0dmWInVVeEjXj4n8Rrmw0+1lRPtHnJbAIsPqkCm2DRpOmMppPFnLmX4EQX67PYcMp+JN3XwiUAIgzAbBXqpNxfZCgDS0izdf7In490T3nyG5cORkrdtb0o5Is9iwSM6LReEYK2RimE+zeio/S9Z3F15eKVnQatkWaV3IB+zgON3Ekx84710/i0LekbEfy9NJef+Xiz3rYkl0qAEi5p25ZOLPGwX2B6ZR2P29JmOw6WY7d8q87ag9yIwrMJ/2qJIQ79lzuA66SOoKGT+3I4c8QmbUUAIq12Lg/yeI6VzgdX7AjrhLA71PBAutpNZejCWnOjjo1xrBWIdD2yPzuzS2S/HV/T1oCKE8wgKJCN+99atmKZFIFG4l9e191aLoRpbn4uC5iD4CQRfCfbieJVLzisCXBE72j7CZQyZ271mGbwDnZzeJ29nFDl6sNdxXjYs0y2GWnOo4bKuex9NO3Z+7CgJSNcIq600CR/ACYvGHr61WpDSdebhgs80/bd/JVcXiC4K7RUSAysLFYn8UtbvtvGXjQh+qWCvC13/pU0cFmwZDlENsPM+1KSUb6Q4JhwzjbZR35OjoV94jMspgjbSkT91xN/VlIxrTSkIMiQUqM8bEX8xWeLZOLK9nAZzAXKl0MwytM93gLTWUHjGYj1CyLubjbC4Jcsa1D7JH7w40uOcfRQNmH05n2/Kl5j+QLWQ6IC9C8voz+cxgoznuBje627EgvQ+IqhrcNgwXwIBib6pXMxpZBtuIJagq7BIJ3CmrqGVlUKknr4gWcMyne7A0SWmZmxGE6QU1N2W07K7u4tmEr3xIkaTMqXs9HoIv0To/RAHnsUe8qzgZVfHLKm57Q7lhuelIXMRcHE2ZC9jHULkXHKba0qpZ/oneQRReCR/gDWDwB2KAk32czKsahxnaw/rjxsaoqoUbgb4uOV+75PP9+6r9tEL4ZN7KYg5XIkSxswaDhxEv/cyv7J08W8CTghKnWM4DsvU1uEo/WmYLJ+9/qLbAyi+KrgiJ8HyolQpN0EiTD7GXIN7htUaxL0qDnTCFZWq31o68a2w08Cp51PyPEzy7Ly70L+Xt1e/jSb1rmmFuICjwYb35FGT/69+jEL5eZZsERgVh6FBle0gjJcc0cANUIV+2G9aSNdefMQhtuO/8w81JN4grZ8E/zNeGbXvZBOVpKBkh0VJTeplzqOuRs0AIWVU4KKBSjLsICgV8Kb2mFaNktPxpZdTjnENQ9Vmm9xJ6NOMxVfARfOm5BnuWoOKFNMcTxlymfmVY4lPdICTcrodssmF0P6oB7hPbz/E7xFK4BnA7Ap/Mu5yW6LwT3J6BCv544pXFbFMLd31g+sbIWE8pA8joiGovFt/C5TQ46hMOEAGaUtjaLsXGWGI3ST9q3LjZVkLASUn4nT4PVa0iF2qqoprNUV2G9DjoT3iZQOVk9IUD7nuD8wMoR3vBh
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : LIB_Statistique_des_articles
+       identifier : 0x2f1eb968609bba64
+       internal_properties : BQAAAAUAAADu0hvSMmnZrE8oCBwuIkeDEZreXVGB+J7T7pgxmTYlgviCrx38fUv4IYJGNnPkfOmltINciYYiS7xWO5+imYaix6RsqhZccWq502tiVvlHnSJP2c2Sb9g5Dcb05dELqq/zsMB/YAR/q4XyLbuTSzTySwY2BvXRwkh3uovZz52KPKW5Q6aDgNQDlzVRMPiSg8agmnB0PYKG8LFiBldEFfHKMGHUy+FZfZNa3PE2y0x6V84XRQmDRVnxzQmeJwcbFziUSKbn5t/96yD4UG6Bm31ug5Y8SnC2GwnuqBs60lNML/YFc1aWVbRZvXsU1f06BF5bf+d1B+LPIlDANM2jBYIMb6KMeLIoLG0sC9PoPDhzmVlP3Pg+38RSuvDXExkTAmZ9fspC21dj2uuHv4rEgyEq2YgCduQE3ZwFBbvs18Hlmxh+fpVBwx8tpOFb0cVS9EBhPln4UtQOJlfx8/LXB15ksOW+S49Kq574GfOw3yAW0N4H7HKxhM3h55pj9TuaroEAk0N0
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	SQLStok est une requête SQL = 
+         [
+         	select 
+         	Warehouse.IDWarehouse,
+         	Warehouse.Name as Name_,
+         	Article.IDArticle,
+         	SUM(Available_quantity.Qantity) AS QteTotal
+         	from
+         	Warehouse
+         	inner join Available_quantity
+         	on Warehouse.IDWarehouse = Available_quantity.IDWarehouse
+         	inner join article
+         	on Available_quantity.IDArticle = Article.IDArticle
+         	where
+         	Warehouse.IDSociety = {IDSociete}
+         	and 
+         	Article.Stat = 1
+         	group by
+         	Warehouse.IDWarehouse,
+         	Warehouse.Name,
+         	Article.IDArticle
+         	order by Warehouse.Name desc
+         ]
+         
+         	SQLStok.IDSociete = gnID_societe
+         	soit bNrc = HExécuteRequêteSQL(SQLStok)
+         	soit i = 1
+         	soit xStockTotal = 0n0
+         	taValReq est un tableau associatif de numériques
+         	grSupprimeTout(GRF_Stock)
+         	si bNrc = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	sinon
+         		pour TOUT SQLStok 
+         			xStockTotal = (SQLStok.QteTotal > 0 ? SQLStok.QteTotal sinon 0)
+         			taValReq[SQLStok.Name_] += xStockTotal
+         		FIN
+         		HLibèreRequête(SQLStok)		
+         		pour tout xValStock, sNameStock de taValReq
+         			grAjouteDonnée(GRF_Stock,1,i,xValStock)
+         			grEtiquetteCatégorie(GRF_Stock,i,sNameStock)
+         			i ++
+         		FIN
+         		grDessine(GRF_Stock)
+         		
+         	FIN
+         	SupprimeTout(taValReq)
+         fin
+         
+         Actualiser()
+         Timer(Actualiser,Hasard(6,12)* 400)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2f1cd97a55b5840d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_TBD_NbRupture1
+resources :
+ string_res :
+  identifier : 0x1f1cdafd15e14ee6
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

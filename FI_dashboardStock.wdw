@@ -1,0 +1,263 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_dashboardStock
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_dashboardStock
+ identifier : 0x2f1cd73052b26f58
+ internal_properties : BQAAAAUAAACpiUPsHbIbjPF/F3HWRr2Yrhe+ZLHDGPUCmPXj84Kft2jW9vta8yz06JjQXgWJnVkPuK0LCO7509HNQvPtc73J4A3bfDhnFXxEfLusNHHtunpN7dLvQ66nIQYZ5V34mTUQtDbkqOGisSeerrfAUCsUKAp2g/A+TReWOgmxllrza8m67fUzKF0jmfJuyy+nM3/y97XV1rZVvI/2bRoBLEQirFdV3DKRYUlzDlw35TSHqMFtGgEA+H7J696WSSru/Trgcy5xFWOBrLAlNMRLdMnyVbpW1qiS2mrryS8LnQONSKMnk+IaB8TlNR3Kx1ax5tXp6KGtlELaPf62bNBXQmWtqUcDgGvXR24ZdUVee776TmI7HTufKiEBRN3Zv1m2eV+j3Wae0z3L86uevQ8cq/rGAwdpt1mvc8H4+MC7aSXlzceWxG2RkY4o+8tOOmYlnTZegNPpQQ+cBxVhAuR9STkLPmn9dhEPyOQMlTX/QwWccW1N8YK77NiJgJZCm2lJ/YZqrSsDAD0XcMwEjKh032SYevgKFowYmtkCltKQ0LKKsXMiLZ401Pj+giqHm+mGDlzfKYQ48FPDhCDrz7e7ByxN62IIOBK5VScj6JJ4lEzyFZDwTlWjyNJ5B01ZEXCs3+O4c2acEm5U0VlzvY6CoqTMo/kiKGT+u19xD/5R8f/hIF1B639+yd+UA4gXVAQ/C74knt192yeBeROBF89CTYJwrrY=
+ controls :
+  -
+    name : FI_dashboardStock
+    identifier : 0x2f1cd73052b36f58
+    internal_properties : BQAAAAUAAADhgELaLqPTswkcMBDpP3qQjE8m9JgCfkRQDaH4E9+Dvw6Gn6j5Y9qkH2vB+MSgM1pK2AnIThpQIFjqBC/xVc5PxabH/s27GVS0V47E2PT/PyKkOL/p9qE4hDuyODYyrjK8IEZxaA5QE9so5+15FlMXg++2smTQ12ZmtDshXsftNGTPNzJDdEM29Acqqp98DN9YxQZWPbseMhVjWaYHs/CBSY/3swEKWH8fhBU8T8GqsNPc6PA1kx0BDNWdugC9/CuxzmKmFTPWV5HxzyVy3bwLX9rG4brdRzrpgGQI13q+LtDY3sIphnpiUy9ICrCDCnny4fxHe4e3LZRAUP65vKgxeyOyj2ZjXd4GTEdPAkVy2i9B0+hsmN65GsUWECcFjwXsXyl1/6L0FFGdl8rdlKww9+SBmDMtsiacReiX5A1hG2CXIn+dayZQn5lBGAZGSlxhcArTnnXY2OmVWXBysmYyZkPqmQ==
+    controls :
+     -
+       name : TDB_MENU
+       identifier : 0x2f1cd77053e776e5
+       internal_properties : BQAAAAUAAAAIGK3AxdhgCTOqJdd4FfFS32XXgbrrCek7WNZWQwkSntxyD6iKltDdqGqwXf6Btrq4ggoB2uZQJha6QS8m1p9qFuY8EWQ+7z8I1BVps8tMBeOaqr2e8CQey7KAfeekEQFTJBZH4mxJtH8Y01D0mMjNzIlnUs3ou97OcDLqH9Fndo6ymgQQ+KYO+hHJq1763/gVYlu7vEdOcQ0Yo6dNtxLG38ZJd0JcIlc2MpCnRL8vIdZSqfAHoJzX/vuJVOiJm8+jWLAM/P4XcQCFd5KRElwZXlEu/c6YPr2qnrs3tqRHf4PSwTNHuil3plnGbtZUrIQz+VGwQVAt4JVpyHMpokVYo9ABFXibrkQ7yrpce8FtqgOPohD4SLYGCifLNKuOzmiaKxl1Xatox4TCqtKhB8QPvFHEz+HEThFPTdEs1r2CuXnmMF4w8TBhxjeJD+TXkzMLVHI34ngXZ8fIqdATpHa4mHxkiwddKksit9aw5Lcb2WzLDgt0hxbkwAbfVgmTMyO9QAU9zQF2b09Cx/aV0n0YUhPs1Tg8wkrdOxvLeiSUL6chuJRsza3F1EuSsylmH/bceI+NXcwgtvJWP2rwrKtlxWuZQzvTSd0cYGrHh6shGEzVqhL4Ch3TqnEiBQeQ4rAq2i7kfbctz0GyS4bzC2LwBfJHCVv3p/maSap0rXUgtkGrf9XrN/sR8oqpVu7UuU5rue7SZvetiBUsEw+gNTNBcNQFYQnwGbr3WqZxCp+HpEcj3+JgFR4ftXfmju0o6/hYQElnO7PYGcTVXNXYcawT7IdwJtLXJLw/vjo3mQEctvu27qm/Wpm5k62keyfLpRkDfa00kvyMlOd2xgZObyoG5N42yw7qZ6gYpa71ETDItLXSx9Pyzb92HyRRWKIPukRSSBGazF14h5Pu4ei8TP41zvbS4FeZhPIKkqA1LzkXvOloZ/yRrHfteFE0ajw1uZPzUYVfi32V4bYLuALmHE7/z9rdB88hMStMDRo6VuhIhXXFGhGgzVJgTokVMroThxxeDRhbijJ5SeDD1M8=
+       widgets :
+        -
+          internal_properties : BQAAAAUAAAC3B3GW0VDGlCcqZI7kpm54tYc5EhULiD+tL36h3frAxQrlUS7DUQFLXyItfxywvyW1CzgV6Z/Lj3tOWC+mWZPS9vhIGkLjCphTOzI3VnB0OW9SFwfiGZ40VmEfJyiZRnVqNaOjvBb732Q9hi54OQcBQpwPbSsxljq2C/2enkBgEjMqXkeTPOcLQW05t1oXaqLQc8qDft0jpqefE0qrNLCQEEasz0dS
+        -
+          internal_properties : BQAAAAUAAABfSwIMARDYOJIcp24q4KW6czTpqeAdhQACgSAQ65UrBd1rbKMnfKrcS79BLfUaBbYqANcG6c3SHy3taAGGw2a3ESgDLtZHCcpoQaxehnzmvVa9aOLpAfSaOoW2lqfHmfkTLnz6JaZT6kNcloQOb5K/mHIPm8BZJOzM6mhjFeAJSDPS+GXdc0gVEsyDz+pcdiywjNNQSSDbjjYmU+KGxV/I23xbRPBLSHMH2uNQdOZO0Q==
+        -
+          internal_properties : BQAAAAUAAACxD/RgdTEtF+49+vIRUa5+1QuT5k8QIPohB8oH7HtftshvbGrjS2tlTNsIoHWeGMsnGw6X6261KXEn2NZs/BuBKBkNL+z56eqRin0EDjfELzt87DfdbqKmguwpVxjq4ULf4euXhYjuztVKvNJ7zxmTJfhNGbRnPPWLLkOZuw7E8QfkhKXe4Ay5edztoToglRbAiJu46gNYhW1MR418vtai783QX+ZJlIQDMbUMk7TlhIyY
+        -
+          internal_properties : BQAAAAUAAACfSYYvHthjL0XBfR7jwsKjRk9BG8FT3+6KWNbdLNxw8aquJl8+XItssXqfN59Z1G/tjP+rmWwgEZJTruFUws1ztTshSXqaSUzdl7jk5xdi/SM4or5KnpdQKT+92pIG7+1luwIgSZOGicl4Ywp9QC22dCHtCaJWQFYfXK5L8JrmIqUfJjMBKii/m3iYtQ8FrqxaJ2ECfWCM0LnaqffI7BxAlw8BElcmVcZjnDsI6Jvn
+        -
+          internal_properties : BQAAAAUAAABdqy5bg1LXfWB6cHa+Upvi+joLEJeiXcRjTZiBeZbAodLTxbN6UvqOaSmU77rjX5I1ZL2/iOEJFWYmg/ShsC2GHZK2i6wsrhgfezCx7oc0j8scTKf9LpLGgtRh3/AyGYq3SSN/vZCmDhNQ0oQFJLnTRQLdOtzHCQrSlUVSFtM0X/3b22YDoxtJ5m882uO3vL9sM8gPidqOdqIjbpn0pJbejifmqgj4KxXLA7muhAH/CDDE
+        -
+          internal_properties : BQAAAAUAAADVD9EJ5l4nmeCYUh7err5ppqiyv6YpntEYRk+OhrgNfe7TvcRZAyQcUaSxWyQA2H0FyIt8TySwCJeVZoHQja607wOd0mWVsHYfcGFDt99i7aNAouZiFvcs/fPx9p4C+4mBX/YsMXVk/0tYszjS4vzlLepZZv5Ra4+xBaw9l0RJIKB0nxkcIC/n/TQsI4XnR9SaxpHYb94u04cWgGSEIxGpiG7/TAA8oL3mG3iFqtkh
+       type : 111
+       controls : []
+       code_elements :
+        type_code : 134
+        p_codes :
+         -
+           code : |1+
+            // Version 1
+            // Description 
+            // Menu sous forme de tableau de bord
+            // Orienté menu: chaque widget est cliquable et lance un traitement
+            // Modifiable par programmation
+            
+            //////// Remplacez ce code pour remplir les champs avec vos données
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Info,<§$0000§>,<§$0001§>,DateVersChaîne(DateSys(),"Jjjj JJ" + RC + "Mmmm" + RC + "AAAA"),<§$001d§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$0014§>,3,<§$001b§>,17,<§$001c§>,<§$001e§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$0003§>,3,<§$001a§>,9,<§$0019§>,<§$001f§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$0004§>,3,<§$0017§>,23,<§$0018§>,<§$0020§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$0005§>,3,<§$0016§>,16,<§$0015§>,<§$0012§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Info,<§$0006§>,<§$0013§>,"25.1.80.63 "+rc+"07/09/2019",<§$0022§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$0007§>,3,<§$000c§>,8,<§$0011§>,<§$0023§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$0008§>,1,<§$000f§>,58,<§$0010§>,<§$0024§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$0009§>,2,<§$000d§>,"+3.7%",<§$000e§>,<§$0021§>))
+            //TDBConfigurationInitiale(TDB_MENU,TDBAjouteWidget(TDB_MENU,FI_TDB_Widget_Valeur,<§$000a§>,2,<§$000b§>,"+23%",<§$0002§>,<§$0025§>))
+            //
+            ////Affiche le tableau de bord
+            //TDBAffiche(TDB_MENU)
+           type : 14
+         -
+           code : |1+
+            PROCEDURE AjoutWidget(Widget)
+           type : 194
+         -
+           code : |1+
+            PROCEDURE SuppressionWidget(Widget)
+           type : 195
+         -
+           code : |1+
+            PROCEDURE DéplacementWidget(Widget)
+           type : 196
+         -
+           code : |1+
+            PROCEDURE RedimensionnementWidget(Widget)
+           type : 197
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+ menu :
+  name : _Menu
+  identifier : 0x2f1cd70252afdcfb
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1f1cd7021590dcfb
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : Date du jour
+     index : 0
+   -
+     text :
+      fr-FR : Date
+     index : 1
+   -
+     text :
+      fr-FR : ce mois-ci
+     index : 2
+   -
+     text :
+      fr-FR : Facturations Fournisseurs
+     index : 3
+   -
+     text :
+      fr-FR : Commandes Internet
+     index : 4
+   -
+     text :
+      fr-FR : Notes de frais
+     index : 5
+   -
+     text :
+      fr-FR : Version
+     index : 6
+   -
+     text :
+      fr-FR : Commandes bloquées
+     index : 7
+   -
+     text :
+      fr-FR : Historique des dépenses
+     index : 8
+   -
+     text :
+      fr-FR : Chiffre d'affaires
+     index : 9
+   -
+     text :
+      fr-FR : Ventes
+     index : 10
+   -
+     text :
+      fr-FR : Ventes
+     index : 11
+   -
+     text :
+      fr-FR : Commandes bloquées
+     index : 12
+   -
+     text :
+      fr-FR : Chiffre d'affaires
+     index : 13
+   -
+     text :
+      fr-FR : / année N-1
+     index : 14
+   -
+     text :
+      fr-FR : Historique des dépenses
+     index : 15
+   -
+     text :
+      fr-FR : ce mois-ci
+     index : 16
+   -
+     text :
+      fr-FR : à débloquer
+     index : 17
+   -
+     text :
+      fr-FR : CM_a-rembourser.svg
+     index : 18
+   -
+     text :
+      fr-FR : Version
+     index : 19
+   -
+     text :
+      fr-FR : Facturations clients
+     index : 20
+   -
+     text :
+      fr-FR : à rembourser
+     index : 21
+   -
+     text :
+      fr-FR : Notes de frais
+     index : 22
+   -
+     text :
+      fr-FR : Commandes Internet
+     index : 23
+   -
+     text :
+      fr-FR : en attente
+     index : 24
+   -
+     text :
+      fr-FR : en attente
+     index : 25
+   -
+     text :
+      fr-FR : Facturations Fournisseurs
+     index : 26
+   -
+     text :
+      fr-FR : Facturations clients
+     index : 27
+   -
+     text :
+      fr-FR : en attente
+     index : 28
+   -
+     text :
+      fr-FR : CM_TDB_calendrier.svg
+     index : 29
+   -
+     text :
+      fr-FR : CM_client.svg
+     index : 30
+   -
+     text :
+      fr-FR : CM_fournisseur.svg
+     index : 31
+   -
+     text :
+      fr-FR : CM_internet.svg
+     index : 32
+   -
+     text :
+      fr-FR : CM_chiffre-d-affaire.svg
+     index : 33
+   -
+     text :
+      fr-FR : CM_version.svg
+     index : 34
+   -
+     text :
+      fr-FR : CM_bloquees.svg
+     index : 35
+   -
+     text :
+      fr-FR : CM_historique.svg
+     index : 36
+   -
+     text :
+      fr-FR : CM_ventes.svg
+     index : 37
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

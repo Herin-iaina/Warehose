@@ -1,0 +1,460 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_paramètre_de_connexion
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_paramètre_de_connexion
+ identifier : 0x2e7c78e801a4fea8
+ internal_properties : BQAAAAUAAAD6W+Favc1ploGOdY9f84YI3vPiHimh658NDZncI7nQAd1YlucgTNbPkP61zrI8/wkaHnY9Fx+hR7/tbSJjBvooH/4E5eck0X3phm8acs2J6VtOqdBvL4Vo4PkHS2+aeKOli1eEBtzSzS0HfvxXnOZiDgX7kO3nPWFJUHmdjxj0qG37+Anm2MKN+oWEgUAzxkPBbxPSBOK65Dl22TTzoVozt/v1HHJCaacIF3+xaPG0HxDYNsSzZKuU/cVeQBzeq5C1qH8efoSsEa7AL8ANpfWJJXcAoV98jyXqREit3rwdeToeTCKA8vwRhCbWePIjbXypLyMyWnuhhVxOPzp2pcXwvvvoQgwxnRg+GcLJfZf3nbNfPBfkiHbG0Kjo48k/Sqni7Bj7V3YNg5vmjnvaSQ9knv560w47ilIrRzw34uFsl/X5K53Fp1WnAG7qZWmjP839gpp6Tas+2BgE20UFEbfXP63w65XXaqGQK0rHwmfllgN5PGyZYELJWSBoaiDc9beRxBYKA6qnmdoPJkx2osfqSF96zyMs0tDe3kVnscQZ1vf6jeDZJAy1+LtRthHjTfV1roSU0qw8WHm08vsZbGQp9Y7jLrMTvpPFxeOxjjxrcedkU2py543K3/FsJCMPDUyyHnQMdxzn7UOcNzVSIDD/pZYPIIVtUy7zIb47P/2VMcKw4OvqMcAl1DLX5Y7OxgDkYMPwa11MtKPhWFWHV+0=
+ controls :
+  -
+    name : SPLIT_model
+    identifier : 0x2e7c78e801a5fea8
+    internal_properties : BQAAAAUAAAC3ZnIDufcyURI8DQ9M8vnN+6oZC+QlUz0az61Z04HOmtdNZMI1yMLTAHTq3LrCf0tLRU0eblLIIMEzTCZKGCBwNyLpawZD1ZCrXU7QKzwBaRZDVWm6BUoIVsuj4wQryS3BiCkLnYnls95XRFr9ZZ42k1axB2LT/s5A1TEQlW49X5DnScv1DKA1OtdamzlylfJwompYc1tNAaJf67uLA1UZJkLGAg0xpb03Qwch8zdg6z/e0K8zTL2ouinMQW8fgDpwHoAGPTwNzhgLYpOn7qR/NMs/iG7Tm8XMEN0npB0qf/ZaiRVR8Vae6ltpjwmQJV7gruH71scGDAd+YbKQBZUyKNbZQJzlOU8aLsCsN02FgI7d8TVkmGPmIzDQS8ecqnJRjEm3RfbrpgVdMULiUrimC2X+VWqmU/5bvqmxlMRkUoZwy5J7ea8YwPizfilLLtD2GehT8ryfUkhiGnvykzSDnipfZKgqqkunJDMLJPpT8cWTjoSmnvjGbIdg/6+5yyuYvJvvKDaNdBRVsaV4GZCcsQ==
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : SAI_user
+    identifier : 0x2e7c7ab001f3f196
+    internal_properties : BQAAAAUAAADJCHKJwqDj+NVLf6UvIgtJohwtV2BpxabqPlSJ6Gomv62S/Q1bkLm5VcI7LZr/sdNz9eveuNTA9y7J73lLBjrju04OdRYvBc7voDBM6xIS3jR5fFrH6woBrGcnrZuhsI/bVYS0Fru6xFth6Zv64bcs64Rn2ZKxg4gQ99yU+SJW2Zh5SDMo0h0NQKK8d5Zd73J0qqGIdbAb48koqBhgudkKzAqkT4WYyBpqMUS9hh5yNLZRuUoSzGhXI9ZbA2em/aZlpyGKy4qilysvt2m/W0KUpK6Ldpr0cWXNcyfq6oqefOkJIIj8NvaCox9ayacffFMWi36NsbnJ3p/CdOvhsMJbexaJSiwD5Rc1Yk//MWkeGSPIWGsoVBSeY8btbrLUrqYbpC9OmEFtUWeULDhwEUsBfnDQ83GEZu2stXKkuyUK7IA2Or6FdO93vEhR1ytuSbGT9LiQk1UJE+I/Z2ApAYr4kSClqe6NmoOjC/U0Un5m5uFp0PZE58Ga+CLG6WSTIHbJ3NONh0aEzEXeaJzFGq8irKwwqm0g/Rkl39C8HArSgxbSjlUT0Iuho9pVG4xoIZn/aOVCUsdDrxcYDZeaUouBs3JP9pDg59Tqu99cKgzCHnYsLzxiw4P32rw43/bLZsMwmZQJigNRnwjY0OjeQWL3H6eXFaRC3TPfTr9yf+CQQYO06r58J/ectvLPcnMFDbJF2wKs7c88z9krS6RGrIR57MA4FfoqNnhAcCn9JmAUwF/k2OJP4QiGEmurXMiUydsBRe93hYjK38oizCnRMzT84jw9xL6oc4JuRNX2SgNjHOPPf3tAS0fL7+cQzO+2T9n1JT38VloGPfdeMfYkceUDkxNb+rSC/ncM6xV/NbqS83mkoq9Whpmr44PB4OcW0qUwZk9nsgoOZlyUhYBhfJm98+ltP0ZAX5+x/sCzp+iiJ8AlY9IrHTNWOj/AJEE8OTOcVCrPKaKO9FFwRK+WDhcz4XbH/UaWzbydvxj96V5BAJYT10gwgrVOVU4MSazsOq2Q/xd33cO7ViYjH1wgYNMf76ISxC67wRQ7XXkNAdOoT3vJBbVIOA+LXe8FCin/U9xlJuWfM8ByRv6a0kWELj+diPBuZLxI9RmUFcww3X/JvkHPZrKzhJDoC/8Faql3XNzxBuvYqWaFoYDiNlwqZ01FPz6w7oYzM3XQgKIg5fPteiP0K2Af+GWO70Nii7Wcb6/OsiMO9i006rLX0WrSEyGkHsBI
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Vrai
+        type : 17
+  -
+    name : SAI_password
+    identifier : 0x2e7c7b8201ff26d0
+    internal_properties : BQAAAAUAAABagZDIpx+Jm8Fj/+A/yZTyA4+A1bmMd0cYQ1wuToZkXUfwGAYuig93qItSsbULkkePigHdoKBRzNarc01c/x1+Eb9WYmvIMxoD51vJq2BI8V4oSqNUgOI+UbALsZO7Lro2uJpzXZeEZ0nbPtvkZiQYRgM2xxipaVtOtTFY3w3NxbSGMT2fRIogEj9akCWycN2BVjH353VBLSNJSRyr9LI2ypdKvHT5261GWYaLhil+dG1QmOT1mqDycjVco+zaEjSxIAsRpyKd0ZA9QgVX5dn0El5pp9ZL8mZl9eXFw6P/U3cdZxraLyGO8lIM8g8WVUSnjv5zsp6yDUI1NPDLj0j0r4pmvHZygWnzVVGHfr4RDX17MrFLENIHm7NvRySNG2QU7rPSNtOTJLRlwY5ODQexY7292jYkYYcaIhaztTLA3MKZaMvRgOI0BekoxqOvrzrw+YSCEf8NMaIYiQBkwEEXL5piRJ46kSIP6Ah2OZ21YUAz/PLhwcaEsHIsbkAXDUh4s+jLSHaMczT6XfTgbmqH7cyOl/nn3ArdIk/mzrSIWbFQjsC1iyeATqFqG/5IQPwUnJJa7TD1Jh7ZY+iV2x1pS+y4awXdDS9FyyTW1Y9Dq1dCDwePBT6y7aJg5W/PWC3rQd78OZmKkjj35aVtp1YU0m4Rv6JqsFaVSuB8S7QenGwqxXXPsSbF3OvDgu/rA1sov8DlayhTAvBLKjX03EsmYc6Jyne6kwOucfoDM7Itdl9VW4uM7kgVJDnYflle7MHwn8R/KhQTul8jgtZJyDMffVHe1omEwrvDgADGVDc/ANBFlSwt/asxqk6NfK5k7C4TPQ0BYKnRPO4hbPBRdJvwuC9RWiHrZpRJFjvkGgw8zPbuESptZjzUm1reqO0cJDhY0Htn6jY7GXPNFlF5e04Z/GVNua6FXOTx5tJaPrV4fESATBQlnrodMwX2NvlLgBD6d7+B/1x5zDz8s1mAgDzF8RSkfJ17etRCrCVgFWFeaqYvM43iTEhE2FlSqis9Ay7OLp4DCd8DiJNzVePfsuUs3mSf7cVq1HQ459tFYYRPqbw7pPeqWGKcmHFaZ4QsW5l0It1CLrMt8yziYGH4+JakSCmtqxoyiNjaJf2/aVZBf1yJQ1qX1AE9waD1aNZsCqYS8PXVfgizRag0MrVKhE169c9A45AfTtGUMfPs/xynKG+r
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Vrai
+        type : 17
+  -
+    name : SAI_bdd
+    identifier : 0x2e7c7ce90221a30d
+    internal_properties : BQAAAAUAAAAayfLxdzHSTAc7bDAVJauz0bgUqvwRphYwzD/ytfIxmJ0K4kvnWYwOTL8rAp2+GzMtTRX5rbKiAWGOgYpoxXGYoZjEGcm87aLKh4Mlj20Xyob0PZQqnfKOTYb626sbuaB+cPM87Xmd4bW5pn4kgQo/5iUzaQC1X9vIMBgeyHzFr8hJZFUlCG9g4z3JwnXOx6ek9dLKHM8sLypgW1WXXZld8znnknWzxJ+c+LdtaLID1ZhiM0lifQG8gNUFbOpYRzAgEw24g+zowWJMcJDORxCj+OqQcX/z9sfLE2QgMR7PgnDGNMMNQYCid3/vDdcgErEYsT7XHLG4gHuH5WUDh79g7ywcWSGhTI9VVQS+GyWg+aCNC/E5R5GMn1l1ifDMNvKpPanLZYca3dBrgd0ShTODZ1NFSaUF8hGF+NjVrbiePpRNYXSS3aIF0kquCIW6j3GhuNBHmDmlJ0pkA+K92iLjWJC7gj1IvSq+8sG3o3OyhaNIPO5tGy32kXR2/bqh4NmDjo5fKSa5lpJGvgTZmNF0F7Bs6LqosR+WCCEuvPDCs1wkgSlibuN+r9MFNMPGXiXUJfltofi/RWc1yOktlhW2tTq1kmfJ8N2oHgugbxCCcPYOzqIOwTLzfJCpipFVT57hxdk5pMFihbQ6zb9lUf/kRr/wc5CWuvs94kabYAYZoMR6SSRY/RrQxFzYO2zz8mm+RcduNdHTn8fHaF1voFXUjQ4RN15ayyaYyH4QsZjpQTJ6iayLkxPiCDkWp7Pg2AwcCZwTTwLzX+DqnYwcYbHNgbYKEo6mEOjyiCYfc7uUvzhBSLt+qSTxg/WlB2rSJBTafRTwCCqFQ4tSSEOxs+qWQLHCWKj+A9HE56acSoQrYiowRfXG0IhH4Y2kVezyv0DpRBRNgqYzSDiUNMcY5raoGKPeJdKKFonBIBFc4E6b6gEpSBYhu4D4JrnP3aI2lgCHUJPxEcpBXn3Ij/a1JEw2ZpisnTAMwhiLcCe+T4GPUSPXrhC6X8HvcNqg8eSevybXM3JBBvrBklgNIKhJ6JuRgeDaChFAyvYhe9Bny26l0mQfXJZj/KPQYPJLMtkmWzGyMkNSLjbDZNs1wspm+l4KMMzF5jALbyCJ8iXl2sMcSNUnq50fMxapYERC2Tuu3xMuQvbiIdn4WCSwWS/+sUsj2o4NyzBqYz76FklwkEjiu9H9pIDoCjicqB8DGKoRTDbgK5WempP06hpajJVND2U=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Vrai
+        type : 17
+  -
+    name : INT_Show_password
+    identifier : 0x2e7c7d8e02792795
+    internal_properties : BQAAAAUAAAAdCKupdn4J8Yt6XbhtwzDvPLNS9+Xv4Ynu1U1Dj5TKKTlIh7XsZvxW5Y6XXOuQ4ke4Ztva4RRlfX5qwJtXIFHEzORemy9dhdZPxg6dD4sU45mcaKt8No1tRLxfB6gMOMIo0v20Z+pAjh82KAiFTaGo71b275jV0JbcZoh5ZdZ/hCX5E+uZajYuC6Rnr/wG7L9pab8mColaZpncvhMXvF021vT3n/JzI+TbTvkX25nS7tm1HVzKNVYFvMw37s7+WEXW9rLsdeD3v9Xf5kcrkZ6vDjRB1zF4xJjgHAzv2sdfvinI4w3bfBjFxxgZ8HW+HygeAZF5qjXD7s78Wex3nAPG+HOHUS06QZzi1kYehPMQTyneS7jS/+q026MkCme8AHLfQt3YJjAH9y0EQWBKIKex6JAW5sNMyVav4rNBwhbj234+3uqUtOssyr/bhmIDZfeqZqganOwx005mOkU8gnU/UpIx02mcuNADj80S+eqYn9AvjmSh/s0QurzWif5q4GIqZ7EA+yg8UCPG+M8sCzl6RH/HkDlsW7M5i6qTh2hsNuy85p3VAZcF8l5HH+ItKmS51i7/t9b8DACNm//HA80LdZ3PJMYS+ALoH0hlUK1LuIQ5iYZYnFP9JHqe2sheVKj4GKyUF7FrZzJon7/B2gAEOrt17W4wTJly6boYnDgWjg7Tor1m87X0k4V4AVGs26U53i++3u9SxHDaBQg/ZU2WdKFarMfQsdW+niJTVxTVFi67vRwhcAzJCyeh7hvpxYayvwoZSil/cvnlBpJeq7BKeo8RqrpreVd2GjJbamO0ZGeWVUSOWtQqIs7YhX/7AEXrGMR8bv3XrUJUXpr1WB9MmrsEafa5M6ly/PhxTlGN+Rqv6ckocdXZ0+HADIH+m045LG+Od3osZ/JhTq48a0dv82Sl6r0/zrkJP1evIyv4iPQKFg==
+    options :
+     -
+       internal_properties : BQAAAAUAAABLVimMmJFHHRY2F4QvINWngOF5NyIupdKY98HX3mnxHZ0Epgptt/t/AYgdjNB/ijC8JwoQTz4MOA+TXRTLJL6AoboH9zw2Ebm+fBQAHZEXFOtxNXIyse+DSlxhqf2HB8susPKa2VcY04P+N7D6jwj10sXwjvYh/Gqm5o17dIb8
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1+
+         SAI_password..MotDePasse = PAS INT_Show_password
+        type : 17
+  -
+    name : COMBO_sgbd
+    identifier : 0x2e7c7e8202dde170
+    internal_properties : BQAAAAUAAAALknyzjxE7uzfivrt4egpJKDR113ONYCShlWUaHkGlx2aWp5eRXOBdJmrHypPsmJnxvJOcHxQ9WuccQLcQijuA6Qtyg9Xbj1q+Ck2D39FKG2HFq44Sq9L3WjVCjGnZEHpaBmydNkYnI2oDxu0WXj9JCKRFRUAbKPqe4VvfYRtkdObux5t/DW3APpzX8KIdKBq4QqyeyVF9VZ4jDIBMyaHaZsQWQdm0SdGbP3HrI5F43cZ5aquMpAJzvqGF2K2r1dyDKD1mw2dUgOF70//71krNn5aEikgUstPOjvl1O0TD9yjJZA21m+aBaboK7mn5Rmww0icQ9443XB+YFW8rKIrV174ki3XGHfFAPvQUIhFh6QA/oWKYIB0zPiKu2xjVHD0UO+qId4Q8FVM/dFj0JbEefD4Ht/232c1hFA37b9kFiDRTT9eK4myD1cfPWNopvJ98AHkmTir7drEaUgjqg5LgXq5bZvFQk46gPK6J4VEZQy+baVI9x4cHkUbGs3Pfzzcgc+L1nuCmd4+6ndX8vrgv1lNoiQQwfLaJB1HweKyLgBCSGW4l/BX2cc51+S6E5trb+icJ/HZzwnGdGDM9AF44OcHCTkJKAKGNl7S3VIZFUguTzZ+Jae01AbaFBPGLQHbHNieyYSFTPsmvMRU5nhbGQqIeROsMw0qzqRdzXf/HX1hHROmpifYY+lZ9+/5g3xcCUtiuQL1KWv+q/JLpfVzh3qCahh4gKUM9+YJkt7sK0ETk8L9uSqSXyGI3qyJSLhAxcbwtoWpR8QodGf8/GaxD8OYTUgmTSn0xMCwIO5Zq7+8hZdHs7yfZRJrlAVWN8yTvuxMaxmmYw3YKj9U+UdrE3Kf9pNho6yY6qQSge0GT9vukRT1O6moQ5YRqRAdTp3aW9Av4Q7x8r4XrR8NpJO2Jb9eSHvLFTM/WJDVNSi3BNXx0ZIAn/cpr4tsv7zggJXIBDTdqw7YEpR8smQ+vPJp68a5CqLY/u5H4MM6uB7G8w5XQhUeP44zVwjYorPPF3JIrq0WS+Bi/6Un4v3uXa1w9fu8n+w46BRMkEke5CMIoRGuusOFgNDvahhcAPlhxpCWL87jkRKmhUBrRqU6De57BdIUo3fpL8zUiU71LjK9Uc+OhH+8lx+YA5CK68Rrwo+AroAHakb0U4tLVWiML4xOnV7OYnbWrE0K+g7MOWM8dqeyR+tJ0zVmW0V+WP7l8fqU66vFHC9OJ6GaWa8QDxSwDJTf1kT9xxN1JzQOtRovrmLEtk21yLNl5+A84VIQboWbAvEHkFDGzu3sTd9mGWx6axE3NKGsV4hnQN+W6oQrnnqYAOjHCwoxjn/HHIjeKGoXhKt2kyTr9STfofHADGECVPXVuPmlBRDCGoZcaN5HR4PdhR5wjm+HD4vrDF+Scdhjgp3Wt59idr1hUnG+acWK3ZY2+DYgSFkooD4MIBpfQctG+nPnMqOyD8OpZMag4L3/n1WFJu2VgvDcLC2YEI6UeUco833sdUYbdcJJF2q0L3WNCpUf+OtPZKgA6COMC+Yf7kaJLdvn6icYCZqUhh4yFI9+d/x9hPslsCHP54+zVTfTJ4Kv81e3OJVqMEUj7p9a/wuLZ+ZSyDBvU7wkjj8T0cQmoB8plH8fypKKE/FcF185U+A==
+    dropdown :
+     internal_properties : BQAAAAUAAADTwzbM74az+G4DP2YXJCPBiB4YWEsn1PxRUJkQKe4s3OVuyNzp3ZlEPMEXFdy136WkcuZNJEl8hQZEDRQn7foSA1LsB1aBR22OMaShWsi8+bboHArKa+VvIfZtieFhOHlqqYHuMzQNbXctMVTh1p11y+mEvuBsDHS4RXMbumXYYMDGmZmjZcyK1749cvo6gtaM/mU32wTSbeZ5OvK+t5eqxOUyUyaah3JAG64aG2g+pwibyIORVQU1qVONV7NMwBIkcMlOxNUDqh4cFRE1413j0J4qmqgK+OkRKhpQHSkTHig428thwqDxt8sCQRkEgvykFYoqD+Aja2a9M274My53Zx6V/YzzcWWYaJuqq7+u89rAXh02WuEknj9HcqQW8eybnhMrhMoxeVjA+lwVXsjlq8vk4ClO+L7dQSKAgpbYIyLdNEK7pR/EtE6GoM7Z53zBv9RZvxZ/dcS6VHb5/quCcWkhEKJV73qC8GEqQOFKCq2swcRXP5Nopzf9c/sPgY6OmchDzcgM/E+wWUE2nSeM1h+KGZwXT1voFCey2hPmLTydvzhE8FSv5p+ZEWljjADF6EDR//z8/PVvGZBRxGNSaqTNMC1LnCsFHU8jeloqVR2GGHeKa7s6Gv/RALjkDAcf+aYGyiqie+0e5I6y/xkJiyyahnvZ3BwFncS+6GMwJeccxyTAu5tGV1ilAISxr/Wl+lP/mN3GjhptNvQSia1EsjgnZngN0pZg1rSUwA==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         SELON COMBO_sgbd..ValeurAffichée
+         	CAS "MySQL" :
+         		SAI_serveur_port = 3306
+         	CAS "Postgress"
+         		SAI_serveur_port = 5432
+         	CAS "HFSQL"
+         		SAI_serveur_port = 4900
+         FIN
+         BTN_Valider..Grisé = Vrai
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : SAI_serveur_port
+    identifier : 0x2e7c7f8c0325ed54
+    internal_properties : BQAAAAUAAAB54ufToG6/laQObu7uOoui1kbHypkG3ihbMtANBqFjmC662bq0Bm+3cbB/dTcX0G7VzbqTmlhx5DQyQwOOthsztey2rP0rp9E7KjqlnsoiYYxqJ+ElPtowVEh5g67lYp2pSS23MdS0Ziun4cqzAEcYpXTP03jjewFT2+F0SKdiwtx8RPWR8jMfBMK6OrdPzwijMShFqbsGCxpBHWofJwA+x0CH2DkbDQE9BP+7qJGRQNEiN5/B/ok7NCHClDBU3tTWbr0TcmSS7igIUv4LKI5so+sGDGacQQSP4g8MXSDzaELwhIyuN6QyxC/6mO6K9tQ9wEIKyd0kNJWYsPRJ4dKG5r9Wpchyk0EHtyCfOll3AatSOMpdRT2DiXIs5vO7J7SyV/jpS4k4HrRyhgwEaQI3HQeFeBKhPYombu4RfLLm52oXdJaKfruOoV2lJ0JzqA4eCNDmKT2TMU0pOIsKj9uSD97w2tCclwvdSM21KI8plHyNpjLVooPBOJuB1WuVJ/0DUzXrnp73y89WiJw6O1eFV4KBpj79OWMhsOx4aZcQ3Hbl+RsHuwneXKo2R8VdNDT9YWvKkxehGAp1+ezbLN3oybtPYkeBo69LiuyC6mbbe8QGvvHsuw+iagGvhEsDCW8D5nJxn9G/tuh6HA1PTwnw/ooPt2XfA+/RVF+GPWZkeH9ao19tnBwo0n6QcHOOqIjxA6mMjstw4D2Mo1ijfSM17vnzgs/zDFVm0OWQdnv4UPDkHmA9Nyf3T2cc/TuLQk14votTBOpgAQbYPW8TvJz1drOG72E/LIBIt5O9y6x9TjcHanlvU/Wp7GiI5uUiPfKyzc9JlXLoghSQMDylTmBkWf76b6WzN07FNqaUFLG4RfiIbVzYsckRsl2b7ku+5Of3yIW5EphlpVsHPEkBop1IpVzJt05jiLVZI+GxJ/fl7QCFB8m6o8zXRDvA8xhOt9Vc+Z61L/R2DNIf43Tvy7r/81clrm7OraFGiHK8UtCtsCJBIYLbUVX0V0trBF2OD5nft07yVsS8bT0aU+mj3zTg8ZZcRDtMU5Hp2IgwcMSOnY7i6yf7nuti3ULa3dwFT352iUbYGAPRD/WMl/dTIq8jGYTI8HM5Wk2J71seuXmKSp0G9oKnkR74iyodzUGB+PgcBLAU8Y5cj/xo0acifCyV+Fxqony04Dl4sV+sQk90SPnLO0ikODVaHEP3kvR6LPHM8CwM6LTkM6UPpIj3mfG83VRzLITVdtjwT1hVt/k/jxSztcsLAIZ7FK/nZOJsW1yZHwQvh1Ff3sHuhHkCgNedefjlpp+WcPE=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Vrai
+        type : 17
+  -
+    name : SAI_serveur
+    identifier : 0x2e7c7c260212a899
+    internal_properties : BQAAAAUAAACgk163MhPJ39/8uXSkTPlDNNRW2pNZrb1zNidnUvwAVR89UHzD3/ePN9ty9mARmzFC0bd5BKKtXjb6cUBq23Oo926F+6Lx1lUFvaS7H6cWNf1awKz0fIWqLuqt24RNFDpyDprFSxt4UEp3ouUVSrFX3R0sKJyts5tCvMUYwjQRZgmo9Cwa40mO80ega1o9ennsMDjR7gqDIOLw5E2xyd1aXhffZ35Ja/b6y6CHdMA/l21y+4YKBk3JL4n1QmsbSE3lZDV1/iOhcwnnttS/u1vHqnAg3UTiEvyAFZjIwVDud2qinyL33DXBMd9fLKq/XOE+wW1S2r7VAzfYsvB4oWz8crKUjXRAuOIoSjk5cj/Ek4111DvXmM3zhyu3EoHBYEIIDyhWA9wB8jiIFhqVHQeyB7Enl7LwCu/xDtUR/8xax1OReaD30VLeSu0iHJRSoFyfnZbvAnAQ2Yil7pBUwwVinK3/VPAx5ZoeJJA9RnPPkx5smafro2Ua9IGzgonpARsoCVQ49LgQvDwfz0fJcVxalnlqwRSrvmOJS/lgGuaSRG++Hk/HFbci7NIGogvIECCOT/t1PakroMkjfKdMezEXEgSyvRAS5LHWQ7Gi3O4cHJ4xNgY+8MhPukit55ZBJC0ocd+PV/FEUsoO9Jjyv8p41d6p2IvLPD9FzYA406E+k8SJrzEzHgxoN+D3YJQl+3I5ctv1nZ2xcQuWuYAo//5HQ6qIJ2QRUBYEXidqLRbPrBq6l0fnskCsDrsWI1jMKMeVlJR7GheGF3DlxZJ9/xR31n7R31xFdJEMaY7VGcZGaksMlGlDI/CajvFZOZ/3XJAER/zNZ8FeUQgUeRfkZf6d9OnZaEWjibTiWqVu8TuquN2+ct5ycu4sdeeIWXWLX58nc3/4uET2lrR3RJYro0dl2K2OB/USgP/L/Vtg1uvcA+kOIMJsoC+GCnmmsklX9/L7Eaccipc6cjKtKmxUL96VteRJnlBFboCxh7CM+ek8E+kOnlEKS8kc49GpAUm1EHpcvuD3xT6/G/PN1f6eEZaPLNwB4HVHlGVQ9sJ4+C5c+EGu5zA3gUQXHdBFeip0ZWu5AR+Vp3CYUa7eAQ9xk0UYiZ7GLnhEQ0rVjJDzudgiU9WLyRW3puVrFyYQV2UCezYsCJ9iTB481ujQ52Q2lu/PG6+FKKZKi0+AXg6I2uvg52eCSwC1ilf+/AO67lnidC/XAKH4biNiUVrC
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Vrai
+        type : 17
+  -
+    name : DISP_SansNom1
+    identifier : 0x2e7c92c503b80459
+    internal_properties : BQAAAAUAAABdNPkCNNARFj2Lj93yIcVmjv4Rh1TJNtiym3cad10LuvvuwV5lfOL5meOiHcpNlWeOtxOvKy2WMyycgM20xzHj668RPhIYMTiR0OyN13xJfMrkZ0TFhghKzjORJiQvs7AYcxKEtBIGPFVqGagPogVB2BOd/gdcWbP8HK6L09Ktut8XcxS2+qbApnCTSBoQQBDK7B8S8bsvTgWbQVkK93+dMjIPjzWW3pS0Z7oi85n50jDrS88H8pRBzPJVmM3gxsko9DMrOBqDC40gZrfE/cduNzY83b7z2ax7ddN5Jm7pviXoXhpTiiKIzuiLs8T4SrVjGE8m5Dv9pa7nrzs+sN0tMmCF7+gK5ogjacj1voLSFCnWOdAyfQ1mIRK/pLkTZ3PiNeTuKyipBgv0Hjv4LX6h2jbTy0BNp32sZkjJhswyEF5O/KWF45yCqgNC80X6d32g5HyqsyFgcmrfcW2xDbLmUhTJ293fPvoLIoIJHcdzsR14JQxFlVpUk8msDTHszMgR8LKch7m8tTuqPK8pZE03AG0C+tw4onieubOZhktDE5NMghysue6vb4BTe+yhX5fYLGAFl94qKf6VN0D/cW16QWONDXvpPFw6wvmcWE1reCNwzAlYVIKo3unHbm3kp/Vei19+mAQAVJwLe99EDX4pw2F7ljDlS9805CZh6Vv+FOMORK44P50xFPhGAjYpfP3cfVgf
+    cells :
+     -
+       internal_properties : BQAAAAUAAAA4J400KRPwEOvUzez9QPHdZM1C7sua6j4Kl8h3C4v9VHLa+bLZuhttwMCrg8K75qbAOQnVJ8dKaEIfiWVMSH26PY5RxJMoOB3nNj/7hBu3+hb6u7kAVgSpQbQU5BCb3vabmDTcWwwd5OgBKQ==
+       controls :
+        -
+          name : BTN_tester
+          identifier : 0x2e7c78e801a8fea8
+          internal_properties : BQAAAAUAAABdJE3t1XYIbmuwgruyVVwT64Tsdzq7Eb9HO5Y8/W72Ue9PgGZu07/lh8sIxJ2NbmaEJVqa+wjN3t/5nUW4+dxHJjTk99Ad6v3LCR3FCru2og0nA91rQsLysS7AHz2PwjU7AD3ZmkftD0kQdwp88JvUicexKJNvATmg8+7fgdlAefAWOKKqbTizXyBpbscys9gACi8wJ4PHdpNyT8bXQ279doyAd4kO1pqnOSv1AnK9h31fKyQNA3Hv/jtrh/nGiaVz2aA4u+SO1J9EjT+kfM7CqrEn6HYGXjNir2aUwtaQWOjLZYXIYWWkNMpmWmzZAu64E86F+bA0irPkAAH90kuwgQOgogzhxmjb2iAZdJJQ1Yb0EHmKcAi/zgR+Li1NaT8CUfqOr9++I7DG53gaLcQl6uFkxeDbzYntI2s83Hui7yAgYvJvb/Jk0w8dqDDnGVy5J/4xgrTWFEyc8YGYeUGjFubYFFcl4uHmZtP8c12AOGAtUWbqRr2oEeNbQG0BgusgVUFIxlcEg4x9zaG+n9If6SPAbVmK3/UEmQq2f14Lh8pSOox/NZd5w+uiRH/eWyPWRiPXAhBweMrQl0ZZjPYYMgh7ph4lj/ESHIPByF0BeYkF1iOn5pl4xpDIWWo+8nEffvmKVsAJqULBDLimzQWD2Tn5O05ZQGoFKKdxYhh9hY3Drw/KtDWPXXYaXT29sRZ46xST1/yhthQ0XPQjs814sM+qfI7wO0xAwBrE4jaLioyIMS6QwQUZ0i9WYtLTCdLHW2PTMMrE7pohWu9XbVxlKGcfIf4jqKzyuN9ey4I+GjF94KSHD8eo3ZJ+o1afWt8oWNH8qLoEMjhh9FI2r3DWfBPd4qnhET4JULYCgknpb94/mfkgGA3F7/O3/kadmkU4GlDZz/+4Rrbf0z4Q5StdR4g5PaxdoG3scgWaL9xlsFmtl2lOn+sDx+eSbNevWogKHgjRlNChnFWlXoEpEwIsSWrEBxYAn/OrQ/T7+ewFguwUHRhNjZ217u8jAmr5kxKsew6UWzOH9GLq0+J1q6tg7XFrMzxolPzxdLHaiyZ3/aL1+nb8L9AMzjusGBPSJDDR
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               Serveur, SGBDs, Provider,InfosEtendues sont des chaînes
+               MaConnexion est une Connexion
+               
+               
+               SGBDs = COMBO_sgbd..ValeurAffichée
+               
+               Sablier()
+               Jauge(1)
+               SI SGBDs = "HFSQL" ALORS
+               	Serveur = ChaîneConstruit("%1:%2",SAI_serveur,SAI_serveur_port)
+               	Provider = hAccèsHFClientServeur
+               	InfosEtendues = "Infos étendues"
+               SINON SI SGBDs = "MySQL"
+               	Provider = hAccèsNatifMySQL
+               	InfosEtendues = ChaîneConstruit("Server Port=%1",SAI_serveur_port)
+               	Serveur = SAI_serveur
+               SINON SI SGBDs = "PostgreSQL"
+               	Provider = hAccèsNatifPostgreSQL
+               	InfosEtendues = ChaîneConstruit("Server Port=%1",SAI_serveur_port)
+               	Serveur = SAI_serveur
+               FIN
+               
+               
+               SI VérifieExpressionRégulière(SAI_serveur, "([0-9]{1,3}).([0-9]{1,3}).([0-9]{1,3}).([0-9]{1,3})") = Vrai _ET_ SGBDs <> "HFSQL"  ALORS // connexion avec ip 
+               	SELON SGBDs // connexion soit à MySQL soit PostgreSQl
+               		CAS "MySQL"
+               			nNumConnexion = SQLConnecte(SAI_serveur,SAI_user,SAI_password,SAI_bdd,"MySQL","",InfosEtendues)
+               			SORTIR SELON
+               		CAS "PostgreSQL"
+               			nNumConnexion = SQLConnecte(SAI_serveur,SAI_user,SAI_password,SAI_bdd,"PostgreSQL","",InfosEtendues)
+               		AUTRE CAS
+               			
+               	FIN
+               		
+               	SI nNumConnexion <> 0 ALORS
+               		// La connexion s'est bien passée
+               //		Info("Connecter avec la base")
+               		ToastAffiche("Connexion avec la base de donnée réussi",toastCourt,cvMilieu,BleuFoncé)
+               		bConnexionfail = Vrai
+               	SINON
+               		// La connexion a échoué : affichage d'un message explicatif
+               		SQLInfoGene()
+               		Erreur("La connexion à la source de données " + SAI_serveur + " a échoué." + RC + ...
+               		"Code erreur : " + SQL.Erreur + RC + SQL.MesErreur)
+               		bConnexionfail = Faux
+               	FIN
+               	//	trace("ok")
+               SINON // connexion avec nom du serveur
+               	// Description de la connexion 
+               	MaConnexion..Serveur		= Serveur
+               	MaConnexion..Utilisateur	= SAI_user 
+               	MaConnexion..MotDePasse		= SAI_password 
+               	MaConnexion..BaseDeDonnées	= SAI_bdd
+               	MaConnexion..Provider		= Provider 
+               	MaConnexion..Accès			= hOLectureEcriture 
+               	MaConnexion..InfosEtendues	= InfosEtendues 
+               	MaConnexion..OptionsCurseur	= hCurseurClient 
+               	bConnexionfail				= HOuvreConnexion(MaConnexion)
+               	SI bConnexionfail = Faux ALORS
+               		Erreur("Impossible d'établir la connexion avec la base de donnée,"," ré vérifier les paramètres")
+               		RETOUR
+               	SINON
+               //		Info("Connecter avec la base")
+               		ToastAffiche("Connexion avec la base de donnée réussi",toastCourt,cvMilieu,BleuFoncé)
+               	FIN
+               	
+               FIN
+               
+               si bConnexionfail = Vrai ALORS
+               	BTN_Valider..Grisé	= Faux
+               	gbConnexion_pass	= Vrai
+               sinon
+               	BTN_Valider..Grisé	= Vrai
+               	gbConnexion_pass	= Faux
+               FIN
+               Sablier(fauxToutSablier)
+               Jauge()
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAADOpm7Awqzd2gYLWMDJmzRTzjD7c0dtM4Sa1J/dPxkBJynsfu+5qt+mK7LishPXSxdWIu4rSp99aYLZNPi0rWl6Y8vWvXmfboQPQJhK7EA9kIbFUljWuy4EvRq9e3R6XvpZ1d3JN+iAxAgRMmk=
+       controls :
+        -
+          name : BTN_Modifier
+          identifier : 0x2e7c78e801a6fea8
+          internal_properties : BQAAAAUAAAAU/wCp28oVdw/JmlrTtFkjVqBVP0PI7A9cnqJOLN7MiQuJCC0Wm5JEiMOURt+6ca6zKyK4n0oLzSXGLKGz+0H5xzcc0rGROOOgrj7SpUjqlxC+kV90gKxGB76nS5sG0s1jB8GmjVyF4Xdyd2aPfjCh0z6Js9Itkb2TEKeDpw/6fnTonb/UlQqfLyH8MSVPvpXI3PrwrWsYIffl+6g4WMA8WymI44kh7XzRyxBXbWaBARCCFTNStoAwbkZhRX8EIO6xkmINLXYYyPrt51epzjbYIYZRGIO2FukUlSjTYfe7/yxo2OGeR8aA75+kbNlyRUQS6kXXlZ4CaSQAy1xrcQPJX1gsT8Z67ebJoUUxu2HlnxxUB4GnPbAOy7frS4A4ZS80yZ61Ti5XtQIA+GJ5b121chfYiDe9OxnTW6MsEpDFH4JEGL9XqLE2CDy5voTZ3hJLbZwfuaS2S/dtI/1cR9EsK1ruhn012IoNGLQamuIsVx1jmaUrICUZ1soO2jz7/y4rR+W9/tYndBhpn6UPzoLPxwEPvpstmC082MrFti/KaoCUu10xm9sEWHtRtdL7PD0xknYxJFXyPdCYXv6qZlD0YasIL2xYfyu00pUXUYdsysfrVvDECM9rtnnAAPzo5peXUjMkhDi3m37sAD6YtQxmQQk6FP6Iuwn4RBfTCVixwrKswV/cDR6a/SoskgRYJnm6NAyzfWjReZ5a1YI7hQNWtGW0TPl2EcoIUcD5eGI7TyhT/0zRb9g19Hx8acFu7yRoRlRoyrWnG9B8
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               // control des modifications
+               is_new = Faux
+               GR_All_fields..EnSaisie = Vrai
+               nNumConnexion = 0; bConnexionfail = Faux
+               BTN_Valider..Grisé = Vrai
+               DonneFocus(SAI_serveur)
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAACEbNC2NDJDv+Bp1FZBEz7hjLY1HzEbL1wcElePx3kz2Uea+It74DM6abx2+Bv3AeW8CPQbQNlapE/WfUUHymB78naLVrzkX5ecnaU7U3l4jaXI1/mJCI/Xwk+iHAdXCS+clIKqkVbytj7HeCM=
+       controls :
+        -
+          name : BTN_Valider
+          identifier : 0x2e7c78e801a7fea8
+          internal_properties : BQAAAAUAAACYifKcvARh8HIPiK+jQ0UPNVpceMeAQk8aOjR4Ms9aSG09xCHCcxsPLuEI3YDvt9nAr54NJdeNhTv7XBzHnQG92TTZFm74O+SFnw53OTWcbL3Oul6D1XVdw/NmpmJT+lLrOJfHxmfUahKx1PC45dr55lQ8531+ZNRXSKHju7HBEyPdMQRWgu+Sdk32wnIWcLXjEYjSiD7Va/A6w5HHspFO5STDBWLoaK1xTMAZRKUaoKatRabMssPvb0HQ8s/kOPDLzaGgNBeAOXX6YmINgBp8IWi7OzOr8HHpw96Owc/mGHLbDUoblGn7weVdA0L7e6aeXDvnjxTyNJGKXFLnNPrnbAprGszuiympS8mUM9oReG/e7nhF+lHQuCd0wSAjQCAd5+uUgEGVc2VxRsJIhNvz0JXSNHcwIRSyqxu4FuaQNsh6j1lrzcCluK204uN8HrjJ9FKkmcHQm8DcbQfJxLzLQqjh8UEWYVuzcWEHyDFEPdmc9xoTW1pEVglt4/Qb1VKVwriMYwxJu2w9Isl067VxM9ix2kb5Pc30jb8TEt7aQm5qcZ0HFdsYMnV264e6yM/y5Z4EMf52D5u37R1ST0dzpCfinv8yxaSVEZIsz2nWq8IHkdPWb85HWlQEhF69dCH+RNdJu8wxA61IugDp/eNBhKTxYZGGzpinchX5ZkLecEENPZmeecm7Q83NnVDXfmTwR8py7BvuP68My44yAyRfycvxMTmBhvFuSOGUYMR0lK2pflRsrfkHgvVfB0AoEIRoQeFAIcRlbMpl3FILrA==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               // Cryptage du mot de passe en utilisant l'algorithme AES
+               // ------------------------------------------------------------------
+               mot_pass = SAI_password
+               bufCrypte  = CrypteStandard(mot_pass, bufCles, crypteAES128)
+               
+               SI bConnexionfail = Faux ALORS // plus de sécurité au cas ou même si ce déjà fait 
+               	ToastSupprimeTout()
+               	ToastAffiche("Veuillez tester la connexion",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               	retour
+               FIN
+               //Ajout ou modification selon  les contextes, ajout avant 
+               si is_new = Vrai ALORS
+               	EcranVersFichier(FEN_paramètre_de_connexion,Connexion_param)
+               	Connexion_param.password = bufCrypte
+               	HEnregistre(Connexion_param)
+               	
+               	HLitDernier(Connexion_param,IDConnexion_param)
+               	id_connex = Connexion_param.IDConnexion_param
+               sinon
+               	EcranVersFichier(FEN_paramètre_de_connexion,Connexion_param)
+               	Connexion_param.password = bufCrypte
+               	HModifie(Connexion_param)
+               	SelectionConnexion()
+               FIN
+               
+               BTN_Modifier..Visible = Vrai
+               GR_All_fields..EnSaisie = Faux
+               is_new = Faux
+               BTN_Valider..Grisé = Vrai
+               //info de la base utiliser
+               INIEcrit("BDD", "Install","C/S",fRepEnCours() + "\warehouse.INI")<§aad:0§>
+               INIEcrit("BDD", "serveur_mane",SAI_serveur,fRepEnCours() + "\warehouse.INI")
+               INIEcrit("BDD", "serveur_port",SAI_serveur_port,fRepEnCours() + "\warehouse.INI")
+               INIEcrit("BDD", "base_mane",SAI_bdd,fRepEnCours() + "\warehouse.INI")
+               
+               ToastSupprimeTout()
+               ToastAffiche("Opération réussi ",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               
+               Ferme()
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      PROCEDURE MaFenêtre(is_new est un booléen,id_connex)
+      
+      nNumConnexion							est un entier		= 0		//Identifiant de la connexion
+      bConnexionfail							sont des booléen	= Faux	//Ouvre une connexion à une base de données spécifique 
+      mot_pass, bufCles, bufCrypte,sRésultat	sont des Buffer
+      //bufCles = HashChaîne(HA_MD5_128, "mot de passe")
+      bufCles = bufCle
+      
+      si is_new = Faux ALORS
+      	HLitRecherchePremier(Connexion_param,IDConnexion_param,id_connex)
+      	si HTrouve(Connexion_param) = Vrai ALORS
+      		FichierVersEcran(FEN_paramètre_de_connexion,Connexion_param)
+      		// décryptage dune chaîne de caractères en utilisant l'algorithme AES		
+      		bufCrypte				= Connexion_param.password		
+      		sRésultat				= DécrypteStandard(bufCrypte, bufCle, crypteAES128)
+      		SAI_password			= sRésultat
+      		GR_All_fields..EnSaisie	= Faux
+      		BTN_Valider..Grisé		= Vrai
+      	FIN
+      sinon
+      	BTN_Modifier..Visible	= Faux
+      	BTN_Valider..Grisé		= Vrai
+      	
+      FIN
+      
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAC7SZM5muGzGc3NMfiaxFke/g8P33MnozJjbNOJw91dE6ueqNX2CyTA5f3FnWsWwZ4kZjx2+FQSzcpdNCZCzeJLanjFzZUbYERT7g9U2QU1Gb4XFFP/rd7DZk3xRvOSWh3zoI91Qw2ssQ==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1e7c788600307e22
+  internal_properties : BQAAAAUAAACFrAzp/7Q0S84R+ikNeRgtAIFcvdVNEy0l/bgnbB29kPtJH0AWHFq9qw==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAAC98tzkVEO0VDLXplKh+jhIjmW4QOFCbbds6S/3a0rDqyS7/lHVighU2lmOJnriE6hR4SUVXtFujBvJjDdRBH1hBCtqVNMHr9dzMiK4Wv9D5mA6yPmOj4z/THs5SaMDXmfESfJABulNDBTgaZ5dlXDhkbJADvo=

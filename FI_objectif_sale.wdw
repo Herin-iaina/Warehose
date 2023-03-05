@@ -1,0 +1,307 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_objectif_sale
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_objectif_sale
+ identifier : 0x2ee106ce47f20445
+ internal_properties : BQAAAAUAAAAJ+Lgre9Nf8HUdtyqvnIiE/DPC4JgK8SnDvJ/ZDw4QEN/TmCrvV/0CMdb5aouX6I0gJiC63VeGtVHXm6qg//fMZR2xycVuHHVq+MrL5gJL0EXyWlK1vOGrylyMgRiOLHPSGazhD8yQ8Unig+dtWdCEYMC3l8ABnisd+al4ovN8tRBLmvZ0E4SXmFGt60dIAi9sRZU0tF416ZTahsGC/k12aqcYsgS8dD+wfkwQWC7vKqT/KSgMv7PhW/MACIF4u8pXBM5jG9X8r9vBg83I/il/SyGzYg7IaM1eZixBU1uFMyiYekQ68qxmV9CEG4mHuXQdebhPfNzc2xR1J3rCDY2sNJAZGTdgjHQxlquLNt8sM2ocV6dYkohMQBPN3uZubhUIfVNx32EOPi1oEob929vdda4r2U2u7mGRcgvv8BEojREf+yT4dOAL90UFfkFUT28KDNfoAhp921QsDAnd6GXPPNEYrSecjnsKf/m1HQ/9pzbwK7+Dmak+zyWy3hheUYMw31qpz7xx7A3hhuStkgck3Ziu3171pbh6uIjxQuV0DGyONRrjFdVf4ILo8HIxR6gq2JlSL8p3tNECH6RYD+kWWSIT7S6Tq4SSYtSM4s9V3P2rDLPVCM5WB1RU/J2Esmx1UFAABrAEoXB439Zy
+ controls :
+  -
+    name : FI_objectif_sale
+    identifier : 0x2ee106ce47f30484
+    internal_properties : BQAAAAUAAACEMLXF4UEZaiXLphKQAL9TW+Mglu2hUbzgoT4Wy/O0OEzDvr8rsCWe1bkcEOqP0w2odjRgTe77tISEepMsiZGI1ykNi6rpoiZQplElqkbSWVEUd/L3E1FPl1EcdSqwvdeWSpVRWZjCL01Ctf7Dwc0gd/yC9uNEFFU5bmws7iXXr9p2l/znsgxPRLhnpG7Ewb+CeNXceu5aT/aUZDwcM1u2XeuCrsBUlIX6xc7xKHbrsJ6oM3S6rS0vQmSNFN1WDWWcEE7F5sAsSL0GRxFbaGrBu10/uEIP44eEUPI7nvtywtRo07GQAPsAP4t5TnIYFJV3d4HC2LPrb8WrcitFj3ZaTsALgzou+btpyBxeJkdIQzO6yLV1PbMA8G5d7hsv3KyEPkszjenYRO5x5zeeZnZgPeMPHwt45QBtiLgHKHTN577DS7P7jxx2HsCyf/gGoqan7l+Kbnj/
+    controls :
+     -
+       name : LIB_Objectif
+       identifier : 0x2ee47e764b80233d
+       internal_properties : BQAAAAUAAAC4H8BKSbVhbqlEVQrNyOYqnJA7geUnYqvt1LyOQMa51T4O4MsVQAsydc/RlDk+f2yv+rD6qMAXqWjn/BowXxtILKKHxo/pEz+1BntHlx9ZLAfS8AALgHJkw8m8gYXNVA2kQqEMSeUFxY739kQezLK41vQu/nXngofg7bxz0Y4w4nblLHunR51e5nYUWM+4VJqOkbrCc5sRJu/N8LlnnqSbWVhkk4dJuJ+AgzVBpJp20HC8c+1BLpsuR3tRd0roWocEirjIXMp7UXKKJEEJnQ7fuEiwkP3Kxfnr6+0xbgiFnFnOtIErBAdSHYKSpct1SbyrnYN9yuvNk2IjjFsFMO6K3BV+4bx9dAy3S5Ohl/69D8vsjDcApdJaQ9Eq1VE3Om86tj1nEoQuEKm2psfSLQibCIGxKlTFmIOakYRoUGX5cgUhKLjV7u7R1TKXu0shLkVZuOAB2t5Eoe6Z3O3l6e6DDmf62TmoIeML/mF/msaSc/4w9Lxq803SiA==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Objectif1
+       identifier : 0x2ee47f024b8c5511
+       internal_properties : BQAAAAUAAADSdeEd4mvw8iNjsnsyfBkj/pRlBUs3Dagb4c8epVnrE9J54SQEC4LQ1hAumVC1VWnQp1gf4txDgdI1+cXNU2sVDTgqT91t4uwFZwvbOkfZIvqpa5wzHfQOkkcUa3HQvUAn5Qyt4LKHwh9V5on8C89OObZhyTpYLx2h1d9qSgUb7YCxmUMRtFKIJ6W6slrdWJQdpxhU4K8TZD419Thv05djKJdrPvMYdgqqOL3Zlg5P9h24qu10OVmBgAjEOGWDDg1YWe/HQ9owM7I8mMGXtjjnn4OwvVJhbp+qgO3kznl4GpR9ryGrpPXtJmypHhgpdoDFvVQFZqYeRKSmMvkRPiKnY4oZbRfGBGsO2j9sfmuN3aHgvohRN1AaD/xSfUMj1QrzuE+vuScKeDiI1h0TA+s91ZXJH90WTdKHtluBRMUPTAneoFg9TI0y24B1rDw4H8aFcQPBon00aSa0oYQlrbyVZnH0crSrYvbNW03UADtcIeQSoD7sb0Vy1vK4mwmjc4Sg5o0C0iedCVstFP+HlVhYBJAJQfU=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Chiffre_
+       identifier : 0x2ee4818b4ba32bbe
+       internal_properties : BQAAAAUAAADNK9YrvdX197Fmve5+LD6YA4MbyaMQR+ToePCNQH2iUgVA8cZsjpYjB4Jv7GfvZ6BE7JJecIWqWsEEtzu6rIsDVckZCQdzjrCNznr2Otfkh8vWhx07LHsOMmoRKFmN7KMbNw8w6sIvpA5x2OTN4KWEFelBRhsawRyKykWrxFvsS3a7RmyBWbzHwyK+pJqUi2bisApA4Q9rnnncMfpxJ+VXyQ+fwr0UBfH7FCrwIs8M0/trtwRtYcckgbJVOwm9FjjU7LeCG/qMU5QEDUwP2vD8v5EjJ7epgn+zYyZkAnFlCiO6KETG8+INq24dplcpzk8UsSoW9FDxwYJYfWln9FjLVnz2nyAE78OW+1aLuwrAqzk7SeCvncoDrvNI/U+cNZaTtG30EiSeMCIcR/evh70clTU4MS0acya1vorsMUaZ87Iig0O8EzuvwMWIaYsmjKxQjUPTfCXmzNDbiVvwYd88VdaI/Ndsiw9qlilVbwHTW/dI10MR7uWZdDLf8+hCJMekN0cW3wLJGSXkm7b8JroIaEPz8jin
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Objectif2
+       identifier : 0x2ee4bea04cc79101
+       internal_properties : BQAAAAUAAAA1G/Mx4F7twcdQNZlvkaxgALLz4+4zHXPedEqhqMVM2siTPcniZHeuRql9EXoJM6Ju3urAdXsZMKjw6/XzChX6K5/hBtCAQ3GPdEPSRFbEsE+ZWNkSY+rp+lxEc4Hl+b3/eY4CLUo1xKIQnFbSnOdYHv70kAS9o/WgLc5dbJ1kBuFWAXcHnnWGqbisgGY5+DmzSUDEVhChZGdgsPtPE0d+6uPs+2kUTfNzsUQ7R+U5hHUnkhv527cDCe7arxeEu2ZhP5kF74Y31faaUngHMGn8aFZu4cuBhPKlNcAlUuu2+gt6H1aCG2e1bflvaDdVUAmeCvZRs+Gq3TB+QtFDWAYoGUH/4clu7Xzbg51qMSxaBTt2ukDLPNV/TeOXkOh3bd9Evagg5L6cFzmkKThcjH4JOeNaSMitp0R767hF0Tx1Gku6EnfOXnGd3AwIHFiLnpFrkAz3OumC4CQseCo6umFTZWkKAngnjW0b
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_CA_realised
+       identifier : 0x2ee4bef74cd1e297
+       internal_properties : BQAAAAUAAAB9YkiCfMYRqdZ8gjWVQsszgacPSdL6eIdO4oWJCvNA2vKykIilPu9I+1CA76dTfJhKzEL43zjdvHjUTWDAW4VPJ01ypUfcKBbQ/LISy40mZspR9McQ92UZcxHDEF7qXB99qetHAgh8LZoAyNN5PPc0j+CSVjQqh2m0y5gjpn5RgXk4d4iqglbRaw8gslTjbxw3mBXKWkEBYvZk7YBbtbRrvz74AQ/IMibdl2xIk+mFTYIRgTVx98ixlooKDe6/WVyyqENsDIJk9IZxtZO1h9eNWJ9o1Uet1iRKvre3pvYSN3/3R8PHzl4fiqcEKprjqTEWvw/QB5IwVSVM8jUQXklEVomOSTS1u6AK2YNtYofY1mkcRhYSof9C8aoezyuhSO3s7zkrDOI84wp9yEm8GImTH43/Iad6Jqb5GzEIlQ3JXdq7BXX62qWD7WCZx286eqWgcqIarhufmYxN5CBsR2Bfk/BR4nAlm9ITFNw=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_CA_realised1
+       identifier : 0x2ee4bf404cdc0676
+       internal_properties : BQAAAAUAAADtNEIbnVCFgJCwrGx5i7shzf0chgfds8+xIl89NaPnwKuiNCUVbqfU9N5+nH4UKLfG+bYMWJPGTxm0jR/ugOx43F6wGPn9ScoHSVM+FGk4oe6g/4cEXnzfYjlGowu1SZmP264/ySyu5EVx/xoaypkYoMpltw4ZDIYgEoeP7d3JgyRpsFO6+VqHyS8b3I9B8tJmrAlajAZvUxWeNjJ6KQhkQwXJ4mV/ZJ1VCSfqHyO6YtDzr4ZiiF87EXP9hDbJ5nPHt/R+QOPmuNtgRaY5bkI5EQAsIoYMrPF0J9uygSu+7cOfCyQafKUhoUDM5tRMEGkeFjtRWUmcwaZvG4N1R8yxADU9gUB+ctsae1+1JtwqwNYhl/EHwnypUZpekzL7LbE8NViLnczzp534wD/TNVE9laiwLcRmhgSJiEViaIkrzCEuCThH3H2rziO01g/aJooVxcBa0jciZ1xz0Yo=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+         
+         soit xBormax 	= Select_sale_objectif()
+         
+         soit xBorne	= Select_sale_total()
+         Mise_en_page()
+      -
+        code : |1+
+         
+         
+        type : 2
+      -
+        code : |1+
+         echo_data()
+        type : 234
+      -
+        code : |1+
+         //echo_data()
+         Mise_en_page()
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x2ee1044147ef01e5
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : Select_sale_objectif
+     procedure_id : 2225820299405039678
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Select_sale_objectif ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Select_sale_objectif() <métier>
+      
+      xBojectif sont des numériques (32,2)  = 0n 0.00
+      
+      sql_select_objectif est une requête SQL = 
+      [
+      	SELECT
+      	Parametre_vente.objectif_ca AS Objectifs 
+      	FROM 
+      	Parametre_vente
+      	WHERE
+      	Parametre_vente.IDSociety = {ParamSocietID}
+      ]
+      sql_select_objectif.ParamSocietID = gnID_societe
+      
+      soit nrc = HExécuteRequêteSQL(sql_select_objectif)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	POUR TOUT sql_select_objectif
+      		xBojectif = sql_select_objectif.Objectifs
+      	FIN
+      FIN
+      renvoyer xBojectif
+     type : 458752
+   -
+     name : Select_sale_total
+     procedure_id : 2225825496315553942
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // [ <Résultat> = ] Select_sale_total ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	numérique : <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Select_sale_total() <métier>
+      
+      xCaRealiser sont des numériques (32,2)  = 0n 0.00
+      dAteDebMois, dAteFinMois sont des dates
+      dAteDebMois = PremierJourDuMois(DateDuJour())
+      dAteFinMois	= DernierJourDuMois(DateDuJour())
+      sql_select_total_sale est une requête SQL = 
+      [
+      	SELECT 
+      	SUM(Sale_order.Total_TTC) AS Total_sale
+      	FROM
+      	Sale_order
+      	WHERE
+      	Sale_order.date_order BETWEEN {dateDeb} AND {dateEnd}
+      	AND 
+      	Sale_order.IDSociety = {ParamSocietID}
+      ]
+      sql_select_total_sale.dateDeb	= dAteDebMois
+      sql_select_total_sale.dateEnd	= dAteFinMois
+      sql_select_total_sale.ParamSocietID = gnID_societe
+      soit nrc = HExécuteRequêteSQL(sql_select_total_sale)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	POUR TOUT sql_select_total_sale
+      		xCaRealiser = sql_select_total_sale.Total_sale
+      	FIN
+      FIN
+      RENVOYER xCaRealiser
+     type : 458752
+   -
+     name : Mise_en_page
+     procedure_id : 2226090671891462051
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Mise_en_page ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Mise_en_page() <IHM>
+      
+      //JAUGE_JaugeObjectif..Largeur = FI_objectif_sale..Largeur * 1.8
+      //JAUGE_JaugeObjectif..Hauteur = FI_objectif_sale..Hauteur * 1.4
+      //JAUGE_JaugeObjectif..Ancrage = ancreLargeur + ancreHauteur
+      
+      //JAUGE_JaugeObjectif..X = -250
+      //JAUGE_JaugeObjectif..y = FI_objectif_sale..Hauteur / 2
+      SI FI_objectif_sale..Largeur > 640 ALORS
+      	LIB_Chiffre_..PoliceTaille = 12
+      SINON
+      	LIB_Chiffre_..PoliceTaille = 10
+      FIN
+     type : 458752
+   -
+     name : echo_data
+     procedure_id : 2226103861736091817
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // echo_data ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE echo_data()
+      
+      JAUGE_JaugeObjectif..BorneMax 	= 100
+      JAUGE_JaugeObjectif..BorneMin	= 0
+      
+      soit xTabLeValJauge = 0n 0.00
+      xBormax = 200000
+      xBorne = 50000
+      SI xBormax > 0 ALORS
+      	xTabLeValJauge = xBorne * 100 / xBormax
+      FIN
+      
+      LIB_Objectif2 	= xBorne
+      LIB_Objectif	= xBormax
+      
+      SI xTabLeValJauge <= 50 ALORS
+      	JAUGE_JaugeObjectif..CouleurJauge 	= RVB(255,51,51)
+      	LIB_Objectif1..Couleur				= RVB(255,51,51)
+      SINON SI xTabLeValJauge >= 51 _ET_ xTabLeValJauge <= 75
+      	JAUGE_JaugeObjectif..CouleurJauge 	= RVB(255,102,255)
+      	LIB_Objectif1..Couleur				= RVB(255,102,255)
+      SINON SI xTabLeValJauge >= 76	
+      	JAUGE_JaugeObjectif..CouleurJauge 	= RVB(255,204,102)
+      	LIB_Objectif1..Couleur				= RVB(255,204,102)
+      FIN
+      
+      xTabLeValJauge = (xTabLeValJauge < 100 ? xTabLeValJauge sinon 100)
+      
+      POUR i = 0n 0.00 a xTabLeValJauge
+      	JAUGE_JaugeObjectif = i
+      	LIB_Objectif1 = i + "%"
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1ee10441f7da01e5
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

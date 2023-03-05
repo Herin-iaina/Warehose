@@ -1,0 +1,3 @@
+//MO010-011.TXT ANA00010 TO ANA00011
+Society		TAR	333	nouvelle taille enregistrement : 333
+Society	Image	RUB+		Image est une nouvelle rubrique

@@ -1,0 +1,925 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_syncro
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1e8aed78038e5453
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : SurModificationAgendaEvénement
+     procedure_id : 2200832532060016426
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurModificationAgendaEvénement ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE PRIVÉE SurModificationAgendaEvénement()
+      
+      HRAZ(AgendaEvénementHistorique)
+      
+      // Copie les données
+      si pas HCopieEnreg(AgendaEvénementHistorique, Agenda_Evénement) ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      
+      // Enregistre l'historique
+      AgendaEvénementHistorique.DateHistorique = DateDuJour + Maintenant
+      HAjoute(AgendaEvénementHistorique)
+     type : 458752
+   -
+     name : OutlookVérifieSuppressions
+     procedure_id : 2200834481975229047
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //OutlookVérifieSuppressions (<sProfil> est chaîne, <nIDAgenda> est entier)
+      //
+      // Paramètres :
+      //	sProfil (chaîne ANSI) : <indiquez ici le rôle de sProfil>
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE OutlookVérifieSuppressions(LOCAL sProfil est une chaîne, LOCAL nIDAgenda est un entier)
+      
+      nIDSession 			est un entier
+      tabIDSuppression	est un tableau d'entiers
+      
+      Sablier(Vrai)
+      
+      // Ouvre une session
+      nIDSession = OutlookOuvreSession(sProfil)
+      
+      // Recherche tous les événements possédant un identifiant Outlook
+      POUR TOUT Agenda_Evénement AVEC IDAgendaOutlook = nIDAgenda
+      	
+      	SI Agenda_Evénement.Supprimé ALORS CONTINUER
+      	
+      	RendezVousRAZ()
+      	
+      	// Tente de lire l'événement
+      	SI PAS RendezVousLit(nIDSession, Agenda_Evénement.IdentifiantOutlook) ALORS
+      		
+      		// Si on est en dehors des rendez-vous
+      		SI mRendezVous.EnDehors ALORS
+      			
+      			// L'événement a été supprimé, on l'enregistre
+      			Ajoute(tabIDSuppression, Agenda_Evénement.IDAgendaEvénement)				
+      		FIN
+      	FIN
+      FIN
+      
+      // Fin de la session
+      FermeSession(nIDSession)
+      Sablier(Faux)
+      
+      // Ouverture de la fenêtre de conflit
+      SI tabIDSuppression..Occurrence > 0	
+      	Ouvre(FEN_Conflit, cftModeSuppression, depuisOutlook, Null, tabIDSuppression)
+      FIN
+      
+     type : 458752
+   -
+     name : GoogleVérifieSuppressions
+     procedure_id : 2200835435458060171
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //GoogleVérifieSuppressions (<UneConnexion> est gglConnexion, <sIdentifiant> est chaîne, <nIDAgenda> est entier)
+      //
+      // Paramètres :
+      //	UneConnexion (gglConnexion) : <indiquez ici le rôle de UneConnexion>
+      //	sIdentifiant (chaîne ANSI) : <indiquez ici le rôle de sIdentifiant>
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GoogleVérifieSuppressions(UneConnexion est un gglConnexion, LOCAL sIdentifiant est une chaîne, LOCAL nIDAgenda est un entier)
+      
+      tabIDSuppression	est un tableau d'entiers
+      UnAgenda			est un gglAgenda
+      
+      Sablier(Vrai)
+      
+      // Récupère l'agenda
+      UnAgenda = GglRécupèreAgenda(UneConnexion, sIdentifiant, "19700101")
+      
+      // Recherche tous les événements possédant un identifiant Google
+      POUR TOUT Agenda_Evénement AVEC IDAgendaGoogle = nIDAgenda
+      	
+      	SI Agenda_Evénement.Supprimé ALORS CONTINUER
+      	
+      	// Demande la lecture de l'événement
+      	SI Cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", Agenda_Evénement.IdentifiantGoogle) <= 0 ALORS
+      		
+      		// L'événement a été supprimé, on l'enregistre
+      		Ajoute(tabIDSuppression, Agenda_Evénement.IDAgendaEvénement)				
+      	FIN
+      FIN
+      
+      Sablier(Faux)
+      
+      // Ouverture de la fenêtre de conflit
+      SI tabIDSuppression..Occurrence > 0	
+      	Ouvre(FEN_Conflit, cftModeSuppression, depuisGoogle, Null, tabIDSuppression)
+      FIN
+      
+     type : 458752
+   -
+     name : RemplitRendezVous
+     procedure_id : 2200836096883046105
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //RemplitRendezVous ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE RemplitRendezVous()
+      
+      local
+      	nId_agd_categ est un entier
+      	sGuest est une chaîne
+      
+      
+      // RAZ
+      RendezVousRAZ()
+      sql_code est une requête SQL = 
+      [
+      	select 
+      		*
+      	from
+      		Agenda_Evénement
+      	where
+      		IDUser = {user}
+      ]
+      sql_code.user = gnActif_user_id
+      si pas HExécuteRequêteSQL(sql_code ) ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(sql_code) < 0
+      	POUR TOUT sql_code 
+      		// Copie des données
+      		mRendezVous.Objet 			= sql_code.Titre
+      		mRendezVous.Notes 			= sql_code.Contenu
+      		mRendezVous.DateDébut 		= sql_code.DateDébut
+      		mRendezVous.DateFin 		= sql_code.DateFin
+      		mRendezVous.Lieu 			= sql_code.Lieux
+      		mRendezVous.JournéeEntière	= sql_code.JournéeEntière
+      		mRendezVous.AvecRépétition	= (sql_code.RépétitionType <> -1)
+      		nId_agd_categ				= sql_code.IDCatégorie
+      		sGuest						= sql_code.Invites
+      	FIN
+      FIN
+      
+      
+      // Reconstruit la catégorie
+      qsl_categ est une requête SQL = 
+      [
+      	select 
+      		*
+      	from
+      		AgendaCategorie
+      	where
+      		IDAgendaCategorie = {even_categ}
+      ]
+      qsl_categ.even_categ = nId_agd_categ
+      si pas HExécuteRequêteSQL(qsl_categ ) ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(qsl_categ) > 0 
+      	pour tout qsl_categ
+      		mRendezVous.Catégorie = qsl_categ.Libellee
+      	FIN
+      sinon si HNbEnr(qsl_categ) < 0 
+      	mRendezVous.Catégorie = ""	
+      FIN
+      
+      mRendezVous.NbParticipant = 0
+      
+      // Reconstruit les participants
+      POUR TOUTE CHAÎNE sInvité DE sGuest SEPAREE PAR RC
+      	mRendezVous.NbParticipant ++
+      	mRendezVous.Participant[mRendezVous.NbParticipant] = ExtraitChaîne(sInvité, 1) + ["<"] + Remplace(ExtraitChaîne(sInvité, 2), EOT, "") + [">"]
+      FIN
+      
+     type : 458752
+   -
+     name : RemplitGglEvénement
+     procedure_id : 2200841976693332562
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //RemplitGglEvénement (<UnEvénement> est gglEvénement)
+      //
+      // Paramètres :
+      //	UnEvénement (gglEvénement) : <indiquez ici le rôle de UnEvénement>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE RemplitGglEvénement(UnEvénement est un gglEvénement)
+      local 
+      	sPlace, sGuest sont des chaînes
+      
+      sql_code est une requête SQL = 
+      [
+      	SELECT 
+      		*
+      	FROM
+      		Agenda_Evenement
+      	WHERE
+      		IDUser = {user}
+      ]
+      sql_code.user = gnActif_user_id
+      SI PAS HExécuteRequêteSQL(sql_code ) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_code) < 0
+      	POUR TOUT sql_code 
+      		// Copie des données
+      		UnEvénement..Titre			= sql_code.Titre
+      		UnEvénement..Contenu 		= sql_code.Contenu
+      		UnEvénement..DateDébut		= sql_code.DateDebut
+      		UnEvénement..DateFin		= sql_code.DateFin
+      		UnEvénement..JournéeEntière	= sql_code.JourneeEntiere
+      		sPlace						= sql_code.Lieux
+      		sGuest						= sql_code.Invites
+      	FIN
+      FIN
+      
+      
+      
+      SupprimeTout(UnEvénement..Lieu)
+      SupprimeTout(UnEvénement..Invité)
+      
+      // Reconstruit les lieux
+      POUR TOUTE CHAÎNE sLieu DE sPlace SEPAREE PAR RC
+      	UnLieu est un gglLieu
+      	UnLieu..Valeur = sLieu
+      	Ajoute(UnEvénement..Lieu, UnLieu)
+      FIN
+      
+      // Reconstruit les participants
+      POUR TOUTE CHAÎNE sInvité DE sGuest SEPAREE PAR RC
+      	UnInvité est un gglPersonne
+      	UnInvité..Email 	= Remplace(ExtraitChaîne(sInvité, 2), EOT, "")
+      	UnInvité..Libellé	= ExtraitChaîne(sInvité, 1)
+      	
+      	SI UnInvité..Email = "" ALORS
+      		UnInvité..Email = "guest@"
+      	FIN
+      	
+      	Ajoute(UnEvénement..Invité, UnInvité)
+      FIN
+      
+     type : 458752
+   -
+     name : OutlookSupprimeEvénement
+     procedure_id : 2200844476364422285
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //OutlookSupprimeEvénement (<nIDAgenda> est entier, <sIdentifiant> est chaîne)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	sIdentifiant (chaîne ANSI) : <indiquez ici le rôle de sIdentifiant>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE OutlookSupprimeEvénement(LOCAL nIDAgenda est un entier, LOCAL sIdentifiant est une chaîne)
+      
+      nIDSession 			est un entier
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      sql_agd_otlk est une requête SQL = 
+      [
+      	select 
+      		*
+      	from
+      		AgendaOutlook
+      	where
+      		IDAgendaOutlook = {id_otkl}
+      ]
+      sql_agd_otlk.id_otkl = nIDAgenda
+      si pas HExécuteRequêteSQL(sql_agd_otlk ) ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(sql_agd_otlk) < 0
+      	// Ouvre une session
+      	nIDSession = OutlookOuvreSession(sql_agd_otlk.Profil)
+      	// On se positionne sur le rendez-vous
+      	RendezVousPremier(nIDSession)
+      	TANTQUE mRendezVous.EnDehors = Faux
+      		
+      		// Si l'identifiant correspond
+      		SI mRendezVous.ID = sIdentifiant ALORS
+      			
+      			// On le supprime
+      			RendezVousSupprime(nIDSession)
+      			SORTIR
+      		FIN
+      		
+      		RendezVousSuivant(nIDSession)
+      	FIN
+      	// Fin de la session
+      	FermeSession(nIDSession)
+      FIN
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : GoogleSupprimeEvénementMultiples
+     procedure_id : 2200846662502826291
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //GoogleSupprimeEvénementMultiples (<nIDAgenda> est entier, <tabIdentifiants> est tableau)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	tabIdentifiants (tableau) : <indiquez ici le rôle de tabIdentifiants>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GoogleSupprimeEvénementMultiples(LOCAL nIDAgenda est un entier, LOCAL tabIdentifiants est tableau de * chaîne)
+      local
+      	UnAgenda			est un gglAgenda
+      	UneConnexion		est une gglConnexion
+      	nIndice				est un entier
+      	sIdentifiant		est une chaîne
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      sql_ggl est une requête SQL = 
+      [
+      	select 
+      		*
+      	from
+      		AgendaGoogle
+      	where
+      		IDAgendaGoogle = {id_ggl}
+      ]
+      sql_ggl.id_ggl = nIDAgenda
+      si pas HExécuteRequêteSQL(sql_ggl ) ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(sql_ggl) > 0
+      	// Prépare la connexion
+      	UneConnexion = GoogleConnecteAgenda()
+      	pour TOUT sql_ggl 
+      		// Récupère l'agenda
+      		UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      	FIN
+      	
+      	POUR TOUT sIdentifiant DE tabIdentifiants 
+      		
+      		// Recherche l'événement
+      		nIndice = Cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", sIdentifiant)
+      		SI nIndice > 0 ALORS
+      			
+      			// Supprime l'événement
+      			Supprime(UnAgenda..Evénement, nIndice)
+      			
+      		FIN
+      	FIN
+      	// Mise à jour
+      	GglEcrit(UneConnexion, UnAgenda)
+      FIN
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : GoogleSupprimeEvénement
+     procedure_id : 2200849750584375724
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //GoogleSupprimeEvénement (<nIDAgenda> est entier, <sIdentifiant> est chaîne)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	sIdentifiant (chaîne ANSI) : <indiquez ici le rôle de sIdentifiant>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GoogleSupprimeEvénement(LOCAL nIDAgenda est un entier, LOCAL sIdentifiant est une chaîne)
+      
+      local
+      	UnAgenda			est un gglAgenda
+      	UneConnexion		est une gglConnexion
+      	nIndice				est un entier
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      // Recherche l'agenda
+      sql_ggl est une requête SQL = 
+      [
+      	SELECT 
+      		*
+      	FROM
+      		AgendaGoogle
+      	WHERE
+      		IDAgendaGoogle = {id_ggl}
+      ]
+      sql_ggl.id_ggl = nIDAgenda
+      si pas HExécuteRequêteSQL(sql_ggl ) ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(sql_ggl) > 0
+      	// Prépare la connexion
+      	UneConnexion = GoogleConnecteAgenda()
+      	POUR TOUT sql_ggl 
+      		// Récupère l'agenda
+      		UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      	FIN
+      	// Recherche l'événement
+      	nIndice = Cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", sIdentifiant)
+      	SI nIndice > 0 ALORS
+      		
+      		// Supprime l'événement
+      		Supprime(UnAgenda..Evénement, nIndice)
+      		
+      		// Mise à jour
+      		GglEcrit(UneConnexion, UnAgenda)
+      	fin
+      FIN
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : OutlookSupprimeEvénementMultiples
+     procedure_id : 2200851794988891498
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //OutlookSupprimeEvénementMultiples (<nIDAgenda> est entier, <tabIdentifiants> est tableau)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	tabIdentifiants (tableau) : <indiquez ici le rôle de tabIdentifiants>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE OutlookSupprimeEvénementMultiples(LOCAL nIDAgenda est un entier, LOCAL tabIdentifiants est tableau * chaîne)
+      local
+      	nIDSession 			est un entier
+      	sIdentifiant		est une chaîne
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      // Recherche l'agenda
+      sql_agd_otlk est une requête SQL = 
+      [
+      	SELECT 
+      		*
+      	FROM
+      		AgendaOutlook
+      	WHERE
+      		IDAgendaOutlook = {id_otkl}
+      ]
+      sql_agd_otlk.id_otkl = nIDAgenda
+      SI PAS HExécuteRequêteSQL(sql_agd_otlk ) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_agd_otlk) < 0
+      	// Ouvre une session
+      	nIDSession = OutlookOuvreSession(sql_agd_otlk.Profil)
+      	
+      	// Pour chaque identifiant
+      	POUR TOUT sIdentifiant DE tabIdentifiants
+      		
+      		// On se positionne sur le rendez-vous
+      		RendezVousPremier(nIDSession)
+      		TANTQUE mRendezVous.EnDehors = Faux
+      			
+      			// Si l'identifiant correspond
+      			SI mRendezVous.ID = sIdentifiant ALORS
+      				
+      				// On le supprime
+      				RendezVousSupprime(nIDSession)
+      				SORTIR
+      			FIN
+      			
+      			RendezVousSuivant(nIDSession)
+      		FIN	
+      	FIN
+      	// Fin de la session
+      	FermeSession(nIDSession)
+      FIN
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : GoogleAjouteEvénementMultiples
+     procedure_id : 2200853397011738773
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //GoogleAjouteEvénementMultiples (<nIDAgenda> est entier, <tabIdentifiants> est tableau)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	tabIdentifiants (tableau) : <indiquez ici le rôle de tabIdentifiants>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GoogleAjouteEvénementMultiples(LOCAL nIDAgenda est un entier, LOCAL tabIdentifiants est tableau de * entiers)
+      local
+      	UnAgenda			est un gglAgenda
+      	UneConnexion		est une gglConnexion
+      	UnEvénement			est un gglEvénement
+      	nIdentifiant		est un entier
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      sql_ggl est une requête SQL = 
+      [
+      	SELECT 
+      		*
+      	FROM
+      		AgendaGoogle
+      	WHERE
+      		IDAgendaGoogle = {id_ggl}
+      ]
+      sql_ggl.id_ggl = nIDAgenda
+      SI PAS HExécuteRequêteSQL(sql_ggl ) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_ggl) > 0
+      	// Prépare la connexion
+      	UneConnexion = GoogleConnecteAgenda()
+      	
+      	// Récupère l'agenda
+      	UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      	
+      	POUR TOUT nIdentifiant DE tabIdentifiants 
+      		sql_even est une requête SQL = 
+      	[
+      		select 
+      		 	IdentifiantGoogle
+      		 from
+      		 	Agenda_Evénement
+      		 where
+      		 	IDAgendaEvénement = {id_even}
+      	]
+      		sql_even.id_even = nIdentifiant
+      		si pas HExécuteRequêteSQL(sql_even ) ALORS
+      			HErreurInfo(hErrComplet)
+      		sinon si HNbEnr(sql_even) > 0
+      			// Remplissage
+      			RemplitGglEvénement(UnEvénement)
+      			Ajoute(UnAgenda..Evénement, UnEvénement)
+      			
+      			// Mise à jour
+      			GglEcrit(UneConnexion, UnAgenda)
+      			
+      			// Relit l'identifiant
+      			sql_updateEven est une requête SQL = 
+      		[
+      			update 
+      				Agenda_Evénement
+      			set
+      				IdentifiantGoogle = {id_ggl}
+      			where
+      				IDAgendaEvenement = {id_even}
+      		]
+      			sql_updateEven.id_ggl = UnAgenda..Evénement[UnAgenda..Evénement..Occurrence]..Identifiant
+      			sql_updateEven.id_even = nIdentifiant
+      			si pas HExécuteRequêteSQL(sql_updateEven ) ALORS
+      				HErreurInfo(hErrComplet)
+      			FIN
+      		fin
+      	
+      	FIN
+      fin
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : OutlookAjouteEvénementMultiples
+     procedure_id : 2200857369856559823
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //OutlookAjouteEvénementMultiples (<nIDAgenda> est entier, <tabIdentifiants> est tableau)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	tabIdentifiants (tableau) : <indiquez ici le rôle de tabIdentifiants>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE OutlookAjouteEvénementMultiples(LOCAL nIDAgenda est un entier, LOCAL tabIdentifiants est tableau * entiers)
+      
+      nIDSession 			est un entier
+      nIdentifiant		est un entier
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      sql_agd_otlk est une requête SQL = 
+      [
+      	SELECT 
+      		*
+      	FROM
+      		AgendaOutlook
+      	WHERE
+      		IDAgendaOutlook = {id_otkl}
+      ]
+      sql_agd_otlk.id_otkl = nIDAgenda
+      SI PAS HExécuteRequêteSQL(sql_agd_otlk ) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_agd_otlk) < 0
+      	// Ouvre une session
+      	nIDSession = OutlookOuvreSession(AgendaOutlook.Profil)
+      	
+      	POUR TOUT nIdentifiant DE tabIdentifiants
+      		
+      		// On se positionne sur l'événement
+      		sql_even est une requête SQL = 
+      		[
+      		SELECT 
+      		 	IdentifiantOutlook
+      		 FROM
+      		 	Agenda_Evenement
+      		 WHERE
+      		 	IDAgendaEvenement = {id_even}
+      		]
+      		sql_even.id_even = nIdentifiant
+      		SI PAS HExécuteRequêteSQL(sql_even ) ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_even) > 0
+      			
+      			// Prépare le rendez-vous
+      			RemplitRendezVous()
+      			
+      			// Ajoute le rendez-vous
+      			RendezVousAjoute(nIDSession)
+      			
+      			// Lecture de l'identifiant
+      			sql_updateEven est une requête SQL = 
+      			[
+      			UPDATE 
+      				Agenda_Evenement
+      			SET
+      				IdentifiantOutlook = {id_otkl}
+      			WHERE
+      				IDAgendaEvenement = {id_even}
+      			]
+      			sql_updateEven.id_otkl = mRendezVous.ID
+      			sql_updateEven.id_even = nIdentifiant
+      			SI PAS HExécuteRequêteSQL(sql_updateEven ) ALORS
+      				HErreurInfo(hErrComplet)
+      			FIN			
+      		FIN	
+      	FIN
+      	
+      	// Fin de la session
+      	FermeSession(nIDSession)
+      fin
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : GoogleModifieEvénementMultiples
+     procedure_id : 2200859336951646425
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //GoogleModifieEvénementMultiples (<nIDAgenda> est entier, <tabIdentifiants> est tableau)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	tabIdentifiants (tableau) : <indiquez ici le rôle de tabIdentifiants>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GoogleModifieEvénementMultiples(LOCAL nIDAgenda est un entier, LOCAL tabIdentifiants est tableau de * entiers)
+      local
+      	UnAgenda			est un gglAgenda
+      	UneConnexion		est une gglConnexion
+      	UnEvénement			est un gglEvénement
+      	nIdentifiant		est un entier
+      	nIndice				est un entier
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      sql_ggl est une requête SQL = 
+      [
+      	SELECT 
+      		*
+      	FROM
+      		AgendaGoogle
+      	WHERE
+      		IDAgendaGoogle = {id_ggl}
+      ]
+      sql_ggl.id_ggl = nIDAgenda
+      SI PAS HExécuteRequêteSQL(sql_ggl ) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_ggl) > 0
+      	// Prépare la connexion
+      	UneConnexion = GoogleConnecteAgenda()
+      	POUR TOUT sql_ggl 
+      		// Récupère l'agenda
+      		UnAgenda = GglRécupèreAgenda(UneConnexion, AgendaGoogle.Identifiant, "19700101")
+      	FIN
+      	POUR TOUT nIdentifiant DE tabIdentifiants 
+      		sql_even est une requête SQL = 
+      		[
+      			SELECT 
+      				IdentifiantGoogle
+      			FROM
+      				Agenda_Evenement
+      			WHERE
+      				IDAgendaEvenement = {id_even}
+      		]
+      		sql_even.id_even = nIdentifiant
+      		SI PAS HExécuteRequêteSQL(sql_even ) ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_even) > 0
+      			pour tout sql_even
+      				// Recherche l'événement
+      				nIndice = Cherche(UnAgenda..Evénement, tcLinéaire, "Identifiant", sql_even.IdentifiantGoogle)
+      			fin
+      			SI nIndice > 0 ALORS
+      				
+      				// On recharge l'événement
+      				UnEvénement <- UnAgenda..Evénement[nIndice]
+      				
+      				// Modifications
+      				RemplitGglEvénement(UnEvénement)
+      			FIN		
+      		fin
+      	fin
+      	// Mise à jour
+      	GglEcrit(UneConnexion, UnAgenda)
+      fin
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : OutlookModifieEvénementMultiples
+     procedure_id : 2200862360608671121
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //OutlookModifieEvénementMultiples (<nIDAgenda> est entier, <tabIdentifiants> est tableau)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      //	tabIdentifiants (tableau) : <indiquez ici le rôle de tabIdentifiants>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE OutlookModifieEvénementMultiples(LOCAL nIDAgenda est un entier, LOCAL tabIdentifiants est tableau * entiers)
+      local 
+      	nIDSession 			est un entier
+      	nIdentifiant		est un entier
+      
+      Sablier(Vrai)
+      
+      // Recherche l'agenda
+      sql_agd_otlk est une requête SQL = 
+      [
+      	SELECT 
+      		*
+      	FROM
+      		AgendaOutlook
+      	WHERE
+      		IDAgendaOutlook = {id_otkl}
+      ]
+      sql_agd_otlk.id_otkl = nIDAgenda
+      SI PAS HExécuteRequêteSQL(sql_agd_otlk ) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_agd_otlk) < 0
+      	// Ouvre une session
+      	nIDSession = OutlookOuvreSession(AgendaOutlook.Profil)
+      	
+      	POUR TOUT nIdentifiant DE tabIdentifiants
+      		// On se positionne sur l'événement
+      		sql_even est une requête SQL = 
+      		[
+      			SELECT 
+      				IdentifiantOutlook
+      			FROM
+      				Agenda_Evenement
+      			WHERE
+      				IDAgendaEvenement = {id_even}
+      		]
+      		sql_even.id_even = nIdentifiant
+      		SI PAS HExécuteRequêteSQL(sql_even ) ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_even) > 0
+      			// On se positionne sur le rendez-vous
+      			RendezVousPremier(nIDSession)
+      			TANTQUE mRendezVous.EnDehors = Faux
+      				
+      				// Si l'identifiant correspond
+      				SI mRendezVous.ID = sql_even.IdentifiantOutlook ALORS
+      					
+      					// Prépare le rendez-vous
+      					RemplitRendezVous()
+      					
+      					// Modifie le rendez-vous
+      					RendezVousModifie(nIDSession)
+      					SORTIR
+      				FIN
+      								
+      				RendezVousSuivant(nIDSession)
+      			FIN		
+      		fin
+      	FIN
+      	// Fin de la session
+      	FermeSession(nIDSession)
+      fin
+      
+      Sablier(Faux)
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1e8aed6b038c218b
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,3121 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_acceuille
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_acceuille
+ identifier : 0x2e81eb7310d84008
+ internal_properties : BQAAAAUAAADU7we+K+ob6Sr2UjgITvk7z866JdijxvJyrOpex74c5fZ1/xjMaciiM5Ts+KpCW9GeeL/J5bKyjCUMFYJFqnrcDqd/naPRFwPdZjgWaj1TSb+oT8SXcHrFChi5SccR1E43Gqcn2wh6ZhxZUY9K+sEkVFxurKgxiVverugfjlEckTxD1nFThwAO6D+a7v/uN1fn7CM+1jNjCZd8CyQX4FNKlVKJTSJySbfMHDbTEKQ1CH3Wk/njsPArU2dk2mMZv+jlYhxG8WRJv7S9s/JwPF3MnspEZJKHutimIzTbJ3jjTWzrqBe/ZigtfVGcOtdl4b9CgPdq9OKFVAckWJNuHyjE3wJEPVW/VEe2S2Ml7oRh5Q80tle068Br5UybUiy9Kb8l52B9L6w04Uq/2iSZoByfJtLaW/EdRoakQ1F7pj4F4Xy7GD6SE5rYFiJ5eAvrhmMvwggetNFPHinHZCMLQfJF+5NjudVpqAJn1r2nbwgKn2moqOuHyAHhBDBGYKj9wLUTm6vBe5v55aASanYbc7S0A0flyeW/+PbcHqhX62s8Mtxy+UftqBkSULMtYvvRPGI687PreyloXssSJTpQBy0heGrsMoe1LD6+AnNlvfqaW5Z6yVcVDTrvUD19SfojCLUN6yGRu3MCWnwwRjFRDcpYKEzPwOc5rxsQPA==
+ controls :
+  -
+    name : FI_acceuille
+    identifier : 0x2e81eb7310d94008
+    internal_properties : BQAAAAUAAADS5zntVDENBJi3ZTjGaaHQ755XeYW+80MUhsfM38HIdnDT8fwjloJKZ1PNXgNIv5LLyykEFQS1zCeLHjFCeZEXFtst55OO5uRPS7hJQQ/xbet8fqh6ujmP+DQ6F2C+tXoOo+M68ZkmU4DCfHWFvX53llegj/4bQIt0Hw4EQ9sziU+1R4DjoZfCt6zVnNsFUeXWFrNJ4ICb7iH/kcy9aMn31cgKqNRni1d6nMeRzGgV66Tu+SNJo9IU7lmMkOHeg4DCkIblG02q60ewUSvDgQxPvMrEhbZLGEZEkCo6Hwo4ym3c+ut/4hu6hIDT4sfn0T3cm2awhCJpOZSkpppoJtOQXCMwG7HzbnV8wVh/02mE4ADkCTklKJyARW07rcznMCV6TM1vwDIRn35OvRoD0vcMzhz/eel9kI3jeHmtWD6iQsWU8Ua1QOspaXXOi3Zc+c9O
+    controls :
+     -
+       name : AGD_Agenda
+       identifier : 0x2e820a92021bd065
+       internal_properties : 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
+       type : 76
+       code_elements :
+        type_code : 107
+        p_codes :
+         -
+           code : |1-
+            // Ce code permet d'exécuter le code de changement de période à la fin de l'initialisation de la fenêtre
+            // Les différents champs de la barre de navigation ont ajouté des traitements pour se mettre à jour
+            //	 Le code de changement de période provoquera la mise à jour de l'état de ces champs de navigation
+            	PROCÉDURE INTERNE  MAJPremierAffichage()
+            		ExécuteTraitement(AGD_Agenda, trtChangementPériodeAgenda)
+            	FIN
+            MaFenêtre..Traitement[trtInit] += MAJPremierAffichage
+            AfficheEvénements()
+           type : 14
+         -
+           code : |1-
+            //PROCEDURE AvantCréation(rdvCréé est un RendezVous)
+            
+            // Gère l'ajout d'un rendez-vous manuellement
+            // -> crée un enregistrement dans la base et modifie l'événement de l'agenda pour l'associer à l'enregistrement dans la base (propriété .ID de agRendezVous)
+            SI AGD_AGENDA > 0 ALORS SurAjoutEvénement(AGD_AGENDA[AGD_AGENDA])
+           type : 135
+         -
+           code : |1-
+            //PROCEDURE EntréeEnSaisie(rdvEdité est un RendezVous)
+            
+            // Gère le début de l'édition d'un événement (édition du titre)
+            // ->
+            SI AGD_AGENDA > 0 ALORS SurDébutEditionEvénement(AGD_AGENDA[AGD_AGENDA])
+           type : 136
+         -
+           code : |1-
+            //PROCEDURE SortieDeSaisie(rdvModifié est un RendezVous)
+            
+            // Gère la fin d'édition manuelle d'un événement
+            // -> enregistre les modifications .Titre (seul élément modifiable lors d'une édition)
+            SI AGD_AGENDA > 0 ALORS SurFinEditionEvénement(AGD_AGENDA[AGD_AGENDA])
+           type : 137
+         -
+           code : |1-
+            //PROCEDURE Sélection(rdvSélectionné est un RendezVous)
+            
+            // Gère la sélection d'un événement
+            // ->
+            SI AGD_AGENDA > 0 ALORS SurSélectionEvénement(AGD_AGENDA[AGD_AGENDA])
+           type : 130
+         -
+           code : |1-
+            //PROCEDURE Déplacement(rdvDéplacé est un RendezVous)
+            
+            // Gère le déplacement d'un événement
+            // -> enregistre les modifications de .DateDébut et .DateFin
+            SI AGD_AGENDA > 0 ALORS SurDéplacementEvénement(AGD_AGENDA[AGD_AGENDA])
+           type : 131
+         -
+           code : |1-
+            //PROCEDURE Redimensionnement(rdvRedimensionné est un RendezVous)
+            
+            // Gère le redimensionnement d'un événement
+            // -> enregistre les modifications de .DateDébut et .DateFin
+            SI AGD_AGENDA > 0 ALORS SurRedimensionnementEvénement(AGD_AGENDA[AGD_AGENDA])
+           type : 132
+         -
+           code : |1-
+            //PROCEDURE Suppression(rdvSupprimé est un RendezVous)
+            
+            // Gère la suppression manuelle d'un événement
+            // -> demande confirmation avant la suppression
+            // -> marque l'événement comme supprimé dans la base
+            SI AGD_AGENDA > 0 ALORS SurSuppressionEvénement(AGD_AGENDA[AGD_AGENDA])
+           type : 134
+         -
+           code : |1+
+            SI ModeEditionRendezVous <> 0 ALORS	
+            	// Termine l'édition
+            	SurFinEditionEvénement(MonRendezVousSélectionné)
+            FIN
+            
+            // Aucun rendez-vous sélectionné
+            MonRendezVousSélectionné <- Null
+            
+            // On récupère la période grâce aux propriétés ..DateDébut et ..DateFin
+            PériodeSélectionnée.DateDébut 	= AGD_AGENDA..DateDébut
+            PériodeSélectionnée.DateFin 	= AGD_AGENDA..DateFin
+           type : 133
+         -
+           code : |1+
+            
+            // 
+            SurZoomAgenda()
+            
+            // Aucun rendez-vous sélectionné
+            MonRendezVousSélectionné <- Null
+            
+            dDate est une date
+            
+            // Récupère la date actuelle
+            dDate = AgendaPosition(AGD_AGENDA)
+            
+            // Sélectionne la date dans le calendrier
+            CAL_CALENDRIER = dDate
+            CalendrierPériode(dDate)
+            
+            // Actualise les événements
+            AfficheEvénements()
+           type : 138
+         -
+           code : |1+
+            
+            // Les coordonnées souris sont en mode 'Origine écran'
+            nSourisPosX est un entier = sourisposx
+            nSourisPosY est un entier = SourisPosY
+            
+            // On commence par donner le focus à l'agenda
+            AgendaDonneFocus(AGD_AGENDA, nSourisPosX, nSourisPosY)
+            
+            // Récupère l'indice de l'événement survolé
+            nIndice est un entier = AgendaInfoXY(AGD_AGENDA, agiRendezVous, nSourisPosX, nSourisPosY)
+            SI nIndice > 0 ALORS
+            	
+            	RendezVousIndice = nIndice
+            	
+            	// Active l'option 'Copier le rendez-vous'
+            	MENU_AGD.OPT_Copier..Etat = Actif	
+            	
+            	// Active l'option 'Exporter le rendez-vous'
+            	MENU_AGD.OPT_Exporter_rdv..Etat = Actif	
+            	
+            	// Active l'option 'Classer'
+            	MENU_AGD.OPT_ClasserCatégorie..Etat = Actif
+            	
+            	// Si le rendez-vous ne possède pas de catégorie
+            	SI AGD_AGENDA[nIndice].Catégorie = "" ALORS
+            		
+            		// Désactive l'option 'Effacer la catégorie'
+            		MENU_AGD.OPT_ClasserCatégorie.OPT_delCatg..Etat = Grisé
+            	SINON
+            		
+            		// Active l'option 'Effacer la catégorie'
+            		MENU_AGD.OPT_ClasserCatégorie.OPT_delCatg..Etat = Actif
+            	FIN
+            	
+            	// Active l'option 'Modifier le rendez-vous'
+            	MENU_AGD.OPT_edit_rdv..Etat = Actif
+            	
+            	// Active l'option 'Lier à un agenda'
+            	MENU_AGD.OPT_link..Etat = Actif
+            	
+            	// Recherche le rendez-vous
+            	sql_even est une requête SQL = 
+            [
+            	select 
+            		*
+            	from
+            		Agenda_Evénement
+            	where
+            		IDAgendaEvénement = {id_even}
+            ]
+            sql_even.id_even = AGD_AGENDA[nIndice].ID
+            	soit nrc = HExécuteRequêteSQL(sql_even)
+            	si pas nrc ALORS
+            		HErreurInfo(hErrComplet)
+            	sinon si HNbEnr(sql_even) > 0
+            		pour TOUT sql_even 
+            			// Si le rendez-vous est lié à un agenda Outlook, Notes ou Google
+            			MENU_AGD.OPT_link.OPT_Outlook.OPT_InlinkOtkl..Etat 		= (sql_even.IDAgendaOutlook 	<> 0 ? Actif SINON Grisé)
+            			MENU_AGD.OPT_link.OPT_Google.OPT_LierGoogle_Sep..Etat 		= (sql_even.IDAgendaGoogle 	<> 0 ? Actif SINON Grisé)
+            		FIN
+            	FIN
+            	
+            SINON
+            	
+            	RendezVousIndice = 0
+            	
+            	// Désactive l'option 'Copier le rendez-vous'
+            	MENU_AGD.OPT_Copier..Etat = Grisé	
+            	
+            	// Désactive l'option 'Exporter le rendez-vous'
+            	MENU_AGD.OPT_Exporter_rdv..Etat = Grisé	
+            	
+            	// Désactive l'option 'Classer'
+            	MENU_AGD.OPT_ClasserCatégorie..Etat = Grisé
+            	
+            	// Désactive l'option 'Modifier le rendez-vous'
+            	MENU_AGD.OPT_edit_rdv..Etat = Grisé
+            	
+            	// Désactive l'option 'Lier à un agenda'
+            	MENU_AGD.OPT_link..Etat = Grisé
+            FIN
+            
+            // Si un rendez-vous a été copié
+            SI RendezVousPressePapier <> Null ALORS
+            	
+            	// Active l'option 'Coller le rendez-vous'
+            	MENU_AGD.OPT_Coller..Etat = Actif
+            SINON
+            	
+            	// Désactive l'option 'Coller le rendez-vous'	
+            	MENU_AGD.OPT_Coller..Etat = Grisé
+            FIN
+           type : 65659
+     -
+       name : BTN_PeriodePrecedente
+       identifier : 0x2e820a930239d4ab
+       internal_properties : BQAAAAUAAADLCs/AeCGrZC+c9s1KVFWugPnYYhnziCfh4ONqZZaYd5bOFyR9CMIG/CoyYqdE263bPed+vBkFT8Wd96KkOyhkJYoxZGxAZxY38Ukrqf0i4U66SI4ka2hWx7iBR2qNeRhADFiFabxfbORgc76UnDs843KpsOrYhS9Zf0UJ7r/gT9JTdBHbZJTn9vhxuEoGlnZMVOWAt21TaBJMSXlLaICjPwvi+8kl7je4EhtZ33OuOUIgMaWg+IY9P44vHQRr+uxCkfD/+jTrm8CErXpLq/FnOTzZyfoaK5s9zrWEP9UA6EWn/e/Qb6BmKNV/WcAsv7vk+knxbgWjVcHmI+x+SBjaJ1iSbqhvcZouEAjA62cSvRganzfYOGrkKyIfnMlOWPGj73hvEHRMU9jY1ErizF2Us2f+b13/gg9OxzkKByHYGy8ESMKm3LbBn0Cp5xR85dWejw6XxvP/O8sSMYsMbAq4C/0VCxjtREn7CDs9ljx4GmDjxa6oyw2GXwgYFg0yY9YxiMxwcACSyEy7c3ks8YKZAta1D99lHTKQz7mzOzpIKZhVdZmlw9uS/E/IjOI/L/SfAoup6RLc4VYJGl/sMCc1gmcJh115U5KcWqE/slcbyYJhGy2yQkT3qq//6apzP1AtE7krYnohg0uA2fhea+lCQNMRKUNwOYXY7/xIQKr4ql0ULjqJM2rHW1eG9tszwOvuP/nXuGC8QQ==
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            AgendaAffichePériodePrécédente(AGD_Agenda)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_PeriodeSuivante
+       identifier : 0x2e820a93023bd4ba
+       internal_properties : BQAAAAUAAABEhLvLaoN9Y5P8aWAEP05QAcjFMGmQbyn2iV7aRXTb4A2igFyb4XAc82mEgt+NbuCbPv/8qj6w3yGNPYp2pWSDecRRgE5KBYNmkQr22hzdxucYG9Gy7LKqUFCMoZYwGiAhqvBrkh7s+xOvng65d6cmIrpMFn6UwtC+38QXEpa/gY0kpz6MRstPL/QnVzycMXY4TSCMDsKnPpy8jzwkFpsTjCt09O3CL29okBpeauA9HP6XdHifJpFWKwoerEkoMWp8facXVWBtwqXnRC1+kFasxnXu/dHxpD4DW+j8DNMAnuNJ2LI9iiPemoyNuzpLrHnnh6PxX3IvqLL1I2pMvRxtsaN4IzIuZg6WGXt2g2zL9lhZiXDCDBlDnRWrVB8hx5ZV2hCsPCIdntIFauhm4SA7vwCgEGUp6Yy8ODvUL9q/XKVF7ule7rk2P28//QSnmi4I0I5cIgkUzLHb1VOOvyNXPei/JurRJ3ClVWclZJ/378iOWUfCPyJPboAmZJWbpL+ftxINlAKZx8pm0YWWfthR69mw6C8jtD5D5tUpR7KoiMV+ticUpYiIbNTMiM4A2pgBLRxlXIdMt+AogG/GYDHiGtAoiHvGWU4eMij02pGq8MC6o2LBXaax2lfEUDMSuTbIuHs47dHv21ccy2owabjxivWOwmmEq2DgyDqh5yDYiogBMtkdJ79sEf7cq3Fm/NXMgE+34hhf
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            AgendaAffichePériodeSuivante(AGD_Agenda)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : LIB_Mois
+       identifier : 0x2e820a93023dd4d9
+       internal_properties : BQAAAAUAAADuC0fKdSCnd6283xVCNxWZ5LxyHOHZwQtTU2SuIw+uhfWspn8Cmy9aI+vl7fEhT3reRMy2njlU3d39fnw2+PtxmVyfLEClcY6qWWZHR2G3IYgKmKykSvIbb4k5dhK6DAJRI3JU8NqhKVl/tccHz4os4cgXT4zWAG/f5EV7gZylMtu+kuGYOoQoERwlKJTntXCvu4B9m1NNWNXadToRkaxhXWV91Ip9ezkWNgyv5QL08g1bHNMz6c3NQKkhRR6ykYE3ZfKaz9bcm3Z+eeSOJ+IezBYXsZTVdgtibXVpTeB09JCiQDHzRVd4OhiSIEywKs5QDaQjW/STyDHYo5bRlAYlmqJIMdd/BVJ4uq6aZQaJLuX09wXE0x5gHAO6NPsz4PODbuUq5lzhKIpBccL0f7hLfcVrYhAdF25sMFSzmIVanlIAK+1GnzP1NuFt
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            	Procédure interne MAJLibMois()
+            		d est une date=AgendaPosition(AGD_Agenda)
+            		// en mode mois, le moi a afficher est le mois qui correspond au milieu de la période
+            		// on ajoute donc 15 jours a la première date
+            		SI AgendaMode(AGD_Agenda)=agzMois ALORS d..Jour+=15
+            		LIB_Mois=d
+            	fin
+            	AGD_Agenda..Traitement[trtChangementPériodeAgenda]+=MAJLibMois
+           type : 14
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Semaine
+       identifier : 0x2e820a93023fd4d9
+       internal_properties : BQAAAAUAAAChvPn3xVufYo4FlWqc4Ki0xUxEBP6pQ1DkfO1lxTPNic6UttKRYv7d2yC0AnXJ22AN9t2D1BB+RGFYk/A69yRBYWY3dlgwf+wlDabtYpcCE4dIqXoYLHT2Ax8N3fM9KcJOTn6R0MTcE5h4SGuUBFxxqmjz+bu28ttbRrOAR3/StzxOr8uVN+KlzV11TOLMyeU2fnbTbUD7bNHyS7/gtmpfOkHGH+TWP9RosTIzQi720G806YqtjXdos7L6B/nzsAjcUf7b/GzRPVSrzSndxnuZFhCXZARpdaMfRT+JQm5Wv9M7nOKNCe+xb0Ar56mRZdeVe8Px4Q1tD8OYQilwJrykh/0X0JnheVR8bvy582k2I6XKiAyAIi8O7vbDiKyX5sY8eIIh3zOmftb0MNMxjDcIsd0MOw==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            	PROCÉDURE INTERNE MAJLibSemaine()
+            		SI AgendaMode(AGD_Agenda)=agzMois ALORS 
+            			// en mode Mois : on n'affiche pas le numéro de semaine
+            			LIB_Semaine=""
+            		SINON
+            			d est une date = AgendaPosition(AGD_Agenda)
+            			LIB_Semaine=ChaîneConstruit(<§$0000§>, DateVersNuméroDeSemaine(d))
+            		FIN
+            	
+            	FIN
+            AGD_Agenda..Traitement[trtChangementPériodeAgenda]+=MAJLibSemaine
+           type : 14
+         -
+           type : 18
+           enabled : false
+     -
+       name : BTN_Jour
+       identifier : 0x2e820a930241d556
+       internal_properties : BQAAAAUAAADaEpqiqbj/261bDvMxD10t7pVv0mrUEIjyituZmuAA7NUk06/hotmVjgpqy9xXSHXO+30/W4j5ber9JzYYKYKr7zY2n0VNonxlfCtpdzV/ifGa4Y/ltW+kc5Vf3pZ0EXRW64CScRw+tGeu1RGGlZvaXFEozqJobKWRkZ6ZiKwBkinzVhtizfHDMACpFlYXQ9JdhjBvC5Xv63/WurCTb4bgyKW3bNl/3eXCS9aMuARzxH5naYLdSeYNJC3oPggBgfJmFEdNqHHuLJMayyGzUHgxV6k/WbracmhR9Z9sxHA8MVhp3HEzvDc8inPhDJRboMVwjHzDGuAU+RzVeCHAU0A+DGLcIGARjmWmawzMea7Cb6QDZX4rKPHWzfKmdDQlWcY7TH9ZSvkQ+F8evIu/sZB5bfnK/1fe6doz4TD8jJ5dfgzvfN9o7K9mRu65CIxf6gFweZVgo2V9S4Eh7QCNJ84cSi3+CRqRuhZkphiMqa+zOCt7yihVAHgUdzwwRxRBsV22RntqF4kObXDSzHlIj+r3Msdz9k/CylLQJivUrfG8Y0ySBZ0OJg+8FlTjcJ4mSi7LGQJ7e2/Fx09y0+fZ0K/oWWM+wm0x5tZN+1h/fLhb5wuj0sbKX2+QCt+K0NhJ3ShsiGUrNodwDlzYXCqBLXq3dFZZngnQzHnR8R7Wr9E4KfvY/kc5Y+67mWGbJo7uRi3Ry2LAOZqE7Ckje8QbSOu9cMFvviWN/HhS
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            // ajoute la procédure de MAJ du bouton "Jour"
+            PROCÉDURE INTERNE MAJBtn_Jour()
+            	BTN_Jour..Enfoncé=AgendaMode(AGD_Agenda)=agzJour
+            FIN
+            AGD_Agenda..Traitement[trtChangementPériodeAgenda]+=MAJBtn_Jour
+           type : 14
+         -
+           code : |1-
+            AgendaChangeMode(AGD_Agenda,agzJour)
+            SurZoomAgenda()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Semaine
+       identifier : 0x2e820a930243d556
+       internal_properties : BQAAAAUAAABe/q+5YBueMlTHSlbO8YZ9xnQJg/YRwbktU+zLPLLq1EL7WEVWKBdjTRC6LhPakKEX3ChPgQzDJOwvHMyiI/UsLiquoYwepKP+iFy1h2Ewv5CoPiY+rhyXEdXD3SVmE05z+ZrB/FRUDvsBtzkhDTXMnXxTsMW1jyMySmvYe267LzlwIhgS8GNBKIkhr5QU82S5eN0TMYQFtdM6MYMLwikvAc5k/yS1bWfgVDcmgPwJMotPe6F0IfceMHybMXBZpX6m1xaJvvbAtDRlH4PiRPG79WfdmrCb1Fv5jzjLjW+43FdcOgbh/qcl7amNYCrBXPGs9p7dLJ50/BxpwG6c2iPxCkCH75/NMt84ZBWthLI27bD1pKFaLhQi+DGZVEOrDdLuJJVXubhp7oQhgzXuDSLfZHWcjVaJXjQontEEawSJWNHJ1NMPsbp+LVdeWJlpRi+NqzW09IDSt1zmTrDKoRKGTXmEKY+OjWRhiW96OoO9dDZH3Jp2Cx2ufOPzV+vRZ1/RZGtCvniXP0ezWd0bNQrpW8vNSkh70SRTF8BSTLfkxZ/gGQcRC0IcZ5FU7mZ+yyd7+qHkfzMRnldwDZgDiYojw5zB7aNhRtnnPQ6YbhuoUDmEtY96/SFrlh+uiTqevGNiX47r16KFYbvpSNwJU6alseUd8nTT6lJ5y6wgV9gtQwJ5KMOHbnggeQJQTDPIcGIhfUoOeku1e0roYbtfKWn4oCfVzAjXFcH1BXfJPQ==
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            	
+            	PROCÉDURE INTERNE MAJBtnSemaine()
+            		BTN_Semaine..Enfoncé=AgendaMode(AGD_Agenda)=agzSemaine
+            	FIN
+            
+            AGD_Agenda..Traitement[trtChangementPériodeAgenda]+=MAJBtnSemaine
+           type : 14
+         -
+           code : |1-
+            AgendaChangeMode(AGD_Agenda,agzSemaine)
+            SurZoomAgenda()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Mois
+       identifier : 0x2e820a930245d576
+       internal_properties : BQAAAAUAAADvG21bpedpjjBrrPHOcdanW5VJARjnLV1qrpgatXwzWimFH0aJmsduPGw65r+vK60Vg/nXHrMMHK+4x5Nr67diwoY07frWQ7t1LV3FTm8OqjXdPYw+vBF3f88mhpNOU+mYZ5LtciK7ps5lxCfVpL4p1r8oUjCQpZKfFaQ6IDmd3pbWyF86WyRLL+HKddifR3e0BG+yrmX20GNmGPzLpUQTNhEjcwmYeEkIcdiIr7P/2gBeL/Qgni6Zu0AOY8a9tpucr6cQQ2Rk2dJEA0EEtnWcfuyo/7UAzFnLnx/QxyLf24lE8kvtK3ANHbDLFEUuRHshNYApwXEYFjfqr8fj5z/X4udLVC87pvipIDvOIhLA+pMvVDLBz3cyv+eNAc77cs42Rkp4jFgiVPWBDWb7hXkXiJNbkpk9qbAZru8fOqC04NV73ziWZbnehq/cyfyf5e3nrxStFwKzy3c6wBdtB/FKhfcnwB6svqTsdZ0r/6laMki3tWuzuaQC3+2PBob/ZMsRwu4r07RyS27bIxK+KVnJzy2AD0HztOogBTAPF7cnGd+e4AAyoScOxl/805Ki4dYsFW9KScA7J+HBzC49zJxS9Ldz/98euKbFtBOqECTgu87jI8cWMt+GoAI3PTon6HIMee9BY2VPCLjQ9ub7RJTGLSCFwqyWQ3iaJcwiYE7guud2PCmQvGZd78EtmIwREmu6A/FUJjbUUsHoaiV/VHVd8qme03y0i52l3jmm
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            	PROCÉDURE INTERNE MAJBtnMois()
+            		BTN_Mois..Enfoncé=AgendaMode(AGD_Agenda)=agzMois
+            	FIN
+            AGD_Agenda..Traitement[trtChangementPériodeAgenda]+=MAJBtnMois
+           type : 14
+         -
+           code : |1-
+            AgendaChangeMode(AGD_Agenda,agzMois)
+            SurZoomAgenda()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Aujourd_hui
+       identifier : 0x2e820a930247d595
+       internal_properties : BQAAAAUAAAD/eiHV6+TPSZZ4scut1d2GvSbe9BAVzEDcpNGIDw/QmFH+VFlnHyRcoFsi1nrFpDA6+WsYNZmNe6N8Wd5o+XL3cttYkBk/ZE8CAJG5DVhWS5E0e+W68bsICC3ghbLg9Z/ssv12iA3dB1RF8EmB8HudPFd85FWb2m00FzEyEzRwUyjGSYlsPTXJvycvI9mOD+WGM3P+3woJ8nIOfrGjRbDFE06EukiZ/OcLRKTJtZuKGj57gVFD5oZ5ZIfzVXG6/tlK3ns3JXK25WOpJ0oAvXqyYU7ak4IL/gTETGGsOS4PyuT2zmTJX6HMq35zvOE8mN93XYcfDSsMpLSBpfX4981YFm5w6eTAlSskA5CputdN5K+RJovqfJbP1VcI/gNS24GGWIm9jwEbA8mnsovAtIriBiMOYZTuFAmddGCIQwsTZaUZYEtFQuDT9g3TDhGeJPqfket8+ks6TPG+5T6IMAwD63syN5ef9RGCxSSmUOw5VzJPlHxUjE25e3f+WzMWNR6xACu6TCebbpaZjqkVpn44Iy89I1v19O4J2MBVmQkFR+j1YqBWYTUQ2wZAcxHD9Slu6VjVpJDa83jSGDVDu9tHL4P4ORY1oJBS0XTDApEwC/Je3UNaVingYL1T8puV4VU2Ap5SCzS7TvirdcSgfAqiLeR8J/dHMm9WbzHMDETiu2qFlcy5PllgsWVKdR91FpR3rGFPYrphfZvupsoqvkoUtPdSZQ==
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            AgendaPosition(AGD_Agenda, DateDuJour())
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : CAL_CALENDRIER
+       identifier : 0x2e820b6502530acf
+       internal_properties : BQAAAAUAAACUirF0NK2C6f4JWhOS4ygTkj2nJ2ZGE56pjoWL0p9JsbeD6d2aRfhriGiAaqW4wtdo4p7BTlW8n16TAItBSN63CIzsD/XcVPelAWvfaF+QsuRs014EA2VqqgYq67O15Y4sAB5uckQ54qNK7g2nsQfoTWAV4WC3jmLThR014ClOHENhrOEKGBa3izlCdttSjHWK8yRieLJPPPPWQAurqW3mKcgTfEgoySqwmB4eJJbxfFJ3YDZkJ2NlRZunkQqgI7FyE9wEATGbt4MHKC2FKVwnQGqxki+sLXckDZdbXovF89ukjAK1bxX/In6fkfqqsvWGj6iMTH/IK9xidMpdUc7g78KLmfCJ7OVajiysxysDow4ABuIRUwl/4NkZ8Xdawe5JVqoM088tqy+rW98FAMROOpoZ/ruwd/LTeMVcxKOUpj6xCoHQ4xhWk/0bHgDEHnNgqtUvNTRWK+pebg3mWi5R1VAVIWlixjbZ4dvRTfgsRBn6/7Nik2LJEPHO8KpwyumaU/W8xhieKjRZSHWVOswEC3HYGM8MCZb4QrBcGFWsfLecRV7/M+JbNre9dIrs/QQFF6cqKIivI8mi1LsSQG4ev4Pxjo83vF9Migb87xb2LJvKwL/m5VAK1Os4iehJAkDszry5MbWGybMv/G3DjhBW4sD/jSRM5DTCXcVo589+QcylRCKT8XvBa2eoGA3t4AihUuaBxi4zl9s9oalHR6nKFVOXsExLSrKNZ0JIyguwKLUvFVuKUIlwuGgOODHJB7TzOz0LnoenSmXqQ3LydZCyQqrl4WdxdozOmE/V25OKXSm87sIgvi3mRqogq1fOANLbb2IMtvibsizSMdsHX6ZiRa5hJlzj4JUcqMocAv5b6szCWNkBDuIqltiPmsGlwZOwDDl9rwPOK38mSlLVF/K6/ma3W3rA0GtdEsIBgpvoFLY2Mx1bd+hmKmJcaxmptElRjEjDjbYJmMIhgptVSLXXUIOdEKhA15S8sWq9PKpeDzyIbyt4zfUIYsOv9OJ3ZR7BJyiGra4OcYEvfUrO4D8+XqtaLTLhKRZK3brSBW8BYxXh/VQ4G7Pn055sqrdyLVgXWDVsGB9IiYYf+XdXnW7Ulhlm1fQzFvdrIi6iN/nNAX7mKAXfARHyRG1BRu7usRw6b5uF1Hi+Kaul+WNfvhfQLoiUqwk1KSiv6bnwZ1AVMq+Zzr17E1/pnpI56tWn/sVA1biq15t98JIZXGVpLzuv9ipyiCBhQStynqM0F8+aWX83SQfgzW6EqFVMJJh76YvF1IF0sPUlFHRvehLil8xG/izJa3EbWChgJlYs36cXAe3ZM4qfTfxBAjmoUW/EAlRsB7LNrLanG8+SYGkLWIZ9/mDaYKfTkXax7dmFqu07Tb/ohBEeYX5vaq2b9Q/sKXRK/mY97hiSnAQtqZN4tF+CD8ziFW7QJ3tgKOf69r3Mi9X4rsKI9r60ItNRvuq1CvG7j12xe8RuXAWyMdY9t6ECOI/PNFrF6ZN0gs7UA1RA2F+duJBp30tpib82KbjUP9umymaygE4fkN4D6d2qyy0EcVVrTv8bwXVPMi+lr4oimWFsrLY7lrSyHp1s3IAzBBb5fGkk9bfYmkt0TOqy6LLvXC82aH6PjxepCCdZGIXz2sgZxIi9CSNuWYRkm6zWgZuww4dJUg0Ljt+f3oTj7CSb5j1d3V2+3KpXoATWPxRiFWK8u8ljaA==
+       type : 47
+       code_elements :
+        type_code : 100
+        p_codes :
+         -
+           code : |1+
+            ExécuteTraitement(CAL_CALENDRIER, trtSélection)
+           type : 14
+         -
+           code : |1+
+            dDate est une date = CAL_CALENDRIER
+            
+            // Change la position de l'agenda
+            AgendaPosition(AGD_Agenda, dDate)
+            
+            
+            Calendrier_Actualise(dDate)
+            
+           type : 120
+         -
+           code : |1-
+            
+           type : 124
+     -
+       name : BTN_agd_clic
+       identifier : 0x2e820edc02ae90f8
+       internal_properties : BQAAAAUAAAD+MUxycR2/OyYXJD50I5IKZzcy31ifK1ZyOtS7RXGOfIVafPqGIYRjXUM+F+yqEjJqCXyxbP+OaXs652yoc97ATZ2yer7RwTsqo8XAG4r3X1wpgexfc5WeJBCykcQ5YiajjP7HaUo3y55yinznwDL2vj+WoGSfMWpVEIRvJAasUEGOkQoQL+IAaDH1O460MmfUNzD1OHs8vbmO3FPHc6hVFgIjPEyV9qw7bNuhzD6s2RE9mNDnwEEEOELQyeGjmYFU8ew0I7syMIESHajI237ci820bW0Ib0bdoqx2wctnxMp5/Jz7d8X86SoabXBd2O8NOfNfB7gwHkvj8j5TRCgZDTWCgz4gl+3Xj61VpjTE92ZtQSkYeAB5iWjstnJ+nUxt+sBAAHJJOpEnIUpSuPbd5qcox8Njcs8I00LNEUEkXlharoAZldwIOblJLnGgJ4t3Q42uW8EPx7cyzgurejtxwFI81hTMhI1cY9Y+yZwchkWVgOCZAGaDmvH9cOssXD5dPw+7ErQ6KtueyaTncyyKmOwV6LIuEnR7xl3dvHg7u3d/ShNxlLREhoo1MU4vuqRQk024RSSZit51UK+qZXpfBLLhf7Y7mh8ICidaS26rSdryNbS3awG/2BUEqi22BWN3/rq4uU1OMSiQe6Yxq0geYw7XehllVD1FRT+aUfP445Ox2tpQO5pHF4tQGUMw4vDAyNvlx0MchSae7hssBtPreg==
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Si un rendez-vous se trouve sous la souris
+            SI AgendaInfoXY(AGD_AGENDA, agiRendezVous, SourisPosX, SourisPosY) > 0 ALORS
+            	
+            	// Edite le rendez-vous
+            	ExécuteFAA(AGD_AGENDA, faaAgEditeRdv)
+            SINON
+            	
+            	// Si l'utilisateur a double-cliqué en dehors des zones éditables (jours, boutons ou horaires)
+            	SI AgendaInfoXY(AGD_AGENDA, agiDateHeure, SourisPosX, SourisPosY) = "" ALORS
+            		
+            		
+            	SINON
+            		
+            		// Crée un rendez-vous à l'emplacement sélectionné
+            		ExécuteFAA(AGD_AGENDA, faaAgAjouteRdv)
+            	FIN
+            fin
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : IMG_ggl
+       identifier : 0x2e8b10d817c38102
+       internal_properties : BQAAAAUAAAD0PxR6e+KDpc5G8sEBqsqdbvr42eCklR939hio5dRdOGl0a8zvTYakQCuLV4CfSZOnIoWDmD15PVe28mssW7RI75s51Gggb4IrouahAmpBLpzUA7sU8ItQkOask33ObGh7PcBEJxzfeuG1mz07UMyRhX43vN55Af8P90m0WOWLNfHbVjqLn694HuDSlS2D9r4M2sb1GodQYQ4nq8AnFQnTmdyHSPcTO+NWw2rpHyfqK8EuEDuABZYcCrVumauUSs76Yy8EHDoG+isv78UVqt3Ev8/891Ts2WPUnodlE0QsgsOpyDFpcej0UY4ZzdeApf8o0eURhOmRxACJ9GFwyzIcQM1tl1z+37yKWQWAg5Vl3QgSXLABvm0RjE7tcqUgyCleR8GlbUP18qi3BmiJv+utEgiGeNTMee6m1ActPHxS7YZWS8Y9//cOR0lduLpKZz6ddwEOhOFdzEhHFqHqlPSjGmYfD0CzpmHHqM6UCT3/iv3+qJw9KwsbqcVHYLaVJuv+Pf+uCbQwp7QO6YAB4SI4wQxHTq74NtEXXOUr57bL/2m6lSuFvS5sZc3m53we++4Pp2oGks3Bx5SBrBBogAeI8Nv6L1RpUn7TGpgs37qWOkQ9KP2uta8jNyssvpA2YMqLoWpbOP+TZbuMBNhL+m8wSDta9ZJjP0CXf1ohcatFyjvbEp572FvP0c+xPKj1iC94CXl0QqgVD5mWoqMzzIaLzK3l09fwuWJZLDSXRwac22CV25Gmzd3qzOuZG8PmkKN5ZMFPMHh8ePxUCciCvJQbT/UvuY0BaS9AMp9qgkn13eliR+C243HE88V3+dVYP+sBmdg2n5pcJsolppbo3mRLpW3QfXW8E7naGHOj7HXd/YOPi4lw3JiqEnb57orDEh6OapLHkX4oBYTgziQoJ4xzh7p31qPiml8OAcSF7Q==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_otlk
+       identifier : 0x2e8b115917ce7be7
+       internal_properties : BQAAAAUAAADLXI3okIEb+OVGiQUTFuuTFRWmZL8ZZi7u834v+VrmUosZtjQ6Vcp62Qcn8h5C4T5jSstod16GcHfBl6SiMJu2fgsQ95+00bmXBy09DqKROx5WaOGGSIcKj/tkRmjjYLENfbghBshfOCqe+rQ2K+l7+ClNcW9ySRTtLtSyRkIUvm5K1dCAZPqw5BFX5aoq6K0Gz0sEqueKUeu2mmvbzPFCbVtjEK3i0Qdawp1haHzP3ynU8PmYaQszZnSKeLDR4aFRPYww9O1Tiv9/aYIaHWEm64aWZwA8OtRmsb8W6NEbI3ZFtYWUdQZf5rU8pPJ2J49NYzdquat7oZPUUzqgnQWUusJEJKdVknHPf03BJEU05d36cqYuAngKxUrRabqD6mby+KLpMdUnaaBw2cCxttR2brQ2o6X9IUrnHmJta1bruZzcEiYwL41hKDp/rn5R1CA9CaThco0Mqccyxx/NJMP+6Q7ZzW5B4JVcK8jSP0c1WsnaagRViFQE96TCRXVneI+di+4EbkF5mkKjzOHsSdYkGhPM8+s0ArU7get6stichN1JZMdT84LfApyeYLTTgOT9J2/mdQrTYGUK98jo+0WFIhIqL9S6XC/FutMrU07sM843kWPfBS/AjAlSJ0/hHHSnN733r2+PRcVBJzDJwDfUbwULrouE/IeLxFrZkSXkDXaEvNsl02vuggAN6l+pqglfZUCZJVHrA8r6oCohgvWzQRQ97gViwKUVLHayYBSk9vbJPN9X/+WeAo+VnI4Xm/i9KsRFL73+kRNkOUPj5n50ceS0AFCn2GqXZq681B6tNWTm4FfZqSQv9Pqys06p7nEUqNFnFKZkyRsVIttDtUCIKY6Gz3kVcExRf4L49YhIqq10vWOv84JsVeEEkTEHZrzi5BuKrsjz1WOxIZBH/NVii+NW5MJYebCpJ/jBnMGI3k8=
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : TABLE_AGD_Categ_utilisées
+       identifier : 0x2e8c403711d7077a
+       internal_properties : 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
+       columns :
+        -
+          name : COL_IDCatégorie
+          identifier : 0x2e8c403711da08d2
+          internal_properties : BQAAAAUAAAAZ40TDcUpe1YmXGTOkyLxwvDFUmhYK9xYTFEHMazLxZkQYhZJ7hDPR02KwK+6uPeMrq3LzUXg+y1uWIbkj56/ufiJ+/hp0ynol5GPLlq+Zi6eIeYYfKGHedHQMVAZFCREi9VMVOJsorlyNr00QwyzajecUYIiHS3fj9TlT1bPVHQeCAS0VsMtiHZ+hFCmXfIQFfbQ0ae0RDMQ8l+CqSpi6E9l01D9vyKLTGIkoC/+616JTWzFa9jWn2WcclxG+m18bcBKMdDknt8A5omd6zNZV
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAACBI1zL2hjDX8WIjqswLZdWVXX+AsLxDWXNLMCrmDNx3ItcuGeH/qBx1Zjx9eGex6DZ/1Py2tXO/8FrM5rkHIwa02jvhDOt31P84iBa/nEVvwapSOQJ2mqB273DVasn++DSf/HMq9XX0C5k5Buudb4GykeKFDivRsSEwiI99ND5u02ZhjEEOeyy/nD/rwBIOmZV91aQsAH5uKiYDFcDTlk01f4CVuCnyAwZOBqf1P0vJg80Qm8dw5VFv/KvyfInwRbRIxZVxPKAC/BT6i1ukomdk68FzemOQhowgfYdm+Mm4/eSEGwEjPKMlajWAdKYj7FxH25WussZI5HB1fDdGMf3J9VyJ1czYXcd2gqcqn+I+frTUIHFTg4F8WM6dES9M0Pi+wzr3BuFsLwXtkRYnP2Fkyq741j9xa0iH1BSoehmyZTaGbAIOVVe6wjrLcxO4qrda+edBXTbbrEFcvgUKkDM2FHASDaNxA+opkaXWvhDZlxW/dZRkDOSAcrohVx7UoVAsmfhdINK+D8DQLdbAXxd9dxmuCnQKzJOUSCCN7H7HAi0KBZP7U+QYcsex/WrM+0OO48dXWTVuXqHH56wosLPDLpNtPVAEnkAaRD26W8ldNcvzF/mAUg5Yg5W5Tpc8+i8gK13wML6kUcJTP3sUrjjw3meJG2h93G9DKB0U0fIZbd3dq0/5oA1AeeZ92zeG0jltGbvs2maATJZwK8NNr44Ovg/aeH4hcgk+J8FHLY+G5uQ6EKE0KMaH3SYFKIbP24OY9SG5SLS9K6JItUfivQ=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAABpKP5+SZ7RfgZF+LBJtn3+CkWwP18PrZcdyOQuNZQr3gTpJ/kQrA1IuN4AKbGHxFjWv4F9qZ8JGPMphNkMQe4J4SwlcKaTHaLQ7J9DcgsnMcLL3ubLbehV9iE8TSeMg6fGqmrp8E6aSgQ8D+NfEqZ26w==
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_Couleur
+          identifier : 0x2e8c403711dc094f
+          internal_properties : BQAAAAUAAAA/dIuEOBp3PUYJqK1JkGesx/AG3S7ZxFTvz5cdybQw2Zf/kIVxL5YKwE9fr2db78yqrhL96tHgO/qDfRlRhWMNfswT4LY0D7YxAGBg+NRdv53lUdV2ee8XYz0ibKY613SM9WNxQuB36DjKUm7XiX0YCeAEfPKU0nOSqhPMKFjoFYgagAXY8q5+C/d9QD2KtXKbGzTD3+ILnQ4htxEawo97xOibDHswPt7NRQ==
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAACBI1zL2hjDX8WIjqswLZdWVXX+AsLxDWXNLMCrmDNx3ItcuGeH/qBx1Zjx9eGex6DZ/1Py2tXO/8FrM5rkHIwa02jvhDOt31P84iBa/nEVvwapSOQJ2mqB273DVasn++DSf/HMq9XX0C5k5Buudb4GykeKFDivRsSEwiI99ND5u02ZhjEEOeyy/nD/rwBIOmZV91aQsAH5uKiYDFcDTlk01f4CVuCnyAwZOBqf1P0vJg80Qm8dw5VFv/KvyfInwRbRIxZVxPKAC/BT6i1ukomdk68FzemOQhowgfYdm+Mm4/eSEGwEjPKMlajWAdKYj7FxH25WussZI5HB1fDdGMf3J9VyJ1czYXcd2gqcqn+I+frTUIHFTg4F8WM6dES9M0Pi+wzr3BuFsLwXtkRYnP2Fkyq741j9xa0iH1BSoehmyZTaGbAIOVVe6wjrLcxO4qrda+edBXTbbrEFcvgUKkDM2FHASDaNxA+opkaXWvhDZlxW/dZRkDOSAcrohVx7UoVAsmfhdINK+D8DQLdbAXxd9dxmuCnQKzJOUSCCN7H7HAi0KBZP7U+QYcsex/WrM+0OO48dXWTVuXqHH56wosLPDLpNtPVAEnkAaRD26W8ldNcvzF/mAUg5Yg5W5Tpc8+i8gK13wML6kUcJTP3sUrjjw3meJG2h93G9DKB0U0fIZbd3dq0/5oA1AeeZ92zeG0jltGbvs2maATJZwK8NNr44Ovg/aeH4hcgk+J8FHLY+G5uQ6EKE0KMaH3SYFKIbP24OY9SG5SLS9K6JItUfivQ=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_select
+          identifier : 0x2e8c40d612097444
+          internal_properties : BQAAAAUAAADGAqn7zZ+NczWNtQbVIT/9zzZVbvz1OzdQsS0RLvx0WnTc1h0QHG3M+KfExjaAEqdGMRy6MBcNZYZFo78699QO2RUj2oW1I7Anw5DDwKfk+EHm5nvTmjfTE7mRaIAfIQSF+khn/S+ivM3JKy1vq5jINAf5MfB0iQWWlYrOpo33aekYcQUULApTXuKEhT1q
+          type : 5
+          content :
+           internal_properties : BQAAAAUAAADN6fQURWkzYmj7va2PMqYH3D+vfN+o4F8i364eMcMD66kYI0btvcCB4GaKJAB4iX9icHVrQ8nDA2OZsSSiCCqGCBF9NQAnDWjnS0gh5yHAN8epjStMZkX/OrUX/vgbWjCUxuVCg0oxB3WYANaibFhjBJya61/EikJkzcV7UyXuxWqE9QFnJzkwDDLkikZY1cmsC+RKX0rgHnWFkoxNjduZNRboddmOqoSwD02ePWDjuxNWxLvxiTQ6vydCMbeLiVF/KnRIY1Bfo/YPgRSWUBmd83ggPnsQjyWftJk+r6eVEC9f6Zzi459dmAeYdzjNUsWbi68GkaJB77KKzL6s6WhV8esvoW++a4wDB/HDxgKLi1GyxyVMtE6s37kAAlHTDltOndFUbvvCZL4OCKjURtVXxeDTKu5MBJ8zVzqgENVqY4dIQ+jaz9bNBzfHpxwvBHliMyQZV3HyVK9NXYxcT4c5DZa9kgUlPgM6UxZ/VcQ3wqhR+OXY1594RVB6RIjEjnMJ4lKjY1nu+8qbLd86CdwTJaocblQ66EGXbYV4xaYrb2pHwj+LUbdAmwQQIY8RFt0RUFT1wc2vE8zepy+GfeDtEeidABiPCNkYayCs1A==
+           options :
+            -
+              internal_properties : BQAAAAUAAABQM1l8wAxO9QC8YHDkmd8RwcuRrUw9ScR6LT0ZrGvBMlV/2/U+oeFkFxfK6rdceajSXhUoTUyL
+           type : 5
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 5
+           p_codes :
+            -
+              code : |1+
+               
+               SurSélectionCatégorie()
+              type : 17
+        -
+          name : COL_color
+          identifier : 0x2e8c40d512077415
+          internal_properties : BQAAAAUAAABAjDNt80fP+FR7YS42aFwtPBk90AIbNhG78fEI1nNm/9Xe1f0CSi+Af73EfkeZgKb7cENyLmfw1qkx17aCR5uR2DgYHMimD8jXuQ+edT6rAVfstIpd5NsykfBlqmzpVqH6CURmKYlsLsPPY4RSrSe3alXgPmny8Yj/EJ9zMgb260K+D5twl0KLkNT2C7vs
+          type : 8
+          content :
+           internal_properties : BQAAAAUAAABescbLckrzmsmCHYdUBGX74894ntHuCKBfbhIWT44dL4RWYgHfKNua/2/B9FT2y5Js76O51fB+BfJ5/UCRxQgeLyeeZ6MXyznEAPTespjjsphrvpfVfYIqH5TqUzG8aNR+SDiEQpFOhqyGZ6IDUqJbfwv04pe4vD7xnzaeVWOQQ/7WDAONge9QOJMl4+sk2Esxadq96TvHxufbMNQAALZGklcksGFQju1q+bLd/Mn3cOi7sVcFrMBUTuB5YFwcQZnYP3bxgJzoCy5ALm89SfuYVD4gveON1D+5voQUczR0yXoqRxZnMkvI+v+zsCKWhZTD717ZrgMyOzvAeOFa62isyWO44XMM/VqgCewq67H+zxapvZ2dTHK+FEsx907j+i4bmgPWxClPWbmbGI187TNIGrenLOgnM1XXodxv5osqg6sbTc15
+           type : 8
+          code_elements :
+           internal_properties : BQAAAAUAAAApVBJhF87lLamHf7306wJjYIF5dbLr/atlvwBm+56rayOZLzFBSYCu2cx1LfC2c5uT1gIS7sGAwSPhVASHCVD/3raqpoI=
+           type_code : 8
+           p_codes : []
+        -
+          name : COL_Libellé
+          identifier : 0x2e8c403711de096e
+          internal_properties : BQAAAAUAAADdVkPyFd5qsjmFTxnFCb/yczZ5278ZcZ4AWaObeqMlZv6e+JOOCu1RzE/t1KiO99f+d4TFZO2S3/71ApA0j8Aet1JSISQCEr5Rj3hbh25WBjIH5r/qlRVJHp8nYIzq5ht+8el6cE+qbTczK1C/FXhrGeWlcpQ+AoefeqrALECXfJrHD0WYFsqGIj5GMSwFMajNn+5qJuWIPrz4gDK/Yw7bMFzhV941+2f0ncHa
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAADCC+qkiMhgBo5d9NUGkBKjtEuRj8guRYSO9iizgwM8tyj3hFQqkaPocEPDradFe1wakwtLfmTI0XEF4HgghbyLXGlge2xDKKvr0j7002p49p7mi4Yz7FcN+uhenoRyZCsgDrr5xSQ1ZUYemVVHnFi7iPwNaGhHMU+SNTcGV9/cIIzSNu+q+rdmMLuFtQhU9ZIGbL/tlN0MFCJaAuiMnDka+JlEFBX5HA3B+F+ibRNSdXNRQrE2IV/1zD+ott7b4VkIJziEwNizW/NWLZn9AfWyDKEsjoA4va1lsuwrvr/BvSFXZqIck/UJpL3H1BBIvwyaONIR83PI9oVokJLdnZ6HDr1JBKTipLXyBTA6lQWWwRZhmiB8jYBEUqsuztjeuNkx8EIr8W3/V9dEc4eLXejMKEECfHUe5Fzd8EEhgAlVfFklLL01PnplIlWY9uUd4ass0FzYDOdI9850ged7039TQcqBx9lEmxylFdW+WYVAQakZMINeC6gVRLfVkA+wQ/6rJSp+lQDPIRxcySD0dLlY/ud5JYY5sK/L3LsnXDCqc3EtUY0mzExF0vI16Mb6IgAjxsKa1huM9KFCWiN1/cXOHVuu4wjVz/Bzhg1xZDD6Cdo4DW7ZmLtKSwdflKn5vhXLp1yozd9PIN4QoyQ7/3N66BbjH2SS+LKyAfVf/rCj4Iwdjo6Ix+/z6XKYs34uMoluMhThPFUcHZ0Njsh6GGjJuavVKKkYw6SAQfYemgZsdBex/KgNryClypeZHBfPNQ==
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_IDSociety
+          identifier : 0x2e8c403711e0099d
+          internal_properties : BQAAAAUAAAC2TffKxBH2ZJBEDUmBFSvwXatHcsGcQnX+10N5I9qOtSw7g/IZZoAccgXG7C7POuiPJA94xnXkX3+D2rruFC7NIbBm/VptX8nHvBZb4sG/ks3YHLtKgZPkRqi6MRbnZPghltuniMDaKN4WI8fJIPIrsX8ncahEqeYVYz0buBn1fXqBOtyXmy+Y41WYLgWpUEuK6WOrrUn1pXg1SAuWbjpGjosh4BWNTqmtjtxJrQ==
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAABjhSVKSAEnJzADFVYNwXGUQq5EGJqVa69M0v+JGdFc754jJeo+mODPzFXnivoN3zv5uITgAMK4mmjbTII9N3Y/O2WY0FHUp9lAct5klExX0ZTUu4x9KCPqYtwHuXi+bdg5oSbteyvf8i6vhDE5yFhQgDap+4tWhw3HvSfsSJ9UuNRnx/Hl0GpxPmjKsqYBz8Gy71oyB5trFHD7kNA1kws2Y2ZYsDpXf19Bm/7x3C+ziDAmx/eAyv5jxJUmbzR09Lr5FiI1/D4Re0JI/3FdsdJ2Ux17ENS4XovzwtcIXdI4PylF2dfVKYfX6v3GSFfKSCgJA6q9b4FmqgakMeuv5JzVH80nO8Lsn4SVWs5GiH4R0vk6Si0Ur5w5Dss9/Mu3thC5ajDOE6Z2XzDIJuGMTlZiuxPDVwq8YvwsSGqdHX4HqqzB2US+sjJHG2ebWPbuV7dxUmHvOau6S+F8Rp+U8HPf9MYgVOxi2zoWRxYylGAUoxTNjRJvraoLN3lYQuoTCcjuocWvjAQJHU36Kvo9nf8erUVguu39GgfMoB55lwd4VaYlyPI1cDCPUfoqpk2ZhIRgVjMt1ytkyPKsQeECrsMAYlUHjnnVFVx2oJrRRelKE582oE8kxi080KlOOJQcUmPw//XjlueLOrHiIgqYjD26VUQIfnkkVjab2yzT8auBaA8cfqHtGeVUL0AhvNIiMJf/DaZbebqVukAkOpi/ziu3ZGfBe2Uh7K1mwRXa0b0PRpTuVKWyoTgR+NATtuBC3VJK/E3Y8UI62ya8pZ8l1lTn
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+       breaks : []
+       type : 9
+       controls : []
+       code_elements :
+        type_code : 9
+        p_codes :
+         -
+           code : |1-
+            // Le champ utilise une requête paramétrée pour afficher ses données.
+            // Les paramètres de cette requête doivent être définis avant ou lors de l'initialisation du champ.
+            // La requête sera exécutée automatiquement si au moins un paramètre a été défini.
+            //
+            // Pour plus d'informations, veuillez consulter l'aide :
+            // Requête paramétrée, Utilisation dans un champ Table, une Liste ou une Combo
+            //
+            // Paramètres de la requête 'REQ_Categ_utilisées'
+            //MaSource.Param_IDSociety = ""
+           type : 14
+         -
+           code : |1+
+            
+            nCouleurFin 	est un entier
+            nCouleurFoncé	est un entier
+            nCouleur		est un entier = maSource.Couleur
+            iCat			est une image
+            
+            // Eclairci la couleur
+            nCouleurFin 	= TSL(CouleurTeinte(nCouleur), CouleurSaturation(nCouleur), Min(100, CouleurLuminosité(nCouleur) + 10))
+            nCouleurFoncé 	= TSL(CouleurTeinte(nCouleur), Max(0, CouleurSaturation(nCouleur) - 20), Max(0,   CouleurLuminosité(nCouleur) - 20))
+            
+            iCat..Largeur = 16
+            iCat..Hauteur = 16
+            
+            // Début du dessin
+            dDébutDessin(iCat, dEffacer + dAvecOpacité)
+            dRectangle(0, 0, 15, 15, MagentaClair, MagentaClair)
+            
+            // Cadre
+            dLigne( 2,  1, 13,  1, nCouleurFoncé, 1)
+            dLigne( 2, 14, 13, 14, nCouleurFoncé, 1)
+            dLigne( 1,  2,  1, 13, nCouleurFoncé, 1)
+            dLigne(14,  2, 14, 13, nCouleurFoncé, 1)
+            
+            // Dégradé
+            dRectangleDégradé(2, 2, 14, 14, nCouleurFin, nCouleur)
+            
+            SI nCouleur = -1 ALORS
+            	dLigne(2, 2, 13, 13, RougeFoncé, 1)
+            FIN
+            
+            // Sauvegarde
+            COL_color = dSauveImageGIF(iCat, enMémoire)
+            
+            // Sélectionne automatiquement la catégorie
+            SI Position(ListeCatégories, COL_IDCatégorie, 1, MotComplet) > 0 ALORS
+            	COL_select = Vrai
+            FIN
+           type : 21
+         -
+           type : 22
+           enabled : false
+         -
+           type : 24
+           enabled : false
+         -
+           type : 23
+           enabled : false
+         -
+           type : 25
+           enabled : false
+         -
+           code : |1-
+            
+           type : 33
+         -
+           type : 230
+           enabled : false
+         -
+           type : 241
+           enabled : false
+         -
+           type : 263
+           enabled : false
+         -
+           type : 262
+           enabled : false
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+         -
+           type : 224
+           enabled : false
+     -
+       name : BTN_AGD_Categ
+       identifier : 0x2e8c4e401a8fdb4e
+       internal_properties : BQAAAAUAAADbrOBV/o3VrsZRNYjuVLm2GerXe7QlFzvzBI5vCShZHm3FC8YcFYBYwGdpxhJbVw9UWhIEkmBxLM2dOep0ye/nGHuCLjcAD18ZiRx2JRpG4bhsU52e25+vZDw9ox9SMtEFcvrt+WfE2uSsVW9q/wVf3SL27n+ADi6GT97eek1014RS9jehxxBsTap6wAJVfYM5ySv6B5lhtIF/JtmX38wN03DmM1F3orfFG8cZ/rUC0eGsTpZQ+s5CamMoolZcLLLIqt3t9L+BLcr8sfth/MptHZRB0OqQYT7lZQ5iMTX+0NgYRQkfQ2zd94WF6n4hnooRChGDVKd+KvuVfVsb8VOcWGZQmuViCqjC89FOLo2yWRFOB280JFhM7kKFji53JE7IOqrbvOZ6O7zRyz2hshfccW86aqsJ/bPxxNj/WRmje3W5QsTygj+6hUecDk3e3/PNp8VhPIIED5dj9qIRRaJxucHJpqH/RxWsjf3vnxWzP+bEzJMoA+AKE6eYVB5Y2B1WGPN1RBR8BpHOOB5SSpBt9HCHEkY6SNAXX5/y87YHhwDDwiYh2/tCG79uWu7eiyHQ39v9gBGRew9L31XNgfvMMtfVcljJr/8jC1HXYUm1hHnudCxwPmBlQGQwFoSeg7vkFtH9G7K00pjGluDoXPHFGZ01hfnmm02KWrV26+fOXVbfyRPRiykhnKqZ7dHjkiN8fBoT5zgG9F6FT1c2T4WU2XMrN292DaQvCJwAo5Yw+6xgQqU1wjWOGTE=
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Ouvre la fenêtre de gestion des catégories
+            Ouvre(FEN_Agenda_categ)
+            
+            // Actualise la liste des catégories utilisées
+            echos_table()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_google
+       identifier : 0x2e8c4f211a98493c
+       internal_properties : BQAAAAUAAABq6/ElB+YzRV39mzk41nAHORw0Whx1G47F8hNjRPbhNHmNNgzscjxG1hgiDXa5m1LbOKr6POgOUJK5F+6DutblmXGu+WEQTjGIE9a6kx4wWOzNGKVa74QfDLvYqwMi6EDU082MuY6JkeADeOzsn21xQ14N9gtHsT44MWKc6h/MLR0FMm91S4Q8yqIroCN39MTmDfQtc1xS456uPS/XPyoiPnGrBYxi3lcpDH0SPo9BjD/J96RJ2mqVTjZxYFKf+tT/NsQCuCnH/kgzYv7t1/4+lh3pHOw69pCYCDaipTzS5KrH7kqlz74rA7yIxa17rKWsR4y/oh6eIVFCgw/2GDikxzvB3g25pKPhrCzFLvMdN2FJB8pYXnJXJGK0QoFqR7NRS5R06FLlNVkob9ChUwCXEsJQMRMhTNMA2zBGAZh2oNoYXE0SYh7K2i4mhXspZqSShC9iJuiV75haxIOxznecWKwDXe1LKs9r3HnmccTu9BPLruhC6fPkAGgsnyJD0wLFTR0wEgansLCzYFVkedeirUmL/0bKr84sEls/s1Ui+AkQ4l3USH8P4RdvJBMYlYNOVYgTL4IhSmFjzaChbIY9/ziXbrYmjKtErXDDlbvkPaQwNywizPUaptFMfs8G/CooFPfuhb/FSnX53EZrnGM/UigvglFrQiKg5I11T+QtI9J/QAsxZuxPd+uIzWMGYj/2qXxmtosSn3oO/2CGx9a+uadHGbxObU9ScbZ5IPWreew=
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Ouvre la fenêtre de gestion des comptes Google
+            Ouvre(FEN_List_google_calandar)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Outlook
+       identifier : 0x2e8c4f4a1a9de935
+       internal_properties : BQAAAAUAAABvpcD7/+/MzTuMXEm2bMnqcZMNHqWnTj6Fpviqa8Uud5T0SWGZexAr6r5wELIepFZAWMPFqY8uJgNTy7U9wGFqVPrI69ORqJLKq83A3qu5YO5LbwoPfUqd4bMxIUck6/ZV10d2uocAzWcW3cWN+dWYpClbirAlsYp013udTJDlxZjf5S6iVERo4bH0zApQRSOLZr8Mi7iNkwrh/ZpP2wm8BerLdTW1etE4KSP2MuMVS9kvjBgpiDzVKGQanCDvcqgtTJOOtZFRp4z3fMY18pCIS+Cb6Mo6mJBPZ7czcvMmSgj3UFfBsKrTo0RIp9TZ1sVc+Ax9ZAF0zigoPC2Vag1b8redF6nikKyoFqPMxg8MlIn1+fkwAPOex4Ecs3V7X5T7aElHZxZMOGHsv1QPrVESfiDJB6aUysVll7DXUYcT464pdrPj8J0Ua3a0Brj9QSqSg2HN7x41CyNLiqnrx8dYL57mfQjyNrDqtqGrB6Np2PJNmqboNS0wq38ZjGonZE37WO7BjZ1ele1QbdLZdIfFlQPk+syseSWVBG1loUXJb8TtaWaIveRtD8o0JX8sCPSK3vkWNoUkUC3lKLgOBCOfkE/lhBJUj88Kk4SA4iLynxk3djPPASTaQD9ugXnHPB//WJBp9hS9Mz/sK4B4y1kyfae2i09QPNUfIL8tEraAe7ZhtyuJBfhkCiLl4vZ+OI9i2Tm+/GyBKSPGtlO3q6/wrDmtBhC4uW/Khg7pgdrWGeXkz54WkmK+fIVOPi9Z1fuOUKVaP6HivtD2Uwg=
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Ouvre la fenêtre de gestion des comptes Outlook
+            Ouvre(FEN_list_outlook)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_sync
+       identifier : 0x2e8c4fae1aa67311
+       internal_properties : BQAAAAUAAAArJ/h4xuHumhBGX004p7HeHKN+MzXwK8PtYiY5M+AByykmToaXHdRmGuIiDHzC73MXdfbfeeXZS1ayduoGxHLOhy3iDttKeg6TLrJEYKJ6lRZciGbJe18g6voY+fmt6fv2linfuFLlhHfrgS9a0HqPoSywL2b695qIVZSLiyAhC6LVU/EO+qGla4qmFD51mhkRQVmyYINVrfMDP2uA8uck1LjUViOJ+ioddxEk5PDZ4FFSui+g5yNIA5fCbg2z3BXrnBBTa+hN/5h+loDTIZY1X1sXJtyKFU/Ycxs0N5kXm73efRVIgbE29ljIWnzTEA0D1MKGQawnru4oG+1eR7Ysd1Rp9+kcOgqVgsOBmDnrnEy80lYnWMAc+qa7GM5gJl7z05kwjTm09ydGaDT8IxmMnmw98/DgM8OQ4ecElqhHmfY4CWGh1ydMOKpZdVqV8+lCXio4zQU2z2SOuYte/HafXhCw08KCkZEPDFq27LyBw491GzhH8D7OKkLZ51XtHsFlxxhkdfdEVKKl409NU1QPIVHIdSVv0AIwHvAFBLmBd0/0mzlfiUJhcUmEoGJOpvCeD6XHGOUQjgVTv4S8PPGsYb6mIq0TpY9M4alfDnU7hGxUuOgPG+CaBJ1tNAq4Y52q80tijpJRcCOnP8T5MSWzuOf0fH9iznjWWoBC9p7yuIC/kZdJRgiEpOJp6Pe9VIvunbOvOSN0xLnxMrCq6x9rVyMi7ElHeVR4iG/LYFBpJCYy
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Synchronise les événements
+            SynchroniseEvénements()
+            
+            // Importe les nouveaux événements
+            ImporteEvénements()
+            
+            // Actualise l'affichage
+            AfficheEvénements()
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         EXTERNE "WINCONST.WL"
+         
+         
+         // Structure facilitant la gestion des périodes
+         UnePériode est une structure
+         	DateDébut	est une dateheure		// Début
+         	DateFin 	est une dateheure		// Fin
+         FIN
+         
+         CONSTANT
+         	RdVAjout	= 1			// On vient d'ajouter un rendez-vous
+         	RdvEdition	= 2			// On vient de modifier un rendez-vous
+         FIN
+         
+         MonRendezVousSélectionné est un RendezVous 
+         RendezVousPressePapier	 est un RendezVous <- null
+         RendezVousIndice		 est un entier
+         PériodeSélectionnée		 est UnePériode
+         ModeEditionRendezVous	 est un entier
+         ListeCatégories			 est une chaine
+         
+         // Prépare le menu contextuel
+         PrépareMenuContextuel()
+         // Importe les nouveaux événements et les événements éventuellement modifiés et/ou supprimés
+         ImporteEvénements()
+         
+         // Charge les précédents paramètres
+         soit nrc = HExécuteRequête(REQ_Selecte_param_AGD,hRequêteDéfaut,gnActif_user_id)
+         si pas nrc ALORS
+         	HErreurInfo(hErrComplet)
+         sinon si HNbEnr(REQ_Selecte_param_AGD) > 0
+         	pour tout REQ_Selecte_param_AGD
+         		AGD_Agenda..HeureOuvrableDébut 		= REQ_Selecte_param_AGD.StartOpenTime
+         		AGD_Agenda..HeureOuvrableFin 		= REQ_Selecte_param_AGD.EndOpenTime
+         		AGD_Agenda..Num1erJourDeLaSemaine	= REQ_Selecte_param_AGD.FirstDayWeek
+         	FIN
+         FIN
+         
+         //
+         //SI EnMode64bits() ALORS
+         //	MaFenêtre..Titre += " (x64)"
+         //FIN
+         echos_table()
+      -
+        code : |1-
+         
+         
+         
+         // Met à jour les libellés des FAA
+         FAAChangeLibellé(AGD_AGENDA, faaAgEditeRdv, "Editer le libellé")
+         
+         // On affiche la date d'aujourd'hui
+         AgendaPosition(AGD_AGENDA, DateDuJour)
+        type : 14
+      -
+        code : |1-
+         
+         // Synchronise les événements
+         SynchroniseEvénements()
+        type : 2
+ menu :
+  name : _Menu
+  identifier : 0x2e81e80310d5d22b
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ popup_menus :
+  -
+    name : MENU_AGD
+    identifier : 0x2e8c55261abfcee7
+    internal_properties : BQAAAAUAAADEA1sl+ipSWBnY/MnpaQiFT9/YY4KHUE1rOtK8cDC7s2UbuVL9Gx6/JikgcurBLEWtchzeeSkpHal0VY8GlIyVMU/JJyi/n+EtmtrQcKXkGw/khKQsv7oq2jQG0d8PCGoHwrQBmILHOVxPDJqpYdLn5qFX3QM/D4fg9VgV6aihfyFR5cxdDC742991jTp4B90urmxCrw3lIvqVQLNHt1KoOsVjpKzaraYwnSmMhWTJmUvzFP95r7hzd+Qf8PVycHLm/qA824A=
+    options :
+     -
+       name : OPT_ClasserCatégorie
+       identifier : 0x2e8c55261ac0cf25
+       internal_properties : BQAAAAUAAAAsbivDMPIQYxlS+pWBaeGvL3sSt0P0PEabGJz0OFISI3MLxZOSdevYf7PCt9yHnoUVF4KNpV7DREXhDxL+nRQ+BA7TMpu5ItehorLv6pzWRzfu2pezKhqlqxXVi+LWXqPmrvdGGDSnfEaLcRRVggPCfrwzvzVFmE3zzZgb4s52VSpEbbuuv4UJC5mcm7kckN/AS5+ct4t/mAk2y/e182I73bqPJlLMl+XfPV4egoAlPrGvlJvAAT9bWs4k9Lqh2w==
+       options :
+        -
+          name : OPT_delCatg
+          identifier : 0x2e8c55b81aca0a02
+          internal_properties : BQAAAAUAAAD6b9/pSV5La94hRuzUiz68W7JTR3XEt5P62CAShqx8aau6l3U3FhoxL5k3dyo861gEYE8HAUNdTE3l0Nn3UGQO+Dfc9hl4wUqVfJYJu4/CfbfPVFObH5FQSWrVOFZHeX0xZ5hFLqrVluZ1mdMS1dV4+mUVxpab1N/I1OupXQZvsebgOY0Ehvnxkn0SbHxl+wBbwD7kFw8kzcPMl7Osgdx+2qepmtDLilS5Ixp+oL9cgSb2IpoQMPwmZIgZsZXGSjbgUN5APeYh
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1+
+               // Efface l'association
+               SurClassementEvénement(-1)
+              type : 32
+        -
+          name : OPT_SéparateurCatégories
+          identifier : 0x2e8c56341ad4ec8d
+          internal_properties : BQAAAAUAAAA1GX/RDw9ZjsqZRbYggnIpNJedQCQGoR6xjHRuSD2ZZXafaTejBEZnzyOk7MlttsvcQmqgVrU3Ui6Yn4N9z54KQpTnk9Rh4zmPCjI1AZy+Xvu3AlRWC49kKODoAwbUGVjqG3ivyhLDo85GiRPKNIaI065Q/LnVKEL7mP6rhHs+ACZb3Z62a3ZVfEVnKXX9tzdKODZBfDzeuOdaLIIq9UA/TkLjLHwG22iDa0Uw/MVwFrYj+fAmBtLQhoH0VmZB
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_AllCateg
+          identifier : 0x2e8c56301ad3de35
+          internal_properties : BQAAAAUAAADusYgLMuPcxRmKQQMIXwK5zNnDBS2bq572CUXL1SZ+dcEUAAPNWl1poGG7rYC3qqbHIPE/5xkbGxNVwJNvYezmG2UAxUhnznvZCzUKkvc4aBMCKaXOXh6KuKWqYMRoQtHAwxM/0chafSr2eKUGtKkqMctio1OMrStfxXvmGczrOtH24lJWsygxoQ/XpvWwi8qrWKWWAv4kVnAJBGW0MjHoq66xopfNWHF4R8YcntaPfjJOfvC/M03xmNF33x7DZieH1bOoY8Fn5g==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               // Ouvre la fenêtre des catégories
+               nCatégorie est un entier = Ouvre(FEN_Agenda_categ)
+               
+               // Si une catégorie a été sélectionnée
+               SI nCatégorie > 0 ALORS
+               	SurClassementEvénement(nCatégorie)
+               FIN
+               
+               // Mise à jour du menu contextuel
+               PrépareMenuContextuel()
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_link
+       identifier : 0x2e8c56521adb640f
+       internal_properties : BQAAAAUAAAD2kAy809U8wgIftPmFijPqIFfGo7DWdvGN+EiN/0OBJnYBxlORVp//KOiI4mJnQbDTOQ3jpcfyHleK7kJv06ZGtgkCwcU8MKvjIDb00TgQCfXoGmPZenPaRe3rSZwflO82PEMW8ng6Z8sxz5SVO5Xh83JGVqCLNhSwe4WqykeYcu7NkxKZ2mJlxFGOb7jGc32Q3GIphnbd2h1Bo0DHPl44Wt3Io4ERfVXCE6PiPqSmbPFdNPqgQ7u/lXSa6xUmvyYgIImzEJjdWjv5dQ==
+       options :
+        -
+          name : OPT_Google
+          identifier : 0x2e8c5ad21b79f4c3
+          internal_properties : BQAAAAUAAABmEG3NIv0zmJkpHWayhawUGIU2QYEgZPwBsHERE7eXsgjQiCpOWKsAsYWjTNc6FmPjs9QJhZKCStbpi9RHixu2UcKOytzh3NBATB24S/7S94QSnY+FngVGCAx7XJnO1nFnrPWlYJ027T+mDC93rBRXoUEHSqONhUPPXS/4sPqfRDjtDPCn3ImdJGr5oAa/qTI2V5GE4BZ0FynKac1zkWbtb4JPpoN/TmjqtueWQ4bXSk04xSqDbuX7OsAW+oDrEQ==
+          options :
+           -
+             name : OPT_InlinkGGL
+             identifier : 0x2e8c5b341b9476b0
+             internal_properties : BQAAAAUAAABQzSqGxLNfnJxw5kd/p29bgbf6HV3f0gYMQ0kEOUxeI/uUFveS1bwZ/Ih2ohirJLncOpEnD/lvg+P6kPgl5ksjjNLU7QoDVHt+x3OdbP9cfDoNE7Mib37ZBNVu0TqUTLVkzjz9DbmklNDGwpNFzh9LnyMog+Q4xY0QExsbACQL1NLI19VnZL7/lBV0uXYYMjR84ZzFA8Iier1grwbR7EVQExo2ca82KNdpjfvqvnJ/yg5VM4009+1UJ6pdSIa72+kPvEUi
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1+
+                  SurLiaisonEvénement(depuisGoogle, -1)
+                 type : 32
+           -
+             name : OPT_LierGoogle_Sep
+             identifier : 0x2e8c5b381b95848b
+             internal_properties : BQAAAAUAAADRhVulQ0ONUj5tSUJUFib9aKvB3ICyTboNqCEh71iafn3GIKTkNwXmXooDS1A85wTzedERS1jeRUs9SME/BZQI2Apx/cpPQRtduKgra4K0u6/7TngYw4/YbCxWjdTscc91tjMc4SHK6GG54rJha5KEw5ZIiC2lBJ4beN47CPNCBNaTlW5sm0CfDOUR19OxYV0eHBJRmjCEnoP2SgxMxX4JpiJTuOCad4TvB+FcIKEcQkK3BeQyMgaESsVIOgKl
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_Gérer_ggl
+             identifier : 0x2e8c5b0c1b88d928
+             internal_properties : BQAAAAUAAAArOICYiB2UIg0KL4U5CENnj0eWalQJfuiNlF15o2ezoC5Zdj5wW8V3CL5cvh2vQ/M8xJxviTspE06JWjrjw/X45ThtJvaSU3bnv40wRlb24MdlAQVfgu6vHOzR9yrss/1LpGRHw2vaQ2MST2ImRmbX376ZORt5d0zqBA+tYwjWdQXk04Zd+TYJ/AsPuz6y8jFtwd6lsjlHkuGo+6fke9wBP4iKMY9INT0mvCOVR/m+ye44TO5M/M9hN/9eVNjbt4mtkZ8PbLfw
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  Ouvre(FEN_List_google_calandar)
+                  // Mise à jour du menu contextuel
+                  PrépareMenuContextuel()
+                 type : 32
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_Séparateur1
+          identifier : 0x2e8c5afa1b8093f1
+          internal_properties : BQAAAAUAAABKZUJKy109x0B8x1ITLgsqy0Bi3qGZ4D76wcRSVGSEFUj6Yy9j/eKjWPxVXADh+mWmQXUsTxJph6tcwAD7GODAmm2Kqw1zvt3epuC0UPMSYnhzpijrJW/CHh6iMiT9Gw4D5ojNSfbjJH4yamTS80Yw6MluyCD/A77TENHEg3A3Wb4x6cFdfxCHsqUq3Qa71us/p7s0hobrqmqlPO5RiRby4pLDHmty2PtFyzYLxeKJEQLfLLBvanhXMwrG/Q==
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_Outlook
+          identifier : 0x2e8c56971ae771a6
+          internal_properties : BQAAAAUAAAC0H+PVwiq+NM4nufhLp8GDgQMaslNl5St/hbYZUXCF4L0Au+8MF/vIVgD93HHmjmd3OKUTE6AXO9l55844LwUjeaCPOh8eCz66Twy77yUZU7mdbKOwWprqRGn9rgM8obwz1ipOUDUONANU7eGuxveB27JFc92bCI1Pjv/GOA2KhqUWn+X+lbd9t7AXDDTvvBniLPyR26WxGfo3yqFX5CeKC+V/ldPr7aybp631CJQlMoVVN1r903JDXVqKNtstiYUGJtmjzZ4Qg1ccMOT0oBPgDT7oxiuxkIY2UMTFLQ==
+          options :
+           -
+             name : OPT_InlinkOtkl
+             identifier : 0x2e8c597f1b60cbd7
+             internal_properties : BQAAAAUAAAA0KY5qGOcTIBD8cqNbA4v3Tfu+YWnLfmII55tLUOsVygwxC5iRdNF6E7FX0Zeio4D927LYSNgAKM7fDXYidgePxAo4hfLbkCv+t8slYv9cfDoNE7Mib37ZBNVu0TqUTLVkzrx9jTkkFFBGQhPFTp/LH6OoA2S4RRPqIRERAhrxHhz6XXPhctRVLieYX9K0kDjiR37hxYDyUvU4fXbb8s3otbRIXZFkSPfZIe/eisaD7sqR90mIW0kwwzbpxDr3J7V7ICHG
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1+
+                  SurLiaisonEvénement(depuisOutlook, -1)
+                 type : 32
+           -
+             name : OPT_Outlook_Sep
+             identifier : 0x2e8c5bd91ba1f888
+             internal_properties : BQAAAAUAAAB+0rgIZCiSRxPS7N37M8HYBeCWUzUXtgOGUTQs+k2NgdJrlTuZzGa/p5sSWoOl/vsYFjZMJAUDBmnzTMn3f6L2/hBjb9J5ozmT/nQHB6CitM+b9nCQG98QxPxWbTTkOWuRgrewVY0mTLVtrga1d5WJ0KMNU3ZytRGUwSngsQDRJcvA2j2dSEugjVYKBkpaPihLOSdEnT2f8zQ3g2PTXufwnxNct2cT7n2UfFYn6/ZBZWdcokfdTxmZX6qtna0K
+             code_elements :
+              type_code : 26
+              p_codes : []
+           -
+             name : OPT_Gérer_les_agendas
+             identifier : 0x2e8c5a9a1b7719e4
+             internal_properties : BQAAAAUAAAA9IpKi/xN2pOuOOL9jdg3lKcHotGpgEvST/VJ3sVJmb8Uc+awjKuxSOc0LhcoeZJZzX5tkGotlhHEJsRsf62WAFNnWe7XwLq0zenNi/R2/5YRqvLdnYk5nrNS5v+pss63bJNSzf3/W308eE6YK6jLLa1I1HXdlma6I2AMqT1KFFsROWyQjSaTU1oZ2U7Atn2ynPHGqt8z0wdDH2iA9ct9q5kslEI5VKGJLTbMKu44P7g2ecjDWclnrPfVM1qPitKo0spkFeqHm
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  Ouvre(FEN_list_outlook)
+                  // Mise à jour du menu contextuel
+                  PrépareMenuContextuel()
+                 type : 32
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Séparateur2
+       identifier : 0x2e8c57401aff0486
+       internal_properties : BQAAAAUAAACyeVzHjK5MvZaZCtp8JL0HgD7RKnh0mXz9lBG7Jw+SIMAvId0EXhGyPIomzvZUSINurzStBYgn6fdI1L1kdfP/ev2KsZzu+akeCnChECxq9lR/8CT5jTMouRcXWjQpvh8IULp74uwgtoXvmngLAryHI6Gl3Fh04WT2VSn5a24z4XlQ8p5jXcs3FG2xZtlYdeGjoPm/6Hd0grhktX/PDNHexMq1+JVaWDlAIsIIIK/bb1sD8A8SuWsrnpOr
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Copier
+       identifier : 0x2e8c56c31aea1b25
+       internal_properties : BQAAAAUAAABk+RkLh+z/DRTYTlmG183gN2+dsSM3rFE4HYLtuAVbvYghwECrS2NKyszG2NfnXUXBdb3v91ec/ro9AtxQrh3o4jyoENglnBtdUm0DOEX69rAc0/CRLvjUO3ahKoWQxoRgUXjqMBjzzkaTYKmZDEeYX0UZ/YhGzgSgSGt6oY+Co/bH8Md16ZZhSKcoOfHSVZ4+v4MpQI8Dyxz27uDjQPuTEUZBCEg55gPEPLqCA9uckeEorADuDQ8heIzTXnKyWiLeUjAuo3i/
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            // Si un rendez-vous est accessible
+            SI RendezVousIndice > 0 ALORS
+            	
+            	// Conserve le rendez-vous
+            	RendezVousPressePapier <- AGD_AGENDA[RendezVousIndice]		
+            	
+            	
+            	// Active l'option 'Coller le rendez-vous'
+            	MENU_AGD.OPT_Coller..Etat = Actif
+            SINON
+            	
+            	RendezVousPressePapier <- Null
+            	
+            	// Désactive l'option 'Coller le rendez-vous'
+            	MENU_AGD.OPT_Coller..Etat = Grisé
+            FIN
+            
+            RendezVousIndice = 0
+           type : 32
+     -
+       name : OPT_Coller
+       identifier : 0x2e8c57091af92ddd
+       internal_properties : BQAAAAUAAACxtrbm2ttEaD8lK/YtuGIFyFB2WErO5XQb8q7kVYz62O9oV7UMZJ4PGwOx+9SqaNxEeKiEhBTTe6t0tWfRvV8sX+Gl26OUVarA567Up4qTB64BhtdYe4etMBPCUdDTkz8RsUjySDBZssoZ5oNPnD3w93/TsaQix2NTr4IzNuI1DIluH6iuVBfeRaDR8FTXQsUfHEBkY1DGECHnn7e2ddCCdg+6D1/2PTS1IYftpri5rJphVdcFNjbG3SF48c1XPwUjHwXZ9i1q
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            UnRendezVous est un RendezVous
+            hHeure 		 est une heure = maintenant
+            dDate		 est une date  = AgendaPosition(AGD_AGENDa)
+            dhDateHeure	 est une dateheure
+            nIndiceRdV	 est un entier
+            duDurée		 est une duree
+            
+            //
+            // Colle le rendez-vous copié précédemment dans l'agenda.
+            //
+            // - Si une période a été sélectionnée, on redéfinit le début et la fin de l'événement copié avec cette période
+            // ou
+            // - Si un autre rendez-vous a été sélectionné, on redéfinit seulement le début de l'événement copié avec le début de l'événement sélectionné. Sa durée reste inchangée.
+            // ou
+            // - Si aucun autre rendez-vous n'a été sélectionné ET si aucune période n'a été sélectionnée, on colle le rendez-vous à la date courante, à l'heure courante. Sa durée reste inchangée.
+            //
+            
+            // Si un rendez-vous a été copié
+            SI RendezVousPressePapier <> Null ALORS
+            	
+            	// Copie le rendez-vous
+            	UnRendezVous = RendezVousPressePapier
+            	
+            	// Efface l'ID et les pictogrammes
+            	UnRendezVous.ID = ""
+            	UnRendezVous.Image = ""
+            	
+            	// Calcule la durée du rendez-vous
+            	duDurée = UnRendezVous.DateFin - UnRendezVous.DateDébut
+            	
+            	// Si aucune période n'est sélectionnée
+            	SI AGD_AGENDA..DateDébut = "" _ET_ AGD_AGENDA..DateFin = "" ALORS
+            		
+            		// Si aucun autre rendez-vous n'est sélectionné
+            		SI MonRendezVousSélectionné = Null ALORS
+            			
+            			// Efface les secondes / millisecondes
+            			hHeure..Milliseconde = 0
+            			hHeure..Seconde 	 = 0
+            			
+            			// Si on est entre xxH00 et xxH29, on ramène à l'heure entière
+            			// ex. : 14h08 -> 14h00
+            			SI hHeure..Minute < 30 ALORS
+            				hHeure..Minute = 0
+            				
+            				// Si on est entre xxH30 et xxH59, on ramène à l'heure demie
+            				// ex. : 14h45 -> 14h30
+            			SINON
+            				hHeure..Minute = 30
+            			FIN
+            			
+            			// Crée une DateHeure
+            			dhDateHeure = dDate + hHeure
+            			
+            			// Modifie la date du rendez-vous
+            			UnRendezVous.DateDébut = dhDateHeure
+            			
+            			// Applique la durée originale
+            			dhDateHeure += duDurée
+            			UnRendezVous.DateFin   = dhDateHeure
+            		SINON
+            			
+            			// On donne la même date de début que le rendez-vous sélectionné
+            			UnRendezVous.DateDébut = MonRendezVousSélectionné..DateDébut
+            			
+            			// Calcule la date de fin à partir de la durée originale du rendez-vous
+            			dhDateHeure = UnRendezVous.DateDébut
+            			dhDateHeure += duDurée
+            			
+            			// Applique la date de fin
+            			UnRendezVous.DateFin   = dhDateHeure			
+            		FIN
+            	SINON
+            		
+            		// Applique la période sélectionné au rendez-vous
+            		UnRendezVous.DateDébut = AGD_AGENDA..DateDébut
+            		UnRendezVous.DateFin   = AGD_AGENDA..DateFin
+            		
+            		// Ré-initialise la période sélectionnée
+            		AGD_AGENDA..DateDébut = ""
+            		AGD_AGENDA..DateFin = ""
+            	FIN
+            
+            // Ajoute le rendez-vous
+            nIndiceRdV = AgendaAjouteRendezVous(AGD_AGENDA, UnRendezVous)
+            
+            // Lance le traitement 'Ajout d'un rendez-vous'
+            SurAjoutEvénement(AGD_AGENDA[nIndiceRdV])
+            
+            fin
+           type : 32
+     -
+       name : OPT_Séparateur3
+       identifier : 0x2e8c574c1b023153
+       internal_properties : BQAAAAUAAADE5/C8cWdnWeKymZS1mIVERcp4uKcTGoAUl0jmyPAMHUT2K2OzyZo/TCjxOOQN6lVqLfXQN+64zWt8iPgj0CQkuk1mi2lTUv02zhhEODtMygib/uDjbadifr7SYkzlB8IXSvxB/QJnWKqGJpBGYexago/EboJdYRx1Kh9avQadg+jH19+LAYJ5qKMcJ1RNuMnt8ZX2dFi9zMjTvmDHkwjg8JxVjPnsXgFf1cCBc1Qfq7wR3g4NlK4N5XxIcw==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_edit_rdv
+       identifier : 0x2e8c57481b01226e
+       internal_properties : BQAAAAUAAAAy3EbLbogS7ghKeBw4K+0HrR6Atuq9Ek8/12Ld5WRtZxsuDvrVl2s3Bf6zBssPZAr4HxlsIf4qzHzWKVeIeuhLyFfHb3XjBodONCxgU9IaHR1LrSejtlGjpL2A/NBZPWLWwpp8IGqCA4yiPuYwYjiQTNmybPXlS8e+9ieoBcFm1Hn4qPuqCUJ+7iuCEYTkbMZmGu8chSejPTLuXXhrcppcNHDrh0X5/ZRB98zmzAs5hV+8la8NAW3fyiUXULO2HbBVsXtoDNKMdAc1MQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            // Ouvre la fiche du rendez-vous
+            SI Ouvre(FEN_appoint, MonRendezVousSélectionné) ALORS
+            	
+            	// Actualise
+            	AfficheEvénements()
+            FIN
+           type : 32
+     -
+       name : OPT_Exporter_rdv
+       identifier : 0x2e8c57791b09e3bb
+       internal_properties : BQAAAAUAAAA4bqfMgFNr88xiK3XPI255DK1OEzSIL6bJr1OHoko7lOVS/kSl8KoJpiJbMGiDxlx6hfwpOzN1vcSccCJVQCPXqxAIUnq6IG5JTCVeHElWFg57iRunpsFOY4xvtBFWbUiglZJ9pRARxU3t/Lh1bkNBjYWgOop5aA/hE/mQ8CPvUfmY6tXsXXSFnJxI7xRsObKtvu7O4juC9Nx25R4kfG1dHpLCzU2fPFaWKdTVh1TNTV7PCP4heWY+QukCeR/ik1KFK6VOLjCXo+8t2PM=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            // Si un rendez-vous a été sélectionné
+            SI MonRendezVousSélectionné <> Null ALORS
+            	
+            	sCAL 		est une chaine ansi
+            	sFichier 	est une chaîne
+            	
+            	// Ouvre le sélecteur de fichiers
+            	sFichier = fSélecteur("", "", "Exporter le rendez-vous vers...", "iCalendar (*.ICS)" + TAB + "*.ICS", "*.ICS", fselCrée + fselExiste)
+            	
+            	SI sFichier <> "" ALORS
+            		
+            		// Exporte le rendez-vous
+            		tabRDV est un tableau de RendezVous = [MonRendezVousSélectionné]
+            		sCAL = RendezVousVersiCalendar(tabRDV)
+            		
+            		// Enregistre
+            		fSauveTexte(sFichier, sCAL)		
+            	FIN	
+            FIN
+           type : 32
+     -
+       name : OPT_Séparateur4
+       identifier : 0x2e8c57ad1b11ad06
+       internal_properties : BQAAAAUAAACNnomFdhhoUvWpgJ3s70rpColVFeig30XbQgvH598tdtWpiIT0SosI7y9gqX9wf2LnuBatND+FrGUioKZfvFqybGesjzcpajm8cLTWsKPUENZhrABJf19K7EjSBKAJaqfqkcEauA9wU9d7J4UR2HHlHyhn5W/ggM0kybZ9mlnCpo1gel7e9g2SiRytpitmkWhqfoKRxwXwoZWI+wPCiB0z9fGiPzSpEbIMAv1MBqFIUsUa1wUEnbUS/kWBOg==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Importer_rdv
+       identifier : 0x2e8c57a81b109b62
+       internal_properties : BQAAAAUAAAAmlKhApzkk571bopHCfTmuiuhL0pCg1jp0Yqvhox2fseoJJS0hRmTfiCKZq4YS3UHpuak7BnqPF1MCM8T7IXSNL2doGZ2shCFoB9xxZ3btlonqRfURVnVI4MXwdWybWniY3H1g7PjKddkEmIbFS62YjrCqYl5mlvq5qtKcIvZflAP7GodWxsaYXv/Ja4AnRdtwi8hONh6gZxb5KoIy+cV1h8BTYxN70gKq9ihf267m+DcXJ/VX9tL2uj8iJBps2obH9BvpM277vMGoOUG1
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            sCAL 		est une chaine ansi
+            sFichier 	est une chaîne
+            
+            // Ouvre le sélecteur de fichiers
+            sFichier = fSélecteur("", "", "Importer le(s) rendez-vous depuis...", "iCalendar (*.ICS)" + TAB + "*.ICS", "*.ICS", fselOuvre)
+            
+            SI sFichier <> "" ALORS
+            	
+            	// Charge le contenu
+            	sCAL = fChargeTexte(sFichier)
+            	
+            	// Récupère les rendez-vous
+            	tabRdv est un tableau de RendezVous = iCalendarVersRendezVous(sCAL)
+            	
+            	// Transfère les événements vers l'agenda
+            	POUR TOUT unRdv DE tabRdv
+            		SurAjoutEvénement(unRdv)
+            	FIN
+            	
+            	// Mise à jour
+            	echos_table()
+            	
+            	// Mise à jour du menu contextuel
+            	PrépareMenuContextuel()
+            	
+            	// Actualise
+            	AfficheEvénements()
+            FIN
+            
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar : {}
+ code_elements :
+  internal_properties : BQAAAAUAAAAiEEq8tK+u/iizl79Fu4bopn+qxO/vX+fTZ8WeTDj8yStGIUHKoe5ige0jUSv3xw9mshvRGq3Ce4uw9ffYnpwxxFFMO+F8DBk0Uy7inZpGR3DCdzD2Wq0=
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : CalendrierPériode
+     procedure_id : 2198334441586384721
+     type_code : 14
+     code : |1-
+      
+      PROCÉDURE CalendrierPériode(dDate est une Date)
+      
+      // Ré-sélectionne la date, cela a pour effet d'annuler toute sélection dans le calendrier
+      CAL_CALENDRIER = dDate
+      
+      // En fonction du zoom de l'agenda
+      SELON AgendaZoom(AGD_Agenda)
+      
+      	// A la journée
+      	CAS agzJour
+      		CalendrierSelectPlus(CAL_CALENDRIER, dDate)				
+      		
+      	// Au mois
+      	CAS agzMois
+      		
+      		nMois est un entier = dDate..Mois
+      		dDate..Jour = 1
+      		
+      		// Sélectionne la période
+      		TANTQUE dDate..Mois = nMois			
+      			CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      			dDate..Jour ++
+      		FIN		
+      		
+      	// A la semaine
+      	CAS agzSemaine
+      		
+      		// Semaine commençant le lundi
+      		dDate..Jour -= (DateVersJour(dDate) - 1)
+      		
+      		// Sélectionne la période
+      		POUR i = 1 _À_ 7
+      			CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      			dDate..Jour ++
+      		FIN
+      		
+      	// A la semaine ouvrée
+      	CAS agzSemaineSur5
+      		
+      		// Semaine commençant le lundi
+      		dDate..Jour -= (DateVersJour(dDate) - 1)
+      		
+      		// Sélectionne la période
+      		POUR i = 1 _À_ 5
+      			CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      			dDate..Jour ++
+      		FIN
+      		
+      FIN
+     type : 458752
+   -
+     name : Calendrier_Actualise
+     procedure_id : 2198334587615372337
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Calendrier_Actualise (<dDate> est date)
+      //
+      // Paramètres :
+      //	dDate (date) : <indiquez ici le rôle de dDate>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Calendrier_Actualise(dDate est une date)
+      
+      // Ré-sélectionne la date, cela a pour effet d'annuler toute sélection dans le calendrier
+      CAL_CALENDRIER = dDate
+      
+      // En fonction du zoom de l'agenda
+      SELON AgendaZoom(AGD_Agenda)
+      
+      	// A la journée
+      	CAS agzJour
+      		CalendrierSelectPlus(CAL_CALENDRIER, dDate)				
+      		
+      	// Au mois
+      	CAS agzMois
+      		
+      		nMois est un entier = dDate..Mois
+      		dDate..Jour = 1
+      		
+      		// Sélectionne la période
+      		TANTQUE dDate..Mois = nMois			
+      			CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      			dDate..Jour ++
+      		FIN		
+      		
+      	// A la semaine
+      	CAS agzSemaine
+      		
+      		// Semaine commençant le lundi
+      		dDate..Jour -= (DateVersJour(dDate) - 1)
+      		
+      		// Sélectionne la période
+      		POUR i = 1 _À_ 7
+      			CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      			dDate..Jour ++
+      		FIN
+      		
+      	// A la semaine ouvrée
+      	CAS agzSemaineSur5
+      		
+      		// Semaine commençant le lundi
+      		dDate..Jour -= (DateVersJour(dDate) - 1)
+      		
+      		// Sélectionne la période
+      		POUR i = 1 _À_ 5
+      			CalendrierSelectPlus(CAL_CALENDRIER, dDate)	
+      			dDate..Jour ++
+      		FIN
+      		
+      FIN
+     type : 458752
+   -
+     name : ImporteEvénements
+     internal_properties : BQAAAAUAAABosbNLM0xttxqQyYAwhxvjodjHhP4o/N9fuX4ZcZ/dRtvKN20MGa+x7JtanLAqzyGdpPen4UgQ92njKdLrlKl0qdaaS4qEmtAj9Hs/1W8RzllyEpkDRKQToKRE36O4qSt0IUztaH3U3zIeFnz8ROgqTobs9CQ5ofaO/KLjsSNYpmAEVtP29c+aB1MktykOzM85xftbiHt8bBLghd03rqN+Wycr
+     procedure_id : 2200829409618457747
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //ImporteEvénements ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE ImporteEvénements()
+      nPosHF est un entier
+      
+      // Ouvre la fenêtre de progression
+      ////OuvreFille(FEN_InfoSynchro)
+      
+      // On désactive le GFI temporairement pour éviter les effets de scintillement
+      // avec la fenêtre de conflit
+      FenActiveGFI(FEN_Acceuille, Faux)
+      ////FenActiveGFI(FEN_InfoSynchro, Faux)
+      
+      // Borne de la jauge
+      ////FEN_InfoSynchro.JAUGE_TRAITEMENT..BorneMax = HNbEnr(AgendaOutlook) * 2 + HNbEnr(AgendaNotes) * 2 + HNbEnr(AgendaGoogle) * 2
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas Outlook...")
+      
+      ////////////////////////////////////////////////////
+      // Agendas Outlook
+      //////////////////////////
+      nrc = HExécuteRequête(REQ_select_param_outlook,hVérifieDoublon+hVérifieIntégrité,gnActif_user_id)
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	si HNbEnr(REQ_select_param_outlook) ALORS
+      		POUR TOUT REQ_select_param_outlook 
+      			
+      			////	FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas Outlook...", AgendaOutlook.Profil)
+      			
+      			// Sauvegarde du contexte 
+      			nPosHF = HSauvePosition(REQ_select_param_outlook)
+      			
+      			// Importe les nouveaux événements
+      			Outlook_ImporteAgenda(REQ_select_param_outlook.Profil, REQ_select_param_outlook.IDAgendaOutlook, Faux)
+      			
+      ////			FEN_InfoSynchro.Traitement(1)
+      			OutlookVérifieSuppressions(REQ_select_param_outlook.Profil, REQ_select_param_outlook.IDAgendaOutlook)
+      			
+      			// Restauration du contexte
+      			HRetourPosition(nPosHF)		
+      		FIN
+      	FIN
+      FIN
+      
+      
+      ////FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas Google...")
+      
+      ////////////////////////////////////////////////////
+      // Agendas Google
+      //////////////////////////
+      nrc = HExécuteRequête(REQ_select_parm_google,hVérifieDoublon+hVérifieIntégrité,gnActif_user_id) 
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	POUR TOUT REQ_select_parm_google 
+      		
+      		////	FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas Google...", AgendaGoogle.Nom)
+      		
+      		// Sauvegarde du contexte 
+      		nPosHF = HSauvePosition(REQ_select_parm_google)
+      		
+      		MaConnexion est une gglconnexion
+      		MaConnexion = GoogleConnecteAgenda()
+      		
+      		// Importe les nouveaux événements
+      		Google_ImporteAgenda(MaConnexion, REQ_select_parm_google.Identifiant, REQ_select_parm_google.IDAgendaGoogle, Faux)
+      		
+      		////	FEN_InfoSynchro.Traitement(1)
+      		GoogleVérifieSuppressions(MaConnexion, REQ_select_parm_google.Identifiant, REQ_select_parm_google.IDAgendaGoogle)
+      		
+      		// Restauration du contexte
+      		HRetourPosition(nPosHF)		
+      	FIN
+      FIN
+      
+      ////FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas Notes...")
+      
+      
+      // Réactive le GFI
+      FenActiveGFI(Fen_acceuille, Vrai)
+     type : 458752
+   -
+     name : AfficheEvénements
+     internal_properties : BQAAAAUAAADYNF/7VJJml87eo3RPC+ngxgEMd5h7twL90eSrV/aP//kLPahP2R9iYrGPw/ZlkUHGea6PGIWdNQj0T7CAyXT/PJqxb5G2/B8fN1A/8sfGHMiET+68qH9JlJTjufsimgYpzxPgP3sXeX7o3154SF/5N9wFXblNVOLYblmT92cnTRybGOWMKiGzbq4cLiopmJ+pCOvRMmy7
+     procedure_id : 2200867505979575711
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //AfficheEvénements ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE AfficheEvénements()
+      
+      UnRendezVous est un RendezVous
+      dhDateDébut	 est une dateheure
+      dhDateFin	 est une dateheure
+      
+      Sablier(Vrai)
+      
+      // Vide l'agenda
+      AgendaSupprimeTout(AGD_AGENDA)
+      
+      // Récupère la période sélectionnée
+      dhDateDébut = AgendaPosition(AGD_AGENDA)
+      dhDateFin	= AgendaPosition(AGD_AGENDA, agDateFin)
+      
+      // Paramétrage de la requête
+      REQ_Evénements.ParamDateDébut	= dhDateDébut
+      REQ_Evénements.ParamDateFin		= dhDateFin
+      REQ_Evénements.ListeIDCatégorie	= (ListeCatégories = "" ? Null SINON ListeCatégories)
+      REQ_Evénements.Param_IDUser		= gnActif_user_id
+      // Exécution de la requête
+      HExécuteRequête(REQ_Evénements)
+      SI ErreurDétectée ALORS Erreur()
+      
+      POUR TOUT REQ_Evénements 
+      	
+      	// Copie les données du rendez-vous
+      	UnRendezVous..Auteur 					= REQ_Evénements.Auteur
+      	UnRendezVous..Contenu					= REQ_Evénements.Contenu
+      	UnRendezVous..DateDébut					= REQ_Evénements.DateDébut
+      	UnRendezVous..DateFin					= REQ_Evénements.DateFin
+      	UnRendezVous..ID						= REQ_Evénements.IDAgendaEvénement
+      	UnRendezVous..Invité					= REQ_Evénements.Invités
+      	UnRendezVous..Lieu						= REQ_Evénements.Lieux
+      	UnRendezVous..Titre						= REQ_Evénements.Titre
+      	UnRendezVous..JournéeEntière			= REQ_Evénements.JournéeEntière
+      	UnRendezVous..Catégorie					= REQ_Evénements.Libellé
+      	UnRendezVous..AvecRépétition			= (REQ_Evénements.RépétitionType <> -1)
+      	UnRendezVous..CouleurFond				= (REQ_Evénements.Libellé = "" _OU_ REQ_Evénements.Couleur < 0 ? RVB(191, 210, 234) SINON REQ_Evénements.Couleur)
+      	
+      	// Répétition de l'événement
+      	SI UnRendezVous..AvecRépétition ALORS
+      		UnRendezVous..Répétition..Type		  	= REQ_Evénements.RépétitionType
+      		UnRendezVous..Répétition..TypeFin	  	= REQ_Evénements.RépétitionTypeFin			
+      		UnRendezVous..Répétition..NbOccurrence 	= REQ_Evénements.RépétitionOccurrence
+      		UnRendezVous..Répétition..DateFin	  	= REQ_Evénements.RépétitionDateFin
+      	FIN
+      	
+      	UnRendezVous..Image = ""
+      	
+      	// Evénement exclusif Google Agenda
+      	SI REQ_Evénements.IDAgendaGoogle <> 0 ALORS UnRendezVous..Image += [RC] + IMG_otlk
+      	
+      	// Evénement exclusif Outlook
+      	SI REQ_Evénements.IDAgendaOutlook <> 0 ALORS UnRendezVous..Image += [RC] +  IMG_ggl
+      	
+      	// Evénement exclusif Lotus Notes
+      //	SI REQ_Evénements.IDAgendaNotes <> 0 ALORS UnRendezVous..Image += [RC] +  IMG_PICNOTES							
+      	
+      	// Ajoute le rendez-vous
+      	AgendaAjouteRendezVous(AGD_AGENDA, UnRendezVous)		
+      FIN
+      
+      Sablier(Faux)
+      
+      
+     type : 458752
+   -
+     name : AgendaDonneFocus
+     procedure_id : 2200872329227924137
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //AgendaDonneFocus (<Agenda> [, <nSourisPosX> est entier [, <nSourisPosY> est entier]])
+      //
+      // Paramètres :
+      // 	Agenda : <indiquez ici le rôle de Agenda>
+      //	nSourisPosX (entier) : <indiquez ici le rôle de nSourisPosX>
+      //	nSourisPosY (entier) : <indiquez ici le rôle de nSourisPosY>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE AgendaDonneFocus(Agenda, local nSourisPosX est un entier = sourisposx, local nSourisPosY est un entier = sourisposy)
+      
+      RendezVousClic est un RendezVous <- Null
+      nIndice		   est un entier
+      
+      // Donne le focus
+      DonneFocus(Agenda)
+      
+      nIndice = AgendaInfoXY(Agenda, agiRendezVous, nSourisPosX, nSourisPosY)
+      SI nIndice > 0 ALORS
+      	
+      	// Simule un clic si on survole un événement, pour le sélectionner
+      	PiloteSouris(Agenda, psClicGauche, nSourisPosX, nSourisPosY)
+      	
+      	// Récupère le rendez-vous sélectionné
+      	RendezVousClic <- Agenda[nIndice]
+      FIN	
+      
+      // Si on a un rendez-vous copié
+      SI RendezVousPressePapier <> Null ALORS
+      	
+      	// Si aucune période n'a été définie
+      	SI RendezVousClic = Null ET PériodeSélectionnée.DateDébut = "00000000000000000" ALORS
+      		
+      		// Calcule la durée de l'événement
+      		duDurée	est une duree = (RendezVousPressePapier..DateFin - RendezVousPressePapier..DateDébut)			
+      		
+      		// Récupère la période de début survolée
+      		dhDateHeure est une dateheure = AgendaInfoXY(Agenda, agiDateHeure, nSourisPosX, nSourisPosY)
+      		
+      		// Définit le début de la période
+      		Agenda..DateDébut = dhDateHeure
+      		
+      		// Affecte la même durée que l'événement				
+      		dhDateHeure = duDurée + dhDateHeure
+      		
+      		// Définit la fin de la période		
+      		Agenda..DateFin = dhDateHeure
+      	FIN
+      SINON
+      	
+      	// Si aucune période n'est sélectionnée
+      	SI RendezVousClic = Null _ET_ Agenda..DateDébut = "" ALORS
+      		
+      		// Simule un clic pour sélectionner une période
+      		PiloteSouris(Agenda, psClicGauche, nSourisPosX, nSourisPosY)
+      	FIN
+      FIN
+      
+     type : 458752
+   -
+     name : CréeImageCatégorie
+     procedure_id : 2200877680704812302
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] CréeImageCatégorie (<sNomOption> est chaîne, <nCouleur> est entier)
+      //
+      // Paramètres :
+      //	sNomOption (chaîne ANSI) : <indiquez ici le rôle de sNomOption>
+      //	nCouleur (entier) : <indiquez ici le rôle de nCouleur>
+      // Valeur de retour :
+      // 	Image : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE CréeImageCatégorie(LOCAL sNomOption est une chaine, local nCouleur est un entier)
+      RépertoireDonnéesTemporaires est une chaine = fRepDonnéesUtilisateur()
+      	nCouleurFin 	est un entier
+      	nCouleurFoncé	est un entier
+      	iCat			est une image
+      	sImage			est une chaine = RépertoireDonnéesTemporaires + ["\"] + sNomOption + ".gif"<§aad:0§>
+      
+      // Éclairci la couleur
+      nCouleurFin 	= TSL(CouleurTeinte(nCouleur), CouleurSaturation(nCouleur), Min(100, CouleurLuminosité(nCouleur) + 10))
+      nCouleurFoncé 	= TSL(CouleurTeinte(nCouleur), Max(0, CouleurSaturation(nCouleur) - 20), Max(0,   CouleurLuminosité(nCouleur) - 20))
+      
+      iCat..Largeur = 16
+      iCat..Hauteur = 16
+      
+      // Début du dessin
+      dDébutDessin(iCat, dEffacer + dAvecOpacité)
+      dRectangle(0, 0, 15, 15, MagentaClair, MagentaClair)
+      
+      // Cadre
+      dLigne( 2,  1, 13,  1, nCouleurFoncé, 1)
+      dLigne( 2, 14, 13, 14, nCouleurFoncé, 1)
+      dLigne( 1,  2,  1, 13, nCouleurFoncé, 1)
+      dLigne(14,  2, 14, 13, nCouleurFoncé, 1)
+      
+      // Dégradé
+      dRectangleDégradé(2, 2, 14, 14, nCouleurFin, nCouleur)
+      
+      // Sauvegarde
+      dSauveImageGIF(iCat, sImage)
+      
+      RENVOYER iCat
+     type : 458752
+   -
+     name : SurAjoutEvénement
+     procedure_id : 2200878780216499141
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurAjoutEvénement (<MonRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	MonRendezVous (RendezVous) : <indiquez ici le rôle de MonRendezVous>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurAjoutEvénement(MonRendezVous est an RendezVous)
+      
+      nCouleur	est entier
+      
+      //sql_addEven est une requête SQL = 
+      //[
+      //	insert into 
+      //		Agenda_Evénement
+      //		(Auteur,Contenu,DateDébut,DateFin,IDCatégorie,Invités,Lieux,Titre,JournéeEntière,IDUser)
+      //	values
+      //		({Autor},{contet},{StartDat},{Endat},{id_catg},{guest},{place},{title},{enteryday},{userid})
+      //]
+      ////sql_addEven est une requête SQL = 
+      ////[
+      ////	INSERT INTO Agenda_Evenement
+      ////	( 
+      ////		Auteur,	
+      ////		Contenu,	
+      ////		DateDebut,	
+      ////		DateFin,	
+      ////		IDCategorie,	
+      ////		Invités,	
+      ////		Lieux,	
+      ////		Titre,	
+      ////		JourneeEntiere,	
+      ////		IDUser
+      ////	)
+      ////VALUES
+      ////	( 
+      ////		{Autor},	
+      ////		{contet},	
+      ////		{StartDat},	
+      ////		{Endat},	
+      ////		{id_catg},	
+      ////		{guest},	
+      ////		{place},	
+      ////		{title},	
+      ////		{enteryday},	
+      ////		{userid}
+      ////	 )
+      ////]
+      ////
+      ////
+      ////sql_addEven.Autor 		= MonRendezVous..Auteur
+      ////sql_addEven.contet 		= MonRendezVous..Contenu
+      ////sql_addEven.StartDat	= MonRendezVous..DateDébut
+      ////sql_addEven.Endat		= MonRendezVous..DateFin
+      ////sql_addEven.id_catg 	= Catégorie_Importe(MonRendezVous..Catégorie, *, nCouleur)
+      ////sql_addEven.guest		= MonRendezVous..Invité
+      ////sql_addEven.place		= MonRendezVous..Lieu
+      ////sql_addEven.title		= MonRendezVous..Titre
+      ////sql_addEven.enteryday	= MonRendezVous..JournéeEntière
+      ////sql_addEven.userid		= gnActif_user_id
+      ////
+      ////
+      ////si pas HExécuteRequêteSQL(sql_addEven) ALORS
+      ////	HErreurInfo(hErrComplet)
+      ////sinon
+      ////FIN
+      ////HLitDernier(Agenda_Evenement)
+      ////MonRendezVous..ID 				= Agenda_Evénement.IDAgendaEvénement
+      ////MonRendezVous..CouleurFond		= (nCouleur < 0 ? RVB(191, 210, 234) SINON nCouleur)
+      ////Trace(MonRendezVous..Titre)
+      ////// Conserve le rendez-vous "sélectionné"
+      ////ModeEditionRendezVous = RdVAjout
+      ////SurSélectionEvénement(MonRendezVous)
+      
+      //////
+      REQ_AddEvent.Autor 		= MonRendezVous..Auteur
+      REQ_AddEvent.contet 	= MonRendezVous..Contenu
+      REQ_AddEvent.StartDat	= MonRendezVous..DateDébut
+      REQ_AddEvent.Endat		= MonRendezVous..DateFin
+      REQ_AddEvent.id_catg 	= Catégorie_Importe(MonRendezVous..Catégorie, *, nCouleur)
+      REQ_AddEvent.guest		= MonRendezVous..Invité
+      REQ_AddEvent.place		= MonRendezVous..Lieu
+      REQ_AddEvent.title		= MonRendezVous..Titre
+      REQ_AddEvent.enteryday	= MonRendezVous..JournéeEntière
+      REQ_AddEvent.userid		= gnActif_user_id
+      
+      nrc = HExécuteRequête(REQ_AddEvent)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      HLitDernier(Agenda_Evenement)
+      MonRendezVous..ID 				= Agenda_Evenement.IDAgendaEvenement
+      MonRendezVous..CouleurFond		= (nCouleur < 0 ? RVB(191, 210, 234) SINON nCouleur)
+      
+      //// Conserve le rendez-vous "sélectionné"
+      ModeEditionRendezVous = RdVAjout
+      SurSélectionEvénement(MonRendezVous)
+     type : 458752
+   -
+     name : SurClassementEvénement
+     procedure_id : 2200882035801746270
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurClassementEvénement (<nIDCatégorie> est entier)
+      //
+      // Paramètres :
+      //	nIDCatégorie (entier) : <indiquez ici le rôle de nIDCatégorie>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurClassementEvénement(LOCAL nIDCatégorie est un entier)
+      
+      nId_evenCateg est un entier = 0
+      // Si un rendez-vous a été sélectionné
+      SI MonRendezVousSélectionné <> Null ALORS
+      	
+      	// Recherche l'événement
+      	sql_even est une requête SQL = 
+      [
+      	select 
+      		IDCatégorie
+      	from 
+      		Agenda_Evénement
+      	where
+      		IDAgendaEvénement = {id_even} and IDUser = {user}
+      ]
+      	sql_even.id_even = MonRendezVousSélectionné..ID
+      	sql_even.user = gnActif_user_id
+      	nrc = HExécuteRequêteSQL(sql_even)
+      	si pas nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	sinon si HNbEnr(sql_even) > 0
+      		
+      		si nIDCatégorie > 0 ALORS
+      			sql_adgCateg est une requête SQL = 
+      [
+      	select 
+      		IDAgendaCategorie,
+      		Libellee,
+      		Couleur
+      	from
+      		AgendaCategorie
+      	where
+      		IDAgendaCategorie = {id_categ} and IDSociety = {scty}
+      ]
+      			sql_adgCateg.id_categ = nIDCatégorie
+      			sql_adgCateg.scty = gnID_societe
+      			nrc = HExécuteRequêteSQL(sql_adgCateg)
+      			si pas nrc ALORS
+      				HErreurInfo(hErrComplet)
+      			sinon si HNbEnr(sql_adgCateg) > 0
+      				// Attribue la catégorie
+      				nId_evenCateg = nIDCatégorie
+      				pour TOUT sql_adgCateg 
+      					// Applique la catégorie et la couleur de la catégorie
+      					MonRendezVousSélectionné..Catégorie 	= sql_adgCateg.Libellee
+      					MonRendezVousSélectionné..CouleurFond	= sql_adgCateg.Couleur = -1 ? RVB(191, 210, 234) SINON sql_adgCateg.Couleur	
+      				FIN
+      			FIN
+      		SINON
+      			// Annule l'association
+      			// Applique la catégorie et la couleur de la catégorie par défaut
+      			MonRendezVousSélectionné..Catégorie 	= ""
+      			MonRendezVousSélectionné..CouleurFond	= RVB(191, 210, 234)
+      		FIN
+      		// Enregistre l'association
+      		sql_updatEven est une requête SQL = 
+      [
+      	update 
+      		Agenda_Evénement
+      	set
+      		IDCatégorie = {id_categeven}
+      	where
+      		IDAgendaEvenement = {id_even}
+      ]
+      		sql_updatEven.id_categeven = nId_evenCateg
+      		sql_updatEven.id_even = MonRendezVousSélectionné..ID
+      		nrc = HExécuteRequêteSQL(sql_updatEven)
+      		si pas nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      	FIN	
+      FIN
+      
+     type : 458752
+   -
+     name : SurDébutEditionEvénement
+     procedure_id : 2200890595671725580
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurDébutEditionEvénement (<MonRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	MonRendezVous (RendezVous) : <indiquez ici le rôle de MonRendezVous>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurDébutEditionEvénement(MonRendezVous est un RendezVous)
+      
+      // Conserve le rendez-vous "sélectionné"
+      ModeEditionRendezVous = RdvEdition
+      SurSélectionEvénement(MonRendezVous)
+      
+     type : 458752
+   -
+     name : SurDéplacementEvénement
+     procedure_id : 2200890874844664383
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurDéplacementEvénement (<MonRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	MonRendezVous (RendezVous) : <indiquez ici le rôle de MonRendezVous>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurDéplacementEvénement(MonRendezVous est un RendezVous)
+      
+      // Recherche l'événement dans la base
+      sql_even est une requête SQL = 
+      [
+      	select 
+      		IDAgendaEvénement
+      	from
+      		Agenda_Evénement
+      	where
+      		IDAgendaEvenement = {id_even} and IDUser = {user}
+      ]
+      sql_even.id_even =  MonRendezVous..ID
+      sql_even.user = gnActif_user_id
+      
+      nrc = HExécuteRequêteSQL(sql_even)
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(sql_even) > 0
+      	sql_updateEven est une requête SQL = 
+      [
+      	update 
+      		Agenda_Evenement
+      	set
+      		DateDébut = {startDat},
+      		DateFin = {Endat}
+      	where
+      		IDAgendaEvenement = {id_even}
+      ]
+      	sql_updateEven.startDat =  MonRendezVous..DateDébut
+      	sql_updateEven.Endat = MonRendezVous..DateFin
+      	sql_updateEven.id_even = MonRendezVous..ID
+      	nrc = HExécuteRequêteSQL(sql_updateEven)
+      	si pas nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      FIN
+      
+      
+      // Conserve l'événement "sélectionné"
+      SurSélectionEvénement(MonRendezVous)
+      
+     type : 458752
+   -
+     name : SurFinEditionEvénement
+     procedure_id : 2200900852053722903
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurFinEditionEvénement (<MonRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	MonRendezVous (RendezVous) : <indiquez ici le rôle de MonRendezVous>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurFinEditionEvénement(MonRendezVous est un RendezVous)
+      
+      // Si on est en ajout
+      SI ModeEditionRendezVous = RdVAjout ALORS
+      	
+      	// On vérifie que le rendez-vous possède un titre
+      	SI MonRendezVous..Titre = "" ALORS
+      		
+      		// Recherche le rendez-vous
+      		sql_even est une requête SQL = 
+      		[
+      			SELECT 
+      			IDCategorie
+      			FROM 
+      			Agenda_Evenement
+      			WHERE
+      			IDAgendaEvenement = {id_even} AND IDUser = {userID}
+      		]
+      		sql_even.id_even = MonRendezVous..ID
+      		sql_even.userid = gnActif_user_id
+      		nrc = HExécuteRequêteSQL(sql_even)
+      		SI PAS nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_even) > 0
+      			sql_deletEven est une requête SQL =
+      [
+      	delete from 
+      		Agenda_Evenement
+      	where
+      		IDAgendaEvenement = {id_even} AND IDUser = {user}
+      ]
+      			sql_deletEven.id_even = MonRendezVous..ID
+      			sql_deletEven.user = gnActif_user_id
+      			nrc = HExécuteRequêteSQL(sql_deletEven)
+      			si pas nrc ALORS
+      				HErreurInfo(hErrComplet)
+      			FIN
+      		fin
+      		
+      		// Efface dans l'agenda
+      		AgendaSupprimeRendezVous(AGD_AGENDA, AGD_AGENDA)
+      		MonRendezVousSélectionné <- Null
+      		RETOUR
+      	FIN		
+      FIN
+      
+      // Recherche l'événement
+      // Recherche le rendez-vous
+      sql_even est une requête SQL = 
+      [
+      	SELECT 
+      	IDCategorie
+      	FROM 
+      	Agenda_Evenement
+      	WHERE
+      	IDAgendaEvenement = {id_even} AND IDUser = {userID}
+      ]
+      sql_even.id_even = MonRendezVousSélectionné..ID
+      sql_even.userID = gnActif_user_id
+      nrc = HExécuteRequêteSQL(sql_even)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_even) > 0
+      	sql_update_even est une requête SQL = 
+      [
+      	update
+      		Agenda_Evenement
+      	set
+      		Titre = {title}
+      	where
+      		IDAgendaEvenement = {id_even} AND IDUser = {user}
+      ]
+      	sql_update_even.title =  MonRendezVous..Titre
+      	sql_update_even.id_even = MonRendezVous..ID
+      	sql_update_even.user = gnActif_user_id
+      	nrc =  HExécuteRequêteSQL(sql_update_even)
+      	si pas nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      fin
+      
+      // Conserve l'événement "sélectionné"
+      SurSélectionEvénement(MonRendezVous)
+      
+      FIN:
+      ModeEditionRendezVous = 0
+      
+     type : 458752
+   -
+     name : SurLiaisonEvénement
+     procedure_id : 2200906173518261421
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurLiaisonEvénement (<nOrigine> est entier, <nIDAgenda> est entier)
+      //
+      // Paramètres :
+      //	nOrigine (entier) : <indiquez ici le rôle de nOrigine>
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurLiaisonEvénement(LOCAL nOrigine est un entier, local nIDAgenda est un entier)
+      nIDAgdaOutlook, nIdentifiantOutlook, nIDAgdaGoogle, nIdentifiantGoogle sont des entiers
+      // Si un rendez-vous a été sélectionné
+      SI MonRendezVousSélectionné <> Null ALORS
+      	
+      	// Recherche le rendez-vous
+      		sql_even est une requête SQL = 
+      		[
+      			SELECT 
+      				IDCategorie,
+      				IDAgendaOutlook,
+      				IdentifiantOutlook,
+      				IDAgendaGoogle,
+      				IdentifiantGoogle
+      			FROM 
+      				Agenda_Evenement
+      			WHERE
+      				IDAgendaEvenement = {id_even} AND IDUser = {user}
+      		]
+      		sql_even.id_even = MonRendezVousSélectionné..ID
+      		sql_even.user = gnActif_user_id
+      		nrc = HExécuteRequêteSQL(sql_even)
+      		SI PAS nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_even) > 0
+      			pour TOUT sql_even 
+      				nIDAgdaOutlook 		= sql_even.IDAgendaOutlook
+      				nIdentifiantOutlook = sql_even.IdentifiantOutlook
+      				nIDAgdaGoogle		= sql_even.IDAgendaGoogle
+      				nIdentifiantGoogle 	= sql_even.IdentifiantGoogle
+      			FIN
+      			// En fonction de l'agenda
+      			SELON nOrigine
+      			
+      				// Outlook
+      				CAS depuisOutlook
+      					
+      					// Annule la liaison
+      					SI nIDAgenda = -1 ALORS
+      						
+      						// Supprime l'événement dans l'agenda Outlook
+      						OutlookSupprimeEvénement(nIDAgdaOutlook, nIdentifiantOutlook)
+      						
+      						nIDAgdaOutlook = 0
+      						nIdentifiantOutlook = ""						
+      					SINON
+      						nIDAgdaOutlook = nIDAgenda
+      					FIN
+      					
+      				// Notes
+      				CAS depuisNotes
+      					
+      								
+      				// Google
+      				CAS depuisGoogle
+      					
+      					// Annule la liaison
+      					SI nIDAgenda = -1 ALORS
+      						
+      						// Supprime l'événement dans l'agenda Google
+      						GoogleSupprimeEvénement(nIDAgdaGoogle, nIdentifiantGoogle)
+      						
+      						nIDAgdaGoogle = 0
+      						nIdentifiantGoogle = ""
+      					SINON
+      						nIDAgdaGoogle = nIDAgenda
+      					FIN
+      				FIN
+      				sql_updateven est une requête SQL = 
+      [
+      	update 
+      		Agenda_Evenement
+      	set
+      		IDAgendaOutlook = {idagdotlk},
+      		IdentifiantOutlook = {idenOtlk},
+      		IDAgendaGoogle = {idagdggl},
+      		IdentifiantGoogle = {idenGgl}
+      ]
+      				sql_updateven.idagdotlk	= nIDAgdaOutlook
+      				sql_updateven.idenOtlk	= nIdentifiantOutlook
+      				sql_updateven.idagdggl	= nIDAgdaGoogle
+      				sql_updateven.idenGgl	= nIdentifiantGoogle
+      				nrc = HExécuteRequêteSQL(sql_updateven) 
+      				si pas nrc ALORS
+      					HErreurInfo(hErrComplet)
+      				FIN
+      		fin
+      	
+      	MonRendezVousSélectionné <- Null
+      	
+      	// Actualise les événements
+      	AfficheEvénements()
+      	
+      	// Re*sélectionne le rendez-vous
+      	AgendaSelectPlus(AGD_AGENDA, RendezVousIndice)
+      FIN
+      
+     type : 458752
+   -
+     name : SurLiaisonEvénementGoogle
+     procedure_id : 2200914823598696928
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurLiaisonEvénementGoogle (<nIDAgenda> est entier)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurLiaisonEvénementGoogle(LOCAL nIDAgenda est un entier)
+      
+      // Si un agenda a été lié, ou si on supprime la liaison avec l'agenda et que l'utilisateur valide cette suppression
+      SI nIDAgenda > 0 _OU_ (nIDAgenda = -1 _ET_ Dialogue(<§?1B0A97120231F116§>) = 1) alors
+      	
+      	// Rebond
+      	SurLiaisonEvénement(depuisGoogle, nIDAgenda)
+      FIN
+      
+     type : 458752
+   -
+     name : SurLiaisonEvénementOutlook
+     procedure_id : 2200914930972903969
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurLiaisonEvénementOutlook (<nIDAgenda> est entier)
+      //
+      // Paramètres :
+      //	nIDAgenda (entier) : <indiquez ici le rôle de nIDAgenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurLiaisonEvénementOutlook(LOCAL nIDAgenda est un entier)
+      
+      // Si un agenda a été lié, ou si on supprime la liaison avec l'agenda et que l'utilisateur valide cette suppression
+      SI nIDAgenda > 0 _OU_ (nIDAgenda = -1 _ET_ Dialogue(<§?1B0A978B025FC9C8§>) = 1) alors
+      	
+      	// Rebond
+      	SurLiaisonEvénement(depuisOutlook, nIDAgenda)
+      FIN
+      
+     type : 458752
+   -
+     name : SurRedimensionnementEvénement
+     procedure_id : 2200915111361638296
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurRedimensionnementEvénement (<MonRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	MonRendezVous (RendezVous) : <indiquez ici le rôle de MonRendezVous>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurRedimensionnementEvénement(MonRendezVous est un RendezVous)
+      
+      // La gestion du redimensionnement est ici identique au déplacement
+      SurDéplacementEvénement(MonRendezVous)
+      
+     type : 458752
+   -
+     name : SurSélectionCatégorie
+     procedure_id : 2200915296045274884
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurSélectionCatégorie ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurSélectionCatégorie()
+      
+      // RAZ de la liste des catégories sélectionnées
+      ListeCatégories = ""
+      
+      //POUR TOUTE LIGNE DE TABLE_AGD_Categ_utilisées
+      //
+      //	SI COL_Select = Vrai ALORS
+      //		ListeCatégories += [","] + COL_IDCatégorie
+      //		Trace(ListeCatégories)
+      //	FIN
+      //FIN
+       
+      pour i = TABLE_AGD_Categ_utilisées..Occurrence a 1 pas -1
+      	SI COL_Select[i] = Vrai ALORS
+      		ListeCatégories += [","] + COL_IDCatégorie
+      	FIN
+      FIN
+      // Mise à jour des rendez-vous
+      AfficheEvénements()
+      
+     type : 458752
+   -
+     name : SurSélectionEvénement
+     procedure_id : 2200915764196754112
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurSélectionEvénement (<MonRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	MonRendezVous (RendezVous) : <indiquez ici le rôle de MonRendezVous>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurSélectionEvénement(MonRendezVous est un RendezVous)
+      
+      STOP SI MonRendezVous = Null
+      
+      // Conserve le rendez-vous "sélectionné"
+      MonRendezVousSélectionné <- MonRendezVous
+      
+      // RAZ de la période sélectionné
+      PériodeSélectionnée.DateDébut 	= ""
+      PériodeSélectionnée.DateFin 	= ""
+      
+     type : 458752
+   -
+     name : SurSuppressionEvénement
+     procedure_id : 2200916769236636067
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurSuppressionEvénement (<MonRendezVous> est RendezVous)
+      //
+      // Paramètres :
+      //	MonRendezVous (RendezVous) : <indiquez ici le rôle de MonRendezVous>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurSuppressionEvénement(MonRendezVous est un RendezVous)
+      
+      sListeAgendaExterne est une chaine
+      nIDAgendaGoogle,nIDAgendaOutlook sont des entiers
+      
+      
+      // Recherche l'événement dans la base
+      sql_even est une requête SQL = 
+      [
+      	select 
+      		IDAgendaGoogle,
+      		IDAgendaOutlook
+      	from
+      		Agenda_Evénement
+      	where
+      		IDAgendaEvénement = {id_even} and IDUser = {user}
+      ]
+      sql_even.id_even	= MonRendezVous..ID
+      sql_even.user		= gnActif_user_id
+      nrc= HExécuteRequêteSQL(sql_even)
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon si HNbEnr(sql_even) > 0
+      	pour TOUT sql_even 
+      		nIDAgendaGoogle		= sql_even.IDAgendaGoogle
+      		nIDAgendaOutlook	=sql_even.IDAgendaOutlook
+      	FIN
+      	// Si l'événement est lié à un agenda externe
+      	si nIDAgendaGoogle <> 0 _ou_ nIDAgendaOutlook <> 0 ALORS
+      		// Si l'événement est lié à un agenda Google
+      		si nIDAgendaGoogle <> 0 ALORS
+      			// Recherche l'agenda
+      			sql_gglagd est une requête SQL = 
+      			[
+      				select 
+      					Nom
+      				from
+      					AgendaGoogle
+      				where
+      					IDAgendaGoogle = {id_ggl}
+      			]
+      			sql_gglagd.id_ggl = nIDAgendaGoogle
+      			nrc = HExécuteRequêteSQL(sql_gglagd)
+      			si pas nrc ALORS
+      				HErreurInfo(hErrComplet)
+      			sinon si HNbEnr(sql_gglagd) > 0
+      				// Complète la liste des agendas externes
+      				pour TOUT sql_gglagd 
+      					sListeAgendaExterne += [RC] + "- " + sql_gglagd.Nom + " (Google)"
+      				fin
+      			FIN
+      			// Si l'événement est lié à un agenda Outlook
+      			si nIDAgendaOutlook <> 0 ALORS
+      				sql_outlk est une requête SQL = 
+      				[
+      					select 
+      						Nom
+      					from
+      						AgendaOutlook
+      					where
+      						IDAgendaOutlook = {id_otlk}
+      				]
+      				sql_outlk.id_otlk = nIDAgendaOutlook
+      				nrc = HExécuteRequêteSQL(sql_outlk)
+      				si pas nrc ALORS
+      					HErreurInfo(hErrComplet)
+      				sinon si HNbEnr(sql_outlk) > 0
+      					// Complète la liste des agendas externes
+      					pour TOUT sql_outlk 
+      						sListeAgendaExterne += [RC] + "- " + sql_outlk.Nom + " (Outlook)"
+      					fin					
+      				FIN
+      			FIN
+      		FIN
+      		//1 : &Supprimer
+      		//2 : &Ne pas supprimer
+      		SELON Dialogue(<§?1B03C0D9005353F1§>, sListeAgendaExterne)
+      			// &Ne pas supprimer
+      			CAS 2
+      				RepriseSaisie()			
+      		FIN
+      		
+      		// Marque l'événement comme supprimé
+      		sql_updatEven est une requête SQL = 
+      		[
+      			update 
+      				Agenda_Evénement
+      			set
+      				Supprimé = {delet}
+      			where
+      				IDAgendaEvénement = {id_even}
+      		]		
+      		sql_updatEven.delet = 1
+      		sql_updatEven.id_even = MonRendezVous..ID
+      		// Enregistre les modifications
+      		nrc =  HExécuteRequêteSQL(sql_updatEven)
+      		si pas nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      	sinon
+      		// On ne demande pas de confirmation
+      		// On supprime directement
+      		sql_deletEven est une requête SQL = 
+      		[
+      			delete from Agenda_Evenement where IDAgendaEvenement = {id_even}
+      		]
+      		sql_deletEven.id_even = MonRendezVous..ID
+      		nrc = HExécuteRequêteSQL(sql_deletEven)
+      		si pas nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      	FIN
+      FIN
+      
+      // Plus de rendez-vous sélectionné
+      MonRendezVousSélectionné <- Null
+      ModeEditionRendezVous = 0
+      
+      PériodeSélectionnée.DateDébut 	= ""
+      PériodeSélectionnée.DateFin 	= ""
+      
+     type : 458752
+   -
+     name : SurZoomAgenda
+     procedure_id : 2201177070024791757
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SurZoomAgenda ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SurZoomAgenda()
+      
+      dDate est une date
+      dDate = AgendaPosition(AGD_AGENDA)
+      
+      AnimationPrépare(MaFenêtre)
+      
+      // En fonction du zoom initial de l'agenda
+      SELON AgendaZoom(AGD_AGENDA)
+      
+      	// -> semaine entière
+      	CAS agzSemaine
+      		
+      		
+      		BTN_Jour..Enfoncé = Faux
+      		BTN_Mois..Enfoncé = Faux
+      		BTN_Semaine..Enfoncé = Vrai
+      		
+      		// Restaure la période sélectionnée
+      		AGD_AGENDA..DateDébut = PériodeSélectionnée.DateDébut
+      		AGD_AGENDA..DateFin = PériodeSélectionnée.DateFin
+      		
+      		
+      	// -> semaine sur 5 jours
+      	CAS agzSemaineSur5
+      	
+      		
+      		BTN_Jour..Enfoncé = Faux
+      		BTN_Mois..Enfoncé = Faux
+      		BTN_Semaine..Enfoncé = Vrai
+      		
+      		// Restaure la période sélectionnée
+      		AGD_AGENDA..DateDébut = PériodeSélectionnée.DateDébut
+      		AGD_AGENDA..DateFin = PériodeSélectionnée.DateFin
+      		
+      		
+      	// -> jour
+      	CAS agzJour
+      			
+      		BTN_Jour..Enfoncé = Vrai
+      		BTN_Mois..Enfoncé = Faux
+      		BTN_Semaine..Enfoncé = Faux
+      		
+      		// Restaure la période sélectionnée
+      		AGD_AGENDA..DateDébut = PériodeSélectionnée.DateDébut
+      		AGD_AGENDA..DateFin = PériodeSélectionnée.DateFin
+      		
+      	// -> mois
+      	CAS agzMois
+      				
+      		BTN_Jour..Enfoncé = Faux
+      		BTN_Mois..Enfoncé = Vrai
+      		BTN_Semaine..Enfoncé = Faux
+      		
+      		// Désactive la période sélectionnée
+      		AGD_AGENDA..DateDébut = ""
+      		AGD_AGENDA..DateFin = ""
+      FIN
+      
+      AnimationJoue(animFondu)
+      
+     type : 458752
+   -
+     name : SynchroniseEvénements
+     procedure_id : 2201178216781129447
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SynchroniseEvénements ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SynchroniseEvénements()
+      
+      // Ouvre la fenêtre de progression
+      ////OuvreFille(FEN_InfoSynchro)
+      
+      // On désactive le GFI temporairement pour éviter les effets de scintillement
+      // avec la fenêtre de conflit
+      FenActiveGFI(Fen_acceuille, Faux)
+      ////FenActiveGFI(FEN_InfoSynchro, Faux)
+      
+      // Borne de la jauge
+      ////FEN_InfoSynchro.JAUGE_TRAITEMENT..BorneMax = 3
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...")
+      
+      // On commence par synchroniser les suppressions
+      SynchroniseEvénementsSuppressions()
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...")
+      
+      // On synchronise ensuite les nouvelles liaisons
+      SynchroniseEvénementsAjouts()	
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...")
+      
+      // On synchronise enfin les modifications
+      ////SynchroniseEvénementsModifications()
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(3, "Terminé")
+      
+      ////Ferme(FEN_InfoSynchro)
+      
+      // Réactive le GFI
+      FenActiveGFI(FEN_Acceuille, Vrai)
+      
+     type : 458752
+   -
+     name : SynchroniseEvénementsAjouts
+     procedure_id : 2201179363537467746
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SynchroniseEvénementsAjouts ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SynchroniseEvénementsAjouts()
+      
+      TableauDeTableau est une Structure
+      	Eléments est un tableau d'entiers
+      FIN
+      
+      taAjoutsOutlook 	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      taAjoutsGoogle		est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      UnTableauDeTableau	est un TableauDeTableau
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...", "Rassemblement des événements ajoutés...")
+      
+      
+      sql_even est une requête SQL = 
+      [
+      	select 
+      		*
+      	from
+      		Agenda_Evénement
+      	where
+      		IDUser = {user}
+      ]
+      sql_even.user = gnActif_user_id
+      nrc = HExécuteRequêteSQL(sql_even)
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	// On recherche les événements liés à un agenda Google mais pour lesquels on ne possède pas encore d'identifiant Google
+      	POUR TOUT sql_even AVEC "IDAgendaGoogle <> 0 ET IdentifiantGoogle = ''"
+      		
+      		// Récupère la liste des ajouts
+      		SI taAjoutsGoogle[sql_even.IDAgendaGoogle] = Null ALORS
+      			VariableRAZ(UnTableauDeTableau)
+      		SINON
+      			UnTableauDeTableau = taAjoutsGoogle[sql_even.IDAgendaGoogle]
+      		FIN
+      		
+      		// Ajoute l'événement à la liste
+      		Ajoute(UnTableauDeTableau:Eléments, sql_even.IDAgendaEvénement)
+      		
+      		// Conserve la nouvelle liste
+      		taAjoutsGoogle[sql_even.IDAgendaGoogle] = UnTableauDeTableau
+      		
+      		// Efface l'historique de cet événement
+      		POUR TOUT AgendaEvenementHistorique AVEC IDAgendaEvenement = sql_even.IDAgendaEvénement
+      			HSupprime(AgendaEvenementHistorique)
+      		FIN
+      	FIN
+      	
+      	// On recherche les événements liés à un agenda Outlook mais pour lesquels on ne possède pas encore d'identifiant Outlook
+      	POUR TOUT sql_even AVEC "IDAgendaOutlook <> 0 ET IdentifiantOutlook = ''"
+      		
+      		// Récupère la liste des ajouts
+      		SI taAjoutsOutlook[sql_even.IDAgendaOutlook] = Null ALORS
+      			VariableRAZ(UnTableauDeTableau)
+      		SINON
+      			UnTableauDeTableau = taAjoutsOutlook[sql_even.IDAgendaOutlook]
+      		FIN
+      		
+      		// Ajoute l'événement à la liste
+      		Ajoute(UnTableauDeTableau:Eléments, sql_even.IDAgendaEvénement)
+      		
+      		// Conserve la nouvelle liste
+      		taAjoutsOutlook[sql_even.IDAgendaOutlook] = UnTableauDeTableau
+      		
+      		// Efface l'historique de cet événement
+      		POUR TOUT AgendaEvenementHistorique AVEC IDAgendaEvenement = sql_even.IDAgendaEvénement
+      			HSupprime(AgendaEvenementHistorique)
+      		FIN
+      	FIN
+      FIN
+      
+      
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...", "Export des événements ajoutés vers les agendas Outlook..")
+      
+      POUR TOUT UnTableauDeTableau, nIDAgenda de taAjoutsOutlook
+      	OutlookAjouteEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      FIN
+      
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(1, "Synchronisation des agendas...", "Export des événements ajoutés vers les agendas Google..")
+      
+      POUR TOUT UnTableauDeTableau, nIDAgenda de taAjoutsGoogle
+      	GoogleAjouteEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)
+      FIN
+      
+     type : 458752
+   -
+     name : SynchroniseEvénementsModifications
+     procedure_id : 2201184543268118625
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SynchroniseEvénementsModifications ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SynchroniseEvénementsModifications()
+      
+      TableauDeTableau est une Structure
+      	Eléments est un tableau d'entiers
+      FIN
+      
+      taModifsOutlook 	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      taModifsGoogle		est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      UnTableauDeTableau	est un TableauDeTableau
+      nId_histoEven, nIDAgendaGoogle, nIDAgendaOutlook, nIDAgendaEvénement sont des entiers
+      // Messages
+      ////FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...", "Rassemblement des événements modifiés...")
+      
+      sql_even est une requête SQL = 
+      [
+      	SELECT 
+      	*
+      	FROM
+      	Agenda_Evenement
+      	WHERE
+      	IDUser = {user}
+      ]
+      sql_even.user = gnActif_user_id
+      nrc = HExécuteRequêteSQL(sql_even)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	pour tout sql_even 
+      		nIDAgendaEvénement	= sql_even.IDAgendaEvenement
+      		nId_histoEven		= sql_even.IDAgendaEvénement
+      		nIDAgendaGoogle		= sql_even.IDAgendaGoogle
+      		nIDAgendaOutlook	= sql_even.IDAgendaOutlook
+      	
+      		// On recherche un historique pour cet événement
+      		sql_histo est une requête SQL = 
+      		[
+      			select 
+      				*
+      			from
+      				AgendaEvenementHistorique
+      			where
+      				IDAgendaEvenement = {histo_even}
+      		]
+      		sql_histo.histo_even = nId_histoEven
+      		nrc = HExécuteRequêteSQL(sql_histo)
+      		si pas nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		sinon
+      			// Si on a trouvé un historique, on doit mettre à jour ces modifications
+      			SI nIDAgendaGoogle <> 0 _OU_ nIDAgendaOutlook <> 0 ALORS
+      				
+      				// L'événement est lié à un agenda Google
+      				SI nIDAgendaGoogle <> 0 ALORS
+      					
+      					// Récupère la liste des modifications
+      					SI taModifsGoogle[nIDAgendaGoogle] = Null ALORS
+      						VariableRAZ(UnTableauDeTableau)
+      					SINON
+      						UnTableauDeTableau = taModifsGoogle[nIDAgendaGoogle]
+      					FIN
+      					
+      					// Ajoute l'événement à la liste
+      					Ajoute(UnTableauDeTableau:Eléments, nIDAgendaEvénement)
+      					
+      					// Conserve la nouvelle liste
+      					taModifsGoogle[nIDAgendaGoogle] = UnTableauDeTableau
+      				FIN
+      				
+      				// L'événement est lié à un agenda Outlook
+      				SI nIDAgendaOutlook <> 0 ALORS
+      					
+      					// Récupère la liste des modifications
+      					SI taModifsOutlook[nIDAgendaOutlook] = Null ALORS
+      						VariableRAZ(UnTableauDeTableau)
+      					SINON
+      						UnTableauDeTableau = taModifsOutlook[nIDAgendaOutlook]
+      					FIN
+      					
+      					// Ajoute l'événement à la liste
+      					Ajoute(UnTableauDeTableau:Eléments, nIDAgendaEvénement)
+      					
+      					// Conserve la nouvelle liste
+      					taModifsOutlook[nIDAgendaOutlook] = UnTableauDeTableau
+      				FIN
+      				
+      			FIN
+      		FIN	
+      	FIN
+      fin
+      
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...", "Modification des événements dans les agendas Outlook...")
+      
+      // Effectue les modifications Outlook
+      POUR TOUT UnTableauDeTableau, nIDAgenda de taModifsOutlook
+      	OutlookModifieEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      FIN
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(2, "Synchronisation des agendas...", "Modification des événements dans les agendas Google...")
+      
+      // Effectue les modifications Google
+      POUR TOUT UnTableauDeTableau, nIDAgenda de taModifsGoogle
+      	GoogleModifieEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)
+      FIN
+      
+      // Efface l'historique des événements
+      nrc = HExécuteRequêteSQL("deleteAll","DELETE FROM AgendaEvénementHistorique")
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      
+     type : 458752
+   -
+     name : SynchroniseEvénementsSuppressions
+     procedure_id : 2201192845439934843
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //SynchroniseEvénementsSuppressions ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE SynchroniseEvénementsSuppressions()
+      
+      TableauDeTableau est une Structure
+      	Eléments est un tableau de chaînes
+      FIN
+      
+      taSuppressionsOutlook 	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      taSuppressionsGoogle	est un tableau associatif (*, *, wlEntier) de TableauDeTableau 
+      UnTableauDeTableau		est un TableauDeTableau
+      nIDAgendaGoogle, nIDAgendaOutlook sont des entiers
+      sIdentifiantGoogle, sIdentifiantOutlook sont des chaînes
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...", "Rassemblement des événements supprimés...")
+      sql_even est une requête SQL = 
+      [
+      	SELECT 
+      	*
+      	FROM
+      	Agenda_Evenement
+      	WHERE
+      	IDUser = {user}
+      ]
+      sql_even.user = gnActif_user_id
+      nrc = HExécuteRequêteSQL(sql_even)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	// Pour chaque événement marqué 'Supprimé'
+      	pour tout sql_even 
+      		si sql_even.Supprimé = 1
+      			// Si l'événement est lié à un agenda Google
+      			SI sql_even.IDAgendaGoogle <> 0 _ET_ sql_even.IdentifiantGoogle <> "" ALORS
+      				
+      				// Récupère la liste des événements à supprimer
+      				SI taSuppressionsGoogle[sql_even.IDAgendaGoogle] = Null ALORS
+      					VariableRAZ(UnTableauDeTableau)
+      				SINON
+      					UnTableauDeTableau = taSuppressionsGoogle[sql_even.IDAgendaGoogle]
+      				FIN
+      				
+      				// Ajoute l'événement à la liste
+      				Ajoute(UnTableauDeTableau:Eléments, sql_even.IdentifiantGoogle)
+      				
+      				// Conserve la nouvelle liste
+      				taSuppressionsGoogle[sql_even.IDAgendaGoogle] = UnTableauDeTableau			
+      			FIN
+      			
+      			// Efface l'association
+      			nIDAgendaGoogle 		= 0
+      			sIdentifiantGoogle 	= ""
+      			
+      			// Si l'événement est lié à un agenda Notes
+      			SI sql_even.IDAgendaOutlook <> 0 _ET_ sql_even.IdentifiantOutlook <> "" ALORS
+      				
+      				// Récupère la liste des événements à supprimer
+      				SI taSuppressionsOutlook[sql_even.IDAgendaOutlook] = Null ALORS
+      					VariableRAZ(UnTableauDeTableau)
+      				SINON
+      					UnTableauDeTableau = taSuppressionsOutlook[sql_even.IDAgendaOutlook]
+      				FIN
+      				
+      				// Ajoute l'événement à la liste
+      				Ajoute(UnTableauDeTableau:Eléments, sql_even.IdentifiantOutlook)
+      				
+      				// Conserve la nouvelle liste
+      				taSuppressionsOutlook[sql_even.IDAgendaOutlook] = UnTableauDeTableau				
+      			FIN
+      			
+      			// Efface l'association
+      			nIDAgendaOutlook 		= 0
+      			sIdentifiantOutlook 		= ""		
+      			
+      			// Si aucune association
+      			SI sql_even.IDAgendaOutlook = 0 _ET_ sql_even.IDAgendaGoogle = 0 ALORS
+      				sql_delete est une requête SQL = 
+      				[
+      					delete from Agenda_Evénement where IDAgendaEvenement = {id_even}
+      				]
+      				sql_delete.id_even = sql_even.IDAgendaEvenement
+      				nrc = HExécuteRequêteSQL(sql_delete)
+      				si pas nrc ALORS
+      					HErreurInfo(hErrComplet)
+      				FIN
+      			SINON
+      				sql_update est une requête SQL = 
+      				[
+      					update 
+      						Agenda_Evenement
+      					set
+      						IDAgendaGoogle = {id_ggl},
+      						IdentifiantGoogle = {idenGgl},
+      						IDAgendaOutlook = {id_otlk},
+      						IdentifiantOutlook = {idenotlk}
+      				]
+      				sql_update.id_ggl = nIDAgendaGoogle
+      				sql_update.idenGgl = sIdentifiantGoogle
+      				sql_update.id_otlk = nIDAgendaOutlook
+      				sql_update.idenotlk = sIdentifiantOutlook
+      				// Enregistre les modifications
+      				nrc = HExécuteRequêteSQL(sql_update)
+      				si pas nrc ALORS
+      					HErreurInfo(hErrComplet)
+      				FIN
+      				
+      				// Efface l'historique de cet événement
+      				POUR TOUT AgendaEvenementHistorique AVEC IDAgendaEvenement = sql_even.IDAgendaEvénement
+      					HSupprime(AgendaEvenementHistorique)
+      				FIN
+      			FIN
+      		fin
+      	FIN
+      fin
+      
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...", "Suppression des événements dans les agendas Outlook...")
+      
+      // Effectue les suppressions Outlook
+      POUR TOUT UnTableauDeTableau, nIDAgenda de taSuppressionsOutlook
+      	OutlookSupprimeEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)
+      FIN
+      
+      // Messages
+      ////FEN_InfoSynchro.Traitement(0, "Synchronisation des agendas...", "Suppression des événements dans les agendas Google...")
+      
+      // Effectue les suppressions Google
+      POUR TOUT UnTableauDeTableau, nIDAgenda de taSuppressionsGoogle
+      	GoogleSupprimeEvénementMultiples(nIDAgenda, UnTableauDeTableau:Eléments)	
+      FIN
+      
+     type : 458752
+   -
+     name : echos_table
+     procedure_id : 2201220925951632054
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // echos_table ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE echos_table()
+      
+      nrc = HExécuteRequête(REQ_Categ_utilisées,hRequêteDéfaut,gnID_societe,gnActif_user_id)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	TableAffiche(TABLE_AGD_Categ_utilisées)
+      FIN
+     type : 458752
+   -
+     name : PrépareMenuContextuel
+     procedure_id : 2201285913085395827
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //PrépareMenuContextuel ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE PrépareMenuContextuel()
+      
+      nIndice est un entier
+      sNomOpt	est une chaine
+      
+      // Grise les options de presse-papiers
+      OPT_Coller..Etat = (RendezVousPressePapier = Null ? Grisé SINON Actif)
+      OPT_Copier..Etat = (MonRendezVousSélectionné = Null ? Grisé SINON Actif)
+      
+      // Crée les options de menu pour les catégories
+      nrc = HExécuteRequête(REQ_select_categ_agenda,hRequêteDéfaut,gnID_societe)
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	POUR TOUT REQ_select_categ_agenda DEPUISFIN
+      		
+      		nIndice ++
+      		
+      		// Crée le nom de l'option
+      		sNomOpt = "OPT_CAT" + REQ_select_categ_agenda.IDAgendaCatégorie
+      		
+      		// Si l'option existe déjà
+      		SI MenuExiste(OPT_ClasserCatégorie, sNomOpt) ALORS
+      			
+      			QUAND EXCEPTION DANS 
+      				MenuSupprime(sNomOpt)
+      			FAIRE
+      				//
+      			FIN
+      		FIN
+      		
+      		// Crée l'option de menu
+      		MenuInsèreOption(OPT_ClasserCatégorie, OPT_SéparateurCatégories, sNomOpt, REQ_select_categ_agenda.Libellé, SurClassementEvénement, REQ_select_categ_agenda.IDAgendaCatégorie)				
+      		
+      		// Modifie l'image de l'option
+      		{OPT_ClasserCatégorie..NomComplet + "." + sNomOpt, indChamp}..Image = CréeImageCatégorie(sNomOpt, REQ_select_categ_agenda.Couleur)
+      		
+      		// On affiche uniquement 5 éléments dans le menu
+      		SI nIndice > 5 ALORS
+      			SORTIR
+      		FIN
+      	FIN
+      FIN
+      
+      
+      nIndice = 0
+      
+      nrc = HExécuteRequête(REQ_select_param_outlook,hRequêteDéfaut,gnActif_user_id)
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	// Crée les options de menu pour les agendas externes Outlook
+      	POUR TOUT REQ_select_param_outlook 
+      		
+      		// Crée le nom de l'option
+      		sNomOpt = "OPT_OUTLOOK_" + REQ_select_param_outlook.IDAgendaOutlook
+      		nIndice ++
+      		
+      		QUAND EXCEPTION DANS 
+      			MenuSupprime(sNomOpt)
+      		FAIRE
+      			//
+      		FIN
+      		
+      		// Crée l'option de menu		
+      		MenuInsèreOption(OPT_Outlook, OPT_Outlook_Sep, sNomOpt, REQ_select_param_outlook.Nom, SurLiaisonEvénementOutlook, REQ_select_param_outlook.IDAgendaOutlook)	
+      	FIN
+      	
+      	MENU_AGD.OPT_link.OPT_Outlook.OPT_Outlook_Sep..Visible = (nIndice > 0)
+      	nIndice = 0
+      FIN
+      
+      
+      
+      // Crée les options de menu pour les agendas externes Google
+      nrc = HExécuteRequête(REQ_select_parm_google,hRequêteDéfaut,gnActif_user_id)
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	POUR TOUT REQ_select_parm_google
+      		
+      		// Crée le nom de l'option
+      		sNomOpt = "OPT_GOOGLE_" + REQ_select_parm_google.IDAgendaGoogle
+      		nIndice ++
+      		
+      		QUAND EXCEPTION DANS 
+      			MenuSupprime(sNomOpt)
+      		FAIRE
+      			//
+      		FIN
+      		
+      		// Crée l'option de menu
+      		MenuInsèreOption(OPT_Google, OPT_LierGoogle_Sep, sNomOpt, REQ_select_parm_google.Nom, SurLiaisonEvénementGoogle, REQ_select_parm_google.IDAgendaGoogle)	
+      	FIN
+      	
+      	MENU_AGD.OPT_link.OPT_Google.OPT_LierGoogle_Sep..Visible = (nIndice > 0)
+      FIN
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1e81e8030268d22b
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : Semaine %1
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

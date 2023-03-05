@@ -1,0 +1,148 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_HorizBar
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_HorizBar
+ identifier : 0x2d7766ea0ebae00b
+ internal_properties : BQAAAAUAAACgm8nvG0xExJdPf9fg0xHtOgCXA9KRSh2bWKORWOGjHSq7TNmVIrtxJLZPSbzxfSHxomWqyKQLaLjj3Q+P6Am24KfviORmquAdvKDo0I+kecaLKfvsw5f6TZRQzWL7MCTIT217D80HR4/PEpsB4ZybxbHtLwE2kcLsh2GC2Wazkq/+iKyZfeslBMVg8JNv1UQrjTPh+A0EAo32xU10ElGQa0O6gOdc8Yhl5JR3ld/mFW7mlmIP1s8jrf8h6vEdLhqYuu5DK2xaGbQbtxkn/bR6iOmEPoqAYAGlvjx8u8Hv6WsOHo9FSatUFiXXKbiGrHLxR4cZitcxfU/5ywM/2njus+j4mv4CRI6Y2+cdTcFR9Sq462cB1ceQNLWs0GA0pWDHvHctOmzqWuLhvqPc4ApOuWK9nH+RBacwW7b1yTbfL7H5wvSg5EFUbqIzdkpntAT4QCV2Rd9vVAwaJVKTcs+2r66YkXFckUJMGNOhnpGTg8VBKgyzu//erl29kPNb3EA384NsuB4b3XPM3MYl04bUi5GYRSISI4MXiwy6EDSFsL4afSNeufFfqTvuXBAkOT7UtGKjQiHy03N+0RcBvjMM/5pr4yq7yAmgx8O5gtV6LwzKggiAg2sNU6SUa3wAZAk4wKRpANa7oWDjuu+1geQKQfZuEVxYe2RDdxIpQaD8Nu7NZobsSv6neO9Sg9gjVmz5m4a5vCLyVY6AaTgjBDsU9Y8vGrhibFaZu+YZ6u/wyNkGII2J0PC41uqFIsl2aX/fBYaVQFA8Qd9Au2uMFaFVhA==
+ controls :
+  -
+    name : FI_TDB_Stats_HorizBar
+    identifier : 0x2d7766ea0ebbe00b
+    internal_properties : BQAAAAUAAAC/ImSulfLMxVl0pvmHKOCTKFkSprKDngyht1/H29RT5eWOpP3UJ303Z3bA3YDJHOZikAaLG2cJWTjmL0KqiSk3PksNp8se/vSX69Cx4YfhxRt0thBqsom3WJzqNxhebSoWE2N6KTn+M2iiVD2FVR4fph8oN75TEEMUx04ES6uL6WflJ0Dbgb+y/6x9ZEud4Z2mrqsx8MjLJoGXgZw1iIGHrbiq+DwXc2d+aCtFqAT514CitfctJzYAoqVA1N3ap5yuxDK5P5F+t0usRc+/jWAriP5waarv/KKYfB4O+6bcBokwxp/Dtv8GyFznNiMDZVmYP/I0WKbNlQhwym7UUmd8+EdsT4VHIjEgXfyTDzUYvAzI5d2JLNAgi9ZXf42mk0ph8PWxgvDXAx9rkv3OH+jLX80oUNie494wNaZ4YwNnhYbVsgX0AapmqjYPSjWdPpKz
+    controls :
+     -
+       name : GRF_Tunnel
+       identifier : 0x2d7767000f42388b
+       internal_properties : BQAAAAUAAAC6enqbXyjexBzu5Dhfjh+yYBE2i5iLKSILi5OP0Dv7e0+gfRo7ZZluNrGyUF4hKMFZuc/WGCmvH/John/7pA/y0YHBXPL5Qs5opHLDq//GwO5ST4ycTIN+t4Qj10wPYGtAvNVdaxVTzZWgxBDxsDpNAGG+vpfJJx+TXS2S51HERWWofhRTjh+yoENzsFRct5stYZm+f7V+QOpb6TIxlvuUQHJWW49NOX/ZlWDGJkZWIKEz+nVJD54GlRLYZjWE6EMLaC6sT0UkKkGylpLJFuC3/f6rNXu8/AOjbq+wN2t+hv60PVJQp6HuWACHNoPakE7yUBDDbO9arFh84jhN0PUzcacSzzaR6BjPSFxJ1Zb9YfTYlqLNJOoShz7cx2Xs0rxIB/lOx96r3qd4LIuSbx+QZsfSvQ9FTEbXDge/jUA0thMMvfm3QNyJdZeak9mQDqcZMDMIQSiGFtaXnL8Nu9unu1lAfwocqvYj/bieUXQ064sAu+lOrxvkNlgdZCDR1UB42HYYrUBpKfMPT1tvGMF2H/kxB1TcvE+/ajSlKjxIb/3r1L2+vQ9oc3y+nAUD1TSM9emDGP5k8Gq0TcoOeiBAYK4L9gVuYiOlDgioPCVKkhn7xmnST/JzhGliz9xzB+HGdo/PErTgK0ozKxrBZmZZG/fuBr2rd1tOKwyffIbqhSCmyJOZv7JTlqmkfqH2K0KWCi3YkLGb+nibgz0LEM7OjuONytoC2AyuBcGUKoeX5cQRKn/pHLwnZPorTHPeNz0PkzwoPXRiOALX02gz1JFE+5lPE39DYc8mh9hwDmoTkoBvvKi58RL7885Qeec5Jzx+EYdRJ9s+5ducZOH2r0WJKWErzlok5NCrOZf/PkvSOGRMPlu5XpXUa33byiWIjwKftn2tHrpjurlKhttJyD2xzWR2lf/4mMctBsT88t2m3YXL2iMAjJQP5x+XIcbH8vKWzz92JCLPShYAYliByQVjxLlynO/4PdQezP+18u8XXEPqHghyngpR8xqOXCh4DQLgdd/ECAkKQvuHoy8ruDxMlpqgacx8G1iCBZ3Tj5ojJs1N238KJiujfqhDPCmVpHPD9k5vbAiP6SCXE2EB+SGlC6NAAKWJCo35hmTGW+Enb58wCuhgto0Yvply0ZvtEaKULDzFzoIVc+mmAOFGLV4wuLxKeXS+y74YA/ge05bzWtl8epLzhpVrsZhhEvrwyHEy0q4auKcI+DZuLYvFWrd8lm6KG5vcZu+eG9CAc41FxQdP1bALviabBwFrKhfDB1LiMOyeSfdfrMLQJysZiAHm0lIkCBlv3JZ0knrudp3lm9X0EiFS93nE8EReLFe6gLkExSRCcKUNqHNGfxLzzsa9/pgE8JLv+IoKgwkRgzUB5ULjfQvn1wDx6xtbCaLK1Uit2v2haaD5B9250JJg1E3tT4s=
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes :
+         -
+           code : |1+
+            
+            // Personnalisation des couleurs de catégorie
+            grCouleurCatégorie(GRF_Tunnel,1,RGB(243,106,34))
+            grCouleurCatégorie(GRF_Tunnel,2,RGB(202,48,144))
+            grCouleurCatégorie(GRF_Tunnel,3,RGB(15,183,193))
+            grCouleurCatégorie(GRF_Tunnel,4,RGB(50,124,184))
+            grCouleurCatégorie(GRF_Tunnel,5,RGB(140,89,165))
+            
+           type : 14
+     -
+       name : LIB_Statistique_des_articles
+       identifier : 0x2d7767000f46389b
+       internal_properties : BQAAAAUAAACK3EW7Q0OGKd6+IxrclLvZcaWjzyukqmChk+jWjNBrQaZbZkx1OjxBqKJFO6hhg6tlxTEw6Llkh/vML76ututKNOfuV8I7fkYg/DBs8FFcUPw6zV/79ZtZBhbrnB2S4aSeSgQ8lv5x4IezC72zwVZ3Qbf19ydjoFfeFFj+MahYqgbJ4jDCb5Y8Xp6+F5YXDZuCf1xEQ5RmKIRxANItj7RN+WJDhWzV3xWVXVKUXkxLDIy+XA7prmZVToS9rQ+hFrgTKx5kVIb4RVK5dsnYpQDLKKU6OQZ8kCvbR0LhsCcwGZ1KRF2XmzVI2FlAmcpZuKNcvLUiGc6eTL2SHJHekn6iritiPryU8BS43fhMi+4c/IKUAd4rQiWQXl19TCs+ZbhEXMCtV8XB/iXUtfg37jPl4TPtX/ngb5dEOQx1CQaSonBjvjlgJ4s85QnIkikvg+yYCijGYI9sWgEScygtpdsO0XHrAPF28Vvxa6ACC4eoXNZeZRYh6UUo4KTQaRxn3Q==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Agrandir
+       identifier : 0x2d7767000f48389b
+       internal_properties : BQAAAAUAAAD2WeJBNR0NRUG8KF6qvZG9OlKwkSOvLgIHWAbujgtSMMcb4n072U9FVLRh5m0T/0KfAqQ0+BY8gbUPuRF4L1sxu1OuMM/w6qKtlGQX5WkHocmcYjWBiTeXNc6116DACGJ5TOTkJnL8RPSzAdQJ21ndjWPK/mApzwHQnfb7St7cgrPmfHQkuXNv75I41T2RBVL4lgyPPmBIFj+R2IMM7n3BK7eOZvTM2cvFJEsffwnjD8kl6Q6G8lHalQbWURaCbZvrbDF1WWBRaJ8Pl3QhZmc6ocAvF3Npp0krgvrZXrUNrLFGEflhPU6ZsaEJ3Ng9r5aCosPbzpQCSkaxSMntQ7AVz/d6kPLP/tDa60B9hoanFNA2xfHiO75Qj/zh4E0p3sxrgI8gXI9NnYtlN6BeNSOVVBCNn4RAU7N7U5wcHbsrT9JhiqhMjIUoULdTjx9tffe4lB/yNGiytpfU2XofOw0kfLtvdMHibAA/sqyjIY9Kzd4xFZTSj2yU9RyEL/gsIS/sAO0J+HbbB1DrM8RKn/9ZfAhkf/Ufw2u+EWlrwUlYsErSDN42NPJL0B/KSbEVtnnCDNjZ7s5nsxqy+l+Blet/aEHqgVYi9wOIyrxXipaNPizf4FW3xvkrq36HKMqwgRiuUg4oniq2OMXPf2D9f4zliT0QwlPeArE2Q6suQRJbLBk1gcbqisU8NK1BveDp8sCakHfxuTmsgoLz7262kACgj4apDPtFFk4kF3FqXgkxOeBEtPHRRWy0rwgQDG7wekJK1wwRgeMbZu3HrJ+w77LQYOKQfKBWHyfOMckyEfCYtlObh38V87JZCn72YylN5+JPuFts
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         LIB_Statistique_des_articles = ChaîneConstruit(LIB_Statistique_des_articles,NuméroDeMoisVersLettre(MoisEnCours()))
+      -
+        code : |1-
+         procédure interne actualiser()
+         	nNBQtéArticle, nMoyenneQtéArticle, nMaxQtéArticle, nNBArticle sont des entiers = 0
+         	
+         	sqlArticleTotal est une requête SQL = 
+         [
+         	select 
+         	sum(Quantity) as TotalQt,
+         	avg(Quantity) as MoyenneQt,
+         	Max(Quantity) as MaxQt,
+         	count(distinct IDArticle) as Nbarticle
+         	from 
+         	Detaille_order
+         	where
+         	IDSale_order in (select 
+         						IDSale_order 
+         					FROM
+         						Sale_order
+         					WHERE
+         						IDSociety = {IDSociete}
+         					AND
+         						date_order BETWEEN {AAMM} AND {AAAAMM})
+         ]
+         	dDebutMoisEncours, dfinMoisEncours sont des dates
+         	dDebutMoisEncours	= PremierJourDuMois(DateDuJour())	
+         	dfinMoisEncours		= (dDebutMoisEncours..Mois < 12 ? PremierJourDuMois(dDebutMoisEncours..Année,dDebutMoisEncours..Mois + 1) SINON PremierJourDeLAnnée(dDebutMoisEncours..Année + 1))
+         	
+         	sqlArticleTotal.IDSociete	= gnID_societe
+         	sqlArticleTotal.AAMM		= dDebutMoisEncours
+         	sqlArticleTotal.AAAAMM		= dfinMoisEncours
+         	
+         	HExécuteRequêteSQL(sqlArticleTotal)
+         	pour tout sqlArticleTotal
+         		nNBQtéArticle		= sqlArticleTotal.TotalQt
+         		nMoyenneQtéArticle	= sqlArticleTotal.MoyenneQt
+         		nMaxQtéArticle		= sqlArticleTotal.MaxQt
+         		nNBArticle			= sqlArticleTotal.Nbarticle
+         	FIN
+         	
+         	grSupprimeTout(GRF_Tunnel)
+         	
+         	grAjouteDonnée(GRF_Tunnel,1,4,nNBQtéArticle)
+         	grAjouteDonnée(GRF_Tunnel,1,3,nNBArticle)
+         	grAjouteDonnée(GRF_Tunnel,1,2,nMaxQtéArticle)
+         	grAjouteDonnée(GRF_Tunnel,1,1,nMoyenneQtéArticle)
+         	grEtiquetteCatégorie(GRF_Tunnel,4,"Qté total")
+         	grEtiquetteCatégorie(GRF_Tunnel,3,"Nombre d'article")
+         	grEtiquetteCatégorie(GRF_Tunnel,2,"Qté Max/panier")
+         	grEtiquetteCatégorie(GRF_Tunnel,1,"Qté Moyenne/panier")
+         	
+         	grDessine(GRF_Tunnel)
+         
+         fin
+         
+         actualiser()
+         // Choix de la fréquence de rafraîchissement
+         Timer(actualiser,Hasard(6,12) * 200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d7766ea019be22e
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

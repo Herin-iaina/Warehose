@@ -1,0 +1,193 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_Interface_State
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1e97f70f07122f7b
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : Grise_main_menu
+     procedure_id : 2204506640435380631
+     type_code : 15
+     code : |1-
+      PROCEDURE Grise_main_menu(bIsgrise est un booléen)
+      
+      FEN_Acceuille.BAO_maine..Etat		= (bIsgrise = Vrai ? AffichageSeulement sinon Actif)
+      FEN_Acceuille.BTN_accueille..Etat	= (bIsgrise = Vrai ? AffichageSeulement SINON Actif)
+     type : 458752
+   -
+     name : Affiche_session_to_close
+     procedure_id : 2207079305006888586
+     type_code : 15
+     code : |1+
+      PROCEDURE Affiche_session_to_close(IdSession,title) <IHM>
+      
+      FEN_Acceuille.LIB_Titre_de_fenêtre = title
+      //HLibèreRequête(REQ_Select_Open_Session)
+      //FIListeSupprimeTout("FEN_Acceuille.CFI_conteneur")
+      ChangeFenêtreSource("FEN_Acceuille.CFI_conteneur","FI_Vente_acceuille",IdSession)
+      FIListeAffiche("FEN_Acceuille.CFI_conteneur")	
+     type : 458752
+   -
+     name : Message_de_modification
+     procedure_id : 2296538679903730615
+     type_code : 15
+     code : |1+
+      procédure Message_de_modification() <UI>
+      
+      ToastSupprimeTout()
+      ToastAffiche(gPoliceTaille(12) + gStylo(Blanc) + "Veuillez cliquer le bouton modifier",toastCourt,cvMilieu,chCentre,BleuFoncé)
+     type : 458752
+   -
+     name : Success_error_message
+     procedure_id : 1197759047854707654
+     type_code : 15
+     code : |1-
+      procédure Success_error_message(sMessage_ est une chaîne) <UI>
+      
+      ToastSupprimeTout()
+      ToastAffiche(sMessage_,toastCourt,cvMilieu,chCentre,BleuFoncé)
+     type : 458752
+   -
+     name : SelectRuleUsers
+     procedure_id : 1197911171473999765
+     type_code : 15
+     code : |1+
+      procédure SelectRuleUsers(gnId_user) <métier>
+      
+      srSqlRule est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	*<§cs:3§>
+      	FROM<§cs:3§>
+      	Users_role<§cs:3§>
+      	WHERE<§cs:3§>
+      	Users_role.IDUser = {IDUsers_}<§cs:3§>
+      ]
+      
+      srSqlRule.IDUsers_ = gnId_user
+      HExécuteRequêteSQL(srSqlRule)
+      POUR TOUT srSqlRule 
+      	COL_ProcéduresGlobales.gtaRulUser[srSqlRule.role] = srSqlRule.value
+      FIN
+      
+      //
+      //si COL_ProcéduresGlobales.gtaRulUser..Vide = faux ALORS
+      //	COL_ProcéduresGlobales.gtaRulUser["consommation_kpi"]
+      //	COL_ProcéduresGlobales.gtaRulUser["stock_pki"]
+      //	COL_ProcéduresGlobales.gtaRulUser["purchase_kpi"]
+      //	COL_ProcéduresGlobales.gtaRulUser["sale_kpi"]
+      //	COL_ProcéduresGlobales.gtaRulUser["dash_board"]
+      //	COL_ProcéduresGlobales.gtaRulUser["consommer"]
+      //	COL_ProcéduresGlobales.gtaRulUser["Consommation"]
+      //	COL_ProcéduresGlobales.gtaRulUser["uom"]
+      //	COL_ProcéduresGlobales.gtaRulUser["entrepot"]
+      //	COL_ProcéduresGlobales.gtaRulUser["stock_rule"]
+      //	COL_ProcéduresGlobales.gtaRulUser["lots"]
+      //	COL_ProcéduresGlobales.gtaRulUser["product"]
+      //	COL_ProcéduresGlobales.gtaRulUser["Warehouse"]
+      //	COL_ProcéduresGlobales.gtaRulUser["histo_purchase"]
+      //	COL_ProcéduresGlobales.gtaRulUser["product_per_partners"]
+      //	COL_ProcéduresGlobales.gtaRulUser["product_puchase"]
+      //	COL_ProcéduresGlobales.gtaRulUser["sipplyer"]
+      //	COL_ProcéduresGlobales.gtaRulUser["appros"]
+      //	COL_ProcéduresGlobales.gtaRulUser["purchase_order"]
+      //	COL_ProcéduresGlobales.gtaRulUser["Purchase"]
+      //	COL_ProcéduresGlobales.gtaRulUser["histo_sale"]
+      //	COL_ProcéduresGlobales.gtaRulUser["product_sale"]
+      //	COL_ProcéduresGlobales.gtaRulUser["customer"]
+      //	COL_ProcéduresGlobales.gtaRulUser["Close_sale"]
+      //	COL_ProcéduresGlobales.gtaRulUser["Sale_order"]
+      //	COL_ProcéduresGlobales.gtaRulUser["sale"]
+      //FIN
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     type : 458752
+   -
+     name : DemoVersion
+     internal_properties : BQAAAAUAAAAlds/MpSiehzM1Fb1nxrFtQhUrimLgqYM5Rzoz/xsFN6Rcs1bZy9CrseQ51/RfnYi7E/2ore8sZI2dx16HNhgEwwdd+tfkKgqwyHGDOzjYmg3HzV0+4YO320maCR6og7/MLAWr5oA12C2Ce7nGQTPh2wxJVnt/Mh3Z3t6Bv+BB9diDtL56
+     procedure_id : 1198159463628419543
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Description des paramètres d'entrée/sortie de 'DemoVersion' :
+      //
+      // Syntaxe :
+      //DemoVersion ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code
+      // Elle sera répétée en boucle, en attendant 10 minutes et 1 seconde entre chaque appel
+      // Chaque appel suivant exécute une seule fois la procédure, sans timer
+      // 
+      
+      procédure DemoVersion()
+      
+      
+      SI gbSDemo = Vrai ALORS
+      	soit nNBData = 0
+      	
+      	nNBData += HNbEnr(Article)
+      	nNBData += HNbEnr(Sale_order)
+      	nNBData += HNbEnr(Stock_move)
+      	nNBData += HNbEnr(Partners)
+      	nNBData += HNbEnr(Detaille_order)
+      	nNBData += HNbEnr(detaille_purchase)
+      	
+      	SI nNBData >= 1000 ALORS
+      		FEN_Acceuille..Etat = AffichageSeulement
+      		FEN_Acceuille.LIB_Titre_de_fenêtre = "Expiration de la version DEMO"
+      	FIN
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1e97f6f70710d39f
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

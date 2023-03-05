@@ -1,0 +1,184 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_histo_sale
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_histo_sale
+ identifier : 0x2ee4c0724cfcd655
+ internal_properties : BQAAAAUAAABSlRD/7FK73gDiPGz0dD8HVyZa5b01oQoKtSP3UtiBEVIIQFvOkY+uShH2YAiVHPMED+7QH8iRunpvUVRUtgA23/k69M1K262h9Koof3Jcs1Jz/PpDXVM+JgAMjvVC3pj2U/sJIu3mcY9kr3TPS2czzAmkCTVs2SUqPM0jrCf3xRrRK1VqtoI99nttWKwWqnlzv/ua6HHQZjr4KZirPr0DpJfmoRJd3urpwPc5pabraaiiq4dzm7hArFrpzOh1auNm+Ik80lizR/Oa5E3lyOV5p3VPpa7EYwTLVAwVqNS7XRCH8w8xEhttLUyibo10WY6V64YXryI5HxHKx1hlLd634JgWRdUJW2O6H2uNK683230sRW6Tfr8dkf2tVac5f4vTleTUGHLsR2fdaAc2Efl9GjaOhmM4lvF+oqgZSChfEhUafxp1rS+vrxHwD3Zr3IXZj2vo4k+bMBLlHKW1V7ZBEcTg23NUtiS0yvc/emmt9GYUq1O0Ga+pNv/cURBDg1JFw/YxefE3XJ2U/z41uqxvenkTec7FcaYpjTpNNpp/pPGgMgkAy+SCzrmMiXeE1yIWBPt41DeHOL6yHq0vvRbdTFVigT3oLA699MmHmp6W/W3D/2zS3fFj5+SUs+eq79LLq7JvwDD3g+990tP08kt2T4vNVnGrTiyokAyvhaXUWJCa/8JCb56QMD4G4b2IKt0Ar/wViELlycj4KnJWQipQ0RinH3vue/Da
+ controls :
+  -
+    name : FI_histo_sale
+    identifier : 0x2ee4c0734cfdd75f
+    internal_properties : BQAAAAUAAAAjlgiS+Rb4MbVwovVT9CSvdBXe8g4vQpBli8TTscFI9LqBvUaBorQ6sNVb9OFWRY2HW9uYiMqIH4lC4/4E+Y0RHC2ZNZmC2Nyxo4h507cRG1G+cjJsEh9jgkSCs9YiOeSc7TuA2+lctyLiCLUH/ZoB4AFMbVyvertqW/60lcsLTyVfe07FIVXy9QxZpNUNSZMYVAtXHoSd/nPPTQzHUEXpR24qDnrLJX+rB/KM139s8H3l4MqQZJ1jP+QHAzz1io1bzzWkWh4VUvzHuNK6uHf4oZ0nEDlogw01i23NuuHTK+5T4eJ2m85RbfteDcpitCotarXvk/MslAlTFXkv4f6BcT7b3vRQKbi5YL/mWnxDXbkTuICsgduTxVDRG3FEHdTNAoc19lRnHVOJeLXm/TqhByuO6HgupyJ0ycocz7cryUoRdsFI9aZiVmI7ZgmpKv4f
+    controls :
+     -
+       name : GRF_histo
+       identifier : 0x2ee4c0f94d89d6b9
+       internal_properties : BQAAAAUAAABlyVT55VNr9OB9nrC7ohm9QOASzNvVnpkxp80GZfElFZKzPXXScT83Au/YhdH/q8Ual6VNIaG3gGoemBqAD7rOZT6f3g5wlQaZys1g4OHNkq88BWhsxh4Vob8aD4iM6tAzpPSpQndQ9MsByth/NNCbu4E3kHKsGzQKlqjGqtXc8gv82jHCIYqizwtcqwSxvAfxpWYA2ZTpirrS9yUa8paZRvOD5bpa8T1Qug3yZ8jehLvgAgm0zVR7RP0pK/H6O6ntqb2Gl6CZkhAdp4/DgDZlmpisu48YF5tp8i3VlaH1kAqxBLGzqYBKuyV+BY/YKuaSi53jVQlF/CxAiJrlM2FcPXH2jqm/AwdU9q7fWuaG7CRc0+ytFkxBCsfEueVjOh57IvVPvPFEjJPIYwFbe59L+8l/K5Vg6mC6ovvOMmHf3/wfL/muY3pMPvDGLZQtCGNpQ28C8Nu8lg4BD12kn2CdvNZeUcXckRvS7KlfAmyW6MWysGBRA38WKAWZ/nkaBs8KqY6BjLhS/TyOJrufp5vl4kNwbDtceI55zYhTUsUwuJGX/L3jq40D7/+WHNPfqmDhaTM9vl6/NRBZRmA9R7EgpTfaI2kZC7j3mVphAPBiZqH0h+PwELu/ZwPf/jN2tCpFi+IQEHvVBGH41hwRa630o+z8K5aQ6j5jiUbl0lLR6y8VTfvRPeg8YwauOg0TAjNtOkh1Lu7OnRdrAdhD4N3yJKVt401Yv2KPifamCEOjAGEGOFChrSX6gBXDiXmWXM54AVR5w3Emc8kmebTeTwAZ60+lipFzOnkhWooBi81m03EZf6XSKYEF/wHy/2gPnjpi5bcsJgMJDcLazbprhMG33By5Tm2iGGuKSop/3kCd2FnzTLyvHlZnKHrbspvr1wUNAVJj75jWZDAJC1LEDcW0FJITaE8lfJuBHYgaxiWJK2JVMLzHRBVdhuTbT+1R+7w4yyXqeb96ZbBDxLqO82YpI38TWwA/oO8pl2rPFDVFUvAw8l/udbXOuVYKDHGc0zcdI9xjPUMUBSbMJOLX2Sp3pBksEx2WvsOvbj88OHT9MI3jmbnxqptzOLuDOmyT83FofhGCVTt5Sede+dj8PPQLHJRFCGzWl9qougQ9SpiBSPZ2wZ9lLCQO1z3IMUqO2qdrvmZSinu5xjpf4xA/l683nKZRm4FHlZfAHzxOyZ6xv4OC5znB1b2RGTOSa4EDYhlQfq8xYuqnsscqxMBwFVC/3l94mydhsNUXXrcFxAZ8LqOXuGLQCAYiIlveXpozTk18nnJoXrwhdOv3rF3RZdPUVGdtsDdXO8j1gGbnePT2uz6kU1viXsNtBGZLCWagnpY5ZZMjMJ8bXAW12OPk9RUKbIJhvIkXhl2ndzo05+lDoS1RTP9Lvw6i9V21KZmy5AMvhZvUC1RXWrNxGjX0fxDIx+arZuqhbYuV1XiV4AI1keCAXeyZJXI=
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1+
+         CAParAnnée(2020)
+         
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2ee4c0604cf996eb
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : colorSerie
+     procedure_id : 2226134725371185376
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // colorSerie ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE colorSerie()
+      
+      	grCouleurSérie(GRF_histo,1,RVB(204,255,153))
+      	grCouleurSérie(GRF_histo,2,RVB(153,153,204))
+      	grCouleurSérie(GRF_histo,3,RVB(255,51,102))
+      	grCouleurSérie(GRF_histo,4,RVB(153,204,51))
+     type : 458752
+   -
+     name : CAParAnnée
+     procedure_id : 2226135678854013297
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // CAParAnnée (<AnnE>)
+      //
+      // Paramètres :
+      // 	AnnE : <indiquez ici le rôle de AnnE>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE CAParAnnée(AnnE)
+      
+      sChdebut , sChFin est une chaîne
+      dAteDeb, dDateFin sont des dates
+      sChdebut = ChaîneConstruit("0101%1",AnnE)
+      dAteDeb = ChaîneVersDate(sChdebut,"AAAAMMJJ")
+      
+      grSupprimeSérie(GRF_histo)
+      grSupprimeTout(GRF_histo)
+      grTitre(GRF_histo,ChaîneConstruit("Vente de l'année %1",AnnE))
+      colorSerie()
+      POUR nDeb = 1 À 12
+      	dAteDeb..Jour = "01"
+      	dAteDeb..Mois = nDeb
+      	dAteDeb..Année = AnnE
+      	dDateFin = DernierJourDuMois(dAteDeb)
+      	sChFin = DateVersMoisEnLettre(dAteDeb)
+      	
+      	REQ_Select_Ca_année.Param_date_order_start	= dAteDeb
+      	REQ_Select_Ca_année.Param_date_order_end	= dDateFin
+      	REQ_Select_Ca_année.Param_IDSociety			= gnID_societe
+      	soit nrc = HExécuteRequête(REQ_Select_Ca_année)
+      	si pas nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	sinon
+      		pour tout REQ_Select_Ca_année
+      			grAjouteDonnée(GRF_histo,1,REQ_Select_Ca_année.la_somme_Total_TTC)
+      			grAjouteDonnée(GRF_histo,2,REQ_Select_Ca_année.la_somme_S_total_HT)
+      			grAjouteDonnée(GRF_histo,3,REQ_Select_Ca_année.la_somme_Discount)
+      			grAjouteDonnée(GRF_histo,4,REQ_Select_Ca_année.la_somme_Taxe)
+      		FIN
+      	FIN
+      	
+      	REQ_SELECT_SaleMethodePaymentUsed.Param_IDSociety	= gnID_societe
+      	nrc= HExécuteRequête(REQ_SELECT_SaleMethodePaymentUsed)
+      	SI pas nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	sinon
+      //		taBleIDPayment est un tableau associatif d'entiers sur 8 octets
+      			soit nNumserie = 5
+      			pour tout  REQ_SELECT_SaleMethodePaymentUsed
+      //				taBleIDPayment[REQ_SELECT_SaleMethodePaymentUsed.Journal] = REQ_SELECT_SaleMethodePaymentUsed.IDMoyen_paiement
+      				REQ_Select_payment_methode_sale.Param_date_order_start	= dAteDeb
+      				REQ_Select_payment_methode_sale.Param_date_order_end	= dDateFin
+      				REQ_Select_payment_methode_sale.Param_IDMoyen_paiement	= REQ_SELECT_SaleMethodePaymentUsed.IDMoyen_paiement
+      				REQ_Select_payment_methode_sale.Param_IDSociety			= gnID_societe
+      				nrc = HExécuteRequête(REQ_Select_payment_methode_sale)
+      				SI PAS nrc ALORS
+      					HErreurInfo(hErrComplet)
+      				SINON
+      					POUR TOUT REQ_Select_payment_methode_sale 
+      						grAjouteDonnée(GRF_histo,nNumserie,nDeb,REQ_Select_payment_methode_sale.la_somme_Payed)
+      					FIN
+      				FIN
+      				grEtiquetteSérie(GRF_histo,nNumserie,REQ_SELECT_SaleMethodePaymentUsed.Journal)
+      				nNumserie++
+      			FIN
+      	FIN
+      	
+      //	grEtiquetteSérie(GRF_histo,1,"C A TTC")
+      //	grEtiquetteSérie(GRF_histo,2,"C A HT")
+      //	grEtiquetteSérie(GRF_histo,3,"Remise")
+      //	grEtiquetteSérie(GRF_histo,4,"Taxe")
+      	grEtiquetteCatégorie(GRF_histo,nDeb,sChFin)
+      FIN
+      
+      grEtiquetteSérie(GRF_histo,1,"C A TTC")
+      grEtiquetteSérie(GRF_histo,2,"C A HT")
+      grEtiquetteSérie(GRF_histo,3,"Remise")
+      grEtiquetteSérie(GRF_histo,4,"Taxe")
+      
+      grTypeSérie(GRF_histo, 1, grHistoEmpilé)
+      grTypeSérie(GRF_histo, 2, grHistoEmpilé)
+      grTypeSérie(GRF_histo, 3, grHistoEmpilé)
+      grTypeSérie(GRF_histo, 4, grHistoEmpilé)
+      
+      grDessine(GRF_histo)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1ee4c060f7e896bc
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,183 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TBD_TauxRotation
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TBD_TauxRotation
+ identifier : 0x2f1cda6d55cb232d
+ internal_properties : BQAAAAUAAAAKO5+uE/ke0XKHF1FqDQ+z1Rgb30cLQQVR8RTGCLJWAlYnbnfNZgjK9y9BPg2xO+KQqgGGaRbuvmVaTVJ13Hw1wgNzV3e+25+UBDu6KfY/LDFNS9ut3H1ArHKT9JEl/2OWGbs+fqF8N8J9sdUfEs8YL8UpKC/ZJ8sboj03y3XGHCpTz1AV27XWG4cjOXnMc0ptzC/pAm/PkEVOs3PAVkPlV4Uyt+M7BtPgZwh/Oe27LnHokIov0lH49WrqPHnqmkt+Ww2DhQTI4J0TUkbLclR2bFfT4JtLcnMDPFeEIeUjbWVsyUbTIDJBgosq1XpJX/p5xuBax5tAEdJ40cTC9JytHebRkgjlJpJvQKBptTC0gdl0HRa7n9uxleaq03Ocyt6f0ktFYh4qeKwXTn3Ylu7uDRkR0JtDvcy5MWx3tSKtjvazcawbdDsKOAUd/UX2K98kNyw7EuKWGdOHFVHitccr88kUiQEz5Ui1NRHV/Ikz3nfEE3HeHoxk2ofn7D2A17Wq0vH+tHMvSIiUh/l8kZOXfAKyOcg4qQa+zraZSevKtNOymjcuqbchgXsD+vLb3GgRYxpdSWjei9XiJuMuV2AWZYOsakgqq1pusqpzw6irMVyur0KvAV3ko+0eb71IyxkM
+ controls :
+  -
+    name : FI_TBD_TauxRotation
+    identifier : 0x2f1cda6d55cc232d
+    internal_properties : BQAAAAUAAADdf6rcApGgKCiF1HwmfXGj0bVeVGe0H31rmCTe8EIndc74JC2PEa1I1JIY/MZOA7g8K9RaMkd1DfLwV0xUrDfMWgU0u/TY4FV1/cdxuM6zVM7StfBB9PUVZ7Es3PC4Wk/TQ0EAi3CPwuBWln1di8WKHYgi8plSL9qYxVYBYvd/Dg/ewL/9xgfmF832viSCnZ5D2rsFH+Anq3QjxSdun4bEMzWqwtjq/nJkIDh60jWqj2GXxV2noHj7nKLco3g6nJI74lChh/JxNEJPZWftGHimwvHGtSyM32n6gdO39GMUg88I+jBaiAiChS6riflZ+qkhtkRBCS5boW8KN5KeukBe4TMw9HRw6zgiCDlyeJUOiyomut8c3sFOEnLdbNBtD9BgNVFrSlCVqHfC05pXLs9l3Rt5uhGgwA8dBvZyqXnEJdV+zsx3B+ZMAci9/iM8Begw4UtgGtzuI0iJTm0kKXcJrdJe
+    controls :
+     -
+       name : IMG_SansNom1
+       identifier : 0x2f1d5bd759e0f6fa
+       internal_properties : BQAAAAUAAAAzf01xGuVhy0hOyKlyB0RP/O4jgd2RCIG9vUo15cw17d9ODeNsZS6FuF4y1OXIuk6BPyyCSN4cLVjVM0fTpXL9/rNCJ1dbZ4T7dlFUIvOEFFix9Gt1dD6JbUy6fPqJnBge/6EcWsVhCASdzBXWTphCrTgSNakh9kpdNNeIc/yP/x1vCcgfQch+vTlqwplU/9l+XirDbbRRnPL3a2sdCLAPvar1YwlkBn6vrXaOT098VrE7kSF5GrvfVHlqSAp/FJm+/cYarI72D62f0VydGY2nm49t2MBGxHGbcwBegu2O0bV3x1pBn3IwtpPK1YIhKwxnCvLGOpE+hjODFiCJNGnKYfLg1Rq8wUvu+YMC9U1hQlz9ktFzYFujvFCW7C3DRnnPUvZf+FqXPmob9yJXwcX7oKPezFKRpVJ03KOn0t9gp7++7IppgZnBSMML7k5kwpNnunTUjEVVpvy0QCzbQ+uMKjVZhYZNawvwcy+g3KmKH+MjCmu8llgJhbdehhLYfQJzkoVq5TSDwphg1KrE3/12Ayc3F0p/sGWrSsBwRvApq5xfXR0FzfRJkXxKSPRsXyV79ryYqI4Qy57jz1e6Nunwbw0/RS695/AYggDPjX7t9OvK5oDw/inQc2TS10kN4ypMStyDXprL9me0ZIy4QHc+reUJXoRv6vk54S2YayUHSHOk+GQjLfMSFxYvUX05s1cIviumY4IWJIksx4LrhvB/c9TphkSpEWz3HEM+SKNh+Hxrnh1VARK+rSymUK349Q6vmLefeqmwW1mUxdV8+qdnN5R2a0M+VImxQSM5gd9frHok8r/c2VNLz+fm9zoJxPaUDbqYLH+zj7R/NEjvsxC5rgdSltBjaQXfZvQSTbI6PQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_Profil_client_par_origine
+       identifier : 0x2f1d5bd759e4f70a
+       internal_properties : BQAAAAUAAABJ0egznLYXvKGnjn2/2oVJnM81FptJF4vyVs4oXryx7SmtrMFLHAWNmLOrZyjX4RaQJMszIFNeFFw7RF9Rf1ML8jHVx819UU64OmaPVOc+pW10bbE3t9/3vPVp4J11LOaPNv6hGvDsUio5/Qv9E4pSP/UEsuzICv6Uv3dBr9e9x1YqfiNuhmo6CxeM1a3hFHHX4xyeVovISS50yaSt2rhK+NCY+JuS3SzInWQNn6Vve+UcmhGEAKczUlEX5X0dlhxISGnP88pgpeay9GlEU+4a7C+8ELpG/cEVFdSVJBWMHcI6HsSRtub/JNdBEg2qp5tZNS98xO2ZB3GjQU7KnjeAxYUCC8YLb/ny3T37nQji3hrqmdGlU3PPsP9A64eVxUxSjXFkosKNSer/hX2HheV/QP54xjNwzK3pqNDAk/hW8HkIfXRaSxTo3p2JkooDHwnt/ryakCaq+8XEEsFzVBpkzRrT+ljMz2FcYRfTNDczd4juLhhATVl4jJGA1tuz8d1yaQk0s7+4218WFn663Q==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2f1d5bd759e6f729
+       internal_properties : BQAAAAUAAAA9hoUuTbSa6jqfVgUVugcq1Eb/qedRPGrHYyTUvJgDS+9RsTjGg9qbzEutztyUyZOIZZNlf0+/wubJgVp1KO1oLmLuE00khUEXocT5X3EBynl/0hq6wQNlh9vqn96llSlQKjdJcoEuQKAUJcne0ms/BMNZg0YfL59o+xbMtybX3lbw21s1ShA1ETUnICxDTWd6QeEP32/14B7FskjuiTavr2SHrMKjkg/AsjwGkVCrCHBjDyvWfWpJoQoEOKmESgXMRF+pL+o5Tj5krpb9EhVvD24ddZxi1Y05EVuS6gbVtJ6IR9klRodZ7GixD/PTAt2ucmkZ03R1EOT7D1uJQIFdtHwTU6hW73fFd3nRA5s2pdXcjCsY5KwErpV1CwsDATAeJCFucfdCRrWFQloUu4/rLw2j9jRrdZZbPo/kSz/rZMAUY/bu5RvEpa6rVvjHKtzKQ4wUKKGTaCFshbBB4n71CvAFraZhoYiNAAnlRa+5ZxKBPs2nA+IptmL3fiqyCUZM6G+cXASG4Pe39rWyxJdcbqQsrpo=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	SqlStockVal est une requête SQL = 
+         [
+         	select
+         	Sum(Available_quantity.Qantity) as StockFinal,
+         	sum(Stock_move.Qantity) as stockInitial,
+         	avg(Article.Purchase_price) as PricAvg
+         	from
+         	Article
+         	INNER JOIN Available_quantity
+         	ON Article.IDArticle = Available_quantity.IDArticle
+         	inner join Stock_move
+         	on Available_quantity.IDAvailable_quantity = Stock_move.IDAvailable_quantity
+         	where
+         	Article.Stat = 1
+         	AND
+         	Article.Type_product = 'Stockable'
+         	and
+         	Stock_move.IDStockInventory = {IDInventor}
+         	
+         ]
+         
+         	sqlCA est une requête SQL = 
+         [
+         	SELECT 
+         	 avg((Detaille_order.S_total_HT * Detaille_order.Quantity)) AS Total 
+         	FROM 
+         	Detaille_order
+         	WHERE
+         	IDSale_order IN ( SELECT IDSale_order
+         						FROM
+         						Sale_order
+         						WHERE 
+         						Sale_order.date_order >=  {dAteInv})
+         ]
+         
+         sqlInventory est une requête SQL = 
+         [
+         	SELECT 
+         	StockInventory.IDStockInventory,
+         	StockInventory.Description,
+         	StockInventory.date_move
+         	FROM 
+         	StockInventory
+         	WHERE
+         	StockInventory.IDSociety = {IDSociete}
+         	ORDER BY StockInventory.date_move DESC
+         	LIMIT 1
+         ]
+         
+         	sqlInventory.IDSociete = gnID_societe
+         	soit bNrc = HExécuteRequêteSQL(sqlInventory)
+         	soit Inventor = 0n0
+         	dAteInv est une date
+         	si  bNrc = 0 ALORS
+         		HErreurInfo(hErrComplet)
+         	sinon
+         		pour tout sqlInventory
+         			Inventor	= sqlInventory.IDStockInventory
+         			dAteInv		= sqlInventory.date_move
+         		FIN
+         	FIN
+         	HLibèreRequête(sqlInventory)
+         	LIB_Profil_client_par_origine = ChaîneConstruit(LIB_Profil_client_par_origine,DateVersChaîne(dAteInv,"JJ/MM/AAAA"))
+         	
+         	tabStockVal est un tableau de numériques = [0,0,0,0,0]
+         	SqlStockVal.IDInventor = Inventor
+         	bNrc = HExécuteRequêteSQL(SqlStockVal)
+         	si  bNrc = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	sinon
+         		pour TOUT SqlStockVal 
+         			tabStockVal[1] = SqlStockVal.StockFinal
+         			tabStockVal[2] = SqlStockVal.stockInitial
+         			tabStockVal[3] = SqlStockVal.PricAvg
+         		FIN
+         	FIN
+         	
+         	HLibèreRequête(SqlStockVal)
+         	
+         	sqlCA.dAteInv = dAteInv
+         	bNrc = HExécuteRequêteSQL(sqlCA)
+         	si bNrc = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	sinon
+         		pour TOUT sqlCA 
+         			tabStockVal[4] = sqlCA.Total
+         		FIN
+         	FIN
+         	HLibèreRequête(sqlCA)
+         	
+         	//Calcul stock moyenne = (Valeur stock début - Valeur stock fin ) / 2
+         	tabStockVal[5] =( tabStockVal[3] * (tabStockVal[2] - tabStockVal[1])) / 2
+         	si tabStockVal[5] > 0 ALORS
+         		LIB_135 = Arrondi( tabStockVal[4] / tabStockVal[5],2)
+         	FIN
+         	
+         fin
+         
+         Actualiser()
+         timer(Actualiser,Hasard(6,12) * 200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2f1cd97a55b5840d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_TBD_TauxDispo1
+resources :
+ string_res :
+  identifier : 0x1f1cda5b15dfdf7d
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

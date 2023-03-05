@@ -1,0 +1,153 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Panier_moyenne
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Panier_moyenne
+ identifier : 0x20940b790bad6d40
+ internal_properties : BQAAAAUAAABAFnMU+wQqTo6Fimv5iANk1ai4L0P69Or4d52/D2ix6joCsI/uhFTBhrysqkSPQsdBMRkX2dfSlhVsAedgUoyLuwzQGdN4eKnpI4wuYrBpXz2f+n2BbL9wz7BS4sx1pFWIQQg60wV9/3Vmmd0QINptqAZ3d7ROCjHJbRfwcvG6ju/GcrqTuImCKE9wavkrNUk1ImlyAhpv/e7SgdiAfH7xhFJBgqp9BhJ8el+6+aNz5vym1utiy+rhJxjbNlycbh3LBfW5f9Mm2ywig4X3q5uAi3u0wu0iRN9oKzUkOesJGF/Ar1vMR6kJyOfi0C/07A6H9jewaAHV3IAe4s6ipJwX5rhDcRg2kLW0hE1DjQArJFFzDOpoA3SBziQ/IxWjwLYFGBEqMJ+2LWeB2WtIyHfPPp29RFjHNOpFN1vXSyyVlT+LaUeTj2zMUILkM9F4fpZrT6RIPiDtmZF+Rfx/4B2WKnw2apop6Z3+wR4XFk+2aoKyY7e2JcaOw3RQQyCIz5OMaYMOIyhqZPiSLLbjvXvL4JbBGVXOel6BIAegcGUHxVpoM1Wblf2qPuVWPlTrk1QR8fbMSRdogDIub3LR7AhrhjJpNNl+HU8nhn6FKBRmQ+OnKlcUR7aonMMzabPU
+ controls :
+  -
+    name : FI_Panier_moyenne
+    identifier : 0x20940b790bae6d40
+    internal_properties : BQAAAAUAAACAF9x8sE8ZwZ5McIKZ/1Sm5pckLWuc8rdD1akio0zTcaQQL7OTiw02zrOYNkk4a9A8L8DXUpBp3x+qWS9awsqhsMJyDEEvQWk9smeO2ZBBGTFvJnJPu9So3hZKugBwTkHIM9sPEboeLaS/DWcxeNBYRLzPNYKTnGXF7DsO42b2ax9g7FS90k9hDde/AWcqcXUmxSGmiCBSkBezorG7oYwHOMlE1796gL0r/6BUGpT1eKToI8Ur1YbZ5dXm0eoElt9JdTNXKVf5y3qBjiKqdNCZK/0fbthvBkj2jmNH80eU4jS1cWEdmrPKAmstWTwgphsK1KF2m5ecSQP+banDYQZlnwKj4GZDEsS9aDTq0DaiTOuQnJ3o9EnzOacfR8cGJWX2RtIgv/IZXqYHMp+Q6RaSz0zFNgFFGYXptyqtMC3rEkUHWqYxXS3WPrILhu7B50Pe832+jHWJLhzntrPcz821ZA==
+    controls :
+     -
+       name : LIB_FOND
+       identifier : 0x20940b790baf6d40
+       internal_properties : BQAAAAUAAADMVEuskfwp0org2WALrh0/C9AIzXTtF3Zb1wTlqz5Xu6/DylWF3yrQJmHsMZcuHXRymFahFuZCPxvKOE1ptrIPCwrtdBFcYqNHN8LDX3LrqhmF0CzLBBI7+DfrYc26eYt3b5nnBJn+spIfChl6YI49xVH1DPRlO4BclnC0LeNaH+Lo9CViL+nxvtygcyEs++ZpsM47O8953OTHgS0SHTFr12HCa7f9ATZ04VYxt6KCb76cyoDjVWq0BpK1uq91AOc2ii8kA3oEwTfANAU0M6IOAfI7T3qiqvBUqJmau6aFZXwvar3/uCqL1REslqbJEX/91LglsaqZ+SexLD1NcwV+1616UOfVpeHg7Ora+AymH0JwYKMHSu6s6delE8fjzHQOT9M7XNnbvvNN6Iqj2viKrfiz5oB53fSiitCD9CpqbH/+SVLiP0Q8t9DYWOW4VBM+la9Z5rEetIolUo5PAEpjhwrOlgAQdoa1Ck7E5YRO/CGzmpmpwMSUm2BfeUp+0E5bwCOzT6DNTmTxcfs/WA==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Marge_brute
+       identifier : 0x20940b790bb06d40
+       internal_properties : BQAAAAUAAACXGzTjo05dsy2kHQ1aIkMgqvbvf2nEW9PhF/wldeRvX6+ZgxbBKvt6V+ox8y+mdkpl85Dlk/rr+iCJFeQzrfk+pktXieLs688hAktnNdmP90gbrm0xtiLLcs5/GK6TlJrym1omzLKAAa7olruIqkDz1dSg4ysJfQT+v2lQL+JmZduXTXcBPpAylFKaDGGVxiZQ1kjsrh4LuWRV+IeT2JpFWeK726JPDk6A04NbnM3ViGYRZizWXc2obrMVcBAG6DKurN2ITn1WK1DlruYtKG2+JvOKYSgS4BHN01HRyOkV5J1R6Ccd8Ub+d6/ZeYqbrFHCJ1OAKXuGTY8mcJTzzQdKzWXUpj5btVb/+2atU4FIdlxr8tzyFNB4n8El9ajIFBF45i8ROYS/cyMX5VAH3OO3rsrmBdsQTJc6hM/sgJ2hcMPtch+uuzpSRQPIm1NkRf9PdG86Mj5Go56MevTKxGFSqACZpL0CZwNZNQKt9oQJrdtXrlBjUkPNtw==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x20940b790bb16d40
+       internal_properties : BQAAAAUAAADTdCbi6uQV8vB2NlBs3QyFV2xUKUwqdGZGsdHEHnBF3E1GGnOlmyFZMbuwy8f0Ilv2mqpce5cpNshiiosygUfQNOqNeewm+23H9EZlfTYeOzeYDw9MkZG8utXlY4u9AeRJ+NMuHJIU/exZdCoMGMOxOhapJxopPgm2msB75txjTUT4b1r0d+cysuyljQ0coYcpM8FA9ZRz2FcEgas0HrmfnkCxHBotER72S8azposCiL6AFHC4K3FrKoYGx3TceQM1s5PbfXOfSPB/oNgM38e7jujCnmXih8Wv1EVns2LM7Tiy17snXgLLeSpak2SbLDazB7fJj9dR9YlfxIKWXOFYF+Yg27n3X6xQ8vgo5QfQnj6oxkcjdT6/cWUekPSkbg6SQNECpCgCV5e9Iv6seHVTgpGbGD/v5P5hjHjGwiT5G1aY7mSoxBtNh3VnE99qtTiN2huES+gBx8pUGx+zKRwP4ht9/+DlpmxoIVlftBz95BLKRM8fwvqCDCrV9KrRj68mVFgkUPJTzyTnBx/K7IXY2/xNj0/p3NYROQ==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_decor
+       identifier : 0x20940b790bb26d40
+       internal_properties : BQAAAAUAAAAVkywmZPw6aB7ToWwOqaOPjO5On/1VGM7qXOXT82wMGqijeklc/8RzxUNwJXDSM3LXQFov9pNzjb4rTgA0r+24v3zmBIApW/oPPscEquI56RLwNG1aWxX5jb2yfSr3O3bAOc+wGEEHNVWNUVUrExNTrc79I1G2NbLTdtTcBMvAvxO77i3IzsHwDuNW14C5S6+0dihZR5+vm5OcabnDMCp06WK7GfW9masKLD7dmYQe0NfDm3dkA8+xi3+wtpFKFcY/spxCBGfIu7XLcqaXGNeyAl3Fjcs5/QAIuKyUib1jDn90ITd8N7psRPvknwaONobmhvyNDbs9JQrMWAZIPSftyQHGqq5j7bRElRxiiQdyT/zkHjr8ZDRGXMshKxCtWVgUzCzJFlDbe3JRC5qsZG7sjdEhBqeDBsZoeRGIcWlNkcPYX2x1t98oAWxIqTtPlab6oT4UwYwTRTdGJCOGrXaI2SwqwiLoyoxsKVMDE2ScQOUUKmdzFB5gD4FcPVvmiqfaUe8ys1Js6mzhPhthcCRcGOmihsG4nOHWp/IdbVUn+dWbYParJQhcotW1YMgllFAWV4r10VMle6O/HhMRgM1rnvdZcwvk+7dDTIZKRQfa/uUF0FxBHCrBR5c+LnyJN3vFVh0+fu0r+I7oQpiJC2hFkn0x2ppnpdQHMLuN3P7VPPLwOZhtCEuUj7bFYe7azUTptTMtYWhmmcbkdb43n+/3EefVXfDnT69PMv5smcYRyX5n7zYvlKcU9DH4oOW+oAhg3qnF0JKT3SWjd5UOcYN4w+YQ4DqTELkRV4pC8TErLz7iG5dV9KLFGjiEr+gc6NQOicL/bt8E2NqGBiySlPDoncZsKvDv
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         LIB_Marge_brute = ChaîneConstruit(LIB_Marge_brute,AnnéeEnCours())
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	sqlAVGPurchase est une requête SQL = 
+         [
+         	select <§cs:3§>
+         	detaille_purchase.IDPurchase,<§cs:3§>
+         	sum(detaille_purchase.sub_ttl_ht) as total<§cs:3§>
+         	from<§cs:3§>
+         	detaille_purchase<§cs:3§>
+         	where<§cs:3§>
+         	detaille_purchase.IDPurchase in (SELECT <§cs:3§>
+         											Purchase.IDPurchase<§cs:3§>
+         											FROM<§cs:3§>
+         											Purchase<§cs:3§>
+         											WHERE <§cs:3§>
+         											Purchase.IDSociety = {IdSociete}<§cs:3§>
+         											AND<§cs:3§>
+         											Purchase.Create_date BETWEEN {AAMM} AND {AAAAMM}<§cs:3§>
+         											AND<§cs:3§>
+         											Purchase.Etat IN  ('Confirmé','Terminé'))<§cs:3§>
+         	group by <§cs:3§>
+         	detaille_purchase.IDPurchase<§cs:3§>
+         ]
+         
+         	tabMoyenne est un tableau d'entiers
+         	
+         	dAteAAMM, dAteAAAAMM sont des dates
+         	
+         	dAteAAMM					= PremierJourDeLAnnée(AnnéeEnCours())//PremierJourDuMois(AnnéeEnCours(),MoisEnCours())
+         	dAteAAAAMM					= PremierJourDeLAnnée(AnnéeEnCours()+1 )//(MoisEnCours() < 12 ? PremierJourDeLAnnée(AnnéeEnCours()) SINON PremierJourDeLAnnée(AnnéeEnCours()+1))
+         	
+         	sqlAVGPurchase.IdSociete	= gnID_societe
+         	sqlAVGPurchase.AAMM		= dAteAAMM
+         	sqlAVGPurchase.AAAAMM		= dAteAAAAMM
+         	
+         	soit nMoyenne_ = 0 
+         	soit bNrc = HExécuteRequêteSQL(sqlAVGPurchase)
+         	si bNrc = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	sinon
+         		pour tout sqlAVGPurchase
+         			tabMoyenne.Ajoute(sqlAVGPurchase.total)
+         		FIN
+         		
+         		nMoyenne_ = Moyenne(tabMoyenne)
+         		tabMoyenne.SupprimeTout()
+         		
+         		si 999 < nMoyenne_ < 1000000 ALORS
+         			LIB_135 = Remplace( Arrondi(nMoyenne_ / 1000,2),"," ,".")+ "K"
+         		sinon si nMoyenne_ >= 1000000
+         			LIB_135 = Remplace( Arrondi(nMoyenne_ / 1000000,2),",",".") + "M"
+         		sinon
+         			LIB_135 = Arrondi(nMoyenne_,2)
+         		FIN
+         	FIN
+         	HLibèreRequête(sqlAVGPurchase)
+         fin
+         
+         Actualiser()
+         timer(Actualiser,18000)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2093ae13090db303
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_Nombre_Achat1
+resources :
+ string_res :
+  identifier : 0x1094084700f7ed9b
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

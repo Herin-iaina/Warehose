@@ -1,0 +1,557 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Jauge
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Jauge
+ identifier : 0x2d7762d90ce8fe8d
+ internal_properties : BQAAAAUAAAAaC1IMBCr4q+rVd/R7SXmTs9eIjbxn1SCNPO7YBy4uH1CHTj0VFgK+cOpK+NuZwmr6ZxXOwao/eYKspWt35pTHNatTXJBefhDdclv6iH81xL4IrPOUG8sqzeMVWtXXCM6ENPk0GmdCWgcosTRVsa8rX3Sy1XVRd2geMKD4mvXmZ6Lnk9tddPqwK+bGXboSZZC+4TC3v5OK0wMdXs8Ey6R70qtrWT8oigV1QFmKdc/gam/8s/1FhP4ZQPVK2CXlq2dWVuGXP4CwvBO46ILqUQC5PG+SIjSFGzWUh5GApT8SRZHkig/OL4OoXrlK/cZg035cNIM3O5AMGD/ej+GLkzf5+78CsF4/cHy1lYflEBXg8gIfA1X4s3wydFV+ZqfE1NXB2Og2rE2WzctJtYkcUkG5In7hh2sce5LDJeFxP5QURJSpQjv4V7GN54bw4D4vd//H5CGzEWdAoR14emq1DKD/1uDqwNdJU+3zAtQ9xLXGvpjhap9frtexM5+GxoPhFe1mOXlTXtOt5IAUi9BBXxFvBIEoLPjl7XpCuUMQCHTIl6f+Wfhs1gOoNsGFgtze7CEbTHqg/riWPCZe0NlhFsbPbJ4XmDBEGGihCe7zboPLBB0wCP8GPiEIhizLScxGu4C7lvI2rTpYjSi44GCQSPKmN1/Ha182XliPbGYoAvl+znSaa/AHKKWllGK+OBvCFoKPrMeRI17tgSKTU5W+0Q/IPbTEs91E315Nq411jsroP0/4GdZDdL5gotGSwDPgsgTEc9izmU8wTyaDQNCJLg==
+ controls :
+  -
+    name : FI_TDB_Stats_Jauge
+    identifier : 0x2d7762d90ce9fe8d
+    internal_properties : BQAAAAUAAACs0Y1/XI60dNEXSZUPPY7pIKWPWqc+ztZE1r1K98s17Bm63uZ5VM9tsWxzQDUURTcrL4hMe1Kw0wUe1+tC4Szep3TIAMNydykX62otFCS5Wa/gSd/tptApq4eqiVgYm79chVl+FK2kFL0EBbSAoyceFkvRJp5RzaakukO6j68PMTjN+Fk2onhUlkJ5nCBbTS6U0IsYpE2m6KMctbZJ4GSREzNdEpzsFcyZ7NbH/Xgf0KFKqBXvF0dPlfv1LKJOKWfN0vXTzRkTjgZglP0qESpQsboJbUppI21dNlma7IZms2oK7QUtcmaxuRoyrP7/L5hBnRG4+MT8BF+sfZBBVhF5QZdhN9HR3yjpGX3jCsvEtU3ArjOT2Ke/bdnnh5l/46PEqTRHBK3saGvod71Re6oebOxF8g1xPomRDHj+cERg2cMnw/uyoTmrlRb2els4mZ4=
+    controls :
+     -
+       name : LIB_Client_société
+       identifier : 0x2d7763be0d9b7c98
+       internal_properties : BQAAAAUAAADAoBslyZIZgqOOYpTjtQIgKTaLvfhiJzVo0hd5S/SSHHtrD3KlxA3cWgIYVEkJA+mbjLIqw55QFtjldZQbDzDC2EK2Vp0HVW5Vmo1vxml4lnAGfauDHyhOsMcdiGB9MlTVPzrHEusgZZhSzVgYy1WSpHcNE6G+0dZDdQib/IxKuqPUc/QdB2/43grLn239jitdAeqF1SiZjtoSTb0I5LbPSlfdGEcE7RoMG69Id0EchngDyvXp4fCFltt4ewmvTotU4SvuBs/+g7atejj5vuAznd8x1cxZ4bcHzu4+CtKJShvysU9GAj21S8apDUUeBKTCdUuk3/W9BZFsPlzJ6m2g3bwy6TLWLxcyEkVdHBYMNVTfr79IxzlikMm4szJrlGPv2OK6AGHjdce/rmEwO8PsotQ3u+ON+8NNa0mSsEDtk2lS8CsbjwA2x+5V4vZKHE5511xx5eRuKhRLPGc=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Client_particulier
+       identifier : 0x2d77640f0e18b99c
+       internal_properties : BQAAAAUAAABJ8ygfYmotlFBYF84IHQn6j8YEYlgSDPrmZ6hZob2z5ZYK5vs+mhwZIWfW3KJk+gJ7hhu2i8zXTDt0Jxdm/Pn0Xbi9sTwj9ZH0fYueKdORN268ExYOWVlMqJNvH7A58upJ4K1RJXsLKmnhajxtbSxqp2YowQ9Y+qeBkMovIevsm5WMGXc8hw8R0WjGdgNikyNM4e3XrFSUzk+GtlxlNt9VHPjxuOfTKHePGLwYjX/D8HyITWyfkFDFh0XD0PfCMFDHQA5LiCo2GwXtGyt/G4wA1KJELpQ2UVdwpjX1fu0ROVTj6vyaUS+n+IrkxrUdmmcjqt4fKfgXv7YSz2IcqqcFYIMN7BiTbZVn1urueCnibp2wSHBwdkvEAUnHXGqIcvOkk+PQr6Eep509XZjvl2W3RcI14ULR9pC7LqCKvLZxzgQlW7IIpse/4HGOlcr2zVTEMkL5JNn6RHV2CJC5tMqfGUbK
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Nombre_des_nouveaux
+       identifier : 0x2d77642e0e2632b4
+       internal_properties : BQAAAAUAAACRqwDnGqWWL/0NxvvjOKgBoCFRiSosMlBQ0Tmosja8RtnnuRwnw2cSiNMK06vlG4OOjzQoit8uB/RIVEVf3V4/mL4QBF5WQhJ9+QWXavwlUQ6Gqiy0b6+6ruVFqV5XSMATPqrFakMzQinZ2oTOVqWv+kNXDnipdajZ4eMA3nhRxrAj/vqPqGCK0DG3/2CP8P6fZJrSj1mZM1ITH5OsfbpiJXXI7cBWnwaAU0NGA71FpC6XFt24vcOWcJ6Ib1ZPjbNY5cdmYzsFODZW7GK+fB2PfZN1PRuvEOTVsyqQCXLqiM0cswNxqn7UTce48N9xzhHVGL4RS+zLY2ImO+agNmbaZvmLLsrRrwelFKjI0n/EzGy/heFBiNjSDTKyib8RyDWiuESn4kaBaW/Kbpeu5ATFKRaPRf5vwKqUHPB4qnbBGC7P74C+7gffIFHKtSIyKT7WyI5LVukSbKEosCILXKL38Z6S
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2d77645c0e2be78d
+       internal_properties : BQAAAAUAAAAWC6V+SVFz9iXikRQC2AmL98BQpedYOlPCn9azMQBVqGKorU3ND+Jz8FqwWhR6h5UKfIWwe8GQ9Nl1mkJ1lBVTK0oGI8jKzwSGvdJs12dsdVqxfP6Af1sBqJaYf7/6eT3WkjsbWrWYcGcHQwWP9xB24jSqH+OfZ7YUQA9DkfCMJ2TBnLbl2Jt+6EgToEehpI4Up1fdz0YP6v2D8cB6wLlXNEAJI8g3+qgCNa5etpqjcQsFVjIMRwPJBKKYgqb08Ob/ErzwqAc73030Ny0QnOQdbozB9FvkEuFBMziVMVw4eD8qx066Iqqf0uwuUGKzq2UdIIl2aGYgzDS94u7aKIgh1Y7XuFgD0zoETDGkngaIiMaklb5aQHvArPT/t1/jPK2LV5dv4R+9gKslpcR9z+2grAEnoI2dHCZ31L6vREe60tXcjbavV6ZMZVavSDDTfR/wcSH0Xq53kfCPArUItqccSG06A5tWuzwV6kx7qGZOGAcY5Rdy+7R0KBh5+2HkRiCjPvvM
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_ObjectifSatisfaction
+       identifier : 0x2d77645c0e2de79d
+       internal_properties : BQAAAAUAAAAaYAO1SMcMRuPZa1keaVShJ2v9ly/j/kxExFuo/CWX0Mh9/ydWLUykqWAdsQuI1zmI1mELzhB6REdz5KvqOoOjW+1Xkt0MEi0OUsckWC8HUQ1Zz19VNCGwwrT/D7KyNGT/AaHMjywO42/OURSUX5vaOzcJKXDj8cMsSVY8yaXKLubqRUMCNxmkRie3IeulIyLtDN4zKYvX6MQyQi3OWDbG5wjZJMh2qjhloMMd5QWZ6K9M/OQdAxkx80jIgEPjPCzi5zVTviaauUs4HD2mi5In9thS9rYE4YBMHkB9ydEoA5pDy2Z0KA3YyMX4SSknMcsWkk1L/wkw8BngR2z/KIOqjQvsmj5jHQ3dQPYbaydTjI9AFspfEyyG3xUQOqYZKN84P3y2cW480jQU1ur6qfkm0N01Fbrc1iFc/w9hWvm5nLG3hkp2xjPy
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_136
+       identifier : 0x2d7765500e5aa08e
+       internal_properties : BQAAAAUAAACmVCaq8OjBCU1pTDk584YaAP6WRxX6O7cMnDIDSKXbY7dPJpptIjsc++gAopJAO08JQEBCrmTzU4nnc+2RnMKhCdgm3qjy/AT/VAh3hEad2NFNKKVdVR7srnzr9r6UxZvzPDQb0tLbUHoRSqBl4YrAPYBUs6MVESa+DU0QS8LEgccCnYQI/Ox7RU3oRBQmSTYTrbxU9dmvjub/R5UEyESs/cRt+He7sPoukBBU8TQ1zTp4UIuP8S63lAVxBSjhpj9j/f3EHzuNciCgcr/eGfCYyvTRdrth8lycwZ1Hn0dmm+OS/+zep4qmxZ5hBt6EbxRLwtcg2gUoX2uv/bb430zWy/hJekboSStVhPiW+iFqY4KkcZa25bUj0zik6XtuuLhV3cG9keops14zNDr/ukCjPyBixz0ca+/pw5R2hhfgAbp9E1L0c8AaW7e/WReOdnEYeohhjNd2/obdaJU8ej3WZYbn8shM9PfZZB90PeC8rO9dlFPUBdfAb3i2Uu72LUeVBkN/Nf4GsM+FucE1
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_ObjectifEvaluation
+       identifier : 0x2d7765500e5ca08e
+       internal_properties : BQAAAAUAAAC5A0ZglRX60rvxcdcUf/qHvT2xS9a6yXUTy1ckHkkJXIAxDA/VSRu41h5A+NVcmdsz+V7n6tDEpAXxNQN6Mim7+2VV0CEYCn8ACx5FSA+n0b1B728d9GFgOtSXVzryXHwXQVm0z6RGS98mMbTEH3u6Cy/5WVhjEWME2T6k0Y3yVi6KTWtiL+EMRo8XgfuFg5Kd5I6DsQv3GNzCOpV2gB7u/+gBXPR67qwJhCf5aakVbNtogGCpp+1FB0w8HCcHeMDe48nfKqo+7b+sgMnK3747gmTGIpLI9eQAUmTJvaV0N5YPT+JwzOEMXCmkLfWjtadKVon/w4XszCXMo9AbwPQXcjgT89300GA6bZXUTL8x5HOiUAjdrsC/3n6N1Yycx5O2TKl6uxPH0WnZHWUtNmqV4S72xA9vU24rgP6yO8iK7V6c8e9T6VCR
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Nombre_d_évaluations
+       identifier : 0x2d7765500e5ea08e
+       internal_properties : BQAAAAUAAABCpNTwgtU/7PzVl0V4mQk8gZ7yybHqvXzCfHERmLm9SfSamQ0YvykBE+JU6vXgj8TvyyelxJB28d+XYYvvaRcnTaPhH+aoFx1gwbTwGKFBCj0LNlw2bIu3LdtxYNfcF2rQNQTtYyoU/rYrBLOjwOreoCypOEB2R0tplmvAVNDnf4GYFGINVPf0f9D8BXKBp+XWz8fXLahSIjWZ6Zb71bQFggdt6FitkJoQyxtWYWpjgHJQrk6Yha9Tg6yZ0EDFy11mQHvBW9tx+VnsXWvOBvfzndwPhg1JQptajTE1CQQEPO1dTSzFcholAH/GDkQs0f78GJfztkd8M+DneUSjYUlRA0dmAjdEANXV+YDQrULPOWNdzmlY5VcA5Q8O9DPB7Bk0eHpTE7AfaLuUlJGQMqy8+1HoopHZqmTxQOkKjN20jz0t5gQ+WVhyBaJ1w++GS5mDOPrTYw==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_137
+       identifier : 0x2d7765a70e79f485
+       internal_properties : BQAAAAUAAAD6JBAXbJAHnx79OCjL3Nc5EPF9tARkRTFVEuBDoFxMls0/4jIXVBOoeb97h9b3Ck8UeP4KsoLRW/6AbwuW80fMyGfU3z4S5NSovigmXKjAcETbdSyYA3/bUr9CnYSm0GAreS9/F8jXFO8DBlAvWkG+T0JudvpbEMtDymiKRCMeJwVqPUJrFp6EhKmb2AsVDZJvIDBGjPuFkDw2QeTTrgBJ82PLAY3OUHvJd2MZWTWWmgiBdc8eI3lyvBW0gqxbbge71sDkUQOiKBy+y3UphL+tiZXJ4vzqeSLksfDzvsC/vBLfLf6RxuOir5g+uhlN1L8kPZ9oM+BNxz1P2i7r8nNDNp3j0s9VfNGJWPHmreBlEIHpMyzR5H5Zi3AZF3INa6k0Pv0x5E2OxzhNn/Cc14oGa/oBzqT74yi2s2dcFnb0ZSm+ANtPMBiyydGoxVt1YNeC14plBqWUyvXfCqKb+IE4n3gkDQdnvDKwoUbjMF3GyiHC0S1M5rjqqvQWtZS4y7Vc7XE=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : JAUGE_Mano_H
+       identifier : 0x2d77ae8f1ae4be29
+       internal_properties : BQAAAAUAAAB+Zf3D5fmrQCQWpvS9NQzw2HB/vOXFXizp3EPHFdPUY0jFzrOqpQUzADR9/l3M+hURnAHnks0qdUIanyWwOXsagnUGP5n/Cpp0fhghbftVl1y5SRHjsMzDQsk1ojb7z/xWnO2l3jE+rDr1JdC2H8hJJWix1Xv2sDX0U4fkPtp/gUlKFeXGZtM5Eo3MusE44oLV6zT37ZWUgHq07VLJXi8noTwQRAXqEJoGxTwZPJJzLXt//QEXt6KAr7EKRiyWwnmzLCnerSNm6PuBpvZ+0f1JO3OVR9kVvmdGOOZfGo70m1QRDBcINahzdkEL8ceEHz997QBa9+VhE/6DSR1oRUbJtiVzwnUz0r85g1qtf8DJBSeS5enSDb+O16JRDI1LzGQpB8w9CC7Fsp5eoB0eW3ccO4hwAKlnJZGk+xRpUColvEiFw/nqUNqGPjkFUQCuV+zFmYPKVSNHJZ7C2pVm3dVcujrifI+yLeaaTYwWZJv8mDZ0Mc7cKewZn5gENT0WGP5wwXmummCYPjzsCG/5D+jzCagerUp0XnOQTZlTsT30KVzUmaETOwbcNGPhhu9rELeWADDGiDtKovt0mKx5zNhnzGvr0SCy8gmnk3zcvKLAcAl0yiy6UqMzcE8xu5nwmUBdHTnV5nwVuDlWVuE/Zl0k/yIzqZr/mq68D77stYda8oR/eIU7GYuzr16eiKcSxSkgfOXqUMnslES9gZhJ53v8VsSA4BVFBrTUsMqCHVygpBIil81pNhGK0bvIcP68EPSd1qL1i7eR7TpAuuhhivRwtlOYLOCu4MDbLAgCQ5wtYAfs0AukDjP7WnYGVkyd2gwZZCjASy9JChudI/HbwzlWtIC23nkAdCPWg2Xi5Xr7MK1Fp7WNQzaPTcQggYm92yAWgGOM0i1RJSWoRJDO7K4vf3JhPJKyu9VelgWfmh9s7Rk/I5DLqth5//6TXu5a6NNIzSRGSoVo03KASyMs5th3hRerRSqTdPpok7bEe9qs6q+N2ZPfRd4Fi78ITsLKEdI=
+       type : 10
+       code_elements :
+        type_code : 17
+        p_codes : []
+     -
+       name : JAUGE_Mano_H1
+       identifier : 0x2d77aea31b000cf5
+       internal_properties : BQAAAAUAAAC8RVMIhyQnLnuEGYWLoDu75+G/jMvvKbuxIUFsUuWIzTHSWHcM/c4fpFSTjZEc09EA1B2h1sFuC8rYCh4ojbH4uILOVZpoW+LtgJMelIUg1NMe5sgHiRyHka5Jx478XjXkZB/i1kqmtn7NvkC1q7ONbUVsOO0krTA1da6aj2YcJuxCgLScCB1nwGR28RyHyJzfQgQLtXtdZ8aTOeiB8cqKZJ03sHdYHfZufTmYg4r9oYAwU6EaNyl44jO9z02AsOih3WUIzQ9bFLdUWpkispiZSG++JFk6b0h+uhkHzxbdRpnug9um7B6p8AQ1SAWT1D8YKr78JgMr9LbStB07hZ4p3j4EfvyRnWxKdQEmRGb7u7Sksppvj51vw0lRteuLeSFmT6Sv+u52GQGpJgjcZzHZ2qFDhMW1BV3wNunVEIeAv0tZjSIjww6unJvO3b9kSz2shCga/c0F3JoCOXExWxtyd8aV66nqJppeHtxy6N8WOhRIVlPQRko+XE7UZKc8AdtghDEl3dnNBWoJoWMJVAL7WfDPfiKegAnjdMp7RjKkYOkI4xOnKcTZiXAqJBMSOv5RRGWPP/4iXNyIM6STOzlOLS5+xAJaLM9zWvGbrt67uAmA9GcNd9lXEHlfi6R3zDkAXLgwMv5mdmPr5+xRmN6PCeQze+GqOt2TLqNJIzn9JvSWo3mTNYOPfGd5OlvBDWvc2CnrqWqfCenAXHzHTs5pwhnCq+8UgkYA4z7udmtHE8Puqvq/BhCTVPbTultySZdeZrqer87glV7YKHpmKeiji3dIEx3LqbZ2LrrCAVblVDGQwCWnKGhx1xJ2vs4WZcsmBaCJFjS/ERV0dOY4Oh7DdBA455N/Y4ZprXCFRtjbdFNjINxv2MU1DAksaeja0rkvFs4QR7G1ettxCnHiW+xdwU576qZiwz+9Rj1w9oJNL7WvWDOi/jT14j4/Llfm8b1LURkRMM7Njo+ifNrqnbuSpr+Mp7CtBlyGfYsNnzVFuXcDDC5+kbW0
+       type : 10
+       code_elements :
+        type_code : 17
+        p_codes : []
+     -
+       name : LIB_NombreNouveauxMessages
+       identifier : 0x2d77aeb01b133be5
+       internal_properties : BQAAAAUAAADjtJ7ACi196brpf2lkc1grJ+k9YlX7L8pF7K2WGA10YmLyF+k6FGbqcqgXJjH3tPCzupKKvNKDDWrpUaxQwXASyDO+HNLXlGDSfK0S/6Ou7FEiyhK3awcSrehShacmUph4oBGb08A2zNYuoGtWp/4c0h+bK2LosPKapFaPvOFwEQNN9cU8WYhAY6tf1OZiTgBY6Xcuuxm5TToBq1Q8fgl4OoU2wftOwbWQPAmnt2Skrmt3xIN1Hl/62xrrJhl/SdHFb9d+CKjY8awiepuWrNUK6J6rTG9OoBrytThLYtgtSs5SWoKdTWaSvRS6gYe5cKL60jNPibQ78yo3H88xY/O9iVZpmB4PnbCAQIU1ubQoQp6bhwI4Pl1dKT1dF1cxPY2McZpafaIWoRmaoc8SulcfNByTYRnJNB5nuWvDLLoa+CbHSVthbwRmIQk=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_NombreNouveauxProspects
+       identifier : 0x2d77aeb51b1f4f8c
+       internal_properties : BQAAAAUAAAB3XI2ATT9j2h1yBA6xrQpNmyTaIgqEgSRc2esCdgSBGpY55QgmFgbF9Hbqtmb2HMwMGpv2xUioDsVARuT3nodZoVxFfqx87ZYkgKXfS05By23N+TN6oVetR/PtkDNlVLQ22XGE05S2RziwVBmzcb1MwtMP9dECOcnDB4ELVE5Z1+D2ZwIgeo99lyqzpHm/j1CCY0XikeMT2x1n8kxiBVVJJKAkNVbtT+FdeTIaYv3AeLYMVcZyddNIMhUSYwCExzWApnY7iSPCndn9jypVwUPKX9cu7YxN5uJjIPt0h0cj/mXTwT8++D6MsvGP0GIabITLEZaY8hcbMUs4Evguin8zKN3kEaFYATY/41+PGAx0hzlSwfPFUfY9Xq++utTaUh3Ud49Uf/D+HMo3Xz/N5cVQHE4jD/Hr7zzxqZN1BhrsxUre
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : GRF_client
+       identifier : 0x2029246804e01ffb
+       internal_properties : BQAAAAUAAABvglwZHndd9BM8AjSyOd+JnsA1s0EqwNxVTSRmelQT7suG+2e3in4w/JhFN//HPUCbi/8RnmLV9B1zLw4uTCU4dBS0NbMVMLOXYHhPsGs08uxaoARFT9F7DoKo8DA7RoX3zlw+mPU5Q0RzhEsX3SRYAsjepGr59opTvzeB/pdtrUnhqK2jpU3KQh57eE3HxPMRJ0Wc6IqTi9cAprMZElTgNUFEhTBWFFqJhD9Y0MZenjavIQXSuHKZpI3if5jNMHwQzrIQPjrGpqePvLm0lZdJvr8DGhZociXV7Uz/Q5072chdl0FSscmVXzY/yv0Lc90AyqCqRHFZsxODfqRRgaGCI/slUf4HYd0L1q4V/xkAFiCRo5+PadHCMMKPU/GBjpUZ2b7mHrag5LPojJ6CpTtcmQJhB98Jv9CO6IUIuyIffNHxX4P4fFp0zU4itFTueSL7DQArKQKpJsDEy9cR1FsDLwptb40D3rd8hdr+c9zmWoyyNmiynYAxYrNpvzRIUFlpSL4Y0ikjV111HoGRBEhJJn1li4wO1RiJ42CqiNJKAfkoOhJFnEhXydi/PyBZF3n6J6OlN9kGw2ZQo6bUvknzMmIR6zxA2diVw4HqGontc6zCcmJiayjffmL47XnIQ4C854rR7Jv7vfRJLKNvpAQq1FjIg87qEZRwfi0gZD3+AXt/PrJtf6vOGmZDT7+lkvaAXFwPg+n76tS2OmLBYElRo2I+IrcyxaWuUB3iP7mr5NPm3Cp6xPbZC+JLmbcBGSMtOlCpg/5pmqTFSJRT+pri/+C14zpCrXG/uvfm/ebkcICf2H8qUVblAymKxggSPI/hI+iA33/IV00KOxdY72pbUHF2tyGhQkxktTWjMZh6FUDBqEngm4YMsHrVEficKys7MkQR5/SHqy7amWOBOGMKOiW1OeaY/kFUF2CW8K1OZcNdQ+5b1THaOd8aUFTZ4Mcj84vMIKMOtz8d9ikQqg+4fFF/FwmMvKKA0KPa3kHwyhBxtmXRrXYmhU85aRmSBB7SUjOq/UN+HGMg3KRL5YdO9N9om2yGNwSggsCtbl7nfajse3PNs9V5E3yVVTMfe4X7eMctpMaHj6l5w7PH2EaZpJ/NskweI6LlEEMgkXHyn474VzjYBID29u1pwPAf+mJN+ay30loUymCXhYc8g+myVUqiwRNUejmktpG/DieEq1NH5Mm0rnm0vdGOQFPaispXsEri5N99GWHj7K58ZddsH2Oy9gark2Qxg+OTTBT68VdRvB9yhFj6TNMVcdDeLuMGPWelh9Sb2/qlz/s9eq1NNQgSy0LSfaTtNP/qKLNAMOd2IlokVpmI1NzHP5V8JsS3R4rZn1Ht7YnbPhVz
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes :
+         -
+           code : |1+
+            
+            __ExcentrePart(GRF_client)
+           type : 18
+     -
+       name : GRF_clientParticulier
+       identifier : 0x20292b9f06bb4c05
+       internal_properties : BQAAAAUAAABbNI1QzxnHlwSqioTln3xzGT24HUaGrTA2iAqorKXRe4S2iO7pZlVIKo8h6D/pknXkdNYgpbTSAj0L/zKlu3iW5u1rmdz/PxVx1gjGHFj3JLD6hSaS3IUYANooeR0iaMW2xGwINv2VKaCBehSJcBNPnd9soamD1Anky7IrW2OoPkLWfx86OVCj54wRObe9MEm7dbJPwIW/OqclTz8d3y+uMywu2zPTAEGuNEcBQM3h2hvCC+PT4cX5tde0y648il6E9C1TCC5rln1ra7dNEOJDpHUQLgH+NBuc50PXaVUEyESML2AzvmJ9cab+80Fh4uTzWlLTOEZi9r6fKPonFyLxFTOLLAEJfqS64J7ZeXdDXywow7hIGz5iC2T4fqfEM/h+5sWPWs3YZrbEb52oAC5DyXfQM2N/wOeBlcOa1lA0WFQJTj55i46J4WosCrhWLjpHDjx685tV+EUYRAFWDyhrFk/8Rs2jIg/I4EbXl8wJ9f3x7wjB8NSm0HMMpE1ePC/xr4XE+yPpcig00uBDCAz74ryigrNAI4VN6mnjWu1o+E941xUI5GJDzPsr2St5Fmh6+LGcY11kPwxUs3fGgm1b7mqbbmFOwV3FZmywKvyn2w1UDXyuwX+fuWG/mGXER5efqFk5qWKBdc/lFOh0PgfW7DdlvyCkdT2PZlG+uDV7ort91kG3QxVFdUAJymj0o7Jrt6EcI1tExBny2swIJwzk0JaaL2xB4P2TvDlQyI/pOHPG5Xz8WhJrQDy0OhNzmYjHZhrxmXqU1GHQkL8zENUZvnYEenBeGsi4bBeEg6Adjj9Uc14B3Lpq4KD6P+C8diyv5UZrJ7Mrnq/q/Z5oM9h/ZbCHAwDb8V9Eh5zaJvSI55tOYf7FoRy2Y/fwPKr3P8kX+YyTNkNSFWD6sq2jiUrz/b7z1aXF+RrQKo3JYY4ErxTnw/TgfzK/FECeXNeE0uEdrrMC89LN/nG4hzU7LtlYSUKaLfvUYVUmJAiWvTekAiDHFQDe2ttSB7bpBulrz8AyoinNqwwxSkz3omGcQ2Jkb8v/SVsdGQn9GzdmPyxnG8whm+yJJJHtjvU9HehxSqz9d9VQ524NIFFSmH5ZEpfJL0yD3JwLSJz++iFOEsO0iEgE4ucuPXnLxXJAwHYBTxWnyHsgI1RIs92hJBsrxEO6nTqS6VP9hGfsW/Ghy3QTEDrCKXj1A4jFDm8KOLO2xjXAZrvTSB3mfTkRAx+RciDTn24eFQJLpeJ7TdDwgkmVSJJtO8k+VJwUYcExmdugmrCGhPP2ebErMudjLSQnKg2pdTlUCbbjtUe0g4/MOA==
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         // Constantes du modèle de champs
+         CONSTANTE
+         	cstExcentration = 5
+         FIN
+         // Variables globales
+         gxTotalCustomer est un numérique = 0n 0
+          
+         gtaPartsExcentrées	est un tableau associatif de booléen	// Tableau contenant l'état de chaque part (excentrée ou non) du graphe géré
+      -
+        code : |1-
+         dateAnt					est une date
+         taValeurNumCltPrtclr	est un tableau associatif (SansDoublon) d'entiers
+         taValeurAlphNumCltPart	est un tableau associatif (SansDoublon) de chaînes
+         soit nNombCltSct = 0
+         
+         gxTotalCustomer	= NumberOfCustomer()
+         LIB_136			= gxTotalCustomer
+         (LIB_135 , dateAnt) = NombreNouvOClient()
+         LIB_ObjectifSatisfaction = "depuis " + DateVersChaîne(dateAnt,maskDateSystème)
+         
+         (nNombCltSct, LIB_NombreNouveauxProspects ) = NombreClientSociété()
+         JAUGE_Mano_H..Valeur = nNombCltSct
+         
+         (taValeurNumCltPrtclr, taValeurAlphNumCltPart) = NombreClientParticulier(nNombCltSct)
+         
+         LIB_NombreNouveauxMessages = "Total : "  + taValeurAlphNumCltPart[1] + rc + "Homme : " + taValeurAlphNumCltPart[2] + rc + "Femme : " + taValeurAlphNumCltPart[3]
+         
+         grAjouteDonnée(GRF_client,1,(nNombCltSct * gxTotalCustomer / 100))
+         grAjouteDonnée(GRF_client,1,taValeurNumCltPrtclr[1])
+         grEtiquetteCatégorie(GRF_client,1,"Société")
+         grEtiquetteCatégorie(GRF_client,2,"Particuliers")
+         grDessine(GRF_client)
+         
+         grAjouteDonnée(GRF_clientParticulier,1,taValeurNumCltPrtclr[2])
+         grAjouteDonnée(GRF_clientParticulier,1,taValeurNumCltPrtclr[3])
+         grEtiquetteCatégorie(GRF_clientParticulier,1,"Homme")
+         grEtiquetteCatégorie(GRF_clientParticulier,2,"Femme")
+         grCouleurCatégorie(GRF_clientParticulier,1,RVB(204,0,255))
+         grCouleurCatégorie(GRF_clientParticulier,2,RVB(255,0,153))
+         grDessine(GRF_clientParticulier)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : NumberOfCustomer
+     procedure_id : 1159741616600522248
+     type_code : 14
+     code : |1-
+      // Résumé : cette fonction ce pour récupérer les nombre des client
+      // Syntaxe :
+      //NumberOfCustomer ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure NumberOfCustomer() <métier>
+      soit xNumbers = 0n 0
+      soit sCharNumber = ""
+      
+      
+      NumbreCustomer est une requête SQL = 
+      [
+      	SELECT 
+      	COUNT(Partners.IDPartners) AS partnerNumbers
+      	FROM
+      	Partners
+      	WHERE
+      	Partners.Is_customer = 1
+      	AND
+      	actifs = 1
+      	AND
+      	Partners.IDSociety = {IDSocietyUser}
+      ]
+      
+      NumbreCustomer.IDSocietyUser = gnID_societe
+      
+      SI PAS HExécuteRequêteSQL(NumbreCustomer) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	
+      	POUR TOUT NumbreCustomer 
+      		xNumbers = NumbreCustomer.partnerNumbers
+      	FIN
+      	SI xNumbers > 1000 ALORS
+      		sCharNumber = xNumbers / 1000 + "K"
+      	SINON
+      		sCharNumber = xNumbers
+      	FIN
+      	
+      FIN
+      HLibèreRequête(NumbreCustomer)
+      
+      RENVOYER sCharNumber
+     type : 458752
+   -
+     name : NombreNouvOClient
+     procedure_id : 2304116127785178777
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] NombreNouvOClient ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	multi-valeur : <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure NombreNouvOClient() <métier>
+      
+      NumNewCustomers est une requête SQL = 
+      [
+      	SELECT 
+      	count(IDPartners) AS NumNewPart
+      	FROM
+      	Partners
+      	WHERE
+      	Is_customer = 1
+      	AND
+      	actifs = 1
+      	AND
+      	Create_date >= {Param_CreateDate}
+      	AND
+      	IDSociety = {SocietID}
+      ]
+      
+      dateNow	est une date	= DateDuJour()
+      dateAnt	est un date 
+      SI dateNow..Mois <> 1 _ET_ dateNow..Jour > DernierJourDuMois(dateNow..Année, dateNow..Mois - 1) ALORS
+      	dateAnt = DernierJourDuMois(dateNow..Année, dateNow..Mois - 1)
+      SINON SI dateNow..Mois = 1
+      	dateAnt..Jour	= dateNow.Jour
+      	dateAnt..Mois	= 12
+      	dateAnt..Année	= dateNow.Année - 1	
+      FIN
+      
+      NumNewCustomers.Param_CreateDate	= dateAnt
+      NumNewCustomers.SocietID			= gnID_societe
+      
+      soit xNumbers = 0n0
+      soit sCharNumber  = ""
+      soit nsr = HExécuteRequêteSQL(NumNewCustomers)
+      SI PAS nsr ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	
+      	POUR TOUT NumNewCustomers 
+      		xNumbers = NumNewCustomers.NumNewPart
+      	FIN
+      	SI xNumbers > 1000 ALORS
+      		sCharNumber = xNumbers / 1000 + "K"
+      	SINON
+      		sCharNumber = xNumbers
+      	FIN
+      	
+      FIN
+      HLibèreRequête(NumNewCustomers)
+      sCharNumber = (sCharNumber ~= "" ? 0 sinon sCharNumber)
+      
+      RENVOYER (sCharNumber , dateAnt)
+     type : 458752
+   -
+     name : NombreClientSociété
+     procedure_id : 1163443337330926889
+     type_code : 14
+     code : |1-
+      // Résumé : nombre des clients type société
+      // Syntaxe :
+      //[ <Résultat> = ] NombreClientSociété ()
+      //  xNTtlCltSctCent nombre en pourcent
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	multi-valeur : <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure NombreClientSociété() <métier>
+      
+      nTtlCltSct	est un entier
+      CltSociete	est une requête SQL	= 
+      [
+      	SELECT 
+      	COUNT(IDPartners) AS ttlPartnerSct
+      	FROM
+      	Partners
+      	WHERE
+      	Is_customer = 1
+      	AND
+      	types_of = 2
+      	AND
+      	IDSociety = {SocietID}
+      ]
+      
+      CltSociete.SocietID = gnID_societe
+      
+      HExécuteRequêteSQL(CltSociete)
+      SI PAS HExécuteRequêteSQL(CltSociete) ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	POUR TOUT CltSociete 
+      		nTtlCltSct = CltSociete.ttlPartnerSct		
+      	FIN
+      FIN
+      
+      soit xNTtlCltSctCent 	= (gxTotalCustomer > 0 ? nTtlCltSct * 100 / gxTotalCustomer sinon 0)
+      sTtlCltSctLettre est une chaîne	= (nTtlCltSct > 1000 ? (nTtlCltSct / 1000) +"K" sinon  nTtlCltSct)
+      sTtlCltSctLettre 		= sTtlCltSctLettre + " ([%xNTtlCltSctCent%]%)"
+      
+      RENVOYER (xNTtlCltSctCent, sTtlCltSctLettre)
+     type : 458752
+   -
+     name : NombreClientParticulier
+     procedure_id : 1164161460160779712
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] NombreClientParticulier (<nBrCltSct> est entier)
+      //
+      // Paramètres :
+      //	nBrCltSct (entier) : <indiquez ici le rôle de nombCltSct>
+      // Valeur de retour :
+      // 	multi-valeur : <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure NombreClientParticulier( nBrCltSct est un entier) <métier>
+      
+      taDataCaptureNum	est un tableau associatif (SansDoublon) d'entiers
+      taDataCaptureString	est un tableau associatif (SansDoublon) de chaînes
+      nTtlCltPrtclHomme	est un entier
+      CltParticulierHomme	est une requête SQL	= 
+      [
+      	SELECT 
+      	COUNT(IDPartners) AS ttlPartnerHome
+      	FROM
+      	Partners
+      	WHERE
+      	Is_customer = 1
+      	AND
+      	types_of = 1
+      	and
+      	sex = 1
+      	AND
+      	IDSociety = {SocietID}
+      ]
+      
+      CltParticulierHomme.SocietID = gnID_societe
+      soit nrc = HExécuteRequêteSQL(CltParticulierHomme)
+      
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	POUR TOUT CltParticulierHomme 
+      		nTtlCltPrtclHomme = CltParticulierHomme.ttlPartnerHome
+      	FIN
+      FIN
+      HLibèreRequête(CltParticulierHomme)
+      
+      //traitement nombre des client particuliers
+      soit xNbrCltPart 		=  gxTotalCustomer - (nBrCltSct * gxTotalCustomer / 100)
+      soit TtlCltPartCent		=  (gxTotalCustomer > 0 ? xNbrCltPart * 100 / gxTotalCustomer sinon 0)
+      sTtlCltPartLetrre est une chaîne	= (xNbrCltPart > 1000 ? (xNbrCltPart / 1000) +"K" sinon  xNbrCltPart)
+      sTtlCltPartLetrre		= sTtlCltPartLetrre + " ([%TtlCltPartCent%]%)"
+      taDataCaptureNum[1]		= xNbrCltPart
+      taDataCaptureString[1]	= sTtlCltPartLetrre
+      
+      //traitement nombre des clients genre masculin
+      soit nBrCltMen = (xNbrCltPart > 0 ? nTtlCltPrtclHomme * 100 / xNbrCltPart sinon 0)
+      sNTtlCltPrtclHommeLettre est une chaîne = (nTtlCltPrtclHomme > 1000 ? nTtlCltPrtclHomme / 1000 + "K" sinon nTtlCltPrtclHomme)
+      sNTtlCltPrtclHommeLettre	= sNTtlCltPrtclHommeLettre + "([%nBrCltMen%])%"
+      taDataCaptureNum[2]			= nTtlCltPrtclHomme
+      taDataCaptureString[2]		= sNTtlCltPrtclHommeLettre
+      
+      //traitement nombre client féminin
+      soit NbrCltWomen 		= xNbrCltPart - nTtlCltPrtclHomme
+      soit NbrCltWomencent	= (xNbrCltPart > 0 ? NbrCltWomen * 100 / xNbrCltPart sinon 0)
+      sTtlCltWomenLettre est une chaîne = (NbrCltWomencent > 1000 ? NbrCltWomencent / 1000 + "K" sinon NbrCltWomencent)
+      sTtlCltWomenLettre		= sTtlCltWomenLettre + "([%NbrCltWomencent%])%"
+      taDataCaptureNum[3]		= NbrCltWomen
+      taDataCaptureString[3]	= sTtlCltWomenLettre
+      
+      RENVOYER (taDataCaptureNum, taDataCaptureString)
+     type : 458752
+   -
+     name : __ExcentrePart
+     procedure_id : 1172269516246496072
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //__ExcentrePart (<GrapheExcentre> est champ)
+      //
+      // Paramètres :
+      //	GrapheExcentre (champ) : <indiquez ici le rôle de GRF_GrapheExcentre>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	gtaPartsExcentrées : <indiquez ici le rôle de gtaPartsExcentrées>
+      // 	cstExcentration : <indiquez ici le rôle de cstExcentration>
+      procédure __ExcentrePart(GrapheExcentre est un champ) <UI>
+      
+      // Variables locales
+      nIndicePart		est un entier
+      
+      // Récupère l'indice de la part qui vient d'être cliquée
+      nIndicePart = grInfoXY(GrapheExcentre, grCatégorie, SourisPosX(), SourisPosY())
+      
+      // Si l'indice est "hors bornes", ne rien faire
+      SI nIndicePart = -1 ALORS RETOUR
+      
+      QUAND EXCEPTION DANS 
+      	// Prépare l'animation
+      	AnimationPrépare(MoiMême, GrapheExcentre..X, GrapheExcentre..Y, GrapheExcentre..Largeur, GrapheExcentre..Hauteur)
+      FAIRE
+      FIN
+      
+      // Inverse l'état courant de la part dans le tableau (excentrée => centrée / centrée => excentrée)
+      gtaPartsExcentrées[nIndicePart] = PAS gtaPartsExcentrées[nIndicePart]
+      
+      // Excentre (ou recentre) la part du graphe
+      grSecteurPartExcentrée(GrapheExcentre, nIndicePart, cstExcentration * gtaPartsExcentrées[nIndicePart])
+      
+      // Redessine le graphe
+      grDessine(GrapheExcentre)
+      
+      
+      QUAND EXCEPTION DANS 
+      	// Joue l'animation
+      	AnimationJoue(animFondu)
+      FAIRE
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d7762da01940091
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

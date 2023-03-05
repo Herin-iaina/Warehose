@@ -1,0 +1,2981 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Pruchase_order
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Pruchase_order
+ identifier : 0x2ecffe6505d15e0f
+ internal_properties : BQAAAAUAAABqRzNNSZZEfRLRJE7D9t2jK0N7sjb7BybrmoMHOlhry3p9U5iMtd7P4IZP1YsFSj/SRh6dh7zv33C+2Hm8vNKnH3gbwxkG/tNKOKrTXBxLZ3BKU9epnSzbGkR93NhPY6zkCGknaad01rJPU+E1xUp1t7BxsjYxh4oj7apMvG21slpwrgmbv+9Eduqy6z09caSHgrsgdR7He5aYyYDqb+ujCl8oKZTYpTpwYgMUU7coKkN91CaEk9zlPTp+meQKSvU0rHmKzncsNMdVqj6qPRNJp5SmPjVZi9/KwpOMAIT5q/Kon2DiwBaetnGlYqIuzmM6XktP0tjCRxQBx9/Q+UIz92ssmUuyBQmoJ1ZOR9b83aercdOnmR+kEUHuIWvqN1z2QJt8tW1JDsuTtgJAkfSriT5e2s6y8GMIRfQYgutm5N/9S291MeAg3+bCWrwvtGvalnz+b2CHTVpzcOg6BEgLTkauB0KKVc76eyRTeUNuM7vCpy7flzaJxsOaolaoVbyRREtVYj5VckWclsnGzsGr6KAVT+bsz3RYKCCjYGJ8nApf91Z33o2x3IObaoFgRRu8sxVhc4QQEH6mBsVPKE1OJYQZ+YBAmp/oCUuZNgZNUQ72jxGMSAWZtfYADOlxpSxPZx+n5nBYuN2O8B6BD/6Of34zcWQc3XF5fMt/oCYJg3fjD61LX4b7phYZDM5eLY/1rTQ1wRRsgn96Rqd1PCrz6Bt8/OS7Okg5g5+1/6EuI18Fzvg/wNLQ5HLWUR4Zdgi8p0hVXOmz7yIL44N36Z6MOC9y1a99BEkDlCnbJ6pN8wxacTfo+VLhwPyc22f2xr1RfobAqPD4BVr7u9wKlG/uSclPtrcFyRIVknhKFO5j5A==
+ controls :
+  -
+    name : SPLIT_model
+    identifier : 0x2ecffe6505d25e0f
+    internal_properties : BQAAAAUAAADijrRaMfeCEiPARreP5odU1SUpEJJVUBy/RMuwMfwTUSRAp1+uqFSZpQ41W8JzpswgGeKjkrdeeShePslfrkC0v1FFjuj15BAQksvcmcO9SRPLuX0+nRixZzG/wpB8RlXni+ga+4Af1bSAUBoNgLJ8I4F43X2rXwp6Wv841x6c+BDtO5ADIK6O6gNkhbvRas4zMw10hYSLMLOA5TDecgEbMoLpOtYcL5VKnHwfGvAVb5qltaYrawHAaHqPD0NSdl5Q/ZSPX7SyHbTj4LnUl4Tzgtngw/KRfqSgH8Yn46vTx3pe8LBe4VilbmirzhrqY/eGTSFpjnt9gB0y6w7tvtWhvH7y590G8fZhyGa4hHnXzdytR28MqrIzLuTb7dCtXJ6s8MGxeWnKIejT9b7BfW92JEJrDt+OgMfKm+GzA0X2RfwDE4lGD5aCAkLc+XBw2bDugbAT7g1vSWT0u8IGqeSwqXZhlASwpFILnMvm0faQWUaVibgOh8sDRAzmQyDnkj4eZLVX5S5ZFyg6KuNIAi7vpo1B
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : FRM_SansNom1
+    identifier : 0x2ecfff3105e75c1c
+    internal_properties : BQAAAAUAAAAg9XtTLXGHiZmHXaPZiOTnGEcoyAtcA7vj6hpVNXpKjWL3McMqtBr2U9X/oz0CMZWRTImn+aYAu+0EkPw7s6oP4o/2i0MEsUTHKvtndQsGkvaCCOLv18cAiCzVJNxEvAn3hs+hSAPIuTJPHicDDD2Pxb2j3Hj8KSzrTvB+2Ny81f5/3FcKE2nLkaTcpzKYIJ5dRYX6nt5ADXe8pC/AfjkOJE3xyoSOs5Rognzf+J3avVfbA80FixapwnuIIml4VvBVeSvLURMXcARnm/sXTR6cbiOortu7/nVA/xho4qusj27KJSG+wVoWsdG/XenYXgt8qkzgeq5YOD9ZSvpHoB+EFl/yhk4A0uW3lxrvkhamgIh0/ImqMdrSUwbegoc+PSUvnPD4/sdTlM/8XKw4HGkzpFg0eEV55RsV9Rd3T05eWF5O2ixcol8j4ko=
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : FRM_SansNom2
+    identifier : 0x2ecfff6505eb66a6
+    internal_properties : BQAAAAUAAAC04wP5DZk+pX5af/20aKzflqqeO6P70ltC4VU7IfdbBjdx8gcLmj11asApV5AFeLlTomxqQODcJ7HjamDl+tLnoJj3C41PoA1NdtyU0INdR3nnjZFvapWon4m9oyflBIzbah1alfAJ82cka4lQ5P9pi1LXthP0ENcO7DNIwhmQQv2Qzf6Pra4Q25TWCo+uOyl+nycp7dtoHXYn7W1BGTumGZaRCE9V1ji6vSIS93nHlTVqy0ugwJIMzqyM8qeiISTLcTF9r2zoSXQA39/qGSxIQEFkKW1A/r9rpilyprvUq5wRemBc7VTiDoFmDRJhY1I4kqwe7Kd6Azd7qOrq4TUSfZ3aC+6ZZXhoZSeZPLdCzWfFfw7mThtjlY+mBxFozsTOKqcv/dXgYGMNca/2x40BOp/Y/GKXSMkfuWmHBRZxjY7lTG/wNINbZwzzRERaIDXC4TUmGqyRJEGF8upzSHZTwpRinohLW5eEmejaVX4=
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : FRM_SansNom3
+    identifier : 0x2ed0004705fdf674
+    internal_properties : BQAAAAUAAADtPWmJeN/QzTfAJP9nP+iKNzUK9I+pkiVQQqVKBbJMeqYvODtaso3bK5dF+L0w0DdhvB9K8yJvJd8sGMrcEoIMco+cnIWXK6RgKvJONqtDqV/0IBIHz/MG6nayuEgYKvsacOG2dkrHUJkBcY9MNbBNwde3SLkIY3FKu+Shw3ckKakuzlqKpnBD44Tv9Dwutt9y5DUW7AHR8WGHLwtK+6bX+Vh9n4dSjeKrWNKgZxCcsxzcXchw/HHzuNmvn37QBC4kwYq4Kcen2MwlLJ5hrPafk6Lm8YsigL0ZB5wPbhwWbXupuEvXgPzFtoL0w5FdCXUcO6pRlX+iIvlieE/I9bHxDC/EfnmNAM5qXSNgzZIHeQRBYG8qOGxEwaOsW1V3rk7idtdUx9eOFrpzUamCVIjiTjfdVm/ZkxVyCxZegcAg0+KoM/UWnIbwLakMyzWldeBpRZcQ7b9bGHeJW3mP6xEpWs7ZptEGwntqC04g+VbcU0WjvFJJsfY=
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : FRM_SansNom4
+    identifier : 0x2ed000ac05ff36c4
+    internal_properties : BQAAAAUAAAB075q2Tat63cRLCaB/G71DR2XiDyySYgHBRhXFDT7Onmjhe7EGe5qbJ6LaqOGoe4r2j/DW8Fo5yVTZAA7YhbJjNjM9tIRtcvhlXrzdMnvjwmSCSUHX5sUB9DAiJwp6dglCloMgGmxRRL+SGFaMZXpAWI0V7r+DQy5F04gI2kayXobUxlWWjTaYr9Qkk2K/diFHTjdd4tN8dTwxQxSTShCve6yxqqyV/bIFfaKGAonsMhrTCzhFKwI+rdhBZ1zYut3WhFOT2Rj+ulNCKngQYaA9Ci34Tndtfi0wi/fi/u4ANcdx+8fFN0XcBZ2/4OTduTJF0HZR6vuVIC62/lhKppbgpHK/VKC96iftUxtqNRLDMhydwh9KqKIiP0KlDHgsRaPuaiacTj/PgjxjkjTeVWrFXnou9/jWVaPrExvMb050u4qqNv8wT6SStsV4PGTUFL3qlssxrpAKu7Cc
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : FRM_SansNom5
+    identifier : 0x2ed00289061aa53b
+    internal_properties : BQAAAAUAAACYtENIcNmzcrnj06TVbozCdVT6VUOdbq4S01h3Qfe67Gw6z5fcDxUt5G6cBFQZYxgydjIGx4Iqh+Vt/CEDKaRmGR2DnGamacrF3Cpyvvl+mA3tjT6MehVez+rh42AzOvQSXFTqjrkof+EhWS3tHXZMWInisPsb/tivHBytEJg2Ct5gToVHnrnqMYS5+4agzikrrGBHnafpPHNqUPKFQ+GI/aiOWDbwMpOuFE9sA/hYdfoHtphHAZxEv7Rbw6/6DCuloLKFQycmth34QI5pp0ch0+DPA6hD0tJx23mGZNGvkZVDmV+wbYDYsL4nXAOGEh/YPw95tlyGFQFmjyTcFLjB7iVLfJRszu9eZdJFWzGU6SrzLwVzPfjrJWWndE9An/ByAo5YDiPgz9zcs91g5dfDa0qmlWfjUEBByNzUI6xLY4V+a6sAWFtbE4mrsOIQtwq6/ZW5V3LOK/BYXdsNU6+1iH2/I2LGlGgAwhh6IniRx42J
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : FRM_SansNom6
+    identifier : 0x2ed00289061ca53b
+    internal_properties : BQAAAAUAAAC/qMELLdBkEa/cANCpKgyTkw0mk08PhUfRpvk/lnhZfiu3YXlBjunHS0uymQoCmXPjEL+UM6A+oV1Em/FVS2qA9HLFRkSgnygSFbln9m9PXmoPcIQUUkdFP2Xr8D0axNWMFBuEnIsTS2jcwAkZzinTwIs1eJi5VmCr5kbMt39IPR8TIBraOBs7nzw8/bijIEYukCrMosI5+aVAdcCP5E+NmVEP6xzU7YRvOl7HlgJYpdqRKK8D4fk+ttnR3iHBp/jZ2nxgOAiHkNUKoCs8tfJ8XdB+z/VESjLr2SwON4IUh5JFCKknH78he/X+pQIJzgk7gwxDO1rdI0a21qcNu2dIlgmE+S4kvmSHSBfF8Y7fdXfWTeBmqxqFtjQYPqxKjJwc5BklXSu1o02w0EWYfpazWt44xBuXYw3sHzbZudxUDq6WjDFmViSZXBHIyaaUG6a7Usv0YyHG7PRmSYbxttxKmw==
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : TABLE_purchase_order_line
+    identifier : 0x2ed0ef770a830951
+    internal_properties : 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
+    columns :
+     -
+       name : COL_Id_product
+       identifier : 0x2ed0ef780a860a5a
+       internal_properties : BQAAAAUAAAA+OtBNBDsm5E2lTcVEq2hPyLbgK8PYDnoNWdMFQFSJl9B7MXGcKe5dh7lU9yYK6nz/EF8AqBhhOl70CfUquti7KoPnsuwQCCaqJHJB0BI2NcQxOhqIA0pI20Rx76bmKgyRt0jEnb9EfUUOXaNHaxvYyM78RMiYp7+FOSx19pDV1ygBRPjNtKP1s61VPQKjOQ==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAADia/qgXUxn870ieoEuGjReMda2ECp3GUpEKSkteHCHRuXPBk05zNYglbOCafWdsNiWdqZ4zm8GIX9FioJXc0ChXyXccL3Tdd4SzjhLDUUVE5g2wFmoaYy5qYqaVur0X01gc2n2o3+AzxgEcumxnV5hpdlC0BOZG9GDN88qUJw9N+++JjKldvZ/7qgjb1q6E/xnErP4wpw7KviFuE6IOj3jqCoSSYOCAomcspYLyW/VNX8esYZRijpSxsLzGMbK6ta6h8pI2NpHIQI2SCeI2xUZgkjbRT27xezdgolZqdmxTwjnXLhV2lUzQOcs70alXDimUTOkNAxx4gsPuHiwYl1m0G1hbv6He7KJojEEuJHHQcc/xqI07SAMdT20MW71L6YnYbXhioVbeHgV8ihnrrCs2CM0oHDBUtpfD/r4aDhDptNjWgW61zi9Cip/f3W6yTkKYBQujwYsxdjvjuITWAmDQQaVLbajN4QdGlQPl46cpc3xYPUblIhV3GKOqaMFYUDdJaow6OmHoVx9qJlON9+IXvOFR3NoGgerW5gcpAP+/60n46ELATyjNNH2p5Z7IIaZhNh+F8Z00EXTAdbHyKtkc+FMB43CddAT2RpmALnwFRYyn9pYnwkKMwAua7MC8r0jtSJEELbXnBIn4BnRECN8CgbzgSUXPiYmkqR44Pt7ZPR0y65BJHfMKH2BR51i6mGsR2GeGSEL0oMbgMXeQsknbVMEtrdxWY/Wl0r1WtFPlJoVOukPzFeCzN8YMr4xyoazAGASWItxernO8bmlypoaaARDeb0=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Article
+       identifier : 0x2ed0ef780a880a99
+       internal_properties : BQAAAAUAAADntC6ta3ouRa4oAbriEBuRLDBy2gdh3SQojfLUCgf2ihNUxurvIBXHLBckTAdN1AtyKnN5xk9a4yANsyt8cIE+Ao2pK0d1TsGWER6XDRHemjANC0LWqBaFx6onJVsKNtd0TeHyBL4y7c+81fFaBlFSx/YZVYgDH/Pozwk5WKJQcyuV6SPAvo4NSA4Bge88552nwb4FFXC+Xw==
+       type : 40
+       content :
+        internal_properties : BQAAAAUAAADMx+fio45LaxvumtyAasBKWngeQ7MfyQyZBXg+UIZSFiCFw5nzaZl/fOQn1SaKPG+nO20BwlcGJBdplEgcZmETKL4JvKI66SIZJoDZfx1T4qJj7WO3uXuPcFGf5iRb5VlYxQg1985rUbt0sa4l69Hr6MloVQyNVS2a5/vWkFavFTfhqU0xDTVPbr7P5MbCHbFOC+U/vnfp8a6SEskwa55k9ZcyeeFqqUPK8K8hixl2ZArhaakJDG9yte3BYfRHPUNnhM6qg8mexuWqvlhFwCJXaID7tdDlvqIVwEdCCEc55ZmiqI/ABE/HmwKMZhOm8A9fKo7m4CpSk9YDtgdZ4dSfwajoFJoLyep/DHRN77xaRy3o3WGC8Qx+dt0SudJxOCOltQPc95w=
+        controls :
+         -
+           name : COMBO_Articles
+           identifier : 0x2ed53587368b3e5d
+           internal_properties : BQAAAAUAAACi1hojbDpLzZz70V/W5eoYjWFcJniFExyG0q4rICBgERe80Ru1tc/m4WSWOnDJX3F2SapPuPUIYDAsLrWvGUgQrL0Tt7caO79zoGR9x3fo3aszObvwPyyrTqepChzDt0dVuUqlZl7WgTINi1NM/RzSoLxVveFaZIX8tJeoeeyA+qjnCInUc5QEossO6cUpcFdK9/hgX+Q/1QVEEfXB9IgTMSwbFqNibZDcA5KBL4IVRcxNz13SejtRFqMpCNoU5URwre8Yku7AfCikuY1q2TaDC8T2rXtidH42U/s9dpbnxkMHzpEhF6N/j8fFmqM2R7QoPk9x3cRxCyGeB/mLwtnW/gG1UMfvyUhhp6WQVRB6Zz9urirn2VQds4zj77SFqVOj1wLJF7moPWGRtG2fcK4eNdjst8hWsP63697D9UzfD8P2Y2Ns0hIX6Uxc8mm+dxryRi+vH3j2fMmRGrNDAn4MpMOMGpdANkSnOnh4QlbdaVZi5CXjjCvTJCk8Utb8Lyq4Qb5jjsS4zUPxqv2Y3PLpZcaJK6NmNaFQamhb2Tp6tonS78oNhQl9xqZ+mafBdn8vP+yPKt38ShLS1Cb34H+IpLEDi6Fo8Cfu33p7uJsTr25wMjMHLzGaHekZDMk7mv1c7Ajr9vtpSxap5feP/m7b/5LE1RekXjSKxIhUCSi/UPern5YAEWWWixsZqt+EzLToJvdODA/p0/S20l96odeSA2T0I0WjNDQjlTV2CgWG3mwL0/+F8Cv2laXxP9i2Tjv0SNiCfJBpP3UeRG/ykWiJWGRZmt0PAkdYVsn7KCmJnjQoL6Bt24+uIaWsZV8sKdK8BH3/qvHMVabHi+KhWuYysstb8nvk0RJaMi89LQFTsDdExp5UHejrIbZ+B/2xiZRm0Ck6bx5ogDMmiS5X/8krRiJ+rnSz0c2TnJzw+7s8bFkGrgyf8Qi44W7jB85r0kpo67NY8LETuQzYhiPL39dcVqnjty2BSm/TMsecxsh5OSJLUJ/qIQdOLOG9UO1xePeHWQuThEyn+O6y34/gdUhBkaC92qXpWaSQTeQQfSn+1pWbYwb7y0iOLL2naqctsO8eyB3V89RkaObeeyDONbcqub04jehSKsIME9ONgdAFYmPr4xIcQ8SvCoJnYeNSsVfCOLiwrTdXkokxDrwi8oqyVqVyd5e2R74ZEIGWdokp0gU325MeYDc7msLzoNSuXiUKvl27rla5ZQO+B+lvsxIRAlXuMXCPcv4sC03sZ9MEIOwpeydNjnNcxr8+ju/SeGlRxZp5ey5sDTJ/yraQa8NhICjaUyc1KarBdnoGbw80NEKhPSp0sv3zHXtmmlpydxR+A4JOnZgvO8GLgkhbj50K+pgkAvwgiRT0OSccKNDEDaf11Jb/3GiepOahvUjungvoFctcea4Y2fA88kAD/9b5NXvyBe6GXZwPYNj0ZgxVd0yXMt/xo3qhU+Wn0TYHwJoYLMaUjw4bpYDHbxa0uKPgi9ZekcLrll3s4ZGzl3xpZd+EhXJYBWJVDrqNH7ry93QECjMgG4Nlwz0STkPmd08xo7diafsx1/vvcPXv5HOThhluq3vk/U+hMyVmcEP3G6wYxqL7NnkLTgl7ESfWl6SeVO2xgLZEZXeDhsz+b6qw39F1JZs4S8wyBW3H1lVZl9wm2p+6nfrobQ4Ov+JAL6jMRrs9kuYLShXwRPCFqEmXwp5NgQ==
+           dropdown :
+            internal_properties : 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
+            columns :
+             -
+               name : COL_ID_art
+               identifier : 0x2ed53587368c3e5d
+               internal_properties : BQAAAAUAAADgq79rzAfpBwDnP/4gwGNYWrfhChm47kacXk5RRgD7oeOXE1PVxSpd0Cz+x7aMjv+fcU/jr6t+gmuz/uFU6azoAOYdF+G/sb+W/RM2RF279W908ahOw2VTKccNLEmRa7V22L37pVyY9qJCMb0YsCdkWtTBMTdXZqMIBj69omXM9/Jw
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+                type : 2
+             -
+               name : COL_Article
+               identifier : 0x2ed53587368d3e5d
+               internal_properties : BQAAAAUAAACTGXBJT/JBDUdfL38p5DRHjvguzirR5Nd6G4qfQMNQ9uYFCPYEcRCGIYEINbXHKBxCSNVFniREghzBWGf52Yt/MvxgdIlvDlW/yHCB72yrFZ2LCxzvnnXnjWJcobfYlF2VQrUopZEEl1dLqYXqGwvgQ3KgBc5Z+r9YC7a8+AHErxHlNJpcZw==
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAADc6+UpLdOPe1pQ+MoxaWsyDSJZD5HHtEjHensamwpHMVofUxhjI17gOoQHdipHzqNRFIgg0LVFyRbZymClXAjiTwngXye8r9dsP1I0Ja77hFcswI9jTmhBnSApkWsHRXHo7HuJGuk+QknDhD3ddbuAMRKHnYtbRQvoamBxQ7kYGhzezg/NtSpm+HH6vDWJe7fjyVsyGPGIVSLiJCV2B3vXDcZldRuqafh2jtfd7g/Cuo4bAAljKUzBNEk69L+s6P5my1f0+M+HY5G58ETqUrENFcLSL9dFoZLThH9kYIAlt54VpQZNA9ilYULHgET3RGxxhj/i3V3Z/dzEMrvUw3D3ReXewSENsfqWt4xac7AuJU7+zS4MWLk9sKiorOyfS757shuTaBsgp8KtqctB0mKOJwvBOJEaQbVG2mcZulfXkU4XVMx4vlIpciUl9Oe07sJjqx/m0XNMnD3CRcIl0k23/yDPpA==
+                type : 2
+             -
+               name : col_Type
+               identifier : 0x2ed53587368e3e5d
+               internal_properties : BQAAAAUAAABAXNOw7No+Ej7OUTHdMpV3KA9s2eP9hhyiZAONH2jODWAMSkcEzFDeycgQeWfOogB7EzBIDqioRdtcgBMupn4Hu01pJZcW+iFd7bSmSPzFrsj/l9w4Sk498IHnMGcAJX8iwCi5YTZUURpZYhFxkkJADvAdklmfVu1/wIGuyufLt1J6GNtf
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAAAyyKRhNl174VnJau2Sriw1Fa/Z8X0AAV9ZwggpNgnqcTxyyUUUDQl+v7r+L/nsgdobdwVxoN0O+bNzrI5raX1g1yBmAocjyfV9rChR1JnS0jbwU6SdN0csXeeFWPypwudZ6gXts5vzCCdYuDT1Nz+nzv/V/YFzx8q5lapcjbbkraAqTBkpaM2PybJn7GCPGC9Jx3yDLMg9N1gAbw8KqkFvC8o6kAR75BdeK/4BgG6jsK7Wt+yxVhTd2oob63vlBsOcUziJuFivF49u4bOgTVPmR4514h9+SX7xNYRzxB3BrvzN4BNf4BgJMw3UeejqRCnv5qjPa7iXF7RBc0aK0NIq9wX/aKVycfa0kHf/T9nECtow4L965Zk5utMfaZSeFVnXBDzepifdPrrEGKYqgXclz1tKT3EC1oyGsdlqGLeiWtrffy5rsc6qJbEJvRErS1b3F7CVRPl/XXu5smemMBElkD0x
+                type : 2
+             -
+               name : col_UOM_p
+               identifier : 0x2ed53587368f3e5d
+               internal_properties : BQAAAAUAAADD441MKhbJt+4mIBUQmEWIEUrA96qdxHY3iOrZNXSV9w77U07MNJSxxaLlvbs1Ctcap6kgsqILn1tNHQX458TznkwQhe5TTZWToFUSe9Pkn3nT5y5uaHXo7RoFNRg80urFX+LWroPZiaRfge8yyLdyH8n6qPQkDiIlsoTFnQDYm9CeKtI9lYqL
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+                type : 2
+             -
+               name : COL_ratio_p
+               identifier : 0x2ed5358736903e5d
+               internal_properties : BQAAAAUAAAArQahx5wqJRY8XtzeBbMEnOi97ApBNjkri45Iq+3AqPv8+AWkSvUJs+dX8K5/UaK1C+hd5rOD+aDyxHrWLtWlNxrAItT60dyxwIcnQ1JGOepb8+q90V5vvYOnnNLi9n0K20w3/Wd5f3OeAv/O4eUpBKCeL2zEW80fQs+5EQMn8Z6l9XOIEvw==
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+                type : 2
+             -
+               name : COL_Purchase_price
+               identifier : 0x2ed5358736913e5d
+               internal_properties : BQAAAAUAAADo9Uisgtonb0KqCz0mNsavToQO9JKcjWWNOFAWw7UvClx6boHaO+h8DlJsu5YomzmazdcMXUrLiseX5xww7Vm1tm2xmQhGtjyZrZwwNqsn4e2NliqszWwavTontNMh/6r/NlB1pID5rV2hRC4gLosBOyiwtI4y2d/S03MIBi/tx4JMzpsdmYslISQyrQ==
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAABjgdNtRidz735U/hrphux6RlV3ZVJNpr5PoZWY0XM8dY+PXlBn2Xkh522yVVwrcG50f5ZmaT3zffSv4NAqjSCB4jBKDf/73whypE2NYpHetdXhTH1ALaXXjTgo3qYLvF27hgG0WFhgVPh3pX80CcAXRGekkrm/WPEda2jg49k/CoHKGhvmPuVA80usHrwHLUouePWg2Le0ngZs8+tYkTB8xSHhu8MAhqVgI09qMzUwE6iSq3gVe5vhRagShC920moGi7Ez5RffOxqkfYAjgDvbl9QyUipn5xhaaebEm+Z1Z2gnxVlwlazxsklkCgen/toRfiFVtmfxlRcpuW99n3rdYWm4CCDRRU6pWB/e6MwQS6aGk+U9MmNniQeH8uf5yw5tDKdUqc7fbL0qLBHn3gUklzVNhVpjxuhXJ/XdZW7iJXQjBkiw133dAYlxAo3PeS4Gj1vnTQNFbBQDs9TLgKZpgzsimJNDoJ6M7rb5Uk4VWhn2v0+GxM2FhrOhntjP
+                type : 2
+             -
+               name : COL_taxe_p
+               identifier : 0x2ed5358736923e5d
+               internal_properties : BQAAAAUAAABrDu0SLKeYxj3M9Txmho+liOuxyqr7JMAMhjj51ZOapGyvR60mwgkdRfQnd8u/TnOjafB9E8RT+0gUanBJnDqoc94T2GNUiJ5cd4UzhGpz1HISY/s6uqIQhIqwPJvm8/zJAPsEaSmnAdjCazRr/oljDUEjSP53wSwoVJh/gAaFKnxm5g==
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+                type : 2
+             -
+               name : COL_SansNom1
+               identifier : 0x2ed5358736933e5d
+               internal_properties : BQAAAAUAAABXePIeEY/eJq/IJi/f1fCprEjAowJ2CWGp//9XX8bXVS+l0jIYHlVWUAf7JuflZOitJgWLP8gnT72WdX7nYFLxqoPr4zfi8DlvtUgvTX/AQLGiKkZrshDf+sqxTwDMvlJJ0YC4zFXaImAQoXt35zDbE2ZRIUFPQJEgcJ5dFRKZwj/F
+               type : 2
+               content :
+                internal_properties : BQAAAAUAAADc6+UpLdOPe1pQ+MoxaWsyDSJZD5HHtEjHensamwpHMVofUxhjI17gOoQHdipHzqNRFIgg0LVFyRbZymClXAjiTwngXye8r9dsP1I0Ja77hFcswI9jTmhBnSApkWsHRXHo7HuJGuk+QknDhD3ddbuAMRKHnYtbRQvoamBxQ7kYGhzezg/NtSpm+HH6vDWJe7fjyVsyGPGIVSLiJCV2B3vXDcZldRuqafh2jtfd7g/Cuo4bAAljKUzBNEk69L+s6P5my1f0+M+HY5G58ETqUrENFcLSL9dFoZLThH9kYIAlt54VpQZNA9ilYULHgET3RGxxhj/i3V3Z/dzEMrvUw3D3ReXewSENsfqWt4xac7AuJU7+zS4MWLk9sKiorOyfS757shuTaBsgp8KtqctB0mKOJwvBOJEaQbVG2mcZulfXkU4XVMx4vlIpciUl9Oe07sJjqx/m0XNMnD3CRcIl0k23/yDPpA==
+                type : 2
+            breaks : []
+            type : 9
+           type : 70
+           controls : []
+           code_elements :
+            type_code : 23
+            p_codes :
+             -
+               type : 35
+               enabled : false
+             -
+               code : |1+
+                selected_product(TABLE_purchase_order_line.Select(),COMBO_supplier.COL_IDPartners)
+                
+               type : 33
+             -
+               type : 17
+               enabled : false
+         -
+           name : SAI_SansNom1
+           identifier : 0x2ed520c30943ef6c
+           internal_properties : BQAAAAUAAAAJDi83CV5Fy6Eu+hmdn2JUfHJR3hganAEjuCKUqNv16NFZmcwrNaIZuPBA9+zx1eIEjk+EhezQfOSHn2kqIh41+cWL/8ANfBUYXNv3PobjSN/OxS/iThE4g2s/31xvsEtuymTP0xVqRazR2qJpkGm5oFMibvtL1sg2wooY4uKHpVUVmg12VulYmqx7TrIZpLN2guPDaNBYUhuKUlOsm7GvPYs6mH5/ogE5+xoShrFbDFnC5THtGcuG60HRqXo2svMc5xg0dEvZEmFfd3vSBCMRmwhTiYx9SrUeptZgJaHHbjtZINjDNeneb+hCq5ET/S7CFmfDS9Dc/3zfxZP4DF5Mz9cL8JXVWjdenK/Kd5wTAk8h4Yhh50zq/DHJpaHmbM+Tp4/4l45jesvoEV7PkVpVA5YNPd28bS+GTeXKlku94ZbAjO8dgTm8p8M4AuBGZjn7msJHLRAvMgvqqrzv3BwBm2mvab0iWqP8FKnfVUMgwNi6+1Riq0+FmK5oPShiXmgP0pdp7s2vOcven2/FqSdsn3UTYoE6X9HUvI9ZeQu3dN0tsjYGWR2Ff3EGj8ELpf2gbLXF0BHV6BYRSzU2zLZK8u8eK254piiQ033yOJBBkronJ9hqg8Xyz+8mviRd3/1LH2V608k8Vk6RtiaQe1dxSfAv1+38S63Md8/0GMW1s0lXBXXXkEup5Oq5/oR5na/eqePQg7JbBym9bkWX8WO/izSfXAXGTRFW8Hx60KIRTS7RSSfS+6oPKAoaoh5p115qrZWmnMykAdIT5foGApBVUBUR68VRPhcn0pMe4SQPV4he6TL7L7d4uW/Cp111FLiy7zSunC777tKQImAKh5IRQ/AKvGmk+DzSbfJaVX8XAhAfuK60GydSxn+zwBskYj49IgeUkXdJnkgqOmcKUGniNmEP8VM8eO/6hTBawLka20JUYV+HBX8ZqsaShD9pAh9Bv4Eu1qI1C+09PljaQYLeXXpfm+tXnE5UMqIXVxgBQTprselXkyLXqYxT0UQs57V6/K6WwOdhEhWQzNdbZ8Fi16KSnmilEyewGxOPCLrngCz0eNcX6nkK4huaDSSOeKjkMNGEwFm+VdWQrHDQjxL926gYx4AIraGp0aLxCfx5E0RBUWGoHFYBkQNOkrupPNPZMoT5HHFx+2c7E2JUdW06YYA+ZorTWE+Vu+UYn/rbzK8OuqwS1CFooZ31rg==
+           type : 2
+           code_elements :
+            type_code : 3
+            p_codes :
+             -
+               code : |1-
+                Echo_article()
+                TableDésactiveFiltre(COMBO_Articles.COL_Article)
+                //ComboOuvre(COMBO_Articles)
+               type : 15
+             -
+               code : |1-
+                
+               type : 16
+             -
+               type : 276
+               enabled : false
+             -
+               type : 277
+               enabled : false
+             -
+               type : 278
+               enabled : false
+             -
+               code : |1+
+                si SAI_SansNom1 <> "" ALORS
+                	 TableActiveFiltre(COMBO_Articles.COL_Article,filtreContient,SAI_SansNom1)
+                	 si COMBO_Articles..Occurrence <= 0 ALORS
+                	 	SAI_SansNom1 = ""
+                //	 	TableDésactiveFiltre(COMBO_Articles.COL_Article)
+                	 FIN
+                sinon
+                	TableDésactiveFiltre(COMBO_Articles.COL_Article)	
+                FIN
+                ComboOuvre(COMBO_Articles)
+               type : 17
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           code : |1-
+            
+           type : 15
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : COL_art
+       identifier : 0x2ed13b6220d9ee31
+       internal_properties : BQAAAAUAAADmF2r1zTpyQClrISn6Pe/VsVT0Y+ozTjh3VsocFX7b0Z8hh30d4qLlM/Uumsu90NYVKDg1xWkF8jqG2olsELLNyTliluOfmFiLSTyuFMyYEdQ4L9pId5ZFR+ImhufZvX+hw7NBjh+3r7obNpn9GxQ1aLeO22rKyifmH+FK1TUK62gD0ahJcg==
+       type : 40
+       content :
+        internal_properties : BQAAAAUAAADMx+fio45LaxvumtyAasBKWngeQ7MfyQyZBXg+UIZSFiCFw5nzaZl/fOQn1SaKPG+nO20BwlcGJBdplEgcZmETKL4JvKI66SIZJoDZfx1T4qJj7WO3uXuPcFGf5iRb5VlYxQg1985rUbt0sa4l69Hr6MloVQyNVS2a5/vWkFavFTfhqU0xDTVPbr7P5MbCHbFOC+U/vnfp8a6SEskwa55k9ZcyeeFqqUPK8K8hixl2ZArhaakJDG9yte3BYfRHPUNnhM6qg8mexuWqvlhFwCJXaID7tdDlvqIVwEdCCEc55ZmiqI/ABE/HmwKMZhOm8A9fKo7m4CpSk9YDtgdZ4dSfwajoFJoLyep/DHRN77xaRy3o3WGC8Qx+dt0SudJxOCOltQPc95w=
+        controls :
+         -
+           name : BTN_Article
+           identifier : 0x2ed13c3921be68b2
+           internal_properties : BQAAAAUAAACGIQKzxF1Un2D0Q+vTakixuZSjpLuGr78Rm9O+M+AhTBbbyr1LWV7nktbhp6HAZGZRScgp8mO9rfl18il3eOka2adenMnlJSoZh5Kn0LEzbP5gcBE9m2aL3kQXTL6lGmRcC0Hgg2rdKX1FLQPQDg7+QNW7QaJZ+tTrgjxZj4LeF65iSUA9HpH4ZQstTl22IY2O3wlS8my5hVIjeUEg0GEbdfUJo6TpUovjLYElgY+682kzyhVK7DJ4kfx14Ql43CqjHBgVElfXAECH1rjvYcIAdaPaCKvOW34qbMV289cPQ6Owyh5xPmrQFGFuQ7ER9eNkG3opFSkppJGZlPOcp8skglBNf8qvmJNbaKZ5C49rdHO4nS2Odca5tcKBVqLB/qGdEjoho1qAbeTtPTzUTUXTMCCzkMb400Pa/GzERQWw5SYeMXq2izMuxwsu7s9AjkUsZPrWKg/HX5nSCXiAyQbsMZkVWcxEfgsjelCwr2TkClNOAdwF35vz+sMAFpSCNBesITEj7WDax5RhOUqost9k2SQ1OLRzHwOhJuWG08Kg0uDshRhH/1zt/C78ly0wS4P54VmXgkbtoej9pJPH1KLw5ETTu2rVjtjWLxPp55yqSNERlbi+ws5zXvkEPHdp1eB0jhI+50aeADTxtuZtHngFzuFkI7ou5G0JN7CgJu+0BNp19H60m7qjoAp8CrbXD8U3k707z7E98Kr2P2l7aKXz0cUebL8DFbbpR4VshdKQANfvIT8CwzVAoyhUJ5zLoNPGuEJ1OZxb7hH1PhGvUjimsvP+R08C5Sz7EaHIl/aQ+7UwUciBnzRZpSsVGpFkwuDvcqWzqNvCbM26/UAAXR/YzCqk2I9mUU+Paqc5Ekpri/FfIpdAvcrZhPe74oBhEsaUgNHUVoyB/o/JuzmrC+xufCPypqM3XrNWQ9BQVN2vo0OJdBof1XtAdaTmugbzv9FzfDeBX5HJ/HW7RYPk22+uHi2nplq9tvDZ04FfCclvpee4jC60Fm74XjAx07fPgYM3W6Q3I0GOyCa5HipkHuxcOFJxHBD+wukFC7lP2hEiHzveKZB1fd/xUqVpK+pW3iGxPhVcxeO/pXYZ9G25MatbH30CVK4rXG7I8Cc7NUu2CGzkkJHzDJwnswNDA4Xfk3qNlQ==
+           type : 4
+           code_elements :
+            type_code : 4
+            p_codes :
+             -
+               code : |1+
+                soit indcs = TABLE_purchase_order_line.Select()
+                si TABLE_purchase_order_line.COL_Id_product > 0 ALORS
+                	 Ouvre(FEN_Product,Faux,TABLE_purchase_order_line.COL_Id_product)
+                	 Echo_article() 
+                FIN
+                
+                
+               type : 18
+             -
+               type : 161
+               enabled : false
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : BQAAAAUAAAAEfXdxvzQadzvB+1nfBxi2rny4i5dUOZAFKqpUBLh916+QYdsw8WEikK8mrQSyyKW/KLpym8A=
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : COL_ID_uom
+       identifier : 0x2ed0ef780a8c0ab8
+       internal_properties : BQAAAAUAAACghovvh3O6raQX+RwxYB2mEZ4bBPbtNqn0rvRVNOFhRmAFMd2z8ay0aMUIfEyLY9U5kYXK3492suU+R7+IfEmtcABTKVeLx1wsU76NiDGmPgmu1OlB9NgoC3tbqeipWDX1v2221sK8/AbrDSLNQG4mTJ/bRQ0nhCC4t3WzLAZmHWdUeHxYwab8cqag
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAADia/qgXUxn870ieoEuGjReMda2ECp3GUpEKSkteHCHRuXPBk05zNYglbOCafWdsNiWdqZ4zm8GIX9FioJXc0ChXyXccL3Tdd4SzjhLDUUVE5g2wFmoaYy5qYqaVur0X01gc2n2o3+AzxgEcumxnV5hpdlC0BOZG9GDN88qUJw9N+++JjKldvZ/7qgjb1q6E/xnErP4wpw7KviFuE6IOj3jqCoSSYOCAomcspYLyW/VNX8esYZRijpSxsLzGMbK6ta6h8pI2NpHIQI2SCeI2xUZgkjbRT27xezdgolZqdmxTwjnXLhV2lUzQOcs70alXDimUTOkNAxx4gsPuHiwYl1m0G1hbv6He7KJojEEuJHHQcc/xqI07SAMdT20MW71L6YnYbXhioVbeHgV8ihnrrCs2CM0oHDBUtpfD/r4aDhDptNjWgW61zi9Cip/f3W6yTkKYBQujwYsxdjvjuITWAmDQQaVLbajN4QdGlQPl46cpc3xYPUblIhV3GKOqaMFYUDdJaow6OmHoVx9qJlON9+IXvOFR3NoGgerW5gcpAP+/60n46ELATyjNNH2p5Z7IIaZhNh+F8Z00EXTAdbHyKtkc+FMB43CddAT2RpmALnwFRYyn9pYnwkKMwAua7MC8r0jtSJEELbXnBIn4BnRECN8CgbzgSUXPiYmkqR44Pt7ZPR0y65BJHfMKH2BR51i6mGsR2GeGSEL0oMbgMXeQsknbVMEtrdxWY/Wl0r1WtFPlJoVOukPzFeCzN8YMr4xyoazAGASWItxernO8bmlypoaaARDeb0=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Udm
+       identifier : 0x2ed0ef780a8e0af7
+       internal_properties : BQAAAAUAAAA0DrAvKgewCp92N7l0sXNMmg/6TdXlHodgDR7wbBjcFg0cIesVcyEGxRt3RKUngem01M7SHkuwk3O+AOhca6uNlxk7lokd/Lur+0/UA83C0F2/hhLjF2kjqqCCcVLioUWnUfehnPf7jxONoaDEiHk9FyC2cTvrjNTXO8mmcekpqMrNqxnY9kgf+wDc9wYQ40/rso0JIJbQEm4ctP9P9LWLLzPrD4vJiy2aCa4Iisvlmr4LJw==
+       type : 40
+       content :
+        internal_properties : BQAAAAUAAADMx+fio45LaxvumtyAasBKWngeQ7MfyQyZBXg+UIZSFiCFw5nzaZl/fOQn1SaKPG+nO20BwlcGJBdplEgcZmETKL4JvKI66SIZJoDZfx1T4qJj7WO3uXuPcFGf5iRb5VlYxQg1985rUbt0sa4l69Hr6MloVQyNVS2a5/vWkFavFTfhqU0xDTVPbr7P5MbCHbFOC+U/vnfp8a6SEskwa55k9ZcyeeFqqUPK8K8hixl2ZArhaakJDG9yte3BYfRHPUNnhM6qg8mexuWqvlhFwCJXaID7tdDlvqIVwEdCCEc55ZmiqI/ABE/HmwKMZhOm8A9fKo7m4CpSk9YDtgdZ4dSfwajoFJoLyep/DHRN77xaRy3o3WGC8Qx+dt0SudJxOCOltQPc95w=
+        controls :
+         -
+           name : CFI_Uom_P
+           identifier : 0x2ed0f71a0cb2e329
+           internal_properties : BQAAAAUAAADliTfLVe5mvYI401PmRu4r2d2AKdPy5r58SxmSY6aLMdZRcJZZA0H9xoV3fuVfyY0UeM1FozJJrZnseCqDsj0euwkfyuVVUaCdmMreYg3MjqxCbRQ3A6NWj94zfTTVEv7kYENGVn7ge93wV/f+cV+Cp/BpyC0BqRBrAsxtHRCGJWQLEIA813OrZFiDeDgseRMdFjIEZQUUS5a+Ec2vpTwaiXU6UlXIrTv60Rd7+tShVGz66NUZySEgbXg8UVGYfZLXfiww61debz/NU3nVF7ktppKFpsXlI87tLRJDNwKhkVsJnaGHwtudXSNaUYfaj13l3a6eAT4AXGY9EpIrmQvR7DNz5t9Le4I1tg/B9BPODi05arGvwaw4E2WkNifSJ3bS0yCZOQitaUqPB+982P5Qf5DA2TTWMWGkmMBFXfw/OvkoplWskbfO3QEhKw9Xn952Qfa/KG8+2hdv1GPDHdyHKNOX17ELxWkTTQTwum6KSQ==
+           controls : []
+           type : 31
+           code_elements :
+            type_code : 73
+            p_codes :
+             -
+               type : 33
+               enabled : false
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : COL_RatioUomPuchase
+       identifier : 0x2ed0ef780a980bc2
+       internal_properties : BQAAAAUAAAAL5zOSmQdPmnfDqe/3d6egqtLsGh/G461ERfehSEmDz/WcAWkt95SPCS2YwqPt0BriDwWl2lPxDKe/O8yrQbfweXnzsRFc/OMHWv+4RrRZbGq8gnRslkbzD+0D9DqnpPhR1wr0WKWf8FRIhAsPy/812dDp2q0ofJ2183ozZjdObSYyzfolFkvvI9s0UIQ=
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAAA8lEJIzSiqq31Y47onyLKI2bp29gHwgJgzebuhaB4p3NBsXww+1sxuuDxFW+q6aY9W0wsJnmgGFtYFNEHZEMO1qBdP7wdSmW2bTIKCnV1RC0SwSKTSYYbqENi6DBMjQObmjcqz7a/dHfnhiDGxNeQWrRuX+4XFuwZ2+txVXVMwsq6l1pcILw1B/YbAjhB/k9JOMU+Lj09mrFrH2fhCsL1k3AkQThN29kf87EoNIrqh9HnY6wo5QL9ocZQqaTlkXaFNoyyHdQLBvAJQYHmNsW/W8bAUGtbss0JVOxS9G8L2xIeGPhdrMFPWDwIL+PvGxYM4KoYQqxO7KkH+Q55LrWbnHv4pKvu7RwxunLBLKrBJHft3yt3XaEu1GwlFXgKpOKIYUwzb+YBkmWiw/g6bUvloxXXnC9CNn3ZCRrfqUH5yhqRpwbTwkYnBkVWICbckkk91LoOVSUC3jSVwPXLPsgL/bmiIZIpvhpSa24t7JeTtxy4HB0i/4GcH1Y8tN3dbYCjCvZkDNp+2HbVa93um4Tpy6bk8DnOW8Z+qhoVIzusHVd4d+IIvbbVbRyh79wy314IyYI3jp8hddow+Zh5vMK5CDM87Itv0ytT2IDfS1os1WzEgRHPmGyJWOkMLuYUOmb+CufchOmCkmuPcX0urXspYeSAU4rNf6yCLyx9qUotgLgFO5okrYOB2PYaofwsaN/kH1SixQQf8gC4aYXuqyDLHAkXlJ2fiDJgRNEsWpvZWGPPjWlSJumBIJ07ti3dA7NQ3ZE5aW/drAGFy6CfnI4k28s2wH+O4
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_RatioUoM
+       identifier : 0x2ed0ef780a960ba2
+       internal_properties : BQAAAAUAAAD2wr0GWmAUIMy0n3PLJJt8XHEel7nhK7bbGtQCNezCKVrEWLvt6vqMHJe4uRSgnPoL9eRyUsuPAm/66tfaIPCJP7N8Kg6Zd57GtpkfI/GOdQE+JkXDwVfmFvlVKQlWS2EHJ6f2hClhnoNpXvyfXCWX5bHom7ydSN9t/k+Y/NXlTcjwhm3J
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAAA8lEJIzSiqq31Y47onyLKI2bp29gHwgJgzebuhaB4p3NBsXww+1sxuuDxFW+q6aY9W0wsJnmgGFtYFNEHZEMO1qBdP7wdSmW2bTIKCnV1RC0SwSKTSYYbqENi6DBMjQObmjcqz7a/dHfnhiDGxNeQWrRuX+4XFuwZ2+txVXVMwsq6l1pcILw1B/YbAjhB/k9JOMU+Lj09mrFrH2fhCsL1k3AkQThN29kf87EoNIrqh9HnY6wo5QL9ocZQqaTlkXaFNoyyHdQLBvAJQYHmNsW/W8bAUGtbss0JVOxS9G8L2xIeGPhdrMFPWDwIL+PvGxYM4KoYQqxO7KkH+Q55LrWbnHv4pKvu7RwxunLBLKrBJHft3yt3XaEu1GwlFXgKpOKIYUwzb+YBkmWiw/g6bUvloxXXnC9CNn3ZCRrfqUH5yhqRpwbTwkYnBkVWICbckkk91LoOVSUC3jSVwPXLPsgL/bmiIZIpvhpSa24t7JeTtxy4HB0i/4GcH1Y8tN3dbYCjCvZkDNp+2HbVa93um4Tpy6bk8DnOW8Z+qhoVIzusHVd4d+IIvbbVbRyh79wy314IyYI3jp8hddow+Zh5vMK5CDM87Itv0ytT2IDfS1os1WzEgRHPmGyJWOkMLuYUOmb+CufchOmCkmuPcX0urXspYeSAU4rNf6yCLyx9qUotgLgFO5okrYOB2PYaofwsaN/kH1SixQQf8gC4aYXuqyDLHAkXlJ2fiDJgRNEsWpvZWGPPjWlSJumBIJ07ti3dA7NQ3ZE5aW/drAGFy6CfnI4k28s2wH+O4
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Quantité
+       identifier : 0x2ed0ef780a920b16
+       internal_properties : BQAAAAUAAABGdyOVwnJfwapTcOiFKIZ2izlOWcprue6ha3pcph50aSQC0LwKE/F/DlRAorHIwCTTknL6X15utvN0v486ZlA5AQtgCw/0yTTpiF/zbde4QgqPAIeGfCnAdCI+DHWFRT+r/eMScdmTOb6zUjtgEpZE5JMip6crFT3i6KY6T6UzT/H61oY/32cKnpXw0uveL7bTVw==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAAA8lEJIzSiqq31Y47onyLKI2bp29gHwgJgzebuhaB4p3NBsXww+1sxuuDxFW+q6aY9W0wsJnmgGFtYFNEHZEMO1qBdP7wdSmW2bTIKCnV1RC0SwSKTSYYbqENi6DBMjQObmjcqz7a/dHfnhiDGxNeQWrRuX+4XFuwZ2+txVXVMwsq6l1pcILw1B/YbAjhB/k9JOMU+Lj09mrFrH2fhCsL1k3AkQThN29kf87EoNIrqh9HnY6wo5QL9ocZQqaTlkXaFNoyyHdQLBvAJQYHmNsW/W8bAUGtbss0JVOxS9G8L2xIeGPhdrMFPWDwIL+PvGxYM4KoYQqxO7KkH+Q55LrWbnHv4pKvu7RwxunLBLKrBJHft3yt3XaEu1GwlFXgKpOKIYUwzb+YBkmWiw/g6bUvloxXXnC9CNn3ZCRrfqUH5yhqRpwbTwkYnBkVWICbckkk91LoOVSUC3jSVwPXLPsgL/bmiIZIpvhpSa24t7JeTtxy4HB0i/4GcH1Y8tN3dbYCjCvZkDNp+2HbVa93um4Tpy6bk8DnOW8Z+qhoVIzusHVd4d+IIvbbVbRyh79wy314IyYI3jp8hddow+Zh5vMK5CDM87Itv0ytT2IDfS1os1WzEgRHPmGyJWOkMLuYUOmb+CufchOmCkmuPcX0urXspYeSAU4rNf6yCLyx9qUotgLgFO5okrYOB2PYaofwsaN/kH1SixQQf8gC4aYXuqyDLHAkXlJ2fiDJgRNEsWpvZWGPPjWlSJumBIJ07ti3dA7NQ3ZE5aW/drAGFy6CfnI4k28s2wH+O4
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1+
+            Compute_subtotal_line()
+            Compute_taxe()
+            Compute_total()
+           type : 17
+     -
+       name : COL_Prix_HT
+       identifier : 0x2ed0ef780a940b35
+       internal_properties : BQAAAAUAAADjKrvrQjpsPSvTU5zRIbP+mTXa4vWnaaqWyBl71hDguLrxgl5fUIoHO8L9MpE5fxZxbYjD/eqn/qW6xEQmdJhledmFCX72YZay26VmNJlZLKp05+USCBaD9XYAnR3WYbke3Qfc8k+hTO+UwXfCPb9uOkWUG7mbV1vHb8Z5qiRUPsJRpnlFEkHxRtlVPl0z9ran
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAAAVawdwNkb3MQmeBobuJtd7uo/wR/uGl2jrAQdx61IJRlKlaG0j8DTU+FZ+ZoXvJ3tG6zzvXR5CCxY7MtJ0NQPXviMel3Ec6a6Jej6HSpiS1yq2IP7v/k1WR8ISq3VCoP3HmVv6J3dwFrKZjpHWt0ayxP4e5DdB2L6vYo+QXGDRPa+Mlx8uM0DI+fgh9KpnO7E5JHG9WZeDb0Ti1f3XRWXS2XR40WHd40fi6DzX9oVX6J1tCCKlgs8tuvId9xM9iQFvTnaiDJJp07GFQ/H95LqJgjY08NgTkO6M6Vl55dmLFBgXX3d5ncSc4G6Yt3KhZHgLtnKgkRdfZkB4RAoLRZDk0cijp+q6FPluCXst3BZZXq7LkGN4/tquSFd8tTgtwT1NVbtJCMjqEAV6GnnqhJwcK0wVTBesm/zgy9yMo2zp1kBgl9Vv4gGTp44Rs/JGyw3Fab0GQIMbD4dlElgs/GezxH00EyMCRIiwdmZ3qs5uTfT02wl2LevhM/TCrTzFsySCFBng7RryK/WvzJv3J0nKn1bgu465TTHa4WCIRY1CoVoemlWQKrd3uQGUjQOn9jKuoWUULnuz4iIV3ZgaGjNW4qZhEUS5yoqY6bBIU0/EcxnhvgC16gIUiKy0PfLSXDPGtJGwW3n4nLOTdk+G0mNmoW3y04ZY6UT/BNj+/SMFgm2nbuZaEb6uJyUHB8xkcl3J6FKgxujYaiSzWh2bvu9xtlJBhpiH0lD5xQxIzyhveOMUrP9m07QOxR++29YURxCy07BlLr5UEgfmu/qdnF+cmZ6mUFWCrU07
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAABpKP5+SZ7RfgZF+LBJtn3+CkWwP18PrZcdyOQuNZQr3gTpJ/kQrA1IuN4AKbGHxFjWv4F9qZ8JGPMphNkMQe4J4SwlcKaTHaLQ7J9DcgsnMcLL3ubLbehV9iE8TSeMg6fGqmrp8E6aSgQ8D+NfEqZ26w==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1+
+            Compute_subtotal_line()
+            Compute_taxe()
+            Compute_total()
+           type : 17
+     -
+       name : COL_Remise
+       identifier : 0x2ed0ef780aa00c5e
+       internal_properties : BQAAAAUAAADSPWVU0rb4rTXZu0D/wuA+9ZDyJwHyqjuAYLgaTOQYfZ8WP/2IpxnC6X7Q1ANYpbryapaOQJADVP7+bKz3Xka1QNr7Jc4xSfvc23N/zOYTiFu69LSo0RgCbBgIxw5rqtxHXosMbPoQFziMr3Xn4/7bX8GXdCg6GX+A0BMSuJIbtJ8udSg0cGwax/t979hqpajs+NCYIiXK3HblIarI
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAABjrVeWp6w29A/qf7J4aMM0KnPZbmGT7opL4Xd6JcQzRSslvgOqxx8qLnHrzqrUEstkw9sM4ZS13IuMuBl36IkJuCB56kFCclSfL1z8JKAPANd1TfJwvn6IH9lgllW1qzM/XhdlDKyxqsxc3UwczDqfWkEEHCrtSpJm62WMwo4kfHGYQQorN3JwYZf+Qv5+M15Egz4EOWj/lBk+CyN5rcyHsjlTltGaIfBVVfU2+zG1728VJYl4Hl5BVI6RQJezD1qBeJsPmBRqyGfaBVXYQRP4a2KMMzG/AgAaPKmHb4hiIt34StT+ZGwr6tMNMLOzNbJnygeLT1vFBCwz89AterT7EWL16AgJJ6aiu4xPFpn8cIbTo35tPr6iTXoGYRdHvUpbXKILnlnhIgO7VMDXR7jppykBDszQchvlGYwCcB+NayYZAdveZLyyRgq3O8lvw76BpBcIyRnI3Ih7bmC/6VFIJDBW3/qSJwfxCqw12e+KotjfZblj3zAOYoT8OzPOjxGMfWn8TBrV+prnFhvgfuthObMU76WDrCgRvSrWOKri8i5XzGnh+iYaxudE0yRGqBlK2ocqf8kO6UMNewj91zPNasdLU4eduQV9Z+hcOmguUkVadorq3uft92BqV5vZfup+16PElmV1nbpzTIWHUZdra/RwLaUaTqVG5iBEtnptwZNimFZNj9nRmptbK1ONml4Lb7ggrRhnHf+LUD2qn9dqROnZlu9PmXd2SeZCqtgG9tzEJZG8KWF+U+aRaplFVRXXohtOfhgW/NemXwQ=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            Compute_subtotal_line()
+            Compute_total()
+           type : 17
+     -
+       name : COL_Id_taxe
+       identifier : 0x2ed0ef780a9a0c00
+       internal_properties : BQAAAAUAAACl9ngUH4Oh075T+WAErPnqaX8FTBNYT39rbLKB/ulsAeOOcT4SHay8N6vuvcqJBcAHpWAFwYvRvAcfC+km324IrEUOcLy07NGE+3DwGg43q+IQBZB+LA0ebiK8eM40RmU6zQ/PIdGOtnaGV81lBAmazEOaaAyyO+bNWYd0HxiTOLWz
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAADia/qgXUxn870ieoEuGjReMda2ECp3GUpEKSkteHCHRuXPBk05zNYglbOCafWdsNiWdqZ4zm8GIX9FioJXc0ChXyXccL3Tdd4SzjhLDUUVE5g2wFmoaYy5qYqaVur0X01gc2n2o3+AzxgEcumxnV5hpdlC0BOZG9GDN88qUJw9N+++JjKldvZ/7qgjb1q6E/xnErP4wpw7KviFuE6IOj3jqCoSSYOCAomcspYLyW/VNX8esYZRijpSxsLzGMbK6ta6h8pI2NpHIQI2SCeI2xUZgkjbRT27xezdgolZqdmxTwjnXLhV2lUzQOcs70alXDimUTOkNAxx4gsPuHiwYl1m0G1hbv6He7KJojEEuJHHQcc/xqI07SAMdT20MW71L6YnYbXhioVbeHgV8ihnrrCs2CM0oHDBUtpfD/r4aDhDptNjWgW61zi9Cip/f3W6yTkKYBQujwYsxdjvjuITWAmDQQaVLbajN4QdGlQPl46cpc3xYPUblIhV3GKOqaMFYUDdJaow6OmHoVx9qJlON9+IXvOFR3NoGgerW5gcpAP+/60n46ELATyjNNH2p5Z7IIaZhNh+F8Z00EXTAdbHyKtkc+FMB43CddAT2RpmALnwFRYyn9pYnwkKMwAua7MC8r0jtSJEELbXnBIn4BnRECN8CgbzgSUXPiYmkqR44Pt7ZPR0y65BJHfMKH2BR51i6mGsR2GeGSEL0oMbgMXeQsknbVMEtrdxWY/Wl0r1WtFPlJoVOukPzFeCzN8YMr4xyoazAGASWItxernO8bmlypoaaARDeb0=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Taxe
+       identifier : 0x2ed0ef780a9c0c1f
+       internal_properties : BQAAAAUAAAB6f8D+bxqX/NvigaPz8tjsAwdZlYCdGuyFfBnGk8mNfat3fBW/1bSYMJRaI/Ly9fVTB7Os8PkjeuAbD1Xw3A5TW/EEIwe0+czJ3FsHmdvErlIjcKdiEMG2myCglY90itlosOfVIOeUwOuWqhY7LG8FQOAfYcRTYzo83D77VI6Ed+VILNCZmdQ6jTnXy+p2uBbvaw==
+       type : 40
+       content :
+        internal_properties : BQAAAAUAAADMx+fio45LaxvumtyAasBKWngeQ7MfyQyZBXg+UIZSFiCFw5nzaZl/fOQn1SaKPG+nO20BwlcGJBdplEgcZmETKL4JvKI66SIZJoDZfx1T4qJj7WO3uXuPcFGf5iRb5VlYxQg1985rUbt0sa4l69Hr6MloVQyNVS2a5/vWkFavFTfhqU0xDTVPbr7P5MbCHbFOC+U/vnfp8a6SEskwa55k9ZcyeeFqqUPK8K8hixl2ZArhaakJDG9yte3BYfRHPUNnhM6qg8mexuWqvlhFwCJXaID7tdDlvqIVwEdCCEc55ZmiqI/ABE/HmwKMZhOm8A9fKo7m4CpSk9YDtgdZ4dSfwajoFJoLyep/DHRN77xaRy3o3WGC8Qx+dt0SudJxOCOltQPc95w=
+        controls :
+         -
+           name : CFI_taxe_p
+           identifier : 0x2ed0f74f0cfbb04d
+           internal_properties : BQAAAAUAAABXMG3LE47UfbhjRe7n0zSX5p5r1GhtgolYNJxdGrp4tmQkcALM4J1ofhBmimkHf9a4F8Vh6QoD7JlHGaslETcj3GbBpg2JlRGPgG3yf5EvsbepOkDeY7RxfzsLcWVkyU3QfcYeGf/ohUuyGjjYVnfpsgfn1KLeNJ5UxZjp1/lEfRQMmrysm6F3svJYExXwCeGx8zZEKWnVT44eMu66SlcBNnqT6y39vWphovA/tYUJuA8HpGXwkbRxfOLpUdg76cYehoXLPDtwxTBFbqmOZI8j5SZEk8TbO8x4L8F/TCeDw4TxaNpGyAuvnqNnNy491c24WUlXYIKS5KkrPcKKwKOlOcEm94rN2bzshM5fY6r6fHJR78ioJ9LWVElJjOSjgfoxYR9GSFa/d/Un/A8VYXYgMvwdqI2WPQNuWww9k5lF0tEfjwq9pq08Hlr3diPeWEZi4Q7iG/5JldzI70CdXp6lm8XujMzqc93ksyK4FlKY
+           controls : []
+           type : 31
+           code_elements :
+            type_code : 73
+            p_codes :
+             -
+               type : 33
+               enabled : false
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : COL_val_taxe
+       identifier : 0x2ed1e35d2f9a4577
+       internal_properties : BQAAAAUAAADxGEnReMkt85nNOSWaFJJJP6At5QsSTqxC1Jh1bHP/LUU9xd4oy7t3a7jrEjjstscY9+obZjlVX83XWRbCE8x3Zf7rM/p/hAwCZy/C/wDYdNngzoojc4TsSLb3/tCnqI7Dbdp4bCcDwIPQJEkGcNhsBsOaV6UnBmJs4lCEXQmHHVqZ1kPRPmAfr/u9CGc56KS1
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAAA8lEJIzSiqq31Y47onyLKI2bp29gHwgJgzebuhaB4p3NBsXww+1sxuuDxFW+q6aY9W0wsJnmgGFtYFNEHZEMO1qBdP7wdSmW2bTIKCnV1RC0SwSKTSYYbqENi6DBMjQObmjcqz7a/dHfnhiDGxNeQWrRuX+4XFuwZ2+txVXVMwsq6l1pcILw1B/YbAjhB/k9JOMU+Lj09mrFrH2fhCsL1k3AkQThN29kf87EoNIrqh9HnY6wo5QL9ocZQqaTlkXaFNoyyHdQLBvAJQYHmNsW/W8bAUGtbss0JVOxS9G8L2xIeGPhdrMFPWDwIL+PvGxYM4KoYQqxO7KkH+Q55LrWbnHv4pKvu7RwxunLBLKrBJHft3yt3XaEu1GwlFXgKpOKIYUwzb+YBkmWiw/g6bUvloxXXnC9CNn3ZCRrfqUH5yhqRpwbTwkYnBkVWICbckkk91LoOVSUC3jSVwPXLPsgL/bmiIZIpvhpSa24t7JeTtxy4HB0i/4GcH1Y8tN3dbYCjCvZkDNp+2HbVa93um4Tpy6bk8DnOW8Z+qhoVIzusHVd4d+IIvbbVbRyh79wy314IyYI3jp8hddow+Zh5vMK5CDM87Itv0ytT2IDfS1os1WzEgRHPmGyJWOkMLuYUOmb+CufchOmCkmuPcX0urXspYeSAU4rNf6yCLyx9qUotgLgFO5okrYOB2PYaofwsaN/kH1SixQQf8gC4aYXuqyDLHAkXlJ2fiDJgRNEsWpvZWGPPjWlSJumBIJ07ti3dA7NQ3ZE5aW/drAGFy6CfnI4k28s2wH+O4
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Total_taxe
+       identifier : 0x2ed0ef780aa20c7d
+       internal_properties : BQAAAAUAAACGLEUWiLKDKtncZfmRc6bBlE/aWfxYN9HtMBP+VOvoxnYQ6/L3ZJhi00KOSvQ0fUhDfFGRWVqH6yeGu/i16PWO0o3qzVKvJnwJ/fZVfZXxN664R55/D2IQJdqcw6ST2Wx+G9lCBGo1xpr96a4cO67L4CZLQkjX8E3L6KtroE8NflSgf88pUg==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAABPVDm9Ac2s8q/tb8Z/pLqcnihiFYmDZxh+PnHoDKxTqsztEMKbFtkzNH8DlnUq0wukyyJBjLn5o9e1z2UCObJ3+z7QLonzJGKufJNs1I7rPerElqqHbgwokbqJEqnkJoKKUJiYHTwvzNrizuLNS2BAzKxXCGsOyxoFWoi5YxlOGCaHAL41IdkPkFHTATxAAovcwv1olpPS1D2x/Skf8CW4l5IrPRzR8oWyPjJzGG2T6UIdu1j34uPN0h8TCKc67srxnVW7iMQiojHjKCMhFqYAWjz9K9ToI4EB2V/33swxhMnCtqyYKfMEvHxllN0c928Y1UOqqn4XByEChsBsknptoPl0l4EadtRmE/F6sMeUgsWLyBHgJB/Jc6jpabooGK8fUFvQZlN+t6C/scO4WFG/Eg50CrqCg59NfVvww/bytYGqqBFgGnMYbu6+acR+BI6uKwi8yTFv9IYNm65W7Iq68ZfD5ahczBspBrm7amxnKJvoDPdXG6MwdNprU35tLj2pQAjQKJ6UnAzdyw3V01Cb6mYzWxvNE25bq1csrQdbmI+ifaEnZMc4FJHT8fOhFQ/Fj6KKb3n/DXG/pLK4phyL787OQ8mDViXVKzN0+3XtWgQHJ/SOugQNudYrZzAm74bPAqJySgl+2Qpf8X8y2EhzpjGDj/UajfW4lKeEfyMKz/xlle4XbSBr3JGwAcJYteasJgHkp/ZEuw0V+xP9lixIly5O6lf35GH2vUWu4bCYa4AkJ0PlU1qnaDsLd0Zi5G1F0z8Zn4zARYCKHgbtlsbLrhAfft5gRsc=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Sous_total_HT
+       identifier : 0x2ed0ef780aa40cbc
+       internal_properties : BQAAAAUAAADFA5eKw582iKBtgrojmHTBI/Jr3dPluTKroDh2eJxLc2pbnxaTvM4fGqAmkC17XaSoa91uWfodXXqtyqNIvqJCgBc7fSmrKHXCrUbb4/fwrH6LqQQYRqCf9/FcLs4c8gPA7IXN+ortfieTzkArYRnckUcQstGt1AHRF3ha9Z12KJBu5Hjzi3i3JyubL15tcl2NsuUyMdkcPQ==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAAA72R1P+UrsHcFdDfV7v/UaaJ5yjsl1bFwxaMShVSAULuziiezs3JtrDyq/aFHc/OUmYcb5Ce6oZR5mPZMmt+BUOWO/wb8huBUSYZzVh7Yd0lNg+fjnoPCNrpCCXkrqkv/KUrq733n3OYBtURnXcjrqYCYsQ/kxo03FNNnxk8P6wjYVnu5dKpolqCdepD8f8jLZxf8bPKBnpFvNWpvnYayqr3Jc1BmKO1KapIZjWpmdBvjCtpcV3ln73ow63cwvdFykHBExFQzrXpS1BXiTxGCljTz2Ac87gd8L1JFjD/AQdE72VGSE3kBvcDZSSCMwT/d6RTNDzV4eTJFHQpTBEAeqaP8qtFqlMl9VIzuFQZLuU7pqHhFYFlab5R7xdkADkKAjg6i7gbjvXEQFHaRGI9HKWwTMRnRc8ne6DePEDFf2/NyyKouKfG5IR+auHfW3vvFplSSsU/OSUtsh5371FxwfuK8zQSJ2/8uScCVjB60rp7AIfCM5LRqUTeYvextCNiwUjH5u7KZNzncV6fvEPlqcp2hpqb2POBD+H8egLvBXm+qondV1QvaW7R0JJxQKr1AOx5CAcfsiaeh1MoBTzTi6+qaEwcVjiSFyZ6NoZKrdFX1lrUqu3t8Z3HZ1MUnv48MKbhCYHMtnO6OH/5Wtr2YOgUFpVcPI4LNB4AnOIEz8rBekriI9NaE8tA34EPIk0cPHmwC5+dM6MjiWjkvgxGEdSIzn/sDmCmTM4lJfbvmLI4JvmP+76ewp9shOCVTvqB629RtVup2/emkZu82xbQi06oxeY6S4m9/RSQ==
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : _
+       identifier : 0x2ed0ef780aa60cdb
+       internal_properties : BQAAAAUAAACm9dFIxJrfNwUficD4xeJ8TNHuqAFomFwGbkfpTjtXUAcVe9O8nvMTawvS1M/oBDQJe8rxFBg77CLGgSBLbnHWpqo3OZxZe1DrGMMgMXL6Sf1ZVgawW1I30bIQSn1Z7hMkhoW1lgvigsVYM4Dry70EhJmIUtdTh4IyRd19vXb2vEmrow==
+       type : 40
+       content :
+        internal_properties : BQAAAAUAAADMx+fio45LaxvumtyAasBKWngeQ7MfyQyZBXg+UIZSFiCFw5nzaZl/fOQn1SaKPG+nO20BwlcGJBdplEgcZmETKL4JvKI66SIZJoDZfx1T4qJj7WO3uXuPcFGf5iRb5VlYxQg1985rUbt0sa4l69Hr6MloVQyNVS2a5/vWkFavFTfhqU0xDTVPbr7P5MbCHbFOC+U/vnfp8a6SEskwa55k9ZcyeeFqqUPK8K8hixl2ZArhaakJDG9yte3BYfRHPUNnhM6qg8mexuWqvlhFwCJXaID7tdDlvqIVwEdCCEc55ZmiqI/ABE/HmwKMZhOm8A9fKo7m4CpSk9YDtgdZ4dSfwajoFJoLyep/DHRN77xaRy3o3WGC8Qx+dt0SudJxOCOltQPc95w=
+        controls :
+         -
+           name : BTN_Del_MP
+           identifier : 0x2ed275a45564abd0
+           internal_properties : BQAAAAUAAAALu6FwzIYDZEaYEYqji57IIo+joBJ9mmwdY7SAFhTLUyxRbKVJ9T6r3SJurxn2Pfkl+WQQs9iWkQgH/YnHLMNeGCG3YNuGMrHBdjuMFQn2pBp51xvO9B6VsniKhLVL2/MFfSoaUui+r6pzovP6mybU5FFK6izbCVA+b6og2llChXOygsgH/rjOkDkBL26iyo+eniWi4FIxYi0utEIShb9K2s+TGczymzFYaRdIEO3DqfpBOFO1uaxXJiuOYIMfUkQS+J5JP70iuNfSbgqHM1Oj4wCbml5wta+sJplUfDizUH4RtP82a91WFMzVqtSwl7KhjioMbYXXrklxBGbkMh4rwBUCIGPq03hfUKFpw2eymvGzeqdNwfzZWeBVyZBGGJkls76mZav5YNl6CT95U6LIYI7IYaeiy2PixotCWG3K9fF5+UQvFyoprjFNxXYrqv6yVePrfLviO3eqT4X/IKtzj49xATPeMSB1MIum65zzPX1bAQfkCPD/6FUYV8DYlj2aCJj+sgdaE0Jz61Vih1bryAguPdBfRmBb3POMwQ8Cu1bDzFoZsPjDfhxZUs5CsfJio2uU5qQhY0Pmq9aCQojQ/qrREqlvmnznWpcj6YoB8AsDkXBUXXgb/i5RTkrkDD1QJswhfpwPFP0H6Ta9VW9WHjReWyJOtpQw8rzvsTwNpjb6VrFBudMgBw2MCDzRGAh/VKZPEFF6W0dpmxWny3/ww6PavyZEhHjiAwGcc6LQ4kXtd0v9fpoglbDqBbM0riZRMUXfVWClrBX3wK1mRV+fsEyKsmKUt2IDql+T2E247FcOGODvj3QBiBVS4oBlabNvc0qTUxWs4C3tlYZucIVkY2pL4OHYPtiFj04kHfq/WNjeg76huxNuchTggpPfMZ1fdVBgmlK6vtbFCNFt+ZYhDhOQkp5qQ3UKZHg5tnoUd5IEm2WaH8WPaT/+D9Wi5pwJ4aPxNVShAli66MhcCjTbNhbHCzRzunF09m3AhgXHsa/bnOuDfkaN8ysJt/z0YWeCzi1B1qK+dl3upeQLUX/KQPj+30Vn4ykD
+           type : 4
+           code_elements :
+            type_code : 4
+            p_codes :
+             -
+               code : |1+
+                nIndcs est un entier = TABLE_purchase_order_line.Select()
+                si nIndcs > 0 ALORS
+                	TableSupprime(TABLE_purchase_order_line,nIndcs)
+                FIN
+                	recompute_taxe()
+                	Compute_total()
+               type : 18
+             -
+               type : 161
+               enabled : false
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : COL_Prix_p
+       identifier : 0x2ed277cb57e6d23d
+       internal_properties : BQAAAAUAAABqdqxpWCIMZDlyBhuE2SzZPR1g9Gr3Wd84a57KQjCzoNFB5a3lWBoyLMuSB8h/TaeHnA79zr94km7AgC5q6XZA02VD5WaC2kHav9PgiTkcH3c+gHWMDU2RshC1NuxQcsUnEZpLAadMe3/Ox2hX2g4JlpEWapBkb/3PrYCLR6WMyAN2LVf3zbRKHPEpYW5XjQ==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAABPVDm9Ac2s8q/tb8Z/pLqcnihiFYmDZxh+PnHoDKxTqsztEMKbFtkzNH8DlnUq0wukyyJBjLn5o9e1z2UCObJ3+z7QLonzJGKufJNs1I7rPerElqqHbgwokbqJEqnkJoKKUJiYHTwvzNrizuLNS2BAzKxXCGsOyxoFWoi5YxlOGCaHAL41IdkPkFHTATxAAovcwv1olpPS1D2x/Skf8CW4l5IrPRzR8oWyPjJzGG2T6UIdu1j34uPN0h8TCKc67srxnVW7iMQiojHjKCMhFqYAWjz9K9ToI4EB2V/33swxhMnCtqyYKfMEvHxllN0c928Y1UOqqn4XByEChsBsknptoPl0l4EadtRmE/F6sMeUgsWLyBHgJB/Jc6jpabooGK8fUFvQZlN+t6C/scO4WFG/Eg50CrqCg59NfVvww/bytYGqqBFgGnMYbu6+acR+BI6uKwi8yTFv9IYNm65W7Iq68ZfD5ahczBspBrm7amxnKJvoDPdXG6MwdNprU35tLj2pQAjQKJ6UnAzdyw3V01Cb6mYzWxvNE25bq1csrQdbmI+ifaEnZMc4FJHT8fOhFQ/Fj6KKb3n/DXG/pLK4phyL787OQ8mDViXVKzN0+3XtWgQHJ/SOugQNudYrZzAm74bPAqJySgl+2Qpf8X8y2EhzpjGDj/UajfW4lKeEfyMKz/xlle4XbSBr3JGwAcJYteasJgHkp/ZEuw0V+xP9lixIly5O6lf35GH2vUWu4bCYa4AkJ0PlU1qnaDsLd0Zi5G1F0z8Zn4zARYCKHgbtlsbLrhAfft5gRsc=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    breaks : []
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : TABLE_taxe
+    identifier : 0x2ed0f15b0b77869d
+    internal_properties : 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
+    columns :
+     -
+       name : COL_Taxe
+       identifier : 0x2ed0f15b0b7a86fb
+       internal_properties : BQAAAAUAAACViN0hA6cig38v9sA5GrkJbHsmPMaCHnRtkZXKE4GuhhMRIOQkiShIjlddYMg+GCZUPQ+/tPaoVh0AmHCZvQyzYbfWIgFUVbribvQ721kA8viGaV+KsBSzk+ZVXusdy+nJBnMo4TGX+6wk6RmKEpIAbHmpGzBbhjjfyG220TRv+chqIumaJA6mprlHUA==
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAABrJwqmO9NNWzXxBuaDWfiveWAI0gUx7E+DRDG8yJ56aWnTKGjKLcLbzWJJgeijryHQjid0cMA9H4qZPsUmqEXqQbX+4rYQCvpKxTVP2th1YMPxbSsAQrfNiQnLI7LCRetrPc3SpJscRs4qJyP+CigMW4zGSIPTAuhL7wFONIE1gmo4AMuFoK3VdSjmjzSXKv3rkZNOYWtjniYZAUMgPiDHpZ22LGMFshtsZ0wXTFwer58iGEfa0Bo0VN3GHVjCxf+FShf/8wZabN9GTJdXFXgiWdgJxU2Xva3TQ6iRK8qpSdAGsOxcbivhsSdSzHKch9bx2MV1TGeYp0p8JXw8xDQ0HV78hclsQ8x5xAee2Wh6AfQjizfj7A0yEqEyJLpFdKx4/YDeuvINHRFvn6dHqrzZSRQ+WUh13jDR69/5hFhr2UJMdqqwMd6hhoDAOhXy0bx1Yxo146KQayrL6bcfWBFkcs8pMPzvu1ZzdmN6WaDCbqrAhIQtbKA7RrJ9nAfZVcfcArpfOMcZddC3w4QMn78Js7jt3mXgwvXl8+XJUk3sxELET/blZ0Z55v2T5D6LSD2cf/5ZvxDqdvcnwMmnyqHjEviYrnXQV2Qfj/UbEn3swJnDyf3WFdMKk653ClNQbGji5Np9XFQZHAIJD+4B5t25B4vBpIO7ijzQTv9dwB1ZEZmD21kRrt3+jp1w1i/isjoVFpkBO+NpYO0P6fymMGzvWW0KHtBA04G/rDbMSfMGNB3AO6lcUMYWnlzo
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Total
+       identifier : 0x2ed0f15b0b7c8729
+       internal_properties : BQAAAAUAAACLZ7MSGcaXaAsRl0OyWAeBzf6CMyYnv6M/djOc90RI/nTIsQkCBXU2X4/IGGTZ22w6vRlkQl2cYAN9CQEpKU2MTCAMqwaRO9GOY4sJlyh8gQ2lwck6cTgiTyP80BGgrOtprA/gqxQKm7OKFchTcP+ylsk1MCmpIgPJ6b+36HQLnxtHFouwD0Jvo1u00AQ=
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAABPVDm9Ac2s8q/tb8Z/pLqcnihiFYmDZxh+PnHoDKxTqsztEMKbFtkzNH8DlnUq0wukyyJBjLn5o9e1z2UCObJ3+z7QLonzJGKufJNs1I7rPerElqqHbgwokbqJEqnkJoKKUJiYHTwvzNrizuLNS2BAzKxXCGsOyxoFWoi5YxlOGCaHAL41IdkPkFHTATxAAovcwv1olpPS1D2x/Skf8CW4l5IrPRzR8oWyPjJzGG2T6UIdu1j34uPN0h8TCKc67srxnVW7iMQiojHjKCMhFqYAWjz9K9ToI4EB2V/33swxhMnCtqyYKfMEvHxllN0c928Y1UOqqn4XByEChsBsknptoPl0l4EadtRmE/F6sMeUgsWLyBHgJB/Jc6jpabooGK8fUFvQZlN+t6C/scO4WFG/Eg50CrqCg59NfVvww/bytYGqqBFgGnMYbu6+acR+BI6uKwi8yTFv9IYNm65W7Iq68ZfD5ahczBspBrm7amxnKJvoDPdXG6MwdNprU35tLj2pQAjQKJ6UnAzdyw3V01Cb6mYzWxvNE25bq1csrQdbmI+ifaEnZMc4FJHT8fOhFQ/Fj6KKb3n/DXG/pLK4phyL787OQ8mDViXVKzN0+3XtWgQHJ/SOugQNudYrZzAm74bPAqJySgl+2Qpf8X8y2EhzpjGDj/UajfW4lKeEfyMKz/xlle4XbSBr3JGwAcJYteasJgHkp/ZEuw0V+xP9lixIly5O6lf35GH2vUWu4bCYa4AkJ0PlU1qnaDsLd0Zi5G1F0z8Zn4zARYCKHgbtlsbLrhAfft5gRsc=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_id_taxe
+       identifier : 0x2ed29918604af6f3
+       internal_properties : BQAAAAUAAAA7m/1mxOBPsaGe5CSzw/LtNJKXqlhWnOfEKjtCqy2M3YpHVPEWMYVMtdWIY+DMwQXAsFotuMV/uDeAUdtLKp3WB9iOQeRonv7x5epMhCQSy4Z+P6q3iWeNxaDytNGdAF1Ic9WctFTZjvuT/6zpg+/I/ncmetVI9D9ABRH0xxzC9hKqOIzO3s0/niJNvTm41Bc=
+       type : 2
+       content :
+        internal_properties : BQAAAAUAAADia/qgXUxn870ieoEuGjReMda2ECp3GUpEKSkteHCHRuXPBk05zNYglbOCafWdsNiWdqZ4zm8GIX9FioJXc0ChXyXccL3Tdd4SzjhLDUUVE5g2wFmoaYy5qYqaVur0X01gc2n2o3+AzxgEcumxnV5hpdlC0BOZG9GDN88qUJw9N+++JjKldvZ/7qgjb1q6E/xnErP4wpw7KviFuE6IOj3jqCoSSYOCAomcspYLyW/VNX8esYZRijpSxsLzGMbK6ta6h8pI2NpHIQI2SCeI2xUZgkjbRT27xezdgolZqdmxTwjnXLhV2lUzQOcs70alXDimUTOkNAxx4gsPuHiwYl1m0G1hbv6He7KJojEEuJHHQcc/xqI07SAMdT20MW71L6YnYbXhioVbeHgV8ihnrrCs2CM0oHDBUtpfD/r4aDhDptNjWgW61zi9Cip/f3W6yTkKYBQujwYsxdjvjuITWAmDQQaVLbajN4QdGlQPl46cpc3xYPUblIhV3GKOqaMFYUDdJaow6OmHoVx9qJlON9+IXvOFR3NoGgerW5gcpAP+/60n46ELATyjNNH2p5Z7IIaZhNh+F8Z00EXTAdbHyKtkc+FMB43CddAT2RpmALnwFRYyn9pYnwkKMwAua7MC8r0jtSJEELbXnBIn4BnRECN8CgbzgSUXPiYmkqR44Pt7ZPR0y65BJHfMKH2BR51i6mGsR2GeGSEL0oMbgMXeQsknbVMEtrdxWY/Wl0r1WtFPlJoVOukPzFeCzN8YMr4xyoazAGASWItxernO8bmlypoaaARDeb0=
+        type : 2
+       code_elements :
+        internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    breaks : []
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : LIB_Total_Hors_taxe
+    identifier : 0x2ed0f1c50b8202bd
+    internal_properties : BQAAAAUAAACVkES+QKwenrMY1IH4m7DOZ/Zyy5ZBKf8tXfntHXVX8JjVz4WnMBt+mT1y0g+WBFysziP5jZ4EFH3hw4T2SVvq1Q+S6xBbDYAnUEOAETozZrvT55QfQBUNTQWIgkB/qbpXi7A4ux5BaHkCAfoVDbbcB7GuoBZEw2jhg2RlWMb4N+Yx6L6KOswh8Y7P/pTb+Rra//Txt/8ZkLXrz1JVq14p1R/QgK72Ff9JRJ1PaimtsEXsg2gso2DastA4GaEX1VzUGCqKQlb1naD79ajBmXmxnAsvdXOHB7B0IjFJgLt79yUVUonwh16ILVYlvaCDXqmtk5KeP3eqkAp7rX/wofepu54gCWy4CMQD4vUuO7DAS3Y381Yzo4aOnKGquNcJo/JVL2MgLRKwJnhYmvYueS/eoi/WqoS0aHDQ7/mxnsoz2E/tTY68QLx9
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Total_TTC
+    identifier : 0x2ed0f1e90b86a798
+    internal_properties : BQAAAAUAAAAEg1C1vkzIRdZ3qhhyBWl/ELisFa/0nCXP/vlVs2pXtER/lGYWhgKlr103hMORNP5dI7UOqzCDK/G0QNK0UWbHeEW7opJ9nVcS+n/ROYxcyNyhwlX3sP9spl7YT4vS7cOK9dNC7DT14dTJgJCLY3wFIIsCp/OBac3jE9e4VeVfjxPrp6el0KHZwTnKgFoU7pRsJqQgfjGUDmJqO/XHZGb/4fKztNHr8oMl08wYPMUjaelJzG/lCsMcdFmr7n3JMY/kkT+l8y1UMcrgPie32TEg0I4iUm50oOCA/3TGQEnlqIsQ/a6Vst18Hw9OlD5zXlYB3K1D2jx/rpasdvbsD5k2NamxSGMZEjnIGo2edterbyZCuK7yZ6wKXrgBbwOLzRN6jVWuAU7QFnJpHa8YUDOKUCcd57Aycf+8LApuY/uFUvkN
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Total_taxe
+    identifier : 0x2ed0f21b0b8a507b
+    internal_properties : BQAAAAUAAADBzi1yCWCAAcwjJMpegW+Z9jjuvxg1heAYD/xMWlF0jWUeyVMxFt/sAjqCxwje9XYEsKBRwH2IOg4ZOVBdQksErTqIFycqLuLBiZELH7imPhZ7dPfR2nnmNBiOiUVc18FEz8Vc3h4Xa6pzviotXV5jKnVsOYUza4cLJ+848TkrQ9sXB3d5LM2Z8UXqoKY4ynB0+nSwUh1I5tJmQ817OBqLkcBdmgOBvIEnqR7ODvN9P8OvpgVfkF263td1nP83u6WuhwFjNSumJ/zW3ImhH+M+5kRIPGACQgr2faqQuv83NgHeM3jfcJ+2XaXMHtChsAxvootl2nxv6qiUrLBcjxeQxxGL7sd9j6hjeQgTl4b6wOFdpjBq56wSyDjXTazyXDQFIMAjnqFN7a1wyARJL1AVKV7ulgWlznrZB0stkK5Il7xI
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : DISP_SansNom1
+    identifier : 0x2ed0f2910b9c2ad8
+    internal_properties : BQAAAAUAAABAF1z3T8OmqyJmqIqvcrYvST3QwBeMi533pn7BGIIYwbAdINeIz99m7mbfgvdKany9YmZMXnDfdJVdpnk9iIpB9Z0nhsoz+3nnhPOef+47NSY496Ap0nAOMg+1MgyTm3DUx2JwQA6WWCFGTRQvFm0BfJ81svNwIcdYAPIXyy5FUqPLAzAqdn6EqmSXJPr8UMAWoIcmRe9P4qFvZb2qi8eVxqaPK4ly5qiI03aO853hQoSvC0vbZuQVIE7RBEVsfpmEwIsnxP6TXwGkmsMMOS/uc5LECTrXoTBnOW8dpuKB5tkk9g5vrgL0GjTfP5xEIiW/3OfCyBeFKXpLCxcmhL2dDkSlWzT+vpQHFZYD6GgQNkvIb84U00skE+BVKuOxpS0kLwJ0lbY3XM0CFGnaU2Sb1ED5ATr7VeO2DPZHYNo4ajBYOkuPGcqo7PHQaf/wHYeiXkpYBZfe+Oxd35uzC5DgJIa/wR8ddKhViHg/R7Uh89fik/KP87Di3c8ik3vyMrJ7GgjyUWdyq/1YSqUj0utxWtf48PbWSJZ4z9m/+LFhPSUOwLK+L3R9GYaBEUZPtWmKXnYbodQwL0BDbXZRB7MMcxUje/RgA1f0icSvcGWS+cyhwRKnNXGZH+Y8yehhgCzvDCDdHw0XZZ3k3Fa7fo8oyKYIw+NatojtcbOcLBi7V6RPBW1/8ExeQdWj7dmWiYhJ4jUy
+    cells :
+     -
+       internal_properties : BQAAAAUAAAC8uwFIredklFeosWDhVNVxACluOoc2FhoeHutLa7OZJGLWCYLhgh+xaFwXV2LjyuCAEZeC3oOX6t4zLd9WWmOMG5RTHjXaBms5xLFNJlVFNOBGD9XkqlB1HdAwgPSH6oIHDKBgx5ihaGyFrQ==
+       controls :
+        -
+          name : BTN_Nouveau
+          identifier : 0x2ecffe6505d55e0f
+          internal_properties : BQAAAAUAAADUCwKeeKo1f805kk/BQw8E//8QtVCFf3dS4+Mej75LJ1AKESaJ9YM5ldi+wlzg4giocMJ04j1H9S853f4lXIs+adCvrVf211JPVWJ5XS5iG8XSIeESbp4LUjXbGAaWR9v8XPVvNQOT1FKJa8GtbWPablJi5dYeuo0hHvQplAVJ4csf/sOMlE/JrYFzAObn1v7JiqLkjJQTqxWNRyYZ6qVnGU2nlQCC+LwFYlE8K5JvzOSn0XXC8xW1h0E9pYhZftKITVWIULF7TuqpBalS0ZixAhRmV2Hb3Xr1oCUp9Y5z3YF1/cfug8Fjq+iqAEdk6As4pSlb7pe9qYBxjdimSGu9bN0XD9pAAaXyaa6siDdYu9DwMZGdL/tCBRp0Ibs5NEt1J1XYGkNDjrJ2brjd/BQ3mIhOphRXXPVu85TN0BuekhB9t/kqJq1ykCto6KCtWxAp5NsADo+Q17Gox8gnooB4y+wAjNwRgsQ6egyxA/7/FvghKd2GIrP7OmfjBwcXvzJ9Ft5NhsFjK8DdiS2xhArHPBVbb6pL6eXH4sd6KmI3Mz6A34waRw3iJ97LzflAQrYCkjF/bCy744WlaUIo5GdCNPNBLwxKdZh90s6Alx4+PcRL60GkYONpgxPsZecrAuDRUsD8rc79/fwZePhkMPBI0RTkaCFNcM9GHavemnhk1dH8fMiSKkvZkeE7i/3U33HKtSG5pt8h+iAZvMkqIYZalnVK8ExcplkhhmKgQ8x83EHCtEJnhvJyYnGgg10irRbKQA0MI6g=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // nouvelle enregistrement 
+               // Initialisation variables
+               SI gbCheck_update = Vrai ALORS
+               	//2 : Annuler
+               	//1 : Abandonner
+               	SELON Dialogue(<§?1E2C658C015A30EF§>)
+               		// Annuler
+               		CAS 2
+               			RETOUR
+               		// Abandonner
+               		CAS 1
+               			Init_Field()
+               			GR_All_fields..EnSaisie = Vrai
+               			BTN_Modifier..Visible = Faux
+               	FIN
+               SINON 
+               	Init_Field()
+               	GR_All_fields..EnSaisie = Vrai
+               	BTN_Modifier..Visible = Faux
+               FIN
+               gbis_new = Vrai
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAABbHZN193ECP6Umf/UYSoVyp9tU/DBaFCE5okuGxgimJPZzY9SCM2CHetFlC8a6XLh12ZeiVTeaInlo9++DTt7txERfBABQTfW8TcU1t+WGX2duBTFjfp+HMN30YKMrL8mG+vos0hWz+X2Gp/w=
+       controls :
+        -
+          name : BTN_Draft
+          identifier : 0x2ed0b5b109331b37
+          internal_properties : BQAAAAUAAABLx5nkK9NEJwOZde2qC0UOT5fWk/6Rp6FXpigBYBxFSGAFvGyPBKBkyWS0gqi9aPtb3FIR8+yz79Gh98GzfHZTTWmlHhnUxw/I6bKG/aPa9Dz/SbUMPUJfNl5WaIDcHtSCKYdSeH4cp1NCgvsUv7h+m4mZifPyfH0agWyfZ4nHDCIipxrbsuyFNergAkGsK5bsL6m4eNo6R0FhpZzk+dThZMn42dvkZAokzmvRglUOx9OH2KZtU32q6rHJM1NYYPckdGrFXuju9jZtTqAYrXQ4xNO2BTTuptTDD5IlL7JDmlahMUWB2lqGrl9n05vQUZEsBHSupRFMHk+dYw70ZcVhRRHYkUkx7qiVqO7SXej1QaOrVfa6YmNLZLeuEmarw2O8MqoE7zxsIGWHWhNl8fdrR9TbpV9IXhj/FBQW2MyKNsUMNdBmdzT8yi8gww2gSHlhnvhPCS/zs+ljMBwblzfWQIm6+vd3ENcuJIsKp0ZWyZEx3qOcJF7gLupBNMHGo//jm4c94duMokhzfSH4p9Ch/NaHm6UUVoZagNO454xFDvATe6z5hUxCdEQgMvCBkHgKsLPcPYv2353vCiymTcojshB86bTsn7NThSDIAuYUv19HurlAEE0Dmj/7RySlCkOMBT4q5lV/p4gBoAxcEZ3XWOqbKpsAPcOghvHeiyxE9HkyRl5CmQi6IJCyOy/Ga0ouL7fXmCCrAzJXA3fn6D2sE7z6qRSD5CrjCHRT0PAg37WojmpoP5uXm0J84oaL3YD2nZHLSzboBhIAwZ1k43ukwxLIpVier1duYdIvngZ3SfZQ1Oh4OJSgjkul/iPoKLlP8OZ7jz73rb/LnuxRviPnVs5JywbTeZhNPmUwasCef7GFcc2+mcQishWSKH2Mygj1qWVfVpncCqfFziVU9N32Z6N+u3MCLQ1UoAV7oa/o0Gk0phauqd+1gom6XEpKlHD1n5B8Dcz87G6U9cfxBFu/iXV1lKwn
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               Sablier(Vrai)
+               sql_purchase_cancel est une requête SQL = 
+               [
+               	UPDATE <§cs:3§>
+               	Purchase<§cs:3§>
+               	SET<§cs:3§>
+               	Stat		= {Stat_Po},<§cs:3§>
+               	Etat		= {Etat_Po}<§cs:3§>
+               	WHERE<§cs:3§>
+               	Purchase.IDPurchase = {Param_PurchasID}<§cs:3§>
+               ]
+               
+               sql_purchase_cancel.Stat_Po	= Vrai
+               sql_purchase_cancel.Etat_Po	= "Brouillon"
+               sql_purchase_cancel.Param_PurchasID = gnId_purchase
+               
+               soit nrc = HExécuteRequêteSQL(sql_purchase_cancel)
+               SI PAS nrc ALORS
+               	HErreurInfo(hErrComplet)
+               FIN
+               
+               
+               Stat_color_inital()
+               
+               gsEtat_doc 	= "Brouillon"
+               gbStatDoc	= Vrai
+               BTN_Modifier..Visible 	= Faux
+               BTN_Save..Visible		= Vrai
+               BTN_Annuler..Grisé		= Faux
+               BTN_Draft..Visible		= Faux
+               BTN_Supprimer..Visible	= Faux
+               BTN_Valider..Grisé 		= Faux
+               GR_roadMap..Visible		= Vrai
+               GR_All_fields..EnSaisie = Vrai
+               Sablier(Faux)
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAAA0fKAGBGIT2sTVpnZfGc4z/H61QTEbKWJgyQJXoRMHZbNuKCGDDB1QFWAc7PUR8c0eKHBrv4NMRdxbLvy8Ne2Gv3sO0flnWpCbpGCWFKhR7KJ99D70rSxy1+yHoej23nr50TlZASbChs5XiNM=
+       controls :
+        -
+          name : BTN_Save
+          identifier : 0x2ed09f7508d76a87
+          internal_properties : BQAAAAUAAAAtwMoAVCOYK+Ig/UAIszwdx0SrMuexM2Jxh8IZ6KatByD2D8ZWHISYJuBaJ9cwp1qUWlmsDz78K1aMsr0duc5ZKZweWnHkks32yzdt/lchA7Pk85x7+KsQunez7ssyDAtDIzRwSG1C/NAAQl6LsSlSN43nm03B3k1wtguPxYc6/3AH9s1yLVSaeTMr71MjzOVHOjUkaFiJl9Br4XwHPXgpHKocREaWHz8yGPOVbpUbEwynd/s/yUnE8k+KLeTPYhrKantuccASDxkzWG/1NqVTiX5XqkmgbIy+/3/stuUH8U4IaATNVY/Ydt1WB84Cc8NGc4rXB1EEakDaAUIdwcWxFFzI+NNwlfMLxst1JcB7xoDIh7O26bOP1AK5AJeqmeOeoLAJEpa7ktB3E5fJeP/YAWWW16KE6JRTXNOod8vVg/MZOz4FRsuuNzy69RXxQQ/rwN8n5qDgP2l2wPdgG537dGdegCY7u6h9BGUNPKQ63LdRS3smcJkGhn3TVdbN68j2BH8NcUTUWZR5UUxVMRgAzW4yEJqapdPjNJVRhlZUboAhh9m8aamfA+nkOz5QxVyWvijjOFbGFJNpMjtJDazdGr/WLP7y8FH4aHgGPY85vwKs5qP+QxeYf2kW2dQ8tqTJTAXafsLhJSC/5gWYTc0uWnLl3RxG9vm7KX99Fa0Oqa2pwZnLy8SJEXccfRat7U88rPefAbZwAx4voRqNosu6YY1NgV0rl4Fgz21Ljc4wjvQQG4+LHu29uNEvvt6sihBS+94VAaFQX0MVx4X+zSKTRw5kNTVEhWnBccNWv+1IOD3b2bjAa+xUGZ1yGpEqiaBe2kKx867J0jYUFEVnOdJku8Oxtw4a50Qw+ufcpNPVcV4D7VDXh+BQ8Pr7zKqjbGv3ObrtMtjt7yaPG63dYLg5DtlsyG/H16LGiHEGoedfYnOUnvly4saukXOmq4Wne/WyuajIbkxkMIFvsI6D2tAgIQ==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               //sauvegarde
+               Sablier(Vrai)
+               SI COMBO_supplier.COL_IDPartners < 1 ALORS
+               	ToastSupprimeTout()
+               	ToastAffiche("Opération non valide" + RC + "Ajouter un fournisseur",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               	ComboOuvre(COMBO_supplier)
+               	RETOUR
+               FIN
+               
+               
+               sql_purchase_save est une requête SQL = 
+               [
+               	insert into <§cs:3§>
+               	Purchase<§cs:3§>
+               	(Create_date,Note,Stat,Etat,IDPartners,IDSociety,IDUser,Num_order)<§cs:3§>
+               	values <§cs:3§>
+               	({DateOder},{Note_Po},{Stat_Po},{Etat_Po},{SuplyerID},{SocietID},{UserID},{Num_Po})<§cs:3§>
+               ]
+               
+               sql_purchase_update est une requête SQL = 
+               [
+               	update <§cs:3§>
+               	Purchase<§cs:3§>
+               	set<§cs:3§>
+               	Create_date	= {DateOder},<§cs:3§>
+               	Note		= {Note_Po},<§cs:3§>
+               	Stat		= {Stat_Po},<§cs:3§>
+               	Etat		= {Etat_Po},<§cs:3§>
+               	IDPartners	= {SuplyerID},<§cs:3§>
+               	IDSociety	= {SocietID},<§cs:3§>
+               	IDUser		= {UserID}<§cs:3§>
+               	where<§cs:3§>
+               	Purchase.IDPurchase = {Param_PurchasID}<§cs:3§>
+               ]
+               
+               //ligne 
+               sql_purchase_order_line est une requête SQL = 
+               [
+               	insert into <§cs:3§>
+               	detaille_purchase<§cs:3§>
+               	(IDPurchase,IDArticle,Quantity,IDunit_of_mesur,Purchase_price,Discount,IDTaxe,sub_ttl_ht,sub_ttl_ttc)<§cs:3§>
+               	values<§cs:3§>
+               	({Purchase_ID},{Product_Id},{Qte},{UOM_id},{Priceht},{Rem_val},{Vat_ID},{line_ttl_ht},{line_ttl_ttc})<§cs:3§>
+               ]
+               
+               sql_purchase_order_line_delete est une requête SQL = 
+               [
+               	delete From <§cs:3§>
+               	detaille_purchase<§cs:3§>
+               	where<§cs:3§>
+               	detaille_purchase.IDPurchase = {Purchase_id}<§cs:3§>
+               ]
+               
+               si gbIs_new = Vrai ALORS
+               	sql_purchase_save.DateOder	= SAI_Date1
+               	sql_purchase_save.Note_Po	= SAI_note
+               	sql_purchase_save.Stat_Po	= Vrai
+               	sql_purchase_save.Etat_Po	= "Brouillon"
+               	sql_purchase_save.SuplyerID	= COMBO_supplier.COL_IDPartners
+               	sql_purchase_save.SocietID	= gnID_societe
+               	sql_purchase_save.UserID	= gnActif_user_id
+               	sql_purchase_save.Num_Po	= LIB_Num_order
+               	
+               	soit nrc = HExécuteRequêteSQL(sql_purchase_save)
+               	SI PAS nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               	HLitDernier(Purchase,IDPurchase)
+               	gnId_purchase = Purchase.IDPurchase
+               	Update_num_Purchase_Order()
+               sinon
+               	sql_purchase_update.DateOder	= SAI_Date1
+               	sql_purchase_update.Note_Po		= SAI_note
+               	sql_purchase_update.Stat_Po		= gbStatDoc
+               	sql_purchase_update.Etat_Po		= gsEtat_doc
+               	sql_purchase_update.SuplyerID	= COMBO_supplier.COL_IDPartners
+               	sql_purchase_update.SocietID	= gnID_societe
+               	sql_purchase_update.UserID		= gnActif_user_id
+               	sql_purchase_update.Param_PurchasID = gnId_purchase
+               	soit nrc = HExécuteRequêteSQL(sql_purchase_update) 
+               	SI PAS nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               FIN
+               
+               // ligne
+               sql_purchase_order_line_delete.Purchase_id = gnId_purchase
+               soit nrc = HExécuteRequêteSQL(sql_purchase_order_line_delete)
+               si pas nrc ALORS
+               	HErreurInfo(hErrComplet)
+               FIN
+               HLibèreRequête(sql_purchase_order_line_delete)
+               
+               soit Nboccrs = TABLE_purchase_order_line..Occurrence
+               si Nboccrs > 0 ALORS
+               	POUR i = Nboccrs à 1 pas -1
+               		SI TABLE_purchase_order_line[i].COL_Id_product > 0 ALORS
+               			sql_purchase_order_line.Purchase_ID	= gnId_purchase
+               			sql_purchase_order_line.Product_Id	= TABLE_purchase_order_line[i].COL_Id_product
+               			sql_purchase_order_line.Qte			= TABLE_purchase_order_line[i].COL_Quantité
+               			sql_purchase_order_line.UOM_id		= TABLE_purchase_order_line[i].COL_ID_uom
+               			sql_purchase_order_line.Priceht		= TABLE_purchase_order_line[i].COL_Prix_HT
+               			sql_purchase_order_line.Rem_val		= TABLE_purchase_order_line[i].COL_Remise
+               			sql_purchase_order_line.Vat_ID		= TABLE_purchase_order_line[i].COL_Id_taxe
+               			sql_purchase_order_line.line_ttl_ht	= TABLE_purchase_order_line[i].COL_Sous_total_HT
+               			sql_purchase_order_line.line_ttl_ttc= TABLE_purchase_order_line[i].COL_Sous_total_HT + TABLE_purchase_order_line.COL_Total_taxe
+               			
+               			nrc = HExécuteRequêteSQL(sql_purchase_order_line)
+               			SI PAS nrc ALORS
+               				HErreurInfo(hErrComplet)
+               			FIN
+               		FIN
+               	FIN
+               FIN
+               
+               
+               //Update_num_Purchase_Order()
+               Echo_purchase_order()
+               
+               SI gnId_purchase > 0 ALORS
+               	BTN_Modifier..Visible 	= Vrai
+               	//	BTN_Save..Visible		= Faux
+               	BTN_Annuler..Visible	= Vrai
+               	BTN_Annuler..Grisé		= Faux
+               	//	BTN_Supprimer..Visible	= Faux
+               	//	BTN_Valider..Grisé 		= Vrai
+               	BTN_Draft..Visible		= Faux
+               FIN
+               GR_All_fields..EnSaisie = Faux
+               Sablier(Faux)
+               
+               ToastSupprimeTout()
+               ToastAffiche("Opération réussi ",toastCourt,cvMilieu,chCentre,BleuFoncé)
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAADADx0QN/P2BJeowbgxZO1RgLEmMt+mbjJG5uPb05tpbPqGuXKReq8hCJx3z2JTsgCQuY8JBYfkLnrXkbPirp84v4hXwpmuwh/lOJVBwtlxoLR6w8kInmwJ6eQ0xACLNh778ITUuZoJVPAZMQ==
+       controls :
+        -
+          name : BTN_Modifier
+          identifier : 0x2ecffe6505d35e0f
+          internal_properties : BQAAAAUAAABaIb57FRxnNXGTzKR1zruN3DrbgfWaprVugNJDva9fGgI2FXJbkJUXHVxLacjrLNOGZMdNGAvOKOYXW0BQ4EAeTmyBZ15O+0gnX9nfHTAyv9R+qeskAMRS+25PjxPO+i3/b6FadXyVbYsaxwr/LsipH35hbwqNaakfrqAzN19MYK6kpTfcXd5j/VUQHcGbkG9yKGKolWNMlUENR/DogGJ+/SXANwlZmbCbY7QAZNIba262BQdeMhhMCIIVSYdE4pCXjn55Nd5kCKDlnzPN2qhiW84lODMuYk1OgYBP+Qed8QKMCLE+5+Kk0SOYyE0u52Y88nWr3cbuwXJwj5jrgRXzwSgsn7JevS5HyVVNlxVDVYJYA1mPxXzCKSdrL6TcI0V++f7pHsVizrt/WXFOeijOiy5VC0hc2p5gZlB/s/eMlP/nWebs4+if8RPCpVk0NQPwgI3WhsdNyGSooHjVthA11Pmzgf6059sSW8mdG6kXaCom8sSQqyAi0/V7NVXKnlOQKgbcg7kOdXEAONxUQRFwAMAMCfycH/qNtws0K80jGTvBEk5UuPRn52yAxi3Y+TRsX40qx8rnCCdRfR+VizXfzBiHoHelzP5Ds9RArBwhJhWlvBLa0o1xnFsOYgKyDK0V3Ok+igKFITSWfoguz6pUV3OQRkRyKd+GzoXdHzL/SNZWcS8W2+L+ERBgphLi7It2YtRjnz6hgeLgSYY5R6HUlKfQoEcwUUpgOxjRErj92dKFqRIf2U6rfvbmx2fIFc6yCJaWmOfVyYKu
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // control des modifications
+               gbCheck_update = Vrai
+               gbis_new = Faux
+               GR_All_fields..EnSaisie = Vrai
+               BTN_Modifier..Visible 	= Faux
+               BTN_Save..Visible		= Vrai
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAAAyPQ8OAZ1W9hmCkypPMlNfTr/c7PV8EDRI4G1daYFDOtA879xXqCmbyo6JeUB5zA6m9wVyG2JZonaHjbuaCnukn3C7QhnSDmupsHlBUi2t3HQyBwmwupA1PczoLLTLblaPjDyoH3z3QuILIw==
+       controls :
+        -
+          name : BTN_Valider
+          identifier : 0x2ecffe6505d45e0f
+          internal_properties : BQAAAAUAAACG86Jhvbe+arW2Qlp0bq7WNWyp9xBWHWXydbMEq1XECSFDVYEMCFcbkHp22u/uIT++LpUV/Lkh/Doz4eXmIt9CakCf6+nFKTxBUghdLGp1N42vwIk0AQOYAPNawkCp+MdRqpmQeuFmCXPWRdptMAuls4i1Gtz3R1yFSe+Rn/22gws7XbY/Ea5X2o8UvReoqOmQrAPPcfhpUg2OZ65QuWLulvXPQ6SBU9jWV90WNi9GGnHagMzQf4vHJ4SbqpcNy1fGlGv6y9t57Heeq2pMXYrVL5xyo8oje6Wh7FqLumMJU+3n5rHKvEewuJPOma5vytpflQOxV+x43xkkbe6kLhfon78SZ2DsXo2P5vOrGA9MYD7FhqoDRACQH/SCDfuOsbAyMqZsT9CF925z4Y1hWjH91uUSMTQsLJBK1kwzAj+SoyjE2LZ3zpaCuI2SETYsq/yzpSGJAv1iDbkAXfyInUGToRr1uArcCFP/aUHFO5lx6nD/VTowaZARKSuZ25skTCzPsDw/cwGlrnsYt7EYSEQmds/Xpq+7YwyNdEAVYabBDAJhn3XEX8/1KWi0qpivvMHotSGkfW65LsTP4X71sQNEx3vMGIbwE+BJ2EONMuILQ4z7QNZWVm+2Gm4caG01dUAF/fFJxZ2u1rUkiEal6DUoJ5CjYybpN95O6bXdLMtGKp78i+nvMkCIlmZewDIHhB/IZS3acBJZSP5cA1PzxbVP1+V5d7kE9nYQcQRcRRRoNHq4aq+6rHohhqoE8wfYvsHBxlBIC9AkM8QMJ4Up7HGC
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               Sablier(Vrai)
+               si COMBO_supplier.COL_IDPartners < 1 ALORS
+               	ToastSupprimeTout()
+               	ToastAffiche("Opération non valide" + RC + "Ajouter un fournisseur",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               	ComboOuvre(COMBO_supplier)
+               	RETOUR
+               FIN
+               
+               soit nboccrs = TABLE_purchase_order_line..Occurrence
+               si nboccrs > 0 ALORS
+               	soit nCount = 0
+               	soit bNotnull = Vrai
+               	pour i = nboccrs a 1 pas -1
+               		si TABLE_purchase_order_line[i].COL_Id_product = 0 ALORS
+               			nCount ++
+               		FIN
+               		SI TABLE_purchase_order_line[i].COL_Quantité = 0 ALORS
+               			bNotnull = Faux
+               		FIN
+               	FIN
+               	si nCount = nboccrs ALORS
+               		ToastSupprimeTout()
+               		ToastAffiche("Opération non valide" + RC + "Ajouter au moins un article",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               		RETOUR
+               	FIN
+               	
+               	si bNotnull = Faux ALORS
+               		ToastSupprimeTout()
+               		ToastAffiche("Opération non valide" + RC + "Vous ne pouvez pas commander un article sans quantité",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               		retour
+               	FIN
+               	
+               sinon
+               	ToastSupprimeTout()
+               	ToastAffiche("Opération non valide" + rc + "Ajouter au moins une linge",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               	retour
+               FIN
+                
+               
+               sql_purchase_update est une requête SQL = 
+               [
+               	UPDATE <§cs:3§>
+               	Purchase<§cs:3§>
+               	SET<§cs:3§>
+               	Create_date	= {DateOder},<§cs:3§>
+               	Note		= {Note_Po},<§cs:3§>
+               	Stat		= {Stat_Po},<§cs:3§>
+               	Etat		= {Etat_Po},<§cs:3§>
+               	IDPartners	= {SuplyerID},<§cs:3§>
+               	IDUser		= {UserID}<§cs:3§>
+               	WHERE<§cs:3§>
+               	Purchase.IDPurchase = {Param_PurchasID}<§cs:3§>
+               ]
+               
+               sql_purchase_save est une requête SQL = 
+               [
+               	INSERT INTO <§cs:3§>
+               	Purchase<§cs:3§>
+               	(Create_date,Note,Stat,Etat,IDPartners,IDSociety,IDUser,Num_order)<§cs:3§>
+               	VALUES <§cs:3§>
+               	({DateOder},{Note_Po},{Stat_Po},{Etat_Po},{SuplyerID},{SocietID},{UserID},{Num_Po})<§cs:3§>
+               ]
+               
+               gbStatDoc 	= Vrai
+               gsEtat_doc = "Confirmé"
+               
+               SI gbIs_new = Vrai  ALORS
+               	
+               	sql_purchase_save.DateOder	= SAI_Date1
+               	sql_purchase_save.Note_Po	= SAI_note
+               	sql_purchase_save.Stat_Po	= gbStatDoc
+               	sql_purchase_save.Etat_Po	= gsEtat_doc
+               	sql_purchase_save.SuplyerID	= COMBO_supplier.COL_IDPartners
+               	sql_purchase_save.SocietID	= gnID_societe
+               	sql_purchase_save.UserID	= gnActif_user_id
+               	sql_purchase_save.Num_Po	= LIB_Num_order
+               	
+               	soit nrc = HExécuteRequêteSQL(sql_purchase_save)
+               	SI PAS nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               	HLitDernier(Purchase,IDPurchase)
+               	gnId_purchase = Purchase.IDPurchase
+               	
+               sinon
+               	
+               	sql_purchase_update.DateOder	= SAI_Date1
+               	sql_purchase_update.Note_Po		= SAI_note
+               	sql_purchase_update.Stat_Po		= gbStatDoc
+               	sql_purchase_update.Etat_Po		= gsEtat_doc
+               	sql_purchase_update.SuplyerID	= COMBO_supplier.COL_IDPartners
+               	sql_purchase_update.UserID		= gnActif_user_id
+               	sql_purchase_update.Param_PurchasID = gnId_purchase
+               	
+               	soit nrc = HExécuteRequêteSQL(sql_purchase_update)
+               	SI PAS nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               	
+               FIN
+               
+               //ligne 
+               sql_purchase_order_line est une requête SQL = 
+               [
+               	INSERT INTO <§cs:3§>
+               	detaille_purchase<§cs:3§>
+               	(IDPurchase,IDArticle,Quantity,IDunit_of_mesur,Purchase_price,Discount,IDTaxe,sub_ttl_ht,sub_ttl_ttc)<§cs:3§>
+               	VALUES<§cs:3§>
+               	({Purchase_ID},{Product_Id},{Qte},{UOM_id},{Priceht},{Rem_val},{Vat_ID},{line_ttl_ht},{line_ttl_ttc})<§cs:3§>
+               ]
+               
+               sql_purchase_order_line_delete est une requête SQL = 
+               [
+               	DELETE FROM <§cs:3§>
+               	detaille_purchase<§cs:3§>
+               	WHERE<§cs:3§>
+               	detaille_purchase.IDPurchase = {Purchase_id}<§cs:3§>
+               ]
+               // ligne
+               sql_purchase_order_line_delete.Purchase_id = gnId_purchase
+               soit nrc = HExécuteRequêteSQL(sql_purchase_order_line_delete)
+               SI PAS nrc ALORS
+               	HErreurInfo(hErrComplet)
+               FIN
+               
+               SI TABLE_purchase_order_line..Occurrence > 0 ALORS
+               	POUR TOUTE LIGNE DE TABLE_purchase_order_line
+               		SI TABLE_purchase_order_line.COL_Id_product > 0 ALORS
+               			sql_purchase_order_line.Purchase_ID	= gnId_purchase
+               			sql_purchase_order_line.Product_Id	= TABLE_purchase_order_line.COL_Id_product
+               			sql_purchase_order_line.Qte			= TABLE_purchase_order_line.COL_Quantité
+               			sql_purchase_order_line.UOM_id		= TABLE_purchase_order_line.COL_ID_uom
+               			sql_purchase_order_line.Priceht		= TABLE_purchase_order_line.COL_Prix_HT
+               			sql_purchase_order_line.Rem_val		= TABLE_purchase_order_line.COL_Remise
+               			sql_purchase_order_line.Vat_ID		= TABLE_purchase_order_line.COL_Id_taxe
+               			sql_purchase_order_line.line_ttl_ht	= TABLE_purchase_order_line.COL_Sous_total_HT
+               			sql_purchase_order_line.line_ttl_ttc= TABLE_purchase_order_line.COL_Sous_total_HT + TABLE_purchase_order_line.COL_Total_taxe
+               			
+               			nrc = HExécuteRequêteSQL(sql_purchase_order_line)
+               			SI PAS nrc ALORS
+               				HErreurInfo(hErrComplet)
+               			FIN
+               		FIN
+               	FIN
+               FIN
+               
+               Update_num_Purchase_Order()
+               Verify_product_type(gnId_purchase)
+               Echo_purchase_order()
+               
+               //BTN_Modifier..Visible 	= Faux
+               //BTN_Save..Visible		= Faux
+               //BTN_Annuler..Visible	= Faux
+               //BTN_Draft..Visible		= Faux
+               //BTN_Supprimer..Visible	= Faux
+               //GR_roadMap..Visible		= Vrai
+               //BTN_Valider..Grisé 		= Vrai
+               //GR_All_fields..EnSaisie = Faux
+               //GR_Confirmé..Visible 	= Vrai
+               
+               Sablier(Faux)
+               
+               ToastSupprimeTout()
+               ToastAffiche("Opération réussi ",toastCourt,cvMilieu,chCentre,BleuFoncé)
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAADoWmSbzopcC+H53FhEou69rVn5NVnCj3alYpwboLqK2Df0lVe1o6YrJ1Tx4GXFLvGqxRRB+LVbIFScgUzW5vNh5AokE93A/EWL82ly7KUBQxew/ITkBuiT88fQPXRRRHnynP1ppz7rVOyIz9cz
+       controls :
+        -
+          name : BTN_Annuler
+          identifier : 0x2ed09f0008a87619
+          internal_properties : BQAAAAUAAADaMbP97vyapt5ie9IVeSHmZJ9ViiaNOh4TfKo9B9PDLgHI7DoHijwN1moBEL84LPDTW4sNXVnu+j/Em571vAmsUEc9qIQdxZu+j5bPYAmViJh9bAMoKErQ8IwWV+sIF5YFIECM+Zvnty2mFYZ+StRPkHvy1NN3u/lasoT+FzUnc/R/tSl7EqEYFbIL9gHZUgeZN3iYNaqz2CFZSIqdFd7Fkh2sotiybY5an/tGrTF71gPs1/yxqaBI5SuKE2AEeXohuNvp+llrlZXgNMQVL+EuaImo0XCyRjBqGdk+DxpjbooivlBjBp0idjXV0R+43IFA8aj4/eWOvzLqkxGIby14yGotJv2gHQe0AoZQmchkR8vUOgXJG6fF0PSBM8B6IlPf2qpA+ktRsGKjEHkGDJVGDOLSWH54oqy8CIfrSxtJUodRUmvXeZaU0/rUVIszaR1HliJg1W1+QLhjKM1lx4qujJih40MMN/DT4YjHNeLhtCvHXluRfdGgsOduf887rGjADlpF4nVj3PHSb2o92sDFFaOwTo8WiIrTg0TFtc2En8q+N7vPprpb5TrqTpXRMomnaJzqAl+pdJdjBGcT6ALvys/eIzSWG87Htz02QqZ2Xd3qtIbnvOZGAix/IsIvvRyuHBoppO7PyCb31vyiDL+GeuoIqtLZgJ2Q19r6YhWi1HTfu48CEhx3bz1jLfmw08wo/7bblxf7unjavmBCChEAsss+O0GXviJDfp6YFf7HS4w3oFXUTsR+hSrTf8f5DkHj0WKk/hZGzyxzR58uehvdZCn1MfU=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               sql_purchase_cancel est une requête SQL = 
+               [
+               	UPDATE <§cs:3§>
+               	Purchase<§cs:3§>
+               	SET<§cs:3§>
+               	Stat		= {Stat_Po},<§cs:3§>
+               	Etat		= {Etat_Po}<§cs:3§>
+               	WHERE<§cs:3§>
+               	Purchase.IDPurchase = {Param_PurchasID}<§cs:3§>
+               ]
+               
+               sql_purchase_cancel.Stat_Po	= Faux
+               sql_purchase_cancel.Etat_Po	= "Annuler"
+               sql_purchase_cancel.Param_PurchasID = gnId_purchase
+               
+               soit nrc = HExécuteRequêteSQL(sql_purchase_cancel)
+               SI PAS nrc  ALORS
+               	HErreurInfo(hErrComplet)
+               FIN
+               
+               BTN_Modifier..Visible 	= Faux
+               BTN_Save..Visible		= Faux
+               BTN_Annuler..Grisé		= Vrai
+               BTN_Draft..Visible		= Vrai
+               BTN_Supprimer..Visible	= Vrai
+               GR_roadMap..Visible		= Faux
+               BTN_Valider..Grisé 		= Vrai
+               GR_All_fields..EnSaisie = Faux
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAACWqEoNNMwSSRPP/r56gIQrM2cnd4dElWwjgL7h1jh4Tq0K41EDJYzBneJL7ltbZGfw8/IjhiK6HlYWEyo0mNFTjnxeYat6urM11WNAsu/PjRmihlIi6M75FaFim8rrIlssdi+/aXwtFqL+tSlN
+       controls :
+        -
+          name : BTN_Supprimer
+          identifier : 0x2ed0a2730906047f
+          internal_properties : BQAAAAUAAAA3MPq1i4nQXDWCbZBwdlaAsN2eyRo5KrinRbAeli04fsu7PkNiA0dn3LoQ9Qhvp+lwj0YlzSbAFJLizzDnqB25VYBh3h4XinFcTsGc/XgRUUYTHQuGtiYo/uarg8fWI6vyN6a04SY3O0vy17vHHpeUnR5/XWMuCNeGK34PYcPvpr+eGmVV3w1hN3X5xlTahEzyfJydUXN7slFzuTiP9+Nz5Z+y7a6g76+KCBSmLkOclTC3vNxEtWkJpUx/17zDfTdu6Bn5Bhho/JQ5dX52/EEvqH2GCua3HKh0DZMESM43JFaU4b386uWpam44EWQhTSeEQJrlQWhtJYf7GCR7X01laiUvPGc3vNkcPnlVEPESgo5+UEuKBFtuE0Sgxoz6WiLJbMxUIq2EHfDvgxuNM5U4lcrOHxzPVXFAOWkCIg/5WXnJeoQKYobn/kkh1/ZC+g3lAQmVkYGB0wxokTL3cUTpktiLDzRh4GC+WkZnDPX4YYOch0UEkXCaa5zobl8XRol2regalfp7WPtJQ8UY0k/MQFCqZXj7sGPxbviTIdzArxaV5SsHqHIdYKQkFVenS2NsdAs9aoFY6LxYOocBWoMuoF94KcD6E8WHtjnDYXe/MIFXbqbBDOGdBaUWvoXUxeo1c5aWSFOmNhD7VXVuaL4e4zMwetId7/3yBZiuARFJ3awxB4PGdw0HbbevG8JJgGr8Qw7SplNEZZNQdxL2P2CbhRfFdVyqp1BrReA9jZXHeYJGw//d4KqBiN05Ur+tkZsNJn4nYOF/DmxhuqOkAw==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               Sablier(Faux)
+               sql_purchase_delet est une requête SQL = 
+               [
+               	delete from <§cs:3§>
+               	Purchase<§cs:3§>
+               	where<§cs:3§>
+               	Purchase.IDPurchase = {Param_PurchasID}<§cs:3§>
+               ]
+               sql_purchase_delet.Param_PurchasID = gnId_purchase
+               
+               soit nrc = HExécuteRequêteSQL(sql_purchase_delet)
+               SI PAS nrc ALORS
+               	HErreurInfo(hErrComplet)
+               FIN
+               
+               Sablier(Faux)
+               ToastSupprimeTout()
+               ToastAffiche("Opération réussi ",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               
+               ferme_()
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+  -
+    name : LIB_total_ht_
+    identifier : 0x2ed0f3fe0c2dc1c1
+    internal_properties : BQAAAAUAAAA0GhC2+SHkbW9pwgQgnN0DMgCsisJ1h4h28GOgrm+ZVQ3ygBGEU/X/rt44sbDfML//M8Xj6xZACAa77X1t4jKAXs+LKLMMOtR1EYdNXsUgiStWSAMjN3qEgR58jeROD7oICaoZ72zqe2HjkZQiqVh5WbR7cZuaPjWtQVKEYDpLs+ZnMDWHUmeFrept6CZzooGL0VRrEIid9phimr9BhqQh0n3GiyrIUFJhtXIjdS6cDHtUzq9voze+uVEpkueDo2fEb7YIweaQaitscTW46Iwii/sxYZDghoejj+6wnQNuw2+mVTv+c8IRXqifNSIybgn34rFH44limRGMoEeA1CO1nBlSO6MzTQsB4TwH5fU4wiqvbzINqOsFp65M7KcYh5X6LXhMmmwAv2Pe43g0ZbDB+SNapl5RkywpI1CBNQjWwzGKgd6Lbh0XGuB+/ybxgJ8V9Z96xafLt58XUwuRV57m9053HRnIjmwa
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_total_ttc_
+    identifier : 0x2ed0f4180c3006a9
+    internal_properties : BQAAAAUAAABApjyS+CVe0jKZlr5enqebWJrft84PdcOOQKvYX0qAsYmu5FiWOWSYFyh9uDqKAn+77P+PV73QDgenDEi38t80BZFZ0E0BAKXxxrg6RbTO10EguIeab2UHGlaBxQwqP+fki8oVgc5rp2ycNZ+c6tmR0H5P4mQS0fZbsbLs+For0/bPKGXnmp9NdVpl1FkstclaQ8mMaJNBlCEUR2uj3MpdMko+JTMHFELmMUxn75Dli2WlY8eI1IGZ3q2IVUA03iJ84eKxgRIynzJtTgoHM7oMlIow9eolPgM0PrwlnQdqN4uyUa9q1xY9urSrIZ72enVhb8/VjIGA6xQRjtDSGkTUJfO8fjHMN8ITH9EllLP6nXNMhFq8hQTmGtt37AzMEPfmHr0KHnyGE5bt7az4ljhhtjx5lEivB7X6AtmOlOlvtt2bM04NN0h24zs4Mq6lgBfNLpLVaLtYwvY8eCgAVDvHk8fgHj3sqgjm
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_total_taxe_
+    identifier : 0x2ed0f41e0c3818ca
+    internal_properties : BQAAAAUAAABlHh5gvFL/B+86/2l+sUt72B7hq1/gOIo2VvGlWFE5qo5dXY14xRjaumGo2EspjxDZbPUuylG6Asg7T69sBoQHpai+bMzkR0asIXqxWoT5hGWLzwdiUDZ176nlHxC4pvfjWBhgJKr6V/tDlDNPH16EqYllB3dbaRkaITupksNVBZX6dAiWHhu9NJeB8Gl54ikVZHvdzhMzVyE83Q5Ts1Mod6z383jsRiByPrcotBosUPN3/LbGBWadOEzmiHf7IsqgamqG8TMb8VjM3t/ghCpAtB+AFmZyp9nAA7BKBkxcc5/fu3Z+msUtuEuB4rvncokRFj+SjKJd9XaYRunv8yzQe9byC/nlZPIJbG3cBx1PKt5M+yQhN4xzu4FuWGRSv0S56axXTItze4GhUqL6se80THEPIJXxKUnyx7f5wd7N0tCi+pWPg0YpVkGSFllk4qPZ7EUj+zAwLaeWDzqk6oyaw53LMJCKbO0=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_Num_order
+    identifier : 0x2ed093eb07163122
+    internal_properties : BQAAAAUAAAC04IqyuLR0kiplVl908ge5KfEBVrXqZsP8HiULMv70EIlquBJ8QtIm0g/ubBX58KQ8XH8AWlbvRjcR6lMzkQ77VdCpW14qgMP5f8rcCNPuT5Da7i2R4ZDfuXezQBW0Ed7RFgMwrQIBjGolYjVNFeZu9xEYkJqXdozIkZ87rs0igP43HaHYrby/qsyqI7Zb6QtuTR0QOPqID6SmrwFNPLCSFilnrdR71rxR3ye/u4HoV3VY+EgcuEE5BH2wYyrQNN+SIn/Qsgcuotyiy8jCAwo0SjXyr/0yLsfG8SfRCVVKLoPvwcWczjXF8W03devv6SixI+jObAwxXGWGjdUvdyK8ERi7paogtE+3CRWkpF1ZqdoLSWuBxd/p/AS8mtZl7TrJlIfzWA67eIkhh8Ut
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : COMBO_supplier
+    identifier : 0x2ed0987e074118e0
+    internal_properties : BQAAAAUAAADLLYqodkAXgKCyOi6Gfbmwk0+gRC5E21viAhf9XANIUhEvMfPjBEbYXMfHdAjQHeBkGCm5PXefVqDTyq6IvITUz7pFIp7UdJ/QxB0KpqCmMR+ZSdv3o/aYqXI6IJ0P6YVHApXJ3sLTRUtlOYfon1g4G3kle/TqXbQKyGhmTMbeamjmRqrB1VWCqQL+UDKcpCpSO7bdXk6eh4aD+J71cO37y191KrKao55t09KkO23jQ/Ia+U0a1w06nkDqaqo1KndgfMsBOA0qGdCj9udKGCAi8ld6ik/3uJQXqQVAbz7eJm91dPdCA3OwcBve6eSAGE0+GepQeyMLzgDQeWxCCA4LgIwDtAgtfZ0v0soVGI28/Z4idv0morSXpPMLh267c19ytjE/CJAt9G7kaSNqguteWD1Bbi3dljvjxc46/vxL2yKMP7DA873M+2jsQ+aXEP5Dp5kjCk8/bstDCXmgTnFfLOSn/HEveRNZjUwKxKuK65QYmqw/zazHv+AIhxFBcXGmtenuS6EPG7578ZrRIa7CTDG36eUNhCOgiviXvcqysHnTxdwXGd07iLsS+vGyTdnBV18gbBSLbz78NOov23YyAG8LZ0tF+at0RtEdyMxORJaZI760QVoWoHB3amoviRNVcitqxWNEpVtslAYt15V6nlqYyDHqlb3x3dlO+lT+5FdvTF967YCf3Hen3keYX0xi3kIZLkF4dWwo7q7TZXvxkM+tCnzDcp7Jeik+OF5vmDDp4KPJkNgBroj/sHFA5gI++sRxTEvvUO4+ZXuHDxcpXSd1RSxVHmDQjjgWeOw8SJnTL6QvwWXzn3/5yGplyGb/DSCpo5OPjAA8yRE7DcoqcFv1GeADKFiBuoloyXr88OrlsfG+rWKG0JUP0TFzvh1213mxWTYq6kGlELglV7yhO/3IaM7TQrTj0dXi/jzbpfQtAMU74OHqrZsFpKeIZWtjr+QcASr4ilaRaRjhSIzGSpknylvDCxuucF3TVHcRPJJtUHPZLqTL25homkRp2aW7yDpHhR5jen6jPFiszO+bSrCYM1ykdqB7KgSsPLBp8e/orQ/mkXUKKEVue/zHCfKnlw2P+BddcGSaA1kYVo3uLBg+22LuOBXcfA2/pgll+n2WVYO6OsXVpZiCl6EQM7PXAyQjsNmwlwME2EBtV/mPcp88xMVbp8Z3akgDm7FcPFO7BobuxZyq9sxkEbORs6taCKri+4vOAOohSNWg4GLFouQWfrddtgoruamB1t3ePxqWVdq8nZx5hVzFATxdONrjSRIr0WRwYhvNGaGh66ye2JsY08D2CGEO+XRk/AARVkA2zmf65Dxnc+3MO71g3Kc7mqNU+lvO5Lhs8l1yytar2Oj9wElSFwnCt1wwtUe4T2l7v9wpg7gcr3D5+PLkEy4MdyGLAc/bAH2ckgW8xGUaoRvKPZI7Vzw1ILvEdAu88Ki9jwoyB7ifH/DU2k5zkJzgA40N1vSIiZNIH5d5QpST99732kpsCaWPp+6mXEdGcTf6ntZ2i+TpdipStNA=
+    input :
+     internal_properties : BQAAAAUAAACnXptgmpykcb3ud2kLvctrfAU3/lsZ4W9ABLjwfWZqxICR8GpQbv/mxWtqXOpbQCwJfwmbqFRZylByjq1rIe86Dc2e7JsKjOOHFV4F/ixvu2uuFQ+nUbL3PUhGPmkxxUgvAeU71W4s2pAb/yRr0VN6tPIcUIxMgs/0s2/PtbYnY+qYSVkdcZMnSVFBYbShHuhQuN6lV/uGITXXpxrUERe7LUooc/Z6o4QGFn9KxDLY/M3IJC1NthgTSGLs9iSCNu2Tv7wyAlrLiHpT9cRsle14Rz9+fUef4Iq5xvahY5ztWaqTHjdkP2C1911hS3Sz2nC9Hx/NWjXbVgMnaiLBEkJzx7ahoq1mLja/CE9x7j+lZ+EoY6V9WMETOYlcyljO556/DzTpPlOBCinzZ4fTYaKlv2E17vlFeE4IzkYniCetcUG1RpeOQcl7D7tabAa+gwnSbEb/AAwFll/L
+     type : 2
+    dropdown :
+     internal_properties : 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
+     columns :
+      -
+        name : COL_IDPartners
+        identifier : 0x2ed0987e074218e0
+        internal_properties : BQAAAAUAAAAf1UAxUC2EiXgzYEXWLFUfqcD6Ib1rszJ4wAkGbo2K5cPpPAvQ6QdQ1WcpUT8e5NYMhrLBn2yWYSn5jsnDOShd+mPSeLwwnfrA08dnvlVPKJwn3XBa6+2Y5iFbrT+46IK7zQapHPGhuFrI7PzFIAcN7MGmlW8skrHe8sCKI2tcMA31dDiKwx0rzqO4qX/UwGcCSXolx/UZ+w80oDGRqRydh5NvA7O43HlmBfYVItRbeFaNpQb12h/tJ3LQeXCcTuXRJ3nThzyIE3+oiUh9YzY+fmGSRCv5tZ13
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAACUmLUwBuNxrq0vvzWaM60GGGlSWgtsfggAMNC83DOSHC8PEm1IzNV36ESqGrFeCNodXonVVFlrHXWB5OpIwoH68Ve0Cu29IGwSveP08wGZVjckrhrXY4TKZldW4ATh0f076oLx8WzPKQBbPg0FCIMCb43E2UV6NG3FbD+H6McvASFfOMGLk0rGNMImneCtus67W95UGh3kghcvbU9PgU0AJQ14rpE4AmLRkG2wijz26/lbPLnp3nqEgxMyHf8aSy0p2WgWHKMNEblwoXjAbDJKwmhxEV+NOUJRAdIMMt6WpOPRpEi533iVJw+IOgrxz2t+Wnhs2YlP41yB2xkUi/mA9B27m2Ed/zj2RFEwFyTT0gvIYkRmRu8z6AUp/NRHMgkuwBIDsgFc6+BE+mUb6MfHFhk2GivQT9NOt2A3xCVWwO9Tab42uK2dk01lZ+stdmJO4dOltFFI335kGVfun7DfPPWaPZCiuXnQTQwfVqBEefz1/0Y3/qQqNt4=
+         type : 2
+      -
+        name : COL_Name
+        identifier : 0x2ed0987e074318e0
+        internal_properties : BQAAAAUAAADVJTP58U1ZiMC/2eGOhi57oy1BJpkv9rNgrhrxxA+JNnWBpI3Ur0aObjrt3V+KMy0Fq9WrQND3AciPlQ1VmqaCl5trs7/o36/8CrDt9jzkCfB4QVuC1JCWsKrN2KfWS+CjmHRckikV129Yl7/noxwbGuRQyuXkHS5gw/nslpmeAhR1RSjuoCwR8g/SmCNmGtUqPLNwgy4kGJzZ+/DTBpU3LUmu+Smw
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAACkw3IHYQh7hQ27eg5BmQPaDTJBH4EHzFDvKGEmV0ZlxzcLcXTwt1E6ZQlTFVr9C+0ZzJrY+3jcct6fNsl72CW4vYsO/+dEjzN2ySqmL7R5EpHydm87FlQV0y4li5UJW+9agg2tOjliBsuNzF9nY8WqL5Rp0cfXDYey9JTzuUM6NN4sqHs5obZCogPimo9DqYXp41kyAOkYWVTE/Bv43a25wxADpS9+iZxw2Fe7VIEs9KQlo4jMACfSpS75L9iDjREd8h6vHXIuSGoWZ9dTOUKMlEFhqmz4WIuoxUpTdZvyspl4cMVGCuOmttvmq/XmYX/kwabNIgCA6hnZ2db1anWK9BT1XH6YOAOP7DP9FB87wGnpfOFxI3B6be3vf4X+dHWyuWLurZ2or53wCl7dV0rPZoQuQRoaj3ODSYd645HvgOvaV4DyYv6VLv8B+MsYkkbvN6tqna+AiFVYdIrp7KCEVoinXA==
+         type : 2
+     breaks : []
+     type : 9
+    type : 70
+    controls : []
+    code_elements :
+     type_code : 23
+     p_codes : []
+  -
+    name : BTN_frn
+    identifier : 0x2ed4baac07bf5c77
+    internal_properties : BQAAAAUAAAAi2NBay0TybqUtSkZXsIwujE4m0Pe5vDFUArGwTDFSWEpWEGJ4eWNZ2U82wdFj2WZEwl7w11Qhdl/yRmvtUnV0jfRkJshaTe3Ky3qWFqOO6QatavE1mB/6K5W3aHjIz7zOzJIyQrO4I6LP5zDnhAH54lAx17r+55gVOeJBNdohk/CLLpSSk0EHuVOVpB5csU5R4rh51Rb73X08KNeKSYX6K6cRQEMqbIpcc+sl8vIBqC/7Dxyxq4Xg9Vma7O9j6uFOH1q+wr41fdgtkaGd0M8uRBF6X9EdtDIDeVm7SeIvt5j8Llc9oJS8IHpZFbj1yRIZRFjOPAu9lDypsXRAstHY/qou6ElZfRJhnwYAyLaqeDjthMmcViDJZSM/GFt5wVnvRyNgWWwmMAuzqXGtOyUxX2DruNVuOsE1uPCxjM/gtDo7WA6DPppmncTQHrdZ2YkibJwh0wC+oouIG7mfZKdPVk5jdXpaxDQQhiDVNxyooDSwkFHea87+SceQqMT7XccU1INxSdn1UnQ4tClsvWn0yWG1L6cHu3TMVsdugVeZIcK8mpsA1AGJVZ0I2SCI4z3TVse8ZVMLRIEtsZZVkIApHcQ/nzZRrCXHhcFzentv3pAtHyFawS7Fm2WQlSgxe6uWYhqmkqOPhkLGtkZIf0AJ2KLDFk8Fx8QkA0nLay6/0CKCUeGXWK9bgBdJTXapzS2kh91UAvWP0xb7E/mkGe8JAmkXwvJEb/0yYCan3dYW4wmTy9r5zO8I+9NtsxEgBIzb5GBsnx6AOqWPuJjKQXqvuSuau30wzsWc5m7Wda7x60wSmO6rJbDs6bWWzSbPuYuV91QdCySXZpSfNje8mr0FSfW/7Lde/CnjxyqV3jnOA+Uu3Fchn2sAazU57ColZrsByJJsaKiiDxCBVnv1LOdM/TE12EFL4EKB3IbgM7w614ZdHi5MMOIi64PnKapGcXhxVj+ofLxpGVs1zLyXch4/McitZlABPKFoIq0qrfo77VtKvCaQQqCr90Zn5ZiDncfzc0ArOS+N7mm66NlSeua0ehklNDkvc2SD/Px8FHdClbIuZAjvEX0LWhgjZd2JuXsBCPxE+3G4RrIdtqIr6F89hKc5UC3a5jEgpl8tEkys2VDPoeDiqNo1rDbMyt3Oj/EjiC1GMXYTIg==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         soit indcs = COMBO_supplier.COL_IDPartners
+         si indcs > 0 ALORS
+         	 Ouvre(FEN_Partner,Faux,indcs)
+         sinon
+         	 Ouvre(FEN_Partner,Vrai,0)	
+         FIN
+         Echo_suplyer()
+         ListeAffiche_COMBO_supplier()
+         soit rang_id = TableCherche(COMBO_supplier.COL_IDPartners,indcs,rechercheIdentique)
+         si rang_id > 0 ALORS
+         	ListeSelectPlus(COMBO_supplier,rang_id)
+         FIN
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : DISP_SansNom2
+    identifier : 0x2ed4c99f05dce8ed
+    internal_properties : BQAAAAUAAADFnbAyE31fOYryocT5EHeMic9XUHZpXFffUUik1saF5HI8f9yqldSirCdPGTi/HAXb0MdlcI4wOaDBAV6UrD0Edt0bq3nw1Z9FoeULWBEG4d2hTvPlQvpUCNGW2OGQmYyqTPsUWXFTv4+DA5PjBqOIXzuKw8qLgA6RRNBf6ZbUOd/Wte5GeN5Bft4lYZLn7LrRNuNWSirV69CRp7jpyE1Cfc/snBpOvSWyrV8TloTsjzQ3ER47G1GXu+hPUs4BYIfb99R33ojbWEpz+IEz8A4KN320hKcVeXjfnve8+JHaQPmgrXMk0ik08PzIL/6Qx6X7IzmwZUmDcQfIfK/PKSPl2TsrvSkAJjQRg6/yLl84M8l0jtNU0resKSFujdUUdTIS9wclCXlRCjkF06w4wsZGoF5mjCRgJyESoVcGVltcaagWZ8aJJjZABqJZjKuLtfL8Ut2BIeyMWggORrxtOjIxpt7o4LFCOEjbA8E+8WolnLfUqO/r6hKg7eQVwjn7fsHB7h8pUSSA5fUXVbqHZR/axOvlqeRxjtiInMzmEMCXInOmfzkoxpy5c7nSLs52QyjKFKVq+/32kRCiCu8//Iu/pf3kUhO2PDjwaO6JDilNr8Nu8HmZsbbObyB00UKbqlNPzVkk98bBUWQ6nM6VoKyOiYhCPU4KNAvpGT7Lt6mvw4/nDHEWWvQIv05WHQpj+0odxEQ=
+    cells :
+     -
+       internal_properties : BQAAAAUAAAAxPrTneMJHsYR9bAxK3XYgX7R1W4yjpRU9bua/c5NVrCry0XohEoNFOOhjKwrjXhjg5TtaTi390Iyl6wW86N1qHW6RRFMYGH139s8rRCtnWpp4w5dmThw/G8LsDu7P/pc6P1M95LvOF98IIA==
+       controls :
+        -
+          name : SAI_Date1
+          identifier : 0x2ed4c96005bec1e2
+          internal_properties : BQAAAAUAAABbQ1OEpCmAVmNsv7atcmsy+Zqf8VE8ObIuSlRZMW8EEdxjpWOF9rpEzhcJKgeg85VGSyDZ+nkZA1TH7eV5UNnjSthDIHCcn4qddPWLnMCdnukHljuDqY9BwYG44DfsXEhzTcclGER6xXDELPJOOix8dAV7/sE4egxggC1IOSOaXlWrbJ+Ozoaqpsx0ZnGZPh5U2OyX3uMN/5eK0mkY6gThnBSs9hntSoiTrsY2rcm2OUfYY0BlcAyYH3OAptU8iARLwxBGxUm41FM9CQBuqggkyJrQxMjBOsTj3ZwsHdxzweuVE+1EpgSm6jvo9csRkMbPVaZT+bzUwhr5A3a3EGCCmawTOiE0dS6Z+0vnPpkgqkgl9QRN0Cbumfi6egxzSB0G/lYX7nHJHMdRo9f56Eu0qZNTAQ+EzHWBJKTQE0flYScsrZtVQe4eE2f8uixnC5xaQTEukjLiGkxtP3mES+AkIFUAj66uPpMdOosxemVEVilxWXOIgIlZKxunE59v7PzqS/97kZgXDPmnASwurwGwoan969AQkatpFYOE6A9VK2Orabp/3v9EG4acd+cIRMoCm1oqOebh1Da/bI1PiZU/A0hi7jYKOe+OaA90WOh46yOuAEUHDF9dYqW8SW2XqoYaaecWxHSCTXMU0WhJB8z3QYrQqQhoz/ytRit6Xd+578fNySh4IHm/Jus8gmAQxl7jHXghNNE9GSp+/xlBCuJPx943NRcsC70VL+pBXOU5zhEsfbPsoeU0vfvLT+9DAfSyfgm/WVfDaSsZk+q+P9S61ubN/QcU4g3u0gbLyrPgZy8yaJREYB6R1EgAQM27HQ74LgMyjOqRZ3G6hKW73gQLP+cpxfywBXOjFcIOap7MoZQHQEIMp6pMIdBrrN7vGeGOmZwjFgwu1c+Qi46l5pKRs+AuwzsL/QjokYDujcbe+DGWNO+hsG0RBn9l4qQlZUSZMPP9NFpTOx/TYGu9vRa3T4s3G9lY158Rd1z10Qa34pACOQwdK2A6mzEWphXBafIIdRKO71et9dwHVu/arsm3t/qil03M7Jkg5l5fR+GqBNlWwM7Wz+hTObndwlSpEgDaMMPfecrI3nY6qfTEewt7tGVzbygC/tGVCzgb2Rfi+mavD2uRWiXd9+5RyAQl7pa4fQUmOVvOwt8xhc3eMt69+cvTm9KLgr4M9H8U
+          calendar :
+           internal_properties : BQAAAAUAAACn92VylsTTC3/dSu7d0YH4O4E5nc7Yq7aXk5lLFMF7nuJQO3Dd+Ft5QGTqW2Jlh/4Sq3JxKyPXPVZv/Sk4GqDjAQTMyob5K3xsj/AIvfYU+VZiD1nvT5iTJiC1EfzagxkjfsAXGeO1snc4sQ9tQ2H5wfEbDz4S5Qw6IHaMOzK0hbtUuz/6MJWsfrDINpvCwCZ/tyFkAeHMg6k9MVtxhq8/7S08LMrU1PRc/Vu3cxHIe28Rdtjs+n//5EiwozBIiZDFrXmwDYgNRcqPFJXfAS4Km0YRoWE56eouLTCs82AmZuhnFqlJ+RFj9XU/2Xg1LnmoE+st1nXRatAIpsnHU1AYa2eBu9CHC2I6RSNZqEgWJbHO/zETvuGgwu2CmzgPV4qo5HJV8yiCZn7O5wgbAulsRNuhCtMXYa4KFJt0duY9CDD9tBHLJzVqilkzgbmAcHd8Z3mt3gnKskLBWJ9H/7Y5aNNMy5jKQyUVBT3mRYb2QoQTSCpkQ2A/Cu93HNV8x9Y29RU4YlBh1JYpvXLGmzloeiweVRQa87F6OEKkAuwOhrrc2tKnddLCeM48CDrn1AJcSEplR7Un1YkITL/ul4VetD6ruN979Z22h5RSNi69gtEqMAbhViy6XBsBOzTVn1/bXC8ii5xNGPkO4oiAd+wPHvHO3GlXm4hdDbSL4lZgQpXXxv5XqtYJmCMSp1IcJwxKAsour+oQ1xznyRyaL7kU/VWXHb3AFLz27TxXJy/LVTz6/0N3kU+zaCoI/s/u9ukywWnPDNr3+VoGTCyN7E8SYstnqE4RqYOjZyFOZMuoFWp/1FufTdgmuhekkS9QjPRzHvY7jHQgJPKwd7+0jkdAJSZfJn0yD60++7J9AAm1yb5KTi2LJ2x+nDTOrOmX6IvEkMzG5x5dBMD9keF6ZUvnWbBTMvkCN0cWmXPwLiBtE6ik6oRSzPlgr60QWB9X/+iJ7WuSdI0T3TE1ULfKyVUkHzggrrEA2PtWfbIhaErp+F4DwE7lamZEoM6Ni3Uf0ocCj8Y/ohwoaVALE2M4je0hYPsd3EOqRORkF4AEPArx+QmWUi7bNA6JUU5kaTNo90XBpqIhCKlqu7ZnIl37ZPVqZ6GTE81JXJR1+Ey4tfCyrr/1vTDz2tDTh8pFOh01mDjAr3EmQTlObecYYfONdkQJcuOaopSWJywHLbw01YdOltsg51mpAlBcj8fwZpa+bqFnSLfwUEDdkythp3q+I8H49M/1ODL9SthF29JHKpaq5T7UMkllwbArmIdrcd1od8zcIK5Hoz082mlMfoRj2LcY45BT5LAJqNOunylw4/7X1cpGpnFQrKDBqw0N07Us2XLk0R4s1+yiFa0xNnwveEF5bcX2E0DkbDloJFYEAy1pCGH/CiDIOf9yPP8bOJOOL7d88CKQk6yU0h+ceLOAgGIuvjsOm0hRs0bBVcuRtGGBmIzCauGnljs1ZIae
+           type : 47
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : SAI_Note
+          identifier : 0x2ed4bc050880b201
+          internal_properties : BQAAAAUAAAASAxMJbg5BQnUY+hVU8VoUdrVzsQLlCPKTPy90jhHmxsw++0R2hEiEYH0aypIZdfhm0nTPP6SYqmWUruYCJL0/0GiwF90VvocZEqJII4NiRctheHcbJvprzjxyI3SS+S0NcEFi1kyZC8j8zjX4biM7SAnbmY0cLzAQQRjm0OTa6bQWAUTSHsE1OkgMrQcQ/WiKokezfUJ0EHomrwYPEFBpkLaTmgasPXcrHZkYkHE9hYjsnSl5EOk+lm17mD9kFNvTMb5LMxn5rc6v2w1K05Cs5anuSN+kaQkq80OUM+zePBAQYzyd2YNlwTiRBPIdJCHQZ5zhXvf/5/SaXaDvgkcSh/ZoBW/Gtm4P4czBou/JluMcU9Rv1AtqZh5hkjCZiH8jrsDbapY8/mOQ1oklekUIDGbKSQEW+VxOURHQiiyafQIRKvlyBWHbpIw/RpfFvOEzmaBSi725Tf4+RqnTO+ZlXPqpdOHhju4Pa4LVKe/YMiwlg7DuPxarrzKhgWOuldITbT4TfVpPS7yB9EJcrazkPVThrGNtHmWlt20efWVshWHtMNS6Tf00FUnaVp44ZWa4IOxznbyFfwLleev32Oa9uCzqMr5rqakM63XY/qC9fcnnWyOgE3qAv9IekIUGR8TCngzq2GdQcH2QEoZenuXSoRKyyJW/N3hhQgsveThJ5pmpFFxAxUfc4rwk7QonvM5+h16xVPlvtA6fjJOi1+E59hmUkILLtuSO1qW0oYJJBPJvCRaQtcznYSNFRyTYMlxJXet4kExYTxbwRZMhGOGG9xHVj4DAVRuKZ6aeD7D7b03w/DDSBQmZAAvG6USJZqKuj6ygdEebQrlnm95nNSj+gSLiRQ2zMKJ+RZE/Lg7ue7TqhZHAYY3kB0VgA63pGWyxX3oWzr7j3irkucy+4pwDUaYAH4OT+XmxfmocqzxMhlNMTO7JqTz1E6/rwqaLbli2q1X3d+Dz8qZOKVNwRcaiR6LrmmQ618BftVdehJrj5xVeLAOHCJm9CnBU/GqkAV9Ymn4x/4uTUwaSzsMpTwJmcC4NRF55KtNVXVj0ZzVHyN91GKg5mh2V0Hg=
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAADahaeWqXUujiHaa2nTLNxn1nP0nOVUtPiYf8ceONBmm30ZIDu2b/ZYl9UkTvvk/9cDOGKrf5v/XAglUf0kmqM8XzLTvJPK9lFzxh2b9GW1NPjkrbcGyHKXc2ZGqq3w5/63FFSgRxSP2kqjSw==
+       controls :
+        -
+          name : BTN_Invoice
+          identifier : 0x2ed4bbcb07fca4c7
+          internal_properties : BQAAAAUAAABwSIhIGd8rTCiSBkcRX6uCtj2J8r/2JIFCOMBV7k17FLtBwHWKtCG6JGqeEoINYectMzM8pOBE/fjfb76qKFfcyJxCxj748QC31CuAvcT0TTS8xx9pYr6WlftWjIMOg0mnvCnJgheCU/8Wuw49CNrvIEUj3ouIEAUOH7Wczh6aLKXES2zwWi2WEHomP7dYXXSbhqPZliUE7/zPCZzjTmeqAo01bfNFnUDIYm2caFbbVmWflCjUcjosFkE/AmA9VuAqL6kIEp5111gH9ZT85seVkCEaiJIBV2pBz00/qfZpjBvoe0OjB3naZKpvC3BBvl/9rbixUBKYaD/4L0nloLYAxunk4jcxQvUzx2s5PO3BsORW/aZI9pT4ZwajZNhgpYXX//VTcWSYHye2/IXnxZ+rwYV/qLq07SbysZoo3kGGwppWsUa4hibZQpGALZ3k7u8kEhSd1+/lXvMdQpmr1E/KJLYfpdgF5h3DZ6Vd83DkcFMVj774YYNo4WCHJB6zFooS+/YSl5eoQEqkpAeyG9fsPuCyPPsQfXjbyGZYQ3F/zj0GoN7Ch23rzGQS8KXeG49LKyhTVHXWWnArZ01oWxvwknmdJCWpOsWnvKOutwnMNI5Ww2R+gUkpWhcuzOuQ4ItoPY9TJmfCIFCxDivkjx/LgK6WX4nk+bYBCZVr2YS3OPkkekJ3WjKhZ8yKTBYD38o35rNTPkxb8E+AL5YwrE5MF1MclSPWczVApGCtbx6T+kr+yMPyoSGsnWFtRioX9PlY41Vv150iRkr8zlvXyNOdFi7bU4/oqCYtQYRNOKvav1SIxb9HiNpytedhklyGmkxffFkVTp3nD6NphV4Tdj9cBHhnkbuJOhqThqOLTUxrfHl5IxLuBwbPvHI5hgwnkHNazjCUSIdXK+0/4oEllr+Uy3geW+0Pkn4JliIWxltYjL4gSMOCRUZ2N8ayOs4oQk5hDugnG89sjYEpPyKjOitz1XLaapJ0HYa6w97mhr+0qKkvX/Lx4NNoj2SDsCB+CAZSj9oMBBp9j3yDAG1jWatqpjsGmvZwpoRTRt5lKKSfNhj9dx3CkVuh/3EnzI/b8gSFs9TQ7dNR+8OGXVhRjT7LvN11Ib9PGKrF6GDh549bB66lE2FJ1UJU6Ua4f8aCJj6J+Na4ZjqxklW1oGTpHjn3dRtP8mU2bhW2ax7faVNYIy7PJsibEaWJ9uxLCL18eGL/lFgNKyKyfb/M7VZreJC+9BpgWQQVNdDQYXteJW6QHy2e8cm0iF+K/qBXNPdn7GTrRTuiDsGvu8LM8QBAC9yG9h2HAhrKRFSBhoRad1+TAX2nfvSXO0WJXp1fcT2F0xuQDCE6CKETLBgkufKPtmaQBdnp28PfPsQeDgKbaI40uKHsRY1V+daqTC02ROdNW37NBBMUrn//8HU/Si9SOM+vmDWyjsmV4P1blxKOkEIWWXhrZLQUHiGg+ZVubvpi2fYRDFUmqVELN4yxT6oc/ZH1OPFK+vlh8wLfs4ExXmgQ5AYnsltfKY3xtiNNW7VZy0RnSzYAuPwrSeTLcbBEpfxJHGsS83v1QfmTV6CehcD+NyplINdOVCjx7HvYfXUUIJ4eMiI7TqR4bno7vQcHcf/BN8XycMFe9Q+tUMAZ2EDa42ft1Eyg7M6nGFvFTShQHJbO+0i3aiPpAogdBpNQIOpPhUnR6XG/SxnnNdG8jAC1XVDH8WSnF6XRoiR3AlG4orJ6kVAzDUn8F+ps7mcpfGRWKZayi4BgzJ8FQLT9Z6ZURFcD3XIqMGiKajOkWKKZGny58RXyqBmlBdgI9FGU6C5eamhgVPryrGxkDVMO3RbFCfBu0WKmF19DGHPsybtD/Ds+9jt6qW1GZDnmuf5TSeaTshm8iU0oaKUCXSKbp265VVLgfAk=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               //Ouvre(FEN_Stock_per_produit,gnId_article)
+               
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAAAaLNYZQAjelbgpLF6Ks5DL+htlt3UM3xI9+VyedVnZ7czpQPBiBOPgvMu8l+rI8dKjjneW/f6zoQnZhr+BK0TAHYNVeoxZm5LUNMIhU05uLrjBqVcVP++mxmylbJDpuPhzTWpW3cBp0m4KQaXB
+       controls :
+        -
+          name : BTN_reception
+          identifier : 0x2ed4bbcb07fea4d7
+          internal_properties : BQAAAAUAAADLC4iQ2QYb03Prg6mUT74uJ01543LiyztVW0umu627HaZ63z6gcbb2v2Wo70OVGGke1VFORl9oLUbBugTBTEJX5Hct8qCYbw+sEDCmRMyLO1lCPZCJs0gQjOPJ4/7MB4E/6u/P41cf7648Dk/jlKFQx9aNJBTqoxquy3pZ41L4lITlVCHz7ecWY/tuLsVHp9S4v8BX+CIVnVx1lyaqtNKfQ7FMWDzwM3yUb//tZ1vQJkJZO7D4ovLkYJ/P3WL/kL8aYE2bDeNSnUwnJmH4iePm4D70nb2DQddwtJzyVcTPvPmwBKOxNE5xRNsKuVYM2AniQdIZF3bmVqB2Q2pMqEgzks4MieBKht2/DeKjWQk3bRSta6hdLU6EhC5D17X7mq1WfxeMTNNeJO97lSWuc1veUPYQneNQronLH3DgceNG20RwbJs1GGrkzujDVJlriKp4+D6TM17tR8KhA6BCMF6oRFPsB7Z8CcudpJZcnLZeDGjzD7tfSJSYtKWLW4rpfPaccXKvaiWFRuOUbpfAKnjO4KyWBpTuGzOTPXopKnR88b3I2qI29xkTZIt67t5KRTy3dmlVMV762udynbABR07yEckVzoa3TBeTQw+3OVIhvsIrHT0/66Femu09ZAHrc9LS7Q9qJgsLAATZv9U7dyWTkpta7GQoO6TmX5uzoCeAzoH3JkoaW2zvlX7RJsrcgXPPDExpHEqZKHyNVQWi/rNjhYzLboLA29xmyN0W4kAh4RBi03BwYAWztENBe1Ng1DO6QIyuo8Wj0Q3McTt8uxs6melIjbgwyfiCBo4RfynH51vuzBYnT35gf6N3Dn2VTJWizgTxVthknEcGd9YEGOqFBhCvezN8GvVx+bb4ZytYiUobkk2on1HYXigwBMHe+JZBSX/6f1A2TthbzJQxvjmfY29f3qq3eL1ECT7h2uTuTq/g6uGSIXRH3m3ZhZfCQ7cn5cu/h2w0eS6HE26lerR6IaUBPV/s8I2mIr6urxwewmFofEqjoAaDC8pxRb5YHR5caUXjLH5AuiEnZI1RxzsvOYP2vfBHv43V1JKY9vtX26i9XcNnSIQOcaLZ8ZiHkMcxEr5/XStPt5T5DS6cuWz0aDfCWJ0Qykr3Bh3x2GocD+NkWgBQYT/0QVyEhZ+h+Rjs+M6ztswG0ETwLgIx87DmxueUuBrHlvz7AW6PxONme4IiBFZ5hSvpesW/4ugrUPXHJWew8MDThCMh/OolmhpuhxDN4swgSbFXg6GcgfY8hxzdqwyt9vMBHOyKUo7EnqhUicYzq8iWsuh7/C8skpjk+nC/0UH/QajoNkqpAeikbNnbHmACzPjM3q1YYeZrZwccmAn9UnGwzImFoMb20pfRAWIi7jPN5Ue7FmgwZdL4swEJjHWq+FhKRoKnbZioZdgAzvaRjRRm0Q8Q4/FNWWcdpIKbeI94pfRZOHOeg5w26/c1UnDIFpTjAcGap1Jwp/vhjPSoKCqVQoIqYezikx7UR9gc1iQvgnWWLj6T7j1jdFiKaBf44LTXMeYYO3jqpHy1oUTcc6XwKu6j/71pu2hB3oOULmz0H8VkgTiQIhzeqfkBpvg99dS21p/cKd4GL36rQtP7edhLN4yPhO3NkKrCxem9+Cx5QMxAK1o+IxlN1zgczx1ReTd2DLizEJ6sRxfX254em5bjnqzvBpWATK7HbNkOTx1FxVvrzhpsuEzusGzy7b3YTb9rlxN+SvsK2r5BLVmv6A+dwEKN/K9NdiZNp3sN5HgKBXO11beqVitlk66Ht78n55pU07ZMoKi0b5/+WhjsJjrjvKScaNH9r7BD88fYp5uVWb+DeqFT4YtDEY2lp1n77XfO8CyOXJZX/sX41k56ky9B79s3BAKPKVbvTeOdqx0ED1mtt2DuEAqKMP46
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               Sablier(Vrai)
+               sql_verifie_si_existe_operation est une requête SQL = 
+               [
+               	select <§cs:3§>
+               	Operation_type_move.IDOperation_type_move<§cs:3§>
+               	from<§cs:3§>
+               	Operation_type_move<§cs:3§>
+               	where<§cs:3§>
+               	Operation_type_move.IDPurchase = {Parm_purchaseID}<§cs:3§>
+               ]
+               
+               sql_verifie_si_existe_operation.Parm_purchaseID = gnId_purchase
+               soit nrc = HExécuteRequêteSQL(sql_verifie_si_existe_operation)
+               si pas nrc ALORS
+               	HErreurInfo(hErrComplet)
+               sinon si HNbEnr(sql_verifie_si_existe_operation) = 0
+               	Add_operation_move()
+               FIN
+               
+               Sablier(Faux)
+               soit idpurchase est un entier sur 8 octets = gnId_purchase
+               Ouvre(FEN_type_operation,Faux,idpurchase,LIB_Num_order)
+               
+               Echo_purchase_order()
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+  -
+    name : COMBO_Articles
+    identifier : 0x2ed13904200eb6f0
+    internal_properties : BQAAAAUAAACyvFc020IAYnKC9LEkiHNYDvDXnBxAXlDwWbu1W/fo7wpueyxlWyhaxNI6xnPQvG5VPKK8u6ZnCBXSSPLgekwf1Q/0voKJFj2TKq7h3sZAQqH6z08iPGu25PGbJpjz1hwCtCx59M3NB6bLCcOwnJk21uZEwQSMWTeoLvXHFe67zOwMYtfJEKRYImYx7B0C6VO2HjZvD+EpTBiGrnFOpjr0+D3gd0gpvitAGshXRTsWq7sxPg0iKXN3I0fiN5IsCH9LTTpepyP3yG+H2YGcBv+jRLq9DUIOesxKufdjqShPpOvmBl4qV5tfIa+maRDKMGLbBVWWVgXB/PUn8e+ELu1NOFOpzFjH3eyIf0wz2n21SKg3OpCQ4jpfIxAwZcApI7w/hOTaLT6f/cQ4yU4KYiVVPKYWRd5KneAe5LQ5kGHcChqTuRP1ig9IknTBbGwp4SpHRk5AMpVF46sgelyLUcNg71qcIfOdabh8p+Adxp6ev+SuwBXpQgcFYvC+7TmS4a5j5lxCNuAT9DFIy3tuV2tEIk4Gni0nFTlqWQhVP20f9s6GYf/ZUkVLMZkZbz/qVqTF6TQNyL2ssoyqnS79JDn77udq56YJ4pc5164nQrKPL2+ccbsiwFTETRe5oAtz6v7aMjN1bI15DfHjiQvz6OfzmGcxHOx9KLV0RLUn1sG5Dz44qdPCWXwAo9XPKteDLxF7c7A8NR/1z2VMAIRNxpnsnFScc48VDPLEAbnZW00YB6AiUweb79yMV+ZDFBdGgVB4jVM39BRKwxmxyEUgweQncq0R3GbFAzq5qFH0r5+FYS2QvCvbwpwCsU3yboryQZfrEGaQb6qFtTRqTLDHz221rODrdjydPf83y/kSxOWx/VR2tqV7DjR+307pwxuUh3y6jMZA9zKG/+BQ/sQI/ACZKoCbj0zVxQwmGAOnaeDJOruV8/io1CxTurVB8Nn3N4lv5CrZJ+0/Ls2eB94+EGpNjJZr6vfyWl24t52rTI1+v6D43PAHOK7ZdafdR/3FU5TcvRbjLd6V2S+cfffxaEbhA4dEn3D/HItoFTltVMuRCwbTsbvrWoww51HJ3aQU3fbpAaK6tzMyeukplRWp1J9F7zerBC3EewToStgFj59y/ltxaiqGbZa9IbWUzN8esldfubs+tKLvRlxdw32bLejA0O37zJoTbcFltISfa5uV6rL41SqPZfBbOAE2njQINe9AuNsOa0g7IRcB69PRnpGqzkpaXyXgY8sIPx/cn1BKIGDo/bZsBImrcssvHNrPKHplIPZzhkXNScuKVyC+LxVHFAFuFaF76+rYpIunEG4VGiKnJVq/mS762SPvuL3wxe+sbKFTVHWqbeycb2eSSA7/0FvyEhyCYgGVDaT8cQLUVTF35Vla9V+pnsQi1L0GEOnjuRz/6GWZ7jLBOfSrKFHkcziMnfZ4eaZMz3g07heWY8EbgZh/Sp5qsnOxzAepW6h9iil2gWDWgJDTlHXTFXOeKrc2XUW8QXesGQyYAuyjjJ35N9grnESIhC67JqGwuu+mAPP1/qrdyTQ5y5IussJ+HdRmT9FQOHgQya+3tXGeBLMVQD3cTwzcmkm03CAVoSuJAE9EXIQG5DMKJcK/okFTma/+5eZJw2VktTn5lac7JyjucoMOfkHfxIKBmogaDtqd56NtztQgWhRqKXpOR94v4qnPbsUtYzjpc15lThIe6M8muAdKOlDumA==
+    dropdown :
+     internal_properties : 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
+     columns :
+      -
+        name : COL_ID_art
+        identifier : 0x2ed13904200fb6f0
+        internal_properties : BQAAAAUAAACq/XGdlhkTWSbJzegyqgV2RLmb1DOisLAKEOWLSOq1p5WRDWW3h1Q/Fp7s8TDmMHU5m8EdYTDlldMvnhnYzdicaFDT4QdRP9n8v1/qIo+JFyGW84Zc/SuJs1HHqt8b4R/wYheh8w4GNAwcG4suis2OZN7bF11pdLEa6BDjiI8aQby6
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+         type : 2
+      -
+        name : COL_Article
+        identifier : 0x2ed139042010b6f0
+        internal_properties : BQAAAAUAAABzScCF175CyJUX0Ytc6z1kRARu8TpIZKca8e7dXJgfky8bJgV2hCXbcaBd5zNXhlgiWBjQ/eZ1ih5AMkw9OnyNHu4cHObC0NhZllTU/CWFegU+pYx815U0pSZOptDV5vidd8E2+lCsjPeft/5VYD3h18tQyMOCN8coZZ6ioWZKID1tC+hM
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAADc6+UpLdOPe1pQ+MoxaWsyDSJZD5HHtEjHensamwpHMVofUxhjI17gOoQHdipHzqNRFIgg0LVFyRbZymClXAjiTwngXye8r9dsP1I0Ja77hFcswI9jTmhBnSApkWsHRXHo7HuJGuk+QknDhD3ddbuAMRKHnYtbRQvoamBxQ7kYGhzezg/NtSpm+HH6vDWJe7fjyVsyGPGIVSLiJCV2B3vXDcZldRuqafh2jtfd7g/Cuo4bAAljKUzBNEk69L+s6P5my1f0+M+HY5G58ETqUrENFcLSL9dFoZLThH9kYIAlt54VpQZNA9ilYULHgET3RGxxhj/i3V3Z/dzEMrvUw3D3ReXewSENsfqWt4xac7AuJU7+zS4MWLk9sKiorOyfS757shuTaBsgp8KtqctB0mKOJwvBOJEaQbVG2mcZulfXkU4XVMx4vlIpciUl9Oe07sJjqx/m0XNMnD3CRcIl0k23/yDPpA==
+         type : 2
+      -
+        name : col_Type
+        identifier : 0x2ed139042011b6f0
+        internal_properties : BQAAAAUAAABSbuGidmwgLPgAk3cf2D/JirEqA7UXYLYE7gQTQe6gh7JW8KGediJwo8LCj2nsLLKFbUbSWNc3Inf0BEe6MrLL73UH0yHAoEtLS9ZMAhAhiNKBIfLmxNRT2gvhXrXya9HkgtoHR8jSP3TTPP8H7OjqWLpX6Pc57ANBAkPsCNnZQdyMKslt
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAAAyyKRhNl174VnJau2Sriw1Fa/Z8X0AAV9ZwggpNgnqcTxyyUUUDQl+v7r+L/nsgdobdwVxoN0O+bNzrI5raX1g1yBmAocjyfV9rChR1JnS0jbwU6SdN0csXeeFWPypwudZ6gXts5vzCCdYuDT1Nz+nzv/V/YFzx8q5lapcjbbkraAqTBkpaM2PybJn7GCPGC9Jx3yDLMg9N1gAbw8KqkFvC8o6kAR75BdeK/4BgG6jsK7Wt+yxVhTd2oob63vlBsOcUziJuFivF49u4bOgTVPmR4514h9+SX7xNYRzxB3BrvzN4BNf4BgJMw3UeejqRCnv5qjPa7iXF7RBc0aK0NIq9wX/aKVycfa0kHf/T9nECtow4L965Zk5utMfaZSeFVnXBDzepifdPrrEGKYqgXclz1tKT3EC1oyGsdlqGLeiWtrffy5rsc6qJbEJvRErS1b3F7CVRPl/XXu5smemMBElkD0x
+         type : 2
+      -
+        name : col_UOM_p
+        identifier : 0x2ed139042012b6f0
+        internal_properties : BQAAAAUAAABsguM43mHWxSRfwhh21h/Ke9Z/LnxsyxmB07OWFKuYFq6wU3LWDB7Qq6FXwJhZvQg/TEFhSRvio++OzwiltC2ibmHiW4yhaD7Df9jP9y/7dW7Y516/c67c5tM3qyUUqMGz15UeIOapOg55xZIm7QjpCsh/xnAlBNFNqq0tDPHhSoJWpSnD+A==
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+         type : 2
+      -
+        name : COL_ratio_p
+        identifier : 0x2ed139042013b6f0
+        internal_properties : BQAAAAUAAAAyCYAhm5dRaxiWh1XMpcEnlnufP48++uwoU63nuVtlKjV0Fg4HQW8SfTRIAEnq0ZE1cZha1ee/Pr1DX9pimZNidY9TMvwwwcVFBzVnAdw2zi+Fz2uBOI87od7dw+MZsfwZ0V0mc6YecOHCDNH9d0OGI7aBE7W5khUPcjpWZrqhGPeku7w=
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+         type : 2
+      -
+        name : COL_Purchase_price
+        identifier : 0x2ed139042014b6f0
+        internal_properties : BQAAAAUAAABSR57+0JRxkbSA7R+A0LCJ4C4UDtBe/7+njsVEgYtNmAoAYEf8ed4iVJSKuQQmEWcou/Eq9xvkjRPbE7ic2dENOulhJaA6KL4HW/6ipC2xr0tfALw4OV4cs/B9LhX/iXAVfE53hubzl8sPwlgqpC3n0ZJKymRkF52c7R2m5EHTKWSuqLEL69nz83aEEw==
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAABjgdNtRidz735U/hrphux6RlV3ZVJNpr5PoZWY0XM8dY+PXlBn2Xkh522yVVwrcG50f5ZmaT3zffSv4NAqjSCB4jBKDf/73whypE2NYpHetdXhTH1ALaXXjTgo3qYLvF27hgG0WFhgVPh3pX80CcAXRGekkrm/WPEda2jg49k/CoHKGhvmPuVA80usHrwHLUouePWg2Le0ngZs8+tYkTB8xSHhu8MAhqVgI09qMzUwE6iSq3gVe5vhRagShC920moGi7Ez5RffOxqkfYAjgDvbl9QyUipn5xhaaebEm+Z1Z2gnxVlwlazxsklkCgen/toRfiFVtmfxlRcpuW99n3rdYWm4CCDRRU6pWB/e6MwQS6aGk+U9MmNniQeH8uf5yw5tDKdUqc7fbL0qLBHn3gUklzVNhVpjxuhXJ/XdZW7iJXQjBkiw133dAYlxAo3PeS4Gj1vnTQNFbBQDs9TLgKZpgzsimJNDoJ6M7rb5Uk4VWhn2v0+GxM2FhrOhntjP
+         type : 2
+      -
+        name : COL_taxe_p
+        identifier : 0x2ed1e85f3162f8bd
+        internal_properties : BQAAAAUAAADdHzXiI8sFTeKLL3Lz0CW86Hr9IQHYfhiFevupDbdQ+yT2OoJ4Tdcn71yrvgt+pv4uDe/CaWhNe1PVkdktKC+HOhbEc+zgSmxxCEx1FohD3LL9x06RAEbEoZM4K5GXEaISAInMnoYzpDybxOvCfxMMa96rVaupqra0wpW+skphI/xvFn7eJgsjJcpy2OXAGg==
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAABicvx3n/u83w8Mm8dfGxAgtVDKzcxbB7x+qJlzdhhDpajA2sTBMvx19rgkL50MDykQ3V5fq0QSKeiRaRrsy+GIe/Uq7Lc5co4ChKfUJ9qdsdlgsmR8+f2jfhl6Fv5XhpPMSB7IrmFfA0C5l6+RF+BsBTe0BhleCN2tm47rRAdLqnnJBBnOHlat/WwNaPPmCM8weyiGGq3yeOhqVHBN3hwZzHbA9EP43CXeSjK6tMWyxhgfLL6XMDUXhlmjVNTlsw9M75Ll9/zqgElXxXE3yVJAXcBjqsAAFj2zdpzFzRe8xDa3mDXSmq/uXRCe05EuW1kjxtZVlDL0ssIQYZ5Z8pFKK9GF1tzuVAv4U3e5ql3fQDzGzm3bJTC+XB6Jwb/A6M1f0MYA/RniFXjhPtCFI7pLsWEEZews8dl2Sn1I9UuBWkazm8TWtC0zxhdupz7goGo74VqzkTL95tLNk6DSqorpBm4Wn9xKqlAIYMiiOBTellDwrsZAJc0Zwd2+JQ==
+         type : 2
+      -
+        name : COL_SansNom1
+        identifier : 0x2ed531ad23651bab
+        internal_properties : BQAAAAUAAACPo2i8fLp9I6WkUXGxpTCViPQnXiW6AEVSFNWKeDwOXvEXRxO+VcZJUG3DMSeIXzZcp4ldJXfZYLziyLiko9/78IR9tJPQ8JPRAQHHTJtfNXSS1Y5Gk2lS3x+GWoW5lclab1tdfA4uJXJ00jALEorRN9k7rd/uczG7wjc1vjz/cJVCbNtnFvFJj4ON
+        type : 2
+        content :
+         internal_properties : BQAAAAUAAAAyyKRhNl174VnJau2Sriw1Fa/Z8X0AAV9ZwggpNgnqcTxyyUUUDQl+v7r+L/nsgdobdwVxoN0O+bNzrI5raX1g1yBmAocjyfV9rChR1JnS0jbwU6SdN0csXeeFWPypwudZ6gXts5vzCCdYuDT1Nz+nzv/V/YFzx8q5lapcjbbkraAqTBkpaM2PybJn7GCPGC9Jx3yDLMg9N1gAbw8KqkFvC8o6kAR75BdeK/4BgG6jsK7Wt+yxVhTd2oob63vlBsOcUziJuFivF49u4bOgTVPmR4514h9+SX7xNYRzxB3BrvzN4BNf4BgJMw3UeejqRCnv5qjPa7iXF7RBc0aK0NIq9wX/aKVycfa0kHf/T9nECtow4L965Zk5utMfaZSeFVnXBDzepifdPrrEGKYqgXclz1tKT3EC1oyGsdlqGLeiWtrffy5rsc6qJbEJvRErS1b3F7CVRPl/XXu5smemMBElkD0x
+         type : 2
+     breaks : []
+     type : 9
+    type : 70
+    controls : []
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         //selected_product(TABLE_purchase_order_line.Select(),COMBO_supplier.COL_IDPartners)
+         
+        type : 33
+      -
+        type : 17
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  internal_properties : BQAAAAUAAABWIHrh1Yb2YcVvIfiiRDSu3aXMOSCmrRDPwCP2jtbUBEGFOv+qg2ayVXoCZujUnWzZv/mop+WO+JtZ1Q==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      
+      
+      PROCEDURE MaFenêtre(gbIs_new est un booléen, gnId_purchase est un entier sans signe sur 8 octets)
+      
+      gbCheck_update Est un booléen = Faux
+      gbStatDoc est un booléen
+      gsEtat_doc est une chaîne
+      
+      //// récup ligne dans produit par fournisseur
+      //taxe_structur est un structure
+      //	Taxe_id est un entier
+      //	Val_Taxe est un numérique
+      //	Name_Taxe est une chaîne
+      //FIN
+      //
+      //gstUneligne_taxe est un taxe_structur
+      //gtabLignes_taxe est un tableau de taxe_structur
+      
+      GR_Confirmé..Visible = Faux
+      si gbIs_new = Faux ALORS
+      	Echo_purchase_order()
+      	
+      sinon
+      	Init_field()	
+      FIN
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : Stat_color_inital
+     procedure_id : 2220282248475124609
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Stat_color_inital ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Stat_color_inital()<ihm>
+      
+      GR_Brouillon..CouleurFond 	= RGB(128,128,128)
+      GR_confirmer..CouleurFond 	= RVB(192,192,192)
+      GR_terminer..CouleurFond	= RVB(224,224,224)
+      GR_Brouillon..Couleur	= RGB(128,128,128)
+      GR_confirmer..Couleur	= RVB(192,192,192)
+      GR_terminer..Couleur	= RVB(224,224,224)
+     type : 458752
+   -
+     name : Stat_color
+     procedure_id : 2220284086721205648
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Stat_color (<statu> est chaîne)
+      //
+      // Paramètres :
+      //	statu (chaîne ANSI) : <indiquez ici le rôle de statu>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Stat_color(statu est une chaîne)
+      
+      SELON statu
+      	CAS "Brouillon"
+      		GR_Brouillon..CouleurFond 	= RGB(128,128,128)
+      		GR_confirmer..CouleurFond 	= RVB(192,192,192)
+      		GR_terminer..CouleurFond	= RVB(224,224,224)
+      		GR_Brouillon..Couleur	= RGB(128,128,128)
+      		GR_confirmer..Couleur	= RVB(192,192,192)
+      		GR_terminer..Couleur	= RVB(224,224,224)
+      		
+      		BTN_Draft..Visible		= Faux
+      		BTN_Save..Visible		= Vrai
+      		BTN_Modifier..Visible	= Vrai
+      		BTN_Valider..Visible	= Vrai
+      		BTN_Annuler..Visible	= Vrai
+      		BTN_Supprimer..Visible	= Faux
+      		SORTIR SELON
+      	CAS "Confirmé"
+      		GR_Brouillon..CouleurFond 	= RVB(192,192,192) 
+      		GR_confirmer..CouleurFond 	= RGB(128,128,128)
+      		GR_terminer..CouleurFond	= RVB(224,224,224)
+      		GR_Brouillon..Couleur	= RVB(192,192,192) 
+      		GR_confirmer..Couleur	= RGB(128,128,128)
+      		GR_terminer..Couleur	= RVB(224,224,224)
+      		
+      		BTN_Draft..Visible		= Faux
+      		BTN_Save..Visible		= Faux
+      		BTN_Modifier..Visible	= Faux
+      		BTN_Valider..Grisé		= Vrai
+      		BTN_Annuler..Visible	= Faux
+      		BTN_Supprimer..Visible	= Faux
+      		Verify_product_type_to_echo(gnId_purchase)
+      		SORTIR SELON
+      	CAS "Terminé"
+      		GR_Brouillon..CouleurFond 	= RVB(192,192,192)
+      		GR_confirmer..CouleurFond 	= RVB(224,224,224)
+      		GR_terminer..CouleurFond	= RGB(128,128,128)
+      		GR_Brouillon..Couleur	= RVB(192,192,192)
+      		GR_confirmer..Couleur	= RVB(224,224,224)
+      		GR_terminer..Couleur	= RGB(128,128,128)
+      		
+      		BTN_Draft..Visible		= Faux
+      		BTN_Save..Visible		= Faux
+      		BTN_Modifier..Visible	= Faux
+      		BTN_Valider..Grisé		= Vrai
+      		BTN_Annuler..Visible	= Faux
+      		BTN_Supprimer..Visible	= Faux
+      		GR_roadMap..Visible		= Vrai
+      		Verify_product_type_to_echo(gnId_purchase)
+      		SORTIR SELON
+      	AUTRE CAS
+      //		
+      //		BTN_Modifier..Visible 	= Faux
+      //		BTN_Save..Visible		= Faux
+      //		BTN_Annuler..Grisé		= Vrai
+      //		BTN_Draft..Visible		= Vrai
+      //		BTN_Supprimer..Visible	= Vrai
+      //		GR_roadMap..Visible		= Faux
+      //		BTN_Valider..Grisé 		= Vrai
+      		SORTIR SELON
+      FIN
+     type : 458752
+   -
+     name : Num_purchase_order
+     procedure_id : 2220436046959222377
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Num_purchase_order ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Num_purchase_order() <métier>
+      
+      soit xNum_order_Next = 0 
+      //numéro de commande
+      //récupère le numéro
+      num_doc est une requête SQL = 
+      [
+      	SELECT<§cs:3§>
+      	IDNumero_document, <§cs:3§>
+      	number_next	<§cs:3§>
+      	FROM<§cs:3§>
+      	Numero_document	<§cs:3§>
+      	WHERE<§cs:3§>
+      	label = 'Purchase_Order'<§cs:3§>
+      ]
+      soit nrc  = HExécuteRequêteSQL(num_doc)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(num_doc) = 0 // ajoute une 
+      	 nrc = HExécuteRequêteSQL("Add_mun_session","INSERT INTO Numero_document (label,number_next) VALUES ('Purchase_Order',1)")
+      	SI PAS nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      	xNum_order_Next = 1	 
+      SINON SI HNbEnr(num_doc) > 0
+      	pour TOUT num_doc 
+      		xNum_order_Next = num_doc.number_next
+      	FIN
+      FIN
+      
+      renvoyer xNum_order_Next
+     type : 458752
+   -
+     name : Echo_suplyer
+     procedure_id : 2220443597514979307
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Echo_suplyer ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Echo_suplyer() <métier>
+      
+      //Afficher les fournisseurs
+      REQ_Product_supplier.Param_Society = gnID_societe
+      soit nrc = HExécuteRequête(REQ_Product_supplier)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      //ListeAffiche_COMBO_supplier()
+     type : 458752
+   -
+     name : Init_field
+     procedure_id : 2220447553179995882
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Init_field ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Init_field()
+      
+      Stat_color_inital()
+      Echo_suplyer()
+      Echo_article()
+      soit gnNumOrder 	= Num_purchase_order()
+      soit Complet_num	= "00000"
+      //formatage du numéro de document dans la base en chaine de caractere
+      SI Taille(gnNumOrder) < 5 ALORS
+      	Complet_num = Tronque(Complet_num,Taille(gnNumOrder),nombreDeCaractèresASupprimer) + gnNumOrder
+      SINON
+      	Complet_num = gnNumOrder
+      FIN
+      SAI_Date1 		= DateDuJour()
+      LIB_Num_order	= ChaîneConstruit("PO/%1",Complet_num)
+      SAI_note		= ""
+      BTN_Modifier..Visible 	= Faux
+      BTN_Save..Visible		= Vrai
+      BTN_Annuler..Visible	= Faux
+      BTN_Supprimer..Visible	= Faux
+      BTN_Draft..Visible		= Faux
+      GR_Confirmé..Visible	= Faux
+      BTN_Valider..Grisé 		= Faux
+      TableSupprimeTout(TABLE_purchase_order_line)
+      LIB_total_ht_	= ""
+      LIB_total_ttc_	= ""
+      LIB_total_taxe_	= ""
+      TableSupprimeTout(TABLE_taxe)
+      GR_All_fields..EnSaisie = Vrai
+      gnId_purchase = 0
+     type : 458752
+   -
+     name : ferme_
+     internal_properties : BQAAAAUAAAA+DdvYPNe1xbRkXKvl819E8imhuSsv/x2kwjZgC1RohrSzFdKRPsMbPe2ompmGAEYvm3C3IYwS+uo6iOgK839Ax2sXChA7hlc8P5JEnMT7TPGqLxCBNeCbKqE553oSWidRHELbB1kZgpcQGERpVv+Oix2w4hHdxsA2XeLl0vV4jrigv7g=
+     procedure_id : 2220478970866332554
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //ferme_ ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code, avec un différé de 3 secondes
+      // 
+      
+      PROCEDURE ferme_()
+      
+      Ferme(FEN_Pruchase_order)
+     type : 458752
+   -
+     name : Echo_purchase_order
+     procedure_id : 2220521641366532124
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Echo_purchase_order ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Echo_purchase_order()
+      soit status 	= ""
+      soit nSuplyerID = 0
+      
+      //Verify_product_type_to_echo(gnId_purchase)
+      REQ_Select_purchase_order.Param_PurchaseID = gnId_purchase
+      soit nrc = HExécuteRequête(REQ_Select_purchase_order)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	Echo_suplyer()
+      	ListeAffiche_COMBO_supplier()
+      	POUR TOUT REQ_Select_purchase_order
+      		LIB_Num_order	= REQ_Select_purchase_order.Num_order
+      		SAI_Date1 		= REQ_Select_purchase_order.Create_date
+      		SAI_note  		= REQ_Select_purchase_order.Note
+      		nSuplyerID 		= REQ_Select_purchase_order.IDPartners
+      		status    		= REQ_Select_purchase_order.Etat
+      		gbStatDoc 		= REQ_Select_purchase_order.Stat
+      	FIN
+      	
+      	gsEtat_doc = status
+      	Stat_color(status)
+      	soit recherche = TableCherche(COMBO_supplier.COL_IDPartners,nSuplyerID,rechercheIdentique)
+      	si recherche > 0 ALORS
+      		ListSelectPlus(COMBO_supplier,recherche)
+      	FIN
+      FIN
+      Echo_pruchase_order_line()
+      
+      GR_All_fields..EnSaisie = Faux
+     type : 458752
+   -
+     name : Echo_article
+     procedure_id : 2220619304629407046
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Echo_article ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	Echo_article : <indiquez ici le rôle de Echo_article>
+      PROCEDURE Echo_article()
+      
+      sql_article est une requête SQL = 
+      [
+      	SELECT DISTINCT<§cs:3§>
+      	Article.name_product AS name_product,<§cs:3§>
+      	Article.IDArticle AS ID_article,<§cs:3§>
+      	Article.Type_product AS Type_product,<§cs:3§>
+      	Article.Purchase_price AS Purchase_price,<§cs:3§>
+      	Article.Id_TaxePurchase as Id_TaxePurchase,<§cs:3§>
+      	unit_of_mesur.IDunit_of_mesur AS IDunit_of_mesur,<§cs:3§>
+      	unit_of_mesur.ratio AS ratio<§cs:3§>
+      	FROM <§cs:3§>
+      	Article<§cs:3§>
+      	INNER JOIN<§cs:3§>
+      	unit_of_mesur<§cs:3§>
+      	ON Article.IDUOM_P = unit_of_mesur.IDunit_of_mesur<§cs:3§>
+      	WHERE <§cs:3§>
+      	(<§cs:3§>
+      	Article.IDSociety = {SocietID}<§cs:3§>
+      	AND Article.Stat = 1<§cs:3§>
+      	)<§cs:3§>
+      ]
+      sql_article.SocietID = gnID_societe
+      
+      soit nrc = HExécuteRequêteSQL(sql_article)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      
+      	ListeSupprimeTout(TABLE_purchase_order_line.COMBO_Articles)
+      	POUR TOUT sql_article
+      		soit nIndcs = TableAjouteLigne(TABLE_purchase_order_line.COMBO_Articles) 
+      		TABLE_purchase_order_line.COMBO_Articles[nIndcs].COL_Article  	= sql_article.name_product
+      		TABLE_purchase_order_line.COMBO_Articles[nIndcs].COL_ID_art		= sql_article.ID_article
+      		TABLE_purchase_order_line.COMBO_Articles[nIndcs].col_Type	  	= sql_article.Type_product
+      		TABLE_purchase_order_line.COMBO_Articles[nIndcs].col_UOM_p	  	= sql_article.IDunit_of_mesur
+      		TABLE_purchase_order_line.COMBO_Articles[nIndcs].COL_ratio_p		= sql_article.ratio
+      		TABLE_purchase_order_line.COMBO_Articles[nIndcs].COL_Purchase_price = sql_article.Purchase_price
+      		TABLE_purchase_order_line.COMBO_Articles[nIndcs].COL_taxe_p		= sql_article.Id_TaxePurchase
+      	FIN
+      	
+      FIN
+     type : 458752
+   -
+     name : selected_product
+     procedure_id : 2220620159327965847
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //selected_product ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	selected_product : <indiquez ici le rôle de selected_product>
+      PROCEDURE selected_product(gIndcs,gPartnersID)
+      
+      
+      si gIndcs < 0 ALORS
+      	gIndcs = 1
+      FIN
+      sql_select_ppp est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	product_per_partners.Price,<§cs:3§>
+      	product_per_partners.IDunit_of_mesur,<§cs:3§>
+      	unit_of_mesur.ratio<§cs:3§>
+      	FROM<§cs:3§>
+      	product_per_partners<§cs:3§>
+      	INNER JOIN<§cs:3§>
+      	unit_of_mesur <§cs:3§>
+      	ON product_per_partners.IDunit_of_mesur = unit_of_mesur.IDunit_of_mesur<§cs:3§>
+      	WHERE<§cs:3§>
+      	product_per_partners.IDArticle = {param_ProductID}<§cs:3§>
+      	AND<§cs:3§>
+      	product_per_partners.IDPartners = {Param_PartnerID}<§cs:3§>
+      ]
+      
+      sql_select_ppp.param_ProductID = TABLE_purchase_order_line.COMBO_Articles.COL_ID_art
+      sql_select_ppp.Param_PartnerID = gPartnersID
+      soit nrc = HExécuteRequêteSQL(sql_select_ppp)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      
+      
+      xRatio_p, xPrice_p sont des numériques
+      nIdarticle, nIdUom_p sont des entiers
+      SI HNbEnr(sql_select_ppp) > 0 ALORS
+      	POUR TOUT sql_select_ppp 
+      		xRatio_p = sql_select_ppp.ratio
+      		xPrice_p = sql_select_ppp.Price
+      		nIdUom_p = sql_select_ppp.IDunit_of_mesur
+      	FIN
+      SINON
+      	xRatio_p = TABLE_purchase_order_line.COMBO_Articles.COL_ratio_p
+      	xPrice_p = TABLE_purchase_order_line.COMBO_Articles.COL_Purchase_price
+      	nIdUom_p = TABLE_purchase_order_line.COMBO_Articles.col_UOM_p
+      FIN
+      nIdarticle = TABLE_purchase_order_line.COMBO_Articles.COL_ID_art
+      FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_Id_product			= nIdarticle
+      FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_RatioUomPuchase	= xRatio_p
+      FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_RatioUoM			= xRatio_p
+      FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_ID_uom				= nIdUom_p
+      FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_Prix_HT			= xPrice_p
+      FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_Prix_p				= xPrice_p
+      FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_Article.SAI_SansNom1 = TABLE_purchase_order_line.COMBO_Articles.COL_Article
+      ChangeFenêtreSource(FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_Taxe.CFI_taxe_p,FI_taxe_purchase,TABLE_purchase_order_line.COMBO_Articles.COL_taxe_p,gIndcs)
+      FEN_Pruchase_order.TABLE_purchase_order_line.COL_Udm.CFI_Uom_P.ChangeFenêtreSource(FI_Uom_purchase,nIdUom_p,gIndcs)
+      
+      
+      Compute_Purchase_Price_HT()
+      Compute_subtotal_line()
+      Compute_taxe()
+      Compute_total()
+      
+      //ChangeFenêtreSource(FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_Udm.CFI_Uom_P,FI_Uom_purchase,nIdUom_p,gIndcs)
+      //FEN_Pruchase_order.TABLE_purchase_order_line[gIndcs].COL_Udm.CFI_Uom_P.ChangeFenêtreSource(FI_Uom_purchase,nIdUom_p,gIndcs)
+     type : 458752
+   -
+     name : Compute_Purchase_Price_HT
+     procedure_id : 2220973489161042010
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Compute_Purchase_Price_HT ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	prix_p : <indiquez ici le rôle de prix_p>
+      PROCEDURE Compute_Purchase_Price_HT()
+      
+      //calcul le prix unitaire HT
+      soit rPrix_compute = 0.00
+      soit ratio_fix = TABLE_purchase_order_line.COL_RatioUomPuchase
+      soit ratio_var = TABLE_purchase_order_line.COL_RatioUoM
+      soit prix_p    = TABLE_purchase_order_line.COL_Prix_p
+      si ratio_fix > 0 ALORS
+      	rPrix_compute = prix_p * ratio_var / ratio_fix
+      FIN
+      
+      TABLE_purchase_order_line.COL_Prix_HT = rPrix_compute
+      
+      Compute_subtotal_line()
+     type : 458752
+   -
+     name : Compute_subtotal_line
+     procedure_id : 2220980034691205161
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Compute_subtotal_line ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Compute_subtotal_line()
+      
+      // calcul de sous total
+      soit Prix_unit_price = TABLE_purchase_order_line.COL_Prix_HT
+      soit Quantite        = TABLE_purchase_order_line.COL_Quantité
+      soit discount_p      = TABLE_purchase_order_line.COL_Remise / 100
+      soit subtotal_line   = Prix_unit_price * (1 - discount_p ) * Quantite
+      TABLE_purchase_order_line.COL_Sous_total_HT = subtotal_line
+     type : 458752
+   -
+     name : Compute_taxe
+     procedure_id : 2221014703667624870
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Compute_taxe ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Compute_taxe()
+      
+      taTaxetabe est un tableau associatif de numériques
+      
+      soit tax_val = TABLE_purchase_order_line.COL_val_taxe
+      Soit qte 	 = TABLE_purchase_order_line.COL_Quantité
+      soit prixHt  = TABLE_purchase_order_line.COL_Prix_HT
+      Soit total_taxe = qte * prixHt * tax_val / 100
+      TABLE_purchase_order_line.COL_Total_taxe = total_taxe
+      
+      POUR TOUTE LIGNE DE TABLE_purchase_order_line
+      	soit txe_ID est un numérique = TABLE_purchase_order_line.COL_Id_taxe
+      	taTaxetabe[txe_ID] += TABLE_purchase_order_line.COL_Total_taxe
+      FIN
+      
+      Sql_taxe est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	Taxe.IDTaxe,<§cs:3§>
+      	Taxe.Name_taxe<§cs:3§>
+      	FROM<§cs:3§>
+      	Taxe<§cs:3§>
+      	WHERE<§cs:3§>
+      	Taxe.IDTaxe = {Param_IDTaxe}<§cs:3§>
+      ]
+      
+      TableSupprimeTout(TABLE_taxe)
+      POUR TOUT  sTotal_vat_p, xId_vat_p de taTaxetabe
+      	SI xId_vat_p > 0 ALORS
+      		Sql_taxe.Param_IDTaxe = xId_vat_p
+      		soit nrc = HExécuteRequêteSQL(Sql_taxe)
+      		SI PAS nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      		soit nDcs = TableAjouteLigne(TABLE_taxe)
+      		TABLE_taxe[nDcs].COL_id_taxe	= Sql_taxe.IDTaxe
+      		TABLE_taxe[nDcs].COL_Taxe		= Sql_taxe.Name_taxe
+      		TABLE_taxe[nDcs].COL_Total		= sTotal_vat_p
+      	FIN	
+      FIN
+     type : 458752
+   -
+     name : Compute_total
+     procedure_id : 2221594360972820944
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Compute_total ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Compute_total()
+      
+      //Calcul totaux
+      soit total_ht	= TABLE_purchase_order_line.COL_Sous_total_HT[ligneTotal]
+      soit total_vat	= TABLE_taxe.COL_Total[ligneTotal]
+      soit ttt_amount	= total_ht + total_vat
+      
+      LIB_total_ht_	= total_ht
+      LIB_total_ttc_	= ttt_amount
+      LIB_total_taxe_	= total_vat
+     type : 458752
+   -
+     name : recompute_taxe
+     procedure_id : 2221599506343667247
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // recompute_taxe ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE recompute_taxe()
+      
+      //recalcule de taxe
+      taTaxetabe est un tableau associatif de numériques
+      
+      POUR TOUTE LIGNE DE TABLE_purchase_order_line
+      	soit txe_ID est un numérique = TABLE_purchase_order_line.COL_Id_taxe
+      	taTaxetabe[txe_ID] += TABLE_purchase_order_line.COL_Total_taxe
+      FIN
+      
+      Sql_taxe est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	Taxe.IDTaxe,<§cs:3§>
+      	Taxe.Name_taxe<§cs:3§>
+      	FROM<§cs:3§>
+      	Taxe<§cs:3§>
+      	WHERE<§cs:3§>
+      	Taxe.IDTaxe = {Param_IDTaxe}<§cs:3§>
+      ]
+      
+      TableSupprimeTout(TABLE_taxe)
+      POUR TOUT  sTotal_vat_p, xId_vat_p de taTaxetabe
+      	SI xId_vat_p > 0 ALORS
+      		Sql_taxe.Param_IDTaxe = xId_vat_p
+      		soit nrc = HExécuteRequêteSQL(Sql_taxe)
+      		SI PAS nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      		soit nDcs = TableAjouteLigne(TABLE_taxe)
+      		TABLE_taxe[nDcs].COL_id_taxe	= Sql_taxe.IDTaxe
+      		TABLE_taxe[nDcs].COL_Taxe		= Sql_taxe.Name_taxe
+      		TABLE_taxe[nDcs].COL_Total		= sTotal_vat_p
+      	FIN	
+      FIN
+     type : 458752
+   -
+     name : Echo_pruchase_order_line
+     procedure_id : 2221659172037070582
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Echo_pruchase_order_line ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Echo_pruchase_order_line()
+      
+      Echo_article()
+      // order line
+      sql_select_order_line est une requête SQL = 
+      [
+      	SELECT<§cs:3§>
+      	detaille_purchase.IDArticle,<§cs:3§>
+      	detaille_purchase.Quantity,<§cs:3§>
+      	detaille_purchase.IDunit_of_mesur,<§cs:3§>
+      	detaille_purchase.Purchase_price,<§cs:3§>
+      	detaille_purchase.Discount,<§cs:3§>
+      	detaille_purchase.IDTaxe,<§cs:3§>
+      	detaille_purchase.sub_ttl_ht,<§cs:3§>
+      	Article.name_product,<§cs:3§>
+      	uom_product.ratio as ratio_pr,<§cs:3§>
+      	unit_of_mesur.ratio,<§cs:3§>
+      	Taxe.Valeur_taxe<§cs:3§>
+      	FROM<§cs:3§>
+      	detaille_purchase<§cs:3§>
+      	inner join<§cs:3§>
+      	Article<§cs:3§>
+      	on detaille_purchase.IDArticle = Article.IDArticle <§cs:3§>
+      	inner join<§cs:3§>
+      	unit_of_mesur as uom_product<§cs:3§>
+      	on Article.IDUOM_P = uom_product.IDunit_of_mesur <§cs:3§>
+      	inner join<§cs:3§>
+      	unit_of_mesur<§cs:3§>
+      	ON detaille_purchase.IDunit_of_mesur = unit_of_mesur.IDunit_of_mesur <§cs:3§>
+      	left join<§cs:3§>
+      	Taxe	<§cs:3§>
+      	on detaille_purchase.IDTaxe = Taxe.IDTaxe<§cs:3§>
+      	WHERE<§cs:3§>
+      	detaille_purchase.IDPurchase = {Purchase_ID}<§cs:3§>
+      ]
+      
+      //sélection produit par fournisseur
+      sql_select_ppp est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	product_per_partners.Price,<§cs:3§>
+      	unit_of_mesur.ratio<§cs:3§>
+      	FROM<§cs:3§>
+      	product_per_partners<§cs:3§>
+      	INNER JOIN<§cs:3§>
+      	unit_of_mesur <§cs:3§>
+      	ON product_per_partners.IDunit_of_mesur = unit_of_mesur.IDunit_of_mesur<§cs:3§>
+      	WHERE<§cs:3§>
+      	product_per_partners.IDArticle = {param_ProductID}<§cs:3§>
+      	AND<§cs:3§>
+      	product_per_partners.IDPartners = {Param_PartnerID}<§cs:3§>
+      ]
+      
+      soit gPartnersID = COMBO_supplier.COL_IDPartners
+      sql_select_ppp.param_ProductID = TABLE_purchase_order_line.COMBO_Articles.COL_ID_art
+      sql_select_ppp.Param_PartnerID = gPartnersID
+      
+      soit nrc = HExécuteRequêteSQL(sql_select_ppp)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      
+      
+      sql_select_order_line.Purchase_ID = gnId_purchase
+      
+      nrc = HExécuteRequêteSQL(sql_select_order_line)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	TableSupprimeTout(TABLE_purchase_order_line)
+      	POUR TOUT sql_select_order_line
+      		soit nIndcs = TableAjouteLigne(TABLE_purchase_order_line)
+      		soit id_article_ = sql_select_order_line.IDArticle
+      		TABLE_purchase_order_line[nIndcs].COL_Id_product	= id_article_
+      		TABLE_purchase_order_line[nIndcs].COL_Id_taxe		= sql_select_order_line.IDTaxe
+      		TABLE_purchase_order_line[nIndcs].COL_ID_uom		= sql_select_order_line.IDunit_of_mesur
+      		soit qte = sql_select_order_line.Quantity
+      		TABLE_purchase_order_line[nIndcs].COL_Quantité		= qte
+      		soit price_ht_p =  sql_select_order_line.Purchase_price
+      		TABLE_purchase_order_line[nIndcs].COL_Prix_HT		= price_ht_p
+      		soit discount = sql_select_order_line.Discount
+      		TABLE_purchase_order_line[nIndcs].COL_Remise		= discount
+      		TABLE_purchase_order_line[nIndcs].COL_Article.SAI_SansNom1 = sql_select_order_line.name_product
+      		
+      		soit rech_article_id = TableCherche(TABLE_purchase_order_line.COL_Article.COMBO_Articles.COL_ID_art,id_article_,rechercheIdentique)
+      		ListeSelectPlus(TABLE_purchase_order_line.COL_Article.COMBO_Articles,rech_article_id)
+      		
+      		//----------------Article par fournisseur
+      		sql_select_ppp.param_ProductID = id_article_
+      		sql_select_ppp.Param_PartnerID = gPartnersID
+      		
+      		nrc = HExécuteRequêteSQL(sql_select_ppp)
+      		SI PAS nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      		
+      		
+      		xRatio_p, xPrice_p sont des numériques
+      		SI HNbEnr(sql_select_ppp) > 0 ALORS
+      			POUR TOUT sql_select_ppp 
+      				xRatio_p = sql_select_ppp.ratio
+      				xPrice_p = sql_select_ppp.Price
+      			FIN
+      		SINON
+      			xRatio_p = sql_select_order_line.ratio_pr
+      			xPrice_p = TABLE_purchase_order_line.COMBO_Articles.COL_Purchase_price			
+      		FIN
+      		//----------------------------------------
+      
+      		TABLE_purchase_order_line[nIndcs].COL_Prix_p		= xPrice_p
+      		TABLE_purchase_order_line[nIndcs].COL_RatioUomPuchase= sql_select_order_line.ratio_pr
+      		TABLE_purchase_order_line[nIndcs].COL_RatioUoM 		= xRatio_p
+      		
+      		ChangeFenêtreSource(FEN_Pruchase_order.TABLE_purchase_order_line[nIndcs].COL_Taxe.CFI_taxe_p,FI_taxe_purchase,sql_select_order_line.IDTaxe,nIndcs)
+      		ChangeFenêtreSource(FEN_Pruchase_order.TABLE_purchase_order_line[nIndcs].COL_Udm.CFI_Uom_P,FI_Uom_purchase,sql_select_order_line.IDunit_of_mesur,nIndcs)
+      //		TABLE_purchase_order_line.COL_Udm.CFI_Uom_P.ChangeFenêtreSource(FI_Uom_purchase,sql_select_order_line.IDunit_of_mesur,nIndcs)
+      //		TABLE_purchase_order_lineCOL_Taxe.CFI_taxe_p.ChangeFenêtreSource(FI_taxe_purchase,sql_select_order_line.IDTaxe,nIndcs)
+      		
+      		soit vat_val = sql_select_order_line.Valeur_taxe
+      		TABLE_purchase_order_line[nIndcs].COL_val_taxe 		= vat_val
+      		TABLE_purchase_order_line[nIndcs].COL_Total_taxe 	= price_ht_p * qte * vat_val / 100
+      		TABLE_purchase_order_line[nIndcs].COL_Sous_total_HT	= price_ht_p * ( 1 - discount / 100) * qte
+      		//		TABLE_purchase_order_line[nIndcs].
+      		//		TABLE_purchase_order_line[nIndcs].
+      	FIN
+      	Compute_taxe()
+      	Compute_total()
+      FIN
+     type : 458752
+   -
+     name : Update_num_Purchase_Order
+     procedure_id : 2221953862728886788
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Update_num_Purchase_Order ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Update_num_Purchase_Order()
+      
+      sql_update_num_Purchase_Order est une requête SQL = 
+      [
+      	UPDATE <§cs:3§>
+      	Numero_document<§cs:3§>
+      	SET<§cs:3§>
+      	Numero_document.number_next = {NumNext}<§cs:3§>
+      	WHERE<§cs:3§>
+      	label = 'Purchase_Order'<§cs:3§>
+      ]
+      sql_update_num_Purchase_Order.NumNext = Num_purchase_order() + 1
+      soit nrc = HExécuteRequêteSQL(sql_update_num_Purchase_Order)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+     type : 458752
+   -
+     name : Verify_product_type
+     procedure_id : 2221967739768294467
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Verify_product_type ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Verify_product_type(Purchase_ID)
+      
+      
+      Sql_verifie_type_product est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	detaille_purchase.IDArticle,<§cs:3§>
+      	detaille_purchase.IDunit_of_mesur,<§cs:3§>
+      	detaille_purchase.Quantity<§cs:3§>
+      	FROM<§cs:3§>
+      	detaille_purchase<§cs:3§>
+      	INNER JOIN <§cs:3§>
+      	Article<§cs:3§>
+      	ON detaille_purchase.IDArticle = Article.IDArticle<§cs:3§>
+      	WHERE<§cs:3§>
+      	Article.Type_product = 'Stockable'<§cs:3§>
+      	and<§cs:3§>
+      	detaille_purchase.IDPurchase = {PurchaseID}<§cs:3§>
+      ]
+      Sql_verifie_type_product.PurchaseID = Purchase_ID
+      soit nrc = HExécuteRequêteSQL(Sql_verifie_type_product)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	GR_Confirmé..Visible 	= Vrai
+      	SI HNbEnr(Sql_verifie_type_product) = 0 ALORS
+      		sql_purchase_cancel est une requête SQL = 
+      		[
+      			UPDATE <§cs:3§>
+      			Purchase<§cs:3§>
+      			SET<§cs:3§>
+      			Etat		= {Etat_Po}<§cs:3§>
+      			WHERE<§cs:3§>
+      			Purchase.IDPurchase = {Param_PurchasID}<§cs:3§>
+      		]
+      		sql_purchase_cancel.Etat_Po = "Terminé"
+      		sql_purchase_cancel.Param_PurchasID = Purchase_ID
+      		nrc = HExécuteRequêteSQL(sql_purchase_cancel)
+      		SI PAS nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      		BTN_reception..Visible	= Faux
+      		BTN_Invoice..Visible	= Vrai
+      	SINON
+      		
+      		BTN_reception..Visible	= Vrai
+      		BTN_Invoice..Visible	= Vrai
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : Add_operation_move
+     procedure_id : 2222038254565721126
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Add_operation_move ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Add_operation_move()
+      
+      soit nUm_operation =  Num_operation_move_next()
+      soit Complet_num	= "00000"
+      //formatage du numéro de document dans la base en chaine de caractere
+      SI Taille(nUm_operation) < 5 ALORS
+      	Complet_num = Tronque(Complet_num,Taille(nUm_operation),nombreDeCaractèresASupprimer) + nUm_operation
+      SINON
+      	Complet_num = nUm_operation
+      FIN
+      
+      
+      //Ajout de type d’opération
+      sql_add_operation_move est une requête SQL = 
+      [
+      	INSERT INTO <§cs:3§>
+      	Operation_type_move<§cs:3§>
+      	(date_order,type_operation,Etat,num_doc,Num_order,IDPurchase,IDUser,IDSociety)<§cs:3§>
+      	VALUES<§cs:3§>
+      	({date_op},{Type_op},{etat_op},{Num_origine_op},{num_op},{Purchase_id},{userID},{societID})<§cs:3§>
+      ]
+      
+      // Ajout de détaille d’opération
+      sql_add_detaille_operation est une requête SQL = 
+      [
+      	INSERT INTO <§cs:3§>
+      	Detaille_operation_move<§cs:3§>
+      	(Quantity,quantit_done,IDOperation_type_move,IDArticle,IDLot,IDunit_of_mesur)<§cs:3§>
+      	VALUES<§cs:3§>
+      	({Qt_op},{Qt_done_op},{operationID},{ArticleID},{LotID},{UoMID})<§cs:3§>
+      ]
+      
+      //line purchase
+      sql_select_order_line est une requête SQL = 
+      [
+      	SELECT<§cs:3§>
+      	detaille_purchase.IDArticle,<§cs:3§>
+      	detaille_purchase.Quantity,<§cs:3§>
+      	detaille_purchase.IDunit_of_mesur,<§cs:3§>
+      	Article.Tracability<§cs:3§>
+      	FROM<§cs:3§>
+      	detaille_purchase<§cs:3§>
+      	INNER JOIN<§cs:3§>
+      	Article<§cs:3§>
+      	ON detaille_purchase.IDArticle = Article.IDArticle <§cs:3§>
+      	WHERE<§cs:3§>
+      	detaille_purchase.IDPurchase = {Purchase_ID}<§cs:3§>
+      	AND<§cs:3§>
+      	Article.Type_product = 'Stockable'<§cs:3§>
+      ]
+      // lot
+      Sql_select_lot est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	Lot.IDLot<§cs:3§>
+      	FROM<§cs:3§>
+      	Lot<§cs:3§>
+      	WHERE<§cs:3§>
+      	Lot.Stat = 1<§cs:3§>
+      	AND<§cs:3§>
+      	Lot.IDArticle = {param_ArtID}<§cs:3§>
+      	ORDER BY<§cs:3§>
+      	Lot.Expire_date ASC<§cs:3§>
+      ]
+      
+      sql_add_operation_move.date_op			= DateDuJour()
+      sql_add_operation_move.Type_op			= 1
+      sql_add_operation_move.etat_op			= "Nouveau"
+      sql_add_operation_move.Num_origine_op	= LIB_Num_order
+      sql_add_operation_move.num_op			= ChaîneConstruit("In/%1",Complet_num)
+      sql_add_operation_move.Purchase_id		= gnId_purchase
+      sql_add_operation_move.userID			= gnActif_user_id
+      sql_add_operation_move.societID			= gnID_societe
+      
+      soit nId_operation est un entier sur 8 octets = 0
+      soit nrc = HExécuteRequêteSQL(sql_add_operation_move)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	HLitDernier(Operation_type_move,IDOperation_type_move)
+      	nId_operation = Operation_type_move.IDOperation_type_move
+      	
+      FIN
+      
+      sql_select_order_line.Purchase_ID = gnId_purchase
+      nrc = HExécuteRequêteSQL(sql_select_order_line)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_select_order_line) > 0
+      	POUR TOUT sql_select_order_line
+      		
+      		sql_add_detaille_operation.Qt_op		= sql_select_order_line.Quantity
+      		sql_add_detaille_operation.Qt_done_op	= 0
+      		sql_add_detaille_operation.operationID	= nId_operation
+      		sql_add_detaille_operation.ArticleID	= sql_select_order_line.IDArticle
+      		sql_add_detaille_operation.UoMID		= sql_select_order_line.IDunit_of_mesur
+      		soit nLot_ID = 0
+      //		SI sql_select_order_line.Tracability = 1 ALORS
+      //			soit idArt = sql_select_order_line.IDArticle
+      //			Sql_select_lot.param_ArtID = idArt
+      //			nrc = HExécuteRequêteSQL(Sql_select_lot)
+      //			SI  nrc = Faux ALORS
+      //				HErreurInfo(hErrComplet)
+      //			SINON
+      //				nLot_ID = Sql_select_lot.IDLot
+      //			FIN
+      //			HLibèreRequête(Sql_select_lot)
+      //		FIN
+      		sql_add_detaille_operation.LotID		= nLot_ID
+      		nrc = HExécuteRequêteSQL(sql_add_detaille_operation)
+      		SI  nrc = Faux ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      	FIN
+      FIN
+      
+      // mise à jour du numéro d’opération
+      UPDATEOPERATION EST une requête SQL = 
+      [
+      	UPDATE Numero_document SET number_next = {num_next} WHERE label = 'Operation_move_in'<§cs:3§>
+      ]
+      UPDATEOPERATION.num_next = nUm_operation + 1
+      
+      nrc = HExécuteRequêteSQL(UPDATEOPERATION)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+     type : 458752
+   -
+     name : Num_operation_move_next
+     procedure_id : 2222040578143308634
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // [ <Résultat> = ] Num_operation_move_next ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	entier : <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Num_operation_move_next()
+      
+      soit xNum_order_Next = 0 
+      //numéro de commande
+      //récupère le numéro
+      num_doc est une requête SQL = 
+      [
+      	SELECT<§cs:3§>
+      	IDNumero_document, <§cs:3§>
+      	number_next	<§cs:3§>
+      	FROM<§cs:3§>
+      	Numero_document	<§cs:3§>
+      	WHERE<§cs:3§>
+      	label = 'Operation_move_in'<§cs:3§>
+      ]
+      soit nrc = HExécuteRequêteSQL(num_doc)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(num_doc) = 0 // ajoute une 
+      	nrc = HExécuteRequêteSQL("Add_mun_session","INSERT INTO Numero_document (label,number_next) VALUES ('Operation_move_in',1)")
+      	SI PAS nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      	xNum_order_Next = 1	 
+      SINON SI HNbEnr(num_doc) > 0
+      	pour tout num_doc
+      		xNum_order_Next = num_doc.number_next
+      	FIN
+      	
+      FIN
+      
+      RENVOYER xNum_order_Next
+     type : 458752
+   -
+     name : Verify_product_type_to_echo
+     procedure_id : 2222746722863136428
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Verify_product_type_to_echo (<Purchase_ID>)
+      //
+      // Paramètres :
+      // 	Purchase_ID : <indiquez ici le rôle de Purchase_ID>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Verify_product_type_to_echo(Purchase_ID)
+      
+      
+      Sql_verifie_type_product est une requête SQL = 
+      [
+      	SELECT <§cs:3§>
+      	detaille_purchase.IDArticle,<§cs:3§>
+      	detaille_purchase.IDunit_of_mesur,<§cs:3§>
+      	detaille_purchase.Quantity<§cs:3§>
+      	FROM<§cs:3§>
+      	detaille_purchase<§cs:3§>
+      	INNER JOIN <§cs:3§>
+      	Article<§cs:3§>
+      	ON detaille_purchase.IDArticle = Article.IDArticle<§cs:3§>
+      	WHERE<§cs:3§>
+      	Article.Type_product = 'Stockable'<§cs:3§>
+      	and<§cs:3§>
+      	detaille_purchase.IDPurchase = {PurchaseID}<§cs:3§>
+      ]
+      Sql_verifie_type_product.PurchaseID = Purchase_ID
+      soit nrc = HExécuteRequêteSQL(Sql_verifie_type_product)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	GR_Confirmé..Visible 	= Vrai
+      	SI HNbEnr(Sql_verifie_type_product) = 0 ALORS
+      		BTN_reception..Visible	= Faux
+      		BTN_Invoice..Visible	= Vrai
+      	SINON	
+      		BTN_reception..Visible	= Vrai
+      		BTN_Invoice..Visible	= Vrai
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : ListeAffiche_COMBO_supplier
+     procedure_id : 2294476838001859703
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // ListeAffiche_COMBO_supplier ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      procédure ListeAffiche_COMBO_supplier() <UI>
+      
+      ListeAffiche(COMBO_supplier)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAC7SZM5muGzGc3NMfiaxFke/g8P33MnozJjbNOJw91dE6ueqNX2CyTA5f3FnWsWwZ4kZjx2+FQSzcpdNCZCzeJLanjFzZUbYERT7g9U2QU1Gb4XFFP/rd7DZk3xRvOSWh3zoI91Qw2ssQ==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1ecffe3c0170f041
+  internal_properties : BQAAAAUAAACFrAzp/7Q0S84R+ikNeRgtAIFcvdVNEy0l/bgnbB29kPtJH0AWHFq9qw==
+ dialogs :
+  -
+    identifier : 0x1e2c658c015a30ef
+    internal_properties : BQAAAAUAAADj0a9A3ZOgBYyQBp47+NQwNevNYtSALMrhnRjEPzA256e8UA==
+    label :
+     fr-FR : Voulez-vous vraiment abandonner les modifications
+    image : {}
+    default_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Annuler
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Abondonner
+       image : {}
+       value : 1
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

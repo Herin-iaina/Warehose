@@ -1,0 +1,1139 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_appros
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_appros
+ identifier : 0x2eb58a9603972bb5
+ internal_properties : BQAAAAUAAADilTOsf6pzWtKvbSeXXbxr43QT9MfJPBz+9zjMlM7tlaBYhA+b6uV/1zvA/UvCVtH7enXONpbO2og0LqnEZ0WE4AaLUzlaX9WUhPspDqtDn796PJYGwgU+zKkjlSfGIt/dYF9tzXkUlocprM1qv68tNpLPHRPbDn3UNSN8AhOg3drPmh/9qp0QCZvTFT6tiO3hvmjnCSr5GGOUcaVAkTEcbrwk9lT9jiATV2hz+nIC+3PT8W9T5e675qzJx+0z6EJekgR86ykr3XKx2sw7GSLYLFR891WywD8+MA927YvcFiXrCYLkE5vAkmGwKPBPaqzAY9o0HFz8XQ0YC2+Dw4O0zaafvvYdeUYWRNl5rLgKqISO3myHepo1v63i1JpuT/LBg+6ZjTdhUkJUqd4Vz4CZQsLADMcd4n+FQ+ltJU9OJQ9YqsRcCjoyErrOdo8hentnNEqkOZtZc3hmeXZoZGH2S+t1yQXsn5jFgthU6Neqzt1Z0rzFB47wphjRbTgtDllMYGnbXdme6AvV7c9H5URsm5pfcIx7lBQmC3vOAIZLU4qwQjzA1Y1otYHEYD35leQ+3BkG+puua4YxkGKz+xVLZopyLMrimb3hDl9L1eeMTr6MqiBHRrFDlo2eKHs9U+AHbeR9TKQzh0E03sqLuouR4N1JXiL2iS45Ep8dLQ1Ag/iOJijPDgilWt5Ba+jRero3GQ/PpOEqWGN6M0OMWXjO/hJfVrr45XemR5+VnowhtUCLCgyCgoyi348gucKQ+AP7fGWI2lVvjp5qA150dF3SOUUpIJqf/A8YAA==
+ controls :
+  -
+    name : FI_appros
+    identifier : 0x2eb58a9603982bd4
+    internal_properties : BQAAAAUAAAD0/zv/jDEzrAn3AHQmFgH5IZkfNYdcrHXN1a5+WTliH8+KUiNG9rU1M3fLFGVXw2rAbwfCGtu/y8nuWpprCQaEwLMc+jz4O822eXVOyED04LjVfQ2BFp2sRxWBy0zPhGJkSXdSgZJs6TPeihM6E1kORhBQ28GjNU/5a8oRKDOmkD3Lz3sZpDWWK+IKbpL85pExzQAtby3sio1hA3hqevNg18JveNbQcZ/1QXDVUvziB+ex5IAWAPD28S7ZsDcY0kB1WY+ovnDK5+71FpPp+4Xbqz0XZg+QOsgFx9HyRfw3wpCVg55K3RfYUfMG4H+31Au/nKdLl3nxH1s9B67O0viWzzYjXFLolqWTqklPFQ8jtJd1nk2d4UjuAF1GBGGuavHdqOcHUwXVtS+usD6Egujxq07RYpcuzzjqvNenkEbIEfWxaf6395AGbpSGU6gcjhbXKDydEUjP
+    controls :
+     -
+       name : SPLIT_model
+       identifier : 0x2eb58adc03bd3e1f
+       internal_properties : BQAAAAUAAABoR+niA077hklrplyZmvFQghC50JFI++a12+vaPRd9nzHuty7Vc+yfuaJSnvWWcT0t0VENal54UPnfwxWg1QYvCCl+2Q1BO9wf2sxUisHnrDSJb3+pzEb7tXj8u9Cp/X2v74zLCmOBCLiR5xRfIF8VLVULdJ2QcamDJ6Qr4repbWIbHAJRG546ou7PTQTK9urofnL9IlpBquj36lsEOo+6xuzcB1RUJpMwMkG7X98KoBHWEgq6rVgy3ygs9KYiPd+n504nfiDS48l9LOSSnCRqEcGOkGK4A3kE027IJUj5QD+EhhOowqOg8tIDJ6grddQzheGwgOhcJ+kMz4k5g0uqhXKUDOmV5ldhrLIhtGwvRMdJoRXJQJD34h0IWkdoVqAkC+GuCUqVBjjJeUcRvgGESPdZ0bBSJrVtFv7tI23fucLx9R5sdB66bjjWlPABh1yyoY2TlRWWduy8M/vTAWkB++JwCuUnI7s1auxHP/HlhLBSL/KoV63aqAisZAwhl8Vl6iCDXqYU07fHqTOu8+aeZfE=
+       type : 28
+       code_elements :
+        type_code : 61
+        p_codes : []
+     -
+       name : BTN_Valider
+       identifier : 0x2eb58adc03c13e3e
+       internal_properties : BQAAAAUAAACssAzAjkNf4/4Le1R78T6kDOIWoTS+DKxvLsgSAceliOMC88K9dGLXqWUV1XPVb8THQtd2WASFHMid80HmmhGimKS0lbbKOSLEnh7mOLz8YrIvZ+2DtbZ09m8eiiOV+QSi1VD3SjAf8NuN9I0stdTccIAsfxGkjGinUpc+jiJ0M1ASS9EbmWtEqChXRPnE5Qa65JbgXMWy9TkJbDNn1zLTwOhNu40I3QsZoKRbZIf4ei8mI4hCM/8Hk6pvClPxawBn3LlXgppYjF3qN6hl1qG68nRELrD7qnqG9YJguqphbetBG0BlIUpBo0q2nCCE0DJyV85DDxfmrfERgE/Ki09m0GXoEXy46Udq1TPRY01SeZteiCKN25q1Qcoc0F0wuWFIcx4e1N8aSfKpmL+IHJy00uRZgx8fBS4lquNa28/5kuj38RTp6M7uAgS1cLWxC6Si89CPvbCtnv9ugGIzIUjWJEVBWxrAkk87tYjXa+c5CKbnHuwxEvbvuXJsc25+sa3nTmrUQy07Xjp48feIvj3LrHZ6BM+H9FpaiFbuzoeHYOwow9wbDRUnqtrmchYEQxc1k6CIMzD/DixfE9I12+hE9jge592+iRgf3LCJQ8KeXKP6ylZfWHFKswgBTvNl4W0iw6djOC61O8SAtgBPXPgWoNMvQyk+Xrfxsd5KpEC6IWyZrMSyAD20WIBskU/dd5qRokTLcE+qhfo4jcVz21UqaZRbhboJvB36HJqujEl05GwXrxwc8w6PqfFriRsaSWAZiTd5q094QezlsReY2bdefBNLHeEfAHslsSYDeCmEb0plOPNuS/DgWwTwEN4FwtUEw9oFt5M6ogIGNWwbJQSL+toZdJn1A0QZkpjXaUO+icM5wLgrXjzW+AvO3ibJZEpmu8UHqAS1+MLz9z7ARMHRQo2lkenPDZEEeKyfSMaG0/f1JMS+pj1Qvjfdh4xuntsZY9DbfTl6PPBfa/uTGitkQOX4j8R0g63nILgF7F+LmA==
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            compute_stock_rule()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : TABLE_Appros
+       identifier : 0x2eb6c50503d7f440
+       internal_properties : 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
+       columns :
+        -
+          name : COL_Id_Article
+          identifier : 0x2eb6c50503daf53a
+          internal_properties : BQAAAAUAAABGqWYM5JZlJlOeZnHKK8xakMZmrEnJgdvuZt23rwL6wl8s36/s4V74mY6Vuh79hjgSq7tbdzm5hdjd0G89mFIJhkdfDjKWWK3kWNAOh6U30GRvHrY/nqFfbH1Ldc9BjARIz9HF8pVJ37rnnSxTvTqsc31yMFcYzSS/0x03vBoKioxrrNZAKv+Ebg==
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAADia/qgXUxn870ieoEuGjReMda2ECp3GUpEKSkteHCHRuXPBk05zNYglbOCafWdsNiWdqZ4zm8GIX9FioJXc0ChXyXccL3Tdd4SzjhLDUUVE5g2wFmoaYy5qYqaVur0X01gc2n2o3+AzxgEcumxnV5hpdlC0BOZG9GDN88qUJw9N+++JjKldvZ/7qgjb1q6E/xnErP4wpw7KviFuE6IOj3jqCoSSYOCAomcspYLyW/VNX8esYZRijpSxsLzGMbK6ta6h8pI2NpHIQI2SCeI2xUZgkjbRT27xezdgolZqdmxTwjnXLhV2lUzQOcs70alXDimUTOkNAxx4gsPuHiwYl1m0G1hbv6He7KJojEEuJHHQcc/xqI07SAMdT20MW71L6YnYbXhioVbeHgV8ihnrrCs2CM0oHDBUtpfD/r4aDhDptNjWgW61zi9Cip/f3W6yTkKYBQujwYsxdjvjuITWAmDQQaVLbajN4QdGlQPl46cpc3xYPUblIhV3GKOqaMFYUDdJaow6OmHoVx9qJlON9+IXvOFR3NoGgerW5gcpAP+/60n46ELATyjNNH2p5Z7IIaZhNh+F8Z00EXTAdbHyKtkc+FMB43CddAT2RpmALnwFRYyn9pYnwkKMwAua7MC8r0jtSJEELbXnBIn4BnRECN8CgbzgSUXPiYmkqR44Pt7ZPR0y65BJHfMKH2BR51i6mGsR2GeGSEL0oMbgMXeQsknbVMEtrdxWY/Wl0r1WtFPlJoVOukPzFeCzN8YMr4xyoazAGASWItxernO8bmlypoaaARDeb0=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_Produit
+          identifier : 0x2eb6c50603dcf625
+          internal_properties : BQAAAAUAAABqvHK8Kw3XvhdfOwwbzbtpIOKQCGtiAYYXeGi4rBl7NKhQO/fwMTYOnJnj8wqkBlKfb/ueY2ZcPtuZgFrIFJEYd6mgAsSL+gMGWQp7D5LeV7gw0Y6DCLQhYNeLe/G5skBPXTMJrpBO07cD/UC9F/90DpEJruhukb1iC/DiAE6SDuEQHbGwMa/ata6ADf//EbE72+L7Sw==
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAABfeGw/kv32MRRrW/ALS+9onkX6zDZGuJVa//Yb97l1Kraqks1AHVKarIWJ3Jw3f2XTfeXkAV40htMYDG/XEijedvay4UkryJdsTr1e+Kp7OytCdGLjCLOUL/BnJOH2Jji0kjhvo5CZEYwC6sa1ImCa993W6k8eApdzxYbFrw00i24ci0DKOAMHM74ARtsgq3TW/jPDu5+L8UfyBH6UIpKfeypB3mf6R7OZZ1m9/Zj+qiYtiqvh1HOeUopbaIgNVgNeaLiPZvGRQZ8snFSOx3+1WkOiBraoEUH6d7bSgaeOMXuQFOXf68ktDyIm/LNhK3ox28tLLN5FxqtEPp8HFYynRXf2frWKXRwj+JlZAFXyYdl04AwupWgk9pr3QC4lh1agUq6aSRVe8JC/Ujcy90WRMzuuk332KZMIO7CR7/nkp9aLOEyD5rXsqdRDtk6fVmIJ6kQ7mPn9QHul3qkUO1Dw2HJr0OsWuNesjPjqmHfB/F7XiCb4qcfUY/wOPvDsrF8u4eiDvTxwZG97pDY5MAjlwRFFfBSXr+h8t2qbb0wDPER75YYeGCnsUcGI8g+WGx1iIFK17ik1TQqb/+nQ/97J+k16DKA/zGs6276nQTwDeLcuRfMx+NT5Dki0HEw9bXp6MWjPuamY/4VfzmxUn4bFiVBDHMpMRevHlrbvI6R0z2nxGIe+DdIYPgutCb/A3dIl+JxOGktR2HxYzfK7rNn4Ln6gd/HZlbmrYZ+vrqROTq5IQYocMEblJlXjgCQ=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_Art
+          identifier : 0x2eb6c50603e8f6f0
+          internal_properties : BQAAAAUAAACPQNP0ZsKXuWzqtbmIbWrEBL5FoNguBw1ZOZ1scEB4Zcpw/KyftvJ1RYN6D+oFyXTo5WLGvznYaK+G3EG6p8up1OQFeo0Nv26Y5u6REwlUY0cDcr0xvp6y7RfF2bTmK4wKnBlWNZ69qV37CTBlrznFjO+952xFITDfiy0zQEwXz8bMSVdqrSRNJw==
+          type : 40
+          content :
+           internal_properties : BQAAAAUAAADMx+fio45LaxvumtyAasBKWngeQ7MfyQyZBXg+UIZSFiCFw5nzaZl/fOQn1SaKPG+nO20BwlcGJBdplEgcZmETKL4JvKI66SIZJoDZfx1T4qJj7WO3uXuPcFGf5iRb5VlYxQg1985rUbt0sa4l69Hr6MloVQyNVS2a5/vWkFavFTfhqU0xDTVPbr7P5MbCHbFOC+U/vnfp8a6SEskwa55k9ZcyeeFqqUPK8K8hixl2ZArhaakJDG9yte3BYfRHPUNnhM6qg8mexuWqvlhFwCJXaID7tdDlvqIVwEdCCEc55ZmiqI/ABE/HmwKMZhOm8A9fKo7m4CpSk9YDtgdZ4dSfwajoFJoLyep/DHRN77xaRy3o3WGC8Qx+dt0SudJxOCOltQPc95w=
+           controls :
+            -
+              name : BTN_Art
+              identifier : 0x2eb6cc9704e7aaa7
+              internal_properties : BQAAAAUAAAA+41rMdjMxKFYEnvt+kAHIuMMl9mA7YrzTJJ0KaMnlR7PmT2slgbqONP1oeoNmyauSvaohTGQKP6QOj02uD0bZDFukzgXnfUccz7NSX4rLcPvhN0GfUoW96D6waNzED4sN6KWe9RPB9Nlq1hteqdKXRjLGJ2pvPQ4VN26Sdb7kFkF3lTEpEoVBbh2AD0PGaxsln6bPufNYwmdtjmo9ou8x65ndvm2GwStU82IuE8jJZRXHgmeamDtteGhzpoiAH0EklyNGtPp4PFUt9sSztStP2I10/cs8ZTtOtdjHSdz4OFB1Ct8EQpPlrcdyxZpzu9tlkKw67N2tGA9aaFjB/HTMwWWf3Ev5/SfCctbmYOXyZenz08JeNBrCJsNh702alv3tABvz3GfLgVCMTIGznS97WaHZc+1xCTBhWxQ9S4yZVYcMBkDFusQ3VVjmSnAOlpCZ/v+6x3eals8hiVTabpkGeEGuPrVXBHUvdVqCs0Pg5BSqQKGwTm82arFqaO6tUZ5x6BNS3YoQDB5uxaNJR3gD8YJSj7xvI+5pYC+9qz0vCQSt8dry85ybIodVKB3blZJhqHyqm8/PMfkbwTOr8aU5dA59YgYxYgte3tKk/TXBhOzAKJ0mJKbvnWcI7lmJgsSPnnK/iMRrRAWuYFgIeGIpOIlW5YbCrS3E0xhWtWZyYaKh8Q1m92QzCVFmN5YwL8dx7uVEBKEaQWxlW1HtRyBGIyDCSNDE13580trCrVmxZ+jvjKzIHcVBVcFbBZzEolVwIQpTSpUqEx1+Pcb4M4dku6Kp2z81im3W8qMoJVT/tU0+bmNjpK+kpk4iDUnKkSvfGOUapOhIDf99Gr90WOG0SKB/RQab4BCURV7ZoNk5lhmJJJln/G2EdKZzAjcO6TXejEM+pHY36BK8av8SN8zAdj2c1l2m8Qc96vTpgnbDyUnud04tB0bBuEzycm2dBS1YR0Tn7edAq3YwZoFY5Es77bmQynwYutO2ZR+xU+Y9jSKcd9vrOf3v5nSwD714LGJyiEY2yZRHu+ucPTBcT0qtNQC8+QsqvYgtG3cPyevxKORcpMiOPWpFeSm/KrTuTvG8aN5mge7B87BBznzSOm1m3mNVJ1vnDXGkjzwHvYchKJX0/41LyGgN3DQ=
+              type : 4
+              code_elements :
+               type_code : 4
+               p_codes :
+                -
+                  code : |1+
+                   //soit indcs = TABLE_Appros.Select()
+                   nId_article est un entier sur 8 octets = TABLE_Appros.COL_Id_Article
+                   Ouvre(FEN_Product,Faux,nId_article)
+                   
+                   
+                   
+                  type : 18
+                -
+                  type : 161
+                  enabled : false
+           type : 40
+          controls : []
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 34
+           p_codes :
+            -
+              enabled : false
+            -
+              type : 234
+              enabled : false
+            -
+              type : 43
+              enabled : false
+            -
+              type : 42
+              enabled : false
+        -
+          name : COL_Id_supplyer
+          identifier : 0x2eb6c50603def634
+          internal_properties : BQAAAAUAAACly4Hp4T7KSbJ0j+Wx3JvB3gB/Ojf5zz0jn77I26iUkXGdzrDdHMtBWu2845rXUU48WEv6eKkbiWAMNEW+V7VV+pt6sEvn9qELgdBLdNM1GkCBCG3C5EPcN9vpDmYp0xPa/vsCivZpM61yPaUHsIWVZ0FyNFF8UNpgRNuBVfr5KPI9GsUPmR4=
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAADia/qgXUxn870ieoEuGjReMda2ECp3GUpEKSkteHCHRuXPBk05zNYglbOCafWdsNiWdqZ4zm8GIX9FioJXc0ChXyXccL3Tdd4SzjhLDUUVE5g2wFmoaYy5qYqaVur0X01gc2n2o3+AzxgEcumxnV5hpdlC0BOZG9GDN88qUJw9N+++JjKldvZ/7qgjb1q6E/xnErP4wpw7KviFuE6IOj3jqCoSSYOCAomcspYLyW/VNX8esYZRijpSxsLzGMbK6ta6h8pI2NpHIQI2SCeI2xUZgkjbRT27xezdgolZqdmxTwjnXLhV2lUzQOcs70alXDimUTOkNAxx4gsPuHiwYl1m0G1hbv6He7KJojEEuJHHQcc/xqI07SAMdT20MW71L6YnYbXhioVbeHgV8ihnrrCs2CM0oHDBUtpfD/r4aDhDptNjWgW61zi9Cip/f3W6yTkKYBQujwYsxdjvjuITWAmDQQaVLbajN4QdGlQPl46cpc3xYPUblIhV3GKOqaMFYUDdJaow6OmHoVx9qJlON9+IXvOFR3NoGgerW5gcpAP+/60n46ELATyjNNH2p5Z7IIaZhNh+F8Z00EXTAdbHyKtkc+FMB43CddAT2RpmALnwFRYyn9pYnwkKMwAua7MC8r0jtSJEELbXnBIn4BnRECN8CgbzgSUXPiYmkqR44Pt7ZPR0y65BJHfMKH2BR51i6mGsR2GeGSEL0oMbgMXeQsknbVMEtrdxWY/Wl0r1WtFPlJoVOukPzFeCzN8YMr4xyoazAGASWItxernO8bmlypoaaARDeb0=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_Fournisseur
+          identifier : 0x2eb6c50603e0f654
+          internal_properties : BQAAAAUAAADQKBfGSVIMJPuJdRVn0I3UtrYxKNuCBb8e3IvXgnnB1ZkZXYiRInVuG6n6w2te61Xif60m8tEHSsLEy70edONBlGmTu5l1/xwT2n9vEQc7QclbMsmwri7g62Ley8Cj7iAc+s+V23ccAgIUn6ITou2VT7u4Ke0Ohtgg//0tB+H8Er0rRjP8iHA8eJX2baTzD5x8QNyp
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAABfeGw/kv32MRRrW/ALS+9onkX6zDZGuJVa//Yb97l1Kraqks1AHVKarIWJ3Jw3f2XTfeXkAV40htMYDG/XEijedvay4UkryJdsTr1e+Kp7OytCdGLjCLOUL/BnJOH2Jji0kjhvo5CZEYwC6sa1ImCa993W6k8eApdzxYbFrw00i24ci0DKOAMHM74ARtsgq3TW/jPDu5+L8UfyBH6UIpKfeypB3mf6R7OZZ1m9/Zj+qiYtiqvh1HOeUopbaIgNVgNeaLiPZvGRQZ8snFSOx3+1WkOiBraoEUH6d7bSgaeOMXuQFOXf68ktDyIm/LNhK3ox28tLLN5FxqtEPp8HFYynRXf2frWKXRwj+JlZAFXyYdl04AwupWgk9pr3QC4lh1agUq6aSRVe8JC/Ujcy90WRMzuuk332KZMIO7CR7/nkp9aLOEyD5rXsqdRDtk6fVmIJ6kQ7mPn9QHul3qkUO1Dw2HJr0OsWuNesjPjqmHfB/F7XiCb4qcfUY/wOPvDsrF8u4eiDvTxwZG97pDY5MAjlwRFFfBSXr+h8t2qbb0wDPER75YYeGCnsUcGI8g+WGx1iIFK17ik1TQqb/+nQ/97J+k16DKA/zGs6276nQTwDeLcuRfMx+NT5Dki0HEw9bXp6MWjPuamY/4VfzmxUn4bFiVBDHMpMRevHlrbvI6R0z2nxGIe+DdIYPgutCb/A3dIl+JxOGktR2HxYzfK7rNn4Ln6gd/HZlbmrYZ+vrqROTq5IQYocMEblJlXjgCQ=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_Frn
+          identifier : 0x2eb6c50603ecf76d
+          internal_properties : BQAAAAUAAADWh4oz3QtY7sPP0pS7aGfDH4k87x/DyCLwXvqHK7vdGM1LXyfYURHi9Czu/6Y7HK0tIE3igwKiuN04hpV85w6wbA6dKmjgdL2NzMPCTKB3enI0O3hEoXuZ0NYUjGfDIIczsT7B3r2G6Mxq+BFOZrg+P2LgICWMavvqhig4TV96rCWjkJAj9G0U/g==
+          type : 40
+          content :
+           internal_properties : BQAAAAUAAADMx+fio45LaxvumtyAasBKWngeQ7MfyQyZBXg+UIZSFiCFw5nzaZl/fOQn1SaKPG+nO20BwlcGJBdplEgcZmETKL4JvKI66SIZJoDZfx1T4qJj7WO3uXuPcFGf5iRb5VlYxQg1985rUbt0sa4l69Hr6MloVQyNVS2a5/vWkFavFTfhqU0xDTVPbr7P5MbCHbFOC+U/vnfp8a6SEskwa55k9ZcyeeFqqUPK8K8hixl2ZArhaakJDG9yte3BYfRHPUNnhM6qg8mexuWqvlhFwCJXaID7tdDlvqIVwEdCCEc55ZmiqI/ABE/HmwKMZhOm8A9fKo7m4CpSk9YDtgdZ4dSfwajoFJoLyep/DHRN77xaRy3o3WGC8Qx+dt0SudJxOCOltQPc95w=
+           controls :
+            -
+              name : BTN_frn
+              identifier : 0x2eb6cc9c04e9bcf7
+              internal_properties : BQAAAAUAAABzKJ+Fr3wId4lVCQ7XaWojUbyOU43Q0T9WoXieUMHv4R1yt/NdCT6WrpVw0ptuyzXojaYNJExuo2pCYwke/wCTulPMGr2P8bMKy7NWW4ZJP4bdz0knioHBphqcvPDidWlbXG1yZXOt/K+6mu/aPVClxNZuQ8LXWRorn9I+UZqiLBcjUVFBYlkpLC0Y55NO7Z1n3+aDjee4JkEJliLtiiVvkX09WkHSEXde70oC+2Cfs3OTQmfODKOlquTj8qSkXdf+vz+yIK7g9J+ZisjHkQW5wn2QaZdoXeMg8Rh/kYSa4holri/IfjMVM3fuyW5fVcU/2Kw6LMVBtFlWJNwNoM7+i0V/AGMR8TM4ysJqvHlE/+PrvyIKcLriFPMhrwkmXDtf0Dsn+Hur5WrIZLEDrXHNG5kFv12pRWTDx/DFF5jTny1IRjQd4mDz9wwSDrTS5N57vqfGvz9WzukNvTC6vutQwgHu8rFjlOmt9dImQxMeAhaKpKXovlsCwJnSTD6105jflAfalQrUuNRelYedS9o9WyJ257wfl763MBMdSx1FL3IRaXbCE4BrdJNZwE1GQHNaT7GlZDYq6vYGJgZUmIwureWiTb+o2aAv3fNrini0tb0XNUCHuz3EctpdwXogxdUgLacyoZPG0Vbdsb+Ng5mWHZxf7PNtUA4ligG9wikB2lPIptivrh9sQugvfsvr6nyekR6bsexpBiW8JIjaageriIOLp5UvxndpzedNJtBIiJUSpYMdwOCKXqjUDJnHIdZRYNdes1z1FBqRgjlBAvYtaD2KMmTIoQq75ZC7ttsGZh4F66asQ04F142DnC79ZAgY18IlPQfzBvx4B5oNv/i91SuQtCO2A4UF/IdwPQSEY84kLYDkH4jB/Z3cGQwRTHYjbwzlIZFGmc9Hx1qrTpfpO1itzfrBFNA6NWHUq5VSCoaheA26sukiGSuTEcJwCIq9KgVmYhrz5KcPZ7C9jzYw3kglra0v1eybYKQk3HUshh+/MKrIZKR0T/vJthQZHWn5GfFbqPUY2r6fFInv3McsuI0rAu4vzstoMNp8cBQO+/dJ48mZOvMk1PaK52snJ8gTwakrSCd6KvseKckR+5IJY+jSurZMaMrNeBVuJCCOm2bFyLQSAa/SkXk=
+              type : 4
+              code_elements :
+               type_code : 4
+               p_codes :
+                -
+                  code : |1-
+                   //soit indcs = TABLE_Appros.Select()
+                   soit id_frn est un entier sur 8 octets = TABLE_Appros.COL_Id_supplyer
+                   Ouvre(FEN_Partner,Faux,id_frn) 
+                  type : 18
+                -
+                  type : 161
+                  enabled : false
+           type : 40
+          controls : []
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 34
+           p_codes :
+            -
+              enabled : false
+            -
+              type : 234
+              enabled : false
+            -
+              type : 43
+              enabled : false
+            -
+              type : 42
+              enabled : false
+        -
+          name : COL_Quantité
+          identifier : 0x2eb6c50603e2f692
+          internal_properties : BQAAAAUAAAC2U6TCbxEO9f4mDxJJ5NzktDCFQNH+Ka5DBpPAczrOwXRb2lxanJYohnvj2HPHQrN+pqtxPrlxojQR1FzN+74F/nuTqcTmUDnJY7SfMu1dt7pxvsgV3TBt7tRsqmOH+R6wi8D4iy2ikxxcuCga1cUkZnkHVjbDumky3OePDLZHEJI1xvLpmCrwOD19lVIkvspBEBBLgdIl
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAABWc8dr+D1W9l/ViYi5rrLqCNZ+WVtxNZaelvIj8RL1BfghOuhiH9dHJu4rzlFXwQ07rIfeaFC96UBrPGMFdUsMA/rBje/9xWoS8y0WCbry0/947FaAgP3wfcZRVsXwYooClDQ0cWiz2Nb+JsaZBzSAzEBzrO+CXx7pPvDd7xUCOIaL7BJZJd2TRAWjXcA8FgukBtlMsr/2uHFldR3TzCGQ/3ZXiaD9xqlWgkp/vHn/WWq536xzVhchtjtjBOtmGnIJyVEPrNDu7q2/2B+lurooAlAJV9AkZ4WdHW8D4ujFvIE+KjA0NZ/oCMDdACGgex8YKT/2fmKTM80+hpQQps6NsKVI0/XWGrDKx1EOVJtoqs2PJM2USNOFjxxh3R6cfH8v9H+k6v9qAySTwecGFrsZCDxOEDhsNT0Li22eoeT0n0fwWt+WLH0WLNygV4qURnCMybpaF7Mp6qxjbZzEujzs/+19u06u1sknBLOBsFLhilnm5p29Lf3+wpiVMTyLiJ/HpmJmhmgmyjq7FfNTcVKN+HwFeWGXNdSx8SFaU111mk2YX68dVvHWKpftn8HPh4EDldzwDeNh63+dlkgmhF69fZSYOcfFwKuD6Q2SedPndHr1IYrsHD4z/3xFzW5Usci9aBTwwMPwpzidQ21w1rLdLAedhYPEP+MWskkizcHUmRYKMrq7IyZq22UIrEthrw5G/cpbNXsXXq++kO3D20VeVQLh30Ms5PbR2klSWVRRupv3ieQMNFVqCJvn3P71hfbssmAYHG8pBmNdYwFgOxG+XU86Gz53X94=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_prix
+          identifier : 0x2eb6cb08047194cb
+          internal_properties : BQAAAAUAAAAMBx8CfNf75KCQGw0JeEVRFE8pglZF6ITiHhaIFyDPgK7mIqESdtQMDDuaQxgDMymHGMcU1VPaNTGZeNTuI7SvWVT7c2jt+PHUhEbfT4QFnsqliChmYsY3TCV6mDz+FWTmTlNpTbw/tts0/jCNm6liJY0+D6UmC3f2XgbTCjsn2OH9Gq4UjU2MTMiA2E2l4K5dUSq8LN1aetCPW3CW
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAAD4mtqIuvmdIkKsqi6CDtRDRt7ufvHtIwI7udWc7lrFZ6NdZPjINmk1lzYl06Es7HXmgVYZyb6oRX4WvbPGV4DUqRPfcW+hiMViIcxFl0ZtItPgyfinsJBNbmBinsqq8j+aYnrLz/lnqTBNQUmnggqawKa8g1nhY43lxHmxkwO6giYFHv5tigq1eMeO1I8vgiI5RY/bXNCH5Bs9OltnIUxKf0IcROlqy2KKpHbTqqnttljixlcVLhlbXhz6vawPdLwULLGh5axbrmTVFQiDNFBVbfwmQS9rAd+LRJGDr9CQFB4G1HT0HtB/ANaiWFPgP+dahWOD7c7+DHHXYpRB0McqGK9qJAqlIu+Fo4sV8QK+YzpK7nFYJnY7Bc5xVqAjcIDzc+grMTgfjFTlzdQW26kygwzk/lykuo+yJYvsZK8OhKTaosOyZFagX95WhW0vFplR/fyEG9v6ylPZz6bN73SnIBeL+ar+B8Mq6O0r/6UDTziwNDuhtaJsZX6XQzNaDnRcVLamVA61Zi8tkeOcVlKkL/BBQSUXwKi2N4+IJugPg5Iw1e1dqt7uBfVxLwwCR/g2z6j4GQMqQYDNuggrpZDCAq7cuU3rkdkqv2vQvALVXSXt5YL2xseRNM49eYFn2ytyNogQBPOP0xsfJ11l5772SelBTasQKMtZeLGW+CRUNB9MhprlHYkUTCWAmGrcKauv4zjxgXviqpDudlOYfNnFMNQ/VmgOMnwkmvrnxlF4+JOEoeh0MLsl9Ygn08iY8vXaBafaAbbInXAKqFgAdkG3F50zBuN5WhwSCg==
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_Etat
+          identifier : 0x2eb6c50603e4f6b1
+          internal_properties : BQAAAAUAAABfmbdspUiYhjNUREfq3VqQXaUaicxIWNw1SVDsaQzfUPm5tQl1GQ5eAlgswGGGn3uAXEQruyMCiMaVAougFAFKiVzGwFrqsrV/1mYpLHo/PvGh8rtJgvk+Bdm35zI/qYmGkK6ehhD8yOvocb6ViBTX1OtCMdmwm6ndFa+j3zdY7SYXcmIa6Lvpp0z0XmNCmA==
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAABfeGw/kv32MRRrW/ALS+9onkX6zDZGuJVa//Yb97l1Kraqks1AHVKarIWJ3Jw3f2XTfeXkAV40htMYDG/XEijedvay4UkryJdsTr1e+Kp7OytCdGLjCLOUL/BnJOH2Jji0kjhvo5CZEYwC6sa1ImCa993W6k8eApdzxYbFrw00i24ci0DKOAMHM74ARtsgq3TW/jPDu5+L8UfyBH6UIpKfeypB3mf6R7OZZ1m9/Zj+qiYtiqvh1HOeUopbaIgNVgNeaLiPZvGRQZ8snFSOx3+1WkOiBraoEUH6d7bSgaeOMXuQFOXf68ktDyIm/LNhK3ox28tLLN5FxqtEPp8HFYynRXf2frWKXRwj+JlZAFXyYdl04AwupWgk9pr3QC4lh1agUq6aSRVe8JC/Ujcy90WRMzuuk332KZMIO7CR7/nkp9aLOEyD5rXsqdRDtk6fVmIJ6kQ7mPn9QHul3qkUO1Dw2HJr0OsWuNesjPjqmHfB/F7XiCb4qcfUY/wOPvDsrF8u4eiDvTxwZG97pDY5MAjlwRFFfBSXr+h8t2qbb0wDPER75YYeGCnsUcGI8g+WGx1iIFK17ik1TQqb/+nQ/97J+k16DKA/zGs6276nQTwDeLcuRfMx+NT5Dki0HEw9bXp6MWjPuamY/4VfzmxUn4bFiVBDHMpMRevHlrbvI6R0z2nxGIe+DdIYPgutCb/A3dIl+JxOGktR2HxYzfK7rNn4Ln6gd/HZlbmrYZ+vrqROTq5IQYocMEblJlXjgCQ=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : COL_ID_Stock_rule
+          identifier : 0x2eb6c50603e6f6d1
+          internal_properties : BQAAAAUAAABN2xOZwIptJLDwr/vvOqeM4MXACimJo/l5AlkNkDsZAuCTftMlXGAJY2hLJKyT1joxdfhURJLZvGx8WGSmCJFnaUTfpMbvuk4vcQar7ttg8eNNn2eYvH81DfkUL4Jn/KtK0dqHR18PfUXs2gbb4fqUDyoh4tbQ6jf6yRaan0opbYyUJ28lKOEQ2rf1pc4HlQO5Hgkt2+ctyJgc6371E8KWLafAESAPlnQKWORo3z9GnNcSqIPmfu7WzW8m1J45
+          type : 2
+          content :
+           internal_properties : BQAAAAUAAADia/qgXUxn870ieoEuGjReMda2ECp3GUpEKSkteHCHRuXPBk05zNYglbOCafWdsNiWdqZ4zm8GIX9FioJXc0ChXyXccL3Tdd4SzjhLDUUVE5g2wFmoaYy5qYqaVur0X01gc2n2o3+AzxgEcumxnV5hpdlC0BOZG9GDN88qUJw9N+++JjKldvZ/7qgjb1q6E/xnErP4wpw7KviFuE6IOj3jqCoSSYOCAomcspYLyW/VNX8esYZRijpSxsLzGMbK6ta6h8pI2NpHIQI2SCeI2xUZgkjbRT27xezdgolZqdmxTwjnXLhV2lUzQOcs70alXDimUTOkNAxx4gsPuHiwYl1m0G1hbv6He7KJojEEuJHHQcc/xqI07SAMdT20MW71L6YnYbXhioVbeHgV8ihnrrCs2CM0oHDBUtpfD/r4aDhDptNjWgW61zi9Cip/f3W6yTkKYBQujwYsxdjvjuITWAmDQQaVLbajN4QdGlQPl46cpc3xYPUblIhV3GKOqaMFYUDdJaow6OmHoVx9qJlON9+IXvOFR3NoGgerW5gcpAP+/60n46ELATyjNNH2p5Z7IIaZhNh+F8Z00EXTAdbHyKtkc+FMB43CddAT2RpmALnwFRYyn9pYnwkKMwAua7MC8r0jtSJEELbXnBIn4BnRECN8CgbzgSUXPiYmkqR44Pt7ZPR0y65BJHfMKH2BR51i6mGsR2GeGSEL0oMbgMXeQsknbVMEtrdxWY/Wl0r1WtFPlJoVOukPzFeCzN8YMr4xyoazAGASWItxernO8bmlypoaaARDeb0=
+           type : 2
+          code_elements :
+           internal_properties : BQAAAAUAAAD2Rkbx+OjeaV6cz3eLdX7jB0Jgs6WDDXWz15HdSBZm9oeZQ2BKnjRAOa1wH4EQ9d5x
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+       breaks : []
+       type : 9
+       controls : []
+       code_elements :
+        type_code : 9
+        p_codes :
+         -
+           type : 35
+           enabled : false
+         -
+           type : 22
+           enabled : false
+         -
+           type : 24
+           enabled : false
+         -
+           type : 23
+           enabled : false
+         -
+           type : 25
+           enabled : false
+         -
+           type : 230
+           enabled : false
+         -
+           type : 241
+           enabled : false
+         -
+           type : 263
+           enabled : false
+         -
+           type : 262
+           enabled : false
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+         -
+           type : 224
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         
+         
+         
+         PROCEDURE MaFenêtre(Appros_position est un booléen = faux)
+         compute_stock_rule()
+      -
+        code : |1+
+         
+         
+        type : 14
+      -
+        code : |1+
+         
+         
+         
+        type : 2
+ menu :
+  name : _Menu
+  identifier : 0x2eb58a750394aabd
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : compute_stock_rule
+     procedure_id : 2213186558756169223
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // compute_stock_rule ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE compute_stock_rule()
+      
+      sql_stock_rule est une requête SQL = 
+      [
+      	SELECT
+      	Replenishment_rule.IDReplenishment_rule AS IDReplenishment_rule,
+      	Replenishment_rule.IDArticle AS IDArticle,
+      	Replenishment_rule.Quantity_max AS Quantity_max,
+      	Replenishment_rule.Quantity_min AS Quantity_min,
+      	SUM(Available_quantity.Qantity) AS Stock
+      	FROM
+      	Replenishment_rule
+      	INNER JOIN Available_quantity
+      	ON Replenishment_rule.IDArticle = Available_quantity.IDArticle
+      	WHERE
+      	Replenishment_rule.IDSociety = {SocietID}
+      	AND
+      	Replenishment_rule.Init_date <= {Param_InitDate}
+      	AND
+      	Replenishment_rule.End_date >= {Param_datEnd}
+      	AND
+      	Replenishment_rule.Stat = 1
+         	GROUP BY
+      	IDReplenishment_rule,
+      	IDArticle,
+      	Quantity_max,
+      	Quantity_min
+      	having
+      	SUM(Available_quantity.Qantity) <= Quantity_min
+      ]
+      
+      sql_Price_article_No_partner est une requête SQL = 
+      [
+      	SELECT 
+      	Article.IDArticle AS IDArticle,
+      	Article.name_product AS Produit,
+      	Article.Purchase_price AS Price
+      	FROM
+      	Article
+      	WHERE
+      	Article.IDArticle = {ProductID}
+      ]
+      
+      sql_Price_article est une requête SQL = 
+      [
+      	SELECT 
+      	Article.IDArticle AS IDArticle,
+      	Article.name_product AS Produit,
+      	product_per_partners.Price AS Price,
+      	product_per_partners.IDPartners AS IDPartners,
+      	Partners.Name AS Supplyer
+      	FROM
+      	Article
+      	LEFT OUTER JOIN product_per_partners
+      	ON Article.IDArticle = product_per_partners.IDArticle
+      	LEFT OUTER JOIN Partners
+      	ON product_per_partners.IDPartners = Partners.IDPartners
+      	WHERE
+      	Article.IDArticle = {ProductID}
+      	AND
+      	product_per_partners.Qantity <= {Param_Quantite}
+      	ORDER BY Price DESC
+      ]
+      
+      soit dateJrs est une date = DateDuJour()
+      
+      sql_stock_rule.SocietID 		= gnID_societe
+      sql_stock_rule.Param_InitDate 	= dateJrs
+      sql_stock_rule.Param_datEnd 	= dateJrs
+      TableSupprimeTout(TABLE_Appros)
+      
+      soit nrc = HExécuteRequêteSQL(sql_stock_rule)
+      SI PAS nrc ALORS //,COL_ProcéduresGlobales.MaConnexion,hRequêteDéfaut+hRequêteSansCorrection
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(sql_stock_rule) > 0
+      	
+      	TABLE_Appros.COL_prix..Visible = Appros_position
+      	soit Qte_appro 				= 0.00
+      	soit nid_aricle 			= 0
+      	soit nId_partner			= 0
+      	POUR TOUT sql_stock_rule
+      		soit indecs = TableAjouteLigne(TABLE_Appros)
+      		Qte_appro = sql_stock_rule.Quantity_max - sql_stock_rule.Stock
+      		Qte_appro = (Qte_appro > 0 ? Qte_appro SINON sql_stock_rule.Quantity_max)
+      		sql_Price_article.ProductID 		= sql_stock_rule.IDArticle
+      		sql_Price_article.Param_Quantite	= Qte_appro
+      		
+      		nrc = HExécuteRequêteSQL(sql_Price_article)
+      		SI PAS nrc ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_Price_article) > 0
+      			soit exeption = "En cours"
+      			POUR TOUT sql_Price_article
+      				nid_aricle 			= sql_Price_article.IDArticle
+      				nId_partner			= sql_Price_article.IDPartners
+      				TABLE_Appros[indecs].COL_Id_Article 	= nid_aricle
+      				TABLE_Appros[indecs].COL_Produit		= sql_Price_article.Produit
+      				TABLE_Appros[indecs].COL_Id_supplyer	= nId_partner
+      				TABLE_Appros[indecs].COL_Fournisseur	= sql_Price_article.Supplyer
+      				TABLE_Appros[indecs].COL_Quantité		= Qte_appro
+      				TABLE_Appros[indecs].COL_ID_Stock_rule	= sql_stock_rule.IDReplenishment_rule
+      				TABLE_Appros[indecs].COL_prix			= sql_Price_article.Price
+      				TABLE_Appros[indecs].COL_Etat			= (sql_Price_article.Supplyer <> "" ? "En cours" SINON exeption)
+      				TABLE_Appros[indecs].COL_Frn.BTN_frn..Visible	= (sql_Price_article.IDPartners > 0 ? Vrai SINON Faux)
+      			FIN
+      			Create_purchase_order(nid_aricle,nId_partner,Qte_appro)
+      			
+      		SINON
+      			sql_Price_article_No_partner.ProductID = sql_stock_rule.IDArticle
+      			nrc = HExécuteRequêteSQL(sql_Price_article_No_partner)
+      			SI PAS nrc ALORS
+      				HErreurInfo(hErrComplet)
+      			SINON SI HNbEnr(sql_Price_article_No_partner) > 0
+      				soit exeption = "Exception"
+      				pour tout sql_Price_article_No_partner
+      					TABLE_Appros[indecs].COL_Id_Article 	= sql_Price_article_No_partner.IDArticle
+      					TABLE_Appros[indecs].COL_Produit		= sql_Price_article_No_partner.Produit
+      					TABLE_Appros[indecs].COL_Id_supplyer	= 0
+      					TABLE_Appros[indecs].COL_Fournisseur	= ""
+      					TABLE_Appros[indecs].COL_Quantité		= Qte_appro
+      					TABLE_Appros[indecs].COL_ID_Stock_rule	= sql_stock_rule.IDReplenishment_rule
+      					TABLE_Appros[indecs].COL_prix			= sql_Price_article_No_partner.Price
+      					TABLE_Appros[indecs].COL_Etat			=  exeption
+      					TABLE_Appros[indecs].COL_Frn.BTN_frn..Visible	= Faux
+      				FIN
+      				
+      			FIN
+      		FIN
+      	FIN
+      	
+      FIN
+      
+      ////
+      //////////REQ_Sql_stock_rule.SocietID 		= gnID_societe
+      //////////REQ_Sql_stock_rule.Param_InitDate 	= dateJrs
+      //////////REQ_Sql_stock_rule.Param_datEnd 	= dateJrs
+      //////////TableSupprimeTout(TABLE_Appros)
+      //////////SI PAS HExécuteRequête(REQ_Sql_stock_rule) ALORS
+      //////////	HErreurInfo(hErrComplet)
+      //////////SINON SI HNbEnr(REQ_Sql_stock_rule) > 0
+      ////////////	soit indecs = TableAjouteLigne(TABLE_Appros)
+      //////////	TABLE_Appros.COL_prix..Visible = Appros_position
+      //////////	soit Qte_appro 				= 0.00
+      //////////	soit nid_aricle 			= 0
+      //////////	soit nId_partner			= 0
+      //////////	POUR TOUT REQ_Sql_stock_rule
+      //////////		soit indecs = TableAjouteLigne(TABLE_Appros)
+      //////////		Qte_appro = REQ_Sql_stock_rule.Quantity_max - REQ_Sql_stock_rule.Stock
+      //////////		Qte_appro = (Qte_appro > 0 ? Qte_appro SINON REQ_Sql_stock_rule.Quantity_max)
+      //////////		REQ_sql_Price_article.ProductID 		= REQ_Sql_stock_rule.IDArticle
+      //////////		REQ_sql_Price_article.Param_Quantite	= Qte_appro
+      //////////		trace(Qte_appro,nid_aricle,nId_partner,REQ_sql_Price_article.ProductID ,REQ_sql_Price_article.Param_Quantite)
+      //////////		SI PAS HExécuteRequête(REQ_sql_Price_article) ALORS
+      //////////			HErreurInfo(hErrComplet)
+      //////////		SINON SI HNbEnr(REQ_sql_Price_article) > 0
+      //////////			soit exeption = "Exception"
+      //////////			pour tout REQ_sql_Price_article
+      //////////				nid_aricle 			= REQ_sql_Price_article.IDArticle
+      //////////				nId_partner			= REQ_sql_Price_article.IDPartners
+      //////////				TABLE_Appros[indecs].COL_Id_Article 	= nid_aricle
+      //////////				TABLE_Appros[indecs].COL_Produit		= REQ_sql_Price_article.Produit
+      //////////				TABLE_Appros[indecs].COL_Id_supplyer	= nId_partner
+      //////////				TABLE_Appros[indecs].COL_Fournisseur	= REQ_sql_Price_article.Supplyer
+      //////////				TABLE_Appros[indecs].COL_Quantité		= Qte_appro
+      //////////				TABLE_Appros[indecs].COL_ID_Stock_rule	= REQ_Sql_stock_rule.IDReplenishment_rule
+      //////////				TABLE_Appros[indecs].COL_prix			= REQ_sql_Price_article.Price
+      //////////				TABLE_Appros[indecs].COL_Etat			= (REQ_sql_Price_article.Supplyer <> "" ? "En cours" SINON exeption)
+      //////////				TABLE_Appros[indecs].COL_Frn.BTN_frn..Visible	= (REQ_sql_Price_article.IDPartners > 0 ? Vrai SINON Faux)
+      //////////			FIN
+      //////////			
+      //////////			Create_purchase_order(nid_aricle,nId_partner,Qte_appro)
+      //////////		SINON
+      //////////			SI PAS HExécuteRequête(REQ_sql_Price_article_No_partner) ALORS
+      //////////				HErreurInfo(hErrComplet)
+      //////////			SINON SI HNbEnr(REQ_sql_Price_article_No_partner) > 0
+      //////////				soit exeption = "Exception"
+      //////////				pour tout REQ_sql_Price_article_No_partner
+      //////////					TABLE_Appros[indecs].COL_Id_Article 	= REQ_sql_Price_article_No_partner.IDArticle
+      //////////					TABLE_Appros[indecs].COL_Produit		= REQ_sql_Price_article_No_partner.Produit
+      //////////					TABLE_Appros[indecs].COL_Id_supplyer	= 0
+      //////////					TABLE_Appros[indecs].COL_Fournisseur	= ""
+      //////////					TABLE_Appros[indecs].COL_Quantité		= Qte_appro
+      //////////					TABLE_Appros[indecs].COL_ID_Stock_rule	= REQ_Sql_stock_rule.IDReplenishment_rule
+      //////////					TABLE_Appros[indecs].COL_prix			= REQ_sql_Price_article_No_partner.Price
+      //////////					TABLE_Appros[indecs].COL_Etat			=  exeption
+      //////////					TABLE_Appros[indecs].COL_Frn.BTN_frn..Visible	= Faux
+      //////////				FIN
+      //////////			FIN
+      //////////		FIN
+      //////////	FIN
+      //////////	
+      //////////FIN
+      //////////
+     type : 458752
+   -
+     name : UpdatePurchaseOrderLine
+     procedure_id : 2222698782264004147
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //UpdatePurchaseOrderLine (<id_detailPurchase>, <quantiteAcommander>)
+      //
+      // Paramètres :
+      //	id_detailPurchase : <indiquez ici le rôle de id>
+      // 	quantiteAcommander : <indiquez ici le rôle de quantiteAcommander>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE UpdatePurchaseOrderLine(id_detailPurchase,quantiteAcommander)
+      
+      //sélection des information
+      //modifier la somme du commande
+      sql_SelectTotalOrderLine est une requête SQL = 
+      [
+      	SELECT 
+      	detaille_purchase.Purchase_price,
+      	detaille_purchase.Discount,
+      	Taxe.Valeur_taxe
+      	FROM 
+      	detaille_purchase
+      	LEFT JOIN
+      	Taxe
+      	ON Taxe.IDTaxe = detaille_purchase.IDTaxe
+      	WHERE
+      	detaille_purchase.IDdeteaill_purchase = {param_IDPurchase_line}
+      ]
+      
+      //Modification de ligne de commande achat
+      sql_UpdatePurchaseOrderLine est une requête SQL = 
+      [
+      	UPDATE 
+      	detaille_purchase
+      	SET
+      	detaille_purchase.Quantity = {Param_quantity},
+      	detaille_purchase.sub_ttl_ht = {param_sub_ttl_ht},
+      	detaille_purchase.sub_ttl_ttc = {param_sub_ttl_ttc}
+      	WHERE
+      	detaille_purchase.IDdeteaill_purchase = {Param_IDdeteaill_purchase}
+      ]
+      
+      soit rPrix_ht	= 0.00
+      soit rPrix_ttc 	= 0.00
+      soit rTax_val   = 0.00
+      soit rTax_ttl   = 0.00
+      soit rPrix_unit	= 0.00
+      soit rDiscount	= 0.00
+      sql_SelectTotalOrderLine.param_IDPurchase_line = id_detailPurchase
+      soit nrc = HExécuteRequêteSQL(sql_SelectTotalOrderLine )
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	POUR TOUT sql_SelectTotalOrderLine
+      		rTax_val	= sql_SelectTotalOrderLine.Valeur_taxe
+      		rPrix_unit	= sql_SelectTotalOrderLine.Purchase_price
+      		rDiscount	= sql_SelectTotalOrderLine.Discount
+      	FIN
+      FIN
+      HLibèreRequête(sql_SelectTotalOrderLine)
+      
+      rPrix_ht = rPrix_unit * (1 - (rDiscount / 100)) * quantiteAcommander
+      rTax_ttl = rPrix_unit * (rTax_val / 100) * quantiteAcommander
+      rPrix_ttc = rPrix_ht + rTax_ttl
+      
+      sql_UpdatePurchaseOrderLine.Param_IDdeteaill_purchase 	= id_detailPurchase
+      sql_UpdatePurchaseOrderLine.Param_quantity				= quantiteAcommander
+      sql_UpdatePurchaseOrderLine.param_sub_ttl_ht			= rPrix_ht
+      sql_UpdatePurchaseOrderLine.param_sub_ttl_ttc			= rPrix_ttc
+      nrc = HExécuteRequêteSQL(sql_UpdatePurchaseOrderLine )
+      si pas nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      HLibèreRequête(sql_UpdatePurchaseOrderLine)
+     type : 458752
+   -
+     name : AddPurchaseOrderLine
+     procedure_id : 2222702729339074505
+     type_code : 14
+     code : |1-
+      PROCEDURE AddPurchaseOrderLine(ID_purchase,ID_article,qte_com,ID_Partner)
+      
+      // ajout de détaille de commande d'achat
+      sql_AddPurchaseOrderLine est une requête SQL = 
+      [
+      	INSERT INTO 
+      	detaille_purchase
+      	(IDPurchase,IDArticle,Quantity,IDunit_of_mesur,Purchase_price,Discount,IDTaxe,sub_ttl_ht,sub_ttl_ttc)
+      	VALUES
+      	({Purchase_ID},{Product_Id},{Qte},{UOM_id},{Priceht},{Rem_val},{Vat_ID},{line_ttl_ht},{line_ttl_ttc})
+      ]
+      
+      sql_select_ppp est une requête SQL = 
+      [
+      	SELECT 
+      	product_per_partners.Price,
+      	product_per_partners.IDunit_of_mesur,
+      	unit_of_mesur.ratio
+      	FROM
+      	product_per_partners
+      	INNER JOIN
+      	unit_of_mesur 
+      	ON product_per_partners.IDunit_of_mesur = unit_of_mesur.IDunit_of_mesur
+      	WHERE
+      	product_per_partners.IDArticle = {param_ProductID}
+      	AND
+      	product_per_partners.IDPartners = {Param_PartnerID}
+      ]
+      
+      sql_select_product est une requête SQL = 
+      [
+      	select 
+      	Article.Purchase_price,
+      	Article.IDUOM_P,
+      	article.Id_TaxePurchase,
+      	unit_of_mesur.ratio,
+      	uom_stock.ratio as ratio_prod,
+      	Taxe.IDTaxe,
+      	taxe.Valeur_taxe
+      	from
+      	Article
+      	inner join
+      	unit_of_mesur
+      	on unit_of_mesur.IDunit_of_mesur = Article.IDUOM_P 
+      	INNER JOIN
+      	unit_of_mesur uom_stock
+      	ON uom_stock.IDunit_of_mesur = Article.IDunit_of_mesur		
+      	left join	
+      	taxe
+      	on Taxe.Valeur_taxe = Article.Id_TaxePurchase
+      	where
+      	Article.IDArticle = {Param_Idarticle}
+      ]
+      
+      sql_select_ppp.param_ProductID = ID_article
+      sql_select_ppp.Param_PartnerID = ID_Partner
+      soit nrc = HExécuteRequêteSQL(sql_select_ppp)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      
+      xDRatio_p, xDPrice_p, xDIdUom_p,xratiostock, xTaxe_val, xTaxeID, xPriceHT, xPriceTTC sont des numériques // valeur par defaut
+      nrc = HExécuteRequêteSQL(sql_select_product)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      sinon
+      	POUR TOUT sql_select_product 
+      		xDRatio_p = sql_select_product.ratio
+      		xratiostock= sql_select_product.ratio_prod
+      		xDPrice_p = sql_select_product.Purchase_price
+      		xDIdUom_p = sql_select_product.IDUOM_P
+      		xTaxeID	  = sql_select_product.IDTaxe
+      		xTaxe_val = sql_select_product.Valeur_taxe
+      	FIN
+      FIN
+      
+      
+      xRatio_p, xPrice_p sont des numériques
+       nIdUom_p sont des entiers
+      SI HNbEnr(sql_select_ppp) > 0 ALORS
+      	POUR TOUT sql_select_ppp 
+      		xRatio_p = sql_select_ppp.ratio
+      		xPrice_p = sql_select_ppp.Price
+      		nIdUom_p = sql_select_ppp.IDunit_of_mesur
+      	FIN
+      SINON
+      	xRatio_p = xDRatio_p
+      	xPrice_p = xDPrice_p
+      	nIdUom_p = xDIdUom_p
+      FIN
+      
+      qte_com = qte_com * xratiostock / xRatio_p
+      xPriceHT = qte_com * xPrice_p
+      soit taxettl = qte_com * xPrice_p * xTaxe_val / 100
+      xPriceTTC = xPriceHT + taxettl
+      
+      sql_AddPurchaseOrderLine.Purchase_ID	= ID_purchase
+      sql_AddPurchaseOrderLine.Product_Id		= ID_article
+      sql_AddPurchaseOrderLine.Qte			= qte_com
+      sql_AddPurchaseOrderLine.UOM_id			= nIdUom_p
+      sql_AddPurchaseOrderLine.Priceht		= xPrice_p
+      sql_AddPurchaseOrderLine.Rem_val		= 0
+      sql_AddPurchaseOrderLine.Vat_ID			= xTaxeID
+      sql_AddPurchaseOrderLine.line_ttl_ht	= xPriceHT
+      sql_AddPurchaseOrderLine.line_ttl_ttc	= xPriceTTC
+      
+      nrc = HExécuteRequêteSQL(sql_AddPurchaseOrderLine)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+     type : 458752
+   -
+     name : AddPurchaseOrder
+     procedure_id : 2222714909866345241
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] AddPurchaseOrder (<id_partner>)
+      //
+      // Paramètres :
+      //	id_partner : <indiquez ici le rôle de id_partner>
+      // Valeur de retour :
+      // 	Type indéterminé : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE AddPurchaseOrder(id_partner)
+      
+      sql_addPurchaseOrder est une requête SQL = 
+      [
+      	INSERT INTO 
+      	Purchase
+      	(Create_date,Note,Stat,Etat,IDPartners,IDSociety,IDUser,Num_order)
+      	VALUES 
+      	({DateOder},{Note_Po},{Stat_Po},{Etat_Po},{SuplyerID},{SocietID},{UserID},{Num_Po})
+      ]
+      
+      
+      soit gnNumOrder 	= Num_purchase_order()
+      soit Complet_num	= "00000"
+      //formatage du numéro de document dans la base en chaine de caractere
+      SI Taille(gnNumOrder) < 5 ALORS
+      	Complet_num = Tronque(Complet_num,Taille(gnNumOrder),nombreDeCaractèresASupprimer) + gnNumOrder
+      SINON
+      	Complet_num = gnNumOrder
+      FIN
+      
+      sql_addPurchaseOrder.DateOder	= DateDuJour()
+      sql_addPurchaseOrder.Note_Po	= ""
+      sql_addPurchaseOrder.Stat_Po	= Vrai
+      sql_addPurchaseOrder.Etat_Po	= "Brouillon"
+      sql_addPurchaseOrder.SuplyerID	= id_partner
+      sql_addPurchaseOrder.SocietID	= gnID_societe
+      sql_addPurchaseOrder.UserID		= gnActif_user_id
+      sql_addPurchaseOrder.Num_Po		= ChaîneConstruit("PO/%1",Complet_num)
+      soit nrc = HExécuteRequêteSQL(sql_addPurchaseOrder)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      HLitDernier(Purchase,IDPurchase)
+      soit gnId_purchase = Purchase.IDPurchase
+      Update_num_Purchase_Order()
+      
+      renvoyer gnId_purchase
+     type : 458752
+   -
+     name : Num_purchase_order
+     procedure_id : 2222717710185089299
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // [ <Résultat> = ] Num_purchase_order ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	entier : <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Num_purchase_order()
+      
+      soit xNum_order_Next = 0 
+      //numéro de commande
+      //récupère le numéro
+      num_doc est une Requête SQL = 
+      [
+      	SELECT
+      	IDNumero_document, 
+      	number_next	
+      	FROM
+      	Numero_document	
+      	WHERE
+      	label = 'Purchase_Order'
+      ]
+      soit nrc = HExécuteRequêteSQL(num_doc)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(num_doc) = 0 // ajoute une 
+      	nrc = HExécuteRequêteSQL("Add_mun_session" ,"INSERT INTO Numero_document (label,number_next) VALUES ('Purchase_Order',1)")
+      	SI PAS nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	FIN
+      	xNum_order_Next = 1	 
+      SINON SI HNbEnr(num_doc) > 0
+      	pour tout num_doc
+      		xNum_order_Next = num_doc.number_next
+      	FIN
+      	
+      FIN
+      
+      RENVOYER xNum_order_Next
+     type : 458752
+   -
+     name : Update_num_Purchase_Order
+     procedure_id : 2222718685142758513
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Update_num_Purchase_Order ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Update_num_Purchase_Order()
+      
+      sql_update_num_Purchase_Order est une Requête SQL = 
+      [
+      	UPDATE 
+      	Numero_document
+      	SET
+      	Numero_document.number_next = {NumNext}
+      	WHERE
+      	label = 'Purchase_Order'
+      ]
+      sql_update_num_Purchase_Order.NumNext = Num_purchase_order() + 1
+      soit nrc = HExécuteRequêteSQL(sql_update_num_Purchase_Order )
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+     type : 458752
+   -
+     name : Create_purchase_order
+     procedure_id : 2222719728819850192
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Create_purchase_order (<nid_aricle>, <nId_partner>, <rQuantite_regle>)
+      //
+      // Paramètres :
+      //	nid_aricle : <indiquez ici le rôle de nid_aricle>
+      //	nId_partner : <indiquez ici le rôle de nId_partner>
+      //	rQuantite_regle : <indiquez ici le rôle de rQuantite_regle>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	rQuantite_to_recepte : <indiquez ici le rôle de rQuantite_to_recepte>
+      PROCEDURE Create_purchase_order(nid_aricle,nId_partner,rQuantite_regle)
+      
+      soit rQuantite_to_recepte 	= 0.00
+      Sql_verifier_reception est une requête SQL = 
+      [
+      	SELECT 
+      	((Detaille_operation_move.Quantity * unit_of_mesur.ratio) / uom_article.ratio) AS quantite
+      	FROM
+      	Detaille_operation_move
+      	INNER JOIN
+      	unit_of_mesur
+      	ON unit_of_mesur.IDunit_of_mesur = Detaille_operation_move.IDunit_of_mesur
+      	INNER JOIN 	
+      	Article
+      	ON Article.IDArticle = Detaille_operation_move.IDArticle
+      	INNER JOIN
+      	Operation_type_move
+      	ON Operation_type_move.IDOperation_type_move = Detaille_operation_move.IDOperation_type_move
+      	INNER JOIN
+      	unit_of_mesur uom_article
+      	ON uom_article.IDunit_of_mesur = Article.IDunit_of_mesur
+      	WHERE
+      	Operation_type_move.type_operation = 1
+      	AND
+      	Operation_type_move.Etat = 'Nouveau'
+      	AND
+      	Article.IDArticle = {Param_IDArticle}
+      ]
+      
+      // Vérifier s'il y a un commande fournisseur de l'article en état nouveau 
+      sql_verifie_purchase_order_detaille est une requête SQL = 
+      [
+      	SELECT 
+      	detaille_purchase.IDdeteaill_purchase,
+      	unit_of_mesur.ratio,
+      	uom_article.ratio AS ratio_prod,
+      	((detaille_purchase.Quantity * unit_of_mesur.ratio) / uom_article.ratio)  AS quantite,
+      	Purchase.IDPurchase
+      	FROM
+      	detaille_purchase
+      	INNER JOIN  
+      	Purchase
+      	ON Purchase.IDPurchase = detaille_purchase.IDPurchase
+      	INNER JOIN 
+      	unit_of_mesur
+      	ON unit_of_mesur.IDunit_of_mesur = detaille_purchase.IDunit_of_mesur
+      	INNER JOIN 
+      	Article
+      	ON Article.IDArticle = detaille_purchase.IDArticle
+      	INNER JOIN
+      	unit_of_mesur uom_article
+      	ON uom_article.IDunit_of_mesur = Article.IDunit_of_mesur
+      	WHERE
+      	Purchase.IDPartners = {Param_IDPartners}
+      	AND
+      	detaille_purchase.IDArticle = {Param_IDArticle}
+      	AND
+      	Purchase.Etat = 'Brouillon'
+      ]
+      // Vérifier s'il y a un commande fournisseur sans l'article en état nouveau 
+      sql_purchase_order est une requête SQL = 
+      [
+      	SELECT 
+      	Purchase.IDPurchase
+      	FROM
+      	Purchase
+      	WHERE
+      	Purchase.IDPartners = {Param_IDPartners_p}
+      	AND
+      	Purchase.Etat = 'Brouillon'
+      ]
+      
+      
+      Sql_verifier_reception.Param_IDArticle = nid_aricle
+      soit nrc = HExécuteRequêteSQL(Sql_verifier_reception)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(Sql_verifier_reception) = 0
+      	// générer un commande automatique avec toute la quantité nécessaire du règle de stock
+      	//fait
+      //	soit nId_purchase = AddPurchaseOrder(nId_partner)
+      //	AddPurchaseOrderLine(nId_purchase,nid_aricle,rQuantite_regle,nId_partner)
+      	//
+      	sql_verifie_purchase_order_detaille.Param_IDPartners	= nId_partner
+      	sql_verifie_purchase_order_detaille.Param_IDArticle		= nid_aricle
+      	SI PAS  HExécuteRequêteSQL(sql_verifie_purchase_order_detaille) ALORS
+      		HErreurInfo(hErrComplet)
+      	SINON SI HNbEnr(sql_verifie_purchase_order_detaille) = 0 // on va créer ou ajouter un document d'achat
+      		soit nId_purchase		= 0
+      		sql_purchase_order.Param_IDPartners_p = nId_partner
+      		SI PAS  HExécuteRequêteSQL(sql_purchase_order) ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_purchase_order) = 0 //on va créer un document d'achat
+      			//Fait				
+      			AddPurchaseOrderLine(AddPurchaseOrder(nId_partner),nid_aricle,rQuantite_regle,nId_partner)
+      		SINON SI HNbEnr(sql_purchase_order) > 0 //on va on va ajouter l'article dans la commande
+      			POUR TOUT sql_purchase_order
+      				nId_purchase = sql_purchase_order.IDPurchase
+      			FIN
+      			//fait
+      			AddPurchaseOrderLine(nId_purchase,nid_aricle,rQuantite_regle,nId_partner)
+      		FIN
+      		HLibèreRequête(sql_purchase_order)
+      	SINON SI HNbEnr(sql_verifie_purchase_order_detaille) > 0 // Modification du document d'achat
+      		soit quantite_commander =  0.00
+      		soit id_detailPurchase	= 0
+      		soit ratio_uom			= 0.00
+      		soit ratio_prod			= 0.00
+      		POUR TOUT sql_verifie_purchase_order_detaille
+      			id_detailPurchase	= sql_verifie_purchase_order_detaille.IDdeteaill_purchase
+      			quantite_commander 	= sql_verifie_purchase_order_detaille.quantite
+      			ratio_uom		= sql_verifie_purchase_order_detaille.ratio
+      			ratio_prod		= sql_verifie_purchase_order_detaille.ratio_prod
+      			
+      		FIN
+      		
+      		SI rQuantite_regle > quantite_commander ALORS
+      			// fait
+      			rQuantite_regle = rQuantite_regle  * ratio_prod / ratio_uom
+      			UpdatePurchaseOrderLine(id_detailPurchase,rQuantite_regle)
+      		FIN
+      		HLibèreRequête(sql_verifie_purchase_order_detaille)
+      	FIN	
+      	//
+      SINON SI HNbEnr(Sql_verifier_reception) > 0
+      
+      	// générer un commande automatique avec la quantité manquant pour satisfaire le stock
+      	POUR TOUT Sql_verifier_reception
+      		rQuantite_to_recepte = Sql_verifier_reception.quantite
+      	FIN
+      	SI rQuantite_to_recepte < rQuantite_regle ALORS // la quantité  à réceptionner est insuffisante 
+      		rQuantite_regle =  rQuantite_regle - rQuantite_to_recepte
+      		
+      		sql_verifie_purchase_order_detaille.Param_IDPartners	= nId_partner
+      		sql_verifie_purchase_order_detaille.Param_IDArticle		= nid_aricle
+      		SI PAS  HExécuteRequêteSQL(sql_verifie_purchase_order_detaille) ALORS
+      			HErreurInfo(hErrComplet)
+      		SINON SI HNbEnr(sql_verifie_purchase_order_detaille) = 0 // on va créer ou ajouter un document d'achat
+      			soit nId_purchase		= 0
+      			sql_purchase_order.Param_IDPartners_p = nId_partner
+      			SI PAS  HExécuteRequêteSQL(sql_purchase_order) ALORS
+      				HErreurInfo(hErrComplet)
+      			SINON SI HNbEnr(sql_purchase_order) = 0 //on va créer un document d'achat
+      				//Fait				
+      				AddPurchaseOrderLine(AddPurchaseOrder(nId_partner),nid_aricle,rQuantite_regle,nId_partner)
+      			SINON SI HNbEnr(sql_purchase_order) > 0 //on va on va ajouter l'article dans la commande
+      				POUR TOUT sql_purchase_order
+      					nId_purchase = sql_purchase_order.IDPurchase
+      				FIN
+      				//fait
+      				AddPurchaseOrderLine(nId_purchase,nid_aricle,rQuantite_regle,nId_partner)
+      			FIN
+      			HLibèreRequête(sql_purchase_order)
+      		SINON SI HNbEnr(sql_verifie_purchase_order_detaille) > 0 // Modification du document d'achat
+      			soit quantite_commander =  0.00
+      			soit id_detailPurchase	= 0
+      			soit ratio_uom			= 0.00
+      			soit ratio_prod			= 0.00
+      			POUR TOUT sql_verifie_purchase_order_detaille
+      				id_detailPurchase	= sql_verifie_purchase_order_detaille.IDdeteaill_purchase
+      				quantite_commander 	= sql_verifie_purchase_order_detaille.quantite
+      				ratio_uom		= sql_verifie_purchase_order_detaille.ratio
+      				ratio_prod		= sql_verifie_purchase_order_detaille.ratio_prod
+      				
+      			FIN
+      			
+      			SI rQuantite_regle > quantite_commander ALORS
+      				// fait
+      				rQuantite_regle = rQuantite_regle  * ratio_prod / ratio_uom
+      				UpdatePurchaseOrderLine(id_detailPurchase,rQuantite_regle)
+      			FIN
+      			HLibèreRequête(sql_verifie_purchase_order_detaille)
+      		FIN				
+      	FIN
+      FIN
+      HLibèreRequête(Sql_verifier_reception)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAACxA7PvBAqeTgMOXYGXHbWGkiOurOFcHy5eegpPIUd3N4Mmkcvwz3Dor6Tzk0WjkD/vNYdgwsmPXi/kfAgCfwwxr534Qj3eyJTpr1HARCC4QGTg
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1eb58a75004caa9e
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

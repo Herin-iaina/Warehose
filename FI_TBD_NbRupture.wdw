@@ -1,0 +1,115 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TBD_NbRupture
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TBD_NbRupture
+ identifier : 0x2f1cdab555da3643
+ internal_properties : BQAAAAUAAAAXpRo5a9tM8Oafyis5WnpiY04q6XcyGiazCWMVKL+64ktv/+seSlxCj9TSGmkMwh5OFsEy4vYvEDKZ7POTC2Ger6nuNqC4Cy444PdaeBGIsTGgpnAZxRBuHelEdGXuEUVsDMD8kw/zujwSFXozsszCW3HiwrX7yTFiZdaeZX3KycnuXDa3pKXeQ4UgHg3t449z4C9BZNLLUqIYK/oW6FWOqhhvnrra78OJp/H77sYInTh7xtr+Jp0deafYVxe2aDPIKVnFJ1a1/5ts92HTHHmwy3AF5kUab+8fmGtCZG128UmvzUJ0o9+e0T0R2RjbZx5b/8kQLDHV7579fVcrPQRjrzncnMOvKYTDYyp2OHvQv8s1XnSKw0xRa5EmHArzNCprrwgzmUyb0Kp0NChJyTSaZwbmqPobhkThSFSeKtdH1uTwdm6uiioCbgr5Nsx/dw3mwpdZuayx3aVK8dKZlDspJyjLdUZnyh4/VpOE1UqX2BerquGVEtU+SvjB57abPaW6MeD4/ed2AMa1j6y1ZGtVvl3VI8HSFMoO2yq+ANx4RHGFlc3tCcrFWzpbziLx67z1kqERDCtl0eWBZnZ6TuLK4CP6p3j4xbd9IhoBYDCOVJQIS/aJ/qklCE5KEmQD
+ controls :
+  -
+    name : FI_TBD_NbRupture
+    identifier : 0x2f1cdab555db3643
+    internal_properties : BQAAAAUAAADmFEFl+7h/n4G8m28pcHys5r5ZVXjLHnRwY4tVa9XK5kNlN9pcwNznhU23a9V9WoH1EJOz277cLJPTdmv3D4px94a/zH1Xb8z6RJ48x4V6LSc7nM322wTENMBL/xcfAWT04GAh2YQXPL6WyKWz6XPeVwCyLnH0v3j6MfhVeGVJ9vXqxD892C+0fdWAUn78I7r9Wqex636jKe6Xw99IOWSAhYUuIiRQ+myufPqW7BfAK59IJNwmI0WGR+efgl+l201sn/s0Ank6P53g/ErI3+OR35otPBufpGwl+lpqb8qvligZQadRk1WBrJ8ifDyAzQB+A1fUVPVkSOIb5hUhBd//ANJX3Z0PjFsBV4gjKcRZUBENkYhllXqJWQlk5UnkllnruOzA5/Myx1bh8ruwxbZOJOKw8+qPsX6MtSUDOsh3WugJQVnkkmvTmF/E9yQ7BOkz7F5dH9fjFn9wpdZNEA6ixOll
+    controls :
+     -
+       name : IMG_SansNom1
+       identifier : 0x2f1d792a5abca418
+       internal_properties : BQAAAAUAAAAgBCxQuQJA6tftr4gToOXugUPK2MxeWxCIiG+1pWzPve2EO5HI4XYXwM624DnsCNK76YaclPI0B8B9d9tvmfh5FOnUmQfb41JvjysyyBWMgnxN5OPvXgDRF5Zo1gyHPEZ2Z7lk0ENvgDLDAjMkkGBAkTQSxQNLuPaz6vVW6c4LaekzHbwtJ76WJzN88JfO62OWHk6n49rnLLwdIV03XrANhVLNcxN2cKIl0pf8/QmEiN03rb3DNNXHDqcAQsR9UNcGJRqGAux8dy+lC5aPB4mlv6ttcHIQFqV9leocUF9uQ/mTL6pvRUAo5MlMH3TnzzJbTkaChNt4gpG5YG4vLrH0wVIk2biKn5vsi01wC4/tSLRFzoV51inv3gJcHtcRvstb3gQzznDtcuCBGSwRxzFhXN9C+BQDb4KChrUxDCWEzQ82+KY7+wstnWg+g6GhC7RgM/NdVWRQqV0dX/3iZMxFJxpEanMYZjKV4LIlo8qz4ARMESxNeUMIXuh1r0VNRoucu6xzPk+a2VUVh59reAI7CKxKXCd+JzBgv8N1wc0WwJXQzFaurDN8/hHt7V+p0PaE75PxkVFflr8c/mAFI8L5eBYmVq803t8Nt6Ns5O96CUAnSe1FfSzTeGF9THyqCG8Vg4tUj4UorwJH4R8d88KRJFziDXsUcyJ8pEKjQJBWf67fvS/Wdri7KvG8/Cq8hlIj4dBJfk/HuXhT8FmU/Wv68rsyNZt6di3i96CZYXpIt1vKV9Qsbge3UI/jM8rjzBUyq1x6nUJXis4ZDL6bixgkcE25qLCpm3BWpqpSnMwAKddpSeCtYN7ecFBxTFXmFRvZOmlp/VIAWkPOgzmYGqvWTabxd/ECCqS+hZOzLtElKg==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_Profil_client_par_origine
+       identifier : 0x2f1d792a5ac0a418
+       internal_properties : BQAAAAUAAACJV+9FJ8ou3hAOlq9QGk6J8vbeR9DnyuzX0PExq+GIbI50fRdffNYVAkJeyUq2q0XHfIUubsYSGY9OtehbNuGOSsVvkjWVuYJBGchmk5GwI9n0RzPWZKv05V737M2e5ZsMRiOsLSB/3RWtOEv/1aYqFfCorffLtUewqf2wXIxHkJtjxlQaFtcOQgP8lDZZsFk6pHLQdwPAXWf8UMtguYLtpGxnIxvdrA720xnBV5Zj5la96OwN3mHOuqLhdEClvaWSTv9CJ9+7UQk6UHyJlPoZ5q9tHIOL169i9/6e78j4BvR2UfRmiSR5nc0bX9QXuaYTufQkn9Lxc14VBbvNf1MhXV83s8kM+f9fvWHe/rMgjUjqPu92gi+na30a9lys5/+AjWYAk89lrZW3H8RQCOP80p5pQCJrAY3QjiRGWubX8KKomEeuNmTOAqwwRHUAJcwYPnWQOfYodm8zUoALeC8Zla0enwHo2sSFpT3O/5zrTLPCyjskQYWjPMjjxPvEt5rtfoI=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2f1d792a5ac2a447
+       internal_properties : BQAAAAUAAABnzboph+nTa9NO9eCDcOQaZ9s0SAV5OR0JWQp2ymlYJrWGLfUA6uIs/SRK/jsK01xtlTmtl90Afu2+EAflkgnuYt9kSEmE8C6p9ZBZ/nwI93404o9GVZPxIo0QbS8IYCoRvWgBfJ7LIYOCyoZiXL7Cy3/dCJK5OUsIA8DVzQfFuJNWsHT8DJOaE49VRrcIDPyPRMpQToP5dMe5ymGOOYoFloAW/eXaY4wQVIdDW66wvOG9xjJa2yXSkSE5nCxV95B/J9w30AVXvownApAztFqzoCLweGROUDsMkFCQKoaQJMGASMLrRp4v0XGo9yV3V51BWB56h3YIUI+qpNvhpkpD31RciGIo+M2a4ECDq8+X8xLcxWDeNDc8dZiys1/5Uq4PUjB1W9GRVmKWdagQbTipPE3cw1QTovBSSShMOUeq9I8upN9AT6wWEDX0ptYFPVSDMaGhsN1A1PKR1OptFCsNZyKWJjTL51kFR2XNLwV4fZkE7l5ERyYQI1YGvCll8ckou2E5qj04VrRWR3LwTJiwkEPziJYB
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1+
+         procédure interne Actualiser()
+         	sqlRupturestock est une requête SQL = 
+         [
+         	select <§cs:6§>
+         	count( distinct Article.IDArticle) as nombre,<§cs:6§>
+         	SUM(Available_quantity.Qantity)<§cs:6§>
+         	from<§cs:6§>
+         	Article<§cs:6§>
+         	inner join Available_quantity<§cs:6§>
+         	on Article.IDArticle = Available_quantity.IDArticle<§cs:6§>
+         	where<§cs:6§>
+         	Article.IDSociety = {IDSociete}<§cs:6§>
+         	and<§cs:6§>
+         	article.Stat = 1<§cs:6§>
+         	and<§cs:6§>
+         	article.Type_product like '%Stockable%'<§cs:6§>
+         	having<§cs:6§>
+         	SUM(Available_quantity.Qantity)  <= 0		<§cs:6§>
+         ]
+         	sqlRupturestock.IDSociete = gnID_societe
+         	soit bNrc = HExécuteRequêteSQL(sqlRupturestock)
+         	si pas bNrc ALORS
+         		HErreurInfo(hErrComplet)
+         	sinon
+         		pour TOUT sqlRupturestock 
+         			LIB_135 = sqlRupturestock.nombre
+         		FIN
+         	FIN
+         	HLibèreRequête(sqlRupturestock)
+         fin
+         
+         Actualiser()
+         Timer(Actualiser,Hasard(6,12)*200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2f1cd97a55b5840d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_TBD_TauxRotation1
+resources :
+ string_res :
+  identifier : 0x1f1cda8215e07b40
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

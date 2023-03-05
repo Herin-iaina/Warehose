@@ -1,0 +1,406 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Taxe
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Taxe
+ identifier : 0x2e9ae46e3a9ea074
+ internal_properties : BQAAAAUAAACJ1E/IoH9RBRx/icZbHTtxqGn7C3FvBRG8cC4JBTzisSwz56ooO9bjeFOG5c1ItCFQXOZWosXH6trH7A5sAXv/6MaC9JqIAv18kGZ/tK6JlU3IzapgV5ll7RmGcIw6as2AA41a37ccs3vLX5kahcOfT8E8thHWSu5IRCmDsY3+0Sjhmyk1FChHso6KsA4lRj9Q+5qpCFoOErAKa0ClshlGwSJ7s4s/SR2VNS1Vo1G3/MntVUWPCMBkSS1wbjxXx5nw8KU7mxjNEtcjYHiifQsxqebIAX8Z1zY8Vg6MUgbTZMBQ0fMKctrLTy78nDQk5GJfLMK+mPH3pG4krjdgBif6M6zxpMgpYh28h/9oQlLSk5pYYmV16oyrZ29E0sej2S/N1+BvQIhTZDIfDvZWVz4Yr5Vy/0WpLO04ggD2rq8N+TpmT93km5VaSSdIfAnFPjdSTZw0CjFs97lFZfCjNRhR0i74P9DxOtwRvkJCHrm6LoaQWGSyXOoavE3Q/c6L257dkkg8KKAVdFGnOawlJMZZk7kVnnS78FdpS6XRIfNGOG4GUKDw7eeJ0hg/j/RRsqdmhaKkXqQzTexk27pgtdZsU7sW8Ev/KjypbsYwbnBYjj9PWoPG8ZXJqX9aRxPbQGZBbOx01VmpEz+rviZCFGggwBuBx+Z64VBF4Q==
+ controls :
+  -
+    name : SPLIT_model
+    identifier : 0x2e9ae46e3a9fa074
+    internal_properties : BQAAAAUAAACPZAhBLG9cae78+xUi0zivTVkMg+LZNGkKPH0j+LLWLJ5BtPt0OtNgnLldKYR9fqauuB5CKa13XezG2gC3rCd4xVB3qli80gSMJ9LSkiEt5vK5SUlNUC6Hh9iaHUTNQwcBi9Z12ot1uB4FDfJXiJXvV/EFNt2o3aGlDxoFLtMX33j8PDIxGw6aAm6P7RTK9npI7gId8gqhOrjHumtEqn96tuy8l7TUVjMwEmH7z/9qMPEGAqoKHbiCLzg8hGaSbd93R+53PoCiI4kFhEyKhLwyCQmmeHrg2yGcW0YwffBRKNfMfpsgirtoqhrbD+ATjZwLLXkYGBA0z8E0h5Exy4NyPZoM9AF9nr8ZFMrJ7FRHDDgQgiS+U42OK7S19aj3Q/OZ5uapAhG+zV2cWuZWSeq7Sa7CaC0dq/QuBSv4tOzgUB/k4pHVw9+JGXdbz89CzM/T1lZquCqhf+WxPOrGPqI4XF+x2TjcfgD21z0+inZeK8V7HHUvCIzbKYktm3vSZBAuM/m6Fe9bmEgoCpLN1Ic9gpY=
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : SAI_Nom
+    identifier : 0x2e9ae4a43abf746e
+    internal_properties : BQAAAAUAAAClx/3h6j2ksFdo718YbApAbM20BoNiu6cqrspcET4NiOzK83PC3HEWGU5uOIGbW2zIC8SxgHOXfcmwSdHWfAtbpUFQ98b1ZwgceCkso35MeXGRKQSQT+YtkPV8JhCZMl+M2cLeJ1tp2Rr2jJ+Z/MBLdMV8nyYR+1TXFr5mepUTuX8w4hAR8toBIbkUD0MfE1SHuUfL+Imm7iWJ9i8yRLZ1/mZMXbE0wcOiq6lzvW/3Cew0RiZYOzUEweNPthg+TROYCrWGYyQpHmrjAj7h/LPPIMbTXQasntQx6e74XfbTHnVWP3Ra+ULkNt/MEBbJQQ8ueF3UGeH4+ZIASM/ift3xlOZqP3NDJ0gGM9pohZAUGi5OJ1H21zw/tYLOlzpz/BJgS127MirSsumCGyWreSeZVOgdTlGbe5PZkCc0XUOMLbhFyjzt5pH1o+lrZ6bGH5O80Ja7P7rap+rG3WxngRGL1p1WKFhWNbyJjaO3ZFXHy1Wkn2ReMYQw2SZYzj+uGm1jVFh/VkwD30kIebxp5luDehuQ5d2lAEZvNuqT3QqRumvv5C7tJdFYCExbbpi27G75D6REI7sNx3XZWwRZ1Xa5SDBFYwHU7I4Nahbb8HhUo8FQmxdGMgngMbQ7+Oat7hQyGS6g8LNKhyjXUZplcmmDl0UvlF2HQJgjFF9YSDcDfqGC4qI/zyZ0mOPfTDhcqMN4oxZefnDkxjrHzY9J2lImjV/q9pd7wx0OHuTKNlrxg/5UWTlTA30IA1eFlDwienvzbsihHrn60MBuQQjN4+nnOOrq6rGq/s06uVyu9XXGqLMpUzWgMogV4q3dDbBDuZTbpUOis/cPzvnMkJH12tkhzTNmxOWeIAkRTnlQxtQi7oyRFvGtghuMuwTxpD0HCUh4GiDUi98i7AVsQHoFAB12EYXYiCn6tJVvpHpQRLv8ERRFl0zzrUxm0GomsfrUCzyzR26fU0a+fe8b4OX0+SeM08oXGQpYHaZaDpTCOgd9rra9fOA6FOov8qBFGaogGZx4aO+zwBXYCQPG0+LJD6dBLUOvEKvCRcc9Y/6zLIxNbc0WaZiPJ34kuI9sNxwO6DqJR98qEcVeoIqQlnWkFhMuhAbbqkQw7Dk4Bkn1DHsG5tBFldZik4ncA+dpjY0Isg==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Faux
+        type : 17
+  -
+    name : SAI_Valeur_taxe
+    identifier : 0x2e9ae4a43ac574cc
+    internal_properties : BQAAAAUAAAANOMWgpPISQ+AJccI1PUfu6p0zCBiHmbeBOGU6GOPF3Pq1DOLH2Z4FLyszIsKo+KXMnufv0KO/RfDxds2DKLgt2MfYfvWS2+MdF9+FMwDD8rwdT601zVwPjJvyEYTbvZn1z0EFAx+TfcN7SQEbREV5FxdGmsG6yiaM92guL+7XR3tjKukpxqZZq91y++RB2JlHXMRUrhJ1vfD37zvkGuBCkzvSM9mrHOkdi1soiELXr7INF+m1spqt+zQ7DzUd5ol7iiJYrc3O9L76Bfx972GUkxjXk16W1U9MfP0JqdvfvqMEyUWKiyrElQ5WFlhsCLqAGb+avIP1SlgSvQEUNJXv3kurOsle2/QcW/84BmLRZ6ooO74FwWfUf78U+3AlyY4HCxXlU+iYACXliBeaLTZCnO8/jQG/qTuZleTOxKONTglws3crk4o8pYZxjm+eUG4FZX88btSTet7csnMBvrZMSFjQRb9g9TlqeERklpKYXS8P2hwNcyq8SFnhPa2BPzIKTAep1NEPn+o9pGQNtnYPnjJrCN1dUOXqm61O6SJgA/y/WkllcfcVmY9AR5oz8oCy+rI83UpoAwdX8ZDoHGqyiqfBqFXTQcf3wewblt1eYZMLezSNjCxqc3vH3NAmROmTlY0OXrjmGofitwd90PnDlzeTaFa2TOn//OI+SDnhJWLERZWjCIx9R4+X6JmrZ4yZZ/5LP6Qhuo0RbT03oowywVkjWEBcY/QHvr8nU5vivXIVWQmDBPZairyn8PWF1jun/sBquYRboxXzxKbt+E78e76D5P6jSx2kZco1TjVRBgSo19W1bGJsN85nrbBRriJzgEPHkxvt3FpVk58vD+zVMe+ZkXSXXbki3nbUiC0OAELGgOH51SfQbVSZFzfJVEI8l4qQevHnvoRMfk+Thmow2UpX2aDD3VE11HqImyxKsgf6XQwOAfA1kECVej+SAAOEGM0L3XBEfrmf0ySiFFGRbf8kn2BDfcUlaS3hb7C7zAw8xui4azGPrl+o6NPkkgkQtYNR3eS2avF5DHE8mi9yZBF1LkbVZ/1MAfHcWPWGp/03VC1/w7k8VLJCN2kSvhmcacTLSnwORcgNJGJVWXMs0yw28LmR5CpQL5FtwuR0R0QB1n983/+pEo1SFeoGzOXyuch87Na1sKadELoDg6/BTCLu
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         BTN_Valider..Grisé = Faux
+         si MoiMême > 100 ALORS
+         	MoiMême = 100
+         sinon si MoiMême < 0
+         	MoiMême = 0	
+         FIN
+        type : 17
+  -
+    name : COMBO_Type
+    identifier : 0x2e9ae5883adfec3f
+    internal_properties : BQAAAAUAAAAJatxPKNWTczInf85ckjM9FstF+coakhOmTYGtgwCddsJdevK7Q8wnNddmypix/66rIeNchfJBRgO+M1u34szx3NsXBp0D2N/Gp/0ZK11Ov2mWqyvvlKHjUadB7pchHFbZBikv3Kff0XKT0tXVIoFc8c+wY33xZ+4qnLaRuu5nWweGBoTrIIh5Dm/gUmPgogQzLof+qEIczxWR1ZI12H2bCGsqFsz5ktH8W1mJE1E0O8X6JtpypbMR1nQVfdUuckgOdW61SA6rIKkYhVxrNTf/r02o8KTvKpDePj20eMT/EsCSsiHHRUZilSRW/APwgGr3V+oaXiBq7k8kB5Y7Viq3lBKnytWiIvxh5NJaajx/AepYItJlzLNFJBXfhH07UxifnS87yXNQS0SQ5OGqtkV1jlWGUW0/02YxamRvbSCZWYkaLxU+4nFtJM6HiuOuawUcL92mVFQc800M+0IKnUqegNlajTL/iCCywLyRD0fQN4/NdbGjoMY3/KAmeM5z2/lmfZpOvum5vaDXr3ebzEsa18iR7VdgpJNGxbQWw0dWxP0bc7TOAvYHhJX7FVRQZnTGXNvoQ2kvQnVkrzo6QR/+WWVSjJCe7NsPJWz73PPEg2kLqOk3eT68xNhxHK6cpdd8M1/n4rPQ2ihAEHOXevLOSeKdv3xLeVobuPoY/aQutk3X+vG9rCpkXWNZI8p6N2lujt3NH/cZqXe+MozyUyIgu0mANtvkNfqSqE/9YqEd6inNrzH9j45kObJeqYLc/+Y7nDuUD0DigihFjkipo81jPKqUk7Oh9AGIYs48OM3+Q4GsEtM3g78k7ON2q/C1psnNwan2yb/mqju4EqNOcLxq8O/Kjoszz2KJlZYedUJLnrHBS2rm5aYLAgODSHcZW43iKFqX2SVKdrXDadyvH+8ocFEfkrID587WGr1TwSzG96R1cvAY6605JMu6uyCFuLUgX7plflXIILWV6WLFBXfzKBw3TzCd7BEybst1l2GGie7KkgFBWEZR40RzXgbpvW4GBgzYhWwuHleotXSeq9pcTrBhAo7Ckcd1nQWmvv7s6uELqpz5i75Ev/AzcLeG2k8xrsWGOEhyvXBpWKFPR/dHWddCqt3YtxqCtsaQPlF9hMoQFhQvaSj8AsMbjMPztP9VTnIcix0mldts04zOtYoDV+Ei8Rf4xKwHVH/CLaj7/fRVRlw40+mbbx/xmXH92sNUx4W3twqBUg0OGmfdP9xZqGdDbABFr1nPowbjdbVp1qDAAemhbOBeMMhCVrE+SqJ4fiHqxjmwBpI9FhmeV496cXjU/CCoKf38naFv5cb8oKk8htcZSZJsbyCYoNTAUptRnhleAD1jLi20PRoL5LZnRl96BCH9QVB7cU+zqBIptp0GYLU1liFGcb9oNbCDM3ugDao/jY5gGVZVgCBxW+2Mtt6YBHoc2xfuxX1BYq4ZkkFKk7MqhYwrQWAXpqcGq/LXfdS6wNNlowFpP2cvYm8RN6UEgo7C0SUFfT5ljmGrrUQFB9TvV9myHhV0SFEpOLg0t0LqJyO2BT3SVV5UlcGV2Hxfk2YZi4AT92rhmj0=
+    dropdown :
+     internal_properties : BQAAAAUAAADLu2VnnAGi8Y/Y1rcs+UQ4rmd9d+BnftZo4VAD6Gz1FwRZJcxDfd76tcFB6tkcnB2r1H8VAqFCmuq6ocfYk2e6lco/Q56ap4Z7TrnciOPbBYvGpj9WEHMbVYGt0kZRIxusy0XZl45DBIwo7sGX60AGOheziWGD3UDj6m8InJ+r6Pyv1ENSjWpWICDDBFNngTTo7xoOMEe9d7y0Q6bibixBgeq5id2olzR7vxrXjHWvEZ49HGuOrSpaB2mVRh1QHyh4CoM03cADKuS7e3jLTk7kE85YYKtZqZx0BGnJ4ZsocAbONAhKdH/G8CIRJscXSzqJVy3BYS3S6eA4eu4B8Iw6I43k/dfijaioda0wif4rKjPEYaqbmWJ1jjmK3H/vbHPPzyYIqHiUzYJGi2gMK2z5JVjfmVQ/sCmy7d3/dryhoZndutV526A0SlqlEBq63aertRtAiE6vRHkf6KBUDH2MxVvUKQQXpWnkjx/AsblsNijn2X3e9DL4kVuAfy4lqQBMlbEvIDeFitv/VeRYRy5VcReufg8+cC/CpdGjXj+0FQyLOLFEDaSyk2djBCSBZnsWGV53SN+nrnm7KkOTAK9qgnoM3TGhxpBhV4HWWVkkto7RK+DoR/Wi81wM5SSek3QlFa5Qxv8QXO/zK6qecm7gQtymFr/S6xNlrISVzXCuQSvJP762a4ZIa/I7sqiYumTmx5Jkr18Hp2WWVRDE1PsRYbxA
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Faux
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : IMG_SansNom1
+    identifier : 0x2e9ae5f03af982be
+    internal_properties : BQAAAAUAAACHIfiEbSFwL7veKmaYe8oeVhHdvUEqGwNnvDY05cezmvNKAEWAbEFUbUoyWNvtgQxSFodJxhBLi2BufMoCsKp92iJNwfjy2BsiXyWLPzqiMAWoFR+1ohfkip4lmJs4WSRasy4ry0qPA/C+OCW982ZqqY/6I4R7xh5Cdj5nFizwQoPf2C2chNYD7NXmRYXnrQAHMQFNMCbMEL2CLOmNgmamIwp7GYXHllpAiMqqx1rnzs8/2PL5OgW7aADlM9TteqOubgSpDr/iyHLCJKPI69/UMgadpy2MaIJxSK861mULiZXxuhw2hX3N8tVACwH7vIryToccNr3lfXoOqLpEjvsiZvYPXrh5tBagAB7OWz/f3aWvGSZJgzZv+/LYDlRJ8pgsASIenXsTuOIeDJeeYPCSqBPKCw06nQEJmQgXnPts/Tm4wQ99E7cR3XIJreUzQZMMaF2A1VMf+r0ZBfk8FjK3n7/5+5HyB/B17I3+BbRV+5IbkyQ8piBmgG5W8nuXsiBpnfgffxnA7b1qGo4n9MjN6iYNo695CH6HgnPyjRteseE4hK2RDbkPm/fIslMlRHgZW9RWUw2a/mja3ja7OSW4FQ68MLdtWS48sNjW9sCmn1WnFgACcbrVPATNqF/nbbG0x9CUBFTmGu3cGyVmkfrUBVPzRXC9zoxV0Smow6gYtOE6gx+7NVLwoetq5w0nxrmAvHnsEpBUjP7yMQrRPTLUg1rSZ/bATsWHwdcZewIaXU7jQyHlNQzIFPmFcV/uZgOXart17eX1c2+KWJ09pXBl7C+u95EYGmjZghVYQzwoFgMlFJ5weTD7jFIvKpGWepLRyGrRfA92hw==
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : DISP_SansNom1
+    identifier : 0x2e9aece53b19b014
+    internal_properties : BQAAAAUAAAAfeTG1XJIaVfAp/KHEbPFSgeo3vpRbFcG7dtie6SrcvME3vCHHc6r9jAbfYAAM8v17dx0gp6EgouLUojbW1d5Qqvze5UaS/ym0OJGA/DexvMX6t7wJZYG3u8QaPDtvUQOXilzCI6CoHo8huaszHRDMEs2AKFX0n4UQ3kl+qLvgXuFG9R8PJam5tLeGu+RxZnFnzqp7BJmtm3+Lqvg4Ww/8uFqv1SlWXcxsIs/OW/MP/srEBIKL/eCTB8BGBdqYqIx9MBc9W69kZH86yCxB/68onK+s1rD3+h8g1jWe1L215BgXMWbXSk94+SFM+dmVqY24gT2N7Qc6SJ9zTRkHdul6Hzw/5K2s87XwzAdYD44PEoLYHYuvl+baWYSAvVCxwv89waKTaBLMUpuybRLX2Q39bcBXWIvNdiHs4M1udUpLSC38DFCSB3ly1mWLHKj8LgVNCuyfkmtplMTXRIZAGfnoazy/1EgtwdDRTqliSCE4xdJEk72+BZu8XyMDtoZWsfxuTPjnZs0bv2VKedwQNCJF7Wt2Ib9EB0RW51hkabmgo35I+E8XKR09BVBIjvP5Oi29mPZEgjJVr1SBWINihRxKYu3BRNXqAhxazd844cX433lpd29ZsGLnk0VeTlT3PmYLWbCXbYi7dP/aF2p2IDVIcCk0ctsixJs0OFhZUF4D13RiTTrZOIcadx6ycChmzqByprNsmA==
+    cells :
+     -
+       internal_properties : BQAAAAUAAADPCJLZ3nDVxxbrcqMsEQJGN5JT+8Tr29ERSDaCrkSG/V0bOieyS9QEvxt8jjV81/BFHo2kb1VHTzbbn6iPBQYxCtsu336160Z0ywT+F2joma+LxKAvZxO2UoVlS7/ML0VIzeGvdikw+f0WPg==
+       controls :
+        -
+          name : BTN_Nouveau
+          identifier : 0x2e9ae46e3aa2a074
+          internal_properties : BQAAAAUAAABov+ZqrH5pQ3F9Jst9r5uwe2v8KTzh25PODwrdvXwRBT6Qs4T7swm7k8Y8HEKm6J4exmyKZLs9XyU3C2Crumn0d55Jo4kuj20syk4pdTqaB9Hu0VGS4mozxlmXQLbSf+9IwF137V9HvA41R+kVmaN22n6SNf56bpVdGkhBTPEJ1e+rGMPcvO9h/WEDeJbHJi4R+jrEtLQr6w21n6Yhwg1PeXV3beD6iKQ1IoFEOwZv/NT3wXXSw/UVxzFddXjZjvKIDXXY8DFrntqpFekyYRiBMiS2t9ELnbrVsMV5JY5DPQG13fcuo9FTm6g6wKcUCFuIVbmbPmedieABzUj26BtdjP33f/oAEdWiiZ5MCGdYq+CgoVENH3sCBQpUMevZ5Av1Z5UA0rubVnpOZvC1FLyfcPCmjiwPVN02S0wlyBNGeigFT2Fi3qX6GGPAgLhl41jhbNNIZoeo37lg34Af2mhgw9T41LSp+qwi0gTpm3bnftBJQWUeWgtjoh/7f98vR/rV3pbV/nnbk2h1wSXJfNJPNB1Tl4KD4U1TpjsGNm5r7+ok44DeS0keY9Kf2VUcFlK+xuWTUDDHb2HZnY7EUIsusFed6WooS96jgGzOBWRUl9oBKaOarklfsYnSe0XB6MpXOD4uQwxby4qXNtay5q6SR5JqIm/T3s10s9HMgkooEW0QABRCniPBpc0XS4VID2HWuTWVFvN5UnzlaDmy1bYCCtEW9HSgpknFIm50n2DgQCUuKN7bCn7+/t0cDyFu2cIWFFmwjwQ=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               SI gbCheck_update = Vrai ALORS
+               	//2 : Annuler
+               	//1 : Abandonner
+               	SELON Dialogue(<§?1E2C658C015A30EF§>)
+               		// Annuler
+               		CAS 2
+               			RETOUR
+               		// Abandonner
+               		CAS 1
+               			Init_Field()
+               			GR_All_field..EnSaisie = Vrai
+               			BTN_Modifier..Visible = Faux
+               	FIN
+               SINON 
+               	Init_Field()
+               	GR_All_field..EnSaisie = Vrai
+               	BTN_Modifier..Visible = Faux
+               FIN
+               gbis_new = Vrai
+               BTN_Modifier..Visible = Faux
+               BTN_Valider..Grisé = Vrai
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAACIaCyCgO6PrBCJ2kJLBc4lQLJ59cXvvQ4ckEQv4RMDqeO+XNGP7OEQJYDcLPUZ/dHJ3FyUP6bAFYlo08qmK/uQielcL9ONUPa1fo4cft6ffhRPzN5cPayCP5w/+er05HzbV1+3RZo+AkrTdC8=
+       controls :
+        -
+          name : BTN_Modifier
+          identifier : 0x2e9ae46e3aa0a074
+          internal_properties : BQAAAAUAAABfNkNsbn2O7JjE64uiuwgwIX/gKk7D2XxJGSbdHA4OyyGV+L2C18L0LutIsqPmBwzpl354B9LXxfMOUOH3h5dHnfvw7slJUK0y0V9zMcz4LZaGxQN4lGzqFWr/x0+CJN/5N6HmUTiVfblyR8rz8rp7bZrJY2pV7TE5ytgD/w/yVsw4Lf98TRKHd9ksCcWXjoXI1GIoDXtI8QelwxiAeAiEc5koUwEJVYQp8yBPfT6xoRCqXWvyJgDAnuZJ9ceEqOaJYgJ9JR6goCJlp8+JJjaIgR4pkBMmhnlk5fCDeYdTRzSIWCGmn36YZwf0dMkaNdTCop0v5S7CqfRgM3yD4evhZ7h8f84i9Z6BydWZK0mVT0xMr+kn/WCeW5ejG1h4DUc8qQ6VprLbAYZUTEZ1a8kJXlN0ZIth72Vnv2dwXpyhc15AFPvLLEVyfHCtgkBVmvanGdhbjehqt3vh97E4k+3A16aaYuGp3DahbNiOZj4ou+lf9YHfdOm1yt6yTri3+wI3o5EJMvrLQNytU2nLOo7jE/07Wh+BfEkQzF5pYptm/jzgV4n1P/9QnP81mc7HOKH9zmId2IkmyeScUtJWwoyonVcEO8Bsk+c4hhk7rePITzpAxRmvZRwuTcq/sVeN606OSxbZczk0rpmpo6MH7jV50JKtod35tKgDsfqwOAEOoRtzEsZpmCWz3iktEYnbJXZDk0m2Tn9o3gOtWrV0RGI/Gcgl2+6pwHvlfCVcmQFKUCte8lnGcuXAQwuLGrKdPvVbsc/tNwDs3pez
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // control des modifications
+               gbCheck_update = Vrai
+               gbis_new = Faux
+               GR_All_field..EnSaisie = Vrai
+               DonneFocus(SAI_Nom)
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAAAnEbdZa9WmkvV2KUFSjMU4+8eEbkSOgoe55Qde6CIefJrH5/YSn3rBxuXfB2iUUPzgBSf5Y/ClWU/OSbK0vXcEbeFGExk/hKp79DT0VHhripDLalYuoyRqUd4xjbC+oECPh42frnEXXZFqm8A=
+       controls :
+        -
+          name : BTN_Valider
+          identifier : 0x2e9ae46e3aa1a074
+          internal_properties : BQAAAAUAAACGh/CihhoLHsitbgnpAYtF8+DS9kEOxM2YMMk0x/j5P3JCYRz5fAQUGy5FAmV4HuDNRDNgYNi+0sy0CdUEYlj0og2iEZGbp3cbRZ4D3e3kBOW+ZuJXNTFZu7NmCj7TOhr7uFsjEs/g7qoZfOycTerRruTwYxGGAPC/iOG/70kxIxMFPQAKGquWxgU+Bh5GkJUrQTzWLK7h55ASm32rkrkutRyHOa4wfFFBfAA9kE2qmL69KUKoGg/z9wkQ1ovcCDiDjVU06JcMPfW6qj6xeNq8cYhvV+9bjG35iy7aBY+mUDoTsV6/HOX3we3d3zYLI3aWTP/TUyyuQEkSdPYLnLovzNLHvphGRyXhY7mID8p5gO9+uoSh6vV0GAeE1TzjGND9n3/4tPk5HecTeJAS3mX50s8kZtmCe+7cheXeoNDCVPo0QSsFFzLXOl9+EOVmMD5zVrzO47vCjUI+x9XjxpaxpEpTY7uY6+Ud21tdyju+O9ueARSVJSyWEHNH0U6Fryj3bIJWtZ6jDcbHvG+WhV+fxWojTFCTP5eOJ9kBBNDsUBiUG1dhn22qjC8wIdF00tXsH6BWAwh4EfVxr3vU0aFJnhlsGPkE33a342TKsYPQocwJI+VYySAZ7Mb2upiX/p949mET1dZjPXdixB7T17WHflbDMyPQMLoxHMfvANSgtguP76sI1wG7MettTTD5sig6CQREOMmSa5VSiz7qHSBLw5X7V+XPyrU8pllMIDaAsFeTQM7mK3uJAHPdgfpuSkKmBz/ig1r/htB74lQVsg==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               //Ajout ou modification selon  les contextes ajout avant 
+               
+               SI gbis_new = Vrai ALORS
+               	SQl_Add_Taxe est une requête SQL = 
+               	[
+               	INSERT INTO 
+               	Taxe
+               	(Name_taxe,Valeur_taxe,type_taxe,IDSociety)
+               	VALUES
+               	({Name_taxe},{Val_taxe},{typtaxe},{SocietID})
+               	]
+               	SQl_Add_Taxe.Name_taxe = SAI_Nom
+               	SQl_Add_Taxe.Val_taxe  = SAI_Valeur_taxe
+               	SQl_Add_Taxe.typtaxe   = COMBO_Type..Valeur
+               	SQl_Add_Taxe.SocietID = gnID_societe
+               	soit nrc = HExécuteRequêteSQL(SQl_Add_Taxe)
+               	SI PAS nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               	HLitDernier(Taxe,IDTaxe)
+               	TaxeID = Taxe.IDTaxe
+               sinon
+               	sql_updataxe est une requête SQL = 
+               [
+               	update 
+               	taxe
+               	set
+               	Name_taxe 	= {Name_taxe},
+               	Valeur_taxe	= {Val_taxe},
+               	type_taxe	= {typtaxe}
+               	where
+               	IDTaxe 		= {TaxID}
+               ]
+               	sql_updataxe.Name_taxe = SAI_Nom
+               	sql_updataxe.Val_taxe  = SAI_Valeur_taxe
+               	sql_updataxe.typtaxe   = COMBO_Type..Valeur
+               	sql_updataxe.TaxID	   = TaxeID
+               	soit nrc = HExécuteRequêteSQL(sql_updataxe)
+               	SI pas nrc  ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               FIN
+               
+               Echo_data()
+               GR_All_field..EnSaisie = Faux
+               BTN_Modifier..Visible = Vrai
+               gbCheck_update = Faux
+               gbis_new = Faux
+               MoiMême..Grisé = Vrai
+               ToastSupprimeTout()
+               ToastAffiche("Opération réussi ",toastCourt,cvMilieu,chCentre,BleuFoncé)
+               HLibèreRequête()
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      
+      
+      PROCEDURE MaFenêtre(gbIs_new est un booléen, TaxeID)
+      gbCheck_update est un booléen = Faux
+      si gbIs_new = Faux ALORS
+      	Echo_data()
+      	
+      sinon
+      	Init_field()
+      	
+      FIN
+      BTN_Valider..Grisé = Vrai
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : Init_field
+     procedure_id : 2205330449528256795
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Init_field ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Init_field() <IHM>
+      
+      SAI_Nom = ""
+      COMBO_Type = 1
+      SAI_Valeur_taxe = 20
+      BTN_Modifier..Visible = Faux
+     type : 458752
+   -
+     name : Echo_data
+     procedure_id : 2205330574082337972
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Echo_data ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Echo_data()
+      REQ_Select_Taxe_Id.Param_IDSociety = gnID_societe
+      REQ_Select_Taxe_Id.Param_IDTaxe = TaxeID
+      soit nrc = HExécuteRequête(REQ_Select_Taxe_Id)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON SI HNbEnr(REQ_Select_Taxe_Id) > 0
+      	pour tout REQ_Select_Taxe_Id 
+      		FichierVersEcran()
+      	FIN
+      FIN
+      gr_All_Field..EnSaisie = Faux
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAC7SZM5muGzGc3NMfiaxFke/g8P33MnozJjbNOJw91dE6ueqNX2CyTA5f3FnWsWwZ4kZjx2+FQSzcpdNCZCzeJLanjFzZUbYERT7g9U2QU1Gb4XFFP/rd7DZk3xRvOSWh3zoI91Qw2ssQ==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1e9ae4620874708b
+  internal_properties : BQAAAAUAAACFrAzp/7Q0S84R+ikNeRgtAIFcvdVNEy0l/bgnbB29kPtJH0AWHFq9qw==
+ dialogs :
+  -
+    identifier : 0x1e2c658c015a30ef
+    internal_properties : BQAAAAUAAADj0a9A3ZOgBYyQBp47+NQwNevNYtSALMrhnRjEPzA256e8UA==
+    label :
+     fr-FR : Voulez-vous vraiment abandonner les modifications
+    image : {}
+    default_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Annuler
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Abondonner
+       image : {}
+       value : 1
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

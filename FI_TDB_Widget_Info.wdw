@@ -1,0 +1,100 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Widget_Info
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Widget_Info
+ identifier : 0x2db9529f9788b948
+ internal_properties : BQAAAAUAAABeiz24Cx6HmQP0ibyr+oth25SESyYdvfprrrN3Mvvz+AqfUZ3mF+AD7KZJ5BDpnNZIbHQ2OuzTcrz4rKN/wXuBJG5TsZ/ItMXHUEi5N1fRnxJtwSrZ87AMVScB0o2dpAdfO21o8uTqUifSRTnJmznbyeQjsSempsAVKVWnNnpkGrtpyz8+dYJPdSF1gaJDLDHXM+egcsmQKAgjfEFhNDAHKogFimTnkexKqkStcrNHCmBLxSgJjUPDeTfUOrIcrBtvk0aTw9DrZsW/Z28mACGQ4PEDl81uUl/f10zuyRRn4YxoszCpB6IKyu4RrMQs0hU0ZbdS1XwKiqIKHCfIJUhS5G01m24J5zIRtGfR/AdrOdjDOZhxMLh8XXhT9DdqhvMyVvE4/X+6dZOI2O55PA5Ctboxn503bYKliQnXWmi+F4V5PwwW1UgPPRrJOwELAZBzDmQuTo2itwsw+dQ/B5SQo+wBEhExpEMtDYVAgq4QA+vuktYffpzL/tV0FdwODSd7CHxUW2fmy3JM1ZVu+JZ9C4IlWIfdVn0E0NT+OXHOc6726HENBu8/6OtzCFZE3t/w9AnS6/dumtx7/jTY1AOKNTKJ74hRkVxUaIXP8g+NvL3kVyBGGoBibu2H6XlJAWxx9VOZf90UvQIrd/yEKKHglYqwmFvohh4SXQHfogOgP7cS2zA1L1fW
+ controls :
+  -
+    name : FI_TDB_Widget_Info
+    identifier : 0x2db9529f9789b948
+    internal_properties : BQAAAAUAAADBN7FSP/V3c9zro2sGwrCB4aW/La7cz80UHnanBg/AhjVlirBiwwI+K23nuK111MZ64jS9qqWBxR/QvDNbbyyZ4qdOx5cUoZyoG+RHh0h5jzvWZde0RFFFnlnu2S1Dvv/LmuX9VzKQcyXtAbJI6yF/Vlwd5e+hvSyVd1hPnouALcfxhq9iT/4Ka/LiFhyFZpye4aWNd4QZLDRR00YHL9pwN1zGRyGfLnN0syjWQFgtlZfAyV9v4inucAeMJwy0qGoKL2LFpKEeXt+/0Gvm3EH9ROptAIdb0WSkzdG81N2LrSLhhF60VgYw0GmXYrl1+9w3iKDVBgyyEvfm4QL9M+y9giAgDQS/h8E8fExux7JWMkYDD/xl0uQE5EbgGLYF7hamKQozk1e7fji7/IgUUwEzBJVz6SdljNIPAlG0tPf5uf2o7o9qFyV/JcjWSeK5de1OUdj09p0=
+    controls :
+     -
+       name : IMG_Picto
+       identifier : 0x2db9529f9797b948
+       internal_properties : BQAAAAUAAADVpVIPDPd2ZwnzbMQgRdcTK3DZzyM9jLHoJ8o2Lko/+Ivt5dZDBn0NbHg4k/3P07MiNdcNkPruOhiCJXMmhw3KH0V/7tZ5F7woEm4DfMckJN5brJXK2XQl7tD9H1xuQiA6vVZc45bbe8xgz7syaAdAprveVOfxfFNs+BGVY/mOXUzKsJO2bhKyAj6y9/q0gcHeNzl2xdJc0wm6yYxRGd3v3UZajK6X/Q9uOmOTpSPbEgKImi/6rasH+TrL7xlbQKRIOl8PUC4zhlZsQC0HLnWT583wpWCKWbQ9eHTSjWD9Hef+w7yKl7T4dei7bUujLesQmG9bIpkPyQRNx08HVfbeHCZWtwMpSvYahci6lqMUPuD0YsowxT76HgNskFD8IDkrY2mGVWH3u3JHIsaPCFPZPzFT56n1N3e2P6Wuy7/k6PcSBHqY613WUhtg7ofasMzRicqXs3pptP8H6rVSrd86cwkqdrvZVtOyMVG+Mq1RJI6CgZ3CRiO/QHY3bL6f3Mfotv4trwfeor7aWeyVRD5H4R8r2CkUJ4vJaSGiJ87gIj6ZUk9Gbn/8zbF5uCGm8OAsSTzKg/sgNOUpgjHdlMyq95kavWyMC40b66/mKe5mgZL+O4e62ueKEe2yH3gV7YxWEoGMazEeu+076ou3u84WV5oPvR9rhPMwDbzpO62yHr96PlfS9jX713FIlsJ+OjGsJ1gSUE3pqJHY+1i7t7nz4C9+0GOUX5smLuYD1zQZ/vl5kC+qWXkkF4N+uCMuAtEjMVO0KwHHSOUp4hWb6tiY3C14/UrVdHmcN2trZnUcGV0T3kBpGI/EBKdfaHHCZ8R5dFgPVOkz7SyDzMVzpvjGrQVSJsLAAGYK/Uuq6Ucz3i7ribDBKa4=
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1-
+            
+            SI EnModeTest() ToastAffiche(<§$0000§>)
+           type : 18
+     -
+       name : LIB_Valeur
+       identifier : 0x2db9529f97b8b948
+       internal_properties : BQAAAAUAAAC+2x9an1/LXMYUu7FWnLgzJkhrclMrVNnVGS4QnEJCqAkgwSm0VZLq2Ih8+5eVwKKgiqlSfca7RjuOeYxUGQl1sEzPe+dJRo060SaiP3PubnNFHGCe5hXon3pEmghKfv9mme4w/E3XETsrm2SUCQHLhU4fd4ZddMbOysOkquxRp6chkk222Wxc+HkzK7cRVUCO06GU8jufi2ShoaL2LLAAiM7IXmCIj3igvUm87sx0gqez5+VdLeJMc8BrfL2KfY/kYJooeSiNB7w9D8GBBGEAYVbxBcnF7qmLF/AoRFEJpINNaUCMY1P+y05bxYihYKzc4sKzYIn/axAN3sKjatY9riZpqhH/3O51Rr9l4kKZfQ9BCjQAK2EFB0F73nEhm9ENxDVvDD5ZmxWRtCXwsTeGhuqiGdzbP957fyVQ3lYTJ5szWZJzbUuNhrG9
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Titre
+       identifier : 0x2db9529f9798b948
+       internal_properties : BQAAAAUAAADIApmuqnIweHSXR9cTFb3EwV9WWFA8KFh3H2wFTLAGPZe6QzVhKEyN2iH6oboqdTVZTJwCSPPXRPwTfYPieCH3Aqwhntw4XOXAtX2h79765d0sZIbnacvHBS4S2HSs4ZbISjmf0fdgKOpT+wVyFT3/54tM0Ef9MNrVc19bQ8PyfLot0ockgpGvSvWNvWnrl8qF6PNKk73g9yOTW8rCMECTws0kB+b+xPhR9hTMjXb8k8NDElOGIrlwGDJfUjH14PIHoh3Vt+to5o6YuS6tSSmE6ZSh4m+so0FbetxgHYukoPQZqdaNKjew3BjhgE5nkmaushR/zXIOqAS8BSxv80n5yIN9q92L36UNNtem+Gm1SWLAu/AwUFso0sE7Rx2iQtw4iV5ad1gTB6sV9T5yTQuVubwM/NpwWoMqxxKN
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Fond
+       identifier : 0x2dd6a50a1ec47f6c
+       internal_properties : BQAAAAUAAABakQjYxKGHZxW3e1nqgPNN4EtLUecCdlQuDnlApu9QbpWP+rdtMM/TnDPNgTFCNnkF/5ODGmInHktqefrzgl2fnx7LsjcGewxZptHiHHrp9aStvHWzuVnUTzdYH2t5AaqfkensJjuhmsB8ZeUo3O3QJ7ZvMEb7va9FNHHTmV0sy2ko9ljG4qqAZvDqM50PEFJOT7p0Dig4rF99kDcRYmJpLlN8nve5ofp/b8fs3JBjdI3WAwPrs7vhg6jd8+cpgQCQ/PkkKs3H1bIBOpRvZvQhkAsjT1nAQ6uLV9TXlo7/8MaKFnyio+9inDuYJGD363AB0laHDrOXqlS32MQ3t7h78HXBFSwKgPKTMaFSfCQx9cy2BcvspBT8fsmqWehjoIkphlj1WVCjZg5ak7el33B2FwezrDpeVfayrywM3wNZ2IsPM7IEJq+9YxqhohsKQWrbvB21pW1mtkBPc8BeAmdKtKv+4AOTaag+Uh+K5EqFqzp5ywJBOyApz934yNYdo8SLdnRV/B7t/XAT+1GuI8q5GQaYxIsXMqmFm4tpSiUSC/1EnLYFbp9dbs8NPz4kmzZ5lHj4WxuSBp5OCBF+SCAIM6PRTlu1+PtvrOrIWsUaLNKbUEdYtxF9CDaC8r6eVdY=
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre(gsTitre est une chaine, gsValeur est une chaine, gsPicto est une chaine)
+         LIB_Titre = gsTitre
+         LIB_Valeur = gsValeur
+         IMG_Picto = gsPicto
+ menu :
+  name : _Menu
+  identifier : 0x2d72850d2ebe4d4d
+  internal_properties : BQAAAAUAAABSRlhFi5Y8wUr0EhuV1Jka3CLwjq+O4jlpDY/75TjJoyle9oddWd70q4gGgbQfHm3YI89XkynQtNic3/8C/6UkNhfZUmx+IysMKKS/LBiyRteYdGrX9xQCBy5CN+YdPZ9cD/qMNMaW8kJs6nGdoqE5Hzx0FZUqLHEKcYYN
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1db9529f20dbbb4b
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : Fonctionnalité à implémenter
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

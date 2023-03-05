@@ -1,0 +1,371 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_importation
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_importation
+ identifier : 0x209d1af89950e6a5
+ internal_properties : BQAAAAUAAAA1VJxL53m5Xs+rRbQpY3zhQMfeTyTsrWnX3OkF25m4qH9HrFLXH83+Odr5DQolo8Q5GnETwGw1DOUEAjyzLUZtgJCexRY5ZuWAbylcfbRABytGIMtrumTSoChWPk78xu0jXHVyVwpfaG2LKeai5M42+tM6rEkILaGkwp6HV4KzZOe/d5FzJpYENS7WVswvMZ65DKhuwIBfYCQtassdmzDlKZrFG6RBNzDMI+4TzGRDVN+h84sRcBEsJ0TZJSo3/xDaywHaBC9bACtR970e93mpPKmqveZF6umuMBNB1rEcxkzPqmuP5IgKdbKDRSbUz0/tg1cBHI6FtA2c87LDR3G4aPy11Xf4LCD9IC2lZl+0AIbiK0cGpBhxX0UUSNzj4x1shJmuOzWiFjF058sQ0WJgaityi32SYig5VV5A3tjhULlgebqKy/AjhsbOiZh5HkjJVoDVPkzs5UtMKM2LfDkh7kPSaX387fybwPJHKxtpCUA6ufeLKNDVlnypxbbHc6GA4bn+y8IbedVjsPTlKfuHyUQ/UTc8KnopiWyw4p8A6fUxZKNzOv/lSMPB34XoJEjqZyaVff6jTndeG1wOS+UeXZAtQ9id8RZwAEJa7NFL2bge8+zYOwuXxBBQ6OHZ9SSNSAykZhQguWhswyqO
+ controls :
+  -
+    name : FI_importation
+    identifier : 0x209d1af89951e6a5
+    internal_properties : BQAAAAUAAAC9IGIkE2haVxfGlI991hq53m8YtEDpNIZXecaHpDrFm9P8QiOS/Rtdnl74eW41nE8OnPInwL/YGq6h8gGeuV3H6vNFZ2fOmjgjN6xhrY9lTXeU1kgWyuX7bCCOB7z+CdJiSwvy3UnqXxQ+8O1JbTKHorf4h0JbfI9Ao4LUP7v/WVM9/zhfSStGk8jBPEed5Z3iFgsR1MjX+u07pSxh8GXviQCyuJh/t4PMOmUXWvKzeSbM38lX7eQuyD+iLmdYaS4MXlSbUUdcvUlO/+nx8zottuj6w0w9QnC2LoCQteT+IPcCoEldrI2URq5JwLURR+tWsfwmEswb40YSFOhOyKn+JqnO8S9d8N++32aVKQPS9sJ6Fy8zmsYcUhdW+gHS32Ytn6gULZ2WIt3t3AvMGR6FmUeC9m7A1VCmuzzilfFxk7T7aN8uz3y4+MSdxK8TQJCx
+    controls :
+     -
+       name : LIB_Veuillez_lire_ce_guide
+       identifier : 0x209d1b5d9a7c72c3
+       internal_properties : BQAAAAUAAAC/f8FErw52yZptNNgaxIBNiYchruQmnymy2EINO2x/q8fEV55fluHgk7QfDMSz64rWqTz9LySkZPBySzb+NdGs8gRjvmO0P73yR7SzehQGqu1SH2JaUWdk+0oP56YCZ3+OwNCrzQvF6hRyfkVvmm4mAUtKoHLf5445Ym7Kx0C/dGjcCgtyXIKQ9xjyJeQwOae+rvXb7ljtFmtvwAhB/Q623aHlkkaZXjR1nFoIyi8JBn8fqdiTkl0XCr3xHtKpmWCXf2OUT65yej8xABycZkHT4Q/MT/IF2peeWEDf+7pRLRw7M+jXJBKPuCwoufYVXBm6GXKC6SVL9hieqIetUb5wI4iiUB7y6a9j1QMHine/x2UYfITaixGpl9g1FdONNAYEjIV6O7Hl5iAbpRwVA/75yDVlfC+lwC2PCu3swL8U1kPABVpv6Nw1fPjhE9iAcZfJ7ukudYJa1wu9ghYr+8RtZx5xJEwkmeyxsf8PqqWyfrO1xI4fHVmT3s4E+fw3a6YrilXympgRkul3oOb7EZWkuQ==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1+
+            // Version 1
+            // Description 
+            // Libellé pour écrire un titre
+           type : 14
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Avant_d_importer_veuillez_exporte
+       identifier : 0x209d1bbb9abde9c3
+       internal_properties : BQAAAAUAAABkQIaplMks2cDakd/YiET3BJX0TD6H7Uyr/1hWcNa8bh4yfQoueda13ZLGV5hBLlf4di8l4h2cv2VazF0qgVZx4pkt/y8v589Y9jqKhm2Yer3RNczhGAR3N9f1+kV+RKemIZAD73SbN1E9bagjnx/tq1/M4xdfqZMVQ4ZeBQjSJ6ok0Derg4zmo92HEV5X7qwJsOxhNvavnXwSmoFunCHR5mFsrqmQspo7GEuc6f4EggHnHNoNzNIil+7DQVGzwn7CnHZrSf40qc2E6S/WJlj/IiwYIKY6ffbPdqUSaomQTT2vCox4IQX1YOSfdpGpCm4LnZEOTbNttg4GwMJ8XwpOv1JR/oYdGmH8xlKUj+uydWjhrZrlzX9P7V/wKaU64sQJmOWkMI4ogCc9JL32UmHPzwJNThB5AIoGaOOWPb+b1QmFriKBRemic9vVxQTp/wP4Fg5E8mhCthXyw7J6pGH2kGvgTvP+J8/YyEgK+QNvbHA3rCa7itcihMzUu6YdF/mMSLrhmmRd7NNamw8yrBXD9JtQ3ddoYfcq4lpB2VhLz00tHtJo57xkk6lojwng8Yp2u8xK06LO47REAHeEI4no5g6tTDgTH7q29kV4nGBVguAO8k0X5LQnVkPIsQRJzNl3yuWez6wHutG+S219X3a2+/0inA7uIMJQV91+83TlPnmxEtyhXNBNOflFipqM3jXFpVCqYUxs7rpN4u8lc/DhTat3Y8sHvt+5tXWEIHxf8JZuEr/gEQGHVRvjcX3kYbA1rWnMvrziZPMyzPlqs0wgeF8mQPSLP+lNGfAepwk5SEhj6nNwdWCNZ27xOAZez41Ay1oAWiImAuNAyoRxCZslYcluMc6F7tHcl2fTtVanxErDauTh7EXvbAayWkx4xJi0x0mJbDPzZZLqHfKXvJqu398e7+LFkVy/8Dt7N34iZUvTHz8YUw0hcpA7A72ww29II1OVtpn8a5nPAxhldTs++iJE+5DmRFic/Ty/G8VydvnGU88VzAd1hyTHH+0krjGx2HTF+3MOqYRJLZOWqKAFbMqQ7KWJpKQDXijHuu5+7K46CHFzjRvhYmeVzq/P4paBjNlB/uupFNhs4KdHlw3MCIWMMTjqICV635CNb3WNYog8DNcj
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : DISP_SansNom1
+       identifier : 0x209f8ba1c267fd28
+       internal_properties : BQAAAAUAAADLrq+6+VqHLv2TgYuoosG4i4g8rInREycwQAE5/CLU77GIUM9dijkzoMw2Fw/yCfJppaPtYA5WOBzxZo8y7tebTxwmc6RHaF3lVcgXBHRR7JQvKZdrVUHwNo1R9HGSg9irOq+ks636rvuR5mT39b2EZ2Wt7hxyUwxev1EAy5B5vEt2+EHE8wJADzHH/odpv1iddPpFdsfPqsdOZU/YBGsxPOYggwdf0W9+gNAW3zlEtM8TPe6rLefJriaOk6+OKxm9H32Ik2toi6CALFJQgMz3T0k8B37PSAvWTO5XMOBBLp33ftiPhp7guAayNThWW989wmWsteQvPyVDl5knG0cSUo+UGVe5iuLjfIB1oP6puObAdlePWPsaR4NULH3ma1bEX737nh1jaSCgAUTrufqjVZm0vXvpsH2JAQ0PbvUHVecH/PzKJQhKemC8D3JtDIO8Hf3RWxlZ8iVV035TrbyCz0Cjuj6g9RXeaVtzcUONruvSQ+5nzul9uTl7xE7J2PeO9aP5S9tAKO1HEwDMhCV/ep4zxaM51yxykcMVd5rdMzV+QtoM6RGW7svOy9bPTxfZU1fyJs8280RHGaxbhJtG0TTVrqBpjnjN7n2Yi1ukkNsIEZDn9VW9dmQZn8aJFTF0yN+6/Mj6CdUdn7VVflSkx/4dPzOIWkDFj+xvSjvc+Tsl3SgEa2R08QVVma2Cp0mK686p
+       cells :
+        -
+          internal_properties : BQAAAAUAAAAZ210LQU8/XCj72UxAVq3O6RWGrJ6EqP1/E43aZZebeSe6BN1/+IlscWTYeJH9HWktjPxIuDV7Tw8mSQjAgSlCq58K9cVTHsRPGOQ6kLy1UFYRiKj4mT4kH8zvb/J20CDUnonuzROlO7tE5b4=
+          controls :
+           -
+             name : BTN_Importer_des_Clients_Fournisseur
+             identifier : 0x209d1fda9b19ea81
+             internal_properties : BQAAAAUAAACu9SwwF52HRn62r3bCp+hZQ8lU9w8ilInfSKKkRs8rUY970bVqihpfJ6kjsh8nzUkhfEFo75iFbN8N93Tx8UgQ13xwxyQeeO82M6C6Qlloj0JbJv8JilFYFxBRzVGNKB8DKgPNhw8ftFf465qOt19SOesLfXbSTzpoj+LkoXFkdmgrig0Y9SxxQxU+32Fz4Ui4s9vi+AN7+SH8deu0VH40NY3Tiod9Weg9OIBozF+IoaDqJIV7W5kkSbFGXz26pO+6c94TyrRbtqfwFJuhyta6Ixt7cm93aMF81BLuiPYAUxiSnHfYLbVF8Fu2/SV/z1UPxTvAOeCQISkbmM2v8bcnuyMXBWC6NlyRw6aAiPb6o4SBU8KbZ3Y6BisQfvP4MfXM62/q6BediODm2QmHC+UAy0zv/dlKQkqrQ9ylzcZ36fdEc0OmtdCJv4wYyGkDu/nzzubAHhcLgGFaWKJDhuTZJzQGcVfsvMwKpB11O8T3xbC3hdKexLERT8D4QurzAO80p2REtHUtnakNPkboM4a9Nqn4aWIX/73f8scoQfH7HWwYeTMXom842hOieHnakGqQr43D0kCs0lSg9r2kbapGMhTOwTanYswueOD2yepGBvs7XFgPymuHc/LB7Wurx0IfxznmIVhuWDUAx9g4lVO9wwlfhdbk9VhUF+MdNh/ryFVdh7JC2qiug+1s0Pi/E2/SEfe3sMS5ibFl5nxao3Q1xVxB2maO85mfNr4o9RixoTD1a3tqkft1bB+e6Uts6ZHb1p/ySUI=
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  Ouvre(FEN_Importation,2)
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Importer_des_unités_de_mesure
+             identifier : 0x209d20149b1ce3c5
+             internal_properties : BQAAAAUAAAA53mHFSseA6Q815crx2MAAHrEj7wCaJ6kjy7usy7RuIkhf1SwThrNfoNiiSW7xlXidZtNavJxHUCRdFpU0wk/HjkcTPPFqiYuPXnMqBlMBU8Fzn1WDIcXKYtxtw+/iOSuDNXSSOZ05nndWXgmqY6JJZuuYUD/b2clyC5UYu92UdXQxaQ54nZR3el2PSgKPtZu3GXnz+O5J34lergaCJnSJ3+BQMA8V4fqTjVzWZ4i4x2kreXwFTRHrJuXLfGaf5h9na3QmmNHQTdYFrGloZmbNxoWw6G3hOcylttmJ8ubGouMptfw8Uf4yEiwX6fWGxjhZFEbZ5XKs+2DHIcZrvhjfkZzjdCljozyaR/wDdyKslXksljkb9SRwC/ezNZky7DC23esaAhq+0s4s3OzYo6rKXY7XxfNPKQZfzyf4ELJeqf1i4W02zBX/9bo1RXijBoWXGnRyAg4a0kVm8W/o3gEt8a7ck5e761a0Hpi09OAUvaTT5/AO++gHB8ihI+Htv22owzr+nErE6/UZWf03/VEXPGf672qELi2pzH6DimdqGdDMNgaQUhWPSYpc3AsnDm+lJLSUmTg/Povsz3pxJ/I5ukUnAJ6s//ea7dTkKj2EmonBtYVdFQ+annZm0RbedN2Wvuo80yNTFvphT/gK1bK1MR4IODK4qGVz7qzeRe+6B8UZw0sVX2FmfD2xTKhktaFyb0HtTVfW9XIvJEEDEpbtikAFrvpUD7podz52Mcd3fikpbJRCWf/rVkP5/9BrLDM=
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  Ouvre(FEN_Importation,3)
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Construire_liaison_article_fournisseur
+             identifier : 0x209d20c59b287fbd
+             internal_properties : BQAAAAUAAACgS5vuYLkUeZ8SN71X0ICKnPTyWZWEorQ/49fXRtryMJfGY+DZ9Ehx4+SBmlDygFKBddM6BOD0W0vl1FlpE0s3eTy+bseCKySbc+c6hf2K9fKtIEFNxN2kRfosDovQzt5IZJxEplx7eENFwbRvfx5uBkfMamdwx8C/U0pOTzx5MbrwbY2omJoL7IRlsIFaZm6mzgmqHxkKxeaAI6doxPFfLLv2qXuKysda9kMdxPEmon9hBT8h9soHcb4HJ2klMyTunWpjvry3sUkVa6hAKSEbpY9ocM6noBEoQ9IaOqvpIgomEYAoDmD8dHTxbUbmaY9KDq738bNJavbUsiEjrWNKSmyytlpsdccv56fIAkD4mvAEF4Yjq7SgTVCToz5r027AUyvodl3z8kM4opbImzxr3jRxu9g0JHCK/20SoNqAakD6Z++11wLnAvQrD0iTkCae8LJMVUnPOMxmrfuuoAlmBJA6dVJuKhZt/kKiVk641hfr6b5x+tENovrLiVcfMz5/6dwEFXvlkaDhl2/td/283Vs46WH3jaf6IJx9UJHy7EeVf+XjPmWu50OEYZYbjcsCExrMJo9AHDdxJrK2CuTysgHPQOnAO61oKfLWxJKHMejhsOU0xtlMuhB4tl9bpe1osWD+uuLmCtTOgFHsPToYMFbzJM6JurjyKsDYDa880ca/RQzrvStyPatLTWGjaDVpF0nVVMH4agsdzLJkQec7Ctao8ta7tJ8f8a5OuilJ9O9ewB4weR4K718rpDUDPs2lIAE5vxH6l1zI
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  Ouvre(FEN_Importation,4)
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Importer_des_articles
+             identifier : 0x209d1fa49b16347f
+             internal_properties : BQAAAAUAAADOhhppQk8tm6bI7WNbDWETvKlu8q2JDT/aMgCFUuSRFDYN4GtQCLO8YSSmPLL85lcC480nJoEPjjFoVqtCtjZwqnufuDYOdZyOtx7avDvl+UapD+tyj3IH0uf9NwIOcmXUFFEzewh5RioxZ7gFIRkIHiHBsjOiTotPuMXQIOPFhGRyy35d0Q6Mraa52zP51VSaDA5angfBaVR9qf4hzgumWeeQkI+97HPL7EnZY38Fh9INRh+k/+GotfGESv59GbxNKfFuudZzqsA/gh/8EF8ABUlAzRmp7IGOZHuK2jo3J7VaufesUdJwXhRKwnu05re5K2mqfLvnmRHLcY+0i0VcC/YUV546+bC8iMkmzqlBvNV/UR1F1UbuAWXSXJdEkVrV3uROPufSr5QR7dzh4QY4/DtoAScGyYPdZA5iUTpgf8YRFA0mJ7PqJbskBZ+dvtdOGyW2DmXCCeWXUodZMh/tCqEbj2uwD6EkPw1cs5RSyUuMyCS6LLaE8VHQW/JvQ5NN1hEkmm2qCNes2tn0KyEDk+xLrTip2kZ5S7XrG9MQV9cOsKeoFca8g+c23LLIvwUcCf5K8psFaxGD7y5F6hvEW7chE87dfjN+SepSRzuxSvgYmnt4H0CvKwwgxyxPNEtfDbmFjgUaBJUVMb90cptmPlnFVb2JIrccPkD/njUGnRnZq1oLLu0bBuaaG743dzaE7O54ULVahLq3vxJpS8AZw3hDp8KDIfS/KEgZcKfxeD7hLQ==
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  ouvre(FEN_Importation,1)
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : BQAAAAUAAADWaArv7GpSXDy8EbiwLFDpwZPLH08kZeDLdejj+R3dI4AvgJLGWnOUDH0mjwqsRUiTaSWUiC03SGt7FLB04g97XnyaL8sgZK8hW6l6Ni0JSVW21jww9tD3Z3Mc9aLhKAGwkEZlMhyBxPS+9ekN
+          controls :
+           -
+             name : BTN_Exporter_les_articles
+             identifier : 0x209f61d5aeefef08
+             internal_properties : BQAAAAUAAAAVDlrEfXrNs7/LhXMQ9kVXB0N6AmfngFfHRd14H6LP+c9uwONQHKjXe7NP5aZbu7YyXfc53D/hObzJt1V8IfOGZoPan6EuVQ+ul77tp/JbCj+brixJ2NZ3fkkjjfu6iSIiu2oesUkoWdTWN6PZBlUW0GWlYI67sQXZHzSmLhVlSbx+OIiIjUMAGtWZ6XiKOcXhBjel/2/x98o4YmoOwC4KzeD2PTsxnj8QLSaelsGv5PPfTlRw3zdkEZmU5ObOpB3/ksxYVTWpJkHa91KJ0j1AveyiDh01RLlFbMrT8gmXRC9I83Okmco1yazwp0crTuL9QTZmgdL/FgjVgYDyo3cbTCYi8jPzMqNva+LsqfpDvMOylU2neDk3JYiXQxV6J3RzH6wf3j3A7rFD9N9nJX4iWgBidG2U/1pqvpmjL4KMGfTuBs5UKWVd/n8ZhMOFqsn06mGfZtHaAFrndwSjSBXd1hirAqdUH2xF40rX5eKAX22ffvuAAlyPum/tLCS3t2UrQY1tvhuALVqaBfZ8Y21jD8d95qZ3iIUGHexSFSl+3XtYwa8HDiI+gY6aNr2TIaay/TlriQWAYaqB1blmLXKvx92IMQwx/+s5IN7PUejRZbv2B6HyR6o3Cl6DyXjv1Vi2MwyPW0ATuGHy39VFLSS2e28hQLokK8N672fUA/DpkqCFKIaubI7VuuddXhwzh0YTmiX21+CiGm5mxIPFXsngf10hiZj5v3HVY2uIAvGDXgs2BIay
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  
+                  sFic est une chaîne
+                  // Demande le nom du fichier
+                  soit nom = "Export article " + (DateVersChaîne(DateHeureSys(),"JJ_MM_AA HH_MM_SS"))
+                  sFic = fSélecteur("", nom, "Choisissez l'emplacement du fichier d'exportation", ...)
+                  "Fichiers Excel (*.xlsx) *.xlsx", "xlsx", fselCrée + fselExiste)
+                  
+                  si sFic <> "" ALORS
+                  	Sablier(Vrai)
+                  	REQ_ExportArticle.IDSociete = gnID_societe
+                  	soit nrc = HExécuteRequête(REQ_ExportArticle)
+                  	si nrc = vrai ALORS
+                  		JAUGE_Jauge..Visible = Vrai
+                  		soit bCrv = HExporteXLS(REQ_ExportArticle,sFic,"*",hExpCréation+hExpNormal,JAUGE_Jauge)
+                  		si bCrv = Vrai ALORS
+                  			JAUGE_Jauge..Visible = Faux
+                  			Success_error_message("Exportation terminer")
+                  		sinon
+                  			HErreur(hErrPrincipal)
+                  		FIN
+                  		HLibèreRequête(REQ_ExportArticle)
+                  	FIN
+                  	Sablier(Faux)
+                  sinon
+                  	Success_error_message("ERREUR non identifier code 12")
+                  FIN
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Exporter_les_Clients_Fournisseur
+             identifier : 0x209f61d5aef1f0cd
+             internal_properties : BQAAAAUAAACKUf1MpmoLkMTHuqQsFUvHgxUPZunAJgRnn3X9vVF/f+DtNuv4E6XqrgsGi6OV6eVmAPKZxxOV7DLQMUKUnuTWnmdBgWZ58R0g70jRSmtxAVIcgLd/xjKUYl+A+AyfJAiKpM7a1EAzCHZbX40gcVe8GHZJkdHPr6xGFFiJW/VWyrejKQZ+Vv0VjT89RUR8sfjYkqFARQMogtg+dZ6JY+BflHMCDSAqdmgWvrPlpAn2cs95PWfhNrp3we4/JyHVq/zWrbrDZiTPaYEty1BAUfELZRfwOD7n4CGII6rK4tuxWoJGwUCg1uj0bKwRhVa+Se8qVmZ/QVMpCrZEqnHr/duy0hyCFiLUzY9nb5fg4qi4yqBc795D2+TgfYBbU1YLW4Z4MyvYXlnvRk8UrpL8T6AHcmgFXySA4LQ2m+ketL4U5tR+y7OBA77bLtDXyzyXdGLShCbAgRUbLDiiKXcyJD3iqMSeWf5KBqrJCp6OSkI8sntfTdL9Zs1xjgZnhUvD1woDTXDI4YfhRWwN49sRi5EIMS/MnT3TWdsWPFi5lBU2eCtNPpDGDr/GHZd2QuIKB038mX176e5Nq8pe1S7yW1ouj0mn9Toxn6FDY5mSgwHlQ9171LeJV2d7VC4a/U7VHsbvEb4W9LjQJOziAI3vN1aEXaRRHytE/Re+BvljgZe8DZ2YaBx5v6uqrTk7LRcd5qP1uYndaptImmfPEEbmh0ktPqiYmjwdFHdrawraPLcrqo3Q/hBmY4Lep6mbpD8B2H95XgEhyW9ceXLe
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  sFic est une chaîne
+                  // Demande le nom du fichier
+                  soit nom = "Export partenaires " + (DateVersChaîne(DateHeureSys(),"JJ_MM_AA HH_MM_SS"))
+                  sFic = fSélecteur("", nom, "Choisissez l'emplacement du fichier d'exportation", ...)
+                  "Fichiers Excel (*.xlsx) *.xlsx", "xlsx", fselCrée + fselExiste)
+                  
+                  SI sFic <> "" ALORS
+                  	Sablier(Vrai)
+                  	REQ_Export_partenaire.IDSociete = gnID_societe
+                  	soit nrc = HExécuteRequête(REQ_Export_partenaire)
+                  	SI nrc = Vrai ALORS
+                  		JAUGE_Jauge..Visible = Vrai
+                  		soit bCrv = HExporteXLS(REQ_Export_partenaire,sFic,"*",hExpCréation+hExpNormal,JAUGE_Jauge)
+                  		SI bCrv = Vrai ALORS
+                  			JAUGE_Jauge..Visible = Faux
+                  			Success_error_message("Exportation terminer")
+                  		SINON
+                  			HErreur(hErrPrincipal)
+                  		FIN
+                  		HLibèreRequête(REQ_Export_partenaire)
+                  	FIN
+                  	Sablier(Vrai)
+                  SINON
+                  	Success_error_message("ERREUR non identifier code 12")
+                  FIN
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Exporter_des_unités_de_mesure
+             identifier : 0x209f61d5aef3f0ec
+             internal_properties : BQAAAAUAAADIwdWFpXRSQRtGY5kmMjnjdV54Y3hQTR3wA/y52pgHUA2t1y81NRx+sIdQmsdOhU7CmHLzZHLnrnKbnBx9JPhRuKIeodddrUT1IB9OC4WA2fk0JVD7hVAU5XRLYJbaI9tTG3kjP/PvMUoUAtzpz87lIkgymNRnHS8SosPwc+cubkzdpkUWmulUNDUCvjkaq+jJTwXi44J9ZXxqhr9OxZKBjfU/t1UHEj/CL874A4mruZu3fIoLcP6ZxElgneP0h65K1yO+Vkm464Tpn2riKUCyIZgVrEhqpsz1vnJKip79LBNJijryTFpOq0+ZOZfEux7XaspxIN1dsOm7k6RVosUu3cg0N2mwYBXJ/WtrHAs7pgIBGl0nYVhgXGFsDqZ0ExgpgjbCwSmBgDtfn7Y+FRUEaZ6OQ96e1gJ25EA8hM6r6csMImfBA/gdUnkq0Wi7PzGbGhM84zsBkpS3stta1KA576AZexAYGs5fgwe4fj4bxZx/KB6X/COn9kEOYW/3qinYtwX2L1H3yyhmQneZ2zLVQnndYX8h4fMk6avXnlvbeTo0DMFvdVCpxh92BXOZV0Pq6PkwolXiyoUO325uHyuHkKd0HSrxoz2xvny6kwmshGtAJpIuWqB6OYha9L+EfMYf3LpRa8GTIa8qPvCqdemr9aaQ98kmjxxtcSdUt4eyJYLtRcL1foSk2eDqiaWfK0k1trvK2qlyzKsAtAPvHgqmIt3Nu9H+nY7yd3WYmcTemGNfOw60YMLVgZJUC9E+7LtyYMWy
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  sFic est une chaîne
+                  // Demande le nom du fichier
+                  soit nom = "Export unité de mesure " + (DateVersChaîne(DateHeureSys(),"JJ_MM_AA HH_MM_SS"))
+                  sFic = fSélecteur("", nom, "Choisissez l'emplacement du fichier d'exportation", ...)
+                  "Fichiers Excel (*.xlsx) *.xlsx", "xlsx", fselCrée + fselExiste)
+                  
+                  SI sFic <> "" ALORS
+                  	Sablier(Vrai)
+                  	REQ_Export_UOM.IDSociete = gnID_societe
+                  	soit nrc = HExécuteRequête(REQ_Export_UOM)
+                  	SI nrc = Vrai ALORS
+                  		JAUGE_Jauge..Visible = Vrai
+                  		soit bCrv = HExporteXLS(REQ_Export_UOM,sFic,"*",hExpCréation+hExpNormal,JAUGE_Jauge)
+                  		SI bCrv = Vrai ALORS
+                  			JAUGE_Jauge..Visible = Faux
+                  			Success_error_message("Exportation terminer")
+                  		SINON
+                  			HErreur(hErrPrincipal)
+                  		FIN
+                  		HLibèreRequête(REQ_Export_UOM)
+                  	FIN
+                  	Sablier(Faux)
+                  SINON
+                  	Success_error_message("ERREUR non identifier code 12")
+                  FIN
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Exporter_les_articles_par_fournisseur
+             identifier : 0x209f61d5aef5f0ec
+             internal_properties : BQAAAAUAAADZHQVmMYvop4aTltzR/RXCTDNOvPPdqiRtkP38rbLi+UdnD55U6OB+kZzxj36xQl7AptKKQNk/WgRoc4UeYfBe3J/Qc9O16c2hTkLrHBBk72wWpWh1Xog0RPftBAONdXpMdMh+lQpVvdBtVHYTZAbETxP12RQcpE4MURZoXwKbOo+HJ2U7V9ya8et8tlak6UHjQ3Re5Tc7ZvuiBo7qaN9G77u+En0OFNh4tmgG+wLRQMJAbUGgqaWHlWMaZCBQR9UkPNiD5JNv7TlidgkdyOgK9px/ZiuJbrxce3KBFbSx0cIbLSjKrFT12f5Pm+jogD683f3BSRCU39FxhQh0Ef5xg8jUu+M625sIll+7WZJtY6VUjZiDnvSSDbtBAuzQiyH8kWboBOFAf+WsT/L/EDsB2OzuYwEoT3fo08yy4c0JqNZ8VKPMDdU2CvaCpX+A7/wIuGdqCtm2SxAioDsVNaBc/qhTLwuSbdk1qBGgP5np6k+rmhjmsLJ25oTcS+ootpBn6Q2Q3m/Y6JrBggueMrqiQ8Hvb7rrwI6Q0OXlFZgbduuprawvssTfKff7hoFPKss+QwI9aIIAcpwo/hJ/as+W+dHk2wfXSqiP+UrsuJiK02js1MSz0A2fowPoeqgHZMt0oXkuIZi3D/zKQT82ZFXSNHQWE24tI9j9eOSRXYnwGijagSxkElJg9h1dGcJ4XsNlC+rXEnZCQj4J7jEICh4TujyKSTEh91Jf1bKC0McPOt/NFrGbdim/mCoxeas+zI9UJLjVtfi1m3E=
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  sFic est une chaîne
+                  // Demande le nom du fichier
+                  soit nom = "Export article " + (DateVersChaîne(DateHeureSys(),"JJ_MM_AA HH_MM_SS"))
+                  sFic = fSélecteur("", nom, "Choisissez l'emplacement du fichier d'exportation", ...)
+                  "Fichiers Excel (*.xlsx) *.xlsx", "xlsx", fselCrée + fselExiste)
+                  
+                  SI sFic <> "" ALORS
+                  	Sablier(Vrai)
+                  	REQ_Export_PpP.IDSociete = gnID_societe
+                  	soit nrc = HExécuteRequête(REQ_Export_PpP)
+                  	SI nrc = Vrai ALORS
+                  		JAUGE_Jauge..Visible = Vrai
+                  		soit bCrv = HExporteXLS(REQ_Export_PpP,sFic,"*",hExpCréation+hExpNormal,JAUGE_Jauge)
+                  		SI bCrv = Vrai ALORS
+                  			JAUGE_Jauge..Visible = Faux
+                  			Success_error_message("Exportation terminer")
+                  		SINON
+                  			HErreur(hErrPrincipal)
+                  		FIN
+                  		HLibèreRequête(REQ_Export_PpP)
+                  	FIN
+                  	Sablier(Faux)
+                  SINON
+                  	Success_error_message("ERREUR non identifier code 12")
+                  FIN
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+           -
+             name : BTN_Exporter_les_catégories_des_articles
+             identifier : 0x209fc553dc1286b5
+             internal_properties : BQAAAAUAAAAM/Rm58QeLwUGuEkuL4yJUJqxa1ZbsKtv+yMmktF2QvZCk5vhCzFh5H5RS2DQHmMNxO/1mevdGhfTru2k69kSHiBrflQWV0I6aVJ3aNYdyRkeOh5YB86EOsEbb0MakKU9pLmzJ8YwWOyV8Ok0kWMiSBhij/HEXkfKzeyhFc+lNtJ3JrD0BcYCYZ0acfvHSkyBRZ61Ke4r17ZQSjndW7QopJR2hv6WntqcCL06IxwEnLQOXcMrTyPpR5KkAfYfUgyLi7xfOVlksGwxpn8pWQfQ+MSBR7MhScsytTjpqJq5BuNsRTjoylLYuG58pOatM33KHGkbxmM3p8OGLC0ThklEy7XAYr/kgvNXZhavr4Lv3kup53u3XscQYdElkHjpEP7wxmiyg40+vtv21Zewo+6OWmzBUKcB8tCjIGi5iJuSZ291WIC2jcW7T5O+IV7pBXcMFvPk6jaF3yL4loCnciuaTQZIXaXr28ORh2TVOGIw5577ZzjRBiqEl4P/Mp7m90POa2fMs2f+tSWrsWE2LCRDHXCMDtylPL4HGXxGNqCmpm9ycJJmnPRjxfmfu7bvhL/siQEFYqk3agjWEcPC2CKOwL2hJdy6EvJSdQ343d6/8M+DcRAKP47ANMWxi7RCK6wXQfEMmpBjOJCj3Oe6WjkDU1jUF5ommCLmSgvtOjExqTtK3XgwSePMZohcMqPSgfBnj7M1S7FUkDj7wuGcVUeWRD+oKmpzzTLDqIidOH5UlM5vw+9pawmJ5xmlGMi8Q4JeuJAH2
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  
+                  sFic est une chaîne
+                  // Demande le nom du fichier
+                  soit nom = "Export article " + (DateVersChaîne(DateHeureSys(),"JJ_MM_AA HH_MM_SS"))
+                  sFic = fSélecteur("", nom, "Choisissez l'emplacement du fichier d'exportation", ...)
+                  "Fichiers Excel (*.xlsx) *.xlsx", "xlsx", fselCrée + fselExiste)
+                  
+                  si sFic <> "" ALORS
+                  	Sablier(Vrai)
+                  	REQ_Export_Categorie.IDSociete = gnID_societe
+                  	soit nrc = HExécuteRequête(REQ_Export_Categorie)
+                  	si nrc = vrai ALORS
+                  		JAUGE_Jauge..Visible = Vrai
+                  		soit bCrv = HExporteXLS(REQ_Export_Categorie,sFic,"*",hExpCréation+hExpNormal,JAUGE_Jauge)
+                  		si bCrv = Vrai ALORS
+                  			JAUGE_Jauge..Visible = Faux
+                  			Success_error_message("Exportation terminer")
+                  		sinon
+                  			HErreur(hErrPrincipal)
+                  		FIN
+                  		HLibèreRequête(REQ_Export_Categorie)
+                  	FIN
+                  	Sablier(Faux)
+                  sinon
+                  	Success_error_message("ERREUR non identifier code 12")
+                  FIN
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : BQAAAAUAAAB11+sOS7QVxdllDjeFGwOEci6OcoArQoXoSqkmvnQYDp22VzFbFZQFJUbj/kM3POf4AMx/YackRhVTfAiO+udRzAIYJ9XU0MUbS4F+lOHdow/4mOCWVjBptQP0Fbyh6Ic2vlDN5Jjbn5MdVEqu
+          controls :
+           -
+             name : JAUGE_Jauge
+             identifier : 0x209f7373b2e05479
+             internal_properties : BQAAAAUAAACtQle0CWwYZpLF+P0yICd6W57t7U6Zlbonr6SK9kBZLotyM7AEHzaJgrbbvsWEUztjwitoStf+81fgstJxkmHpMNG6DDi9fFT5zMu/Yvi1zcM7JZtjBSml8b1it1y3EiibTDpAec8cXH4M2KPc+Hvn9ulCmsNSIeIPoseho7N1AH0mgUIl693H5NWxSVFA0flHlKBuPaM1HRv1KNh1/IWs4OKVZFDfu4OHcYv8dJBuDEEcs9oXdcGc725C69LdYfI2PZ9S3dGEfe7tP28RSZ1pmSJu5R+ddNNCMYVKOOE9OlsFKnb7D2bX1cdyu7pbzlHx5Vsa3WYpXpBaqJlkDpqjp+pIdiFQKxp+pj6MVeRjkkmzSgP8gpK6VBug/mU+DCqTl6XcuK1Okg6O95VKlgE7OBWfQCDID0LMRz3i//ndwl8GUS5KOWonaIRLbok/+/uMPkwZZWWW+yMeIO1ztP8CHn0uatVrQefpEF/JQWIWOWsu5YvYssuIzlauO1vo2BPy2D26pSKgfATTlqZ6/3BMk4RMBBwK1Z07qzbkQyBzRJLwWO3sPqQZB1U4GNDwSqpLVlvkRAs0j2M31lZPARqJiBwEncWOTj1IjeALIoMiPZ1JTIUYDIlmChDDooGVkPqXVfeuZSf997eQTsC0c/QWbxFUnpmd/DtuUIz/h6dCDNCsRl5IzDTlzdC6I+ZwJP78SEKbDB6dl1fzjr4MWAF66nfK3ODhYkYq8DjCx8/VCZJ4fU5DnYvlUdf6ZpEOYYMLXyDHnCYC+PQ+KkFFcMppOtke0d08UQ0lxC6KCyKkI9+pCDkIcMRlyLhcSm1wNuOrs6rjZZcj2L55xkn7TIY+47WoSJM5Z+uD5ZAPTj2sQdvwrnmtbPHKUSBeoHP0pUfkKHnkcQeU2VuKVy9yUaAoL+VqK5gutWDaYf4s+QG9yIjslhseu8ldxmKJ5l6E7q4FHEl3kiq6bmCs5No8l0qgoQ==
+             type : 10
+             code_elements :
+              type_code : 17
+              p_codes : []
+       type : 126
+       controls : []
+       code_elements :
+        type_code : 151
+        p_codes : []
+     -
+       name : IMG_SansNom59
+       identifier : 0x209f8be5c3b2660f
+       internal_properties : BQAAAAUAAADiHmw/tRJjUnHZa3YLXFMvW+NW4gaaQKUmwmFA6Yio8XC0U3PQqU4vs6PCLmxqQPQMX5/X7TQ+PWj/LyEwfJGTG9TejRJ3zXgNh1piYlMUM7JYVHDvOSFBjbTl59xqDDsB7soN1UtJWaOfAHAllR53EgoQQHIpIzcnFMdj/I5Tq4eRq/suab2aZl3NlPHPCH5RcSEYT328JdfRm7Gun6QkNUTW8uWQiMSJG/pDq3GHeJ6qyc+f8CAx+g1pf4VbcB6jw8rcjh/YbCvkcaALMDv3bJ1LJOmbteXVaZHZVakLUCbUQJ/nXAjq/SZrZgFRsYMg+LzF/R+vNLC494jLdeekZOaS5NGUre1WHbCBHq2Rm9kwObBE40PiV5PyHYNO+rhkTH1dBx4ecidt4qa6Q7Qh4iSQ+5eyGQUrF5wKkzSH9k8iTtYvWma2LYtdw7wEVKNMEMnI9ZEA4+ij57OonelrWCm2d4Y38fxZbF5ffJu+QO9ZlOib6ZMSgAxycM8wTITIxKhzIIbcoY0gsztsgA023w7zXeYoOyh3J+KcQVjO/2ZncpWUpQnWO53byfpOxKiUCQfi1FHaZCvntuZ98erx4E9APYTTh8YK2vkZrG15qNShwP7CoK+26IRLU5bhNwsrUXzZIyTxtDX2BOEK816i6HjgiQDRUz12cxJu7J5Z1jeTD9Ej7Qx+asNunGgNVQyygzRsw94oEk8Xkwgw6hg30lAepNCc7rfhPkDwJY/KzTk5azNcenuCPmIFkBZ7XWKqlpY3RL0PqwIegpcedWfJIWmO+xcFr1wBkJejcjay7zCLkYiUD8tlvAAgnj3fSQNE3XGer7DqdeSHP3kE1y4h7Yw0Wvim8Q==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+ menu :
+  name : _Menu
+  identifier : 0x209d1ae6994da4aa
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x109d1ae60d16a4aa
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

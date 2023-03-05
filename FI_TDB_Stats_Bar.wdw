@@ -1,0 +1,170 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Bar
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Bar
+ identifier : 0x2d77500405d76ee3
+ internal_properties : BQAAAAUAAACDHNY4t2RaSMJoYLqxDW2/wCRGM4AkRvPNdT6icFt7SUlzoVZRnPxqBXKHqxIMG6FnqQ4Z5Tnn0Ms1sA33pq2AzBjgMYvT4Xh0F6SCEkpdjmcpySYVakfYC90+mwQy5vt88OY2Ol6lAYVCFKBsSAM7Pkne0kxSV6onNg7MFum0UQ52IRGDqrRdZ77IRvM6PkrzCYcMJXLWd2asGgHgS3tHKObWh/MD023xcfgv5wHnVmU/DJVyFEl1Q3q55pGyLMUzGXo62/iolvOMfS843AeYPfocMLs3nQEzMkKKRBJx0HicxSLJ4lySM8IhQRHS6xk5OL32+wxvuUtPuw//8gfMGIwoazPBgWEkHwI1etBS57PdBr/havmpH9VnXsPjwS33aRQNKz4eATK2vIeo+oB6qLPtmr1eLmTOhrr94cLLHS46QhBE/9zf1A3v5loh8hTXJU2wX6CYF/QBpwjpzJ2KdnGKR4fFLmmWM5PLMFtpEwLspoTzlEjDjJIDTsG/+GI22puifgFqugHjcioxn3rm2ijYoZ7vRLAXkJLgPl4LlOND0V8aNAwQPZYEbDBMibydfVC/JgpjqCOtB/tt6l9mXEdfr0YkyXIm5AfFVtG2EWu13FaOEnqCIT2Oi5ywpM8jjTSC8SCbbz0Tx4jeKiXLIcrr/KeEQaK+9edo0P/PHdgV0xEvCC7FhVEN6odYQ91V0wXcxyw+KasiNBlsQ6glKV9mE8a5q4cyMGZ1bHDRButDZSoxlpXb2aCZpunC9NOL/lEvxKFtEynieg==
+ controls :
+  -
+    name : FI_TDB_Stats_Bar
+    identifier : 0x2d77500405d86ee3
+    internal_properties : BQAAAAUAAAC/ImSulfLMxVl0pvmHKOCTKFkSprKDngyht1/H29RT5eWOpP3UJ303Z3bA3YDJHOZikAaLG2cJWTjmL0KqiSk3PksNp8se/vSX69Cx4YfhxRt0thBqsom3WJzqNxhebSoWE2N6KTn+M2iiVD2FVR4fph8oN75TEEMUx04ES6uL6WflJ0Dbgb+y/6x9ZEud4Z2mrqsx8MjLJoGXgZw1iIGHrbiq+DwXc2d+aCtFqAT514CitfctJzYAoqVA1N3ap5yuxDK5P5F+t0usRc+/jWAriP5waarv/KKYfB4O+6bcBokwxp/Dtv8GyFznNiMDZVmYP/I0WKbNlQhwym7UUmd8+EdsT4VHIjEgXfyTDzUYvAzI5d2JLNAgi9ZXf42mk0ph8PWxgvDXAx9rkv3OH+jLX80oUNie494wNaZ4YwNnhYbVsgX0AapmqjYPSjWdPpKz
+    controls :
+     -
+       name : GRF_Tunnel
+       identifier : 0x2d77500405d96ee3
+       internal_properties : BQAAAAUAAAAy364b8Y0Wqf/8C3taI/625c/xlXOIyGlxH09nulbezuzIn4k2SP9vZzPOBTpl3xLOCJY7Bt29F1I7dDX6mYk8bN9D16drmO/A4nsdPQ3P3sawdzU4s/QkvDZPblQdJT5arpUK9yowcrA7oF+qP3PgZosQCGrpJFkhGOB2u0+Uoc/uIlZEwEGOaeleN1MU9p/MD/a0DSbfdyN89JqTk4bFdVchtZSDzyTxB+DBBGEVA3XztvEf0v2FPyV/UB5J0WbFRaA/ul8GzYw5Tqk/on78Z1CnGQUNsJFOb2dAX2KDugQZQKdrUIjrd66dKU9jwaN9mzzF4uX2PlbdNEPB+TFVGv4yeDg/SGKPVPyu+IJ/XTvljmjVg5dWKKsC5fKDwdahuCJpCjw+PuE5j9s8H8V2KVOvREgucLahjlarQPt9ZmIpSpJN5TMMrfq1gUaYzPjKeFeg+RmxqkbbxsyVdDbH+yi9AHm9odNiSQrRegL/WdDFCwd71mB2NzyzzCCBK5LoNuMUEgNG/g+ir1Vm/siIBNalerHsd4oiCk2BXIl2xv7w76M2AjBsFDfI+9gekNchudzjp4gPGwGYUzWY0s8ZahaGo9dYUGDHLYWA4ylK/OSR2YAHJP8InEcsIrMAGeEtzTqKeCx8Q5sT9JH35kC4vNbzv8pEg1ha46SC2g+W2sWqBbC3wHK5pgTQxrhgeEgXlrVzrXRVjrH0AYy8g1KFuFySjALCBYR9+eMfmIWWJs6QSpxxbVAcSphrThztJ0hyyfk14ZBS4QZuYwfOajbozyq8EBMDjUH0o3n2vdjnQEcXPTQKGDFNYDlByCt8woodqUTtAcUA7LzfdTWmnPvW7EsRYXHa7AMvRF7Y9tys3qzY6zsmRchwkN7HjjrpJSeKKZIjk5RSlxXL6NRgG8fHMTei5c7wOUWdtPJ9LVwAilyRCseziCY+Av+ViW3svD3eesPfNgTW8goTx4rT0rk5YgpbXOR/6bTeRSDUsEMJ4zRhn4QJGROfU1pPfd3zaMVqYL77kaqPLTxRLp4Ye5PyMOhfEBQ2cqbnK7knmtuWz0kahpeFQl/PVvTTSZWVWAyV+Qs3ZA9dS0Nn8Xuc38AwXdz7oVxfEXXTSezoGUrrZYgChOk11ExuksVOYJ/+ml9rTrYoIOjivLb406Nbnkm25x4cUoNyhNXU2m2TDZyQ9eH7i8fYH4lN+vJ0k8K5aGlSGByZeXt8dwRU6B37KOAyWrRyrXbWDq/hJBj4hOgZuB1cwKKDtXA4wU0wk2DICgWTRCYsq/X7pUcWN0WsDIS9//NuAALDvgKmdEToM/QEVSDIkwErQ40u+Cqqk0OBFUuL+FCyWAKxmcTkAJSGyj9v8T7Gsq5LLd9sihKeQ82NT5WtDJaFO7Xbjada9t3e4GxEprhzxzy/jIiUtVPcUydRq7JNFfpPFS9SrHBIoqcVfO6ZNYGZXC8rWiS6PY17QhL4ylpyi3nEb+89w8cnJZPwaPU17ULN9Zqd2NzOXLby3mm1eK/c8Ibb+T5C8j212g4PGw==
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes :
+         -
+           code : |1-
+            grGraduation(GRF_Tunnel,10,grOrdonnée)
+            
+            
+            grCouleurSérie(GRF_Tunnel,1,RGB(55,70,73))
+            grCouleurSérie(GRF_Tunnel,2,RGB(220,56,43))
+            grCouleurSérie(GRF_Tunnel,3,RGB(241,157,34))
+            grCouleurSérie(GRF_Tunnel,4,RGB(15,183,193))
+            grCouleurSérie(GRF_Tunnel,5,RGB(50,124,184))
+           type : 14
+     -
+       name : LIB_Profil_client_par_origine
+       identifier : 0x2d77500405da6ee3
+       internal_properties : BQAAAAUAAAANpVJ5Ne8mjvPj+BJht7G9yQHyQoZdXMb2RpEL7xcgfCBoiNtG2NBP2w01rru/9VwV+SkogTsSmia3uB0y2EfOVEBIxP+FY28epLoPK+MnlUBRt/ia9aaMiS8GNQSAqdTRR16jca0SSSoM8xqUPnH2cX1uH9WKvG5VktfBNHsBQ/mPlarOfvcrSc7jYew5nOutvgylrFkxb66ThMlRLzYNQyuoHpJMJGk/01TSV+xkTGlWEHZh5Lz+CP0wm9dwMZVvcQNU0u815Um6l8tFyyxtUMg8btOG2P5BjZu8Yy6WQtkbX4wp1XUSBUphn3Tr4A3SD31vswPXbO00DQJpm/107+/DgTwjHBPjQyijoHBDTrwL2oEeG05Rtt0/6ezE5Gk66tJ26iM8pHg5gcSLQgzz0MikDZVYjLvHjzSz93nO9UixxMSZYh5A4MTxAeZ+/+ieBOey2lh0veoGFBBuwhOC9tblQhN2A6Vpo/+o3zP8QneBoM4N6N1nHQ==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Agrandir
+       identifier : 0x2d77500405db6ee3
+       internal_properties : BQAAAAUAAADFrWFI1rfZIznRtf+nO2b6dGK+YwUer5VYvUM5Qg4vfMs9bnQNQTV1PUiC19JsdyJV3duaIlzTFfGwWUB5Vf1RspxoJuQHm+0kQWNATsd7eiaTX5pTVr81O8bLS5c37IvHy2U2BIL7N4nSIdHmo/yv/EGQMxUnvnXYmBxFJmE+s/pQcHlZ/TAVR00lnjmNSejnZRacDh91e3g3ELR+JUHxIzkZ/aiSovmIeOMf2zn4lKlAyPN8PdPv3rF0F8Fk43e7xjfwaaORGdYEbk8g2qADzFOdTrQ8P52SYIgcY7Nqo3TxPRKvTViODWZwyc9jYai2iSO1wRT3NB1GmeucP/cBbywlGYw40wYLliG+VeAs1hELCCZv1Zm733VghgjAOGh/7Kgx+tpp74qQ553jz2/t5qs5Cw2QIyAB+PF3kf42GxWF8/k5Y2GC/5zGkiJ5PnLnTpc7jyfI20L9x8TLYMmxSnYFlaI0Bvi9q237BHcBOmAxsuiXzuq6m/oLQ2osvBk0OJ//8ZoTZELilvRwBbcUab9qH90skumg1WdcTUTAxOzbA12ITXZ3FkqohI7TsDmQjnG9AgM+PmoxY5/m9YVQflnhqAMvoKmSEUZfoYyL5GEGviIQr/kptu/qcj4EUDUT/1geupRoPeG+zXei5rfyw1IsBleXFeZN2G6OiJzZqIyhhgFXVL6ToLdgsvsNr1Pdn33yvio8k1PundKlnycOLVAahMZv7Kz818Wz/gdUNFXSDvbkiUghJTiywdhTg6OWkgzECixoGKB/vh1i/9FbSRZlCGrCFBV2P9c6zGS6ZWckzSD7IOjvpElbPBhoEHBD9VArTypz1SyejLI2UQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         LIB_Profil_client_par_origine = ChaîneConstruit(LIB_Profil_client_par_origine,NuméroDeMoisVersLettre(MoisEnCours()))
+         tabTotalVente est un tableau de monétaires = [0,0,0,0]
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	sqlVenteParClient est une requête SQL = 
+         [
+         	select <§cs:6§>
+         	sum(Total_TTC) as total,<§cs:6§>
+         	Partners.Sex as sexe,<§cs:6§>
+         	Partners.types_of as type_<§cs:6§>
+         	from <§cs:6§>
+         	Sale_order<§cs:6§>
+         	left join Partners<§cs:6§>
+         	on Sale_order.IDPartners = Partners.IDPartners <§cs:6§>
+         	where<§cs:6§>
+         	Sale_order.IDSociety = {IDSociete}<§cs:6§>
+         	AND<§cs:6§>
+         	date_order BETWEEN {AAMM} AND {AAAAMM}	<§cs:6§>
+         	group by<§cs:6§>
+         	Partners.Sex,<§cs:6§>
+         	Partners.types_of <§cs:6§>
+         ]
+         	dDebutMoisEncours, dfinMoisEncours sont des dates
+         	dDebutMoisEncours		= PremierJourDuMois(DateDuJour())	
+         	dfinMoisEncours			= (dDebutMoisEncours..Mois < 12 ? PremierJourDuMois(dDebutMoisEncours..Année,dDebutMoisEncours..Mois + 1) SINON PremierJourDeLAnnée(dDebutMoisEncours..Année + 1))
+         //	tabTotalVente est un tableau de monétaires = [0,0,0,0]
+         	
+         	sqlVenteParClient.IDSociete = gnID_societe
+         	sqlVenteParClient.AAMM = dDebutMoisEncours
+         	sqlVenteParClient.AAAAMM = dfinMoisEncours
+         	grSupprimeTout(GRF_Tunnel)
+         	HExécuteRequêteSQL(sqlVenteParClient)
+         	pour tout sqlVenteParClient
+         		si sqlVenteParClient.type_ = 1 ALORS
+         			si sqlVenteParClient.sexe = 1 ALORS
+         				tabTotalVente[1] += sqlVenteParClient.total
+         			sinon
+         				tabTotalVente[2] += sqlVenteParClient.total
+         			FIN
+         		sinon si sqlVenteParClient.type_ = 2
+         			tabTotalVente[3] += sqlVenteParClient.total
+         		sinon
+         			tabTotalVente[4] += sqlVenteParClient.total
+         		FIN
+         	FIN
+         	
+         	grSupprimeTout(GRF_Tunnel)
+         	grAjouteDonnée(GRF_Tunnel,2,1,tabTotalVente[1])
+         	grAjouteDonnée(GRF_Tunnel,3,1,tabTotalVente[2])
+         	grAjouteDonnée(GRF_Tunnel,1,2,tabTotalVente[3])
+         	grAjouteDonnée(GRF_Tunnel,1,3,tabTotalVente[4])
+         	
+         	grEtiquetteSérie(GRF_Tunnel,2,"Homme")
+         	grEtiquetteSérie(GRF_Tunnel,3,"Femme")
+         	
+         	grEtiquetteCatégorie(GRF_Tunnel,1,"Particulier")
+         	grEtiquetteCatégorie(GRF_Tunnel,2,"Société")
+         	grEtiquetteCatégorie(GRF_Tunnel,3,"Non renseigner")
+         	DemandeMiseAJourUI()
+         	tabTotalVente =  [0,0,0,0]
+         //	grDessine(GRF_Tunnel)
+         fin
+         Actualiser()
+         //HSurveille(Sale_order,Actualiser,hNumEnrTous, hsAjout+hsModification)
+         Timer(Actualiser, Hasard(6,12)* 400)
+        type : 14
+      -
+        code : |1-
+         //grSupprimeTout(GRF_Tunnel)
+         //grAjouteDonnée(GRF_Tunnel,2,1,tabTotalVente[1])
+         //grAjouteDonnée(GRF_Tunnel,3,1,tabTotalVente[2])
+         //grAjouteDonnée(GRF_Tunnel,1,2,tabTotalVente[3])
+         //grAjouteDonnée(GRF_Tunnel,1,3,tabTotalVente[4])
+         //
+         //grEtiquetteSérie(GRF_Tunnel,2,"Homme")
+         //grEtiquetteSérie(GRF_Tunnel,3,"Femme")
+         //
+         //grEtiquetteCatégorie(GRF_Tunnel,1,"Particulier")
+         //grEtiquetteCatégorie(GRF_Tunnel,2,"Société")
+         //grEtiquetteCatégorie(GRF_Tunnel,3,"Non renseigner")
+         grDessine(GRF_Tunnel)
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d775005017870b8
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

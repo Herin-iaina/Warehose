@@ -1,0 +1,162 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Ratio1
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Ratio1
+ identifier : 0x2f15cdfd0f9b3dea
+ internal_properties : BQAAAAUAAAAUtAy5wvTiGVp3CyehrlfrM75mEfLmVGLbsHGHFO0/nH0aAEPMpSGTQzV5V2e/Fj6FZPzUjIoCRo+KcpqhuqXRWLfi7LUc4rSmaGL9oWT2egNUriNQQYJcRdH88MTD5XhaMoFw5WkWiArSDwYSuY7WZlgDbVzcfzsPGiFtSaRJM/Mjn2ZVUo/EGYTuXUnm99z+Qj06kUWBtEX9TE7HpLm/29mAMjdlicGZ/hbAW4G5bBvbRZQ3d6DhvxmckE6OqOZuqQoL4f6fdz62nPNZeuJjsyKIWBo7Xupan4pQm7lXQwfN5y9nKnqkJDZIs4J4iKKmyHg2KZsSiCkCL0/0JWaiuoC1dLmzYvbQKyuzXmlJcfa8Qy7io1mrdtEdf3QhC3L4f+50pgHdH7iNnK76IvaLhTj2oT/wzuMz6h8pkinJjofHD3jkFLgQW0IbqpUq28CaOrVmMjd36mPNa/iex4kx+O78YosoQLdhuPyV9nvrYovU4FqmsfkAdhpHWUnqtQ7e7ebBEK05lJzOFRHLhx5bC+4eFuI4iXpupI5dEbZVyroxEI2T/soHrohgaFIDGPmBV2CtNj7iIeLzZV7kG1BiKFiBd0TdSyQyKbrK54yyOV3Ww3C4yD53Et3tU4c=
+ controls :
+  -
+    name : FI_TDB_Stats_Ratio1
+    identifier : 0x2f15cdfd0f9c3dea
+    internal_properties : BQAAAAUAAADCLzP90hyGgmuN1xOVt5TXnkNtuMUUkIymtCPgXT2DWocwTFSXgjlrs2JxRhN+ow3R5b5ySXgaFoe8JflYg0wEO6B8hNEIdW31GcjfhhLtOwfAcZfPMBIhbXloN+4ScxWA2a1anm8GwA+ik8r25TugVjMRZlwP2+4+cB0gRSFL+9DtXO2QNMokmAyfslbFURBQpC8Etr9Q7JVir6hLZmgbT1c1CgbOf+CAA7c25q+ak+iRadSuUPiA2Kaqd3NlGGbwbSou8C6YF/1XjcR3lGnX3F2WENXaDFZgCV6dbQUVGpmpDqyUwyvu4LFre4NyohPYtMp3b3UlOZabtr867Yg4nGpOwjSyNNn87GImX8bH6HznR5ISsYSsw28NWatNndmahxph/qvuamkWJc+jCSSU4lo7jGffoGu34k4gUmJCP6kNOXU0J8M1YySE9N2Gy0w=
+    controls :
+     -
+       name : LIB_Total_de_vente_mois
+       identifier : 0x2f15cdfd0f9e3dea
+       internal_properties : BQAAAAUAAABZQvL1t2rLUXzISKoHqMZqAmFFmhwU8BF3/9wZLwaFG0FXJP7oNprx9JbhTyya+bLWWhgPTs2uR8Z97Y56LfE6Kx1iKzhE9rVOIbI1oHI4462eh8wE6iMqTkngwrkUB+NvWmxvaO+lLN1r/ehoFYCeAEFeEtE75q2lJqA1MJDP+PP3yBdDREIIxH13t3UizsqTK7eFDeaoPEGv/N2a8jhCUqbcH3PZfeUuFTZ8/kZtHQL2JYNl3R8YJ4NU/ibx5wgh151K0A12X2f+Hf1d3whABWGQITgW3N9NRnR1RLIze6+o0YguPezpwYUTLlhsKxvIZp3ot5I4rc+q3K0atgwcG4uGcGfGSdweQFwvXLJbCq+acyj4jrH5a39Bm7PgQcvoeIGGaQNK2BBhTdydR6SflLeeNiEBSG8PvB/FUTzyFRRwe1EjDYPqvkAXSofZVDLf186xICbtS8RsJu1AqQpsvQ==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2f15cdfd0f9f3dea
+       internal_properties : BQAAAAUAAACgeIb+f0rlpDdkXEpfEaYQGSIL5r+kO2xEgKoliLtomWrXY4HGAyes6Yyy4UNyt23p+LyUCcZlGbvQqcTjFfKVp7k6eQ4EsoqoHCuGvDBZM3JYQPZxxjWof+KSaEEKNcvEOdlauu9nwHTz1L54CEhMsl1mkdaSl8Ids9/XKxc4MQZmv2FI1kmKAx1fhnqAeT0fXaGisUmry0L5e4eWyJa1GqZh4CKyrBjBvaXnq6V93rT2B0MZnG4hs/smvtXPsRQ3cAmF1FcZoSJa7Q+Uho6JMf+cmQnmwX83wbaMJkNmYGZGEV2Nbxld6R19tLoy9C3PPCeP0onZhrxnQjDcLbQDw1E+V0oVlJgZlWOpd9lq5kfyZLiMEW+Kl2jGDS9R3zrWHLXhXilVnwfeUiiA0mM3o4Cw+Kq4cNxnWuYGAJy2qLbsrijkdl13pWNrreA3eIID39QAJxrWOwOnOFbYABN8E4Da0kThHjQIL7JQCxkvR6XZW6aTOWdW/VwYioAoJXErTblzL+3/uoN/MUdoV0gznak=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Objectif
+       identifier : 0x2f15cdfd0fa03dea
+       internal_properties : BQAAAAUAAADNT02zQ9GaSUotGG3SG+QN5E7leWRfSBpNwJH7ZMQnui4YluDP55UJ0e9y62ZXQQFCN57r5xWF5BRqmHwYiR5/Tji/wGDQGyb9ASwb+n075dfSrXpVKx0Ij4U06dL7kX+VWJCKz/Nl867qENbax1ebCWb7xhuK/2yNZ81H++vPRk/SZFPQGJqVm/guk0A1eXu2104vKvx5EYdCs841EVrtrh3Uvd9IuqTvusz3netfu9oIVe+qoHRtfuVu/pKjzU7ZIjD8+QhZjCvDxVfrDqsZ9qcKnAwYH99j5vUtqZSpTzLc0tdbCMJqacQwCq/8N/obhBPw34+HM87vbz7xBCChRKYnM87eeVhoADhhjaQTGao4kfixheuHrRhLrlxEj/70IsdU487XLWpY4zxbs/xrhVNT6T8ECyhzciBctMacjOQReZc9QtCyWYkvQlmerUweUadMjR2JLzhJeL71LEv0ncJO
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Ratio
+       identifier : 0x2f15cdfd0f9d3dea
+       internal_properties : BQAAAAUAAADqtHOsfVbU23j4GWFiC8luQm2CKkt8sOOv8piNI9p1skw08wERX14ntKQsPZyvmPLXiHPvl+zwoTEzibwkf5DQXCONAdvWdi7D5gBHVOVY9CMKX1ulizciX0hyMSW69ertiMMBX+7JxBLLJfVeSv255b13rp3yWiP2EECw86DLJ5almLtmj4hEyZbK0XXtE+yx+6tpfawDmCQZL88ez+DxOC9M+up6M7psu70eIroLmsrP3TxcFUhAPmK4CGXNCtkZg0P5CmMKnSOC50eBatH6OuPGJ57wvJzHWIbJ0U68JopVz/E20RBZS0UybpomX5gzPBO00/GB4iO6/Fzn4SLvgvr71aAD2LsvlyHU+RoLjIFhlrDUWIDYQdzS54wkzB86UcivZh+Sa/Zq3W46zT4ChgqkVTCFRT8eO3FcBMT8laSB4Cg1nxuOWKzsYQs418KhFZDfBH8bCpoYD0pwkpvthmCQw4Gqa1gqJU0mxNulk2vp2oPVK4lwHKR0nT9QmGqHsr0ia6ZXNK7uh5d79jp8s99BKEMTHnp87JfmxPZps7r1MF+ygz4p/uL6oZwvCHSWqspojJr8ZhQcF+rEpaEq138wj2DccLkVvnxNkKsxD+wP7n3jpNZNXqHhCXuQeF7975tvNeL3OzoySdS/XjgcjU35vYAcxwucv42vU1PYtovTQqfCorNmA4/XBZ9Lw0/RtuQ+ucYPLwPFZkdperG/rVfh+IQyrNdJHjUe983ElHW7Oyj9F5LQD8s8En9qEXLggFxRJqHbtt44MJFVUFFY9C6HUUoaY+O+OszkDFYZp4W4wfkNrTrQgrDpplQGfvStUd0xfzAyfP1FSHXOzmj5bA==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         
+         LIB_Total_de_vente_mois = ChaîneConstruit(LIB_Total_de_vente_mois,AnnéeEnCours())
+      -
+        code : |1+
+         procedure interne Actualiser 
+         	//Implémentez ici votre récupération de donnée métier
+         	VenteMoisTotal est une requête SQL = 
+         [
+         	select <§cs:3§>
+         		SUM(Sale_order.Total_TTC) AS total <§cs:3§>
+         	from<§cs:3§>
+         		Sale_order<§cs:3§>
+         	WHERE <§cs:3§>
+         		Sale_order.IDSociety = {IDSociete}<§cs:3§>
+         	AND	Sale_order.date_order between {AAMM} and {AAMMDD}<§cs:3§>
+         ]
+         	dDebutMoisEncours, dfinMoisEncours sont des dates
+         	
+         	dDebutMoisEncours			= PremierJourDeLAnnée(AnnéeEnCours())	
+         	dfinMoisEncours				= PremierJourDeLAnnée(dDebutMoisEncours..Année + 1)
+         	
+         	VenteMoisTotal.IDSociete	= gnID_societe
+         	VenteMoisTotal.AAMM			= dDebutMoisEncours
+         	VenteMoisTotal.AAMMDD		= dfinMoisEncours
+         	
+         	HExécuteRequêteSQL(VenteMoisTotal,hRequêteDéfaut)
+         	moTtlVente est un monétaire
+         	pour TOUT VenteMoisTotal 
+         		moTtlVente	= VenteMoisTotal.total
+         	FIN
+         	soit TailleTtlVente = Taille(moTtlVente)
+         	si TailleTtlVente < 4 ALORS
+         		LIB_135 = moTtlVente
+         	sinon si 4 <= TailleTtlVente < 7
+         		LIB_135 =Remplace( Arrondi(moTtlVente/1000,2),",", ".") + "K"
+         	sinon
+         		LIB_135 =Remplace( Arrondi(moTtlVente/1000000,2),",", ".") + "M"
+         	FIN
+         	 
+         	 // objectif par mois
+         	 sqlOjectif est une requête SQL = 
+         [
+         	select <§cs:3§>
+         	objectif_ca	 as OjectifAAAA<§cs:3§>
+         	from <§cs:3§>
+         	Parametre_vente<§cs:3§>
+         	where<§cs:3§>
+         	IDSociety = {Param_IDSociety}<§cs:3§>
+         ]
+         
+         moOjectifAAAA est un monétaire = 0
+         sqlOjectif.Param_IDSociety = gnID_societe
+         HExécuteRequêteSQL(sqlOjectif)
+          pour TOUT sqlOjectif 
+          	moOjectifAAAA = sqlOjectif.OjectifAAAA
+          FIN
+         	LIB_Objectif = "Objectif : " +  (moOjectifAAAA <> 0 ? moTtlVente * 100 / moOjectifAAAA SINON 0) + "%" 
+         
+         //	LIB_135 =  1 + "." + Hasard(30,90)
+         	// Effet de mise à jour
+         	AnimationJoueSurPropriétéChamp(LIB_135,<§$0000§>,50,100,250 ms)	
+         FIN
+         	
+         	Actualiser()
+         // Choix de la fréquence de rafraîchissement
+         Timer(Actualiser,Hasard(6,12) * 100)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+resources :
+ string_res :
+  identifier : 0x1f15cdfd01163dcb
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : Opacité
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

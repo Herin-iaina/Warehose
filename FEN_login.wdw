@@ -1,0 +1,287 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_login
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_login
+ identifier : 0x2e81ad9d0205b38c
+ internal_properties : BQAAAAUAAACduEN1NAsRaYaPdUbA2uqA1MIizmiAp9h1Kc7ag26oP7yswR+zcXHf1kWh/LeFldFEpcb2iVwUFSoXyWHPJTA/hTS7YYZQAq6eleHvDb1dYdJQNDJ2/wqKYl5GTPKZW69kQHF7tLIvdYnxifOIu3pFjATCBNGp6BrZ3gK+1bL/XFWw2bukquM0IpZXDfr1zba9RjLVl96Lnu+YaNHj1rdyQyrjj1Zuzb3v6vnd+xFptsORoa2L1DC23InUanCjTadycPG7U/AB3s0rCLSqrb3j33q03fIB52Zsxlxj/nqpyqJ8/WcGXsJD1XKztRMASF6nQO5u1e5mKq7k5leYSivWd3CJHDLnJEeuLYlmjOsOsr1lkbbQp0EmIuwHh6bcf2+tF0CPWEsSzaN+T7UTkmU1zLDTVnp8f2blrR2RBw78Mnsflsb/gHYtXMwj2agep/KGhQZI+TU036GjZyzTC7XhDP0bU+w4efHN1Sxfwb6+kx/Vbu9RnIjG49vVWys4I0GUbtiOF59c/T+Cso4PknS/+ScbXY6g3geAkqZZeL55bZz1PN+ZXnw3GBcebmL2QW1nnCoiLsLeyVxrUJBqYoxLxgqMkevshW+n8NS4qCwZHh8LkJp9uRykbREMtTXBB3FzpQbITKP6q+oeGhvKmd2XU6h4GMlv5VRZ9Q==
+ controls :
+  -
+    name : IMG_Image
+    identifier : 0x2e81aecf02185fd6
+    internal_properties : BQAAAAUAAABbf93HL66RB5U33yOxS3BdSgs5FaDhHQwSolg0rj5WH8cal9uAnu3sNU4poq+lqHqeiZjwrAZqNh/uvVk/r4eIaN/DsoVw5RCa1gZaVn49Mf0UrXjR676MceNlC4GUCk0+ymBo8oiCAM5Wgf2vSdO0D1nmTolF597kQdA76ON6P2lIaZahBrIBxWiSPhOYttIIdUmIb8obAUHTd+G2rxM5XdQ6RWznTNoYVZ1KD4vj2/sb2b7YwsVFjKGnGAdnG0N561Gjge7o6Y/YiqW2fCpfVJ0565CxjoLlEqmJlGfZYh8CDmjyWRAb9paOTglKHypcLKXdPmf30vUsCJR6v5mov6+8Xocy8ShfzHIeS2cuthj5RHYSFbvgzdHt1PEaoVAGqzXy4i5IPBW/WV2+zNjx6lJ8Z+s4QGKP/gmonD6zNXcxJc9EwQKtxaqvhQh5LGJ1YXrWozNIHnFDTZxacr3F4im6zdIEiPvaEnEqClLtNZK/ol1G1AbRX+blGn+r7saGrOs74ZgN0RjN24WS/mw2mFJhMH+1UMGN6/Yy4cEMcKFuxXiHVDTxPKEOCt6lqACAhTsyOYgmVlKGVY+AAubMTHlWhSBmOM/HZO8O2n+xNwC8SspLKjrA2VuOR6MaaXIntNkcp8T/Ge2aHVPTrddfz/uX3Eyol/dbKnFwLfEEwNfVPiAjHrfnKNILVPUrGWHvC7h5JFMIzpO7fct23bTvLWS+Y3eLXnEPKkosOa6CI/GWA3qs+KawWDNV3Psg+MHKXKndY+sqMyazLIw1zJIzsr+ziVSYxmxhBeCQ9AjH13FpSMmjn5txDftV6vEAbLfs9puHxRyrfUmu8/w7OJegpYSXtcjPYSvMrPeAw1+FUSEqi3XzjMDSxUNKwOmn+HcvUQu8NUxzbEr9Y4HPFXbTQVEQpuZYZ/Hr
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SAI_login
+    identifier : 0x2e81b11f0255675c
+    internal_properties : BQAAAAUAAAB/jr6SdQZfBkOBhu2LHEr4UwT0ZMhzgS+o3gN2E+yMfW2oHATXYObDZhCaN0+FNMWEbti8BJDanvg91kNJi4i4HWOkMPX3eS995zvJsS60R6eqHSy7VBoublL9ECLLoJH9KSG7OfD1W6o1o4ZjZqDCMQ31vyhtOpe5POR2jNCOCeYtmILQKnZ/wO1MBks+cU4SNhpsXDdlv9PX0ygqjM8WFMYe+GawDKoPR034lNmAlRkl6x+KKnEEdisjyHQCcPMhuIuo/tH2fUy+xGjWfEbAGQJ0hrcjv4/lKi0FD/RHsb+EnZko5BqvyFabpxWF5hJvOvjyhEf07/cj+20rC8IsCVLaNbKNipM1Td0Sv1bEGfI6doGuWK6um1eZfDVZr3I8ARUSOMjgdYBh1w3WTyxexqUDfHmTFyWnnWRoCsIW5PE9+QunfbML1Z/+7A3tKuRyJhUirh0VdIMbaWei3DyskWsXmUw38NKESmogTKp8snIxTouBAy99O+2ZX4MAy8EF6aZMGQ/skc2nwuPsyPbIu/htJR3sGURdORDs79MHgU9T+UMceZ/drPikezdZd3HX3O2/z6k+6bjPyBGBKzfqg/p9q9llvUAK8jYKUsTuZUnduTIIXHN1bWUJN5Xm3zBpJQtXQwWD9J+obv6WMZAYS02/CSYupu7uaKx3gP8/RCz1ODodi/ASZhOxvii19A1wFJ+k590KGr2KQHo4tLOGI3ZGwhiXYxn/2rLTaqoi09h6hLo5HPdDmzLN87Yoz9Dh5/X3aGPplJNGkBSI2zgyHtAnltDzJJ4tNyc5ndx586dJhrFqZjUqZJWQnGM42Adv4mk+FvkxpIL9cslnNIUxXuMOfOHPCgHTDtvIYQkegdATZfR+SluyDyoWKtsgkuk/31IKQEogCgCictL6gD0HtORpRqr41LSQ9nw55jAQO9SuhILImAa6MINZmz0Gy+BGN+hcM4mnSrtFiSLXz6LHKopSgdunrfDh85N+agcOgbCyt7yaWKtfhmdYMZdSCYZNKbURQb4k1mVcrBz30ceTrt0hXuqQOi4xjKKFxXs3v15tbbdfaSNngTpNoT01Y+rEf2//bhJob3SEqai+1A1BBVvXXgJOvayrViWap385mmd3Qi+AEbbLYFhCXMTv6NqCPpoOOA5e7w==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         nNombre_id est un entier = 0
+         images_cripter est un buffer
+         sName_user est une chaîne
+         sql_code est une requête SQL = 
+         [
+         	Select<§cs:6§>
+         		IDUser,Name,Image,password,IDSociety,Is_admin,IDWarehouse<§cs:6§>
+         	from<§cs:6§>
+         		User<§cs:6§>
+         	where<§cs:6§>
+         		login = {log}<§cs:6§>
+         ]
+         sql_code.log = SAI_login
+         soit nrc = HExécuteRequêteSQL(sql_code)
+         si pas nrc  ALORS//HExécuteRequêteSQL(sql_code) ALORS
+         	HErreurInfo(hErrComplet)
+         sinon
+         	nNombre_id = HNbEnr(sql_code)
+         	si nNombre_id = 0 ALORS
+         //		ToastAffiche("Le login est inconnue",toastLong,cvMilieu,chCentre,RougeFoncé)
+         		ToastSupprimeTout()
+         		ToastAffiche(gPoliceTaille(16) + gStylo(JaunePastel) + "Le login est inconnue",toastLong,cvMilieu,chCentre,RVB(255, 0, 153))
+         		RepriseSaisie(SAI_login)
+         		retour
+         	sinon
+         		POUR TOUT sql_code
+         			images_cripter 	= sql_code.Image
+         			gnId_user 		= sql_code.IDUser
+         			gbufMotpass 	= sql_code.PASSWORD
+         			sName_user 		= sql_code.Name
+         			gnSociety_id 	= sql_code.IDSociety
+         			gnAdmin_role 	= sql_code.Is_admin
+         			gnStockid		= sql_code.IDWarehouse
+         		FIN
+         		
+         		si Taille(images_cripter) > 0 ALORS
+         			IMG_Image = dChargeImage( Décode(images_cripter, encodeBASE64))
+         		sinon
+         			IMG_Image = IMG_Image1	
+         		FIN
+         		LIB_nom = sName_user
+         	FIN
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_password
+    identifier : 0x2e81b162025c6f94
+    internal_properties : BQAAAAUAAADVdUHp8vJ52OXQuyYvQSPYOHXUv2FjGs8mOwtnv3GurNloAgPnjX3rFRBpek8vx9avkV0ONNyqndpkr3dHq6tLGUseAiegHyEYKMFMl4mFNDNVGDVdhcB2ClJh4V1BK2nymseW2VpE4B9mjDYjhssEPA6rr6KTzV31bp9gSzjysK8Hl3NNG3uWMa0uNkDpC2z3AqXHHSf5N/O3RVe94NOuUt6yJRa7nGCIz6To4wyXYfcs3D6AuMJOeB7elRoqmMBWeqoejFBNUVwtQihYQPbysuIWHEgvF+t4tBlp4dDfNFW5qwdE3aKkFYi3Nm/lYUPzA/2wCSBNrtwZkk+S8WUZvE2hyEiM2I0AbDpk2V9RSbBViS25ZdT4xaSv+uMcAKH2dq8gX43wy/jyvQxgCDjKoMLFVOl8ATYAEzu9Qyb21sSLwYuTKUbhxBK/hf6miqIS/uUaBBnCRMzdeNRa4Ae3Rs9RHDFf3Wem20yH8XoLnKxUSY28oVOpsY54FAT+r8rnjijVVBhEiIJyZ5PWVWFizl+P9IkQWuDtWiVFoxkLkLRy6Eu4nU6AFjcafW2F9zSvvmQTjz55JA/OOnnb0Ww66iU7TNampls/sxlKRE4uUt5KJKNSv1ou4gIL2NGMdBaUkiD7vGBTqZHRMQwFfpMQYhsHz0eOJWLYbqu6wQKlLECDUdvMBGRD+MmrOIL74IGzQ+xcH3YSNVCcsgLBo+7hmIexXEHH7+BhDPQlJ3uleMOzeAgVCF31FSICg4ZKpGB2rSfLA9XB2eQrhULrK2WsX62wKYXPXTW7e8zCiMy7WxD6swiGRM5YAPh3eZk4UPyHhFOttW4uePaQamvea04NQRT+PfVOnrRj+RRRGWvmMpR1Z+JRz5RO5CHZ89dIQJVNRYBVZGz9oFXO+8JRkzKCr3tHqSfZtD6lQzo4dlIgK4IhbOcLoX2wEkyhUIJeSaEGohuWfRu8gqQZZIZyHFB6C5h84Uz9MTavxLN5SnlGwig+HG1S48rBKFncHAQXwO57+y/prxbW9vUcDR4eFML/feNAT5ecVpVERDI8L3t6jUNrCW0siBPJbgYBig==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Valider
+    identifier : 0x2e81b17b0319d090
+    internal_properties : BQAAAAUAAABZNAKJYWt0eH+qym5YOfN8Riy0/rNljz5Y8UIvktrkEg0yUCOXEHeeATidw4BhBcuNHyk3b0lDd3ccCTviRrLqj7hAQD7HacSwLJm/YYandoflAfsYzSnTKagtMghLO0WUPIOMlnp5CynZPeQ+Yr3T4aiVDW5atvYtWZT0mOLBpXdLgqD2hNJuhWJzDWRkPV/TTSDeEyyu+Qtbwvesq8rVsri0iLp5bqIduJxsvXHAwcgf1hDgsb82AdBf/jWmO/jf/U1RtkhgB7z5Eh82BjzQkCIh5IPT/M4OZrzRgR3s1ZSYSDDTPGI0D4dIfjX7Be4Db2YVXnWy3AwOhf34f4bWFHdtDyjjd0inI0lhQQ8frKd+wwfunn7q+IXTDyyw2PU8jakiPM0GUJDJ1wjNL4geG68+sz/aWGzC4A8FCa7meA1dHRh461Dfm8DKWS9tC9jlPTz8SyU6cEU1V6EJ7D5yyGpyIjyG1/fHFO+TK2m6WVPsVooA1w7cEKjOzQk5GVgd74OYIGJHrAhqhR4AVvrwvvr2+bXzYSqDWn8pNruxH7WyGntbnCz5H4Bs6uFBu2iTvpmhC+DKldGAu/uxnz0Xs8bNbF8q/Y0j0hxTuyVxz5of6hmJ9Zmw4jCVaq4/uTAj3Bgb0bxrEO45UY7n8Kz24W4MdGcmN9qGQN3fgCrPSbFL965VMMG99SU+IKaVEtbOxYVupIAjsx9K8g3zLwi+BA1xQ6XA5buZ0MzhL2r/LEb0WB7+mi3rR0AR4+EGioYZ0vswTbUF7pNhuT5NbJUZZotClYfTpUqLMPOYcm57y4M8KoISJ4TyN84eL1+0iL0ogDu0MiTZVe01gxw=
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // vérifie si le login est connue
+         si gnId_user = 0 ALORS
+         	ToastAffiche("Le login est inconnue",toastLong,cvMilieu,chCentre,RougeFoncé)
+         	RepriseSaisie(SAI_login)
+         	RETOUR
+         sinon
+         	bufCles est un Buffer = HashChaîne(HA_MD5_128, "mot de passe")
+         	si DécrypteStandard(gbufMotpass,bufCles,crypteAES128) <> SAI_password ALORS // comparer le mot de passe saisie avec celle qui est dans la base
+         		ToastSupprimeTout()
+         		ToastAffiche(gPoliceTaille(16) + gStylo(JaunePastel) + "Mot de passe incorrecte",toastLong,cvMilieu,chCentre,RVB(255, 0, 153))
+         		RepriseSaisie(SAI_password)
+         		retour
+         	FIN
+         	gnActif_user_id	= gnId_user
+         	gnID_societe	= gnSociety_id
+         	gbIs_admin		= gnAdmin_role
+         	gnID_Ware_House	= gnStockid	
+         	
+         	Ferme(FEN_login)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_SansNom2
+    identifier : 0x2e81b1bf031cda7f
+    internal_properties : BQAAAAUAAACGNQXMPAS3ftnoKtTzpk5LDWyKDIqBJjizAz0FJbTCf3HBXGrtB+cdbJmZOWmW3jdcLo5VGCq1tY1JvWTM4RLIQrQfZS8wtaMApz4w8zohQ6Wj6D+RlT283P4i6BaCNsyETTWbnxLzzRMmzocJSYouRd0n6cxCLPrZsKSyWLRs/pckBBy+FDRyZeKMRlAmc3ZXrLsOgzTO9T7zlTPaV5bWlYvSphApj6OKNWEJdrVti56O7d5FFClZNfoXcPjb0tRlKh4EFNNhvNLIWu4rXclWuq0y1d5mfgv5m0dAgY9SXDSn6DnrnaeZC66KAfDcL3G4zubZJTeg7DIh5Q7rfBr/ZCGmzzyxX1EyqY9UJaZGNwP+ektoZt6DYKk96wlo3YwWmzrs6H4ZThQbWR1ecAxtHuxBFdQxIR0qa5Q6lza9TmAGLDpDblLpZMyTFvqhHqMNW1pr3wxh1J0aocvm7WpICOJz4F/mZ+eftvtO25bqStrVtofU7Mas0hExYtpoxvmy1rHAbF6qtbqPIdKlrE60EDX6KNFeTChRCxqp3vXCJ9NHTM67sTaBSc5u5+wz9P9+8iPWX7cn2GzlBRKgoeMT2zWNUIFZogp8hyL0XeJPkIQLnN22camK7m/A/6bRYAT9aUK3duhuqlgX9kchqyeo2Ti10tdhhqa2U0m2SmQNxSoWNEtOi5oyJU1dFck5rXX/yDuZaANYvvLWLACJ92Ulzf9NMoqFZgQXBwcuSQhSKN3dkq8sgHyJXVNu7dieiY3U/toRQO6oBTGisZCQpcfHUS0Z/4Lnk1b+BdoxUzDL6gT2ZUFr88wY/Ie8glDSC617VCPc/Pf4qmk3ORZCT/6ksSXBpT84xC3CxCd5ccH/23o=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_SansNom3
+    identifier : 0x2e81b35e033c2dc2
+    internal_properties : BQAAAAUAAAAYDCbSawufBiaut1AJOJegBvCpE5TqGdFRUFjQun7nuwVwf57BPAo9hx13cgHdHMUNZprFdNAry1ToODYif920z1T/zm6qK4wHiURmPknPb+ycKnj1qUen3735CL6DsCvDR5sfn+57xteG7OAaZJLtUdkafqVA2lHaJL0YuUdGbDHP2LXaBygI0dexAAxsFo0Qt46D0v4JWhqCQ5NkyxzXBkf7HGysXLE4AIpS8ZtT40UI8D9ThlYOgMsLf+hSvyG+m/HSIH+9evMe6mVnZMM8YGHPBHpaWoFA8MggQZ5w7XkBup4SBnHZHNKKQDTqEQnm10iK8ZJb7QGp5ddrvdQAbwHeWmSjapMPbo002k4gt1aZNzR4EXDjYcFbFb51EbVdyk1XLZPYtyJtAyIWr8vsCN2vRsEBAQxFSBDxjdoCrw/MaQtQPb8fjjFE+7jxTsM0AaoogyX5h4wqTaXIrFnz4YLmrNbRxL3SZbs24r9TWV1uIBST+26nb74CX6a9jd9Nqx93GKekNE7lDh39hL0wCE5YM8f2I9q72/MWrsqs8tVDSI0gIPDy1azBJaQtr7ou2rYvjS1QBxLBlufDAKA0I+FJPCaWtFErZP4NUAKeCwfMLmsi7Z8GGtPDnSG/EXUPkCyz2CyMPdzHjy+9oqNe7mS2FZsInEjhA8axStNYF/rvO9RYs5sboId9e0//Mn5oOuewC1oNdxsKtgNZbs79Zsf3QkwkAQ46IoejX3V74rskE72lgKbgD0IZywP2mq8X1JoyNJzkbViE9yQYfoO6ZC9PyhcCz0TtPLEMYRjLJPIuxl/919PbyM9faB593G+3+mVWdZqKIKNXqttmqbCWwyT/hfF3wOd9X0CAMhEUBgISSx3ubYOCWNFamm8LI24uuhQVGp5vku0x+Q==
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Lien
+    identifier : 0x2e81b4c003cd93f6
+    internal_properties : BQAAAAUAAADnlkHbtmEI7EA1cH9hpqU+k4b/l7Lni9bo7cJ1teEPCh64RUi1Jn9fRK4Tp0/KO67PujkNyDX6T4qTIboS+cS7rWUCIPkGIOy8ycXPR8LdLVphzjzVEctztc+zb9LG9CHtWKG5SdmWYQEczaUKtiAdvph1uKXqYTVFpsFL6bePHAg4I3zkKMcFU8scTrqJEKBLOSxdCwGg1CWGdrYZzLMKaghqnyXqX/r4qEv7rMqgHRdsZkvjQ+4Do9LCPYWsDvdHlv5cFea+XiAWKhWe9agaea3998mnI2K0VCVCzejl7Nh/i4wYQNX+8SfBa4YiPPUE3zUx5/f1bqWs0s6t6G+LfAGJ4dnniBn7dOIMUZbJM56usAKAI5y5rgpCF+Qqm7QQuhebAr6wDbrL7M0AlE6vIJsusLbmHYvwr9fWJQNS5WyRhQ6PKQn4JNWf3Edc4+M9COOhsbAn4FRV1lW2hqmaV9gZDzJ9RPbc5zwSluoR9B7t5m4ZdfSgYtImKx3nxPkK8ptN7uIvle5hyFiOlsFD0m3+tpVZU0S0YxAdsPknSf45nkqxU9wn49JmbzMcMys+GbaCTFCeXK8qKuFlUpMMP0HJwCynb89+PLTuLEliqTw/OmZ3l5YijVn3DQH1JU7Jeq3qp8//PhlIrtmqFeLLA8ZqZKcB0kN1JaQuRjRRUXIt7YnkcCrvGU+VuPua9Zq9w6Mgq1Vs1dHDeEa9NENY0b8583pJIYzGLbqHb40M4/xn5bjDaYlwCYcXBwe2edjZRswa3VBb7dB7uqoQOL/h1RNfhvzVCpZth6uTEImISw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         sLogin est une chaîne
+         // récupérer l’émail de l'admin
+         code_sql est une requête SQL = 
+         [
+         	select <§cs:6§>
+         		login<§cs:6§>
+         	from<§cs:6§>
+         		User<§cs:6§>
+         	where<§cs:6§>
+         		Is_admin = 1 and Name <> 'admin' and login <> 'admin'<§cs:6§>
+         ]
+         soit nrc = HExécuteRequêteSQL(code_sql)
+         si pas nrc ALORS
+         	HErreurInfo(hErrComplet)
+         sinon
+         	pour TOUTE code_sql 
+         		sLogin = code_sql.login
+         	FIN
+         	// Exécuter le traitement passée en paramètre
+         	LanceAppliAssociée("mailto:[%sLogin%]")
+         	SI ErreurDétectée ALORS 
+         		Erreur(ErreurInfo())
+         	FIN
+         	
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_nom
+    identifier : 0x2e81bfba03e376d7
+    internal_properties : BQAAAAUAAABYn1p0aptus8la0WqqVAj0CsXGEI3H3DmWcRdFtSnCoA0T1q/3wJAHs2vtrbij7iKsDj7oY5tIw/ZmIGLQsuBNqQXf4IYNTyOWnBMrQfbRbQnVBR8NCKzOxKnSmQjcUhRFDWkh4NR6MjH08njGmxw0MHzoczIzizcquGk3fsl/7TtfNoc/pqIKnqeqrTAzcy1Lm7jZbrXcAurzJ/yi1vgeolZj64dGZWAti39LME53s80kZlhyAcYOnEuot4/1Wm4HvquUQB+pYTQTA8LlFNqagY8HqUwVFqzOqKZfUc9xkxCPdaau0GnSAztJd3tVaaxMudKGQ+dtqjAV96WF+DTIyih25KrY6Ha8xyIXXJxvn3aUdE1ivv+5dQvmAJF6kvW8zHI7fu42OR5bRtBAC6moHcxf9Pujks3SCxUqIq0kv8t38/sucGPWyGqRtHomkEbBlwdPyBqhvd//RekDt5IiZtUFo9QgIveTJWY27Ox3tA==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_Image1
+    identifier : 0x209ff5ed14148292
+    internal_properties : BQAAAAUAAADyVWrTI1f6x0hynsnDUzSS66OsAr/9TnZei5z0jezo+lTMY/JVptmiMyOr95OgiPXJz8v253X3WAVwRS472Nbc2n5/izXoYEHtG+uNyekB7ZUUdj6J2U1m2ox1yhoPgIaFzTc3tuOwSSDqKGANUNhbIBnJ2+QoV8CEA4DoNHZbb0KDwXkb9iiwuaciQEbCtkemfYFOif9F9wCwnaQxUAPbg9kFx/6T7jSkkvgjA0viQrkz+oXyGVBXo8cc3+pBIAT4Ot880W/HlNqsTmulQwyAQBoSDxBB8bSg2wSgCbh66XzLJuCQWCJY5urQnx+sF+IchcX+/fHfwBlgSGX5hznv1dg9TRFghyY0dBBAflLDGk5xTnjjcbSs/FgTmVx2dd9dbFCG7K30Gc3Z9kI1oox5jTfpLbMoeDdWZlJ4BzT6H3IBPS9fCATgrY/xjkLseP9wCWEEWiaFA2vf+98uojBKG0F8LcvmUtLS9BFkwK1KoWLAoB7OBJTDAX0FVbwBW7JG+rwRm4fLFH0XEOONan7s9H1aBwhovA/U6SkH2ODIcbKBY6ywIZRv9+0g/abBwlhk4p5fk/YrgWksWSFd+r5jdFLTt/vvTSwRN9BzLLKvZKkDwcbMpk/wbleaPbcyWVFEajPAo/m0MAakHw9mM0qIjmiThzLiKoANYvXSzcVsKf4IqQX/b9a2nD7jIXkFmcPV75gC++kfuCFWRo9wOEe0H9c/TvZmGTHIDJtwqPHjmRVKZjrCctLlGH4kPd0s2IaofRpMhqzQ05I4jQan0xMTYiEDoTHxPI4XAbaw9P2l8xcvwPB1JxXuMnZhrqHmc/CP9Vbjq6MrdNyQAXvCNY+xH6cfuN6pWT99Aw7uY7VtCXDQdf8riYDq9Vnsjyc3tvRYZ0mtsE4Nd/3//1YdnhMkDY+aogEyVxcoPtUyDQiP53Y=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      gnId_user est un entier
+      gbufMotpass est un buffer
+      gnSociety_id est un entier
+      gnAdmin_role est un entier
+      gnStockid est un entier
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1e81ad91004e8632
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+  strings :
+   -
+     text :
+      fr-FR : Le login est inconnue
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

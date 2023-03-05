@@ -1,0 +1,132 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Nombre_Fournisseur
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Nombre_Fournisseur
+ identifier : 0x2093fb720aea0cbf
+ internal_properties : BQAAAAUAAAAsyh7xUok/iw2/fwGCdDDhSQFZaDj4Se2Df5nh/xkrzq8QMKKDEiT3So3lhkxqMQs58NUaQRiRJdY+STWrnHbHHWcyVIXEce6Fqg1c8BpXb67d2YlH1AukdL92P41kt6sCCZYnTILGkmW8ZmYcsqCKcBdRYZR9v0Y5etBxBGD1cjUpqeyPSNAqb9WPq8a/C9n7L0mIsZUwbkJImMLtpRixztY0gWV7UncZ9XXm4E+OkLi+J8JqpyEYqpju9XUSL2h/qo7PdeEN31GRewwpi6qlIxbM+GI+rQbcmzc60hoAtnDjUeUWiP4zy2u/pCAyKXitOVtWgrp1UjDReY9mQddgonv3Hx6bhoHY8W76kZ8eDZ+Q6oqEuoYBTCnEFoeEPcUvRV8OBq7Evcf0Hu4aaSRehNrJamoYMlpHjnAaJT8sMlEeHTGNZmpE2p3fqI0bb0lbJqhualtPRa2jYhd9QQKd3mmctoaqgQv2KMf2KIwvZbQPOdtExnKg9dsDqJK5SJaewpGi+anSugbtBbVZyixWCNXvdVERZoz5XRoV8PLGqpC7Uc2hIttatIRFT1Cw/gVJGNzEs1sYwliDKgDucmQoaKY2817gGwkFK7qCoddtFSNa8Ftpn8NhKRHKMAKEJt0hNQ==
+ controls :
+  -
+    name : FI_Nombre_Fournisseur
+    identifier : 0x2093fb720aeb0cbf
+    internal_properties : BQAAAAUAAADA15y8cI9ZAd6MMMLZPxTmptdk7atcsncDleniYwwTMeTQ7/NTy012DvNYdol4KxD8bwCXklApn99qia8aoqqBUKJSDGEPoUl9UudO2fAh+ZHPhnIv2zRI3vZKeoAQbuHoE/tPcVq+jWRfTacxmPD4JBwvtSLzPIWFTDvOo8bWS3+ATFRdMu9Bjfc/QedKkZUGJQEmaECycJfTIvG7QawnmKnklx+aYF1r3yCUGvTV2FQ48/X75TbpleX2oZr0xo95xQMHOadpWypRnnLaJEDJ281vnmh/thjmHvOXIzdEEiTFAdGtaqMacvt9aWwQVgv65LFm6ydM2bMOfbnz0baVjxIzUDaTghTtOAT6AGaSfJtg7M24hPlDqbfvF/f21VWmlqLQD4LZnubHcl9QKVZSDwwFdsGFWUWp9+rtcO2rUgVHGmZxHe0WfnJLRq4BJwMes73+TLXJ7twndvMcj431JA==
+    controls :
+     -
+       name : LIB_FOND
+       identifier : 0x2093fb720aec0cbf
+       internal_properties : BQAAAAUAAAAG9OAKHuSnz/3MoCtL1tzUb8jVRCv2AJiZg/jJUh8jGeXZGNSKsfFneVYNrOnRh2YHMOhZlKbyD3QVLLmp7HDzeOf9ExcabV9KNPSo6wQAMYRMdUk0SpBliJDIfOTwux5B4Stgrla/UdtZKKjbji3tuxs1Fm7ykvygG8bjZDpQeS85Qv9RYb66VslP0TgnXLDemqWCmxgIWUBHw848kmopfLuPLJggMpUXUuoDe/w9CeM+7rYZGgp9QY3Kc3cDxM5VVgRuDJGi9Ri872gqEbHc0BU8xahGH1afsLiBR8Gu8W+TeM6itFWQVD6w+GIBQNG1hboTKnFNjHPP2ghDyEJCqFQpak4caP9H0zz7NAMI8GoYIylaJbU1hgJR6dXxMCInfw2lTTNYBOtHsjdahKhxAnmBtRR/VXWFvLet+gSBhDbx8vQSNm61YYy9gTlayWy0zaNigMQZoXfuyfbuFcodbT3OGMWjDVpNaGts2XikIGhaRdprWsYwn1OJXshsO1IWz5ijD+SQ9AHPWWGV
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Marge_brute
+       identifier : 0x2093fb720aed0cbf
+       internal_properties : BQAAAAUAAAABrj39AskMPqysEHAdf99EDNzZWPSJdZpyjwzKvmip3/93vSMfpej3e5heKHPoU+IJLxeH+OTQLZdaI3rtEIYgsA2cmxcsy8FQtiLlOw1WYsorkgcz+luHlMcrqK72jRfdW+VZNpMMpVLeYzBLhOhtRtPEaMFo7qVAiM8ZUY0Owb9/Ffl+ENQbKqBzqQrueFKnyDP2Me50SfxZ0VE1VHpc76VmRii9lxHX7EaEx8h5fw/Y13yJkzEsBxOomuxeM6H3dq3cc6XvAUuJ3aVvGjlvBfsU0zcG72SDxsdbYbThVdRhvheKR+GdsbfkHuC5DP/ENvQ7y550xUpKTNBoXLsrwAPw1JYWhdgiI/GULzFhMsgmdweMN9Z6RF1G7NyYGXkYvkq8Wyf/BDH/Udgop/CELdTyCd2doIH9Dy36B3tGJBfrgKzOYNM2/gXcJpmnleGsQGc23o7EkrhKRPsRFqW3tsJZKj/p4MCtfaXFrpH0GBdr9PM=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2093fb720aee0cbf
+       internal_properties : BQAAAAUAAACpHjzk/B4f6Pr4aLqej172KjI2i9oQ0sTQz8cGhPZbmjNMHAXzoX+Mr3tM67MoWEkwVj4Mq4cNqhKyzndObVGKtg6V0fSuz/0VwKbxvS54NWHUq1sQ5WnAkInBbwv9A7530MfuZBLgbdp1mIrYjKknHDJFEz4tVh28npT3+qgBawa0uy6ou39mKLCZVeW0E2EvM52YVUwHcMXgYSMI4t8lgJTlcHaJgU40P/JfWsfAPvSgRGAc/ykf2OJur3TkP7EPL8uj3cvj0Mq38LxULFCeacXh5wh3DGAGPVQAFkeR6L8Tkgj+t2e2HLfVmGOkdcWKYMI2FkjKFNDIm2u5+XKf8tsvxNzkvFMTN/O1bEBZ6end1YjGmltS9NKJ/RvVD/UZwWzvK7ETzsa2yZcP7Z6exU76saJc0cXUUfvr2T2WZuk1Rd0DgdDwSpp6EM5Tkm/I/9Jdbp22EtkFKog29nkqobSg1H8m5w/D7rQEE8VqY83jSMu3SgIyMJKpKJLBf/OS1Bwg2GrTj9hI+W0YvquCZQZHhUXz4txrww==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_decor
+       identifier : 0x2093fb720aef0cbf
+       internal_properties : BQAAAAUAAAAG8iDjYcAhEMtfhl/rNo+TVuY65yw5wiJQSgs6PKyyDK/YCHLCQWGFN68tQjgFp4hmhwvJlw0X0gWA6xmTY5DwF5sz83fqT+IQ4Yuxy2w9TYQwLOwuhPa87GYyfYNNz40kaZ905hFBH5KqtQm6tbWrzLQ14/FjDnB3rAvyDOJEDARcle0q9qzPdqsKpAshblp7i4dSbly1kC5kedIMN/B1NweSXeSinP49PIg6wwKViO0v10cbK86Zr2Lm/KIbK14iJ+WMrFOnV2pTUtUaXNKXyxAQ33m2hlKYLPrgbk+hZLKnyIT2Knos1IpJVSlR3mbBimEspMf9vf3G09hFb7kq+P8qK2jiJdUP2QPOFLP9IkVvJUtEC6tiHTVB+QcS5/I6B+9uu7QMLqyFQF7snDQuYVGUMeB92ZVaasZLlabt6SkbD1eu06u91xkhMkX7oXN6NhjzGrj9hgE34Syce3rBb1u+FatkAm3SVOICOzByB1ErFNbUztwr63YG3wqtmQHni3bcK3u/goFHoHec0ZuKO1vn4nMtw51P8ait2oBU+bgxuS4tRB8MwyOmzFhtisYyMez8GA57lArWGLaUPTMrg/DZNqX/bQqp4FdPSCE1X0W+jRd5q4QeYTXQjlOOiCwMIYOTNeWkf1fIphUY7EmQ7hCIjuhGXGPSozo0F5V/lo2t213r4ggaFs6erf2toyGQeK7pG4TutPzXE2bmWygRhu4QmZUhBgci9NU/OjlDuJISTdnK+N2k5tizo7izay63lpvOw6IqLb3H96pgg1uHDXLUYSYWmFWjLENPP+kbVFSrgVrOakTcIhX1TpIIIH2+Uv5U/Q08qy4Xf1CIf9qJVSBAThRClQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	NumbreCustomer est une requête SQL = 
+         	[
+         	SELECT 
+         	COUNT(Partners.IDPartners) AS partnerNumbers
+         	FROM
+         	Partners
+         	WHERE
+         	Partners.Is_supplier = 1
+         	AND
+         	actifs = 1
+         	AND
+         	Partners.IDSociety = {IDSocietyUser}
+         	]
+         	
+         	NumbreCustomer.IDSocietyUser = gnID_societe
+         	soit xNumbers = 0
+         	soit nrc = HExécuteRequêteSQL(NumbreCustomer)
+         	SI nrc = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	SINON
+         		
+         		POUR TOUT NumbreCustomer 
+         			xNumbers = NumbreCustomer.partnerNumbers
+         		FIN
+         		SI 999 < xNumbers < 1000000 ALORS
+         			LIB_135 = xNumbers / 1000 + "K"
+         		sinon si 1000000 <= xNumbers  
+         			LIB_135 = xNumbers / 1000000 + "M"
+         		SINON
+         			LIB_135 = xNumbers
+         		FIN
+         		
+         	FIN
+         	HLibèreRequête(NumbreCustomer)
+         fin
+         
+         Actualiser()
+         timer(Actualiser,18000)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2093ae13090db303
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_Nombre_Achat1
+resources :
+ string_res :
+  identifier : 0x1093f5e800f651e1
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

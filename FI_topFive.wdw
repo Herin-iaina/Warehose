@@ -1,0 +1,228 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_topFive
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_topFive
+ identifier : 0x2eda25ef046aa8b4
+ internal_properties : BQAAAAUAAABJsuw2WzbGl4CKEkxG4g8+CE/jBjs5901/yM2f6iuz0pamS9feA7Jo1ZKpOthAM3wHkMMS//5VP/0Vz/R5CYBUi5Y164PqUlZbbfaOHB31L5UvuLOoUg1YcMbgVMEHGIg2dT0FKvPbuza197cjWCmkQwb6MwRNiC5VGcUs42LdRHfQpHTLOthbTUG7SKuS0bL3JaQb56YcH6rEtv15uDKVR46YcHnZ5b7lUsx8C3BVY0yLmKlp7Y+ke3qrA0VrWC4dMIcXjrF5owMJfsdgB3i/ulhDPHcJF2WsMmA4oefL1O7sY8LyJsoN2jAih8JrEt8ZCmc6eiUS5+VDMmEeOEtidmvzmvg5k2e+f1u2eaNalxpgomASF41VxRAwLaBlHJeVtOQlc+laq4vMF6kJE7wJUj08o2mQ12v5cJYW/iurhSqg7oxNvaD42FHgYjJ0HJYOMz4KCucyL3+n7l6lMJKumur9CddI9Re/VnNKXpC18/MmrGn41Z48px2qtoaM3X+643UHLd+8hei6VcHHk6o6lbn0M5YR6k+iuUZEXE/ZUyTMxzecTVtRW4MWfDG/Ua/JGmhYQhOg6Q32kj53uHhMm9/d69niHetOErfGMnNiWoJbaK4ytZzyVgJixOeXY00YoVkD/k70XHYNcm4mU+lZHkmq4l9wKfwKXckNbA8BogaPQrNoxZF59jStN6Ll0vkAB9mt8laLXP4RssdayC/9ObFz1bYt
+ controls :
+  -
+    name : FI_topFive
+    identifier : 0x2eda25ef046ba8b4
+    internal_properties : BQAAAAUAAAALIZvIqX/pnU6l9aVMHOZL2+f586g2Eafm2AA7EYVcMUtrnQcHxJ4FI3Mhv1ddpIrBCpZsnNUUgnvxrKt+ZSoRch/+/ydckeRoWyQ/F+gJryOWjScsRHk1ZuFGaSVLdic7YuWFdxrgK4VNUZp42wEvztyFRSfRRcy9X7DvNiMYJYcpNleiBy5SS/LyXkz1Rsz2Ic29D2ShzMwZ61YvV8J4BwQGv/GXLnuEoxiCjATx0cPE3YNzxnU6nMuAkxiAHJYGE9ZZKAWaatuzVMeyCLV5QO5hFHvPLcDAodX4oOnPKS71mLJ4inIs3H1rjoWxX7gznLTZCjB+TgP6RY5pj3DJfgSUwaiDAy244GBKM17qjoI3s1AZZnCgTL6IILU8JB//kpLDPVaue7G+BG7Ax85Yp96cMKEwtf7yLs0aUklvc7eCMM0oUVs17wKQlzBL21fY21IK7Oc=
+    controls :
+     -
+       name : ZR_client_top_five
+       identifier : 0x2eda269e0497662e
+       internal_properties : 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
+       controls :
+        -
+          name : LIB_frond
+          identifier : 0x2eda277904e51481
+          internal_properties : BQAAAAUAAAD9s1RRBQyEcbwSv7BWBAtogTPCf6oQTZ2S1obkw8cpUbZzvSMuzacMxHH2LZCUAhyIVJwhPKpVki5udNabuNqDgZZ4VoSKg93VrQz9Cu4V7UI+mMVAdnuov8dxuxu/Li4/tkw/aOyKs7/gf95/4iHK7Dqckjth/Ruj6OwWDDEptWO4J/sBAQj53J6FfgdyNFxNYwqyQLhPM+beVblsHgZn3dMZq1AOSL0S2N07Jjb0hjIKp3dDh42KjZ9JNy95vLWMrDasbl+9dqPjT5L1UoIRAXr+PTT5UkSALrW6tuY7KBfpEE5n6ROpBy1c6plMJJr3604ppbLHg1yIFc1rNQSfHOfA7adI6Mxj0lP1kWvQhZhqih18f5NZrBeYe50fXNho7A==
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              type : 18
+              enabled : false
+        -
+          name : LIB_client
+          identifier : 0x2eda28b805142dec
+          internal_properties : BQAAAAUAAABov0WWawacmauCNTlMGEkFl7ycdLtXLBJTZ4uhlgsqXc8/A3gUbOV8TLOwDcOL00ek9wVD+joFm+qW8QxbDTcixjDWLWLC3FgVzTEwd7lrIxOMqEF/eCYS8xH+ZeaSzS8muCaFA+j7wM19gE6++mXCTPvBF1EpA8qp7kyyQBBUFE+pUwB1oogdOO3JNCLScj+Edb5rpNC1NDyQk4bj9KR7q3S7/amaRvb0G30pCWuysziijtkbGhQwpFs5E8O4KhgB5RZp5yr93a7oTNO3WjKX/fQ/Vl0mnKmtwl/4A623hJyC8475BQGXChGIsR2Lynj6FdDharztouzlP9Q+yKF5+bX5XYtQVHfRd3y9+uE+D8TBP4pcK0JVEwiBHZi6DciUYrQ4QRSOG0+vbDdQHjfF8aXcqMZLd2PwYek=
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              type : 18
+              enabled : false
+        -
+          name : LIB_CA
+          identifier : 0x2eda29560521d766
+          internal_properties : BQAAAAUAAABORpDcgozrbk7D2VQI6pBgcyJ+kCu0Um+jNW6iy/e77yRlxMl3BmyppEl+/C4tM2hynZ8ixyjjUTDQIPKpbS8+xFtty5a/BFjRwqi9+p7/VhepVA4/giotCE7T9EIO7sKY2w+kmEYKjtcKZrlO1d6QS/WW+nwoErTN4QtuIxlJ8+rbpCVgzCp4U7QyZxSvPwEo9XFaNpZaysvZZHwd+S36rY3y3vCn6bXjw6REK/wNRu7/4WC7HAXxXJv1KgFQOLim2/LC07JWHP0cXGnmgDaW0hM0ZNYa+ipOqZ1TZVHvUzuVfHWsGrArSoBKjU7S9UcnJg2jSQMKIEkh3BtwdWyzHtiog4fLa+tCq2GBmM2pZKfPXpnzC8X10l+3VMZC5SNxpATKBinmzs9Zi8Bk24ZVq5AZfDg2JeTOjZhZEX80vKABRbRuTLpwj56NqLCwEjApOumgcKZNHlCIXeiq6kvFTadX4vPZ8QHHny5xMZ9uA7g5YV3PBmEstcGSCQ==
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              type : 18
+              enabled : false
+       columns : []
+       breaks : []
+       type : 30
+       code_elements :
+        type_code : 42
+        p_codes :
+         -
+           type : 35
+           enabled : false
+         -
+           type : 22
+           enabled : false
+         -
+           type : 24
+           enabled : false
+         -
+           type : 23
+           enabled : false
+         -
+           type : 25
+           enabled : false
+         -
+           type : 230
+           enabled : false
+         -
+           type : 241
+           enabled : false
+         -
+           type : 222
+           enabled : false
+         -
+           type : 223
+           enabled : false
+         -
+           type : 224
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre(gLargeur_, gHauteur_, gxType_op sont des numériques)
+         
+         tabColors est un tableau d'entiers = [RGB(75,167,3),RVB(60,192,253),RVB(243,119,78),RVB(72,135,180),RVB(118,141,156),RVB(206,116,41),]
+         soit nbCol = 0.00
+         
+         si gxType_op = 1 ALORS
+         	top_customer()
+         sinon si gxType_op = 2
+         	top_purchase()
+         FIN
+         ZR_client_top_five..HauteurLigne 		= gHauteur_
+         ZR_client_top_five.LIB_frond..Hauteur 	= gHauteur_
+         si nbCol > 0 ALORS
+         	ZR_client_top_five..LargeurColonne = gLargeur_ / nbCol	
+         	ZR_client_top_five.LIB_frond..Largeur = ZR_client_top_five..LargeurColonne
+         	ZR_client_top_five.LIB_CA..Largeur = ZR_client_top_five..LargeurColonne / 2
+         FIN
+      -
+        code : |1+
+         
+         
+         
+         
+        type : 14
+      -
+        code : |1+
+         ZR_client_top_five..HauteurLigne 		= FI_topFive..Hauteur
+         ZR_client_top_five.LIB_frond..Hauteur 	= FI_topFive..Hauteur
+         SI nbCol > 0 ALORS
+         	ZR_client_top_five..LargeurColonne = FI_topFive..Largeur / nbCol	
+         	ZR_client_top_five.LIB_frond..Largeur = ZR_client_top_five..LargeurColonne
+         	ZR_client_top_five.LIB_CA..Largeur = ZR_client_top_five..LargeurColonne / 2
+         FIN
+        type : 65541
+ menu :
+  name : _Menu
+  identifier : 0x2eda25d904674b33
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : top_customer
+     procedure_id : 2223152429072088475
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //top_customer ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      // 	gLargeur_ : <indiquez ici le rôle de gLargeur_>
+      PROCEDURE top_customer()
+      
+      REQ_select_top_cinq_client.Param_IDSociety = gnID_societe
+      soit nrc = HExécuteRequête(REQ_select_top_cinq_client)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	nbCol = HNbEnr(REQ_select_top_cinq_client)
+      	ZoneRépétéeSupprimeTout(ZR_client_top_five)
+      	POUR TOUT REQ_select_top_cinq_client 
+      		soit nIndcs = ZoneRépétéeAjouteLigne(ZR_client_top_five)
+      		ZR_client_top_five[nIndcs].LIB_client	= REQ_select_top_cinq_client.Name
+      		ZR_client_top_five[nIndcs].LIB_CA		= REQ_select_top_cinq_client.la_somme_Total_TTC
+      		ZR_client_top_five[nIndcs].LIB_frond..CouleurFond = tabColors[nIndcs]
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : top_purchase
+     procedure_id : 2223159210825591739
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // top_purchase ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE top_purchase()
+      
+      REQ_select_top_syplyer.Param_IDSociety = gnID_societe
+      soit nrc = HExécuteRequête(REQ_select_top_syplyer)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	nbCol = HNbEnr(REQ_select_top_syplyer)
+      	ZoneRépétéeSupprimeTout(ZR_client_top_five)
+      	POUR TOUT REQ_select_top_syplyer 
+      		soit nIndcs = ZoneRépétéeAjouteLigne(ZR_client_top_five)
+      		ZR_client_top_five[nIndcs].LIB_client	= REQ_select_top_syplyer.Name
+      		ZR_client_top_five[nIndcs].LIB_CA		= REQ_select_top_syplyer.la_somme_sub_ttl_ttc
+      		ZR_client_top_five[nIndcs].LIB_frond..CouleurFond = tabColors[nIndcs]
+      	FIN
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1eda25d900614b33
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

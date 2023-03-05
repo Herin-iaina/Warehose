@@ -1,0 +1,568 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_categorie
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_categorie
+ identifier : 0x2e2c451a02c274d8
+ internal_properties : BQAAAAUAAADdtrkGQ9awNGpfQ3slkeBais/ma07rOdHnxr4KVBBQZ49MJGh/uTgtbbH/v//aWOma/99hbB48LGgqONbt25oiZTMGF2u8QX5n3bqwLsn1m6jKCdHeF0GJHqQM5F0doicypHjqXYd4ymdGaVt3aKoJ+Y3/EmMByj38hQfQKSwDrg8ZzkgAXBvaXGhpIgHTJh4BDnnZCysjDR4cLPOU1qBfkm7LfH+Wo0v8qVGJaCOo0nCoIb5s6aInZPCHJduRqNiGXDaA3Rl7QmB3Sjci9Dim/XaWjpB4j9GSO45pftFPLzv/sTCs1xHuL0Jci7EOUCmicfBDm9BEc2+5Qoxkz5fERTzmAFrWbCR/wpAlN06f2eLDt4XwY3QFqkxmfZu0gumqigTf4xajJhlyWbFDS7iaANCLMzPCh5fHclExRKiPDq6adip7ZxhWjItOA+g1+9bhWsaw4dbprCnVFxn17jyfdem21zO5Vz66nLNcdP8zBcSt7JdDPij2tPXCAdqSnwDDcZX7eNrynOa+kWaK0bE/NbIqG71BXzc6TrGuDvSTpr2PnJmvPbbzeTaYkCHUb4M76YBZvJcOmCbLzFeIy4EFD2FSS8fAXjaK/gl+TV70X+UV1idtkVzgKc6PoZJ0l6otuToVJOh9L823b3l3xYVQkW6gpkH2iCu4nJnCcZ4laxs0EfnR8NaBuEzZD49gYQPzyYC3GbMCBVaII+PSrF0ZTIkcYjgrAELSTjJFk3tvgWsQ8WhztAJh340QamcgZfY2voCVXAxFQhkDmb1IjgQU6jX363IboM3vqwlAQ6qQGhub/gQqxlVrr6yv3vyZRJZ5tTo7IzdZrDt9rhB0Air/OxksKrP9XULS7NrwKJW5VR3bKsET9nWwjyYdIChw5WJi5JwrGcxl6tfUnU6PXm5B6dXOdom4rtHEA8AAkDl2yFk=
+ controls :
+  -
+    name : SPLIT_model
+    identifier : 0x2e2c451a02c374d8
+    internal_properties : BQAAAAUAAABucZg/1JmsnFIpzSOfBrfRpSjkq3nRN1PdKNUUi1IHnteV/wLOIi/3OmB3DUp6+YpwYayjDFOqJ64sdguh1dTermqHCq9crmAPfwAsLtyIGcxv1xLnHymfUqw2aoSXvcPHM8tQ1hGoFAVrNU/wMiFmBKsnRtZxJUC0nLzdI7lyebRzTMBv04RXydXQfoxyf861M548QYj9WVTflhwYUaRzE9ddIGwqxR4UmrbgGptV5JCI3puiLZeAFkCaP+j4yWJP6nmLDEhl1uz4QlFygO7HfcrYd6T/FRDwiu37YoLn0YHmiurg93O8lamarKM7Ln77zzp7ELQi4Z2z0rQrwAfhjqF8bOmSac3UkCx7wrwUee2Oes/SK59G/1Qude8utf7LoQu8lzYrY0BNcxArZnuXd43JrtMllfMpvJy7O6Z7AQJIO3rvoSuuv+ISk02iM3viT3ua1ragodFVkMkKkfI1JGgtjfOObBFxko9gf6kxga1eBTjPn9uo4isa5/jNPI0VzxKiIKC2v4x7UE+QcYDoO6GBbuM5KmuIzARaqFM2cMjhrcIZ+DcNHzP7TDcG62gD/KkuGh/Rvr9I8SNKdvGEZMytET+l2WydqG3A28Nje+o=
+    type : 28
+    code_elements :
+     internal_properties : BQAAAAUAAAA2BqLpqVBM8YdMCLHLjyCDP5YSL6HZ7QQr/kiQK7EdO0A87jd5T8TSmmijQu0MtR4x
+     type_code : 61
+     p_codes : []
+  -
+    name : SAI_Name
+    identifier : 0x2e2c458002cd0144
+    internal_properties : BQAAAAUAAACHjXW1HV7vTGLeuOmDSZsvu//p+f5cI0821XTLnSak/MSLSLixVEkshp61W0VJTwTW6V5bheijDC+IwwxWLh3X11cCDYhL0bGW0rgLDnJNWHNEusJcSf8OcZXPXja23qCag6ySznpkYJZZqG1GiyDe3rZVQI4VrINr7J5iuERiVrBx7MIIbsn9mNHbZZa5cfaYOHymLSTrRNwkRM6LDlcDafof7WRpOtmFz9CSjy7tQ1iNKjFdmqvM7jqZjx82TcQxE/yTEDIwRxrM0+xV5cL4i/K2y8aaBVq0e7pqJF/4yHWgyaFHV0nuBv89HDSs8Df0HkI1rfYipVM3QP+aY5iACMD1CeQAksTt+f88DW4aDSFdN6wyhyHM9e+G9BulesOHKiGzNboljf4lOpzo79hWUE0XpSUM8qWO+nAt0JBWZJH1p/otQhBCooZSkYrM6UsYfoKcEXrn1lyjdhbgTUUzvncQ8ruxO7lLLIvXdeo/ra1KavB22fFNJJhLM3qOO05ZFtQqGvxLLLlI683O+oR7/0TSkTnpSWgdM+AH7o+rsaLXKVlRzk3DN5txGGQbb+MooYMuu7Nhj/+NjDHuYLqcVT4qkSM2lRuxOXpvTM2SKU6G4tMQV5H1/dziXjJl1ISXyRMztXxEaAb0D5WwFXzxwE+u0UMS2ciX+uQODbit1yyOTwf6Qm38C9qzzTL+K36E1rz9OqD2aUcLwwR2yvD/aX8H0297tVYM+TWKT4FpsZXC/3bpuZKwTRE7nCPLTayP8LgM6Yq0HP++XLZSlNonyru/eCCE2QR0rnMF7+JPp/BtowogcUU40zon5Rk88UaMI+I+7DhfzqnbK5NUAflxDQmMKIPUiDAVAA0dod2z2U1MQMYqBUFHQTlT86LtBaxwZDT0wu59cmrcR7liC3sRMDnuaXZzYWQPDfysMEj/qcuqoG92eTkMqo43WHLAz1BnMpVHCKQIpSGTUJWVFY09CcT3M6pL5UkbfvLUuK009l1ZfyUb8Ck1DQeKo0mJTPQ+JWuNqKZLXkAn2OAhFiWSEShbcIAzWPzqTLt/tF7jK6CgA0YMgcb/dbCKE0jf/8lcE/riNkAERFT/y7bad0OUF0r68f546ZYvOM5kFOo4i+tuQapXF+oknqOeIX3lBGfU3I8To/eEmLKb3AlSmHC9zywgaHZh
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Faux
+        type : 17
+  -
+    name : SAI_Margin
+    identifier : 0x2e2c458402d012c8
+    internal_properties : BQAAAAUAAAB/N1+kMGU86Z/Aizi+kbZUIP5akq4/mN7p7NInReaE+oYNa8PdLfVb90RblnnAm1PBmur0fSdpiBWSFh3X9tQ6MCCrjxrFe6YUl1LPHnREj8JLeAK/fzwcBRhOmUnuATZFqnILzJmh89L8DXvIgLeLeO4ww7HIo5hu9TEV1gDS+9lHEJ956/mMrMBNJUnuzWbZJcYEWM7k5TD3mzOHSuoBvVp1lCMvqAD6XtbxJ7fg68F8OGGl6D8/xxhr+VQPMhNTPcMdO/ejspQyl8+5va0aQQ2Z1Etv9owyNGW3GNUwmS0KcMcqkQ8sgDs4t9XRM66LqIwrYxh2h1ozr8qzscYrBbN7+RP8r9mXx8aGETeVaFPFVT6vfEdcHzDugjwvlt4fG0YHVLPAt2MJdtTQQ25Kc+7DF6LH9/WQhuL5sB6Xq2bXhdFpX8qer0gFsXjv7Tau4HHpWlzK+n6CZT20tMK5WDcpfdGyejRxJSwV65v+hJXgnGhSeVjmKxJDph9L2vDiHul56UPVP1aKeF/2PKSU9tbNWOVkXFM0dF7hd48YZMX2lcNOKKtPsd3hXD2at/Nkai4Xs7YXlFI/hmf3gdAq3A/6PccJM8IFjB2MoRUjSeBuCzoLYk+hgqictR5re6v1ueBLOg6lLx9Zzt2XKhhHRFPgxmQ9FZ51Hb1+xUi3GV+CtswcJVWWohz/mQIm31WYiDhVVRJ4CKCks0MaSQeBswVIS8wfcyftocMjuO2RbKPnOp/UvTjHp8NSCyVpH85p6hf60GyjO/cUuDhW0yXSDp6hRPGoCIk2Pa3TGXO+etiDDFhq25cUeXRcQuZ+P1uxVACz+ai95kIREvLwkgFu+XWxWZBw7+deS3nlAOM20PMYpWK70bIID3f0MJwBo36pRzFF9S9wHe1YOxu/CcEGSVsAW5XBQaXj25DyKNcRHdRYHAVjQeMRY0cHTG24xK6w4WU2jB2UUZwBm5m69UGst8OREtZkw6OYb8qSGyBGrbbSx9hRIXAyHHLiprB41t4npnh46L044mLqNhQqrSuZxejBYCMjgUBdngql0spJIsWJXRj2Vr5xjiX+y+hm6JNEOLXtGxINGVPI+JcNQZs2KfHgiC/MJJ9EcXY0MkJTpxefDfkRLd03+wMg3KM/upAmXtLl
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         si MoiMême < 1 ALORS
+         	MoiMême = 1
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Faux
+        type : 17
+  -
+    name : INT_Stat
+    identifier : 0x2e2c458d02eb33ed
+    internal_properties : BQAAAAUAAAB+D0HsM7KqkCHlNhoKAvHD7NOSWm1N2CaN1ygq6ozT6ehZ4Fs19hvYAW9E1nVjVZu9RfokT8pa7QWiMMoeXI78gYERP9cNEIC+5t1AxOpb+kiKpRKfGUqYVsZ8TMwXCNtoCIi6QZGBr10UpVWCMXdc/D6JTuOMprbXu3oAS+m5auRk6/DUO7y3NkFlONVlykXDNeXc64+KY3kLsslrg4nqBqL6h3jrTIRE674R4dRETHPi6Hka6HfK72qSvg1M6MzXPXjaOdGrihcUTZjh2NI1G0AkraTo+SxWx7Hkedpr/p8aBVKqxs7HjVMYnC/uQnFyQ5xuy462kqamIssQKOCQaqDsts47P74zRzzCY861gHIy8FcxQiBtxDlQn/y5f8/zpj7vaeHp+wmAGCYxYD7/4OPS3w+z6DrwyyyzQVR2oGjuzNtVcKR2VYK+vKCnmLFAMepSrSwvXa6FbCTjk9UqTru3CPb6TjIKzNr60sXYMMldEh5oWv1nYmzc6kujqq3vZlQheXV7L/ZvL3VhUoooI9F0gcVHIDAGvFqrMs4R0dLRnmhW6XgDdKaX++jK82bBuV2/4BGfPTQUBKmdCwK2NKRuEtgn7qB5AGOrfTRdkepJPGtxNx8x757gJG277PBLb2N4Gq4ir4cdbZpTyAQ+1uCrr99ylsfAXnPBxnvfOE+ln89XQlnvsO4jOJjvfuRfaBqcaPiAZpeuZo+1Km7OePhbXoR4QdhBNgNtWlFvG/ZNvwH2a5zxvJQ=
+    options :
+     -
+       internal_properties : BQAAAAUAAABd79Gj3FoVYkCaXZN6MCouPwwjuMeQgzD8NnZSYs4NeQtxbyMX/5bM9WgCMJyW67AjB171XVBv6/3AyLB3TAYIuvwNR2d59YoBrnBvhdP0yumw+D1fpQbLwELqR6v174CU2r1r/atO0w==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : SAI_Arrond
+    identifier : 0x2e2c474a03000384
+    internal_properties : BQAAAAUAAABtHXv9k3VCDNprgzxcQ/4l9v/r/qGorMn0k74MoyWMCxH7oF0uBoTAZfmEx/5MAuZ1Kzi+akcHWD6gsq+xRNxFGT+Xyr8DY+yHeD5hcECnIXEzNF3E0Z6vt195O+h4/pAHqOAIQEfYkzLb76y0L9kKhxPqHtvzi3qNZOTmYLbkU6bFMaK/gSSY5wx17fHgz2wZyx17CS3Ihk/jdBPlTUOhyOmGySiE6QffqUHTl0K8aUmgg9wAFjidfHwi663RTMkdlQ1LA5IF9Xs/B4CNBQcgI4fAvodzqPffGgrvuwPZ1qxD3S6UjnlSG2ro7u749dIoYKHiwDyNAOx5Cwo+eOb1t8sYCTtbXId8kqITOyCyQZoYAGUUR6/cfltAMLHnAugr3+pJTFtm53e9apiFahqsh5ikdGxgNshFL9bMDikARsN8YEXwzL9AgMwJ5hGO4h9D9tb+JLBf46nNqjfQ1IP+wTCIV6JjILqVJHuUUMGmPMxYMTPsT3F40MGnL9csrvcfygrUBJcwMW77CytwybXct3OWNRKzF2e2GoevHWM770OZKy/G7XRmhi6/mh0T8kmBg9ZCYMRPFCV+5gUWO0yL1zjE344VgLvCVTyLcAmr+sygHxGc79/g00Ew9eyskIENLgUc34Khwy4BXP8srNXjhyStfJ4FcpwWXIbNI5uGR7+utqzlv+1Pd7O86kxXzEe7uPqOA6ELWutXZ5n7pWMauQJdW+SkRoanyC1HsY1ErtqfrmnotjWm9QJsSQpSBE9+pjuQp0IP7jBmNW+eJ6VhhQhXHO2qDwdsOUKPVrQvEHF8kw92f5Xwysp30Htr5mox5WORh7Oonl5mSF1tA4kKrSi6Vn2cnPtbjUrfTw8NqZ/23S1yKfXuUYVg2tEIFP/MbOw+7tlry4p3UTyq8R9SoB3Y5UY5m/YUk9JhjIFGGboq2Rqm2KP57oaTi4YL++p0gJdoU9flDyxbbMXAQ6NaWH2RGw+ikk9w4H+UfZTsw8IPbnipMHT1j4ipDuOjxqtosFo5umyL9Kh3BcX6K4NLVcMIEiuiQ9lah9qrT81QJNZx+wbtTEOubP0NDrM9kqEFTkmW5tmMwiUJmwa4rXcLBOmyUBAAt6fgr8efg9Yj6RptWqOcQ+tt37aJmcvAeg==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         si MoiMême < 1 ALORS
+         	MoiMême = 1
+         FIN
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Faux
+        type : 17
+  -
+    name : SAI_Venal
+    identifier : 0x2e2c484c0312ed3a
+    internal_properties : BQAAAAUAAADW/BsWbNbuLf9SBHRWbTwORa4soASmolAU3UwKr5hoRuBmscvyWGcLlsNPE88A5mU4aTQqwv00jWq4AAreCKIYU6BR12HWXocxWAZsN2rQ3vjJwDiNP3MzRi1Urn+8fRLc4/YtZRKKOy5JW4+DEVo63RgJYNO/A/QWgqYb7vrh3nFJBadDl9wNYgSd5bY4YCKvKgY0NeZ6llpAKvRtqrhsXYQor3DDcBOn1T3V5t04QDreF/oVqRMI9QdXPaokGfI44PMWCTzTFj49TBkSi5cJ4HSBhJ2z/38aWxGsKBAk5sJ9yocNlu7ANYnA5xWonvhI8UHpTr1DJvcgxeGUhJn9SxR5FLmxnZ1OOVsDtBZBVt0TyHpEGan8aH0W1rD0EYruy3umvziQIeiVpAvsV4sa/5r5Ytciq9nTZNvPvGWApQvSPR/YvedH1AoIgTEIKW1ekc6T6IolVIVNlGmTjhyB0nhgmui1GKhJJABprMIVkT/I9ENenv5p68DBKC7v87LRu7vwW4yhYGmG8FeWDYGMxyy65yP/urPfxAynwhOBhqL9nOZp1+69fXemlcmGW7Njo8DaAEePRjp2wgEyfLQLRlrl1pAzbPmbUb9TcbFG0XdRYEQBepZTzfeozUmldOrs+G0QKZkbfEHQ3cB4hHcGHEnxUyeegzVSfB7C8rJyW3ul8yAyycP1Xrl2KleDTGBj6EPv5OfosHT+LKZlxTRCW/Q/PQIULlz1IXOamLBM+q21rXPUvtT9dyixK7cR8dDmG+3yJrMx2atwwmX4vHEVGfmHC3pj5dZHM5qQn5iQQuGpQ8spVOvW67ca/HiSk4t0FsyXD33YI4uiDIPMLLdTXxcayuIBnAoUyFUEjqOU6gjDpfQWHzRbQ1dWGss4MuV940EPATw+QvMC8kJ3uTwRYXFLcrLVSD+tHzY41JWwh8tFyAgrPX9m2Ryg51eVavVasQh7iM/U8K650US+/hONOrEppMybfth8Eo+aITS9dr77OKrZ9m9YgdWUSY+DjWY3zV/qEIGlXFZdeY2PGR1MOoguu1I1zGvsVk5tfRFd1V9Ex0fzvZU4gL8tnj0MP6eyRmOjQs/hDheWnh2efBVbv3vp7IkQcMjzxRPOfyX3eObpZCXR
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         BTN_Valider..Grisé = Faux
+        type : 17
+  -
+    name : BTN_compute
+    identifier : 0x2e2c498f0367d41c
+    internal_properties : BQAAAAUAAABzgZ8Gh25ifjzuAcn3s5YNBav5ZDb3j61JsNnT8lw7HhzrkNLKZq/kZH59iteqaBB6YjFPtog5DZvdWK++41ABsM+sOtXiF/s+mtOvKnYH8FDvDG92h5bQtHQ8fL4/BWpDNLcQ9uOL7cw3sZc6JxCcGJZ0H3w6kP9ONlm9FXc9SrlbcBd1PdVxlZJyHA8NuEcpTkHZVgaEj4slAa/0lbO62wxped+mHbp/swtd2hqOQuEKSkp4BAuUCxpPNQ1bhOyyGeDYCsNE0n9zG2mJa0qcWnRdXyRizvzEHB0OlVL7kDvBXWkB0OPHuJIs6TO0gIJyt/DwvNkE9126BOuwll1owmgO/eV3R5iguAo13rL463AL8JBDhcMn3MY5kqmBHHbkE7Y1+pz/86pXku6Oob4jJ3Hqz5qq68EYbtwTkyRHshZa1o21M3YyPY0N8pgJhiRbLrujnpTw59X14euiBexd0UhO+zfHHa3/c4qhv58nz7qX6XSd9hiAPoKJq/jk18xBD1P4x8lkDlkL9I6LnSUEC9mI7JJBvly9MIYDdhZj1d43ToH93ExRXEeZL0LaPjC5KBLzGdgC5xm18KlKJ/Gtxg8+REdj/89ORhEQyRWGXABLzN6SSufRlDpLh9UIr2Jni+KaAYLEFWmkxJ9ZVUjGGSoMLUcgY7sA08uSJoBcqFlGEOFNUX4AH+wb/8VBAreOiJpRrsS1CQSPaSFe1EIH3hVFmsN+ZR/mpQkn0V/tCTZikDvT+IMOSX4msIA7lHRVmSpNzmrZeSsOJ6oDTjvI45CL+bzQcj7Y3l+auC/QiMAunxZ9Hfdng5GYWyuIQrRxOi0lp+tdLmKNZODRbPxDKLC9ov2XuDT020J12+W2uD+S490FTZJKdOqF2Gkg7NMYztDeBTBAznauxhbYFcOwQJM+CkFTGqTMsY6sNasUbAtCK77FA13Ls1+oyOuszfY9sVwc2HtM4KhZw/jwOTsOOPh9TYmBufYGlcVp3te73qZf2aV38tclWRi2UN7F
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // modifications des : prix de vent, marge de produit
+         //calcul  de prix
+         P_price est un monétaire = 1
+         Val_rest est un entier
+         soit Nrc = Faux
+         
+         si grId_categorie <= 0 ALORS
+         	retour
+         FIN
+         Sablier()
+         Nrc = HExécuteRequête(REQ_Select_categorie_IdProduct,hRequêteDéfaut,grId_categorie)
+         si pas Nrc ALORS
+         	HErreurInfo(hErrComplet)
+         FIN
+         pour TOUT REQ_Select_categorie_IdProduct 
+         	P_price = REQ_Select_categorie_IdProduct.Sale_price * SAI_Margin
+         	Val_rest = modulo(P_price, SAI_Arrond)
+         	si Val_rest < SAI_Venal ALORS
+         		P_price = P_price - Val_rest
+         	sinon
+         		P_price = P_price + (SAI_Arrond - Val_rest)
+         	FIN
+         	
+         	Nrc = HExécuteRequête(REQ_Update_categorie_article,hRequêteDéfaut,P_price,SAI_Margin,REQ_Select_categorie_IdProduct.IDArticle)
+         	si pas Nrc ALORS
+         		HErreurInfo(hErrComplet)
+         	FIN
+         	// Mise à jour de la jauge pendant le traitement.
+         	Multitâche()   
+         FIN
+         Sablier(Faux)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : DISP_SansNom1
+    identifier : 0x2e2f0fc80790b3b0
+    internal_properties : BQAAAAUAAADfOXF1nKrzW8JlDEPiPGmim4aN3q6daQf5Ju8KgL0nhZTk7WKqaIPIw0mE089DFcgORJ7lgiLNlZnZuI7WxSIedkICnzqKIeXhwikgnTdb0Ko61zwpBdF3y6R6TEtv0ZMX+szS0zAozu8RSWsTbSAsQm2AKBXUL8XgPimO+DsAjsF2xW9/NamptOfWu+Rh9vH3Tkp7xDn9208LCqioW6+sGIq/5ZlGvVysEr+u+wMfnvpEBAKL3fATVyBGVSoYKJx9IOctC//k1P/K+IyBb18ILO8sthC3qv+wFvUOxP01dNhnYdbHWk/o2VF8mdklWY0ogb1NTcdq6M/zTSnXVslqvywPdH38M+UQvF+AdxaHGppwVfPnf77CcRy45ZiZmscVmZr7wFqkmtPKZZpfQWVlxZhv4CM1TgnEeKVWHbLjUMUUZPhKD3F67p1jRJCkRm3loqSH6vPhHFwvPO7IYTEQI/T3/OBVeRhpJuGqsOmwDaoca0UW7fMEl5ub3u6+CcRGpFAvPhXT511CUQQYPBpN5WMu6ddsn8wuP7DM8WF46xbgUPePkRXFnYjgFluhkpUVcA7smnoN9+yZcCsqzVRyeoW5bEiRIY/YC1kwkBzrcooAnpwY87+wqGrP1deQr3kcauH67G027XzHAPn56eLHgTqFZcotyZ4L38MsRV8AUM+7fnW+NXoBrhVpO51HBuAy5nMs2A==
+    cells :
+     -
+       internal_properties : BQAAAAUAAADg7yV88Us4aLNshRQ1CBXddNWKRkM6wmaSL0BaQChCC3WliAPujxK8d3E4UlNMC/R9KF/NGryBjnXaiEduJFk2ZbhtHjXcBOfNXMcdZgdDZqqO7x2kOgCdfUioSJjjFq7TUHwEI0RVnFC5UQ==
+       controls :
+        -
+          name : BTN_Nouveau
+          identifier : 0x2e2c605e0a0bf5db
+          internal_properties : BQAAAAUAAACTdLTHhvKct8Hujpa1KkFq50z5O6ch5vnsneYSReE3ORDkh1fN6NiWYmuxAYKa90mIImh/KBglBHFk19ZdGg/hfL+XPP7PwKJ1dgK8vl2SUDBoogC61ux5qsA08e19zUzozhb/27mCb0z8xsXhdCzQHJ+2jR3mDpvKKB0Qyl75t3uSapza0yD7oele5/p2odeQkWD78nx3n18KazzNwkr+zPimVCFZ8JpdnNIuLFz+WoV9Emt/OkEyi8J91O9JE5VFD3gE6b0St9DaLJ/w47PJfjJ02sRQGY9KWHLWiPbEDK1SWcXrc0WJhHcdX6mkYLtEx6wqf/8EA3RG/UAnoisqFxuDp8Hll3nV00AvrkY8l4cREMVlsJ0jHcwxtUZIn3n6HYFupUC6Cfw9sfihotG7xb1WqDRK+7H68u1UyWLKuVJK/hRNtK1KKMAH5m+pvoIV1/kaJIzJxQoRw8laT+7emLW/MUlowxSReiCLGtzJ9nTT43lFnz8WPfvmLusFkCr7m3R70E/wS+ZGDSMY0cifNvftGDt8Cnxgm+nllu2Glgj72IMD8fYVSxXdu766N4Dfe/DYRUDkVbBPXkQJ1VAxkIfv6zwKF4epqZ0HV28Zd9tr6ot0FeRlmqDJLmGWyDgNawKAKk7z9Px7DQtkmtWS5FL/tSVQARXStKwOQ9OwJTArt5U8eKau93ztBXyzkE3FCSOxZNbqURH2BBzUJ2rGRaPEFFrAZwE6Zp7zCBAJoefidRDkJTLMxz/ivabqcbin1ViHJwwRJSHULNapufH11ZFgiaPxuP2EVtBp/IK949zJ8vLuY5t9FKBANETXp1UVzY5/w992RnfR0avLuS1lvhZXs1/FYMGv1mMu9ZxSSUg1GFXGAb4JHhJNIU9PxF/yB8v5yd8WdzJ2KQF4KrOFdvfxy8+4pJvxfNAXWxotEs3xdDw7U2qbjoft/5TO6m/qToA/z/DxFlH5
+          type : 4
+          code_elements :
+           internal_properties : BQAAAAUAAADsbNg3Bwbq07WyZo+5tdIpxUTQLb8vq5nyaOo2gVNL3bKuaE2fYbrEiIZB7FeyD/Rn
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               //Exécute le traitement défini dans le modèle
+               ExécuteAncêtre
+              type : 14
+            -
+              code : |1-
+               //Exécute le traitement défini dans le modèle
+               ExécuteAncêtre
+               
+               // nouvelle enregistrement 
+               // Initialisation
+               si gbCheck_update = Vrai ALORS
+               	//2 : Annuler
+               	//1 : Abandonner
+               	SELON Dialogue(<§?1E2C658C015A30EF§>)
+               		// Annuler     Voulez-vous	
+               		 CAS 2
+               			RETOUR
+               		// Abandonner
+               		CAS 1
+               			Init_fields()
+               			GR_All_fields..EnSaisie = Vrai
+               			BTN_Modifier..Visible = Faux
+               	FIN
+               SINON 
+               	Init_fields()
+               	GR_All_fields..EnSaisie = Vrai
+               	BTN_Modifier..Visible = Faux
+               FIN
+               gbIs_news = Vrai
+               BTN_Modifier..Visible = Faux
+               BTN_Valider..Grisé = Vrai
+               BTN_compute..Etat = Grisé
+               DonneFocus(SAI_Name)
+              type : 18
+            -
+              type : 161
+              enabled : false
+           templates :
+            -
+              name : BTN_Nouveau
+              identifier : 0x10a0e0e30aee2b42
+              code_elements :
+               internal_properties : BQAAAAUAAABkNHAfH66CK722Fq/RpTop7UTgXWcfM1nWRA7KbX/PaW7iBCGDRb7MgI5ZlD/aZ0zf
+               type_code : 4
+               p_codes :
+                -
+                  type : 161
+                  enabled : false
+     -
+       internal_properties : BQAAAAUAAACzhTuNn5maEa0uD11QgkHY55vUfJB6VEGpd1pVHb91q+V4xqnhjh14/75kLvEd81/JMmLYgPEQ0KopmA3jbjhTSpqvvigwn6fsRZFj51UQ5X1o9cGzLi93IO3EMC0xJcMg+FCyeq1LEUXeD1Q=
+       controls :
+        -
+          name : BTN_Modifier
+          identifier : 0x2e2c605e0a07f5db
+          internal_properties : BQAAAAUAAAA7rBpHCqG82JJIhk3HDFskrT5fIITy9K2WNfbFV1ySrTDPnrqbxgcNf5fS1pmvBfyrUHapXCpEUSuyHGHec7KK8aQP+jXMmGZgPFHPkgb4UwdpybNWgFfbA9JSIQrXCQT0SZlAfi9gghzTKVr97AJZNodUSBIZipAalZhsQa4twzD+wqSUjDtSdjLPSCB0liSbaEv3OPS9hOgn2/JUIXw6iLSOHr1klDLPmv2VvOQQrWHi3GfDKe03GoGBwTYv3RAibswd7VZxhptKkQkqnAbDtB4Yqb8tkr4VudOLDKo+boNqhUGP5kwQ2WbYryCSvZf1E0ThoYpfUsXtXSZ9LjTLdaDldbJjwUqI/zzCg9piWdEKr8rfU1Hs/2gZgeURjcQ1lF6L/aq+4OwVmebm2l/pY8wQPowqeQCjOAXZRmXQUbrKOoJcIYpDIfBXgXy6W/s41CBZcqTpxbZCnzfzp2+EP8i12dywEkP8dARFLLz5OS25hY/l0vM7BkK2kByIRf87A2TMEQYJAjzDkoTtp20wkes3pQF3bDS5Sbs92CfIwrFj325c/HzED+vFk9JDUpl4tkex/Aw2V5g09si7tfHKI1jy8r8RnjQrmBpCkAV6q3eFkpptZqnIfsjbJV7UulBRcZpwSEg/2ZZhQlaukNxl0dNY7Oi1buCp5Xtv5vDtpLG0CMTjkb2XnE9SN4ey9cVJzcoBUQBGdXSpE2tt/veRhmxRT4GBt9x78iLssWbBEaJtzC8M3VBo8ItGG2GgMg+tA6wxu7DrTHqZMGzWfpKArzUp8ISfnHZ0MmnTA+3OjoKP7/Rz2yLY3Xz8cavoNByAqwZV0bXm7hUftzVtr7813uiK8Qu5XnhFGyixRTM5dlynKUBhuGqMxe1emswasxKImAJSbezQWhEL/huiGE1Pw0qw5DMD9SLEEFmWDn4L44qcBS0NJAwVzEUrOd5cp9zDIIX0HaJPbvlR
+          type : 4
+          code_elements :
+           internal_properties : BQAAAAUAAADsbNg3Bwbq07WyZo+5tdIpxUTQLb8vq5nyaOo2gVNL3bKuaE2fYbrEiIZB7FeyD/Rn
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               //Exécute le traitement défini dans le modèle
+               ExécuteAncêtre
+              type : 14
+            -
+              internal_properties : BQAAAAUAAAAQMnTVSJQXzuhzNHZqnMazchhPsFFbcQo76N61MZ04XNKF8z6Yx6/x2b3npg/GRBYD/HrZ1cbB7QzowzyTAKgauUmnqX5DoOd/PpPfa95S1DTkk0U2Nb8PMvMsFVaxuiTzB0/TAZobE7i/mDgFA//POcqPbIOcMhhmbzyV9j+wBOrDihQa/fAK9FVZ5bnGMw/IsWB9tQ==
+              code : |1-
+               //Exécute le traitement défini dans le modèle
+               ExécuteAncêtre
+               
+               // control des modifications
+               gbCheck_update = Vrai
+               gbIs_news = Faux
+               GR_All_fields..EnSaisie = Vrai
+               BTN_compute..Etat = Vrai
+               DonneFocus(SAI_Name)
+              type : 18
+            -
+              type : 161
+              enabled : false
+           templates :
+            -
+              name : BTN_Modifier
+              identifier : 0x10a0e0e30aec2b42
+              code_elements :
+               internal_properties : BQAAAAUAAABkNHAfH66CK722Fq/RpTop7UTgXWcfM1nWRA7KbX/PaW7iBCGDRb7MgI5ZlD/aZ0zf
+               type_code : 4
+               p_codes :
+                -
+                  type : 161
+                  enabled : false
+     -
+       internal_properties : BQAAAAUAAACzhTuNn5maUJGKfd2OaA1cT+s0AmQiYnNVm5QZu0XdcyVAAvO9LsNKr15WhifbT4udrmLOMZE87TUU7zQI+aV2H+9SEbVbwngzBNwuqIRxRHo5wITYuUIIO7jHQz4Aym6tsafxeq1LEUXeD1Q=
+       controls :
+        -
+          name : BTN_Valider
+          identifier : 0x2e2c605e0a09f5db
+          internal_properties : BQAAAAUAAACrL+7cM6hJ/YqFpH8c+CEhU52Z3gsERy/jbmDYv5NkkBGv6ZHmAwOKfX4nDy3I64p630AT2JZfzzsd5kA83m3sGfUfjLhsxKAcckM9aZMeLAlgufHTF+KKgCd4bUomugt7XpaVyg5yF5kkuivGs9ympk6rTWeYj3KcoWcOCuUNMm5EngCCyBvd6vvGYQhI7ULb6DmMopQQMPocitXJHbT9yhGXn3iXvFvNOYcXFDktzMyO8cS/9vYM7DhMVUT0m3s7Rbt7+PIxepcVEtc32Qx+WuvyDGrNFn5+wW9I9b9jV5UpQuA90nYs2sCu10kokQAt8wgtXJ/Z00n65i0Nft0DRQXe/+pdKZ7w3XnYLRiQdSPRml5l+A7gnsWTFGmeTQFGFfkPiDZu9LrV8TtcJMCA2p/IRtdTo5hhPzZevof+aHsnn9n7zS/T7iEd9otzoRIUtBXglW5CN/pO8rd5X1F2rcfC4pz9by2uoiUPt1sjDpFolUrqdPzah2k9yn4EFeTOAdjY2kGoUUyICzrZoCpiVDmb4AKh2yOLDO8b11V7UthtIzDVzJel08uI+0LbLNEeimnRe7/63ueniffZHZ/OpFTZ6MciV0KpOadaaRBc8gpCyCMwGSQuoo/0T+7b1pvuWic5EsxphShY6yLC0oqVzfKj/Xofohf+do2eZylhMnWorv0+6BxeNJJ6IH0+6nqrhDaiIBcSKpJKzNfWnJ/3net+1xydIvOXDa0kg2g2LztWY4bNrDL7ZVAtZWKjRefCrZmFruHtbxQ4ZcVzdZWGYvc8HLiM76xNd9cAYE5ISR+aiS77OMY1B80yIz0bffgAurYH+FEX+XxJYNmBbXt1hm2/WXlF2bc47U9BoS2AxppRdvQ911DFqDA8KchDI/d5+TzEHUt0hOjv9wMhntQ=
+          type : 4
+          code_elements :
+           internal_properties : BQAAAAUAAADsbNg3Bwbq07WyZo+5tdIpxUTQLb8vq5nyaOo2gVNL3bKuaE2fYbrEiIZB7FeyD/Rn
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               //Exécute le traitement défini dans le modèle
+               ExécuteAncêtre
+              type : 14
+            -
+              code : |1-
+               //Exécute le traitement défini dans le modèle
+               ExécuteAncêtre
+               
+               //Ajout ou modification selon  les contextes
+                si gbIs_news = Vrai ALORS
+                	soit nrc = HExécuteRequête(REQ_Add_categorie,hVérifieIntégrité+hVérifieDoublon,SAI_Name,SAI_Margin,INT_Stat,SAI_Arrond,SAI_Venal,gnID_societe)
+               	si pas nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               	HLitDernier(Category,IDCategory)
+               	grId_categorie = Category.IDCategory
+               	
+               sinon
+               	soit nrc = HExécuteRequête(REQ_Update_catégorie,hVérifieIntégrité+hVérifieDoublon,SAI_Name,SAI_Margin,INT_Stat,SAI_Arrond,SAI_Venal,grId_categorie)
+               	si pas nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               FIN
+               
+               Echo_data_to_sreen()
+               //Echo_data_to_sreen()
+               BTN_Modifier..Visible = Vrai
+               BTN_compute..Etat = Vrai
+               gbCheck_update = Faux
+               gbIs_news = Faux
+               ToastAffiche("Opération réussi ",toastCourt,cvMilieu,chCentre,BleuFoncé)
+              type : 18
+            -
+              type : 161
+              enabled : false
+           templates :
+            -
+              name : BTN_Valider
+              identifier : 0x10a0e0e30aed2b42
+              code_elements :
+               internal_properties : BQAAAAUAAABkNHAfH66CK722Fq/RpTop7UTgXWcfM1nWRA7KbX/PaW7iBCGDRb7MgI5ZlD/aZ0zf
+               type_code : 4
+               p_codes :
+                -
+                  type : 161
+                  enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  internal_properties : BQAAAAUAAABWIHrh1Yb2YcVvIfiiRDSu3aXMOSCmrRDPwCP2jtbUBEGFOv+qg2ayVXoCZujUnWzZv/mop+WO+JtZ1Q==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre(gbIs_news est un booléen, grId_categorie est un entier sur 8 octets)
+      
+      //Is_news : variable pour renseigner un nouvelle enregistrement
+      //check_update : Si le bouton modifier a été Enclenché
+      gbCheck_update est un booléen = Faux
+      // Affichage des données pour la modification avec une requêtes de sélection 
+      // Envoyer les enregistrement sur l'écran
+      //Initialisé les champs pour et passé en mode création
+      SI gbIs_news = Faux ALORS
+      	Echo_data_to_sreen()
+      	GR_All_fields..EnSaisie = Faux
+      SINON
+      	Init_fields()	
+      	BTN_Modifier..Visible = Faux
+      	BTN_compute..Etat = Grisé
+      FIN
+      
+      
+      BTN_Valider..Grisé = Vrai
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      //BTN_Valider
+      //BTN_Modifier
+      //BTN_Nouveau Echo_data_to_sreen
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : Echo_data_to_sreen
+     procedure_id : 2174976493875942564
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Echo_data_to_sreen ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Echo_data_to_sreen()
+      
+      soit nrc = HExécuteRequête(REQ_Select_categorie_id,hRequêteDéfaut,grId_categorie,gnID_societe)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      POUR TOUT REQ_Select_categorie_id
+      	SAI_Name = REQ_Select_categorie_id.Name
+      	SAI_Margin = REQ_Select_categorie_id.Margin
+      	SAI_Arrond = REQ_Select_categorie_id.Arronds
+      	SAI_Venal = REQ_Select_categorie_id.Venal
+      FIN
+     type : 458752
+   -
+     name : Init_fields
+     procedure_id : 2174983876924738593
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // Init_fields ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Init_fields()
+      
+      SAI_Name = ""
+      //A modifier en fonction des paramètre 
+      //	SAI_Margin = setting.Margin
+      //	SAI_Arrond = setting.Arrond
+      //	SAI_Venal = setting..Venal
+      SAI_Margin = 1
+      SAI_Arrond = 100
+      SAI_Venal = 10
+     type : 458752
+  templates :
+   -
+     name : FEN_categorie
+     identifier : 0x10a0e0e30ae72b04
+     code_elements :
+      internal_properties : BQAAAAUAAABgSfOlf8ByGARSu1GfGQgKSGaOXVPyxfRLJNJTWTnQpAwVYNRVmgrdTeSLOM4/lOUvRF5+v+Q=
+      type_code : 1
+      p_codes :
+       -
+         code : |1+
+          
+          
+       -
+         code : |1+
+          
+          
+         type : 34
+       -
+         code : |1+
+          
+          
+         type : 2
+       -
+         code : |1+
+          
+          
+         type : 40
+       -
+         code : |1+
+          
+          
+         type : 234
+       -
+         code : |1+
+          
+          
+         type : 165
+       -
+         code : |1+
+          
+          
+         type : 177
+       -
+         code : |1+
+          
+          
+         type : 180
+       -
+         type : 230
+         enabled : false
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAC7SZM5muGzGc3NMfiaxFke/g8P33MnozJjbNOJw91dE6ueqNX2CyTA5f3FnWsWwZ4kZjx2+FQSzcpdNCZCzeJLanjFzZUbYERT7g9U2QU1Gb4XFFP/rd7DZk3xRvOSWh3zoI91Qw2ssQ==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1e2c443c0017112b
+  internal_properties : BQAAAAUAAACFrAzp/7Q0S84R+ikNeRgtAIFcvdVNEy0l/bgnbB29kPtJH0AWHFq9qw==
+ dialogs :
+  -
+    identifier : 0x1e2c658c015a30ef
+    internal_properties : BQAAAAUAAADj0a9A3ZOgBYyQBp47+NQwNevNYtSALMrhnRjEPzA256e8UA==
+    label :
+     fr-FR : Voulez-vous vraiment abandonner les modifications
+    image : {}
+    default_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Annuler
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Abondonner
+       image : {}
+       value : 1
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

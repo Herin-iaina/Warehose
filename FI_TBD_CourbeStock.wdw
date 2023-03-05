@@ -1,0 +1,261 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TBD_CourbeStock
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TBD_CourbeStock
+ identifier : 0x2f1d061a57e459fe
+ internal_properties : BQAAAAUAAAAsMZCMnQO8QuQWWGIG3nLEL+nBNs2/zXaSxl7I1AnGYdyVtJc/a4Ru93ch/hw6e+umL6i03LWN5Bs+bVic+pxGneWcAbANsn8YEGMOexw6tLxFToFycwjmjQO3du0NwY5LPY8FepLFiC6TJe1Mgs8M8pfAfK+BcowgHgaIm69UdMJbTngrK7Sp6xAj7jJ0S8umQtNMWbTN+WY30KagmGDbZGhTkJSdbHVtWO5J+NJwZL4VaQSxytuBYMPanOsIVdCIOXgUdGkSobH1t4P3QLa6NKd3UToRDPxkMKNUbsCvgDfOS99XGOmQLsb8M2AVIP0uxWK65EifanfXu+Q5PI6j/trqnzJQTYHF2b+B4gop2dAEwk9tMImZH0zrTHau6Maib1HO4xze0GQz5xeatgwH6tVnMcq21ftoZc2hxGUT2GpC9HIKb5SkwVD1R+yCOxdKETWmlZEt5c8In6VoTTBNy/TyzACSeJMmGvY+qLfmwbvSHCCqV4aZ0AS2tBrbTaSrIvefgtisyx/v40uakb5XAq1J+SWVKZ1NBH0untUIkwNU/qdQiQ5r9Q0DHczEA/Kk/L5uFg4Yu+dX4RtV7w/4JIf745p264CbwuJsthXyhvGyeLTjKMEiDnz0wmo0OzSejZ2JdAbLriZfYQDWeBke
+ controls :
+  -
+    name : FI_TBD_CourbeStock
+    identifier : 0x2f1d061a57e559fe
+    internal_properties : BQAAAAUAAAA5pTDzcL2ZvaV9DQ8nDrQbeP0W0xeqSCoHt9VO4LfZE0F+DEqQXyjbdIWYhdXdJsEfTapfcO1GQaHMV4f3JU6iLfMvb5lOWzrLefpZf5Dgd/mqMeox8s6B9RwNXTC3Q4Yz8A1iMgeg3SaGjFHxzzTcXCqjRdnDaqsXAlQaH2dy2VcP9/eTF4r833ewuMmTWtJijlJ6Vjv9JV1Ni8OIB+k0VobPWlWCIVKKb2HLgfbqzBkhH/AIF8rEU6u/440hak+8OETf81ZyRJCkACAo8Raxa+kiCVMlomyiPHwcksP7XgY9vfHOvHKNxM//YAJ7L8KEJ7tfxBrlUssFe+GRh2VywKGeYmZGWAwINoJ5e6MBy2kcYZYpJWx+/fVzlHLECGirgkFY/JueeRpLgDtDxErmEArhOp3QmgeIdFFCbUhTs/g2XJDl84VL107a2KVIOTyh8cvOip2Dj7YoMA==
+    controls :
+     -
+       name : GRF_courbe
+       identifier : 0x2f1ebc6961daaf0f
+       internal_properties : BQAAAAUAAABWNSmD8goxihDSargMTOqD4dCCRNCwed63frj/c+1hqBmQ+8vGGk0TxRA8YNRedKGGyAwK1efzhFDuT4aVvA7F97y+wfSASkCOijR85tgDkkHy/QDLj1heLCnV2Dw/yo9uSKVseMGsk9WHxm7Z8Y2NaFcxYCZyuBS/RZXz89AbSyJ3XT+tnHGDuxO7hif5NzUJEoPAGA7vx+Y5xnf65rfvkxvhiMK869LHzzs1xEcHiRVMYwoM1CjnuYNRaAVyyPFzZUn1obHUy9kEQ9iW4H6hqQsoju0778y8/ORfmGpDQYIYiOJcctHRlsh/z4Ec7NGutlA6ozD+tDlYDuvfRYNRy/4i9UxPaqbdwxLKLlpWez0iWecrlA/yaYTQBb+cnnpgJjXDeqJwHK2iQEpscL4W9nEYeJbsMimgY1O6iX+q842tDbEfs/j5vOj45Tkpbg9TSgH7OKh2PMb1+OJ26ZC/M7N+kMo9rKMGOvKwZ/29Z3U1CRPkJw4iLsf+4ArFgW+v+lu5cNIxXa3sxb+8eSQYr1gw8+IhMoCcGBT1gSXk8Ml5OUnMjDjCz0VxQJVZ1fuXyV4ARPrs+5npWQoO3fDl6nd3PaapvZXSByeQk9FkpQr58pz6mf57IoA1W0+RrSMIFi2FkDmxI72K5hfO6efrlUlr6QxHdGrrGX4q+ioK8VvqEZaN+MSSFpc2H4a/Afk6ZWs9vj5NCxNkPQU623iana0C7SVpDvwmJIZejmZdXdwPn0SctOoxPWeasUBshsRT8HdB2jyyKDbG7dNljgJ4jjlCyqKVMoxAZOn21Dg9GmtQM4Aqx2lCicqric2E43YtmuihxUgcd7RAvOdNbCfYCha3UCnymbb3G5jXbtcW0MqirDBfGqrn+J/css53SS8QqCYWQEOmM2G+5GZkTobhQXGNVUuHPpPhgR74+wEolSJdfEbjrTInPlPl1xGFy8GtKpLtVK6bIxpWbs9DE2qdzK9GWRENnSU0ntlC76G/dIShfktVK/G7+GGVk2POrVwQ3C6PkzeqfMPadBVO0VPWJO2IHNOVaS/58Rd5NHlKMxe+26fOxyXS4RCqhxSPyF/3DD+d39T8+AhPharVq0G96y3CrDkMzMHDRy/uKf3V4Oiu2eq8jhmQ/bRRy35JVTadokt6Y7PISDvXlH7V4KtDnp+Z0+r31flmngt8Eecp372OWxfAblu+CeVxjlzjkzuJ9o7t7n4wpJtwqU+2BxB+SEWWC9sslNJXYcih5WFWETxHmwzZDxbjlbuqS6g9ZVcxPvw8ChMzhMfykQFY6OH3wyMWkTx1Z2tmZRm0KVeOwnj1FU6H9bcMH/MhcxPiUxZT2bFsYb6emLffZfIe7NEE2IaGSi5K9WnNTmre8bYCLaZW1A==
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : LIB_Statistique_des_articles
+       identifier : 0x2f1ebdbe61e490b2
+       internal_properties : BQAAAAUAAAAw23Gbe3Q5zbi+2FA+lpWNzfbuJoYeNjQdVXb2z9yl3QSGiJbJpcoeNKh9eS23sAt7HlfcgBN33GXM80gBqwCl9VhtRwu+TR7a9vDOOL4lYgwQbiqiVqqk50x8r1os0VYOaTSntqKLqA6E/bQLU+IS4OJu/cL1gYxXBkYf/m4QXWEsSsbGyllUXC3kljUwkCI8NzOLaN9RS6iX8YshTix5oaeT4MHLEuzaYO40EfBCdP5LoZlq68rJxJ68PozHFbZ3MRAPmQwrDuSRalAeJ+5HtLZOmMn9Q17Eyavsf+etyFGzcyqXJJhSr2xW13rmudt6aWuhgh/V8zj3NIPGQV2TVpaWXItnTraQ0lMo8VJMXqTRNIBlNxaDbcxABTGCp5U1vIuPjD5RVb1uL7TH0Q17puIqleVpuaHXdfTnLwJ4SgOKeX8MEEuor20uugBYHlOQfvPMGOo91NZo7LKiMgFyzS78YcJtwVAMBwJXdDGexGPVzqQvFmqLwWzDwDB+USU0
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1-
+         PROCÉDURE INTERNE Actualiser()
+         //	 tabMoisMov est un tableau d'entiers
+          	sqlTotalMoveMM est une requête SQL = 
+         [
+         	select <§cs:3§>
+         	SUM(Stock_move.Qantity) AS ttlMov<§cs:3§>
+         	from<§cs:3§>
+         	Warehouse<§cs:3§>
+         	LEFT join Stock_move<§cs:3§>
+         	on Warehouse.IDWarehouse = Stock_move.IDSource<§cs:3§>
+         	where<§cs:3§>
+         	Warehouse.IDSociety = {IDSociete}<§cs:3§>
+         	and<§cs:3§>
+         	Stock_move.date_move BETWEEN {AAMM} AND {AAAAMM}<§cs:3§>
+         	and<§cs:3§>
+         	Stock_move.IDStockInventory = 0<§cs:3§>
+         	and<§cs:3§>
+         	Stock_move.IDTransfert_internal = 0<§cs:3§>
+         	and<§cs:3§>
+         	Stock_move.IDConsommation = 0<§cs:3§>
+         	AND<§cs:3§>
+         	Stock_move.Ref_move <> 'Ajustement de stock'<§cs:3§>
+         	and<§cs:3§>
+         	Warehouse.Type_Empacement = 1<§cs:3§>
+         ]
+         
+         sqlAjust est une requête SQL = 
+         [
+         		SELECT <§cs:3§>
+         		SUM(abs(Stock_move.Ecart)) AS ttlMov<§cs:3§>
+         		FROM<§cs:3§>
+         		Warehouse<§cs:3§>
+         		LEFT JOIN Stock_move<§cs:3§>
+         		ON Warehouse.IDWarehouse = Stock_move.IDSource<§cs:3§>
+         		WHERE<§cs:3§>
+         		Warehouse.IDSociety = {IDSociete}<§cs:3§>
+         		AND<§cs:3§>
+         		Stock_move.date_move BETWEEN {AAMM} AND {AAAAMM}<§cs:3§>
+         		and<§cs:3§>
+         		Stock_move.Ref_move <> 'Ajustement de stock'<§cs:3§>
+         		AND<§cs:3§>
+         		Warehouse.Type_Empacement = 1<§cs:3§>
+         ]
+         //	sqlWarehouse est une requête SQL = 
+         //	[
+         //	SELECT 
+         //	Warehouse.Name AS name_
+         //	FROM
+         //	Warehouse
+         //	WHERE
+         //	Warehouse.IDSociety = {IDSociete}
+         //	AND
+         //	Warehouse.Type_Empacement = 1
+         //	ORDER BY Warehouse.Name ASC
+         //	]
+         
+         sqlInvMv est une requête SQL = 
+         [
+         	SELECT <§cs:3§>
+         	SUM(abs(Stock_move.Ecart)) AS ttlMov<§cs:3§>
+         	FROM<§cs:3§>
+         	Stock_move<§cs:3§>
+         	INNER JOIN StockInventory<§cs:3§>
+         	ON Stock_move.IDStockInventory = StockInventory.IDStockInventory<§cs:3§>
+         	WHERE<§cs:3§>
+         	StockInventory.IDSociety = {IDSociete}<§cs:3§>
+         	and<§cs:3§>
+         	Stock_move.date_move BETWEEN {AAMM} AND {AAAAMM}<§cs:3§>
+         ]
+         	
+         	sqlTotalMoveconso est une requête SQL = 
+         	[
+         	SELECT <§cs:3§>
+         	SUM(Stock_move.Qantity) AS ttlMov<§cs:3§>
+         	FROM<§cs:3§>
+         	Stock_move<§cs:3§>
+         	INNER JOIN Consommation<§cs:3§>
+         	ON Stock_move.IDConsommation = Consommation.IDConsommation<§cs:3§>
+         	WHERE<§cs:3§>
+         	Consommation.IDSociety = {IDSociete}<§cs:3§>
+         	AND<§cs:3§>
+         	date_move BETWEEN {AAMM} AND {AAAAMM}<§cs:3§>
+         	]
+         	
+         	sqlTotalMoveTransfert est une requête SQL = 
+         	[
+         	SELECT <§cs:3§>
+         	SUM(Stock_move.Qantity) AS ttlMov<§cs:3§>
+         	FROM<§cs:3§>
+         	Stock_move<§cs:3§>
+         	INNER JOIN Transfert_internal<§cs:3§>
+         	ON Stock_move.IDTransfert_internal = Transfert_internal.IDTransfert_internal<§cs:3§>
+         	WHERE<§cs:3§>
+         	Transfert_internal.IDSociety = {IDSociete}<§cs:3§>
+         	and <§cs:3§>
+         	Stock_move.Ecart > 0<§cs:3§>
+         	AND<§cs:3§>
+         	Stock_move.date_move BETWEEN {AAMM} AND {AAAAMM}<§cs:3§>
+         	]
+         	GRF_courbe.SupprimeTout()
+         	
+         	sqlTotalMoveMM.IDSociete		= gnID_societe
+         	sqlTotalMoveconso.IDSociete		= gnID_societe
+         	sqlTotalMoveTransfert.IDSociete	= gnID_societe
+         	sqlInvMv.IDSociete				= gnID_societe
+         	sqlAjust.IDSociete				= gnID_societe
+         	
+          	dAteAAMM, dAteAAAAMM sont des dateheures
+          	
+         	 pour i = 1 a 12
+         			dAteAAMM	= PremierJourDuMois(AnnéeEnCours(),i)
+         			dAteAAAAMM	= (i < 12 ? PremierJourDuMois(AnnéeEnCours(),i+1) sinon PremierJourDeLAnnée(AnnéeEnCours()+1))
+         	 	 	
+         	 	soit nQtTTLMv = 0
+         		// total de tout les mouvements vente
+         		sqlTotalMoveMM.AAMM		= dAteAAMM
+         		sqlTotalMoveMM.AAAAMM	= dAteAAAAMM
+         		HExécuteRequêteSQL(sqlTotalMoveMM)
+         		POUR TOUT sqlTotalMoveMM 
+         			nQtTTLMv += sqlTotalMoveMM.ttlMov
+         			grAjouteDonnée(GRF_courbe,1,i,sqlTotalMoveMM.ttlMov)
+         		FIN
+         		HLibèreRequête(sqlTotalMoveMM)
+         	 	
+         	 	// total consommation		
+         		sqlTotalMoveconso.AAMM		= dAteAAMM
+         		sqlTotalMoveconso.AAAAMM	= dAteAAAAMM
+         		HExécuteRequêteSQL(sqlTotalMoveconso)
+         		POUR TOUT sqlTotalMoveconso 
+         			nQtTTLMv += sqlTotalMoveconso.ttlMov
+         			grAjouteDonnée(GRF_courbe,2,i,sqlTotalMoveconso.ttlMov)
+         		FIN
+         		HLibèreRequête(sqlTotalMoveconso)
+         		
+         		// total transfert		
+         		sqlTotalMoveTransfert.AAMM		= dAteAAMM
+         		sqlTotalMoveTransfert.AAAAMM	= dAteAAAAMM
+         		HExécuteRequêteSQL(sqlTotalMoveTransfert)
+         		POUR TOUT sqlTotalMoveTransfert 
+         			nQtTTLMv += sqlTotalMoveTransfert.ttlMov
+         			grAjouteDonnée(GRF_courbe,3,i,sqlTotalMoveTransfert.ttlMov)			
+         		FIN
+         		HLibèreRequête(sqlTotalMoveTransfert)
+         		
+         		// total inventaire
+         		sqlInvMv.AAMM		= dAteAAMM
+         		sqlInvMv.AAAAMM		= dAteAAAAMM
+         		HExécuteRequêteSQL(sqlInvMv)
+         		POUR TOUT sqlInvMv 
+         			nQtTTLMv += sqlInvMv.ttlMov
+         			grAjouteDonnée(GRF_courbe,4,i,sqlInvMv.ttlMov)			
+         		FIN
+         		HLibèreRequête(sqlInvMv)
+         		
+         		// total Ajustement
+         		sqlAjust.AAMM		= dAteAAMM
+         		sqlAjust.AAAAMM		= dAteAAAAMM
+         		HExécuteRequêteSQL(sqlAjust)
+         		POUR TOUT sqlAjust 
+         			nQtTTLMv += sqlAjust.ttlMov
+         			grAjouteDonnée(GRF_courbe,5,i,sqlAjust.ttlMov)			
+         		FIN
+         		HLibèreRequête(sqlAjust) 
+         		
+         		grAjouteDonnée(GRF_courbe,6,i,nQtTTLMv)	
+         		
+         		
+         	 	grEtiquetteCatégorie(GRF_courbe,i,NuméroDeMoisVersLettre(dAteAAMM..Mois))
+         	 fin
+         	
+         	grTypeSérie(GRF_courbe, 1, grCourbe)
+         	grTypeSérie(GRF_courbe, 2, grAire)
+         	grTypeSérie(GRF_courbe, 3, grHisto)
+         	grTypeSérie(GRF_courbe, 4, grCourbe)
+         	grTypeSérie(GRF_courbe, 5, grCourbe)
+         	grTypeSérie(GRF_courbe, 6, grCourbe)
+         	grEtiquetteSérie(GRF_courbe,1,"Qté total  des ventes 		")
+         	grEtiquetteSérie(GRF_courbe,2,"Qté total  des consommations	")
+         	grEtiquetteSérie(GRF_courbe,3,"Qté total  des Transferts	")
+         	grEtiquetteSérie(GRF_courbe,4,"Qté total  des écart d'inventaire")
+         	grEtiquetteSérie(GRF_courbe,5,"Qté total  des ajustements	")
+         	grEtiquetteSérie(GRF_courbe,6,"Qté total  des mouvements	")
+         FIN
+         
+         Actualiser()
+        type : 14
+      -
+        code : |1+
+         grEpaisseurTrait(GRF_courbe, grToutesSéries, 3)
+         grDessine(GRF_courbe)	
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x2f1d05f157e1ef9c
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1f1d05f115f6ef9c
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

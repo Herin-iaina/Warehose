@@ -1,0 +1,355 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Param_outlook
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Param_outlook
+ identifier : 0x2e8878db026067b4
+ internal_properties : BQAAAAUAAAAJRnVNywbSsH/O9Ka3Cnsj41lvAdAOjIkDo+Taw98XEFodH+K2k3XFJy4wsCmOwIuDLzMap9jxvh3hPr4sxIowdc4z55+9ThacBQaKcPjQybDwlGqDwpsWS660WbRpMwn+Ue9Ug1JjfuKKVsnhkE/8wFKW1v9rb8CwOd7vFeG7OwtCsFy8k1ySPDy0WKYdUga67drQ0arLO5nkCdMZgzs4e22LAAuDYswNK3CTUWEPZPFSFvon/Q7EjCcfIBZT4JLu/FSsEjW2F/78ibyxlFP7H+WPdO+EZ2ZbJH1v9+5RpGygrwk9dg1kjANpca4o0uE0BDYV/efoqmVXAkL2wlRCbzpXbTYLBSlOyGwyVY7yRfFLrxOKLJdPMbRjutwv4ZngjOPDTcbiArJq9USnefDgBCy570SfYSEanTVgly0jYQ1PRhkHfb4EZcTDdk4bPNMh4Mv8+XOFdzPQhPT4Mx7l/71rI7t/p+hLS/lAXxUypPPBP5qFbK9u+gQvCyXBATZsqXT1xO85+cqYEMLwPR17jeQuzFJxsiDpaKuDZFR/PdGprf618krWRdJ06zKhuhy6vgHe07L/jsPFqFBftNzET75O7lH2tp3uHFOEhLF77FTqFKkcZNBQfYIUgWF+WVGj9jLdhomP6ASlYaQsP7ocsgy2TbAnXiwLAZfYqeOhlrgRbX/4u+121yDo
+ controls :
+  -
+    name : SPLIT_model
+    identifier : 0x2e8878db026167b4
+    internal_properties : BQAAAAUAAABflJixPH8MOb6MS0Xyg+hfnQmcc3KppPmaDHMiQDoGRA4xtIt0AkuwZHm1+TStJpZWAAaKUb3npWxOKrivFMew9UDXSngukXFK4ZYmejGdBq5Bde09YG4D86iWeXTVa6+1o/rZ+rtVnKJt2T5nEL3367kZCo2YnUVx/6YZJqtX3xyy9HoJC64CQvaPNVwCpnIYfgKtUgLZyrAXUrt0WucqXgQUr8wUZiugmpEjh4dK+DE2Qnq6VZAS9+g0dNYiRV+PT5YvBkCi25kB2GjuQADurWVKxC48330w1yrcESwlROv4Eockhp9U3sYP22RPQcjfCT3EfCxYy/Xgey2VRxdOEYagYJXZMpuNYE4FoLBbGLJ+LIow4f+czTLHo2pVdYl7LICPBFf4k29qvETopxRZ48TsvreLDXKwow2eTlLyTnkStM+/kcHXSzkzd+NeIKsnUvo27LaFKzlNcMYa2haEcLt1BQz4UoxaQ+EKzjKSZ9k3QFEzBDBruRm9C+tC9KBe4ymKRb8r6Jj4WkK9xJfNMsY=
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : IMG_SansNom1
+    identifier : 0x2e88791a027b5dcc
+    internal_properties : BQAAAAUAAACkgj/2Qits5XSSzt6ZVwNAYA3423z1drw6SoJlehLb2gHNc7R6rrQXADiZYEo9McTCQQnXtaVdxq4whnUngMaF3o9MqVM9f+Mjv8o7UPN5R+ObDQ0FW24ANEWl4FNGLW7+QS99IlVycLmGR5K05FEdsymzDctW/6X0xqdNXgIxVuVuHU8tww7kMc3arzrdBKPcSE/uhGRBoE8eJPs/YGvIeZJ5ghZ4olUdftRQq2Dj+XiW1UwxaIrQP5j35eogkoPZnpwgeNBFokWfJZdN2HFD5Gpd/19FDoTOIJuymvXGeb9e+/V5XMJnkDEdc4EzJkXqkh5K9jHOmCKd26H0T9ozM2dSnrFoyJQ5vjtkJT37XYnp6hKFhm1KwBMrnvg3IJ0yV3f91nbMlcfARw4eWNuvRRPx7Z+TWSmRxu66lSq+Q5ePpM6sKePc8Ffd9yh8XNwQdarFIXpUN553JBjntQyW9sRyHHLEJKPxOvOOHMnA78Z5Hep0kBzt7fthsdBv8ah0UpcUWHV/mZ7uzGdTwCx4w4y21/bzTpq9tFiigeuICHFhhtk4jJHjbvcGL3DpVo4wQeNR9QMZmiDuTAcW1uvbcdKiOnrtPZLv416lZNk/Wdau9myCHcMISEpM07zzyG8dHRUO3ZrfG+dLzB018SQjLTsr3+HGe7dW8zFru/RQ4PI2I13S85s3989PpjhrwLTlKgs+TcbD7BCn9NC+iGxCH+DSOjMldYsUvBa95wj/k13DBZ6JYBIFhTa6vUly55XBRrXSR53RnbwTvTaQxVR7lMoim4/Wqv+gqnsoDzcW11m41SZT1CMxbFoaEnM3j7A1lvnzkAV4ulr7Sdg8FBclTxS5mKXWLEd5p6M=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_Sélection_d_un_profil
+    identifier : 0x2e887ac702c0eaad
+    internal_properties : BQAAAAUAAAAxCGHqFkbAABwf36BRrb8cyCRJpgipmP70/FGA3TkmUctSnQdoNtNXxwnl1S+nxfsYZ5vXCdRTL8gqComXae3FE9rnPiv70tX+delgBa9bDrmLa4m5aGviT66SECNl2sqeQx+1VXRoeFa2edK7EYhkFE4ugjv4+gyRLJBeLv70Fur4FLFOK21vzfW9Jngs1wcJ5AZUAPCsq7FDuOQRYDImc73Ea1g65ho/femkQ0C4mZPPEaqFUTPb7p30vuqqnWyljql7FJ0LoctH5GDlVRnPg9OuxhuYIWBz1MZdgGdZ17Z/x3SuMPruCmCeo/Ip0HkcN3pXxzF7isPTmOPgcbv3lkpnYmoDgGhwcn4wNydO4Xj+wbCozsI3czEibbsOx2dpSknoNyBX8pISUl3aoKJO9QiZ62TX0jsU2Ikwp6oo0a+wrAfWJ+9/JT25Vgo8Rg==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : COMBO_Agd_outlook
+    identifier : 0x2e887b2f02f97f47
+    internal_properties : BQAAAAUAAABR0uxfTDacX87KnMwSD86yeT+KJJBgjL4qhNR+nal+9sHcVkzpNbCUm61SGzHHvfT9cRqzBikQSXs+y8W3UQhtR0IBQiUqEhJnUeJVWSvnjPsYRul7GmXEECk596V7gJuZIzuPuaX9YNEAgyRWcrgZESvjF6VnALzXJwtoZUELskQOWLGJIcfZSY8cyHJwjQ5ENu8oybsvuuGIuwWaD/gKDiR6C2WaB7Az4B1cS0NcyuBJ/dGzVEBqauAKie8E5ssgXNTt2BpBjhMy7YbxioAnq+lGKv1hdkyUgHxAC+dsO7Q1rPejAWSGah2ENXQ4JplykwylglzJCHXqPc4fo2kO+dMZzs8SA8Nqkwo9nhwoDCbL6utj/OLpnyL0pmKVsIw+tyOR5ZspfIwcnXGHnioFF0QoSQjfSqyE+AQzko4noWC0YO8EqQrXWc2wJZkxrI70nhwic+fo6Y0XXhEEgM4kcjlTlJuFrEAxB++mxkeVl2W15XnsVS0k7CEkReX773n9huZYuut5NtDO3ZaXssVgfVcWkbqbnjEmh4xGeJTivQ5/mHoK2RPVawlUtlfWf1ZLfnDuYPbE/n3+OjtlgJaj91aQOhwQtpD87q1CIgcEd6XvzeuRqss+TuQMKAbBcczPOnn8bFESlt0823955XYKG6FnH0kfEvyQUibj8bkMlO4edlYEZrKBq7jIrO3095S7Mo+k0UxIZwxw0zVeou2z1ExgeJhTXsexPygYjSyIRp/Jclm6tKCq+z0a8bkXjIGMoe8Ey8S4PLT/8PnQ9CR/5BBlDjzqDXaxk8k3p24j24OkjkY7JgzXMhx+mFzpREIMz/sSs7MOYRp+0jRAGrBaE0cI921PAYmrmh/o2PUhDbTPmBEHmJ75nJ1ap1K7IRF/M00szmiwX3SaNl9VxegAYwzOqiynf0rAGin9gedqeyxZQgbgSRFVCOR17x5WV+HJpO1YQgm9wBxkzlFG+lOsbN7CvnzU/87EPhU4tRJZNDSJrByULoqlXBOpQ22X3uU4RCfkm+q7Lykyr09hZ54Mn0DNkEa8i8ewCpb2oOvndBKwqdyHJxD4+uy0W0ZdD6fOvz+hAS5pHqmDrQpRNi/JOc9Z5SfXvqeFUGTs/pE/Zy08sBe1rz4wFPc8GLG1DmepBwaNyrqZUlkW0rlNx5BqqCm6c7pkmqBX3pNzN8a4vcJskDRAgFV6Lk4WRx4LN8AF/D2PChDvN373enry5bb6y8gwkasgCTpSTtIyepxvZePJjjb5GUCA1E6COjBanCPlwJl+83YufgSE4oclo4NUw2NXolIvz8Z46D7/BJXOO5di8d2e88Pa1iTw7mvReKNXHXwYqeK7C4x65uPg0T/oEZOlYBMJULxZ+xJb22bR43QnC/tTngSoDtGFTPQfR38cBRRXJj3EHwi+xCOgoMT1KGM+jZNIvOQQL6VcTeQWs3kMruPM5UuKsMomtMnfKtgRDtK7bQrv5wMopdow4EvuYtmEsZzAbvPZ
+    dropdown :
+     internal_properties : BQAAAAUAAAAjIeO+B92JocwOKAE+y1J7g4//6x+R1hSIp36nPGiG8lM8TY799Zsr6G8kktAtpqjOraBquSO1SP3n2xzWSpGuXg1rQZx0rf7q4kdY7zB+fb3yWBa6dmNTeYJDLBKWMpln2DNZypa4+glPHchA+aceo/Pvun4cTvnMWOUG+M/ZwdE4hsmZXrZyluPF6DOaIJ51AWLdE02qk4VsUd8Tdf8nhXxKWIFRdChKAPtywVCSPTTGy5E7yy5ZjnZBAnjrMvfxaTqddUzaXS5WU3YBLi2qXcGx2qNNu11wlnYtJhnymTeazYhR3dpSGlxIJu51k7q21vtB6otTY4HOu5lDuAkiQ5s6RSh4pyXNFYN2YgZxVH/rWXTXPglX8YwB5bY+rtcaokWC1isnUeIg1xOfDBiz9i/WnrOTW74Bg7PspBn6LfuHAaN19X3m6OV/0tCW5+YbYqr0jWV+o/wz0U9TeDx1lIGa/uD9IcsBXTtxMQaz+HtY/ALr13ixXZj/uXE1NR5NmMzrnWUAbLM2BKi7hs51/tZzk3ROSaaLxpTSrteuLcVEwTGk1X1pgwQZgZg+hS2JdSaSY9dvL/UONs1K3ucEFJoUMvpSYsmz6rZN0vGAYZ53q42laf8IgPf9PE1Yr8NRc48YJVPxmCuIS5VYJGMnbkhlj37EXinbI1taOoAHxt3Qj38xAWZpzLIA5Z+KzA8=
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         SI COMBO_Agd_outlook..ValeurMémorisée <> "" ALORS
+         	
+         	// Active le bouton OK
+         	ChampActif(BTN_Valider, animFondu)
+         SINON
+         	
+         	// Désactive le bouton OK
+         	ListeSelectPlus(COMBO_Agd_outlook, 1)
+         	ChampGrisé(BTN_Valider, animFondu)
+         	ComboOuvre(COMBO_Agd_outlook)
+         FIN
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : DISP_SansNom1
+    identifier : 0x2e88ac8c0320535b
+    internal_properties : BQAAAAUAAADyLgrtKzFhrwiMQ8zV37nHbrTst+JSuyT8CcQp/Jxcmrot6KrGwyfOzfHlkH+jDSkMNkwnhVZmBjqmqrDLa662iA4dUI+UIdchrGR5eLNCidnLdDb0mcdRmy3huANrzJucqhbc/xFDgOUIm5AgnZHOkM3Su3wZzqoKMWsOXOKksjEPUlef1RxwF9ffNGZ8G6TIOa64sANj592EjYbxlc+cdyOC+jEUx9JdBaspNliKxvkMZfnDlSSlclVcWNbCe7Xv8TeohyNtkkLykyfvsgMVo1yyllpynA+PiRs9BO8V6UyMP3/HLnbnpXpLAl+EgjoV1lIgUsoQPdsQPfXbCoAfn9qoD2ybawt9xSEPBiZOXPrAfnx4E3o3Y9OYNp0bQ+uDBTcso0xSh/3x5SGS12zHBc7eX6ZzIEaecYdNwozuIKcWK1erEZ8x5uI5Xz2mXTOlTL/Wmd9lh1ryvnMf+0SIFV5EzQeZNWEpExETZ4E7daQsXgSF6cepcT4xdz0EoIgMSvkEJ71bZI+R/0UZ0OGf/ZXZYI4aQQeM/kSf+MW9JRbCUQCACU3amVl0k2oXhxt1vtV/Aw6pyLra7D7jecuA7lFIAyPN4bkGJ3Sc/AacR2Gvu8WIL2TSEMO5e2FPywmvBMp+etYda9cB9R4qyqe00GI6qNV3PR0NAoRQAigSAhPb4PGBJ82RANEiktB68+HnYw==
+    cells :
+     -
+       internal_properties : BQAAAAUAAAA2MYvOJxnuDs0ymzqTplf7gq/guAGgoORMKa1PZ78dsHZCdY7NBptdjNgju34f7ou2YYQETWTBUBsMNJcOkvPMk+Q7Lm0SLgvRlLEtdhV9bMSA0ZM6HM7zn1KyBnI5uMzxdhrmTRIn7uYPJw==
+       controls :
+        -
+          name : BTN_Nouveau
+          identifier : 0x2e8878db026467b4
+          internal_properties : BQAAAAUAAAAG21ZizO8bNURf9Dn11NuQ0rMlydL3MOMY9cQpcd5UDlsWx4YSFJq4Y63+35HeJbfBOJaht7d0+qbN8RIRt8AXhD0ygemo7pY9guCHQ7knPsIxrvz6r0Ljp0LAfekhJd/gdcq4pGf5ZprY059ZZb0n3H6YTsrtp9yrlrDVY2hrq/hocQZWYqU7f8tONGYY/56RaUUoxvjTqyj53xZLoa4pRUd7n8DVGjHUiGRVnbXe3PhFNFOFDYXo5ZMcTnq1yMkMUZjFJclVItqaCL0NJJm27Jcf9o9YUPnh7CRV0gQ1yYJHWCLQozdT5YDkbJkPlGnbJYNHSysnQGk7BEQlUD8bzu+4KuLDu/bYl2OvLQi9SmvZEyMQROgw94Y/lzo+O6k2OZoznKS5kJ6KpC+akYQOgPT1XbdMt/A8rL3PKMfTEhcuS1slt/ULNjF5m9GHUKuLwAr2PqKuU1fSd1bzkCMLLQtY+hqjrn/gLC9/L6JmZ3XVBMkwXb8+NNcLsKpXrApY5A4nb2TUp5PWBKYPOdedoakX29X4W96L7H1SU9CBxkx/oR+NSsJIYAM7bIIgyysrdFriQ+j//1x564YSrcIoKvpVibqL24DWhfh/oozFqzb+bTT7M+HIA7ksIJV6RQqQ9gPPmwqIxdWQEbi55muqvjM1wLoABiQ+IRSxBvShBcEY9fWguTGs/fv2UMrP4k3w0LysliYzQ7iEyOBTYBWUT0En3HULovKqUWKttrNk1+dMj7u7dK1U/vfXb5PjitG0Zmmnnw==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAADMpGj+DOqLqAx9Rt73UYoRDHaNKQkzccKgSgrpK22xV80Y9vtBTr8KB2ZWHucr809bhhbq6cmcUaFwv1IqJ/OIgWXAT995yF5VDhq80uqXdowjmKKY+WA24/CDvbY4GDBv49PDSZ46fvYPMGs=
+       controls :
+        -
+          name : BTN_Modifier
+          identifier : 0x2e8878db026267b4
+          internal_properties : BQAAAAUAAADwJCfek+0NqClpQWPfIigrZLsAomkQte1bFr3pJS7tm58dpeh3btN88/UIAO72keblqwEaiKemiw372Id1tQ7dDFW/RuVFLE+JKaWc33dxdSG4ZZIZIXgyFwLggGqbYhGoPMM+sgZxJKumgzs2ZXoXAWfIncYsamavsSMwWLux+9ZtYFYZoBBWLEQZIXIN4Wv8uKCdk7wf7Cj7LMIQVXvM/WqdxWSpZoeYGUsaU5JiO4BafFOfbqoFI5ZR5LhAhBDrxF5Hyvt9UYudkMczQ45Tt+RVQkUBHkbDni4rg6htObVe/gxWMci26BhBoep3b+K5qKDBhj9yw4Bgg4L9sH2h2gR1KQOwFb5aDgBTduxHd7nGjkRxcFPAIi+O/q3F52B9QNK5Y8EKFUiQotsvUP50cevTMiw/KBfcOxAqEiibCpALIM1wtLNcd0ck60gCdV+vBtKB6CaJmTobydUtt+FxMImw65UIllwYryCEn+F51QFjmteReHggebGLmklauY8gDU/gITLDB0XfthHGLeGQIynOfCynyqXJ3Qzx9l8k9cSog8YfQHCq3marjFh55aws+W5ZHUO4EbucmwEvXUkzLrwHSFtNM7uTKyt8EO6vQ7iJ1FNxVdP5/ObQ6RbyuMNnkoEsGXgG2IY8ow6NrPM27erTTkkyVelk7nybQI8epY746pEB9Im1XRyRADWTjZCwaIfqIZSx42mtYGi6WrJv6XzGYCtTVeyX+aVF1xNhALXEVFyk1xgoaS++tDW2moQpn+mPtgTOslg=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAACSYtps/ng5RZ6TSvTncVyHckwP5csRBUpSeNrPB0lnpbdq9Js/OE8qMaSWsGuvVfHxbEiuc3NZjO59/MO5uHYN5FxJNIaSXYUOR5NB5VcW78cuJQt7Hpnh2FW4Bik1K806Kih02wys8GS9bjU=
+       controls :
+        -
+          name : BTN_Valider
+          identifier : 0x2e8878db026367b4
+          internal_properties : BQAAAAUAAABDDHGMkfN9of86ghlikroZKJf1J749P1Wujoe582vLYG0M9Cp2EPlAXMfPHBrAyUgJ7C/b+c9NA7GmRk3oIoTT3Zn1nsH4EbipCK7p9pl0azSdwkmA5fOTQZ2TmkpaAD1C/QBvL/tLuSTCOsPJvEuuYrY4ibgEwA8mqgWnn2kdpDG5Dp4m1T6XfVnQPoI42MlnKvvRyUi96wk4BLkRa3WdLC9TVMPfgUB/XQfCBtccf60q3Ch4yhCK1wH+e0Gqa/kiY1ATld9d8R6eeRYdC49qnwvjP/h/X74himpxfTrEyqWUSfPU19vs06dw0Eea43y7tIeLajK6ywy/mNga2JUr3s1NebURv23IYBJaGrIWgmYI63q0HlSZ9PbxsnINJr7hg/9fWmEEYYAx3wYZk1v/4Wuq39k7Ta0audglIlDk+l99ufntJqYT5cAWd/LAisd+aFg1FykMBChfW6oOs685Y5CAzaieO7Fh+hmnSadWaGlocCgiwOuj8OEMU8v8aIL8SIbfPQtssIOSLUyWfTn9yUaNVFT20HyH4JPyZn0vaxtv2P5x2Y8Up7aphj6m5JT/wnl0iE1w5lxkxTSAyYQg0aDkcjL95GFzEH777hxRklILuTLbIWR5DC1KjZ561XIgieD2btIRrnsQ1WLglUl3LJJ05fM3HU2CMaHuBmWBxAQJOH/k7IFd1t/i8QXTUmv/vJCCtivqGIKTlX0I7LXCV+dKLchZuNvgnqZQiaHIYI5o/Oft61cRMmmBAw9cGAgPAjb2ZkwVifSDv+Q=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Compulse les données
+               
+               // Enregistrement
+               SI gnIDAgenda < 1 ALORS
+               	
+               	sql_code est une requête SQL = 
+               [
+               	insert into 
+               		AgendaOutlook
+               		(Nom,Profil,IDUser)
+               	values
+               		({name},{account},{user})
+               ]
+               	sql_code.name = COMBO_Agd_outlook
+               	sql_code.account = COMBO_Agd_outlook
+               	sql_code.user = gnActif_user_id
+               	soit nrc = HExécuteRequêteSQL(sql_code)
+               	si pas nrc ALORS
+               		HErreurInfo(hErrComplet)
+               	FIN
+               	
+               	//1 : &Importer
+               	//2 : &Ne pas importer
+               	SELON Dialogue(<§?1B01613A006EDC00§>, COMBO_Agd_outlook..ValeurAffichée)
+               		// &Importer
+               		CAS 1
+               			Outlook_ImporteAgenda(AgendaOutlook.Nom, AgendaOutlook.IDAgendaOutlook)
+               	FIN
+               	
+               SINON
+               	sql_update est une requête SQL = 
+               [
+               	update
+               		AgendaOutlook
+               	set
+               		Nom = {name},Profil = {account},IDUser = {user}
+               	where
+               		IDAgendaOutlook = {id_outlook}
+               ]
+               		sql_update.name =  COMBO_Agd_outlook
+               		sql_update = COMBO_Agd_outlook
+               		sql_update.user = gnActif_user_id
+               		sql_update.id_outlook = gnIDAgenda
+               		soit nrc = HExécuteRequêteSQL(sql_update)
+               		si pas nrc ALORS
+               			HErreurInfo(hErrComplet)
+               		FIN
+               FIN
+               MaFenêtre..ValeurRenvoyée = Vrai
+               Ferme()
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      
+      
+      PROCEDURE fen_param_outlook(LOCAL gnIDAgenda est un entier = -1)
+      
+      SI gnIDAgenda <> -1 ALORS
+      	
+      
+      	// Recherche de l'agenda
+      	HLitRecherchePremier(AgendaOutlook, IDAgendaOutlook, gnIDAgenda)	
+      FIN
+      BTN_Nouveau..Visible = Faux
+      BTN_Modifier..Visible = Faux
+      // Valeur de retour par défaut
+      MaFenêtre..ValeurRenvoyée = Faux
+   -
+     code : |1+
+      ListeProfils()
+      
+      // Affiche le profil
+      FichierVersEcran()
+      
+      // En mode création
+      SI gnIDAgenda = -1 ALORS
+      	
+      	// Sélectionne automatique le seul profil disponible, ou le cas échéant le premier élément de la liste
+      	ListeSelectPlus(COMBO_Agd_outlook, (COMBO_Agd_outlook..Occurrence > 2 ? 1 SINON 2))
+      FIN
+      
+      // 
+      ExécuteTraitement(COMBO_Agd_outlook, trtSélection)
+      
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : ListeProfils
+     procedure_id : 2200145156851244377
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //ListeProfils ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE ListeProfils()
+      
+      
+      // Récupère la liste des profils Outlook existant
+      sListeProfils est une chaine = Outlook_compte()
+      sProfil		  est une chaine
+      
+      // Si la récupération des profils a échoué
+      SI ErreurDétectée ALORS
+      	Erreur
+      	Ferme
+      FIN
+      
+      POUR TOUTE CHAÎNE sProfil DE sListeProfils SEPAREE PAR RC
+      	
+      	// On vérifie si on a déjà importé ce profil
+      	sql_code est une requête SQL = 
+      [
+      	select 
+      		IDAgendaOutlook
+      	from
+      		AgendaOutlook
+      	where
+      		Profil = {account} and IDUser = {user}
+      ]
+      	sql_code.account = sProfil
+      	sql_code.user = gnActif_user_id
+      	soit nrc = HExécuteRequêteSQL(sql_code)
+      	si pas nrc ALORS
+      		HErreurInfo(hErrComplet)
+      	sinon
+      		si HNbEnr(sql_code) < 1 ALORS
+      			// Ajoute le profil à la liste
+      			ListeAjoute(COMBO_Agd_outlook, gLien(sProfil) + sProfil)
+      		sinon
+      			ListeAjoute(COMBO_Agd_outlook, gLien("") + gStylo(iGrisClair) + sProfil + " (importé)")
+      		FIN
+      	FIN
+      	
+      FIN
+      
+      // Si on a plusieurs profils
+      SI COMBO_Agd_outlook..Occurrence > 0 ALORS	
+      	ListeInsère(COMBO_Agd_outlook, gLien("") + "<Sélectionnez...>", 1)		
+      SINON
+      	
+      	// Affiche une erreur et ferme
+      	Erreur("Outlook n'est pas installé sur cet ordinateur ou bien aucun profil Outlook n'a encore été créé")
+      	Ferme()
+      FIN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAC7SZM5muGzGc3NMfiaxFke/g8P33MnozJjbNOJw91dE6ueqNX2CyTA5f3FnWsWwZ4kZjx2+FQSzcpdNCZCzeJLanjFzZUbYERT7g9U2QU1Gb4XFFP/rd7DZk3xRvOSWh3zoI91Qw2ssQ==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1e88788e00633aec
+  internal_properties : BQAAAAUAAACFrAzp/7Q0S84R+ikNeRgtAIFcvdVNEy0l/bgnbB29kPtJH0AWHFq9qw==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,345 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_OUTIL
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1e8719e701c81932
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      Couleurs est un tableau fixe de 25 entiers
+      
+      Couleurs[1]  = RVB(229,105,111)
+      Couleurs[2]  = RVB(244,152,90)
+      Couleurs[3]  = RVB(255,204,83)
+      Couleurs[4]  = RVB(255,249,91)
+      Couleurs[5]  = RVB(136,210,127)
+      Couleurs[6]  = RVB(127,211,183)
+      Couleurs[7]  = RVB(179,195,142)
+      Couleurs[8]  = RVB(119,158,218)
+      Couleurs[9]  = RVB(150,125,210)
+      Couleurs[10]  = RVB(197,135,165)
+      Couleurs[11]  = RVB(199,206,222)
+      Couleurs[12]  = RVB(75,89,120)
+      Couleurs[13]  = RVB(168,168,168)
+      Couleurs[14]  = RVB(82,82,82)
+      Couleurs[15]  = RVB(7,7,7)
+      Couleurs[16]  = RVB(171,29,36)
+      Couleurs[17]  = RVB(177,79,13)
+      Couleurs[18]  = RVB(171,123,5)
+      Couleurs[19]  = RVB(153,148,0)
+      Couleurs[20]  = RVB(53,121,43)
+      Couleurs[21]  = RVB(46,125,100)
+      Couleurs[22]  = RVB(95,108,58)
+      Couleurs[23]  = RVB(42,81,145)
+      Couleurs[24]  = RVB(80,50,143)
+      Couleurs[25]  = RVB(130,55,95)
+      
+      gsNOMUSERS est une chaîne = ""
+     type : 720896
+   -
+     code : |1-
+      
+     type : 720898
+  procedures :
+   -
+     name : DateHeureVersChaine
+     procedure_id : 2199760787378287632
+     type_code : 15
+     code : |1+
+      PROCEDURE DateHeureVersChaine(LOCAL dhDateHeure est une DateHeure, LOCAL sSéparateur est une chaîne = " à ")
+      
+      sDateHeure est une chaîne
+      
+      // Conversion
+      sDateHeure = DateVersChaîne(dhDateHeure..PartieDate) + [" "] + sSéparateur + [" "] + HeureVersChaîne(dhDateHeure..PartieHeure, "HH:MM")	
+      
+      RENVOYER sDateHeure
+      
+      
+     type : 458752
+   -
+     name : CréeCatégoriesDéfaut
+     procedure_id : 2199761277004805120
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //CréeCatégoriesDéfaut ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      
+      // Résumé : Crée les catégories par défaut
+      PROCÉDURE CréeCatégoriesDéfaut()
+      
+      // Vide le fichier AgendaCategorie
+      sql_delet est une requête SQL = 
+      [
+      	delete from <§cs:6§>
+      	AgendaCategorie<§cs:6§>
+      ]
+      si pas HExécuteRequêteSQL(sql_delet ) ALORS
+      	HErreurInfo(hErrComplet)
+      FIN
+      // Crée 10 catégories par défaut
+      POUR i = 1 _À_ 10
+      	
+      	// Libellé et couleur par défaut
+      	sql_add_categDefault est une requête SQL = 
+      [
+      	insert into <§cs:6§>
+      		AgendaCategorie<§cs:6§>
+      		(Libellee,Couleur,IDSociety)<§cs:6§>
+      	values<§cs:6§>
+      		({label},{colors},{society})<§cs:6§>
+      ]
+      	sql_add_categDefault.label = "Catégorie " + i
+      	sql_add_categDefault.colors = Couleurs[i]
+      	sql_add_categDefault.society = gnID_societe
+      	// Enregistre
+      	si pas HExécuteRequêteSQL(sql_add_categDefault ) ALORS
+      		HErreurInfo(hErrComplet)		
+      	FIN
+      FIN
+      
+      
+     type : 458752
+   -
+     name : __AgendaAjouteEvénement
+     procedure_id : 2199768239111708542
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //__AgendaAjouteEvénement (<Agenda>)
+      //
+      // Paramètres :
+      // 	Agenda : <indiquez ici le rôle de Agenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE __AgendaAjouteEvénement(Agenda)
+      
+      // Envoie le message permettant d'ajouter un événement
+      ExécuteFAA(Agenda,faaAgAjouteRdv)
+     type : 458752
+   -
+     name : __AgendaEditeEvénement
+     procedure_id : 2199768496809805927
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //__AgendaEditeEvénement (<Agenda>)
+      //
+      // Paramètres :
+      // 	Agenda : <indiquez ici le rôle de Agenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE __AgendaEditeEvénement(Agenda)
+      // Envoie le message permettant de passer en saisie pour l'édition d'un événement
+      ExécuteFAA(Agenda, faaAgEditeRdv)
+     type : 458752
+   -
+     name : __AgendaSupprimeEvénement
+     procedure_id : 2199768775982745339
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //__AgendaSupprimeEvénement (<Agenda>)
+      //
+      // Paramètres :
+      // 	Agenda : <indiquez ici le rôle de Agenda>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE __AgendaSupprimeEvénement(Agenda)
+      // Envoie le message permettant de supprimer un événement
+      ExécuteFAA(Agenda, faaAgSupprimeRdv)
+     type : 458752
+   -
+     name : Outlook64Bits
+     procedure_id : 2199768995026128216
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] Outlook64Bits ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE Outlook64Bits()
+      
+      sChemin		est une chaîne = RegistreLit("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\OUTLOOK.EXE", "Path") + ["\"] + "Outlook.exe"
+      nHandle		est un entier = fOuvre(sChemin, foLecture)
+      nAdresse	est un entier
+      nMachine	est un entier sur 2
+      b64Bits		est un booléen
+      
+      SI nHandle > 0 ALORS
+      	
+      	// On se positionne à l'offset 0x3c (adresse du PE HEADER)
+      	fPositionne(nHandle, 60, fpDébut)
+      	
+      	// Récupère l'adresse du PE HEADER
+      	fLit(nHandle, 4, &nAdresse)
+      	
+      	// On se positionne à l'adresse indiquée + 4 (entête 'P''E''0''0')
+      	fPositionne(nHandle, nAdresse + 4, fpDébut)
+      	
+      	// Récupère le code machine
+      	fLit(nHandle, 2, &nMachine)
+      	
+      	// Fermeture du fichier
+      	fFerme(nHandle)
+      SINON
+      	
+      	// Par défaut : IMAGE_FILE_MACHINE_I386 (x86, 32bits)
+      	nMachine = 0x014c
+      	ErreurDéclenche(1, "Outlook n'est pas installé sur cette machine")
+      FIN
+      
+      // Format 32 bits -> IMAGE_FILE_MACHINE_I386 (x86, 32bits) ?
+      SI (nMachine & 0xffff) = 0x014c ALORS
+      	b64Bits = Faux
+      	
+      	// Format 64 bits -> IMAGE_FILE_MACHINE_IA64 / IMAGE_FILE_MACHINE_AMD64 (Itanium, x64, 64bits)
+      SINON SI (nMachine & 0xffff) = 0x8664 _OU_ (nMachine & 0xffff) = 0x0200 ALORS
+      	b64Bits = Vrai
+      	
+      SINON
+      	
+      	// On ne sait pas
+      	b64Bits = Faux
+      FIN
+      
+      RENVOYER b64Bits
+     type : 458752
+   -
+     name : GoogleConnecteAgenda
+     procedure_id : 2199769411638053616
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] GoogleConnecteAgenda ( [<nIDAgendaGoogle> est entier])
+      //
+      // Paramètres :
+      // 	nIDAgendaGoogle (entier - valeur par défaut=-1) : <indiquez ici le rôle de nIDAgendaGoogle>
+      // Valeur de retour :
+      // 	gglConnexion : // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE GoogleConnecteAgenda(LOCAL nIDAgendaGoogle est un entier = -1) : gglConnexion
+      
+      UneConnexion est une gglConnexion
+      bufConnexion est un Buffer
+      
+      // Charge les informations de configuration de l'agenda
+      SI nIDAgendaGoogle > 0 ALORS
+      	sql_ggl est une requête SQL = 
+      [
+      	select <§cs:6§>
+      		IDAgendaGoogle,<§cs:6§>
+      		Utilisateur,<§cs:6§>
+      		ClientID,<§cs:6§>
+      		ClientSecret,<§cs:6§>
+      		BufferConnexion<§cs:6§>
+      	from<§cs:6§>
+      		AgendaGoogle<§cs:6§>
+      	where<§cs:6§>
+      		IDAgendaGoogle = {nIDAgendaGoogle} and IDUser = {user}<§cs:6§>
+      ]
+      
+      	sql_ggl.IDAgendaGoogle = nIDAgendaGoogle
+      	sql_ggl.user = gnActif_user_id
+      	si pas HExécuteRequêteSQL(sql_ggl ) ALORS
+      		HErreurInfo(hErrComplet)
+      	sinon
+      		POUR TOUT sql_ggl
+      			SI Taille(sql_ggl.BufferConnexion) = 0 ALORS
+      				
+      				UneConnexion..Email		= sql_ggl.Utilisateur
+      				UneConnexion..ClientID		= sql_ggl.ClientID
+      				UneConnexion..ClientSecret	= sql_ggl.ClientSecret
+      				
+      			SINON
+      				
+      				// Récupère les données
+      				bufConnexion = sql_ggl.BufferConnexion
+      				Désérialise(UneConnexion, bufConnexion, psdBinaire)
+      			FIN
+      		FIN
+      	FIN
+      
+      	// Connexion
+      	SI GglConnecte(UneConnexion) ALORS
+      		
+      		// Sérialise la connexion
+      		Sérialise(UneConnexion, bufConnexion, psdBinaire)
+      		sql_ggl_connex est une requête SQL = 
+      [
+      	update<§cs:6§>
+      		AgendaGoogle<§cs:6§>
+      	set<§cs:6§>
+      		BufferConnexion = {buff_connex}	<§cs:6§>
+      	where<§cs:6§>
+      		IDAgendaGoogle = {nIDAgendaGoogle} and IDUser = {user}<§cs:6§>
+      ]
+      		sql_ggl_connex.buff_connex = bufConnexion
+      		sql_ggl_connex.nIDAgendaGoogle = nIDAgendaGoogle
+      		sql_ggl_connex.user = gnActif_user_id
+      		si pas HExécuteRequêteSQL(sql_ggl_connex ) ALORS
+      			HErreurInfo(hErrComplet)
+      		FIN
+      	FIN
+      
+      fin
+      
+      RENVOYER UneConnexion
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1e8719d901c6df36
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

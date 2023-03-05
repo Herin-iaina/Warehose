@@ -1,0 +1,339 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_List_google_calandar
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_List_google_calandar
+ identifier : 0x2e832f590a88de49
+ internal_properties : BQAAAAUAAAD1vMBfXTfWBPfn46HNbOhIjZjmrj3cSzcVnoXCO8TSKZFSpA9MCb5/8p4RQ6Vx6Wm4ylunX1xciNihPhJR5GlcESIGMRKZpRdB4G/V4cjbmcckRWlkD6/465q5OkMokfbOPVyDFHIeZxCXqAxSreAD0yxgdZWiiVJTeSHvFlL3t+NEOJtfDMgqcnlgm0fMx/8zPUG4guiXa3/zF9OCR922gyM0vTg3eGwal+Hv7HknzP5bjl8HzcYqnrh3awBFAui1CHptZRfzCfg7/xd4+DKgS9FMwSBIsMgVsmtqszMvNECNKSCkHa+SkoxJxzEeiQ7wQGoh8XAYHX4URPnRVRf7DBQ2MOTb/IuKIyxedsYX2PMcu+cVKhatzz6zDP9jCjBkCX9DPvqBwvYyF94MgXcJJlVTSWMLONlmXfWgKuPysuvGPh1c03neDzblyLHtBYo1k1EwIAuMF698qOiX6V/0R0ypAYrfZlAXh/uiQN9v58lwtRS2MAioJCahx2wm5VoJrSrZd4WI4aGc0oGoUFzk9132M8hNkyj6Xq3Cph2HPyqwvNNhfm0feImy5gLjQrThuii/Tl6KqD9PiwCDC3tmrAHyic4PnMcEDdOA934rp4yjZlLAhqlIe5Ls7zwpfYQXY6ROlBA0xKjH8Tuhr/UjLpUVWOB5qEDfwoQZBVe5ddPPYhiuDnP4+f5rolVa6d0NFeCH
+ controls :
+  -
+    name : SPLIT_model
+    identifier : 0x2e832f590a89de49
+    internal_properties : BQAAAAUAAADGHRc4wYzBRBs5yMJvCH9qsCavZgfOeWQ3yfGm7LZQWhTtojFY/ttgUmkLK9ztfDA4MJQwIU3r6baagPbrACEGo4xxrKw/RN5XBqJWdONBinZ76aHrttCVu3IqncpLT4tRERbF9EUjoi77FU5xUsmz7489HudiU+Nhwfr1fPkbC5SMWJ7foUD0GogLbZ5UApboeBLdJDyPhFBpCou2vP+yNrYE35YW3FF0cPmvHZ1WTC2s9j7oA8IkzzIswKxgEZPf2XozbE7cwfX2k3XBTXPTsIbNwSHB+nYbwFklcO3c9V4JfZwnQ4KFbVOCoKcs7E22DhR9y513xEjRwua0KLYPXL8r5QB+nbxkjVk6430WlT0np48zJlpp+OseFIkGON7qUV+gGwD/SFaPl2lzTGs69gWPq+qgKH+D1CSPfTMZT0BHQ7DesoD0vNIwMlbLv8xqH83Taz+MHKDug6MZ+3EBjwwkRr8NjSUtkHD7ebeVNPQEu+a6RU90NoYq5o6vAbNz+Db90DSmZQWV5/1wMSBUu08=
+    type : 28
+    code_elements :
+     type_code : 61
+     p_codes : []
+  -
+    name : LISTE_google_user
+    identifier : 0x2e8330e20aa5df55
+    internal_properties : BQAAAAUAAADWBfHxaj1RqTOLf8tePSE3RYTydlvzGuASbpmVgIDKrHWZTu2eYinkHA9RoySzcHmthfANokp4BvFrsC5WJ6AK6XlTPTAc9hKh6Km2HMEyK0nk5uzdQ5JLjttxQY1ViDLzReqU9/WczflamTboMyN3F/3IaRg7w/cKB29J0hTtgjo/G7E+QhdY7frR2m6A6Ys5vD3Lyb0Npuo/Tkbfi6xGW4pqbgD6EPl3vU08x/zdFiv2JiuQpqA6W7/1wspQYtvSUuote4QAaCD2T0cqglToJyXvSkiEgDPiXVk88V6ru6m/OvZDPS4Bp7mDO29tNxH991Z0kHlS4TQ196i5oaMvpNBiAybviYao3gMfGbCHcymxegOv5C7tP1uovh5QNdL7Rz1AI3hdDLDAwuNQLwTeKxCSsq0oodG2949QgbcEraaoj9czriFuqGof4DcKNJVQIBW9Or+NKBhyYirCsBXQxiacIZ2OYSuuFXfl9WLi5h4CFND03WuvHKYDakzYhbyXaVqzpEK7tUskUlaNYXqN9DyCizhwR0kzfgkE4x/uZbw6llgG/vUt7weDtX8fcHSvqQTEXfMfsYIc6GwO0n2pblvtN2XCPuzhpFS7maZHDKToXrfN4wS1eYqx/mHXUVpZskfmV8o+nm5/K1sXXxI9l7VlhZf2rwYX+SELRnpD/ZGR12VTBJk7rn/KB5UZD5XDNwWiW2E+Rvqc/b8l0AFkAaFG41ekSr9BFCqXlwFs0Wc4nd0yd0PBHwuWU72kRFPjhsOsIw/PZihprpDVUtsKY0mBdJDDA+9dccYkFSNbnIKkyANz5y3yoerFDp3LwtTbBmwYK9RXo39+zMqac49ocTILo6lVxb9GcISxP8+mdHJ3phqUE6ej2rQXGV9Ou4mlXWe1OEl2T4llV3rtOZWbURtl44YmTu/0HA==
+    type : 7
+    code_elements :
+     type_code : 7
+     p_codes :
+      -
+        code : |1-
+         // Le champ utilise une requête paramétrée pour afficher ses données.
+         // Les paramètres de cette requête doivent être définis avant ou lors de l'initialisation du champ.
+         // La requête sera exécutée automatiquement si au moins un paramètre a été défini.
+         //
+         // Pour plus d'informations, veuillez consulter l'aide :
+         // Requête paramétrée, Utilisation dans un champ Table, une Liste ou une Combo
+         //
+         // Paramètres de la requête 'REQ_select_parm_google'
+         //MaSource.Param_IDUser = ""
+        type : 14
+      -
+        code : |1+
+         LIB_Liste_Google..Visible = (LISTE_google_user..Occurrence = 0)
+         ExécuteTraitement(LISTE_google_user, trtSélection)
+        type : 35
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         SI ListeSelect(LISTE_google_user) > 0 ALORS
+         	
+         	// Active le bouton de suppression/modification
+         	ChampVisible(GR_modif, animFondu)
+         	IMG_connexion..Animation = Vrai
+         SINON
+         	
+         	// masqué le bouton de suppression/modification
+         	ChampInvisible(GR_modif, animFondu)
+         	IMG_connexion..Animation = Faux
+         FIN
+        type : 33
+  -
+    name : LIB_Google
+    identifier : 0x2e83314a0aa97518
+    internal_properties : BQAAAAUAAADpHDiQ9ho8BY5XA0W4ajiMFzZ6U87Smf8KQ9nEJ1ox4xyJIdAbpr9rwSF8ZtX+fJ7dnCe7vfOsaf1vOVHQ5Sfo7Qn1FBLTdNyNj58QbA6NVuRw1mcSe+nQ9D3oycQELBAvugw//KalupPHPBL3NAnvfVR+ZbMVnfeMJ/sQIuys/IaPsXsaQeZPqyn+IjAAZUZcgHp7sIu8TWnpjcUJ+ABWgzdO/rMZPxl/FTIWXIIfi1U+6uTiwfm10DRjRMVHbHIVvdopHwPUKdZzyMY6yUmL/yF3+Gs2vBYm6AaTHrSbWjHmDg46NcBryBi75JH3IRkglrNh6DQzcqGCpyIISMVntYQhXjLEO5Mr917HbkONaM0g+WPXhX7Qro4Lf4jsXMY1z7AA8VY2baz70+sslE49kXjQSR62KfeLpqvhwwSqINJTcM+E1a9QcHA75DBO4F9OJvdQNpeyDGW8IMB5YOslOtXYT14xrJ2KNRpb7GL5ho/N0B2L9g+647GZvUcNzCktitX+CrPw
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_connexion
+    identifier : 0x2e8332250d38ca7d
+    internal_properties : BQAAAAUAAACcEW5WGljdoXX8HFU4G7cxvcuQADmS4ZSKqCtLyEaNBFBS/PpD7+Xu6VqeOhrdRNQgZqZokj3ow4wPx14cfwfpdbMWuHIn9z9nOcYxrkteQ7bFDqaW6z1U+VQEXfTJm2c+op2apHO2Vzn9r7weMthu2KyIFr1K3pUxK//Hnsnqy0INicyNaKiz7BZkug0bGUGcDv0sBxkBiPH4/4gs2qmH8JkWVK55J4kAsULHgf2fhi+XYJLVBVcVAxJK3Jcb/whsJz23nlNlpisr4/Dj4VvoaF+1riEiwwati0/FCuZ6nb78YGlkce1vkC+uDt59YZSwzE2kpEFPpuKzRQoydabC6KzD1SNWBBOVJKrQRfBFkYuHN3+zsrDV4NhB7H2jI721S06UqoYzec+7tZPTVsT2VYQuU0woM4vybfW0h93fzirAgBHYR1dKH4dCnq+reWrOfHJIig6NwoQ0k1sDsqD0CC0ZH5weawmv40pldGdpAOWP8vAnal4zVuPEztv+RUkFzJHzhosGdBbH7m+0p96wua30FybS9c3ROvbl+nOTgBmL8LOC20el/eYC/Nx/MzanzAREJDhBZx8AWMvRIKGHqhXvDu608Hy14VaeCM+vBJGIHeBzD2LgD7E+lFBgeLhrtILwMcrLApe7fyFZn8yBaUmpvckr6SQ/lt2CLWtiUjhyvN1K+2YtihCNPIcdgxA6tJcK6ikna+RPR7LLqoRTr3jrn9cNqdqkQiBzdsrcE2mMZgEE86hYdL1EMFhbJbtCFXqQ7RTbMlTfDDr6UbdE7pqwfgSakSjqnp5u4MxT6cnGTnHJMdmcrh5AB8Dxe24Irp8SmsIPuk4Yl3CgGyggRODbWQCjm0JrogjQ0uqOSorCI55bcA==
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_Liste_Google
+    identifier : 0x2e8334470d481ed0
+    internal_properties : BQAAAAUAAACvFDQTNyql6U50Kj3dyHowHe8HVd4xPj/UGwKaI2uk+FtpCZMtSppnaGJ91xohkbs7Deps9TjRVKeugR+w+oJA40ez45npHNJPTQhK8gXcLT4O3S7F8lnCluIrQCu434K6BhAoCCa00y+pMfwWH86zLCch7f7VuGY1XnTZ4YNtlFpCI/ABWUpAoUS+E70HcxRpnvTzAxpKc6dVBiPsdcyO6+ntFDKxsntRqmOh1RJbwBdmMZ7ZDsTnBP7GWdm6F8+ofBb1j3zoxN1Yi6QNcnIYg15MsdbY879Qi1g9bTJht17RyBy0dIaaptTHInG+fPUQ2nYh7IKbzmg934JM5GFW/aTkW737SnSHK2ZnhsQW3E6axDyVZfTo3ZNrYoYMxatkX1ZTUE5cfQK1w1d1G9jKH0oPSc6bQBXRE7RmkR36/H+yqkCxXgD4k+g/tNb2vMzEAluROnq5DDb2ZGoM1aN42fVEKxMQRXFdwFBC1aC8FHfqYn0pDfgWOA+lWZwCUcTtV4ErIpEwZo0g8KHgIVOYQ+ZS1SiLCVSXGEfSZ1U4K6O+FKtIQw==
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : DISP_SansNom1
+    identifier : 0x2e83452a0d901672
+    internal_properties : BQAAAAUAAAA8m9hjm3FUlaaCPLandu7ndVlY3IMAm+kbwoHBBoxihITpFnUaKfEMeoIhkj/S2qwFEvpCgEq1GmEt0D1kV0G9MfnrFLP+R96RgbSV8QY9YrJ8t5yNLng67huBLgTPS1iIg/rENALelI2qkShnOnXhUOsNBt8EyWMMhG7DM7IF8l8XiyTGCj44ruALmILo4LCiNF+6eQMvTqXzEWFa10dF4kJ3D+XWtvx8J7JSuyGpEmgj2+dv6qRBzPrVoL2wHqE4hPv7SAprc7WAvues1fc+/x7cJaaLSQyrTdOhVv6BxmU4ZuoDCvpQ9jijQ3xQOoX7EL/+/PM9pQ4PT+MO8FUFwoB9n/haXnCL6YQZwkY26IWCpRT+KaGCrdbbeC1HixeOoYDy13T94odoat+c0XKlVqJfT8xpy1lYesRdGhDmROo6GJmRD8CeJodeh9leuyHcUKi+753kvmYDrTF1QRZqrtDV7+lbsmY3Nr7dwSsH1bk0ocDRgV4QD7044SXgYEydzH5A4xUgITfueBMN+NFrXFkuLugkprSKHS9tam+n93/4fsCohbI729RffzA103skCFwJUwpu9eqJI1Qz5cHODZ+5QUEbpP4YzNr9l9aqdL+k3A2YFEKovunRfhsWVwXMoXE2cmJkeFAfLQ9Kzy5BJX1T9p3gMApT97GK3k5xifYZY5MhltrswyNpI3XM3Vy9Xrm+
+    cells :
+     -
+       internal_properties : BQAAAAUAAADZhixvwHrPKezVxNX2S9AICTidOSZddctPZn/iQmiOgSkzJrued6ysY4N0DjlQt8RtDvT6yud+oFiB/c5FS7gXXC2MXTxDXTgCReL8BWaiFxXxSrIRlWUAkFu7fdWm1e+SlzvFbDNGj0egSA==
+       controls :
+        -
+          name : BTN_Supprimer
+          identifier : 0x2e8344e00d80f6e9
+          internal_properties : BQAAAAUAAAAYVlUEOvhnhAOIrs9ikpyDouKxVcQ8RiRrY8ZIRvNdxDaMMLCQNnkXkwADNTRcIWNwKpTQeH1cDdr2W4f7xqcDbjsFq7k0aAzoTE60QM97UpJrfNjaBItU5fzbQMerK3S3y8U+ZOCf9qjWh1888nC16EWB6SHE5dpLbAelYOJkMM2ZFhGxVWlQ9DkW3UJOa/78ImbVZdApur7NCgW+mAGiTb5X75HSbBOOea8Qzj56cars5N1Z46lbzSx5gelp2FAshDG+wAIfhyXHdxwIZhfyCsq5TBwenSsl2AcgPY1Yhzu0WXMtaTrXJfz2jO1LlS+ZmGqe4EA1lvB+O9gaJP13VqsslBGAWbi33JbWhNs5Gv47Q+34SR6JAKXddHxq2dPARFq+NqKO1IUDsAFKLsDIxEfK2ZbN+O7+v5yvoXvgKoKGb3oOVRYGvehzbBsWK3Z6r7UG2N5D1hU88hZlK12OyFZC1um1WWa8zgiPfVm+NyNDmFrI8l6AgG2BeXwEsoK1wtKSWC1aMRsyOpWQ+1TDPn5j5mZmjxjPzHF0f1v9N66UdVboirnuDx735cuzJ9oMP3AlXGmKV0dR4nZm9nGXssbp2jvr/WPHFT8554t0Jls8v90uaU4jPiGVnD2lkZGWkE4SRz5JT1C0fJvI1BP6HIPJhkJHYA6kDx5RVsTWdZ+NFZyb9YiwXvbRKFobcCvhgrHuCDgfYC+AV03BJW/Ne3jdi5VrwngoOs/4jfHm8nDb+5rhgkWcZB9ZCy4mk3UbikhtI0BrfNizP4Z0jn0Ik8JwZiS5Hy5fsouicdMtzhHhV4aHvwtBWZ54rH+5UGsHpIHSOLYJbAnpPF0Z/Fm2fBmophiwBULJ1nsWWptNc3hesgun8+Lmc8GxmYvwAs9wK1JX1PwR/TOE3/wO2keeZ7LsO/ophw3jdBqaUAgR3mWM02rLTjpZGpikXVT2Ax0t83dcbjo40v7NLpS+Pc9BdvXvIYB2TS0zQeS/
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               //1 : &Supprimer l'agenda
+               //3 : S&upprimer l'agenda et ses événements
+               //2 : &Ne pas supprimer
+               SELON Dialogue(<§?1B029F2E0047D48B§>, LISTE_google_user..ValeurAffichée)
+               	// &Supprimer l'agenda
+               	CAS 1
+               		
+               		// Positionne sur l'agenda Google
+               		// Supprime
+               		soit nrc = HExécuteRequête(REQ_delete_Ggl_Agenda,hVérifieDoublon+hVérifieIntégrité,LISTE_google_user..ValeurMémorisée)
+               		si pas nrc ALORS
+               			HErreurInfo(hErrComplet)
+               		sinon
+               			echos_data()
+               		FIN
+               				
+               	// S&upprimer l'agenda et ses événements
+               	CAS 3
+               		
+               		// Positionne sur l'agenda Google
+               		HLitRecherchePremier(AgendaGoogle, IDAgendaGoogle, LISTE_google_user..ValeurMémorisée)
+               		SI HTrouve(AgendaGoogle) ALORS
+               			
+               			// Supprime les événements reliés à cet agenda
+               			POUR TOUT Agenda_Evénement AVEC IDAgendaGoogle = AgendaGoogle.IDAgendaGoogle		
+               				
+               				// On ne supprime l'événement que s'il n'est pas relié à un autre profil (Notes ou Outlook)
+               				SI Agenda_Evénement.IDAgendaNotes = 0 _ET_ Agenda_Evénement.IDAgendaOutlook = 0 ALORS
+               					HSupprime(Agenda_Evénement)	
+               				FIN
+               			FIN
+               			
+               			// Supprime
+               			HSupprime(AgendaGoogle)
+               			echos_data()
+               		FIN
+               		
+               FIN
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAABYGJxy8H4/thAZ4iKrNSo92FolvZHf+V4kvA1Jk+1Fc71g0sOtrmOCh/ZO3jfbT5OrKkrThF0e+p9GjUD89aF6o1O2RcmXFszfONgaXEAtyI55BshiNzYMPRKxUxRaco5tTT1F1Qqu8nqDpP8=
+       controls :
+        -
+          name : BTN_Nouveau
+          identifier : 0x2e832f590a8cde58
+          internal_properties : BQAAAAUAAAAUTq+Jve3TGzhzliir/BWAg+hKXKeMXSBiDiABRa1BX4BqxBRgxqUGF9WGhPf0jcCI7jWFOgGM/2nNCy0n58+p5D+SKRnAMcoarZOrI6s4mymlILO+Br0bBqNq1zUTIGPkSlSSB2HgIcmdv72wyMEFYeTeRbVvsOcyXFZhYrcJpJgqdykcU+8YSSUPf/b0XDMpTggDPeLeHHqXOPm7B4yVAluNzlniSK0L4+aBgBRNG1ujEk38+PEOxKkvt8aIk/2JMWlPDm5xHzQqQxe8DssvqaFlH0OhKLafroI46AclNQnAAytEHvTV0OmCXCT86xD2Gm4fOfDTxmOn/e0RCLK8RbAW96bC4Wy60Nwuh4T8SGYXRTfGdQdpIMc3G87MgU2IxBDV+fOpoXITJ/VXOLTmaAmUqQ2rurzgGvc4UFk6n17e24SP1rXxxnqD/3IfqWXJGW2NObncyGdJfJlNMl4lqwHaIyknQKmSsY8wyWQzYUo8h3bR2ElGMP7uun9BXXk/lYgcp8kVZv4knPThtgaQho5/wmeL87j5DdCmQ5OLVrcIR35p5DRY/T2tkVly/NwOgLe49HaeBm9+nd7I/ysOdL863erXNrxM++3dlD6YKymFl+aiEpf1Ts1JLorFBiNFyuu9+oSBxnYQ29vLMnBbbUJr2pH6SIHJ8bOvBoFOsJxf6juQSHEbkAvSKZgVsroi94AYre9WAt9rsg/DXEsMs7qMvGNqioDIh08SZeUlpO7BbEm2nMTNQ5GMadSst27L5euBtOhv
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               si ouvre(FEN_param_google) ALORS
+               	echos_data()
+               FIN
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAADvyU/hY82uBnX2yZF61H1MG6cU/sTusgdZOSxsnnDI9gBd5fwgXcynnP+l/T7COn7WN3VE10xcSFOCXaIYSec0zR2iU32TjLJz9Mhk4MybuqDrUl7WuywCuQa5VQzShJybc1mrpnkfZeky04g=
+       controls :
+        -
+          name : BTN_Modifier
+          identifier : 0x2e832f590a8ade58
+          internal_properties : BQAAAAUAAAAYetngnY3YSjWA+5jMw/ov8jJwgOCNBFtvOj81xJG+drCP+CFJp+/VxqytY6FUqruA3mQEpb56Uay38P1MCDa5SSSR1GG3Aebo8VEsEY1s+thLae5xnNmKcOqaP4PljKqss8CCCa6w/LwHb+N/9VIWFT1h3x9jF3p6YHLcn7COOtPceFRa2Jt26wozmJt/+bhtPZNzxIabp9egWy5O37DH0n1MSohOxs2cxY0uwH3o1L3q+hz28iuDCS4SI6bDf7g4QMdJiItGh4JGsw9XTT3yKB2NK4NKxXc1NA++tdY/E+jV7OQVYRQ8GqIFSAarlBOdEGUKonrDicE990mQW4K7CUmbf5sFpeuCAVJw0omqjkHkUaHDLazDnmBUMO6g/RwDWlJkdJUzTTPll5Y7nvhMSk3fftcKodT4zGxFANr3zSqLj/0Esj2HhndSVcSTDqGXlSdw9ISgHuM8/5ybbW8GFfPoiP5jRuN00AhLFJ8lfYyQ2jrkfujFnITWM07C625AgAmw7r23FQ9CBGgBMGnzTWFevtMUTo6kzkpXq4Pc8LIYmcrZjgZMwURQ6/IpSrQB6f8gpWdh0GK9D4AT5j2bgOoGk5lSLWbYGGnJohFOp0rmx4Nqb0YdMuTGo+rYNx1uEKzAx6/tyQ00rBK17n6i6C3HY3r3gNJDPIzISq+4PtzH4SoYjGDbNNvFwbmUBEcqhSVzMzc4vX/kthcNFJN7mxvoPFcg9MSYiZ9lg8Sx4rvcNdwkCIm+hBCRUZVYxK39fvQhQB1CikO082Ja9RpDOVu8WSV9ppcfMfk=
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Ouvre la fenêtre d'importation d'un agenda Google
+               SI Ouvre(FEN_Param_Google, LISTE_google_user..ValeurMémorisée) ALORS
+               	
+               	// Actualise la liste
+               	echos_data()
+               FIN
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : BQAAAAUAAACqVXdmmQX+vpFqm2IXyl1bQo/A2EFg4ERMM5p3B/81EAZqPTaVpoNFJEA7CxZHHmPKoasbCMndh6ucmEv6hr9Id8h/QlFmas/9WKVxgulpuKwQQUOKbD7j7yKidnwTZq4HZCQQt+RfKppzmw==
+       controls :
+        -
+          name : BTN_Valider
+          identifier : 0x2e832f590a8bde58
+          internal_properties : BQAAAAUAAAC7Hevd9OwW3da7ASw1q/zr6/4zzQdQDrNMW+Qa+0KusYkVl8Rd60Fqs0G3H22u5UcUddE+ozQzYkJ6hFA+eIaA+pZBuKFcpEoE9N8Ggm5A0kqpru9VWpNJ9v9ek7UP42Ycw8cNyaaoSiblukSf/vQMVL28QVPiy4GuiDRYdJtUGOYrm+5fm+vRUz2YxTKV2MEBnMmmkcDOgrBP/OWNi53DvzdRMPpK87ffuR4ewzycaXRUoGtlIJBrNY3dn1BGQtDyyL4rTcDl2k1oPtgB8Pu1F64yCadrbetyX1g8xrx1zJsLOG6EqOD+jdKBTEtsuwVjpvuJiIwoSRpllqaXBWt2bNxf0j8VpyHyF10W+otYod1E7d7/dg5pV5+9K+8v4Ykg52zSSl4djednlf13DZFR/cXL9I6XoJ5IXLtJemccFQS4+2NR69imBfvjxA32qTGwOEH6RLONmdiOUGXvgR4RH3K9eBUiIlsY2kdwzs17ss+M2Z3X4hj/SRMQ5HA82o29p7YP1yK2uUfdytzhARoozp2zd13eiH1olkEVgbMEe89/DHEvrLwjMJKbUNMo8XkFLFsQtc234N1WreKHXsdjNe8EWYbnzYxKNkosU7WKTUXwIgtjLkGb5ViFUxS8m5q6F1YwZBtcSFCqRZDM+tAJEo2wAxOmeN/49G1R+PWuFyJfHPGjXWaYqVJ/ytXSjei5WwSC+FJMe0eRQgI0IuFxlfincj/KZdbTrrAXTk76WJetoI3qD8YCFLUDMJn40Xa/DN0WUEaceDlroDKZeosN+7WTJaqfYFMSK0LEIA==
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              type : 161
+              enabled : false
+    type : 126
+    controls : []
+    code_elements :
+     type_code : 151
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      
+      
+      PROCEDURE MaFenêtre()
+      BTN_Valider..Visible = Faux
+      echos_data()
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 34
+   -
+     code : |1+
+      renvoyer ListSelect(LISTE_google_user)
+      
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : echos_data
+     procedure_id : 2198699685614607534
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // echos_data ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE echos_data()
+      soit nrc = HExécuteRequête(REQ_select_parm_google,hVérifieDoublon+hVérifieIntégrité,gnActif_user_id)
+      SI PAS nrc ALORS
+      	HErreurInfo(hErrComplet)
+      SINON
+      	ListeAffiche(LISTE_google_user,taInit)
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAC7SZM5muGzGc3NMfiaxFke/g8P33MnozJjbNOJw91dE6ueqNX2CyTA5f3FnWsWwZ4kZjx2+FQSzcpdNCZCzeJLanjFzZUbYERT7g9U2QU1Gb4XFFP/rd7DZk3xRvOSWh3zoI91Qw2ssQ==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1e832f3800b55f36
+  internal_properties : BQAAAAUAAACFrAzp/7Q0S84R+ikNeRgtAIFcvdVNEy0l/bgnbB29kPtJH0AWHFq9qw==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,96 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Compteur2
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Compteur2
+ identifier : 0x2d7761400c01c068
+ internal_properties : BQAAAAUAAABxgOkeTO7ZpFt06Whk9LcAR36/qql4+VcvVTZXAtF+eXN25xJV0dQHkv+bT4k/L8d5+GRRh7xLeAwQpUjR2WLJogSbQ7iUFMHRfHmObd71zDjJvuJzmU975Ang7GJ0Thuf0ejzj4Oxtb75GlQS4yQmg2uUKOJm+L5IGZU1WPnLjZS404Gt/7m++s30Lscx46xVX6m2aqzNyArrqGoCJ7aiKee9gB/cNFBq7ghLmvX81SDwioVsTw/+PuRHf1rhf3RmzcnfpIviahT8t4n8RyracFJ6drK02DFamhtv8HWiJhoiTdg8p5YV/qQdGTbBqBWUDcFcMWMFYsgseAi7o21BikUwTLIevi/rFfUZBQmw9Btb3bUhGXaLhTPxmawvAf8FiukRmSifDvJkcIK2td3WKanLb6bAL48+vIBuHWsmuQP8rjWt5WuYSDvNr25MT/bSk8Mz7qxrQhrRy3UjO17gm5BOQfTObZmZsQDykFT0aRH+rHeoiqDFO2PZGlgewf43eAXb7ZuhoWzurlh2H6xDYkP8E6RusjUjXqJRQMZL3YxKwm8ms5xBGnp76alkS2HUSoJkVC14x3NrvZ3t55bTG51B+yhKLvWwmOUINCP4dDjf6ore0xRKYvsLHUjeyXBIz/jfuv4ZoYNsWIwg17MFWhlDqTj6f61LGvBvA0O9GXbXYmwgVHaZvN3hCKaGA6B6xdO7sP9OBR5Frw3F4oPglVgxCfPt2IKKAWmXDhAksXj/V78/FL/g9rmpTm/YNfmoi5bV9Qu7mk9AylhsA2b1
+ controls :
+  -
+    name : FI_TDB_Stats_Compteur2
+    identifier : 0x2d7761400c02c068
+    internal_properties : BQAAAAUAAADCLzP90hyGgmuN1xOVt5TXnkNtuMUUkIymtCPgXT2DWocwTFSXgjlrs2JxRhN+ow3R5b5ySXgaFoe8JflYg0wEO6B8hNEIdW31GcjfhhLtOwfAcZfPMBIhbXloN+4ScxWA2a1anm8GwA+ik8r25TugVjMRZlwP2+4+cB0gRSFL+9DtXO2QNMokmAyfslbFURBQpC8Etr9Q7JVir6hLZmgbT1c1CgbOf+CAA7c25q+ak+iRadSuUPiA2Kaqd3NlGGbwbSou8C6YF/1XjcR3lGnX3F2WENXaDFZgCV6dbQUVGpmpDqyUwyvu4LFre4NyohPYtMp3b3UlOZabtr867Yg4nGpOwjSyNNn87GImX8bH6HznR5ISsYSsw28NWatNndmahxph/qvuamkWJc+jCSSU4lo7jGffoGu34k4gUmJCP6kNOXU0J8M1YySE9N2Gy0w=
+    controls :
+     -
+       name : LIB_Capital_actif
+       identifier : 0x2d7761400c03c068
+       internal_properties : BQAAAAUAAAA8N93dRwnVeSMv5IkD4MTw+Xe+s/I8s79tz0a6ZiIhmu7dlAaQRaOYIpv+THt2fvKXba/16IEoXUqjhW08d5/sTHh4hsvV1psg2XspupoclY3poi+ebkCsRtdd2jhnMztVjTDmoKJxMz19uIJvvDa+vTVY1QLDdenzPJGevyG/qdgo4SyM4mEObyLJd2sQRRzYQzx19tna2Vvj8ikULK9dnt0G1+0ZJVfuBrYqy3mT1rIOfWexu/RpqyXOy716ZUd5101AziU5qHfAH5L8IK6bEy00Rax8+ZjXmAZo5Q+7sg+svV6k2aleKSWzM49dse5axPPWrJaKcmPVj0DcGbswJSnuNuM40Sr1P36Y39rSCuk55PJ2Iutrd4zcBN6n6V6DHwGAjBkAcoMSc2PBAzOGP/FyHYn7/EF6Gvtx9GI8D6apbJtBSJ8=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2d7761400c06c078
+       internal_properties : BQAAAAUAAADsuRLqSRgt8jO5MRhuAg2A0y2dEM5ijxrpGrvqbiMQ16IQ4jE65iBXF579a0KR7roeqOTphSMTyL8jUHogT5rWNRQViAvyhGbQBNAMjpy6iZMKLUYxWA6sjiLDUJyz75T6boErqcbFgtINZ4jSqzmOPDrMlHWqYUBOo6XdrflgjK0zU3pJ0ayuWquwamc6yLGRQwUZ2Hi+hF9bKibOn9wGMgUvjM6+7ZsUETZ+9SZIzptZfpoaxhHrPvJGTJAVieMNo91mwNwTxVFUVC0Hh8pzqCvLmVZtbwrXu4g4//xJLeBgayPHSpu9fElOA6WssJuwn18zOVwzgGkAfXXXUqZSh2N4YE7+q3y1jLz196bxtILBlUzJ3hT7wjQKykTwXeTMaCc2/WpVeo6uels0uvFq7VE9o8/RZwFbtQl6XG8I+HqpghQ+bYQLRu2dRGIgSj3a8VPBWOjXA+K/ZAQvXwwt07Xtd4f2lO+ZlyirZtX0BZ5TTxn7M4sgwqLTY6Mw+sWmhXZ/UkXNXA==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Compteur
+       identifier : 0x2d78c20e2cbee3e0
+       internal_properties : BQAAAAUAAADHhy75OpMLjB1p6pLzmliB09gVn/jJ18TEl6ang8Rb5hxwOZXl5dZ52HKuB5zJWrJLRPErX8bUN4WpM+60we68qNdvoUeMfoiv63lCD6atwW43LCqUAjxl5q+5SAxT/uPkgbSwrr2uf9niLJy18xZGFN7wJQRxG1Llr6Pz/s0IQCHCxRql5ml3uAE1nOh2iHHEGOCQFHuwG8OcsqKBkB2SA4zhYfEJYMVrviARbR9wj80ALuNjpDmDPeFPH8xag4ZoHMSYycKrbFKdjj7Ig3qTEdiDRr3/fW/Waxnc1PNZcyU2yKg9aDnwEnTVuhwGP9oFEvd6abnLPnGO3AylURblxBifWxJ/Vi/9650wKxYTNqufcvKaMOJ4qzSG69ZQmN1Y33RJ4GuQp0hKsdrcoXpAWEg8G6LBk8sga5GcQqTcTwsKaaEOtuTXkw1NQjTpfK2oHhlApX40D/GNNMeFa3gEzSlpjMpBLJ1hErqDaTDGthr6awQuAlrJvx31DpjhYXWuk57DvGUoCX07VGwgV1PvAsjKoZwK30UrW0YHNeVo/DVoE2znxmt01UkReqU2ExElGcl5vfktGTvzfhM93NjzbraPEOGDyXDcFQP2aUKokB/akeqwZ6MYdej4Akwvy8NQmt6cGvX0NiFJEL2QbbuRcKhsOgXnnF4D9rTQTMrTo+ZW7Ryf/bgN2hYunmCKEig4HTNfmjWAvvL0FWBS4TjQLNZwWSXBLfZIvRRvMITfQbAehm26ohvjPH5X2RbNrKOx6zcItdJ6NVtjK4B0MzR9ySX+/N1/hmY3YSNP52k8tJ5zBDiMHt11Z9WO+eeT62c+4m6gDqGh7WL6/bgJgz3MQQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1-
+         
+         	PROCÉDURE INTERNE Actualiser 
+         	//Implémentez ici votre récupération de donnée métier
+         	LIB_135 =  1 + "." + Hasard(30,90) + "K"
+         	// Effet de mise à jour
+         	AnimationJoueSurPropriétéChamp(LIB_135,<§$0000§>,50,100,250 ms)	
+         	FIN
+         // Choix de la fréquence de rafraîchissement
+         Timer(Actualiser,Hasard(3,6) * 100)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d776140018dc26c
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : Opacité
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,138 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Simple2
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Simple2
+ identifier : 0x2d776cda10d113dd
+ internal_properties : BQAAAAUAAADlxsNI5WmWbnead/f91NUxXv4RsRSzsFr7PCP2RQB5hzP3cpOcLyxvEPR3GvFm3NNXMWdG8fRPZO9Ld9DAZj5U39iCrNU1EPVsJMXKuo2unjEamCva0bvKF6C/GKpM+jvHoVFOSXoBQxu6RVH7WTYsHZDHEr1XG4ReX0BdVNd7Jz4oz4/3Eyg+siRVQ+ypCrxgk9nAOusbJ44VUpcaSlgBE2iCXLnXftF/nrJMbohGDvyLBqxLo4aq3CrKx3jX0zDfDC+Jw+Y2rVM8LRqI39hc+dG/59r5Lu6F6h62kvCnZ5STHLTEzFoqWxBrt20z5g7ic8aXR1WUzh85EtYSKPgW6+m6Tg7UdUgzJWsVlcSbOxi3P39BqCveIcAGYWWBNB0xRH+Ol+8LBIlIccRJAK/wPIX0Aq+2B62nrBOwAILOCZzQBbKIAU2c2XvAYcnrV4YLBR5yzmtm1BmlTJe8NOAAlk1DidcrH+S1l0YUrf9ywd4S7ygFjvccDUb6ISh7Ly5kVEBuOMGdibi96UPe5TdEukhrT0IF95sqgEWl77BggN0FvNNMFm9d1hAfx3/4NjJ9+wXvXCT8XUQbUghe6ABy8o2K15gYOFUNFqbqf3OdNwP5JYTSztVzXhcLQI28xeXzPfXkeSo2VoQVCDl7avplqaZ60lPeDON3MQAl0RO+q5QvJAXlTsMISLlor1i6BmvZkxooDcx/+tj6/xhq7zYNu0uH/wHgL4N9a9XdlKJHoANBjkzUp2Peq/wZN/QabdvLMd3PC9b0aYRhRW+W5hA=
+ controls :
+  -
+    name : FI_TDB_Stats_Simple2
+    identifier : 0x2d776cda10d213dd
+    internal_properties : BQAAAAUAAAD+C1+JDmDKpg8hq/epYyiLwoeRfPmgbAgiMF9sybFvxmPcOECT9t1/RxZVqkcq90GVufI2jURWVjZ2vwviqXyWL0R4OCPi76nfa9r1jARhqV848b8F7sCRK+/SaThgy6c0lekWBP3spMU0RZyoY8++1iMJdpZZfV4EUttKX+dfaSBtyFEmopCkzvIpVCirVZ4kWAOIvIWGUMPETZapmHTpOyNtetysHbwdOHJzWeSzZBXWPNnrS3sLWSfBOD66vfshntmnGf1XatqMYCnmHe609Xa9Iabtp5mB4qVW2KK6J96GYZkJBkqNTZY+WFq70zzlqSXsdBjAcDO4WcyNslUtlWO1Kz2Vc0QNpQlv5jcYSaEMYjdP3Ov8j7vZle8JWRVWO0a1qscCfn36GdOvHQj4RsavGOtTHOczbtpcli5+++XBZVlQw2dZR1hIKAlq73A=
+    controls :
+     -
+       name : LIB_Panier_moyen
+       identifier : 0x2d776cda10d313dd
+       internal_properties : BQAAAAUAAAAVh8t49mFPh08ZDOUtVgFVh+s7H1x3H1EEZQuPHUx3NGMduWHRAz91LBfXbxmuY8Br6vh/8eQlNZTIE8jwk9mFXebVB4CE99k+d1lZM/ziyLR3f+5jJ/LVWwukP5fGyH0mJ2S8hLrLJD9y2kkOECOj/Z+Pyfat+iUA+drlrH/PpUFdU0yF6aY7uDUHLBom46D2C68RGw1v5uyoYpNFbLYpEAqYMEt4Uf1/a6+kpK9owjqq9WT8e4JV8z3UJiVLwn6irrDY6LDQ8HuBTLCMs838XjwfFb61QAUsjQ8KHeJEI3LPrLrGWsi9jDjmnTi5CRXjsTxkt7oSnxPd/CDW1QgwewdCnj93/AXaqsofgKZlBSkaX7nrPjK4m0WrwRW6yM2tqFXHONh4+yIwTOmAMxa7IWWVQ4DrXYTgXWQnnok56qSqWIiZ93Z2vLTbdrSBXaOTx09PMQ79OGdUBKdjFmA=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2d776cda10d413dd
+       internal_properties : BQAAAAUAAACO5IPiLPFbPVVi156RtaK3nZO66wzLqgbLG96DZQpZJd4H7PISAiD1t0BtyO6JTvy+NmBfoZgVp+LNZxmiAXLX5Pc/hQ7rfHjr1qWS14ZLa/a2jM/t4DcndRBJHVm7HWJ8hPUBlIYr2OpNRCQXsn6KwbUpqbOMeRXhhqb3CXu04+4VI5GjmE9G7V2EwNd9lnkXFndJp8lH7WU/k0P39MjG2NQVxTRaRlCxRH7sb6/uLNgfsA0zdaz3PEaowZr/GS/Zt3Y+M3SzR+v6EDKpPOGvBu0XWeWDbmZtPSllf3FShUAUA3/qzFq/EPmfUPeFG91GyWGd+FYC8O8q5BwhP/+M6/vyGikUePrNwDPQRXtwSuBTR4bo/AUdHrzx7YrD2P4Ket08hvDABNwoN45MlBL/ji8HMa3GR4rb1lM7OcDwpHAb6V/MW7Ca/2ohM+ETr3vj/2N5ajRt5fq6mDHI8y9hTgGRTjQslEBAG2hirD5kIR3QpKBOY1y+mx6pwdAgHSxrDuS29XxUgvPh8ptfwW/TN+oqwW9o
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Flèche
+       identifier : 0x2d776cda10d513dd
+       internal_properties : BQAAAAUAAADMk2xQrF1I4QZp8eD3e+Qg/mRmiTkLLDnGEhq80QkSuPvc1DDiGuFuBr6YsetLbBZaGTpzU0JTw27qsxOvnfoV8XJlH80CgCKgzGFYScG3evs/CU2s0hkdvdRXRfYOpEQbSjUbpKHgC08t5oTvisQhvUL3kjfHGk1ag46ntTa9n4VJBjIceL9hRspbZu2NWcWz3PywOrxq3PnAJ6ppFJbI1CptGuO25FQoy30+aZ/Ybr4NUfSAj1xmWZ+CoBccenrS/0Go8uHk11J+jwHN5KgtjCbu3PU2sNBvwXTALiCYVSPMwssgDLUI2+pmJx9kg0JbHUmuLdOUr+AHeNHn9MVcMvzPqN17zaZ867JGKeypSrNthbqxKarWZEF0/pu5/UE/Ar33k6ORvPmNIsL+eD4m8kfggb5I8mZeJP8yAfbcIiHAfv5rnGRfZRTAW0deDCBPseMAl7eNYzLfFfPvPrN4BeOvgsyYin7HyCH4H7/gH7REM/1GVG9YfqvdjkZVvCo+irgWZ43O3801DeOeA3Gz0+cnUdxgs6v8czm550sWacxK6pijlkELlViMuVmi0TQqEOi0MJ1i3MceoD3Lkjo3vcVNgrtaTH1mSqOSjWhaLHCjkwpgDj7TrZQJPNvp//jrQE2N2PWO2JC1vocK2yUpr3X2PDbhoMu5yZPNH5vjxZLcCPyX9pcJyFHfJFRSIpCTuCPrm/rTG4wrOlV2h+RoMqIc89pPIUJ3gwv2v0h2sBgGoH/gN+S49+rwaAD7A6tcP6DbKroU6j53Qbbr91Vd/yKzsYJY37k1IHZAFs/dStcqj5wvACSAvirMPeAK2a+mWuEwzTTsWZTFTQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_CetteSemaine
+       identifier : 0x2d776ddd11c20487
+       internal_properties : BQAAAAUAAAAEFc52AxgchZpoYP94DdSuOJw0ELySzN6mc1doWZIy9MNddgD0cEoptCRoyRaD+Z57ikkgvF50yDo1mLfTfouCg1bB9NYhS7Nrf3QpcumJld/Y995R78YJ9uUo2v4TSVOJgmLs40Vos1KRs1KBeiKrGNcgYdn4/pAAvqYWWNeMhUFfr8LyKz4SNQOqUgTehOaHY65QJB5OlSe2dMtca4mXroD1EuDSq03WlIbN8Ehotk8Mhcqtvwj7tjmnfKwg48+BnrMC+23OOONaHIY6uYqK4bP6jS0QGHyn988XdGyzeYYf7DYALKcfKnP3B708s7qPXggs31S+9Q0CRJqedqHawW7rH5m6YFrKt1wVz2akmTCvSt3+sByivr8Z3Bp9UYfs/KtLCdLeh4E6lTRVtmM6PBF+9UrdT126n/cirAAWTOdmbVLMUlwYhfS1TAvbGe2OXAn+
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         LIB_CetteSemaine = ChaîneConstruit(LIB_CetteSemaine,NuméroDeMoisVersLettre(MoisEnCours))
+      -
+        code : |1+
+         procédure interne Actualiser()
+         	
+         	sqlMoyenne_panier est une requête SQL = 
+         [
+         	select <§cs:3§>
+         	avg(Total_TTC) as Moyenne_<§cs:3§>
+         	from<§cs:3§>
+         	Sale_order<§cs:3§>
+         	where<§cs:3§>
+         	IDSociety = {IDSociete}<§cs:3§>
+         	and<§cs:3§>
+         	date_order between {AAMM} and {AAAAMM}<§cs:3§>
+         ]
+         	dDebutMoisEncours, dfinMoisEncours sont des dates
+         	dDebutMoisEncours			= PremierJourDuMois(DateDuJour())	
+         	dfinMoisEncours				= (dDebutMoisEncours..Mois < 12 ? PremierJourDuMois(dDebutMoisEncours..Année,dDebutMoisEncours..Mois + 1) SINON PremierJourDeLAnnée(dDebutMoisEncours..Année + 1))
+         	
+         	sqlMoyenne_panier.IDSociete	= gnID_societe
+         	sqlMoyenne_panier.AAMM		= dDebutMoisEncours
+         	sqlMoyenne_panier.AAAAMM	= dfinMoisEncours
+         	
+         	MoyenneVentMois est un monétaire = 0
+         	HExécuteRequêteSQL(sqlMoyenne_panier)
+         	pour TOUT sqlMoyenne_panier 
+         		MoyenneVentMois = Arrondi(sqlMoyenne_panier.Moyenne_)
+         	fin	
+         
+         	soit TailleMoyenneVentMois = Taille(MoyenneVentMois)
+         	
+         	SI TailleMoyenneVentMois < 4 ALORS
+         		LIB_135 = MoyenneVentMois
+         	SINON SI 4 <= TailleMoyenneVentMois < 7
+         		LIB_135 = Remplace(Arrondi( MoyenneVentMois/1000,2),",", ".") + "K"
+         	SINON
+         		LIB_135 = Remplace(Arrondi( MoyenneVentMois/1000000,2),",", ".") + "M"
+         	FIN
+         		
+         
+         fin
+         
+         //Actualiser()
+         // Choix de la fréquence de rafraîchissement
+         Timer(Actualiser,Hasard(6,12) * 100)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d776cdb01a815e0
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

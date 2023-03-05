@@ -1,0 +1,138 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TBD_ConsoMoyenne
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TBD_ConsoMoyenne
+ identifier : 0x2f1cdbcb55f89382
+ internal_properties : BQAAAAUAAACTH+2RsziiAObO5P7xq3/stNKIP1HSepVLqwxg6xoV3V4Ehj6wgc/crXqi34UY8C1VQqdU88F7L7SQbxQpYmDKsWdYPmpIeM6vaY1KIs7frB2rbfBguPwGiQt0xv5KPBC8iX5K77b5Ebhtrwwo07/CnmDcL8b/ITLJnkpY+5KJObV4O/UYy/WLVuT+OnguLgSqFmAHNNi3NLXVaYD6cEmK3zusv63bqqEkG/Ey0pG7ts8EsnRzvxGteeQCEVRBEHE3P2fgCywPgnOViAG2XsOoGhtkTYVFeyEqMYodaqSW30WEsOYITB73RmF2q7HqFiXCL0yb1fmgSs0nhy1Yk55lipWfd7LX2vVub85aFwkqAaT9v6Vzgx3mntMQylnzTGbQPWH8Fl4UxUdWxgZSQUxOmLSzgUNPu7GIJMSeweOjnj0M8f1hqgODZdLFQmE3Qf/RBoaAJopQ5KzKuUqkWFWbmmiMvj2bgy+aaF+g9M6fVIjLc15Y4NDlIWK3OYcZL7e3+/ercvn7QZtLW1iiBn2fdQewCpT4zy3PaW6yAXjcZBxN1k6wKx/aMPTx18E95RbwNaulIqpNVfPMWePLxb6ztnqgyGOC+Sd0Pa/9O3NXAzNowBunWdkLrWsykKA29yzueg==
+ controls :
+  -
+    name : FI_TBD_ConsoMoyenne
+    identifier : 0x2f1cdbcb55f99382
+    internal_properties : BQAAAAUAAABc/itfjSop6etalT0bAuYmTDDL5+pd8CbCMW2z1Xf0MAGn8RSGmmaRD8shER8nrBMLAqVFzUhuFq2p8OlxiRTrbTBBJgfJkV5k4shiCX8E30VdPm9obV6mFmbdDYHpa5aqCoLDUamADE6GGIVj+VMux1AiLhEk3xg6cXjFeGVZ9pVqpI/tmL9kLSXwUk5sI0rtilfRa85jaa43I68omZRgBcWuMpTQChz+jKrWPMdAO4/AnFQuy+0+P28XKgcdsyWU9xMMquGilzUoVHLwd7vp51KFdGNHjGTdovKSV4IHbhAR2R/ZG915pGdaxAR4hTgm22+snF2MQNoj3v3JbwWhonyJK0OhGumTuWoBzy738rOvM1arTzA/A2POc99+fEP1QmZGbXWwRdBrDKFeN8RYLvRCYXg5Z7T2L6+58AK9HCrLg4fK9MmxujEWpYqlknulXsjjhamxZIlKjyybovyMLlPf
+    controls :
+     -
+       name : IMG_SansNom1
+       identifier : 0x2f1d5f4d5a848d01
+       internal_properties : BQAAAAUAAADrx2QZ3Kc7s04Mnqbky4E9EsQGjfQ6ADMLtxpww9cA+5+LTGLrWsHs3zVZz3COh6YL+nkDW2J58P27+kKZuJJbcJShQPy2VlbcwOwBlOsSOs53ghg7IlgywCq2qzuVbsMw1Qy7JJMyh8QjKgrrH9MsEDnfc7OZOXYiaN33lSK7qlKYSwWPTaJ6agGcPADjaIXuBhnPRpYB0TikeKshl/bxPoTxc/cYY1+LfN7zuikizUB+htz2tRBSq2RFho6wl8753mTkkos8Oi6f60HK7iPKnl6gqx3qaIB0XYr7q9at+VCSLgppfb/xMBIu8StlOaVc06G7Gc1PlKnC+BNmobHIaNWaKajtIMyRlGztKymswhIP+p+uKEos/QhZSZHTpiPuu8MM4D9ctSo0I/5i9TAMUtC6ot3Rs5lNQdPJoJ5X2AjRsnwcrhHE0M0+Hjs2z1sST4QYyGl7TxWcXEm5/TjdWL37G4V7SpF77lAUdMieYbLX8Ule9o+QfjS08r2oPq6Yx3G7XjFGsxMD3yA18cV6wrVdAwT+x0dYlQRS8EbXC9qYVUEg42jyat20VcCm5WnGrxFznYxZ/mubRIgTlWbxrpfbuRQiNcymIZ1Jeiq74LtyiKmCePn6OVgShd+flUaymboF4Mw0Pw3vrQHZoSwG1QkwoxEvGTQ7iXH9XhEzTEMPFkteviLAlSZXNXgujV4AGCX89JXnTCkHoOdK3rmbhSu9tUzBOSrqym0EMQkdbqGMBZcw0kVsPqHxTdvC+3AxGiPrY7ldd+FCJYUoDrMGB0eHR+/2F9qo4AVn2ZMHnXyq/yRV4FxShm59GBvoJ1aP4PHA5mG5dQ5veQg3AgVESd3WWmnOyOi0S1fnZIriZQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_origine
+       identifier : 0x2f1d5f4d5a888d01
+       internal_properties : BQAAAAUAAAD8IeC+I6uH4OR5aWslEWa5E/y+fLkWVKDW9S1YXJdoJZiI+3xQ7Mnnwly7Dd5zpneMofEt9hM0/5CZlcj5tOtv0MfSRUeLUvyUlUhs6t06dRmmHLJ7mtHsc2LRyv8Ms+X06iomx2jWUG51UWJ/OzVhaOmY0pTEiS1cxe9q/3e2Zq3gskHc9oTMx1/CJ1ww7SKzAXXuHOJ/C4AWeA/YnaEd4CapFCckxeSTE2q2Qv26VDAjWhs2sLVXX65PIda+ZQvLGKJQc9MYbk/Qq1uxGRm9CyWY0xJKCETKrogOFzO11QpFLTfRqAUmDXnw4JXj98hqH82/op88HhqRPBIcrTmh+o2eJvQfTqAF+84QJqrjd5GJLlncBcehEc2bHL8ERFVmfWdYuOuZjgvskeQ5tDtPDG6FckX6orGRzmF+Mdxjl+oZYt59Eu24Iy+Tc2UTEnq+YX2I+8iHCPR8YUK3eSHodjcMNhdPRz1B2ZIvdb4A+TopXbpjwUk7jq6jAlEKfkg4WBbMqCnnHjQ=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2f1d5f4d5a8a8d01
+       internal_properties : BQAAAAUAAACaEI92WJyENH7pwNUmwzPVolahrX5U6m64iBmcyx7VXz5v0Njfm7WbIrmvqZifwNFqish0VjJ/AYITDSZSf9pDv9Rnf2AJt2FAN0Rhzg7IKzD+qNFqm3fVNLfkjR9iyJ6P+/4bHLDfXal47uIWQkL69cl/Xi4vZY+6jfCRmRWh6CFEpi70Zo/uBeF9bl/SEGDRviR2MlGVXD3H5ml2ow6VABKA4/3sezQ6HqsXb+T8+ON3jByKDUXOy4tNqNAbe2RpKcJBjOPHivKlKmtoZfEE9Y9vmYFPcVodqTmH2/srSead61eEK7tKOqKZPva8rrZaQQn/HO+B2wBbZX4qiwX4vEnP5cehWSwrceEyGFBqABPt1AlXETRLSq032uRCkWd4G/fuFM6WbUuHVrdNNp/KYWrvKAl0A1Pnnq0z2qwtucTr4yD9iO3Z1bKhrVeEQFnaiIh67fwNEyEYyz+yg27KDpmV73GSrAzM1oTqZPRvLjSfcRPFop+LqmX1jfq0IPr7lkTGH4CFJUe5OkeNrz/Zu3a+vWN8
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         LIB_origine = ChaîneConstruit(LIB_origine,NuméroDeMoisVersLettre(MoisEnCours()))
+      -
+        code : |1-
+         procédure interne Actualiser()
+         
+         
+         sqlAVGConso est une requête SQL = 
+         [
+         SELECT <§cs:3§>
+         	sum(Stock_move.Qantity) AS MoyenneQt,<§cs:3§>
+         	Stock_move.Ref_move as Ref_move<§cs:3§>
+         	FROM<§cs:3§>
+         	Warehouse<§cs:3§>
+         	INNER JOIN Stock_move<§cs:3§>
+         	ON Warehouse.IDWarehouse = Stock_move.IDSource<§cs:3§>
+         	INNER JOIN Consommation<§cs:3§>
+         	ON Stock_move.IDConsommation = Consommation.IDConsommation<§cs:3§>
+         	WHERE<§cs:3§>
+         	Warehouse.IDSociety = {IDSociete}<§cs:3§>
+         	AND<§cs:3§>
+         	Stock_move.date_move BETWEEN {AAMM} AND {AAAAMM}<§cs:3§>
+         	AND<§cs:3§>
+         	Stock_move.IDStockInventory = 0<§cs:3§>
+         	AND<§cs:3§>
+         	Stock_move.IDTransfert_internal = 0<§cs:3§>
+         	AND<§cs:3§>
+         	Stock_move.Ref_move <> 'Ajustement de stock'<§cs:3§>
+         	AND<§cs:3§>
+         	Warehouse.Type_Empacement = 1<§cs:3§>
+         	group by<§cs:3§>
+         	Stock_move.Ref_move<§cs:3§>
+         ]
+         	soit xMconso = 0n0
+         	soit xTtljrMM = 0n0
+         	dAteAAMM, dAteAAAAMM sont des dateheures
+         	dAteAAMM	= PremierJourDuMois(DateDuJour())
+         	dAteAAAAMM	= (MoisEnCours() <12 ? PremierJourDuMois(AnnéeEnCours(),MoisEnCours()+ 1) sinon PremierJourDeLAnnée(AnnéeEnCours()+1) ) 
+         	xTtljrMM = DateDifférence(dAteAAMM.PartieDate,DateDuJour())
+         	
+         	sqlAVGConso.IDSociete	= gnID_societe
+         	sqlAVGConso.AAMM		= dAteAAMM
+         	sqlAVGConso.AAAAMM		= dAteAAAAMM
+         	soit bNrc = HExécuteRequêteSQL(sqlAVGConso)
+         	SI bNrc = Faux ALORS
+         		HErreurInfo(hErrComplet)
+         	SINON
+         		POUR TOUT sqlAVGConso 
+         			xMconso += sqlAVGConso.MoyenneQt
+         		FIN
+         	FIN
+         	HLibèreRequête(sqlAVGConso)
+         	
+         	LIB_135 = (xTtljrMM > 0 ? Arrondi(xMconso / xTtljrMM) sinon xMconso)
+         fin
+         
+         Actualiser()
+         Timer(Actualiser,Hasard(6,12) * 200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2f1cd97a55b5840d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_TBD_NbStock1
+resources :
+ string_res :
+  identifier : 0x1f1cdb7615e221a3
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

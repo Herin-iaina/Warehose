@@ -1,0 +1,149 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Funnel
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Funnel
+ identifier : 0x2d774d470463bbb1
+ internal_properties : BQAAAAUAAADlZv2x+/TaTSwfL/R7TwcRsUX2e5zF8wYT+jtdsDmbpF+uvdq0tRnpY/XXGNio/VKoZbdoV4DVU+DCowEpjFqdI7klzl4cdAILcHEYUs1TKvwGTj0qsXnEA1nTaDeNvqSCUitmaGVQTGVvHDTlKacTJ2yyxRUhn5hOuIjQYlXWByL3GzPl/AoYEyYm3Ro6/RjWWQCnD8PSw2MFBpdcixR7QmujcWfg+g19IAkK1XcYstdUY921tCYpkE1yEA3F2zdGNml/h3iwNHuImELamRgRJAeC4tSlg7XE39mYnY+SVZFkoheW9wPwZolKfXZouxa0HHPn23CxUn56DaUnM1/RG7+GhAIXpAC9TccZvL34ehJ3h3nUo4AefFWGsgOUTH0B+KwagO1KwwlHy5MSYJcTgNy3vanyKXgBA08T5cJajnJP+IHG5Vcz/Yx2GnzFxUm9Gr+TEWrHHQmEfgbB4BTzOgT2PGOdl/nPXkhp8Gnq8qzFlrsb0lstH2vqEu+1GeFK3dW/+kdRALzQv4xNk4VjGFWUSFRpESYe9QdspKg8CwuSBdSY6gekkp35XriCoMWv0NYcCrxKuHIahGXNmtrjAHIDVJzY3GSNJQLPSudvOMFUpEsy4uVUQpgv5Vj6b7R/Gn4NVVZwnSTUhJwgPJre4/uLM6fC1tC7KKpcOmW2hrCmr/gnLIX9MP5abGMuhvID0LPxYxKd8Y4f7zG+dU0em0I7JGbLkEmIZkBSGz2fAI53yM/C300p5ZRbR2IDVz+XjrOg9A7bOIkm43V2UQ==
+ controls :
+  -
+    name : FI_TDB_Stats_Funnel
+    identifier : 0x2d774d470464bbb1
+    internal_properties : BQAAAAUAAADDtuiymfbY0ZVQgpVz1ASP1HV+Uu5PYvCFKzMb/zi/+dnyuOE4uxkDQ1KseSy1EPJOjKJXdxPNl3Qy69JWeZWHokOl1x9+4nhrd+R53dc1VRccPoDGotXTTBjOJyR+gdJaG2vCBQmCf0yO2BXpxYLP4t/A79KjPHeg6/LUN4tnuWsdT1jHeVO2u+gZhGc1BbWCLmN5dJA3Qs0ztZxpwB0vMTByCNB/v4NYvvGjzvavbRp4g5XDuXBS1HOeCivspfJgCojnTSNowRWCqyXFl7ZBehQuHyhZLtTCEuz8yejaBIs+ZHU5mOloQuK13PnV0y86fcDibqjn10IGUBSSjLXSqvUCPetJHAPqk6KxDbc+GtY2S3vvtlLCbYqbM3nK9y5F3OlN5lQz3zt3rpmiK+THW8EUZLT6R0JU6eo8L1eLqarxVuEo1YZCdkIbRimJyh4/
+    controls :
+     -
+       name : GRF_Tunnel
+       identifier : 0x2d774e3404b9590b
+       internal_properties : BQAAAAUAAACYXY0+W1qNBbkO1QsjhjM1V1pEj0CwDzRf+mYJMKNz+I/yPwExbcIilK/QRwjdvAUh6iKV/hnYy0VdAmIJnYirMDXEgg4Z7jjWhd43tmGNuiCyvm+KQua4IB9aBzbFPpQKoW9uvQaODOoTJmlyNjkzCoXwFKlqrLvReX3VrIErmQbGw8COt8ctDwC2mPqTWDWfZoFU/2/9rmg7PbOaj1FdnAGoiYDZCFlzMx+dT5p3uJ5Iv5RwxgET1qbQJnvDCRf8vWfhnP4tnPNl3/Yjr/DR4gWgkn549q/4POISAuAkNrztEsRHKE1yWky4E7ImzyVsNTMk4/rTTNG7w7r7nKS37pzZT25AUF790wS+b1TYr7YsK9lskY9DvfyTEl6OgRV7eGDiicY0D3ligbsneKFuk8ZmeC5mSKWyr+DDhz8KR4i64nNGgJBDhW8FxDacIg1/6TkT7DZIDCINIURA4+OdVsWPXkM9+G5LrnZ3hpSFHbDuYt4RMj5J6BIJSLzWDQ2Qn/sxTdOpIjUdF+jiWI9qGgGkMDUo8ik9RdkiyPPbIrHJ8AcOkb9U2vHBJAhIBMeJ1pM4Kol1drXiADy3tp6tH8WTByaaoRBnRYgv7TATQNJ3Y7Lt69h3znZG4ScU3t+dv/oXrUWk5gj/+cYZgAWxQsCcnDby/sEZoWPkww8TBgXhFWzVU01Jw+ACr9du6wmCYO+UQgUbDzqUCl7WWgI3UTPrS9MGaMw1LNN4rxUyAWSDqONjUFKXwBhYrBa0DAEzUQWhcwxlIkUbmJ1Er/EDC4qusNPTn7MxdtbiwD/qy/W1KdqmUKUWG3cZsYoVs8JzTPKk1ijwDKXCyNLzaG5z1bZLFYSVl5QyAaLKwkSXfo7gJLw9U3qrWpFRJlh/woG8iBri2LBBsJ5ITsQKUrvio6z8sD47dcwrxNjE5/1de7c0irA/HgNSjwIDT/BWQEU+uZyEuxkMNVQaHqAYoam85fuxlco2cEF74ODW6evgwaSuRe0gK9D19TyGbp8rUin8iVsf8j7n1P0zD93RZUY6nWDpUVJqnG7iriIytRUClbYFRRPFrbkfmuMjbLxLoajWzo7ukVYx9FL+WyUxUtw/B8Qd8WK4bxCEKs1OVadJ6tFxfXTvunmjipjwjqzilE3Pb/YulFD7Tm4oCkQA/QWgsI2p3L2IPaE1KNw+qZiIv15uuxiO9GCf2I6RZPh666O+oLjXo4Aw/kpenNQEnuawt0PNtQ1bygfeaeZ7LvIU19ha/0cVoX6xTmknnWzm++D7NmDsbin0J71T9VHZvNaN7O/2Bgxtk3tcsDBXm+qnFL433cOeyk8w2D+1J9VTacwkhfELgjR2CtbQ3vyU6EVvrqiYpJ5fL4YivUGsRRj/dPTnFOrLieumWEfYWcRI5ErXeiJl9FGEnRGE2nK56gL//2qW365h6BE/0zF+E8nQWTcI14M+yMRV2F+qksSXRHyT/KIr+7r4g9CP0CmyarQ/EISIfRkzcfZEHQvlxhZnhA==
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes :
+         -
+           code : |1-
+            
+            grCouleurCatégorie(GRF_Tunnel,1,rgb(41,117,178))
+            grCouleurCatégorie(GRF_Tunnel,2,rgb(0,205,211))
+            grCouleurCatégorie(GRF_Tunnel,3,rgb(0,183,195))
+            grCouleurCatégorie(GRF_Tunnel,4,rgb(219,57,35))
+            grCouleurCatégorie(GRF_Tunnel,5,rgb(226,97,79))
+           type : 14
+     -
+       name : LIB_Top_5_des_ventes
+       identifier : 0x2d774e880512a206
+       internal_properties : BQAAAAUAAAAV151jBzSgHSNV5cBvcwnnQ8fnGE42AQi4LSdok8KD5qse8u+ImnlC1DRj5jFO5B3ig9SgQYdJzK2/Gx9fVGXGNKkEiRCbOgYjirOCmRzBldjHg5n2EOVotS+27saII+koUTnJUOhNdhNqxQHeaEV/gUNy0JdrilOG/mqfmmlchlIGK/GPrPg5btYj0/q48929L6Kf9v7gRwPM1Q3DxLCIzuFse+PrjxaSVX6MLNUKxYIj1wSkIaa6WKpOf2K0/MVf+FNoQrAaIOo6cz6/jY/ZsqCwvi4642OJx54RAnlZYc7LBx/VGyzPzDm90swhan+/FJjfNQQtpsC/EGKfholvnNRX+WcP03lZbII3CnZcUl6Yy3wn1brV4FLq7EK+5JRQ3BAfIMVy0MojYUEcpVv2RWRHlVLWfHBkgGQE3DP1eCsBM8ktHW/VMdgUHGcaGnm3ZNdy3uMX0ZjD4TuW4HxiDfpevOyA+m197PU18vhNHea7S0VIcxYb
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Agrandir
+       identifier : 0x2d774edb05a7e6f9
+       internal_properties : BQAAAAUAAADFrWFI1rfZIznRtf+nO2b6dGK+YwUer5VYvUM5Qg4vfMs9bnQNQTV1PUiC19JsdyJV3duaIlzTFfGwWUB5Vf1RspxoJuQHm+0kQWNATsd7eiaTX5pTVr81O8bLS5c37IvHy2U2BIL7N4nSIdHmo/yv/EGQMxUnvnXYmBxFJmE+s/pQcHlZ/TAVR00lnjmNSejnZRacDh91e3g3ELR+JUHxIzkZ/aiSovmIeOMf2zn4lKlAyPN8PdPv3rF0F8Fk43e7xjfwaaORGdYEbk8g2qADzFOdTrQ8P52SYIgcY7Nqo3TxPRKvTViODWZwyc9jYai2iSO1wRT3NB1GmeucP/cBbywlGYw40wYLliG+VeAs1hELCCZv1Zm733VghgjAOGh/7Kgx+tpp74qQ553jz2/t5qs5Cw2QIyAB+PF3kf42GxWF8/k5Y2GC/5zGkiJ5PnLnTpc7jyfI20L9x8TLYMmxSnYFlaI0Bvi9q237BHcBOmAxsuiXzuq6m/oLQ2osvBk0OJ//8ZoTZELilvRwBbcUab9qH90skumg1WdcTUTAxOzbA12ITXZ3FkqohI7TsDmQjnG9AgM+PmoxY5/m9YVQflnhqAMvoKmSEUZfoYyL5GEGviIQr/kptu/qcj4EUDUT/1geupRoPeG+zXei5rfyw1IsBleXFeZN2G6OiJzZqIyhhgFXVL6ToLdgsvsNr1Pdn33yvio8k1PundKlnycOLVAahMZv7Kz818Wz/gdUNFXSDvbkiUghJTiywdhTg6OWkgzECixoGKB/vh1i/9FbSRZlCGrCFBV2P9c6zGS6ZWckzSD7IOjvpElbPBhoEHBD9VArTypz1SyejLI2UQ==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         
+         LIB_Top_5_des_ventes = ChaîneConstruit(LIB_Top_5_des_ventes,AnnéeEnCours())
+      -
+        code : |1-
+         //tabValVente	est un tableau de monétaires
+         //taMoisVente	est un tableau associatif de chaînes 
+         procédure interne Actualiser()
+         	
+         	ventParMois_ est une requête SQL =  
+         	[
+         	SELECT <§cs:6§>
+         	SUM(Total_TTC) AS total,<§cs:6§>
+         	date_order AS dateOrder<§cs:6§>
+         	FROM<§cs:6§>
+         	Sale_order<§cs:6§>
+         	WHERE<§cs:6§>
+         	IDSociety = {IDSociete}<§cs:6§>
+         	AND<§cs:6§>
+         	date_order between {AAAA} and {AAMM}<§cs:6§>
+         	GROUP BY dateOrder<§cs:6§>
+         	ORDER BY  total DESC<§cs:6§>
+         	LIMIT 5<§cs:6§>
+         	]
+         	
+         	dhDAte est une dateheure
+         	taValData est un tableau associatif de monétaires
+         	
+         	dhDAte = PremierJourDeLAnnée(AnnéeEnCours())
+         	ventParMois_.AAAA		= dhDAte
+         	dhDAte = PremierJourDeLAnnée(AnnéeEnCours() + 1)
+         	ventParMois_.AAMM		= dhDAte
+         	ventParMois_.IDSociete	= gnID_societe
+         
+         	grSupprimeTout(GRF_Tunnel)
+         	soit nrc = HExécuteRequêteSQL(ventParMois_,hRequêteDéfaut)
+         
+         	SI nrc  = Faux ALORS
+         		HErreurInfo(hErrComplet)	
+         	SINON
+         		soit i = 1
+         		POUR TOUT ventParMois_
+         //			grAjouteDonnée(GRF_Tunnel,1,ventParMois.total)
+         //			grEtiquetteCatégorie(GRF_Tunnel,i,NuméroDeMoisVersLettre(Droite(ventParMois.dateOrder,2)))
+         //			i ++
+         			soit indices = gauche(Remplace(ventParMois_.dateOrder,"-",""))
+         			taValData[indices] += ventParMois_.total
+         			
+         		FIN
+         		
+         		POUR TOUT moValTTL, sValMM DE taValData
+         			dateVal est une date = ChaîneVersDate(sValMM,"AAAAMM")
+         			grAjouteDonnée(GRF_Tunnel,1,moValTTL)			
+         			grEtiquetteCatégorie(GRF_Tunnel,i,NuméroDeMoisVersLettre(dateVal..Mois))
+         			i ++
+         		FIN                                                                			
+         		
+         		grDessine(GRF_Tunnel)
+         	FIN
+         	HLibèreRequête(ventParMois_)
+         FIN
+         
+         Actualiser()
+         Timer(Actualiser,Hasard(6,12) * 200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d774d2c0170540d
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

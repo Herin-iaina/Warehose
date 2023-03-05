@@ -1,0 +1,335 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Horloge
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Horloge
+ identifier : 0x2d777560125f5d68
+ internal_properties : BQAAAAUAAAC0w65cCa/klVu9gnFfZI77Kq0sZ3wdsBT6eOky73ZZZPYJJJ+kYgMw1WpS9s/OJhH0Uq1jVwTp1sygkvLdheQwDBrBh/cUlS3fmxM+sr22laOVCmtaVevSE84i+tSfLdvCOs6E1dn68O5Alhys+WDNFhg5DzohR/5GhTdHc98l7qB2FGndj6WW8NVxNBAVM/dg0U+DIXwDmBx4YBvsnIU/N7NtOQqJA/V9nMp5hnf9ovruQQHYhQOCs67RhatCWVDOzxsxo1Jm6QCQYYFA7Z4eqGDD1v0tNvU0RSEtSKVSolLu7yTJPPfLIQuoHr0OZ5vShdnGwSuVKAdSop6PxWU/8mUksIA0nJ9JU0OnE4NQ+g+nBXVL44Dvi8U3Ky6tRbnpjkGBA/IpztlbYYG33GjB2NjkRg2dhGSBp22pUi6tAM5Xc/AAahTl48ZK2tvPFt0Z2pxUHy/WmlRj+UejC17uC2mMdFi/gRQwE4OS9LoGQyckRjVoUHegSGA1qxk0j1b1JHGRWZMjLUUtFjGFPCFqDWaU8hOTQ2UL9pxbLmeWZvhb+cKh7FmzlWRAo+yBjJzuuyqOSVzuEV9Ta/LniUw2LQOTajV+Orcybm+WYt5tKTzz+mNngs0ncTtuEuYlqwc6OWzxhAjIzrVR4zECzQojkNyFq3LcTv9qe+3lUrgO3QNdoXyGup8It5Fd7b81/lvQuVfHhgLFfC8shHBGMHW3GpVW26vZytr8s4Wj5ALucSKxl7+P3NHY8LsR1v0SO43ewUOgyBAeFv0WDhwvQKOw
+ controls :
+  -
+    name : FI_TDB_Stats_Horloge
+    identifier : 0x2d77756012605d68
+    internal_properties : BQAAAAUAAADiD1Odsnwm4kvt9zP1F3Q3/mPNGOW0cCzGVAPAfV2jeieQbHT34tlLE8KR5vNeA22xhR7S6Zj6trc8BTmYo4zEG6CcZNFodS0VmSifRnLtO+dA0bePUBLhDTmIN+7y85XgWQ063o+GQG9iM0o2BftgtrNxhtzvWy4ecP2ghQHL+/CtPM2Q1MokuEy/chYlURCwpE/kNh8QLPUiD2gLRugb75eVKgYuP2BwMweGth8qg5jBGeQ+4KjQSJY6h0PVqNZg3Zp+wL6IJ62H3ZSHhHnHzM0GoGVq/GZQOW6tfTUligmZfjwkE9s+EGE7ixPickMI5PqHfwUVyUaLRs8KXVhozBr+koSCZKlsnPJ2b3aXGCwXd+LigTTMIw+t+QvtfTl65/oBXgtOyon2BS/D6cQ0AnrbbIf/wAsXgu5AsgIiH4ltmZUUB6MVA4Rk1P1m62w=
+    controls :
+     -
+       name : IMG_Fond
+       identifier : 0x2db99ac0c0de7b58
+       internal_properties : BQAAAAUAAAC/eraopRUbFPSERYOxIWEfuQiFG9AoRyOm/mkArMkxHevmN65K6JMShzOQHxwwtm4YeQWVDmM2tXaEYek4io186Bb2T+nSkmKVBrl4jPPFIJi1jjUcdrlxgWDCUZSNvdb3keJ1YUCfgn6exsUuPFrGCKuFyilMADOsySEE9oQ34vobUahI3zPAMJ2QQXhI+muZ73Bsm7Vm2zX5ER4Ni1Z204o6diXOQ53hg9rIGKt+SSlNNwecQintY6astmsPd8yob0KHrg1Vc1IZYqTi9oFSPYa0CCYDYqRxFIEqkbBKiVBI6QkwQ629U1a1s/X9mBBEEG6rTqoG9Fm4mUqrblHUXWyUM9F9ohwa2eCKhe4fP2BzXguF1ePs38XGEwMaGk7X+V3PLxYRRuetKbjT7ltl4QelZsO8V+6Pkwov4/8KACfvG1KVOGNEpI/tz0TrOlw+os6BlskCrHvk55Wuu1GennJi259xt05FR2nEIc6DHPfJnwCtm6OGAl7pg+SRtGzJUwPjUSD8vz0ulgKTgGwljRUzKQf8LN6tQAwTtn1iTCKWuN6d6Eibh0JmaWjhYbulAY2CF5Z3mstWng==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_Dessin
+       identifier : 0x2db99ac0c0e27b87
+       internal_properties : BQAAAAUAAAAWmachhTAft9NjcsxKUmd26ynpa8+qErmw+e/BdcfymNC/FqeOi6q8pNyvOmUvyARJaTD2giySmQkZkdhfyAdTUfAj6WvqZb7kwFW1YuYrmkkCEBk0cOzg4bgGg9YGphugxylriMt+i8VgJtbH/vttNcnk4ITP9/ZX5oGyPR1pR5D12ot1AhlQBGGzefuYnVd0wD0hx90cGE0bRGitrA6oweS4dpt0SYa5ZVAGTEwkNTdsjTLSPbRqhjEHvmdgPxCWUnwfBw5PdkVZxtmhsMPPhsjIhFk98R6iPCVN1uo8SNDsS8fmSerjaLDac1NQ1oxh0UTLhJpF1Non9ks7oz0z46EiuxhMYYjpr2FkfNS6CvUSv7vOwPR97NkJ/vjkYkk2apPNbpgf81PhJmUqVL1pFgH4h8QrcQgsVK3G4b0CxUEEcXDnnQxLIOZBarS/+OLBbs+hrJpc7O1FVdHHWDfYr10HiGs/T/V3k4JX9p1bvqjWjT5eoMdMNg==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            
+            // Paramètres de dessin
+            nRayon 				est un entier = IMG_Dessin..Largeur / 2
+            
+            // Couleurs des aiguilles
+            nCoulSeconde 		est un entier = RGB(220, 56, 43)
+            nCoulMinute 		est un entier = RGB(55, 70, 73)
+            nCoulHeure 			est un entier = RGB(55, 70, 73)
+            nBlancTournant 		est un entier = 20
+            
+            // Taille et épaisseur des aiguilles
+            nTailleHeure 		est un entier = 0.70 * nRayon - nBlancTournant
+            nTailleMinute 		est un entier = 0.86 * nRayon - nBlancTournant
+            nTailleSeconde 		est un entier = 0.96 * nRayon - nBlancTournant
+            nEpaisseurHeure 	est un entier = 5
+            nEpaisseurMinute 	est un entier = 3
+            nEpaisseurSeconde 	est un entier = 1
+            
+            // Dessin de l'horloge
+            PROCÉDURE INTERNE DessineHorloge
+            	
+            	// Initialisation du dessin
+            	dDébutDessin(IMG_Dessin,dEffacer)
+            	dChangeMode(IMG_Dessin,dessinAntiAliasing)	
+            	
+            	// Heure à dessiner
+            	hHeureLocale est une heure	= heuresys()
+            	IMG_Dessin..Bulle = HeureVersChaîne(hHeureLocale,"HH:MM:SS")
+            	LIB_Heure = IMG_Dessin..Bulle	
+            	
+            	// Petite aiguille
+            	nAngleAiguille est un entier = ((( (hHeureLocale..heure modulo 12) * 60) + (hHeureLocale..Minute)) / 2) - 90
+            	dLigne(IMG_Dessin,nRayon + (Cosinus(nAngleAiguille) * nTailleHeure), nRayon + (Sinus(nAngleAiguille) * nTailleHeure), nRayon, nRayon, nCoulHeure, nEpaisseurHeure)
+            
+            	// Grande aiguille
+            	nAngleAiguille = (((hHeureLocale..Minute * 60) + (hHeureLocale..Seconde)) / 10) - 90
+            	dLigne(IMG_Dessin,nRayon + (Cosinus(nAngleAiguille) * nTailleMinute), nRayon + (Sinus(nAngleAiguille) * nTailleMinute), nRayon, nRayon, nCoulMinute, nEpaisseurMinute)
+            
+            	// Trotteuse
+            	nAngleAiguille = (hHeureLocale..Seconde * 6) - 90
+            	dLigne(IMG_Dessin,nRayon + (Cosinus(nAngleAiguille) * nTailleSeconde), nRayon + (Sinus(nAngleAiguille) * nTailleSeconde),nRayon, nRayon, nCoulSeconde, nEpaisseurSeconde)
+            
+            FIN
+            
+            // Dessine l'horloge une première fois
+            DessineHorloge()
+            
+            // Rappelle le dessin d'horloge chaque seconde
+            TimerSys(DessineHorloge,1s)
+           type : 14
+     -
+       name : IMG_FondFuseau
+       identifier : 0x2db99ac0c0e67ba7
+       internal_properties : BQAAAAUAAAAJqw/M2abrgoGFHllzJD40JUd+VM9RKwiqW5y3Y9MuGrtfW4fQU7uTp0B373nI7hILvvhqE8bq+eZmRMSwLdk1k6r5YkLhgQ5lxZaIjGM4/Wr2Dku72BjEdlnCtTtiRsKXqFFaYx+RU8Sfb/AQjUxEZFaxGXaPQcvwMR4U7WECOOm3FQLG6qC4mrzfksgkNPC5N0R6+QqbZp6LroCLCS/VUAm/JXUrL/VjneTC23RfLwsIknCN7XgGwk8Qw/fMbJs2KHam08b6vGQdU1Oj/GMM0JnlVyWMqqBXLfK3YPuIBg04HuL6a+FTSfWLrm9rllOPYfwjxHFMHY9j4WakZqcuc8gxkm0lTnIO++iqtyg4pJejeZibDr6wHgzCZYMQ7cz7QQyQHwQfbqsYaXMtyGUiTse72iazg/rtcIfXYfWKKwoW/6fTMO7X8a9BwT/2CQfLfHjPQR2Kw8aNp4E4mXdzM+wRvNfhQs2YofZ9O1RaY4N4K3heHzn5KiC/5QtzEF5WtSK8WFwq39zYASMmdxYXL+gCG49O0Bd9RpfLP4w6g4xNDTDGK4SJZuw/fYkuAIDzbSGUdW6/Dj/gkHaS
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_DessinFuseau
+       identifier : 0x2db99ac0c0ea7bb6
+       internal_properties : BQAAAAUAAABGyfeRlcAvp+NTAry6YhemW1m5Wx/6YmmAqb/xZdeiSEDvJpfe23rsdAz/6pX/+HR5GcAmsiPbqjp4yCewP6iAAu9ANtQDEPcJmxCEs9V414pJJUYlwe9NloM1cue1N3zJfs6YOZjBSErLTb0gXRx6AtRxDVFwzmNYBUjhznQ2kMFsA8waj0A9YSyWQJzX2uBlx1ZSPBZbkd6KCzfua8cNnr/hJyDBGPfq7HtJsbf03jiBppZ2Y4wYYh1D4DbBLJ0jPa/GTs34nbiwPKEh4DvZuhaWtBlrO/RyYtuNFlq8bphO7fO6syhx4GYAO9MQWpZtn9IjXHj3flbBkM9PH1GdR0eYswAuTx55PY80DLRqLJmYzTN25u5rjEdnXlhkguOiADkl9hZpsRMv9FXahIGzwrcm72x5+9a84itOqQX6Q9HWW6C3zTx7EBZxOkQPKJIRPh/RfMqMnF31heHXKOcIf63XuDtvf6Unw7Jnxq1LrrjmnS5uUHf85g==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            // Choix du fuseau parmi ceux définis par l'IANA Time Zone Database (à changer selon préférence)
+            // par ex :
+            // Africa/Abidjan
+            // Africa/Accra
+            // Africa/Addis_Ababa
+            // Africa/Algiers
+            // Africa/Asmara
+            // Africa/Bamako
+            // etc
+            LIB_Autre_fuseau = <§$0000§>
+            
+            // Paramètres de dessin
+            nRayon 				est un entier = IMG_DessinFuseau..Largeur / 2
+            
+            // Couleurs des aiguilles
+            nCoulSeconde 		est un entier = RGB(220, 56, 43)
+            nCoulMinute 		est un entier = RGB(55, 70, 73)
+            nCoulHeure 			est un entier = RGB(55, 70, 73)
+            nBlancTournant 		est un entier = 20
+            
+            // Taille et épaisseur des aiguilles
+            nTailleHeure 		est un entier = 0.70 * nRayon - nBlancTournant
+            nTailleMinute 		est un entier = 0.86 * nRayon - nBlancTournant
+            nTailleSeconde 		est un entier = 0.96 * nRayon - nBlancTournant
+            nEpaisseurHeure 	est un entier = 5
+            nEpaisseurMinute 	est un entier = 3
+            nEpaisseurSeconde 	est un entier = 1
+            
+            // Dessin de l'horloge
+            PROCÉDURE INTERNE DessineHorloge
+            	
+            	// Initialisation du dessin
+            	dDébutDessin(IMG_DessinFuseau,dEffacer)
+            	dChangeMode(IMG_DessinFuseau,dessinAntiAliasing)	
+            	
+            	// Heure à dessiner
+            	dhDateHeureFuseau est un DateHeure = DateHeureLocaleVersFuseau(DateHeureSys(),LIB_Autre_fuseau)
+            	hHeureFuseau est une heure	= dhDateHeureFuseau..PartieHeure
+            	IMG_DessinFuseau..Bulle = HeureVersChaîne(hHeureFuseau,"HH:MM:SS")
+            	LIB_HeureFuseau = IMG_DessinFuseau..Bulle	
+            	
+            	// Petite aiguille
+            	nAngleAiguille est un entier = ((( (hHeureFuseau..heure modulo 12) * 60) + (hHeureFuseau..Minute)) / 2) - 90
+            	dLigne(IMG_DessinFuseau,nRayon + (Cosinus(nAngleAiguille) * nTailleHeure), nRayon + (Sinus(nAngleAiguille) * nTailleHeure), nRayon, nRayon, nCoulHeure, nEpaisseurHeure)
+            	
+            	// Grande aiguille
+            	nAngleAiguille = (((hHeureFuseau..Minute * 60) + (hHeureFuseau..Seconde)) / 10) - 90
+            	dLigne(IMG_DessinFuseau,nRayon + (Cosinus(nAngleAiguille) * nTailleMinute), nRayon + (Sinus(nAngleAiguille) * nTailleMinute), nRayon, nRayon, nCoulMinute, nEpaisseurMinute)
+            	
+            	// Trotteuse
+            	nAngleAiguille = (hHeureFuseau..Seconde * 6) - 90
+            	dLigne(IMG_DessinFuseau,nRayon + (Cosinus(nAngleAiguille) * nTailleSeconde), nRayon + (Sinus(nAngleAiguille) * nTailleSeconde),nRayon, nRayon, nCoulSeconde, nEpaisseurSeconde)
+            	
+            FIN
+            
+            // Dessine l'horloge une première fois
+            DessineHorloge()
+            
+            // Rappelle le dessin d'horloge chaque seconde
+            TimerSys(DessineHorloge,1s)
+            
+           type : 14
+     -
+       name : LIB_Heure
+       identifier : 0x2db99ac0c0ee7bc6
+       internal_properties : BQAAAAUAAADeE1d0FLYzz55MZeD6vqiahozClKOwDmY0EfWi8K+RQWX9LmwE0N9RubrTdb48hT3uXPOFb20A/DzjIhHo3Tz4QndD0xB15nukav1AoJSuRlndfvvFO0NAsJuR0vTJ3y7nY16BZvs55EHtWWnz24fENBQp80AGGiDCSYvvY7uZQe82G6DDcygxaxOGcdtv6gcir32v7m2ZDQa45qPJUmc51g0+W4/aSWR8kjgXCujoeNjIiNpvXJLEznBMGCCUi06zSUC/zp7He0Rp7IhzMm/9cV4cB7jxQRTvfVsHNR9h+F9hVwddyjpnfEUqvATR2+YZs4+V+cVDleMjMfhmsnOaNgoglUsVv2ZpamhVmcmj5taO+NjLDTuxlJiSD2vX/iLfqZItUnXSfLpJIePGEZ5GxdZOjoDeD3eF04rOOOqm8L22nosQN1ywjrW6kz/8zOxYCwncGbI=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_HeureFuseau
+       identifier : 0x2db99ac0c0f07bc6
+       internal_properties : BQAAAAUAAAAT1bYG9t88VwXxZPGEZkdEElq7Ld1H+B/jlV9dHM/J6qH4YD3YksdQVUncKsoFdEcBJOYSFQmz+KLsqYPL86EeRy9Nz6QKbjrbbHqyuXvFlEfC0leomVB/DNOfg+D1EKLV8nmz7s50G6QGG8VdhWUQIWM9Vw7A75YoLwr41n5Rn1YI/3GcZaGJKLTtIlRAe6SBElwZT1eXazH7HIfs1EergFeHLMm5F3Y1u/52KOkPnXIw0UzXpOFPWZP5p+n8BzZGfw4FsPVwR7Q7BlCi6dZ6uc24xeYNa9aCAnMqFMgOMVvxyfMsRe7MerXeUlsAEKZLYYtAtZWmT9mFaJlV8cPsHO58ykO05qOYu6UVyPQJv9G/WKbMEP8J6tIsiNIuPWuYhzr+NVpaMaco4467E17G5gDw7/vXF6EIUZbPWwayj1L7W3ZH8/jEV7zZbwBKqECNkAOD+477M+9+77Q=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Centre
+       identifier : 0x2db99ac0c0f27bd5
+       internal_properties : BQAAAAUAAABETyBdkaLzhwg53VUwnvdDPzzBzj0OkTcfbObAJuUkrg4O6C6puqOpRnwy4uFbOIRGPHB6Fbok8SUOSOs4nAtSvu370pO774ORxJmEa7NtiknSaJX7a0EJ8hBb9nAIyOrFTWxwqnSj+Bedzc4nzfPuojvAXLCxIMWUhMePzMRWtCyiAeGbivMjxLb+50jp6P56whSEkyXMk0TejpZtdCIRwMQqvh/1n/hdIXd9gPW4cwpDIR4d5vd3pW8ICryvzQ7obpj6JKEdlWmY5t0sQHjpcyHk56P7yE8hzq/DU1okZRB7Vb7fK6Aa4I99n2pjSjcMBHBIK2mA1bZ1nyn/hLjRasOudgCgB9WjGoyNEmCVIIV4kXkx4C+7BhbMFkNCI0BFHSzvjFYGEBEbJOSHlAiA9W9buqkVECKL5jiVVm6oGuPsWPNxpXhS5cfpfGVxgPwMsSXd3fL9iS6OmYsrX/n5tXeyytKCtOTdaz0fgeQRnjrv/if93/6HFmjTysTwhK6AVH9s+1l2wLJt7nLFG2Uqff3LN6xA7wsDK3fa5i60pvazRat1gWiLgKw=
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_CentreFuseau
+       identifier : 0x2db99ac0c0f67be5
+       internal_properties : BQAAAAUAAADY/FSHNDYFKAxEYWeJ/Ku3wtr8c+bb48aTuPu/iptFeSwA6wRPuSbHonMWlbAYTR2Oh5JDPO2w/9XOeBE2ohdI5eQsTniKvhWGQAqZIZEXtzANaYsxjdPPZqW+L3W1/8od26FBOzK0kQIvc+1enwJ4VLM7owUXKDaOMoO+/VQy4i8MInXZcN+irBSQg2JsO+QZw4cCid482mJefdCDmeFu7zSePj5y3npDst4SYeycgVQ5rjsckjzSb0qtd6rE719KWDvJ4P8n2zxT71t+mxf9uj52pSnZcYi5Wla15PVVkUIVECaWPQOPcfb1R3r5TXuCmJnN8L8st729ct1F9ye3PeeOTos7zCSvAhvtVTctrGiDHxMICCAAjHKQqg3D7BOY2VIgCG3jmnZN4qVphauI201S6kUgPrnpaYAL3kJ4nQ68rv8U7xtUVRe0VuFiywa0C3toIZUnpeHrVvhiWsNFvRu+7vFcZLoKRqV7Zn5xmUEvjEhb9iakn60qU55MTj0C2oCTH4PTAelVAayaXgRditx6mXhND8ctA1cdJE29/jjieNmkSPaacA==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : LIB_Heure_locale
+       identifier : 0x2db99ac0c0fa7bf5
+       internal_properties : BQAAAAUAAAABq/eh/q6YjAtG9x7OeK713+FqZ8iPltizvkZThnOml2qZrKhWMbZtDRnIUDOXlLNKw2KQ7zHIdocHtaaoLZsg2/S9+MaHPjYu664aTnSFCFfsFUKtrKuESkpl7C7Kw1GQkFAnYm0ENUMnbypKeeNSTLgcqDegZxQ/FOkSORyq5b0//pvpMurd619XBNzGOMJ7WJ82G3gGtxTKwE6aSd/WM1qi1SWWl8Dmw+TF7mQXo3oKEpY1//JNqI1vpoHiu4jKqUE1qk7H/iHsmMJzEzjtv4SMmP7iYhI2LStDMXfkgyw//Z7/IYn6qH65Tq8jZctpRxO9SBVpS2+AkSRfpZyEOb+11EOFzASn5no+6fR9tmu/y1bHBRczWdBpUb1T5Lpyh5WDfdTsl+CXy5Zp0E2HBirs2w==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_Autre_fuseau
+       identifier : 0x2db99ac0c0fc7c04
+       internal_properties : BQAAAAUAAAAxmpdwuZn0U4un1hkcJGdLTZJ7ATKpbi5PETBdT02Sk1JruY/qD3RnTTRiMVRgOTkzVI5tZSBmM2IXjBJXUikVEYpW1CrT7RBMamNtctY7OmDDR8JkXt0upSn+rojW41B4+peS1xoE+rQpNvXf50zT/t8xSV7zuiNcHFNzhqZ17KvagNOmYBuKuVozH51RQJjhmLc+iAcfsgzWXvIeRl5r3Gec5D3v5POqXWGBgiOkIpn9vCGJUHv48JOqer83+FepbCk+UHEeazM0FbKhlAEIvj/ofx7zlx0QySwDtZwvjMeetwfHNFBg0+PrHeqJVfc1X2zDL8PvtShvtceEEV8NXP6J9Y7C/R97FtxPBhMsx6dQJ1hoW0BNb/KS24UUJMocJMVNjEYsaStWIJaBL7mEeeJ7jc7V
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           type : 18
+           enabled : false
+     -
+       name : GRF_tunnel
+       identifier : 0x2f1a7c84aa75bc69
+       internal_properties : BQAAAAUAAAB0zDvLGfm3iseNGDRN7YkUxG/ezGGdgotq7GVYvX2N+FzeWvIyGvq7e6ysezNnEU6Ajf41zPQjqfhxYdl0uU8r8D6Az5fVfiM9aec/UpUUQHuE23NEw8AHwq4omVKaLZ5ZeSrhmU9yrtuC7M25zd6oBIkKrMgUBUEdWqPtoE0ltf/zjg8ZmiSbxkKyoVL3XXhVid7HzopWyLCMrwlTEuI0L/D/JssGehTAiqrUUYByTnA7hU0PXQELTc+nUr4pd2aYHyg+j3phUcHNn7bHp2cXGiHKCLlyj+0fCeznSjJD50PVRnEjkH6TPrzVB/iLj4WA8ranI03zEOAA2dwq6aG9T85ckLS4HqcS76/IKF7QC9eOPlQR0WX7Ma6JMJXSgDhqNfynx5oYpo0FSmF5/G/Q/97/f03fJyBgZaYNEbKVxeDgi3+5Fo5Od/D4+sjlv1dvBz5/0tnM/z0zRqO1X1X2FGeTqfpKfGqbPiUNVP/mEu2GO3pHwZwPeJn8SCkiVGjaR4hqZp5CYdDQXf/voE7DBHwCgyQ4yQtEfAKlJeLWjAuObzBVOYrAlWiEjiZyUU/uvqBeZghNhjxDjomz+V18cq+jRfyG2SbAoJISU3a35F06uGEyHYSn41wZkWs4TKfAZYm9evH9HCfZH8a8wnKDZ2woj6zh9typrEygzGWqhUfzMYr52dE6jSfpR2MGn38K6tMqkZpvvauN563Lc52Jn/0q/Fhh5FrPso/oyl84/Cd6g8Yi2Aslct+Po6YwwJU348R/gm5wlUGhO0zup9gwGKC8smrWYpLJj+PjPla343ABRbJrhxidCNZFUrgqq9Gd5i0aNI0NfqqAIPhZmeq9zRch+QrGG8Usu3e4yVXL2tJ1LMjqfcMkJxVpOHDtffxCTluwGICgLyPjb+MOkAS4o5Xbl3/08tfatfNC915QpaYTvoYNdT/bWpEi8/dcd6szrb+nPe7yGuyvdKJ6uU5lZH8eG+u2CaG3/EgrKIUldr+QE8jseS0CE2bL/orczDqeZ2+xx/clo5H7YAfZczYa+leLMjXvCHYNsvLzbdTiwghJwZnQqRzgt39Z/h+GRDGOXJcrpk9hnrB8LgXAL0v7IlpDagmBtksxC92zVtYBmMCo59qxitGgR1rM4w5DJP6DFtSrbZhWwCVxya+7kRkfhQQLHlW+hWObLJCqtGFxD9VdXPWLv44HY76oAUdxHpzrovzqzg9chv26cR2gbjRHRQgIjB05grh6+h3SpSXRh+zHBYUdE0YsZcCN9+p4ttLWx/TwoYfepMq+wn/vYdOWkG/3/TO42B4SliWf/7ENQN5FnVyqirMIlfitvx/3y2LpBcgYHkbUXrcBuSOjKibExMS5Cj0blUlSJqFPmWxeUp6oJjnhXkYrao88nV/EegallVcMPDUFcsGHqDM=
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : LIB_Profil_client_par_origine
+       identifier : 0x2f1a7cadaa895108
+       internal_properties : BQAAAAUAAABRQ4mlyWzoK3sDOwB3hCzqJSa1dg7q++buqPVcHpDYKFb6YxKb+/HLw+40326rkRbxLCXDVUHa6//UglSgrUP+9shF62t6GHaX/2ZiWSCZ56qKGZyZR533ubhFBi/RVA/fYLA17mkfUaqpRk0UqSUGdzB4IXuWJnzXqR5vTZQGGpv4u/ebMuHZaRw2P5TpQZBQtCejsRf0fAgArialWXtYzznSnYexbn1mEAncHUdSaG+2DeW1HQqlA/eguA9z0AkiHamMY86IMAboQzlMhFRz5WJ36dWl0Kg6KjbPhxqxRgABzFv1UvUUtU093D5dJz/fAR5yQNUK83SGDdr0ILv3veaJdZ3hszbOh97HGQd8XLEJ+b+zHbdM8PAugRgwLoiXD9nL29t1rIPVDJ3/w/2ccPrtxXBw79KivUQaz5/YXvzOhUbvOZu9b96cbRePKYI66o96yyQSuV7nBwqhzJDeo7jcgTS0tc+TvjtGFDZFd5TrZ4RfpZZ7zqyNFg==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Agrandir
+       identifier : 0x2f1a7cadaa8b5127
+       internal_properties : BQAAAAUAAADvQvuwhja0HFiL7wm13ITIC5u10DxIDS0afS1grNvejFc7rhnjOVhB1uobPtuofMrAhD370Qo471Tu0aWQtks+m5vGSIVf82Nf0+3MHYlnSivr5bA8h332h4wL/DzlsN843wmqtjgzGa2pFWRuJY6oUP+i+IdvQNlSCZxnSRyLT23GJAAQ7LjELMVDrgphBvNSd9l8f8aS5795EeMmgCUY5Ga0PmK7FnNgivuV0qPDf9Ef8XF9+axOJ14GeV9TEddnECQR3TU73z2dk27DpoGgcNhmDvjNyffbW5ML62oJugzNbGHk7s66s8psfnUY6N6JkhxDm+ouCKUA6eKwj1YfVcncjzjTe464caPqscL4hs1ZAUug0YNY4ps3dIAZkZa6/I/0sEvleXfZOtxFVCUOvoXchF739ThIDYNpjupHb9gJWpuf4cxpBtWBJRFbu5FSxspPDHAqMeJv3N+mxgbDH8ZmbXgrrB4x3C45R3mM8+YhceRGY0S87VRuYUKym6VsoG0Wj4/mOGFISMVXKaehpMCstcP5u+OWT4krlW0srOhYnljwYjdOG4qLhv4YxQr7LZ3GVack8yKa0usVKVn55N1KMWZRKiyB9w86q/UYu9FERdRKa6IauknshaPfViHZdS4MvCSw6gtJwzo9B6bjB2s6eI+aQnBxLixDeMsKvY7qyt2t/z73kxRGuNvuyTkTJ6qKvqMUsuJvU+4MIuaai4LVBD2rjIT+cT1S2E/5Z46C/muro7xEvDdP7XWBSaNV0g+uwKxiJkNtQgl+MSRGdsjyvo6wcICnNk6xvB2RXXgoaEoE/K0KC6u9hCrstjM+r0J1
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE MaFenêtre()
+         LIB_Profil_client_par_origine = ChaîneConstruit(LIB_Profil_client_par_origine,NuméroDeMoisVersLettre(MoisEnCours()))
+      -
+        code : |1-
+         procédure interne Actualiser()
+         	sqlVenteParVendeur est une requête SQL = 
+         	[
+         	SELECT 
+         	SUM(Total_TTC) AS total,
+         	User.Name as sellor
+         	FROM 
+         	Sale_order
+         	inner JOIN user
+         	ON Sale_order.IDUser = user.IDUser 
+         	WHERE
+         	Sale_order.IDSociety = {IDSociete}
+         	AND
+         	date_order BETWEEN {AAMM} AND {AAAAMM}	
+         	GROUP BY
+         	USER.Name
+         	]
+         	dDebutMoisEncours, dfinMoisEncours sont des dates
+         	dDebutMoisEncours		= PremierJourDuMois(DateDuJour())	
+         	dfinMoisEncours			= (dDebutMoisEncours..Mois < 12 ? PremierJourDuMois(dDebutMoisEncours..Année,dDebutMoisEncours..Mois + 1) SINON PremierJourDeLAnnée(dDebutMoisEncours..Année + 1))
+         	
+         	sqlVenteParVendeur.IDSociete	= gnID_societe
+         	sqlVenteParVendeur.AAMM			= dDebutMoisEncours
+         	sqlVenteParVendeur.AAAAMM		= dfinMoisEncours
+         	
+         	HExécuteRequêteSQL(sqlVenteParVendeur)
+         	soit i = 1
+         	grSupprimeTout(GRF_tunnel)
+         	pour tout sqlVenteParVendeur
+         		grAjouteDonnée(GRF_tunnel,1,i,sqlVenteParVendeur.total)
+         		grEtiquetteCatégorie(GRF_tunnel,i,sqlVenteParVendeur.sellor)
+         		i ++
+         	FIN
+         	grDessine(GRF_tunnel)
+         fin
+         
+         Actualiser()
+         Timer(Actualiser,Hasard(6,12)*200)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d77756001b05f6c
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : America/New_York
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

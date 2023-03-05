@@ -1,0 +1,138 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_TDB_Stats_Compteur
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_TDB_Stats_Compteur
+ identifier : 0x2d775ec50ade11a6
+ internal_properties : BQAAAAUAAAD/sO0qhw5PsTa5olIWc8COuRA4TAXWE8EOd/qX6qkwkDAKBcJhn8Hui38+1ZbdCX+Cs4h0z+xRdtW4YTqUavmcC/w8d6XiFisKoDtBAxDt/e1AXT7qu0j74mZdguFvYqwCCUy2TZmwQzD+pdMdPeErzB/CahDc645aJWrGToE82Wxp4S0REdbW/MHbBijBdeMY37RVhDcdqztbudH3vdHJixK/a/70VQIldBzabNlncu4+3ILLufDtvtw0bnXZf7bdxK1cSqQHUyk8J8DQpbLWvboXOkMZMijSdPC6OnyzlzgB5M3hC8RFVhNEMmTsBkqsJQrtNQ9Qi3XHwTQGaJiCT/WmzsIkJbyn2fNFGQTj98SDC38FmHvidYT+KSkxtDk92GuG4y+LQstGf3YLquGiTouyNGXwKeshgnmKEmzIA5beG9w+qw/6c/GGU4PtGcB18wRGNyB/ADcrsqmI1MQidqojqGHaM/VcJyd49eFol7Rk0WYB8EhBNjl+8u+1Df4OkEjEOBkHzd0qLRzjlJRDi6c5yhWkst9uIDc33VuHpWvYz07PSWKDATTyrSZdqceTOCsXWTkye7zXyK0WrFwdaqEmqpHy9oWlLr4q55YQJgdpnZu1YW7MS4/SE5+55+bdi0ES04A7hTZ++ZaLEvfTg/EeCscmZ+8Eep9TACTx16FPCbFvoCcq8LrhrbSWspuQEhl5YFj/hvRIdYqpxLZvu9HF6ffoMYNlmJKQRxvIL7DqPzvfJAoLhJmWOi+WO8vr50sBKS5ueeiDJ020+AY=
+ controls :
+  -
+    name : FI_TDB_Stats_Compteur
+    identifier : 0x2d775ec50adf11a6
+    internal_properties : BQAAAAUAAADCLzP90hyGgmuN1xOVt5TXnkNtuMUUkIymtCPgXT2DWocwTFSXgjlrs2JxRhN+ow3R5b5ySXgaFoe8JflYg0wEO6B8hNEIdW31GcjfhhLtOwfAcZfPMBIhbXloN+4ScxWA2a1anm8GwA+ik8r25TugVjMRZlwP2+4+cB0gRSFL+9DtXO2QNMokmAyfslbFURBQpC8Etr9Q7JVir6hLZmgbT1c1CgbOf+CAA7c25q+ak+iRadSuUPiA2Kaqd3NlGGbwbSou8C6YF/1XjcR3lGnX3F2WENXaDFZgCV6dbQUVGpmpDqyUwyvu4LFre4NyohPYtMp3b3UlOZabtr867Yg4nGpOwjSyNNn87GImX8bH6HznR5ISsYSsw28NWatNndmahxph/qvuamkWJc+jCSSU4lo7jGffoGu34k4gUmJCP6kNOXU0J8M1YySE9N2Gy0w=
+    controls :
+     -
+       name : LIB_Marge_brute
+       identifier : 0x2d775ec50ae011a6
+       internal_properties : BQAAAAUAAACz5bEep+UH6dVXRqcPIrMTjwlr9WwFxdEcLUchNXY7jO2Fs0W9vcky2E0qv7s+6U7v0DT7r5KQ1KZ4ONgYg6+0sTIJTUpwbzO0PVvFgUhYlhew49ztX1I3ZK2Q1ivi1eDYuVVV0/ls2Cb9qA3qbvkma8/yZdA5kPNmx2gD1jV9e39LUZLD2+w1PquVmgwEwaaMGbV/uX7HewbSIFGz2sQjWsTvSqcXGK4Xv6esOF/wHIR4y56yBWjsf4ajMfVfamqOnvgwVLQAy07TDu4aLUt+wI7RY0Q3xuM2F7lYi2yCPeyxtoC0DNZPsuS+w2kSutcVfdjQKYsW71QTgSDJMLm49KRDlrvFaRovzZ3C41bcmNpVAqbY8wvtzLguxDBFEVvbWF9XXTVjab/ppSCfDOWmGmjQSIBVz1O7WgHMa+gW5yMDYd9czi2JgxWco6F8enzalJy0Al9C4QQzGknFtMI=
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : LIB_135
+       identifier : 0x2d775ec50ae311a6
+       internal_properties : BQAAAAUAAAAgfaZfVf4zaqA2pHfG4hpHj8bjZjRcteQB494fuIRIWwMFeTanCJHzZlEL+61wrg8ucrkRR31OXuPTlw0awcYGPwYRlLVI6pZ8mIJ63ApiI3H4dQbznmx4Ul4V8vYdU+ogaIE72zSz0i4pjR6oGfkAShggiHfAfwC6v6M3t8vo/schm+LHIxY+GnvmODUodE8vlSFVIqYc5KvndGDIkaA8vLcj4MT4D3O0WaB4p+BErPlDTqL8NG8feo7wPrIXheFnDRlyuylqqEpdYx7w9tsUIfSCcvEqGgWQ5K8J6Ks+KlUdPtCua+Z8JSKF1GZDGWQ5KD70eCXGY2qxrAbQWR/rxNh7bTnDQqPieZ8K7KXOoaemCDnc899yq10RC2XvaoFh/WI7ZBPs0bcHydwF8cJDwq6A4I6aMtggyhQvyV4xuVtCiQ217g+KXWRWKyhPh2IV692jOPe2VjS/Z8bJo6Ul7RgWJbquO/NR32ukyOgskWA/lW17NxRTxDGgnt+HsPpjMpHk/pERIA==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_Compteur
+       identifier : 0x2d78c2b52cd66fda
+       internal_properties : BQAAAAUAAACo+klqqyTCReZi55/wsQPciAtgQDGSzt3NtOr/rSwbrF4+hQtj0fCN5lKGxxYZJnzZymXhge4y/4NxYyZGkab6ftVvCzVAmARlFDJ14quqwnFI1YGTef1kRXoQN6M411CrNhkPFRRXxvCtC2uciK9Pk1s9jHO4EFUMOv7eiVaFxbS7FmkUddamN7Bgr9Nj7dKn+YEXq9rR6jKrDV3M/YLvft0a6MgweeySNfsEcPDN8EAFY8qaK+56ZEQO3kv7nKeP4WGfqOGQ1+lENdU/GIOIKEGc7TQGska9QpynRwxufGjrnedkj5aTsYRVMmb2r8hDLCNEw4HxkrMqrOwXMfLf0qqLZVATSGu/RxHU+RoLjIFhlrDUWIDYQdzS54wkzB86UcivZh+Sa/Zq3W46zT4ChgqkVTCFRT8eO3FcBMT8laSB4Cg1nxuOWKzsYQs418KhFZDfBH8bCpoYD0pwkpvthmCQw4Gqa1gqJU0mxNulk2vp2oPVK2mwfOR0Pf8QuMoHEh1Ci2b3dI4uR/e7Nloc8//hiPtbTjQ6yjWwvuxD2bDD9glEQUAr/EAY097tOjpsQGDSVoAWINL6NQTOq+uAvWU+4RLymuOjzEqPIjmTPUrtPL+tgpjvPM+fu2WG0sRzpVEpT1ixFSBoP66hfApiQ1sf95oqud2idfMxzUmyPCFp+AGkkLXoge11N9mBBV3vtFq4M/wpSWkbzEkbKFPta3UXIm5YplH3DCO4WetWemuxEdJH/RRavTGaTLEgg+jG7rL7wP+VSISG9ptPTmsuCsQd27TgFe2M4Gp27mwLnZt2h5MvM9xyYN6HwK7cIBpzn5OLEaas9nvDNkeYFKK3qg==
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+         
+         LIB_Marge_brute = ChaîneConstruit(LIB_Marge_brute, NuméroDeMoisVersLettre( MoisEnCours()))
+      -
+        code : |1-
+         PROCÉDURE INTERNE Actualiser 
+         		// Utilisez ici votre donnée à présenter dans le champ
+         		sqlMargeMois est une requête SQL = 
+         [
+         	select <§cs:3§>
+         	sum( (S_total_HT - (S_total_HT / Margin)) * Quantity) as Total <§cs:3§>
+         	from <§cs:3§>
+         	Detaille_order<§cs:3§>
+         	where<§cs:3§>
+         	IDSale_order in ( select IDSale_order<§cs:3§>
+         						from<§cs:3§>
+         						Sale_order<§cs:3§>
+         						where <§cs:3§>
+         						IDSociety = {IDSociete}<§cs:3§>
+         						AND	Sale_order.date_order between {AAMM} AND {AAMMDD}<§cs:3§>
+         						)<§cs:3§>
+         ]
+         		
+         	dDebutMoisEncours, dfinMoisEncours sont des dates
+         	dDebutMoisEncours			= PremierJourDuMois(DateDuJour())
+         	
+         	dfinMoisEncours				= (dDebutMoisEncours..Mois < 12 ? PremierJourDuMois(dDebutMoisEncours..Année,dDebutMoisEncours..Mois + 1) SINON PremierJourDeLAnnée(dDebutMoisEncours..Année + 1))
+         	
+         	moMarge est un monétaire = 0
+         	sqlMargeMois.IDSociete		= gnID_societe
+         	sqlMargeMois.AAMM			= dDebutMoisEncours
+         	sqlMargeMois.AAMMDD			= dfinMoisEncours
+         	HExécuteRequêteSQL(sqlMargeMois)
+         	pour TOUT sqlMargeMois 
+         		moMarge = Arrondi(sqlMargeMois.Total)
+         	fin
+         	
+         	soit TailleTtlMarge = Taille(moMarge)
+         	SI TailleTtlMarge < 4 ALORS
+         		LIB_135 = moMarge
+         	SINON SI 4 <= TailleTtlMarge < 7
+         		LIB_135 =Remplace( Arrondi(moMarge/1000,2),",", ".") + "K"
+         	SINON
+         		LIB_135 =Remplace( Arrondi(moMarge/1000000,2),",", ".") + "M"
+         	FIN
+         	
+         //		LIB_135 =  (val(LIB_135) + Hasard(1,5) + Hasard(30,90)/100) + "K"	
+         		// Effet de mise à jour
+         		AnimationJoueSurPropriétéChamp(LIB_135,<§$0000§>,50,100,250 ms)	
+         FIN
+         
+         Actualiser()
+         // Choix de la fréquence de rafraîchissement
+         Timer(Actualiser,hasard(6,12) * 100)
+        type : 14
+ menu :
+  name : _Menu
+  identifier : 0x2d774d2c0460540d
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1d775ec6018513f7
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+  strings :
+   -
+     text :
+      fr-FR : Opacité
+     index : 0
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

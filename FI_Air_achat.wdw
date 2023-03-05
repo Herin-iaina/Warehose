@@ -1,0 +1,168 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_Air_achat
+ major_version : 25
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_Air_achat
+ identifier : 0x20940f470ce05d1a
+ internal_properties : BQAAAAUAAACcRdujoPf1JItQl8SXWlTPoGdq7JwJSjjc7m8sYXNe+lXrjSRQOTdYKdEGG6qIAtkkLOLsedKkqwrS4V2hc3q1rH2SC9Ok03j7xEwhxJ8XXTKQm3TXzRxOMT1V3wjDWzJHGFOd833bB/bTejWJtNPcrimbnCnwr+G5JFbjpE9dypdPpdCQdiFluriK02gx/rNxmIdZUSO08lP5GWaVlzSCZmshCW/prJ1BU2bBasqKG8BD1gBjD/c77E5ovFnJpwcJE0MljDa0ifhj8FrIfNKIktIToE7HdkELxSsuNi7pYbF1ZjamfjHxV41b6bN1jiL0cutHw6NlgHWbD+W0nEIicD9pjTwBb/E+zGKjxzhBjFTzySW/LXM4ygfH6G2a3sk+KXWIyIoBl9LianvDFjtYmDZu+3rBdzfMj3Uen/3erJfznRyhcI9IR6TTw+MojeqVb1qzt/e9MsDqBytetaJ77lDkw2S7yj9C1uVHOPa4/2RjD4Fo9+VM7Xqe3X06ag+MCG2skD1kfnrJDUKqukzL42v3a6AvM2lMdaM4gWZfdf+uNHE8nWAwI/MyGarZgdT0Vh6h9u/Sg5yGeE5pfmQcbn5q4s08GIkHZt/AmUYrowgUmFcpjJboq1zkuEdoM0WTNRBbHrEcTVSPmw==
+ controls :
+  -
+    name : FI_Air_achat
+    identifier : 0x20940f470ce15d1a
+    internal_properties : BQAAAAUAAAA9RJ4WOh9/3+UQJDSN0170IGvKCDQGoiikSXCCJ1K70bpdVL/dASfLSBk9gPwiHMmK62Fd0Bf0wB1D+Xl/F2AnrqvsJoVzBdQcn2bsXOTb+/p8ZJ+ptl1wjDsCiPoCshZEIIrJCG6kawOo/x0Fhj9701ciqtQA4y5+BKsx8t8hGCSfk3J7NM++ZFeSGmskuDP4/TIe5bvSuu1L+Z4722zlIXejE9ka3Mc35BW0OxFu1CvEklrTjQdjguePlDZ3Hjk/XISIi4UQ2ddzWV8QP+bRDfDwO1DHIdTn6nY6DTzAHLYO+MwfCBQ0UfmCPE7dxEegJ65JWWGRD4pCulD3viKveVGkgXxlX+AkBuHBCFf0WNXXfVra6jgTwJd40s0vcWtyfYvpi95MaZex2yxYlAbPwriZt/xoEkWmIDSp1OsArbZ9GjBnMGsj8H0lHMJ6rtj9lCY3OpH8/M2JTUQOFvpGGv8uxQ==
+    controls :
+     -
+       name : GRF_AirAchat
+       identifier : 0x209410800d9c1bd3
+       internal_properties : BQAAAAUAAADktfKIL8Nus2c9+twKwh2wl9CKBieeSeBYZZwBNOh5s5k0mOIT5kg++Rzl7R/B5OYQSLe4LN2hCm8f57J1zJlfdMMxGj6jcqV15awkB1IJsFad6M7xb9z7MCP0MjuANvT06tLyZMTBwezhBSWPGFB4uaVMQ2NYsFSh++KrkpEg0npLDZTyOXByquGJblb8YnYjlhBTmh1++jGf8ZOrfxqLXbcSXFWvjsVKBbaQFEaBG5x6TTmSQg9XW7pJX0clX3DT1CK/glPVZzbGDgGO+S6tKh2dC4au01xqHYaT5hN3/BAwsCh/A9FlpGCfJU2XSDGN+DCNpPYIgjJMpRwTHyfl5WKl+jGiDTjmqJ36LOyhZlAOdTU+RnUukKzFMkiKaTlI4kadTl9VVCTWg+f2UaRbVxekkVmeqXC1G3ptAHQD6c+Vhmcb0dM8Xt39X8VPtzSX7qxN0S4VSYW5SlTOGsXanWJaUzwBWFeZo/45T2U/pdGUfvMiuqlGUFkkW/nmdn5HAn+ezPaKB82ewtVZFs8SWys7i1cRaK89iCRCHcqZgVTd571hZNsvDv1nRl9hXb5RM4F7JJFHOJS88fjM8qLXp8mn7cLf9vFWl7G88J7Fxu64xbBKZ03f1LEnt5BfTms7te0sxwFuyJGt1+ySh5bbuKiizkvBvzjmsiaG3+vFHPx57wkEVA9JxQzbI1INeWaYsAupAdebGi1euJW59G9n4Ys4Xlmb3hhX/OHrfR1oxFyH3EcbtGUVfwWstm0dpKSMU80sqj31o8pTzG3tp5FrOvHwpFScOtwEZEt2gsdhcBWt++6+oYBXQnm1WB1OeJ4j4Zd6F5Td8Oa2y+aStNH87dZSMY6ziEKIeoqBDo0YGm9sD1zPK39kwzT8ps5CtAeSOOH5VLz2W4pnxIC8eJIsaK0mqtc30uxYdKwmCzVvTXUhb3DUomO30yAsxt53/DqBEKQIE60zb6yn+ZI/nWySQyrmX7FVqDsuYWFQ9bVrhPHHBu1PiK07cjTNiV9aI++m+PeXH8E982Xsxv+UgGIZrpfa/m/8dxgIfGVZHhx8sXBZBs6Vg6uGTCwxFTRHy4OsYElC+rIvDauZjDpM+a/gPOTfcjDEdsPhooD1i3NKrjWrSSxXcx7Rv9+KVd05CMPOg9LdvlizmZGM9mqUxlDqzDU95C7cUhS/QUjfpRp25rUoP34k7Ob+jX7qs840dpSVXHmSQ9mhae8gPaS2jqpLtq0affOJBJn60NyRKmHS60Cssb0qIyJbme4N8+B609lr1Wd0pi/ySt7DK7usukFrUHzpng==
+       type : 33
+       code_elements :
+        type_code : 72
+        p_codes : []
+     -
+       name : LIB_Statistique_des_articles
+       identifier : 0x20954d054e131cb1
+       internal_properties : BQAAAAUAAAABVzfpGqiYmeRUVS9iHtcgrvnWCN9SUc3eBHrmrUOadPxonnMBnV1C6glywtKeh59FLtjnzvJDUSJ1oW1rzKpOdt8zEv9bpvmRKO6H02Wm2E71SwRUsJ+CNB0c8Q8r2KlM5AvrgfsN/xkrJD7xv/iAMnMIW4rWy8WyKzxljsi+CCLCpYDuJlWCqqZHbbgct0A4fBWw2vECWh1ON6wTt6mKc8jLPujSMxGcCfEXZOHf8lbetY5/ZB12UKnG5uMI0fe39CzYLl2ZsoocIMlCKtsJsqHs6e7ynQSyipUv/chYWAt+heGiG97QaTnciPCnRE/Wdj/i75gpB0ZowNhe8gw76B9u1zqe4ATG/2OZv3XtpnI8vB7v6FUrXDEA5N3U6kzQBYgxA/PQ2ujEm3GfMIG5muLpt5BAWwmj4npkH4VuzajhW0POq9K+NRbJqQ7AyxCPxwvwcBpb+o9fw/sWnNubg/VrifGz0+tDrQv0yLAu7Q==
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         PROCEDURE MaFenêtre()
+      -
+        code : |1+
+         	PROCÉDURE INTERNE Actualiser()
+         	sqlPurchaseMM est une requête SQL = 
+         	[
+         	SELECT <§cs:6§>
+         	sum(detaille_purchase.sub_ttl_ht) AS total<§cs:6§>
+         	FROM<§cs:6§>
+         	detaille_purchase<§cs:6§>
+         	WHERE<§cs:6§>
+         	detaille_purchase.IDPurchase IN (SELECT <§cs:6§>
+         											Purchase.IDPurchase<§cs:6§>
+         											FROM<§cs:6§>
+         											Purchase<§cs:6§>
+         											WHERE <§cs:6§>
+         											Purchase.IDSociety = {IdSociete}<§cs:6§>
+         											AND<§cs:6§>
+         											Purchase.Create_date BETWEEN {AAMM} AND {AAAAMM}<§cs:6§>
+         											AND<§cs:6§>
+         											Purchase.Etat IN  ('Confirmé','Terminé'))<§cs:6§>
+         <§cs:6§>
+         	]
+         	
+         	sqlPurchaseMMTTC est une requête SQL = 
+         	[
+         	SELECT <§cs:6§>
+         	sum(detaille_purchase.sub_ttl_ttc) AS total<§cs:6§>
+         	FROM<§cs:6§>
+         	detaille_purchase<§cs:6§>
+         	WHERE<§cs:6§>
+         	detaille_purchase.IDPurchase IN (SELECT <§cs:6§>
+         											Purchase.IDPurchase<§cs:6§>
+         											FROM<§cs:6§>
+         											Purchase<§cs:6§>
+         											WHERE <§cs:6§>
+         											Purchase.IDSociety = {IdSociete}<§cs:6§>
+         											AND<§cs:6§>
+         											Purchase.Create_date BETWEEN {AAMM} AND {AAAAMM}<§cs:6§>
+         											AND<§cs:6§>
+         											Purchase.Etat IN  ('Confirmé','Terminé'))<§cs:6§>
+         <§cs:6§>
+         	]
+         	
+         //	tabPurchaseMM, tabPurchaseMMTTC sont des tableaux de monétaires
+         	dAteAAMM, dAteAAAAMM	sont des dates
+         	grSupprimeTout(GRF_AirAchat)
+         	
+         	pour i = 1 a 12
+         		dAteAAMM					= PremierJourDuMois(AnnéeEnCours(),i)
+         		dAteAAAAMM					= (i < 12 ? PremierJourDuMois(AnnéeEnCours(),i + 1) SINON PremierJourDeLAnnée(AnnéeEnCours()+1))	
+         		// total HT
+         		sqlPurchaseMM.IdSociete		= gnID_societe
+         		sqlPurchaseMM.AAMM			= dAteAAMM
+         		sqlPurchaseMM.AAAAMM		= dAteAAAAMM
+         		
+         		soit bNrc = HExécuteRequêteSQL(sqlPurchaseMM)
+         		soit rPurchaseMM = 0.00
+         		soit rPurchaseMMTTC = 0.00
+         		
+         		SI bNrc = Faux ALORS
+         			HErreurInfo(hErrComplet)
+         		SINON
+         			POUR TOUT sqlPurchaseMM
+         				rPurchaseMM += (sqlPurchaseMM.total)				
+         			FIN
+         			grAjouteDonnée(GRF_AirAchat,1,i,rPurchaseMM)
+         		FIN
+         		HLibèreRequête(sqlPurchaseMM)
+         	
+         		// total TTC
+         		sqlPurchaseMMTTC.IdSociete		= gnID_societe
+         		sqlPurchaseMMTTC.AAMM			= dAteAAMM
+         		sqlPurchaseMMTTC.AAAAMM			= dAteAAAAMM
+         		
+         		bNrc = HExécuteRequêteSQL(sqlPurchaseMMTTC)
+         		SI bNrc = Faux ALORS
+         			HErreurInfo(hErrComplet)
+         		SINON
+         			POUR TOUT sqlPurchaseMMTTC
+         				rPurchaseMMTTC += (sqlPurchaseMMTTC.total)				
+         			FIN
+         			grAjouteDonnée(GRF_AirAchat,2,i,rPurchaseMMTTC)
+         		FIN
+         		HLibèreRequête(sqlPurchaseMMTTC)
+         		
+         		grEtiquetteCatégorie(GRF_AirAchat,i,NuméroDeMoisVersLettre(i))
+         	fin
+         		
+         	DemandeMiseAJourUI()
+         FIN
+         
+         Actualiser()
+         Timer (Actualiser,18000)
+        type : 14
+      -
+        code : |1+
+         grEtiquetteSérie(GRF_AirAchat,1,"Total HT")
+         grEtiquetteSérie(GRF_AirAchat,2,"Total TTC")
+         grDessine(GRF_AirAchat)
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x20940f310cddfb05
+  internal_properties : BQAAAAUAAADiNkh1O6bsUdojdCyc5rvMKOb4KGdCuKthEpeb9YgToXKniNhTa74qqTWW/kn9AHiAwpYRHxIfmwB4rUjWCTsHt96kYeogf6aF/P/qLr5YC+/q/4GecKHBIXzFYdqjswEetQud+3e/nTe5+xoit8ijZM2EBaVaXCH6Yfad
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x10940f310104fb05
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
